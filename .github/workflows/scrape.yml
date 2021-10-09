@@ -18,7 +18,7 @@ jobs:
       run: |
         chmod +x ./umap.sh
         ./umap.sh
-      shell: bash
+#      shell: bash
 #    - name: Install gpsbabel
 #      run: sudo apt-get install gpsbabel
 #    - name: Convert to gpx

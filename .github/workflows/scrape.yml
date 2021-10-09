@@ -16,8 +16,10 @@ jobs:
       run: sudo apt-get install osmium-tool
     - name: Get the data and analyze
       run: |
-        chmod +x ./umap.sh
-        ./umap.sh
+        chmod +x ./*.sh
+        ./download.sh
+        ./recycling.sh
+        ./remove.sh
 #      shell: bash
 #    - name: Install gpsbabel
 #      run: sudo apt-get install gpsbabel

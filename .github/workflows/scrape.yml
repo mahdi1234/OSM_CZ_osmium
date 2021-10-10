@@ -19,6 +19,7 @@ jobs:
         chmod +x ./*.sh
         ./download.sh
         ./undefined_recycling.sh
+        ./phone_booths.sh
         ./remove.sh
 #      shell: bash
 #    - name: Install gpsbabel

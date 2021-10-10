@@ -20,6 +20,7 @@ jobs:
         ./download.sh
         ./undefined_recycling.sh
         ./phone_booths.sh
+        ./osm_varios.sh
         ./remove.sh
       shell: bash 
     - name: Commit and push if it changed

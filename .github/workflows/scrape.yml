@@ -21,13 +21,6 @@ jobs:
         ./undefined_recycling.sh
         ./phone_booths.sh
         ./remove.sh
-#      shell: bash
-#    - name: Install gpsbabel
-#      run: sudo apt-get install gpsbabel
-#    - name: Convert to gpx
-#      run: |
-#        chmod +x ./gpx_convert.sh
-#        ./gpx_convert.sh
       shell: bash 
     - name: Commit and push if it changed
       run: |-

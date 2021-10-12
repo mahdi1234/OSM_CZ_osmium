@@ -25,3 +25,8 @@ echo "mlekomaty"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=vending_machine --overwrite -o osm_varios/vending.pbf
 osmium export osm_varios/vending.pbf --overwrite -o osm_varios/vending.json
 cat osm_varios/vending.json | grep -e '"milk"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/mlekomaty.geojson
+
+echo "Fire hydrant"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/emergency=fire_hydrant --overwrite -o osm_varios/hydrant.pbf
+osmium export osm_varios/hydrant.pbf --overwrite -o osm_varios/hydrant.json
+cat osm_varios/hydrant.json | grep -e '"fire_hydrant"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/hydrant.geojson

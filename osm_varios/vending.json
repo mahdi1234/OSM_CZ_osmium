@@ -655,7 +655,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[13.3750081,49.7456951]},"properties":{"source":"survey","amenity":"vending_machine","vending":"parking_tickets"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[13.375018,49.7462029]},"properties":{"source":"survey","amenity":"vending_machine","vending":"parking_tickets"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.3913045,50.0803413]},"properties":{"source":"CZ:IPRPraha:ortofoto","amenity":"vending_machine","vending":"parcel_pickup","website":"https://www.alza.cz/","operator":"Alza"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[14.354643,50.0970133]},"properties":{"name":"AlzaBox","source":"CZ:IPRPraha:ortofoto","amenity":"vending_machine","vending":"parcel_pickup","website":"https://www.alza.cz/","operator":"Alza"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.354643,50.0970133]},"properties":{"amenity":"vending_machine","brand":"AlzaBox","brand:wikidata":"Q10786832","brand:wikipedia":"de:Alza","name":"AlzaBox","operator":"Alza","source":"CZ:IPRPraha:ortofoto","vending":"parcel_pickup","website":"https://www.alza.cz/"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.3396964,50.0770676]},"properties":{"source":"survey","amenity":"vending_machine","vending":"parcel_pickup","website":"https://www.alza.cz/","operator":"Alza"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.5410551,50.6812232]},"properties":{"amenity":"vending_machine","vending":"parcel_pickup","website":"https://www.alza.cz/","operator":"Alza"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.0907484,50.1412441]},"properties":{"source":"survey","amenity":"vending_machine","vending":"parking_tickets"}},
@@ -979,7 +979,6 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.4432289,50.0169489]},"properties":{"ref":"dp84","amenity":"vending_machine","vending":"public_transport_tickets","operator":"DPP","payment:coins":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.8819357,50.229153]},"properties":{"ref":"dp292","amenity":"vending_machine","vending":"public_transport_tickets","operator":"DPP","payment:visa":"yes","payment:coins":"no","payment:maestro":"yes","payment:mastercard":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.6687848,50.0949195]},"properties":{"ref":"dp88","amenity":"vending_machine","vending":"public_transport_tickets","operator":"DPP","payment:coins":"yes"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[14.476222,50.1286605]},"properties":{"ref":"dp91","amenity":"vending_machine","vending":"public_transport_tickets","operator":"DPP","payment:coins":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.5794357,50.1441319]},"properties":{"ref":"dp93","amenity":"vending_machine","vending":"public_transport_tickets","operator":"DPP","payment:coins":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.6557301,49.9915826]},"properties":{"ref":"dp95","amenity":"vending_machine","vending":"public_transport_tickets","operator":"DPP","payment:coins":"yes"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[14.4316841,50.1022729]},"properties":{"ref":"dp96","amenity":"vending_machine","vending":"public_transport_tickets","operator":"DPP","payment:coins":"yes"}},
@@ -4458,5 +4457,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[15.12014,50.59458]},"properties":{"amenity":"vending_machine","opening_hours":"24/7","operator":"Zásilkovna","postal_code":"511 01","ref":"13438","vending":"parcel_pickup","website":"https://www.zasilkovna.cz/pobocky/z-box-ohrazenice-ohrazenice-pamatnik-pyram","wheelchair":"no"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[17.1416247,49.5583347]},"properties":{"amenity":"vending_machine","brand":"AlzaBox","brand:wikidata":"Q10786832","brand:wikipedia":"de:Alza","name":"AlzaBox","vending":"parcel_pickup"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[16.5668623,49.1694037]},"properties":{"amenity":"vending_machine","vending":"public_transport_tickets"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[16.6052046,49.1983524]},"properties":{"amenity":"vending_machine","vending":"public_transport_tickets"}}
+{"type":"Feature","geometry":{"type":"Point","coordinates":[16.6052046,49.1983524]},"properties":{"amenity":"vending_machine","vending":"public_transport_tickets"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.4735339,48.9793068]},"properties":{"amenity":"vending_machine","currency:CZK":"yes","payment:cash":"yes","payment:coins":"yes","vending":"parking_tickets"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[16.6127999,49.1910415]},"properties":{"amenity":"vending_machine","vending":"coffee"}}
 ]}

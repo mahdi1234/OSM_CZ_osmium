@@ -30,3 +30,8 @@ echo "Fire hydrant"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/emergency=fire_hydrant --overwrite -o osm_varios/hydrant.pbf
 osmium export osm_varios/hydrant.pbf --overwrite -o osm_varios/hydrant.json
 cat osm_varios/hydrant.json | grep -e '"fire_hydrant"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/hydrant.geojson
+
+echo "Steps no count"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/highway=steps --overwrite -o osm_varios/steps_no_count.pbf
+osmium export osm_varios/steps_no_count.pbf --overwrite -o osm_varios/steps_no_count.json
+cat osm_varios/steps_no_count.json | grep -e '"highway":"steps"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/steps_no_count.geojson

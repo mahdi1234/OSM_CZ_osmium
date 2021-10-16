@@ -35,3 +35,8 @@ echo "Steps no count"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/highway=steps --overwrite -o osm_varios/steps_no_count.pbf
 osmium export osm_varios/steps_no_count.pbf --overwrite -o osm_varios/steps_no_count.json
 cat osm_varios/steps_no_count.json | grep -e '"highway":"steps"' -e 'FeatureCollection' -e '^]}$' | grep -vi "count" | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/steps_no_count.geojson
+
+echo "Public bookcase"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=public_bookcase --overwrite -o osm_varios/bookcase.pbf
+osmium export osm_varios/bookcase.pbf --overwrite -o osm_varios/bookcase.json
+cat osm_varios/bookcase.json | grep -e '"public_bookcase"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/bookcase.geojson

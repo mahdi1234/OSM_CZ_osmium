@@ -40,3 +40,8 @@ echo "Public bookcase"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=public_bookcase --overwrite -o osm_varios/bookcase.pbf
 osmium export osm_varios/bookcase.pbf --overwrite -o osm_varios/bookcase.json
 cat osm_varios/bookcase.json | grep -e '"public_bookcase"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/bookcase.geojson
+
+echo "AED"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/emergency=defibrillator --overwrite -o osm_varios/aed.pbf
+osmium export osm_varios/aed.pbf --overwrite -o osm_varios/aed.json
+cat osm_varios/aed.json | grep -e '"defibrillator"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/aed.geojson

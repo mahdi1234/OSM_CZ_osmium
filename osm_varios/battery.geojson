@@ -8726,6 +8726,35 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9591039,
+          49.177167
+        ]
+      },
+      "properties": {
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -14438,6 +14467,10 @@
           [
             16.7346529,
             49.1694938
+          ],
+          [
+            16.7341551,
+            49.1697952
           ],
           [
             16.7340837,
@@ -20689,6 +20722,10 @@
               [
                 16.7346529,
                 49.1694938
+              ],
+              [
+                16.7341551,
+                49.1697952
               ],
               [
                 16.7340837,

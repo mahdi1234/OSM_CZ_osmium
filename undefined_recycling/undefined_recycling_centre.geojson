@@ -8749,6 +8749,50 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.7775459,
+            48.8521041
+          ],
+          [
+            16.7780234,
+            48.8521535
+          ],
+          [
+            16.7782004,
+            48.8521076
+          ],
+          [
+            16.7784901,
+            48.8521112
+          ],
+          [
+            16.7785115,
+            48.8519523
+          ],
+          [
+            16.7779166,
+            48.8519614
+          ],
+          [
+            16.7775165,
+            48.852
+          ],
+          [
+            16.7775459,
+            48.8521041
+          ]
+        ]
+      },
+      "properties": {
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -16355,6 +16399,54 @@
       "properties": {
         "amenity": "recycling",
         "operator": "OZO OSTRAVA s.r.o.",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.7775165,
+                48.852
+              ],
+              [
+                16.7779166,
+                48.8519614
+              ],
+              [
+                16.7785115,
+                48.8519523
+              ],
+              [
+                16.7784901,
+                48.8521112
+              ],
+              [
+                16.7782004,
+                48.8521076
+              ],
+              [
+                16.7780234,
+                48.8521535
+              ],
+              [
+                16.7775459,
+                48.8521041
+              ],
+              [
+                16.7775165,
+                48.852
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "amenity": "recycling",
         "recycling_type": "centre"
       }
     }

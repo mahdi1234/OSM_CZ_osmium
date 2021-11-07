@@ -70,6 +70,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.3756544,
+          49.8002041
+        ]
+      },
+      "properties": {
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.287616,
           50.0590395
         ]
@@ -5318,6 +5335,29 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2572081,
+          49.0721518
+        ]
+      },
+      "properties": {
+        "amenity": "recycling",
+        "ekokom:ref": "8267",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },

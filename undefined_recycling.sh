@@ -4,17 +4,20 @@ mkdir -p undefined_recycling
 
 echo "Recycling centre"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/recycling_type=centre --overwrite -o undefined_recycling/recycling_centre.pbf
-osmium export undefined_recycling/recycling_centre.pbf --overwrite -o undefined_recycling/recycling_centre.json -c osmium_options.json
-cat undefined_recycling/recycling_centre.json | grep -e '"recycling_type":"centre"' -e 'FeatureCollection' -e '^]}$' | grep -vi "recycling:" | tac | sed '2s/,$//' | tac | jq . > ./undefined_recycling/undefined_recycling_centre.geojson
+osmium export undefined_recycling/recycling_centre.pbf --overwrite -o undefined_recycling/recycling_centre_temp.json -c osmium_options.json
+cat ./undefined_recycling/recycling_centre_temp.json | grep -vi 'LineString' > ./undefined_recycling/recycling_centre.json
+cat ./undefined_recycling/recycling_centre.json | grep -e '"recycling_type":"centre"' -e 'FeatureCollection' -e '^]}$' | grep -vi "recycling:" | tac | sed '2s/,$//' | tac | jq . > ./undefined_recycling/undefined_recycling_centre.geojson
 
 echo "Recycling container"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/recycling_type=container --overwrite -o undefined_recycling/recycling_container.pbf
-osmium export undefined_recycling/recycling_container.pbf --overwrite -o undefined_recycling/recycling_container.json -c osmium_options.json
+osmium export undefined_recycling/recycling_container.pbf --overwrite -o undefined_recycling/recycling_container_temp.json -c osmium_options.json
+cat ./undefined_recycling/recycling_container_temp.json | grep -vi 'LineString' > ./undefined_recycling/recycling_container.json
 cat undefined_recycling/recycling_container.json | grep -e '"recycling_type":"container"' -e 'FeatureCollection' -e '^]}$' | grep -vi "recycling:" | tac | sed '2s/,$//' | tac | jq . > ./undefined_recycling/undefined_recycling_container.geojson
 
 echo "Recycling no type"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=recycling --overwrite -o undefined_recycling/recycling_no_type.pbf
-osmium export undefined_recycling/recycling_no_type.pbf --overwrite -o undefined_recycling/recycling_no_type.json -c osmium_options.json
+osmium export undefined_recycling/recycling_no_type.pbf --overwrite -o undefined_recycling/recycling_no_type_temp.json -c osmium_options.json
+cat ./undefined_recycling/recycling_no_type_temp.json | grep -vi 'LineString' > ./undefined_recycling/recycling_no_type.json
 cat undefined_recycling/recycling_no_type.json | grep -e '"amenity":"recycling"' -e 'FeatureCollection' -e '^]}$' | grep -vi "recycling_type" | tac | sed '2s/,$//' | tac | jq . > ./undefined_recycling/recycling_no_type.geojson
 
 #echo "Process all jsons"

@@ -4,7 +4,7 @@ mkdir -p osm_varios
 
 echo "Battery"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/recycling:*=yes --overwrite -o osm_varios/all_osm_varios.pbf
-osmium export osm_varios/all_osm_varios.pbf --overwrite -o osm_varios/all_osm_varios.json
+osmium export osm_varios/all_osm_varios.pbf --overwrite -o osm_varios/all_osm_varios.json -c osmium_options.json
 cat osm_varios/all_osm_varios.json | grep -e '"recycling:batteries":"yes"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/battery.geojson
 
 echo "Bulbs"
@@ -18,30 +18,30 @@ cat osm_varios/all_osm_varios.json | grep -e '"recycling:metal":"yes"' -e '"recy
 
 echo "bezobalace"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/bulk_purchase=* --overwrite -o osm_varios/bulk.pbf
-osmium export osm_varios/bulk.pbf --overwrite -o osm_varios/bulk.json
+osmium export osm_varios/bulk.pbf --overwrite -o osm_varios/bulk.json -c osmium_options.json
 cat osm_varios/bulk.json | grep -e '"bulk_purchase":"yes"' -e '"bulk_purchase":"only"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/bezobalace.geojson
 
 echo "mlekomaty"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=vending_machine --overwrite -o osm_varios/vending.pbf
-osmium export osm_varios/vending.pbf --overwrite -o osm_varios/vending.json
+osmium export osm_varios/vending.pbf --overwrite -o osm_varios/vending.json -c osmium_options.json
 cat osm_varios/vending.json | grep -e '"milk"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/mlekomaty.geojson
 
 echo "Fire hydrant"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/emergency=fire_hydrant --overwrite -o osm_varios/hydrant.pbf
-osmium export osm_varios/hydrant.pbf --overwrite -o osm_varios/hydrant.json
+osmium export osm_varios/hydrant.pbf --overwrite -o osm_varios/hydrant.json -c osmium_options.json
 cat osm_varios/hydrant.json | grep -e '"fire_hydrant"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/hydrant.geojson
 
 echo "Steps no count"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/highway=steps --overwrite -o osm_varios/steps_no_count.pbf
-osmium export osm_varios/steps_no_count.pbf --overwrite -o osm_varios/steps_no_count.json
+osmium export osm_varios/steps_no_count.pbf --overwrite -o osm_varios/steps_no_count.json -c osmium_options.json
 cat osm_varios/steps_no_count.json | grep -e '"highway":"steps"' -e 'FeatureCollection' -e '^]}$' | grep -vi "count" | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/steps_no_count.geojson
 
 echo "Public bookcase"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=public_bookcase --overwrite -o osm_varios/bookcase.pbf
-osmium export osm_varios/bookcase.pbf --overwrite -o osm_varios/bookcase.json
+osmium export osm_varios/bookcase.pbf --overwrite -o osm_varios/bookcase.json -c osmium_options.json
 cat osm_varios/bookcase.json | grep -e '"public_bookcase"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/bookcase.geojson
 
 echo "AED"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/emergency=defibrillator --overwrite -o osm_varios/aed.pbf
-osmium export osm_varios/aed.pbf --overwrite -o osm_varios/aed.json
+osmium export osm_varios/aed.pbf --overwrite -o osm_varios/aed.json -c osmium_options.json
 cat osm_varios/aed.json | grep -e '"defibrillator"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/aed.geojson

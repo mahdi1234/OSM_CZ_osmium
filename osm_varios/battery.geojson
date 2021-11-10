@@ -9520,6 +9520,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1645902,
+          50.2955412
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9237605399,
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -11630,47 +11651,6 @@
         "recycling_type": "centre",
         "recycling:wood": "yes",
         "website": "https://www.hrusovanyubrna.cz/odpadove-hospodarstvi/sberny-dvur-odpadu"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.2760118,
-            50.0314908
-          ],
-          [
-            14.2760064,
-            50.0311807
-          ],
-          [
-            14.2760667,
-            50.031135
-          ],
-          [
-            14.2763497,
-            50.031123
-          ],
-          [
-            14.2763792,
-            50.0314856
-          ],
-          [
-            14.2760118,
-            50.0314908
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 219562892,
-        "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:batteries": "yes"
       }
     },
     {
@@ -17843,51 +17823,6 @@
         "recycling_type": "centre",
         "recycling:wood": "yes",
         "website": "https://www.hrusovanyubrna.cz/odpadove-hospodarstvi/sberny-dvur-odpadu"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                14.2760064,
-                50.0311807
-              ],
-              [
-                14.2760667,
-                50.031135
-              ],
-              [
-                14.2763497,
-                50.031123
-              ],
-              [
-                14.2763792,
-                50.0314856
-              ],
-              [
-                14.2760118,
-                50.0314908
-              ],
-              [
-                14.2760064,
-                50.0311807
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 219562892,
-        "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:batteries": "yes"
       }
     },
     {

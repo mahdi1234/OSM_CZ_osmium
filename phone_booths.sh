@@ -5,7 +5,7 @@ mkdir -p phone_booths
 echo "Active phone booths"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/*=telephone --overwrite -o ./phone_booths/all_phone_booths.pbf
 osmium export ./phone_booths/all_phone_booths.pbf --overwrite -o ./phone_booths/all_phone_booths_temp.json -c osmium_options.json
-cat ./phone_booths/all_phone_booths_temp.json | grep -vi 'LineString' > /phone_booths/all_phone_booths.json
+cat ./phone_booths/all_phone_booths_temp.json | grep -vi 'LineString' > ./phone_booths/all_phone_booths.json
 cat ./phone_booths/all_phone_booths.json | grep -e '"amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/active_phone_booths.geojson
 
 echo "Disused phone booths"

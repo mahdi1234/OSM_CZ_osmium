@@ -33,4 +33,5 @@ mkdir -p phone_booths/gpx
 gpsbabel -i geojson -f ./phone_booths/active_phone_booths.geojson -o gpx -F ./phone_booths/gpx/active_phone_booths.gpx
 gpsbabel -i geojson -f ./phone_booths/disused_phone_booths.geojson -o gpx -F ./phone_booths/gpx/disused_phone_booths.gpx
 gpsbabel -i geojson -f ./phone_booths/verified_phone_booths.geojson -o gpx -F ./phone_booths/gpx/verified_phone_booths.gpx
+gpsbabel -i geojson -f ./phone_booths/active_phone_booths.geojson -f ./phone_booths/disused_phone_booths.geojson -o gpx -F ./phone_booths/gpx/for_verification.gpx
 sed -i '/.*time.*/d' phone_booths/gpx/*.gpx

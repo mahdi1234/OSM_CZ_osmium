@@ -45,3 +45,10 @@ echo "AED"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/emergency=defibrillator --overwrite -o osm_varios/aed.pbf
 osmium export osm_varios/aed.pbf --overwrite -o osm_varios/aed.json -c osmium_options.json
 cat osm_varios/aed.json | grep -e '"defibrillator"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/aed.geojson
+
+echo "Beer"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/shop=alcohol --overwrite -o osm_varios/alcohol.pbf
+osmium export osm_varios/alcohol.pbf --overwrite -o osm_varios/alcohol.json -c osmium_options.json
+cat osm_varios/alcohol.json | grep -e '"alcohol"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/alcohol.geojson
+cat osm_varios/alcohol.json | grep -e '"drink:beer":"yes"' -e '"drink:beer":"only"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/beershop.geojson
+

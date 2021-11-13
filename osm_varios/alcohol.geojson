@@ -2553,10 +2553,11 @@
       "properties": {
         "@type": "node",
         "@id": 3151584737,
+        "level": "0",
         "name": "Rozverná Vinotéka",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr 09:00-21:00; Sa 09:00-20:00",
         "shop": "alcohol",
-        "wheelchair": "yes",
-        "opening_hours": "Mo-Th 10:00-20:00; Fr 09:00-21:00; Sa 09:00-20:00"
+        "wheelchair": "yes"
       }
     },
     {
@@ -4046,20 +4047,20 @@
       "properties": {
         "@type": "node",
         "@id": 4180626914,
-        "name": "Vinotéka Pivotéka Delikatesy",
-        "shop": "alcohol",
-        "email": "klasterni@post.cz",
-        "phone": "+420 607 766 262",
-        "website": "http://www.veveri41.cz/",
         "drink:beer": "yes",
         "drink:wine": "yes",
-        "wheelchair": "no",
-        "payment:visa": "yes",
+        "email": "klasterni@post.cz",
+        "name": "Vinotéka Pivotéka Delikatesy",
         "opening_hours": "Mo-Su 14:00-22:00",
         "payment:maestro": "yes",
         "payment:mastercard": "yes",
+        "payment:visa": "yes",
         "payment:visa_debit": "yes",
-        "payment:visa_electron": "yes"
+        "payment:visa_electron": "yes",
+        "phone": "+420 607 766 262",
+        "shop": "alcohol",
+        "website": "http://www.likora.cz/",
+        "wheelchair": "no"
       }
     },
     {
@@ -4621,6 +4622,7 @@
         "@id": 4534544391,
         "addr:housenumber": "1990/2",
         "addr:street": "Žilkova",
+        "drink:beer": "yes",
         "drive_through": "no",
         "name": "Maneo",
         "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-13:00",
@@ -4642,26 +4644,27 @@
       "properties": {
         "@type": "node",
         "@id": 4562336991,
-        "name": "Svět piva",
-        "shop": "alcohol",
-        "email": "info@svet-piva.cz",
-        "phone": "+420606606713",
-        "website": "https://www.svet-piva.cz/",
         "addr:city": "Brno",
-        "wheelchair": "yes",
-        "addr:street": "Stránského",
-        "payment:jcb": "yes",
-        "payment:visa": "yes",
-        "addr:postcode": "616 00",
-        "opening_hours": "Mo-Fr 09:00-17:00",
-        "payment:maestro": "yes",
         "addr:housenumber": "3033/28",
-        "payment:mastercard": "yes",
-        "payment:visa_debit": "yes",
+        "addr:postcode": "616 00",
+        "addr:street": "Stránského",
+        "drink:beer": "yes",
+        "email": "info@svet-piva.cz",
+        "name": "Svět piva",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "payment:american_express": "yes",
         "payment:diners_club": "yes",
         "payment:discover_card": "yes",
+        "payment:jcb": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
         "payment:visa_electron": "yes",
-        "payment:american_express": "yes"
+        "phone": "+420606606713",
+        "shop": "alcohol",
+        "website": "https://www.svet-piva.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5119,7 +5122,7 @@
       "properties": {
         "@type": "node",
         "@id": 4940708871,
-        "drink": "beer",
+        "drink:beer": "yes",
         "name": "Beer Daddy",
         "shop": "alcohol"
       }
@@ -5854,16 +5857,17 @@
       "properties": {
         "@type": "node",
         "@id": 6401437170,
+        "drink:beer": "yes",
         "name": "Mé víno",
-        "shop": "alcohol",
-        "payment:visa": "yes",
         "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-12:00",
-        "payment:maestro": "yes",
-        "payment:mastercard": "yes",
-        "payment:visa_debit": "yes",
         "payment:diners_club": "yes",
         "payment:discover_card": "yes",
-        "payment:visa_electron": "yes"
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "shop": "alcohol"
       }
     },
     {
@@ -6206,6 +6210,7 @@
         "addr:housenumber": "341/48",
         "addr:postcode": "61600",
         "addr:street": "Minská",
+        "drink:beer": "yes",
         "drive_through": "no",
         "name": "Beershop.cz",
         "opening_hours": "Mo-Fr 10:00-18:00",
@@ -6258,7 +6263,14 @@
       "properties": {
         "@type": "node",
         "@id": 7277782036,
-        "shop": "alcohol"
+        "drink:beer": "yes",
+        "drink:wine": "yes",
+        "email": "klasterni@post.cz",
+        "mobile": "+420 722 498 578",
+        "name": "Vinotéka Pivotéka Delikatesy",
+        "opening_hours": "Mo-Fr 14:00-21:00; Sa 16:00-21:00",
+        "shop": "alcohol",
+        "website": "http://www.likora.cz/"
       }
     },
     {
@@ -6424,6 +6436,7 @@
       "properties": {
         "@type": "node",
         "@id": 7673849208,
+        "drink:beer": "yes",
         "name": "Vinotéka",
         "shop": "alcohol"
       }

@@ -58,6 +58,6 @@ osmium export osm_varios/beershop.pbf --overwrite -o osm_varios/beershop.json -c
 cat osm_varios/beershop.json | grep -e '"shop"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/beershop.geojson
 
 echo "Uzavirky"
-#osmium tags-filter ./czech-republic-latest.osm.pbf nwr/vehicle:conditional=* --overwrite -o ./osm_varios/uzavirky.pbf
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/vehicle:conditional=* --overwrite -o ./osm_varios/uzavirky.pbf
 osmium export ./osm_varios/uzavirky.pbf --overwrite -o ./osm_varios/uzavirky_temp.json -c osmium_options.json
 cat ./osm_varios/uzavirky_temp.json | grep -i '"vehicle:conditional":"no @' > ./osm_varios/uzavirky.json

@@ -6,6 +6,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.9005169,
+          50.1518309
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2322812108,
+        "name": "Pivárium",
+        "shop": "beverages",
+        "addr:city": "Nové Strašecí",
+        "ref:ruian": "21368970",
+        "drink:beer": "yes",
+        "addr:street": "Palackého",
+        "description": "Víc než 200 druhů piv. Piva z malých pivovarů",
+        "source:addr": "ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "27101",
+        "addr:housenumber": "31",
+        "addr:conscriptionnumber": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.147343,
+          50.6109632
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2391514765,
+        "addr:city": "Turnov",
+        "addr:housenumber": "29",
+        "addr:postcode": "51101",
+        "addr:street": "Malý Rohozec",
+        "drink:beer": "yes",
+        "name": "Expedice Pivovar Rohozec a.s.",
+        "opening_hours": "Mo-Fr 06:30-15:00",
+        "opening_hours:covid19": "open",
+        "operator": "Pivovar Rohozec a.s.",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+420 481 323 166",
+        "shop": "beverages",
+        "website": "https://www.pivorohozec.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.9482476,
           50.5256838
         ]
@@ -16,6 +74,24 @@
         "name": "Pivovar Klášter",
         "shop": "alcohol",
         "drink:beer": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4480806,
+          50.0793946
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2408146787,
+        "name": "BeerGeek Pivotéka",
+        "shop": "beverages",
+        "drink:beer": "yes",
+        "opening_hours": "Mo-Fr 13:00-21:00; Sa 11:00-21:00; Su 15:00-20:00"
       }
     },
     {
@@ -160,6 +236,31 @@
         "shop": "alcohol",
         "website": "http://www.likora.cz/",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6577684,
+          49.2063051
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4379721240,
+        "name": "Pivotéka U Modrého lva",
+        "shop": "alcohol",
+        "email": "vinohrady@pivoteka.eu",
+        "phone": "+420 733 699 250",
+        "website": "http://pivoteka.eu/clanky.php?id_clanku=3",
+        "addr:city": "Brno",
+        "drink:beer": "bottled",
+        "addr:street": "Pálavské náměstí",
+        "drive_through": "no",
+        "opening_hours": "Mo-Fr 11:30-19:00; Sa 09:00-13:00",
+        "addr:housenumber": "3c"
       }
     },
     {

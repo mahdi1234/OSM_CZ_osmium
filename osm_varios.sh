@@ -61,4 +61,12 @@ echo "Uzavirky"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/vehicle:conditional=* --overwrite -o ./osm_varios/uzavirky.pbf
 osmium export ./osm_varios/uzavirky.pbf --overwrite -o ./osm_varios/uzavirky_temp.json -c osmium_options.json
 cat ./osm_varios/uzavirky_temp.json | grep -e '"vehicle:conditional":"no @' -e 'FeatureCollection' -e '^]}$' > ./osm_varios/uzavirky.json
-cat ./osm_varios/uzavirky.json | grep -e 'vehicle:conditional' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/uzavirky.geojson
+# exampples "no @ (2019 Oct 09 - 2019 Oct 14)" no @ (2021 Mar 15 - 2021 May 31 AND weight>3,5)
+# should exlude "no @ (Mo-Fr 06:00-20:00)" as well later
+cat ./osm_varios/uzavirky.json | perl -pe 's/(.*no \@.*?\-.*?)(\d\d\d\d.*?\d\d)(.*)/$1$2$3\t$2/' > ./osm_varios/uzavirky_extra_column.json
+cat ./osm_varios/uzavirky_extra_column.json | dateutils.dconv -i "%Y %b %d" -f %Y%m%d -S > ./osm_varios/uzavirky_converted_date.json
+awk 'BEGIN { FS="\t" } $2>=20211113 {print $1}' ./osm_varios/uzavirky_converted_date.json > ./osm_varios/uzavirky_aktualni.json
+echo '{"type":"FeatureCollection","features":[' > ./osm_varios/uzavirky_final.json
+cat ./osm_varios/uzavirky_aktualni.json >> ./osm_varios/uzavirky_final.json
+echo ']}' >> ./osm_varios/uzavirky_final.json
+cat ./osm_varios/uzavirky_final.json | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/uzavirky.geojson

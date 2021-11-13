@@ -16,6 +16,9 @@ cat osm_varios/all_osm_varios.json | grep -e '"recycling:cooking_oil":"yes"' -e 
 echo "Metal"
 cat osm_varios/all_osm_varios.json | grep -e '"recycling:metal":"yes"' -e '"recycling:scrap_metal":"yes"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/metal.geojson
 
+echo "electric"
+cat osm_varios/all_osm_varios.json | grep -e '"recycling:electrical_appliances":"yes"' -e '"recycling:electrical_items":"yes"' -e '"recycling:electronics":"yes"' -e '"recycling:mobile_phones":"yes"' -e '"recycling:small_appliances":"yes"' -e '"recycling:small_electrical_appliances":"yes"' -e '"recycling:white_goods":"yes"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/electric.geojson
+
 echo "bezobalace"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/bulk_purchase=* --overwrite -o osm_varios/bulk.pbf
 osmium export osm_varios/bulk.pbf --overwrite -o osm_varios/bulk.json -c osmium_options.json
@@ -50,5 +53,7 @@ echo "Beer"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/shop=alcohol --overwrite -o osm_varios/alcohol.pbf
 osmium export osm_varios/alcohol.pbf --overwrite -o osm_varios/alcohol.json -c osmium_options.json
 cat osm_varios/alcohol.json | grep -e '"alcohol"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/alcohol.geojson
-cat osm_varios/alcohol.json | grep -e '"drink:beer":"yes"' -e '"drink:beer":"only"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/beershop.geojson
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/drink:beer=* --overwrite -o osm_varios/beershop.pbf
+osmium export osm_varios/beershop.pbf --overwrite -o osm_varios/beershop.json -c osmium_options.json
+cat osm_varios/beershop.json | grep -e '"shop"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/beershop.geojson
 

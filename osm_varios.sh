@@ -60,4 +60,5 @@ cat osm_varios/beershop.json | grep -e '"shop"' -e 'FeatureCollection' -e '^]}$'
 echo "Uzavirky"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/vehicle:conditional=* --overwrite -o ./osm_varios/uzavirky.pbf
 osmium export ./osm_varios/uzavirky.pbf --overwrite -o ./osm_varios/uzavirky_temp.json -c osmium_options.json
-cat ./osm_varios/uzavirky_temp.json | grep -i '"vehicle:conditional":"no @' > ./osm_varios/uzavirky.json
+cat ./osm_varios/uzavirky_temp.json | grep -e '"vehicle:conditional":"no @' -e 'FeatureCollection' -e '^]}$' > ./osm_varios/uzavirky.json
+cat ./osm_varios/uzavirky.json | grep -e 'vehicle:conditional' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/uzavirky.geojson

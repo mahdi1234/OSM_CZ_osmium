@@ -70,7 +70,4 @@ echo '{"type":"FeatureCollection","features":[' > ./osm_varios/uzavirky_final.js
 cat ./osm_varios/uzavirky_aktualni.json >> ./osm_varios/uzavirky_final.json
 echo ']}' >> ./osm_varios/uzavirky_final.json
 cat ./osm_varios/uzavirky.json | perl -pe 's/(.*no \@.*?\-.*?)(\d\d\d\d.*?\d\d)(.*)/$1$2$3\t$2/' | dateutils.dconv -i "%Y %b %d" -f %Y%m%d -S | awk 'BEGIN { FS="\t" } $2<='$today' {print $1}' > ./osm_varios/uzavirky_neaktualni.json
-cat ./osm_varios/uzavirky_neaktualni.json | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/uzavirky_na_smazani.geojson
-echo "Create gpx"
-mkdir -p ./osm_varios/gpx
-gpsbabel -i geojson -f ./osm_varios/uzavirky_na_smazani.geojson -o gpx -F ./osm_varios/gpx/uzavirky_na_smazani.gpx
+cat ./osm_varios/uzavirky_neaktualni.json | perl -pe 's/.*?\@type\"\:\"(.*?)\".*?\@id\"\:(.*?)\,.*/$1$2/' | perl -pe 's/way/w/'| perl -pe 's/node/n/' | perl -pe 's/(.*)/curl \"http\:\/\/localhost\:8111\/load_object\?new_layer=false\&objects=$1\"/' > ./osm_varios/uzavirky_JOSM.txt

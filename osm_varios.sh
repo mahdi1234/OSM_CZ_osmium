@@ -70,4 +70,6 @@ echo '{"type":"FeatureCollection","features":[' > ./osm_varios/uzavirky_final.js
 cat ./osm_varios/uzavirky_aktualni.json >> ./osm_varios/uzavirky_final.json
 echo ']}' >> ./osm_varios/uzavirky_final.json
 cat ./osm_varios/uzavirky.json | perl -pe 's/(.*no \@.*?\-.*?)(\d\d\d\d.*?\d\d)(.*)/$1$2$3\t$2/' | dateutils.dconv -i "%Y %b %d" -f %Y%m%d -S | awk 'BEGIN { FS="\t" } $2<='$today' {print $1}' | grep -v '"vehicle:conditional":"delivery @' > ./osm_varios/uzavirky_neaktualni.json
-cat ./osm_varios/uzavirky_neaktualni.json | ./josmize.sh > ./osm_varios/uzavirky_JOSM.txt
+echo '#!/bin/bash' > ./osm_varios/uzavirky_JOSM.sh
+cat ./osm_varios/uzavirky_neaktualni.json | ./josmize.sh >> ./osm_varios/uzavirky_JOSM.sh
+

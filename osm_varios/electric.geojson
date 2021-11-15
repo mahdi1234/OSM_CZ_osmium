@@ -7666,20 +7666,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6402778,
-          49.2127546
+          16.6401973,
+          49.2126583
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5774757545,
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:clothes": "no",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "no",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {

@@ -72,3 +72,8 @@ echo ']}' >> ./osm_varios/uzavirky_final.json
 cat ./osm_varios/uzavirky.json | perl -pe 's/(.*no \@.*?\-.*?)(\d\d\d\d.*?\d\d)(.*)/$1$2$3\t$2/' | dateutils.dconv -i "%Y %b %d" -f %Y%m%d -S | awk 'BEGIN { FS="\t" } $2<='$today' {print $1}' | grep -v '"vehicle:conditional":"delivery @' | grep -v '"vehicle:conditional":"no @ (Mo-Fr' > ./osm_varios/uzavirky_neaktualni.json
 echo '#!/bin/bash' > ./osm_varios/uzavirky_JOSM.sh
 cat ./osm_varios/uzavirky_neaktualni.json | ./josmize.sh >> ./osm_varios/uzavirky_JOSM.sh
+
+echo "Rescue point"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/highway=emergency_access_point --overwrite -o osm_varios/rescue.pbf
+osmium export osm_varios/rescue.pbf --overwrite -o osm_varios/rescue.json -c osmium_options.json
+cat osm_varios/rescue.json | grep -e '"emergency_access_point"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/rescue.geojson

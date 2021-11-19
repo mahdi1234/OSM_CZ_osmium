@@ -77,3 +77,8 @@ echo "Rescue point"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/highway=emergency_access_point --overwrite -o osm_varios/rescue.pbf
 osmium export osm_varios/rescue.pbf --overwrite -o osm_varios/rescue.json -c osmium_options.json
 cat osm_varios/rescue.json | grep -e '"emergency_access_point"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/rescue.geojson
+
+echo "Schranky bez ref"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=post_box --overwrite -o osm_varios/postbox.pbf
+osmium export osm_varios/postbox.pbf --overwrite -o osm_varios/postbox.json -c osmium_options.json
+cat osm_varios/postbox.json | grep -e '"post_box"' -e 'FeatureCollection' -e '^]}$' | grep -v '"ref"' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/postbox.geojson

@@ -82,3 +82,7 @@ echo "Schranky bez ref"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=post_box --overwrite -o osm_varios/postbox.pbf
 osmium export osm_varios/postbox.pbf --overwrite -o osm_varios/postbox.json -c osmium_options.json
 cat osm_varios/postbox.json | grep -e '"post_box"' -e 'FeatureCollection' -e '^]}$' | grep -v '"ref"' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/postbox.geojson
+echo "Create gpx"
+mkdir -p ./osm_varios/gpx
+gpsbabel -i geojson -f ./osm_varios/postbox.geojson -o gpx -F ./osm_varios/gpx/schranky_bez_ref.gpx
+sed -i '/.*time.*/d' ./osm_varios/gpx/*.gpx

@@ -12297,6 +12297,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.208759,
+          50.2354134
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9269735483,
+        "amenity": "recycling",
+        "name": "Recycling containers",
+        "recycling:batteries": "yes",
+        "recycling:bottles": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -12455,49 +12476,6 @@
         "recycling:clothes": "yes",
         "recycling:batteries": "yes",
         "recycling:scrap_metal": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                18.1608065,
-                49.7811866
-              ],
-              [
-                18.1611303,
-                49.78113
-              ],
-              [
-                18.1614027,
-                49.7817407
-              ],
-              [
-                18.1610917,
-                49.7817963
-              ],
-              [
-                18.1608363,
-                49.7818054
-              ],
-              [
-                18.1608065,
-                49.7811866
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 94788695,
-        "name": "Sběrný dvůr OZO",
-        "amenity": "recycling",
-        "landuse": "industrial"
       }
     },
     {
@@ -12940,6 +12918,58 @@
         "@type": "way",
         "@id": 926018365,
         "amenity": "recycling"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1608,
+                49.7811411
+              ],
+              [
+                18.161016,
+                49.7811039
+              ],
+              [
+                18.1610683,
+                49.7811421
+              ],
+              [
+                18.161088,
+                49.7813052
+              ],
+              [
+                18.1611045,
+                49.7814641
+              ],
+              [
+                18.1608205,
+                49.7814772
+              ],
+              [
+                18.1608065,
+                49.7811866
+              ],
+              [
+                18.1608,
+                49.7811411
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1004771596,
+        "amenity": "recycling",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr OZO"
       }
     }
   ]

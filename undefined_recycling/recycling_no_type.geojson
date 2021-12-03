@@ -4615,14 +4615,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4303971,
-          50.1335955
+          14.4304159,
+          50.1336392
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 1812160568,
-        "amenity": "recycling"
+        "amenity": "recycling",
+        "recycling:cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes"
       }
     },
     {

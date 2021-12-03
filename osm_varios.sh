@@ -86,3 +86,8 @@ echo "Create gpx"
 mkdir -p ./osm_varios/gpx
 gpsbabel -i geojson -f ./osm_varios/postbox.geojson -o gpx -F ./osm_varios/gpx/schranky_bez_ref.gpx
 sed -i '/.*time.*/d' ./osm_varios/gpx/*.gpx
+
+echo "Micro brewery"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/craft=brewery microbrewery=yes --overwrite -o osm_varios/brewery.pbf
+osmium export osm_varios/brewery.pbf --overwrite -o osm_varios/brewery.json -c osmium_options.json
+cat osm_varios/brewery.json | grep -e 'brewery' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./osm_varios/brewery.geojson

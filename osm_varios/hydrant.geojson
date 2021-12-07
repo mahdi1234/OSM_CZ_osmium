@@ -6530,7 +6530,8 @@
       "properties": {
         "@type": "node",
         "@id": 4323048976,
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar"
       }
     },
     {
@@ -21295,6 +21296,28 @@
         "couplings": "2",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8960553,
+          49.1937775
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9315945196,
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
       }

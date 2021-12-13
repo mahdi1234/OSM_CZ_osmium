@@ -1408,13 +1408,41 @@
         "@type": "node",
         "@id": 9261163785,
         "amenity": "recycling",
-        "ekokom:ref": "10641",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:fluorescent_tubes": "yes",
         "recycling:low_energy_bulbs": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "ref:ekokom": "10641"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6404167,
+          49.4036484
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9332707726,
+        "amenity": "recycling",
+        "name": "SSO Rájec-Jestřebí",
+        "opening_hours": "We 12:00-18:00; Sa 08:00-12:00",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10680"
       }
     },
     {

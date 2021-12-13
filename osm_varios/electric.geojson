@@ -2933,7 +2933,6 @@
         "@type": "node",
         "@id": 2805661430,
         "amenity": "recycling",
-        "ekokom:ref": "35334",
         "location": "overground",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
@@ -2946,7 +2945,8 @@
         "recycling:plastic_packaging": "yes",
         "recycling:small_appliances": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref:ekokom": "35334"
       }
     },
     {
@@ -17367,13 +17367,13 @@
         "@type": "node",
         "@id": 9261163785,
         "amenity": "recycling",
-        "ekokom:ref": "10641",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:fluorescent_tubes": "yes",
         "recycling:low_energy_bulbs": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "ref:ekokom": "10641"
       }
     },
     {
@@ -17389,7 +17389,6 @@
         "@type": "node",
         "@id": 9268034661,
         "amenity": "recycling",
-        "ekokom:ref": "34052",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:clothes": "yes",
@@ -17402,7 +17401,8 @@
         "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref:ekokom": "34052"
       }
     },
     {
@@ -17534,6 +17534,58 @@
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2378545,
+          49.7360251
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9332079882,
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6404167,
+          49.4036484
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9332707726,
+        "amenity": "recycling",
+        "name": "SSO Rájec-Jestřebí",
+        "opening_hours": "We 12:00-18:00; Sa 08:00-12:00",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10680"
       }
     },
     {

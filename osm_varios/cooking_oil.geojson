@@ -567,6 +567,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.7190947,
+          49.4715239
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2621711101,
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.7623643,
           49.4814113
         ]
@@ -737,6 +765,32 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6548325,
+          49.4280142
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3234881881,
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -1528,6 +1582,30 @@
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6417873,
+          49.4909053
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5827843536,
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -5949,7 +6027,6 @@
         "@type": "node",
         "@id": 9230893796,
         "amenity": "recycling",
-        "ekokom:ref": "8267",
         "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
@@ -5958,7 +6035,8 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref:ekokom": "8267"
       }
     },
     {
@@ -6152,7 +6230,6 @@
         "@type": "node",
         "@id": 9288693155,
         "amenity": "recycling",
-        "ekokom:ref": "11691",
         "opening_hours": "Tu-Fr 12:00-15:00; Sa 08:00-11:00",
         "phone": "0420 566 624 301",
         "recycling:batteries": "yes",
@@ -6173,7 +6250,8 @@
         "recycling:shoes": "yes",
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "ref:ekokom": "11691"
       }
     },
     {
@@ -6214,6 +6292,30 @@
         "recycling:plastic": "yes",
         "recycling_type": "container",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2378545,
+          49.7360251
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9332079882,
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {

@@ -11624,7 +11624,9 @@
       "properties": {
         "@type": "node",
         "@id": 9060857142,
-        "amenity": "recycling"
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes"
       }
     },
     {
@@ -11688,9 +11690,9 @@
         "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:metal": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:plastic": "yes"
       }
     },
     {
@@ -11738,7 +11740,10 @@
       "properties": {
         "@type": "node",
         "@id": 9139809803,
-        "amenity": "recycling"
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes"
       }
     },
     {

@@ -3062,6 +3062,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5147191,
+          50.0313061
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2852247286,
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "no",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "no",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.519689,
           50.0267682
         ]
@@ -18423,21 +18448,20 @@
         "@type": "way",
         "@id": 57849375,
         "amenity": "recycling",
-        "barrier": "fence",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -23812,21 +23836,20 @@
         "@type": "way",
         "@id": 57849375,
         "amenity": "recycling",
-        "barrier": "fence",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {

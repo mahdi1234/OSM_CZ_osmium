@@ -9,7 +9,8 @@ cat ./phone_booths/all_phone_booths_temp.json | grep -vi 'LineString' > ./phone_
 cat ./phone_booths/all_phone_booths.json | grep -e '"amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/active_phone_booths.geojson
 
 echo "Disused phone booths"
-cat ./phone_booths/all_phone_booths.json | grep -e '"disused:amenity":"telephone"' -e '"historic:amenity":"telephone"' -e '"was:amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey_date" | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/disused_phone_booths.geojson
+#cat ./phone_booths/all_phone_booths.json | grep -e '"disused:amenity":"telephone"' -e '"historic:amenity":"telephone"' -e '"was:amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey_date" | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/disused_phone_booths.geojson
+cat ./phone_booths/all_phone_booths.json | grep -e ':amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey_date" | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/disused_phone_booths.geojson
 
 echo "Verified phone booths"
 cat ./phone_booths/all_phone_booths.json | grep -e '"survey:date"' -e '"check_date"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/verified_phone_booths.geojson

@@ -2612,25 +2612,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.1243551,
-          49.8434582
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2828592425,
-        "@url": "https://www.openstreetmap.org/node/2828592425",
-        "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:batteries": "yes",
-        "recycling:small_appliances": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4207021,
           50.0570439
         ]
@@ -2830,24 +2811,6 @@
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1186286,
-          49.835449
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3215525053,
-        "@url": "https://www.openstreetmap.org/node/3215525053",
-        "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:batteries": "yes"
       }
     },
     {
@@ -5267,13 +5230,17 @@
         "@type": "node",
         "@id": 5310690812,
         "@url": "https://www.openstreetmap.org/node/5310690812",
+        "addr:conscriptionnumber": "174",
+        "addr:housenumber": "4",
+        "addr:street": "Bažanova",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "container",
+        "source": "opendata.ostrava"
       }
     },
     {
@@ -5314,13 +5281,17 @@
         "@type": "node",
         "@id": 5484588585,
         "@url": "https://www.openstreetmap.org/node/5484588585",
+        "addr:conscriptionnumber": "45",
+        "addr:housenumber": "359",
+        "addr:street": "Mitrovická",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "container",
+        "source": "opendata.ostrava"
       }
     },
     {
@@ -10434,6 +10405,25 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5241421,
+          49.7579082
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9379640439,
+        "@url": "https://www.openstreetmap.org/node/9379640439",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -11558,81 +11548,6 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:batteries": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            18.3293473,
-            49.8162097
-          ],
-          [
-            18.3293547,
-            49.8160819
-          ],
-          [
-            18.3294131,
-            49.8160272
-          ],
-          [
-            18.3295107,
-            49.8159957
-          ],
-          [
-            18.3301334,
-            49.8160125
-          ],
-          [
-            18.3302472,
-            49.8160692
-          ],
-          [
-            18.3302278,
-            49.8162453
-          ],
-          [
-            18.3300741,
-            49.8162669
-          ],
-          [
-            18.3294206,
-            49.8162495
-          ],
-          [
-            18.3293473,
-            49.8162097
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 101527985,
-        "@url": "https://www.openstreetmap.org/way/101527985",
-        "name": "Sběrný dvůr",
-        "amenity": "recycling",
-        "opening_hours": "Tu-Fr 10:00-20:00;Sa 08:00-14:00",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
       }
     },
     {
@@ -16509,6 +16424,80 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.3301721,
+            49.8161835
+          ],
+          [
+            18.3299294,
+            49.816219
+          ],
+          [
+            18.3294936,
+            49.816206
+          ],
+          [
+            18.3294278,
+            49.8161705
+          ],
+          [
+            18.3294372,
+            49.8160667
+          ],
+          [
+            18.3295391,
+            49.816045
+          ],
+          [
+            18.3297725,
+            49.8160501
+          ],
+          [
+            18.3301735,
+            49.8160589
+          ],
+          [
+            18.3301721,
+            49.8161835
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1016880066,
+        "@url": "https://www.openstreetmap.org/way/1016880066",
+        "addr:street": "Lihovarská SD",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Tu-Fr 10:00-20:00;Sa 08:00-14:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "source": "opendata.ostrava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -17697,85 +17686,6 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:batteries": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                18.3293473,
-                49.8162097
-              ],
-              [
-                18.3293547,
-                49.8160819
-              ],
-              [
-                18.3294131,
-                49.8160272
-              ],
-              [
-                18.3295107,
-                49.8159957
-              ],
-              [
-                18.3301334,
-                49.8160125
-              ],
-              [
-                18.3302472,
-                49.8160692
-              ],
-              [
-                18.3302278,
-                49.8162453
-              ],
-              [
-                18.3300741,
-                49.8162669
-              ],
-              [
-                18.3294206,
-                49.8162495
-              ],
-              [
-                18.3293473,
-                49.8162097
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 101527985,
-        "@url": "https://www.openstreetmap.org/way/101527985",
-        "name": "Sběrný dvůr",
-        "amenity": "recycling",
-        "opening_hours": "Tu-Fr 10:00-20:00;Sa 08:00-14:00",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
       }
     },
     {
@@ -22915,6 +22825,84 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevicko.cz/sberny-dvur-likvidace-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.3294278,
+                49.8161705
+              ],
+              [
+                18.3294372,
+                49.8160667
+              ],
+              [
+                18.3295391,
+                49.816045
+              ],
+              [
+                18.3297725,
+                49.8160501
+              ],
+              [
+                18.3301735,
+                49.8160589
+              ],
+              [
+                18.3301721,
+                49.8161835
+              ],
+              [
+                18.3299294,
+                49.816219
+              ],
+              [
+                18.3294936,
+                49.816206
+              ],
+              [
+                18.3294278,
+                49.8161705
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1016880066,
+        "@url": "https://www.openstreetmap.org/way/1016880066",
+        "addr:street": "Lihovarská SD",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Tu-Fr 10:00-20:00;Sa 08:00-14:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "source": "opendata.ostrava"
       }
     }
   ]

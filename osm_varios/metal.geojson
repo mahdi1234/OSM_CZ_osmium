@@ -2155,45 +2155,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.2291991,
-          49.7960438
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2628396940,
-        "@url": "https://www.openstreetmap.org/node/2628396940",
-        "name": "Sběrna surovin",
-        "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:books": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:cartons": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.2418939,
           49.7963918
         ]
@@ -9041,8 +9002,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.3404122,
-          50.1270544
+          12.3404276,
+          50.1269572
         ]
       },
       "properties": {
@@ -16901,6 +16862,77 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.2290654,
+            49.796384
+          ],
+          [
+            18.2291256,
+            49.7961486
+          ],
+          [
+            18.2291991,
+            49.7960438
+          ],
+          [
+            18.2291267,
+            49.7960147
+          ],
+          [
+            18.2289885,
+            49.7960061
+          ],
+          [
+            18.2289305,
+            49.7960586
+          ],
+          [
+            18.228868,
+            49.7963674
+          ],
+          [
+            18.2290654,
+            49.796384
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1017142182,
+        "@url": "https://www.openstreetmap.org/way/1017142182",
+        "addr:street": "U Výtopny (areál garáží)",
+        "amenity": "recycling",
+        "name": "Sběrna surovin",
+        "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "source": "opendata.ostrava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -24328,6 +24360,81 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "source": "opendata.ostrava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.228868,
+                49.7963674
+              ],
+              [
+                18.2289305,
+                49.7960586
+              ],
+              [
+                18.2289885,
+                49.7960061
+              ],
+              [
+                18.2291267,
+                49.7960147
+              ],
+              [
+                18.2291991,
+                49.7960438
+              ],
+              [
+                18.2291256,
+                49.7961486
+              ],
+              [
+                18.2290654,
+                49.796384
+              ],
+              [
+                18.228868,
+                49.7963674
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1017142182,
+        "@url": "https://www.openstreetmap.org/way/1017142182",
+        "addr:street": "U Výtopny (areál garáží)",
+        "amenity": "recycling",
+        "name": "Sběrna surovin",
+        "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
         "recycling:wood": "yes",
         "recycling_type": "container",
         "source": "opendata.ostrava"

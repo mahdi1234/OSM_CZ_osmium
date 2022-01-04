@@ -5348,28 +5348,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.9269895,
-          49.4418399
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8541275288,
-        "@url": "https://www.openstreetmap.org/node/8541275288",
-        "contact:facebook": "https://www.facebook.com/PivovarDomazlice",
-        "craft": "brewery",
-        "description": "Městský pivovar Domažlice navazuje na výrobu piva v Domažlicích s tradicí už od r. 1341. Minipivovar s kapacitou 3000 hl se nachází v prostorách původní humnové sladovny postavené v 19. století. Pivo můžete ochutnat v Pivnici Domažlice.",
-        "microbrewery": "yes",
-        "name": "Městský pivovar Domažlice",
-        "phone": "+420 606 044 688",
-        "website": "https://www.idomazlice.cz/cs/kulturnicentrumpivovardomazlice/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.9431243,
           49.5299481
         ]
@@ -5767,6 +5745,35 @@
         "name": "Zevlův mlýn",
         "phone": "+420 777 763 000",
         "website": "https://zevluvmlyn.cz/pivovar/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.926958,
+          49.4418644
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9388817887,
+        "@url": "https://www.openstreetmap.org/node/9388817887",
+        "addr:city": "Domažlice",
+        "addr:housenumber": "10",
+        "addr:postcode": "34401",
+        "addr:street": "Pivovarská",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "diet:gluten_free": "yes",
+        "microbrewery": "yes",
+        "name": "Restaurace Pivovar Domažlice",
+        "opening_hours": "10:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+420777 999 219",
+        "source": "survey",
+        "website": "https://www.facebook.com/restauracepivovardmz"
       }
     },
     {
@@ -7695,6 +7702,86 @@
         "craft": "brewery",
         "ref:ruian:building": "41576233",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.9266492,
+            49.4418747
+          ],
+          [
+            12.9271476,
+            49.4419167
+          ],
+          [
+            12.9271365,
+            49.441975
+          ],
+          [
+            12.9273147,
+            49.4419919
+          ],
+          [
+            12.9273316,
+            49.4419093
+          ],
+          [
+            12.9273548,
+            49.4419112
+          ],
+          [
+            12.9273656,
+            49.4418574
+          ],
+          [
+            12.9273195,
+            49.4418532
+          ],
+          [
+            12.9273516,
+            49.4416914
+          ],
+          [
+            12.9271966,
+            49.4416752
+          ],
+          [
+            12.9271752,
+            49.4417856
+          ],
+          [
+            12.9266748,
+            49.4417427
+          ],
+          [
+            12.9266492,
+            49.4418747
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 78249308,
+        "@url": "https://www.openstreetmap.org/way/78249308",
+        "addr:city": "Domažlice",
+        "addr:housenumber": "10",
+        "addr:postcode": "34401",
+        "addr:street": "Pivovarská",
+        "building": "industrial",
+        "building:ruian:type": "12",
+        "contact:facebook": "https://www.facebook.com/PivovarDomazlice",
+        "craft": "brewery",
+        "description": "Městský pivovar Domažlice navazuje na výrobu piva v Domažlicích s tradicí už od r. 1341. Minipivovar s kapacitou 3000 hl se nachází v prostorách původní humnové sladovny postavené v 19. století. Pivo můžete ochutnat v Pivnici Domažlice.",
+        "microbrewery": "yes",
+        "name": "Městský pivovar Domažlice",
+        "phone": "+420 606 044 688",
+        "ref:ruian:building": "50034430",
+        "source": "cuzk:ruian",
+        "website": "https://www.idomazlice.cz/cs/kulturnicentrumpivovardomazlice/"
       }
     },
     {
@@ -14665,6 +14752,90 @@
         "craft": "brewery",
         "ref:ruian:building": "41576233",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.9266492,
+                49.4418747
+              ],
+              [
+                12.9266748,
+                49.4417427
+              ],
+              [
+                12.9271752,
+                49.4417856
+              ],
+              [
+                12.9271966,
+                49.4416752
+              ],
+              [
+                12.9273516,
+                49.4416914
+              ],
+              [
+                12.9273195,
+                49.4418532
+              ],
+              [
+                12.9273656,
+                49.4418574
+              ],
+              [
+                12.9273548,
+                49.4419112
+              ],
+              [
+                12.9273316,
+                49.4419093
+              ],
+              [
+                12.9273147,
+                49.4419919
+              ],
+              [
+                12.9271365,
+                49.441975
+              ],
+              [
+                12.9271476,
+                49.4419167
+              ],
+              [
+                12.9266492,
+                49.4418747
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 78249308,
+        "@url": "https://www.openstreetmap.org/way/78249308",
+        "addr:city": "Domažlice",
+        "addr:housenumber": "10",
+        "addr:postcode": "34401",
+        "addr:street": "Pivovarská",
+        "building": "industrial",
+        "building:ruian:type": "12",
+        "contact:facebook": "https://www.facebook.com/PivovarDomazlice",
+        "craft": "brewery",
+        "description": "Městský pivovar Domažlice navazuje na výrobu piva v Domažlicích s tradicí už od r. 1341. Minipivovar s kapacitou 3000 hl se nachází v prostorách původní humnové sladovny postavené v 19. století. Pivo můžete ochutnat v Pivnici Domažlice.",
+        "microbrewery": "yes",
+        "name": "Městský pivovar Domažlice",
+        "phone": "+420 606 044 688",
+        "ref:ruian:building": "50034430",
+        "source": "cuzk:ruian",
+        "website": "https://www.idomazlice.cz/cs/kulturnicentrumpivovardomazlice/"
       }
     },
     {

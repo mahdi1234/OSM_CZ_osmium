@@ -557,23 +557,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3720447,
-          49.8502772
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2492164279,
-        "@url": "https://www.openstreetmap.org/node/2492164279",
-        "amenity": "recycling",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.7272271,
           50.1028886
         ]
@@ -3359,6 +3342,47 @@
         "source": "survey",
         "amenity": "recycling",
         "barrier": "fence",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.3717135,
+                49.8502804
+              ],
+              [
+                13.3720136,
+                49.8500507
+              ],
+              [
+                13.3723735,
+                49.8502463
+              ],
+              [
+                13.3720734,
+                49.8504759
+              ],
+              [
+                13.3717135,
+                49.8502804
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 241609227,
+        "@url": "https://www.openstreetmap.org/way/241609227",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
         "recycling_type": "centre"
       }
     },

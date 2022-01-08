@@ -554,40 +554,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4248325,
-          49.5518938
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1179587954,
-        "@url": "https://www.openstreetmap.org/node/1179587954",
-        "addr:conscriptionnumber": "66",
-        "addr:country": "CZ",
-        "addr:housenumber": "66",
-        "addr:place": "Crhov",
-        "addr:postcode": "67974",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr",
-        "opening_hours": "Su 09:00 - 11:00",
-        "opening_hours:covid19": "same",
-        "operator": "Město Olešnice",
-        "operator:type": "public",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:shoes": "yes",
-        "recycling:waste": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:addr": "25902091"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4531506,
           50.0874618
         ]
@@ -26659,6 +26625,75 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4244532,
+            49.5521842
+          ],
+          [
+            16.4244875,
+            49.5522017
+          ],
+          [
+            16.4245465,
+            49.5522317
+          ],
+          [
+            16.424684,
+            49.5521722
+          ],
+          [
+            16.4248491,
+            49.5521016
+          ],
+          [
+            16.4248462,
+            49.5520989
+          ],
+          [
+            16.4249363,
+            49.5520607
+          ],
+          [
+            16.4252165,
+            49.5519636
+          ],
+          [
+            16.4248921,
+            49.5517497
+          ],
+          [
+            16.4246391,
+            49.5518478
+          ],
+          [
+            16.4244532,
+            49.5521842
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1019096896,
+        "@url": "https://www.openstreetmap.org/way/1019096896",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Su 09:00 - 11:00",
+        "opening_hours:covid19": "same",
+        "operator": "Město Olešnice",
+        "operator:type": "public",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:shoes": "yes",
+        "recycling:waste": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -32478,6 +32513,79 @@
         "recycling:wood": "yes",
         "recycling_type": "container",
         "source": "opendata.ostrava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4244532,
+                49.5521842
+              ],
+              [
+                16.4246391,
+                49.5518478
+              ],
+              [
+                16.4248921,
+                49.5517497
+              ],
+              [
+                16.4252165,
+                49.5519636
+              ],
+              [
+                16.4249363,
+                49.5520607
+              ],
+              [
+                16.4248462,
+                49.5520989
+              ],
+              [
+                16.4248491,
+                49.5521016
+              ],
+              [
+                16.424684,
+                49.5521722
+              ],
+              [
+                16.4245465,
+                49.5522317
+              ],
+              [
+                16.4244875,
+                49.5522017
+              ],
+              [
+                16.4244532,
+                49.5521842
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1019096896,
+        "@url": "https://www.openstreetmap.org/way/1019096896",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Su 09:00 - 11:00",
+        "opening_hours:covid19": "same",
+        "operator": "Město Olešnice",
+        "operator:type": "public",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:shoes": "yes",
+        "recycling:waste": "yes"
       }
     }
   ]

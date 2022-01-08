@@ -2327,29 +2327,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.9257512,
-          50.2725
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3674962109,
-        "@url": "https://www.openstreetmap.org/node/3674962109",
-        "name": "Pivovar Zichovec",
-        "amenity": "restaurant",
-        "website": "https://www.pivovarzichovec.cz/",
-        "reservation": "recommended",
-        "microbrewery": "yes",
-        "internet_access": "wlan",
-        "outdoor_seating": "yes",
-        "internet_access:fee": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.9258372,
           50.2725468
         ]
@@ -11411,6 +11388,88 @@
         "type": "LineString",
         "coordinates": [
           [
+            13.9255906,
+            50.272508
+          ],
+          [
+            13.925938,
+            50.2726018
+          ],
+          [
+            13.9259293,
+            50.2726149
+          ],
+          [
+            13.9259798,
+            50.2726285
+          ],
+          [
+            13.9259822,
+            50.2726292
+          ],
+          [
+            13.9259727,
+            50.2726441
+          ],
+          [
+            13.9261867,
+            50.272702
+          ],
+          [
+            13.9263253,
+            50.2724895
+          ],
+          [
+            13.926112,
+            50.2724315
+          ],
+          [
+            13.926061,
+            50.27251
+          ],
+          [
+            13.9260346,
+            50.2725495
+          ],
+          [
+            13.9256342,
+            50.2724417
+          ],
+          [
+            13.925629,
+            50.2724496
+          ],
+          [
+            13.9255906,
+            50.272508
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 508788060,
+        "@url": "https://www.openstreetmap.org/way/508788060",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "3",
+        "building:ruian:type": "19",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Pivovar Zichovec",
+        "outdoor_seating": "yes",
+        "ref:ruian:building": "78822360",
+        "reservation": "recommended",
+        "source": "cuzk:ruian",
+        "start_date": "2013-07-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.4989383,
             50.0203234
           ],
@@ -18665,6 +18724,92 @@
         "name": "Bývalý Akciový pivovar Prostějov",
         "craft": "brewery",
         "landuse": "industrial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.9255906,
+                50.272508
+              ],
+              [
+                13.925629,
+                50.2724496
+              ],
+              [
+                13.9256342,
+                50.2724417
+              ],
+              [
+                13.9260346,
+                50.2725495
+              ],
+              [
+                13.926061,
+                50.27251
+              ],
+              [
+                13.926112,
+                50.2724315
+              ],
+              [
+                13.9263253,
+                50.2724895
+              ],
+              [
+                13.9261867,
+                50.272702
+              ],
+              [
+                13.9259727,
+                50.2726441
+              ],
+              [
+                13.9259822,
+                50.2726292
+              ],
+              [
+                13.9259798,
+                50.2726285
+              ],
+              [
+                13.9259293,
+                50.2726149
+              ],
+              [
+                13.925938,
+                50.2726018
+              ],
+              [
+                13.9255906,
+                50.272508
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 508788060,
+        "@url": "https://www.openstreetmap.org/way/508788060",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "3",
+        "building:ruian:type": "19",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Pivovar Zichovec",
+        "outdoor_seating": "yes",
+        "ref:ruian:building": "78822360",
+        "reservation": "recommended",
+        "source": "cuzk:ruian",
+        "start_date": "2013-07-31"
       }
     },
     {

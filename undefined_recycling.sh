@@ -44,5 +44,5 @@ mkdir -p undefined_recycling/gpx
 gpsbabel -i geojson -f ./undefined_recycling/undefined_recycling_centre.geojson -o gpx -F ./undefined_recycling/gpx/undefined_recycling_centre.gpx
 gpsbabel -i geojson -f ./undefined_recycling/undefined_recycling_container.geojson -o gpx -F ./undefined_recycling/gpx/undefined_recycling_container.gpx
 gpsbabel -i geojson -f ./undefined_recycling/recycling_no_type.geojson -o gpx -F ./undefined_recycling/gpx/recycling_no_type.gpx
-gpsbabel -i geojson -f ./undefined_recycling/recycling_type_no_amenity.geojson -o gpx -F ./undefined_recycling/gpx/recycling_known_without_amanity_type.gpx
+gpsbabel -i geojson -f ./undefined_recycling/recycling_type_no_amenity.geojson -o gpx -F ./undefined_recycling/gpx/recycling_known_without_amenity_type.gpx
 sed -i '/.*time.*/d' ./undefined_recycling/gpx/*.gpx

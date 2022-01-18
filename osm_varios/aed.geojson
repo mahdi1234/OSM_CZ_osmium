@@ -615,7 +615,8 @@
         "@type": "node",
         "@id": 6723893735,
         "@url": "https://www.openstreetmap.org/node/6723893735",
-        "emergency": "defibrillator"
+        "emergency": "defibrillator",
+        "indoor": "no"
       }
     },
     {
@@ -1561,6 +1562,124 @@
         "emergency": "defibrillator",
         "indoor": "yes",
         "operator": "Kaufland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.475252,
+          48.9769552
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9426462466,
+        "@url": "https://www.openstreetmap.org/node/9426462466",
+        "defibrillator:location": "Vpravo ve vstupu, v zeleném boxu.",
+        "defibrillator:location:en": "green box, to the right of the entrance",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4693377,
+          48.9744253
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9426462467,
+        "@url": "https://www.openstreetmap.org/node/9426462467",
+        "defibrillator:location": "umístěn u plavčíků",
+        "defibrillator:location:en": "lifeguards have it",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "Mo 10:00-21:45; Tu-Fr 07:00-21:45; Sa 10:00-20:45; Su 10:00-19:45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4734147,
+          48.9714727
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9426462468,
+        "@url": "https://www.openstreetmap.org/node/9426462468",
+        "access": "private",
+        "emergency": "defibrillator",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4722439,
+          48.9707445
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9426462469,
+        "@url": "https://www.openstreetmap.org/node/9426462469",
+        "defibrillator:location": "na zdi vlevo hned za dveřmi hlavního vchodu do budovy E.ON (před recepcí)",
+        "defibrillator:location:en": "on the wall left of the entrance, in front of reception",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "Mo-Fr 05:30-18:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.471411,
+          48.9704754
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9426462470,
+        "@url": "https://www.openstreetmap.org/node/9426462470",
+        "defibrillator:location": "na vrátnici",
+        "defibrillator:location:en": "at the gatehouse",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4741525,
+          48.9700815
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9426462471,
+        "@url": "https://www.openstreetmap.org/node/9426462471",
+        "defibrillator:location": "u vstupu po levé straně (v boxu)",
+        "defibrillator:location:en": "Left of the entrance",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "24/7"
       }
     }
   ]

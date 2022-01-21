@@ -15903,6 +15903,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.8501938,
+          49.3530175
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8525163349,
+        "@url": "https://www.openstreetmap.org/node/8525163349",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.850376,
           50.4142172
         ]
@@ -18882,6 +18903,27 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0390358,
+          49.3922654
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9324403066,
+        "@url": "https://www.openstreetmap.org/node/9324403066",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -26881,6 +26923,77 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.2597283,
+            49.5691494
+          ],
+          [
+            17.2604629,
+            49.5690962
+          ],
+          [
+            17.2603444,
+            49.5692959
+          ],
+          [
+            17.2599739,
+            49.5699862
+          ],
+          [
+            17.2598773,
+            49.5701598
+          ],
+          [
+            17.2596636,
+            49.5702428
+          ],
+          [
+            17.2589847,
+            49.5698752
+          ],
+          [
+            17.2591296,
+            49.569696
+          ],
+          [
+            17.2593358,
+            49.5696156
+          ],
+          [
+            17.2594727,
+            49.5695859
+          ],
+          [
+            17.2596385,
+            49.5693584
+          ],
+          [
+            17.2597283,
+            49.5691494
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1022950791,
+        "@url": "https://www.openstreetmap.org/way/1022950791",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Fr 10:00-14:00,14:30-18:00; PH closed",
+        "operator": "Technické služby města Olomouce",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -32801,6 +32914,81 @@
         "recycling:electrical_appliances": "yes",
         "recycling:shoes": "yes",
         "recycling:waste": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.2589847,
+                49.5698752
+              ],
+              [
+                17.2591296,
+                49.569696
+              ],
+              [
+                17.2593358,
+                49.5696156
+              ],
+              [
+                17.2594727,
+                49.5695859
+              ],
+              [
+                17.2596385,
+                49.5693584
+              ],
+              [
+                17.2597283,
+                49.5691494
+              ],
+              [
+                17.2604629,
+                49.5690962
+              ],
+              [
+                17.2603444,
+                49.5692959
+              ],
+              [
+                17.2599739,
+                49.5699862
+              ],
+              [
+                17.2598773,
+                49.5701598
+              ],
+              [
+                17.2596636,
+                49.5702428
+              ],
+              [
+                17.2589847,
+                49.5698752
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1022950791,
+        "@url": "https://www.openstreetmap.org/way/1022950791",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Fr 10:00-14:00,14:30-18:00; PH closed",
+        "operator": "Technické služby města Olomouce",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

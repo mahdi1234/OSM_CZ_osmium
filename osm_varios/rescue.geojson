@@ -12850,19 +12850,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.0094889,
-          50.2854389
+          15.0095908,
+          50.2852264
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 7425434120,
         "@url": "https://www.openstreetmap.org/node/7425434120",
-        "ref": "3",
-        "name": "Kaplička",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
+        "name": "Kaplička",
         "operator": "VLS",
-        "emergency": "access_point"
+        "ref": "3"
       }
     },
     {
@@ -18379,6 +18379,44 @@
         "highway": "emergency_access_point",
         "operator": "Lesy hl.m.Prahy",
         "ref": "AA009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3903064,
+          49.3655551
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9435831842,
+        "@url": "https://www.openstreetmap.org/node/9435831842",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Městská správa lesů Pelhřimov, a.s.",
+        "ref": "JI016"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0695215,
+          48.616881
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9437721762,
+        "@url": "https://www.openstreetmap.org/node/9437721762",
+        "highway": "emergency_access_point",
+        "name": "26",
+        "operator": "VLS ČR",
+        "ref": "26"
       }
     },
     {

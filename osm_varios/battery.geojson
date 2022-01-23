@@ -2230,30 +2230,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4811047,
-          50.1304799
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2622205768,
-        "@url": "https://www.openstreetmap.org/node/2622205768",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.2418939,
           49.7963918
         ]
@@ -9193,6 +9169,32 @@
         "recycling:fluorescent_tubes": "yes",
         "recycling:low_energy_bulbs": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4812337,
+          50.1306252
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8401080918,
+        "@url": "https://www.openstreetmap.org/node/8401080918",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17226,6 +17228,55 @@
         "type": "LineString",
         "coordinates": [
           [
+            13.1995598,
+            49.5618186
+          ],
+          [
+            13.2002592,
+            49.5610232
+          ],
+          [
+            13.2008107,
+            49.5611931
+          ],
+          [
+            13.2002315,
+            49.5620524
+          ],
+          [
+            13.1995598,
+            49.5618186
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1001050019,
+        "@url": "https://www.openstreetmap.org/way/1001050019",
+        "addr:city": "Merklín",
+        "addr:postcode": "33452",
+        "addr:street": "U Zámku",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Merklín",
+        "operator": "Marius Pedersen a.s.",
+        "operator:type": "public",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/zapadoceske-komunalni-sluzby-a-s/provozovny-k-dispozici/274-sberny-dvur-merklin.shtml"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             18.3301721,
             49.8161835
           ],
@@ -17432,6 +17483,92 @@
         "recycling:electrical_appliances": "yes",
         "recycling:shoes": "yes",
         "recycling:waste": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1010127,
+            49.5901313
+          ],
+          [
+            13.1011701,
+            49.5902156
+          ],
+          [
+            13.1013475,
+            49.5903103
+          ],
+          [
+            13.1014073,
+            49.590264
+          ],
+          [
+            13.101394,
+            49.590257
+          ],
+          [
+            13.1018187,
+            49.5899401
+          ],
+          [
+            13.1018244,
+            49.5899431
+          ],
+          [
+            13.1018945,
+            49.5898903
+          ],
+          [
+            13.1014954,
+            49.5896702
+          ],
+          [
+            13.1013532,
+            49.5896242
+          ],
+          [
+            13.1012586,
+            49.5897402
+          ],
+          [
+            13.1013961,
+            49.5897928
+          ],
+          [
+            13.101315,
+            49.5899024
+          ],
+          [
+            13.1012895,
+            49.589905
+          ],
+          [
+            13.1010127,
+            49.5901313
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1023611497,
+        "@url": "https://www.openstreetmap.org/way/1023611497",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr města Holýšov",
+        "operator": "Marius Pedersen a.s.",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/zapadoceske-komunalni-sluzby-a-s/provozovny-k-dispozici/104-sberny-dvur-holysov.shtml"
       }
     },
     {
@@ -23785,6 +23922,59 @@
           [
             [
               [
+                13.1995598,
+                49.5618186
+              ],
+              [
+                13.2002592,
+                49.5610232
+              ],
+              [
+                13.2008107,
+                49.5611931
+              ],
+              [
+                13.2002315,
+                49.5620524
+              ],
+              [
+                13.1995598,
+                49.5618186
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1001050019,
+        "@url": "https://www.openstreetmap.org/way/1001050019",
+        "addr:city": "Merklín",
+        "addr:postcode": "33452",
+        "addr:street": "U Zámku",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Merklín",
+        "operator": "Marius Pedersen a.s.",
+        "operator:type": "public",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/zapadoceske-komunalni-sluzby-a-s/provozovny-k-dispozici/274-sberny-dvur-merklin.shtml"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 18.3294278,
                 49.8161705
               ],
@@ -24001,6 +24191,96 @@
         "recycling:electrical_appliances": "yes",
         "recycling:shoes": "yes",
         "recycling:waste": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.1010127,
+                49.5901313
+              ],
+              [
+                13.1012895,
+                49.589905
+              ],
+              [
+                13.101315,
+                49.5899024
+              ],
+              [
+                13.1013961,
+                49.5897928
+              ],
+              [
+                13.1012586,
+                49.5897402
+              ],
+              [
+                13.1013532,
+                49.5896242
+              ],
+              [
+                13.1014954,
+                49.5896702
+              ],
+              [
+                13.1018945,
+                49.5898903
+              ],
+              [
+                13.1018244,
+                49.5899431
+              ],
+              [
+                13.1018187,
+                49.5899401
+              ],
+              [
+                13.101394,
+                49.590257
+              ],
+              [
+                13.1014073,
+                49.590264
+              ],
+              [
+                13.1013475,
+                49.5903103
+              ],
+              [
+                13.1011701,
+                49.5902156
+              ],
+              [
+                13.1010127,
+                49.5901313
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1023611497,
+        "@url": "https://www.openstreetmap.org/way/1023611497",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr města Holýšov",
+        "operator": "Marius Pedersen a.s.",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/zapadoceske-komunalni-sluzby-a-s/provozovny-k-dispozici/104-sberny-dvur-holysov.shtml"
       }
     }
   ]

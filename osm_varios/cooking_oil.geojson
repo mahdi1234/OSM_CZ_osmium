@@ -9566,6 +9566,85 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4244532,
+            49.5521842
+          ],
+          [
+            16.4244875,
+            49.5522017
+          ],
+          [
+            16.4245465,
+            49.5522317
+          ],
+          [
+            16.424684,
+            49.5521722
+          ],
+          [
+            16.4248491,
+            49.5521016
+          ],
+          [
+            16.4248462,
+            49.5520989
+          ],
+          [
+            16.4249363,
+            49.5520607
+          ],
+          [
+            16.4252165,
+            49.5519636
+          ],
+          [
+            16.4248921,
+            49.5517497
+          ],
+          [
+            16.4246391,
+            49.5518478
+          ],
+          [
+            16.4244532,
+            49.5521842
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1019096896,
+        "@url": "https://www.openstreetmap.org/way/1019096896",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Su 09:00 - 11:00",
+        "opening_hours:covid19": "same",
+        "operator": "Město Olešnice",
+        "operator:type": "public",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.olesnice.cz/zpravy-z-radnice/sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -11996,6 +12075,89 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevicko.cz/sberny-dvur-likvidace-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4244532,
+                49.5521842
+              ],
+              [
+                16.4246391,
+                49.5518478
+              ],
+              [
+                16.4248921,
+                49.5517497
+              ],
+              [
+                16.4252165,
+                49.5519636
+              ],
+              [
+                16.4249363,
+                49.5520607
+              ],
+              [
+                16.4248462,
+                49.5520989
+              ],
+              [
+                16.4248491,
+                49.5521016
+              ],
+              [
+                16.424684,
+                49.5521722
+              ],
+              [
+                16.4245465,
+                49.5522317
+              ],
+              [
+                16.4244875,
+                49.5522017
+              ],
+              [
+                16.4244532,
+                49.5521842
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1019096896,
+        "@url": "https://www.openstreetmap.org/way/1019096896",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Su 09:00 - 11:00",
+        "opening_hours:covid19": "same",
+        "operator": "Město Olešnice",
+        "operator:type": "public",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.olesnice.cz/zpravy-z-radnice/sberny-dvur"
       }
     }
   ]

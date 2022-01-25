@@ -1084,11 +1084,12 @@
         "@type": "node",
         "@id": 2114797838,
         "@url": "https://www.openstreetmap.org/node/2114797838",
-        "url": "www.pivovarubulovky.cz",
-        "name": "Pivovar u Bulovky",
         "amenity": "restaurant",
+        "check_date:opening_hours": "2022-01-24",
         "microbrewery": "yes",
-        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-23:00"
+        "name": "Pivovar u Bulovky",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-23:00",
+        "url": "www.pivovarubulovky.cz"
       }
     },
     {
@@ -2081,6 +2082,39 @@
         "@url": "https://www.openstreetmap.org/node/3158110704",
         "name": "Pivovar Popelín",
         "craft": "brewery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6071843,
+          49.1952277
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3159165871,
+        "@url": "https://www.openstreetmap.org/node/3159165871",
+        "addr:city": "Brno",
+        "addr:housenumber": "93/22",
+        "addr:postcode": "60200",
+        "addr:street": "náměstí Svobody",
+        "amenity": "restaurant",
+        "capacity": "120",
+        "check_date:opening_hours": "2021-09-13",
+        "contact:facebook": "https://www.facebook.com/zazijbrno/",
+        "contact:instagram": "https://www.instagram.com/zazijbrnoutomana/",
+        "cuisine": "regional",
+        "email": "restaurace@utomana.cz",
+        "microbrewery": "yes",
+        "name": "U Tomana",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-23:00",
+        "phone": "+420 727 843 000",
+        "smoking": "no",
+        "website": "https://www.utomana.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4089,6 +4123,7 @@
         "craft": "brewery",
         "email": "info@pivovarsusice.cz",
         "image": "https://webmium.blob.core.windows.net/users/126346/logos/mobile/5b6dd37f-dbb1-4607-8561-d0621a902d67/1.png",
+        "image:0": "https://i.imgur.com/luqNOu3.jpg",
         "internet_access": "yes",
         "internet_access:fee": "no",
         "microbrewery": "yes",
@@ -5751,6 +5786,42 @@
         "phone": "+420777 999 219",
         "source": "survey",
         "website": "https://www.facebook.com/restauracepivovardmz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5896229,
+          49.0880012
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9444342103,
+        "@url": "https://www.openstreetmap.org/node/9444342103",
+        "craft": "brewery",
+        "name": "DUCK&DOG",
+        "website": "https://www.duckdog.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7480307,
+          50.2143843
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9444395469,
+        "@url": "https://www.openstreetmap.org/node/9444395469",
+        "craft": "brewery",
+        "name": "Pivovar Beránek",
+        "website": "http://www.pivovarberanek.cz/"
       }
     },
     {

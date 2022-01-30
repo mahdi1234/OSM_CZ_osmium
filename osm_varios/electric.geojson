@@ -12829,12 +12829,13 @@
         "@id": 7575417793,
         "@url": "https://www.openstreetmap.org/node/7575417793",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:shoes": "yes",
-        "recycling:clothes": "yes",
+        "opening_hours": "24/7",
         "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:small_electrical_appliances": "yes"
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -18669,7 +18670,7 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -21480,6 +21481,103 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3978212,
+          48.8297245
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9456732142,
+        "@url": "https://www.openstreetmap.org/node/9456732142",
+        "amenity": "recycling",
+        "description": "2x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - čiré sklo - bílý 1300l, 1x kontejner - směsné sklo - zelený, 1x kontejner - elektro - červený",
+        "name": "Kontejnery na tříděný odpad",
+        "name:cs": "Kontejnery na tříděný odpad",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3993582,
+          48.819893
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9457631455,
+        "@url": "https://www.openstreetmap.org/node/9457631455",
+        "amenity": "recycling",
+        "description": "1x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - směsné sklo - zelený 1100l, 1x kontejner - elektro - červený",
+        "name": "Kontejnery na tříděný odpad",
+        "name:cs": "Kontejnery na tříděný odpad",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3999399,
+          48.8268992
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9457631457,
+        "@url": "https://www.openstreetmap.org/node/9457631457",
+        "amenity": "recycling",
+        "description": "1x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - čiré sklo - bílý 1300l, 1x kontejner - směsné sklo - zelený 1100l, 1x kontejner - elektro - červený, 1x kontejner - kov - šedý 1100l",
+        "name": "Kontejnery na tříděný odpad",
+        "name:cs": "Kontejnery na tříděný odpad",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:small_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3997926,
+          48.8295781
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9457631458,
+        "@url": "https://www.openstreetmap.org/node/9457631458",
+        "amenity": "recycling",
+        "description": "2x kontejner - papír - modrý 1100l, 3x kontejner - plast - žlutý 1100l, 1x kontejner - elektro - červený, 1x kontejner - kov - šedý 1100l",
+        "name": "Kontejnery na tříděný odpad",
+        "name:cs": "Kontejnery na tříděný odpad",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:small_metal": "yes",
         "recycling_type": "container"
       }
     },

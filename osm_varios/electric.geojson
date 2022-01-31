@@ -4286,8 +4286,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.7751048,
-          50.5513049
+          13.7751906,
+          50.5512879
         ]
       },
       "properties": {
@@ -4295,17 +4295,17 @@
         "@id": 3801353873,
         "@url": "https://www.openstreetmap.org/node/3801353873",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -21578,6 +21578,27 @@
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling:small_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6785244,
+          49.6733354
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9460524992,
+        "@url": "https://www.openstreetmap.org/node/9460524992",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

@@ -4079,8 +4079,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6325333,
-          49.197775
+          16.6325109,
+          49.1977655
         ]
       },
       "properties": {
@@ -18678,40 +18678,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4022753,
-          48.8292993
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9171870953,
-        "@url": "https://www.openstreetmap.org/node/9171870953",
-        "amenity": "recycling",
-        "description": "1x kontejner - sklo čiré - bílý 1300l, 1x kontejner - sklo směsné - zelený 1100l, 1x kontejner - papír - modrý 1100l, 1x kontejner - plast - žlutý 1100l, 1x kontejner - elektro - červený",
-        "recycling:PET": "yes",
-        "recycling:books": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bags": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:polystyrene_foam": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.373128,
           49.7818707
         ]
@@ -21557,8 +21523,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3993582,
-          48.819893
+          16.3995673,
+          48.8198464
         ]
       },
       "properties": {
@@ -21566,7 +21532,7 @@
         "@id": 9457631455,
         "@url": "https://www.openstreetmap.org/node/9457631455",
         "amenity": "recycling",
-        "description": "1x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - směsné sklo - zelený 1100l, 1x kontejner - elektro - červený",
+        "description": "2x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - směsné sklo - zelený 1100l, 1x kontejner - elektro - červený",
         "recycling:PET": "yes",
         "recycling:books": "yes",
         "recycling:cardboard": "yes",
@@ -21600,7 +21566,7 @@
         "@id": 9457631457,
         "@url": "https://www.openstreetmap.org/node/9457631457",
         "amenity": "recycling",
-        "description": "1x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - čiré sklo - bílý 1300l, 1x kontejner - směsné sklo - zelený 1100l, 1x kontejner - elektro - červený, 1x kontejner - kov - šedý 1100l",
+        "description": "2x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - čiré sklo - bílý 1300l, 1x kontejner - směsné sklo - zelený 1100l, 1x kontejner - elektro - červený, 1x kontejner - kov - šedý 1100l",
         "recycling:PET": "yes",
         "recycling:aerosol_cans": "yes",
         "recycling:aluminium": "yes",
@@ -21631,26 +21597,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3997926,
-          48.8295781
+          16.3953365,
+          48.8335219
         ]
       },
       "properties": {
         "@type": "node",
-        "@id": 9457631458,
-        "@url": "https://www.openstreetmap.org/node/9457631458",
+        "@id": 9457631464,
+        "@url": "https://www.openstreetmap.org/node/9457631464",
         "amenity": "recycling",
-        "description": "2x kontejner - papír - modrý 1100l, 3x kontejner - plast - žlutý 1100l, 1x kontejner - elektro - červený, 1x kontejner - kov - šedý 1100l",
+        "description": "2x kontejner - papír - modrý 1100l, 2x kontejner - plast - žlutý 1100l, 1x kontejner - čiré sklo - bílý 1300l, 1x kontejner - směsné sklo - zelený 1100l, 1x kontejner - elektro - červený",
         "recycling:PET": "yes",
-        "recycling:aerosol_cans": "yes",
-        "recycling:aluminium": "yes",
         "recycling:books": "yes",
-        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:magazines": "yes",
-        "recycling:metal": "yes",
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
@@ -21658,9 +21622,7 @@
         "recycling:plastic_bags": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:polystyrene_foam": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling:small_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -21681,6 +21643,27 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3996433,
+          48.8300192
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9469000890,
+        "@url": "https://www.openstreetmap.org/node/9469000890",
+        "amenity": "recycling",
+        "description": "1x kontejner - elektro",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }

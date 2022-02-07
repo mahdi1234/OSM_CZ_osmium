@@ -3445,8 +3445,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8133914,
-          50.202026
+          15.8133284,
+          50.2020694
         ]
       },
       "properties": {
@@ -3454,12 +3454,14 @@
         "@id": 3896304477,
         "@url": "https://www.openstreetmap.org/node/3896304477",
         "amenity": "recycling",
-        "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:small_appliances": "yes"
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -6773,6 +6775,36 @@
         "recycling:plastic_bottles": "yes",
         "recycling:small_appliances": "yes",
         "recycling:electrical_appliances": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7203404,
+          49.8524995
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6856016683,
+        "@url": "https://www.openstreetmap.org/node/6856016683",
+        "amenity": "recycling",
+        "name": "Skládka Chotětín, sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:oil": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.zbiroh.cz/mesto/odpadove-hospodarstvi/skladka-chotetin-sberny-dvur"
       }
     },
     {

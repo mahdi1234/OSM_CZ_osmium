@@ -38,10 +38,10 @@
         "@type": "node",
         "@id": 2919876683,
         "@url": "https://www.openstreetmap.org/node/2919876683",
-        "name": "ekolamp box",
         "amenity": "waste_basket",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:fluorescent_tubes": "yes"
+        "name": "ekolamp box",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:low_energy_bulbs": "yes"
       }
     },
     {
@@ -57,26 +57,26 @@
         "@type": "node",
         "@id": 3304591377,
         "@url": "https://www.openstreetmap.org/node/3304591377",
+        "addr:city": "Praha 6",
+        "addr:housenumber": "8",
+        "addr:postcode": "16900",
+        "addr:street": "Závěrka",
+        "email": "helpdesk@spoje.net",
+        "internet_access": "service",
         "name": "SPOJE.NET s.r.o.",
         "note": "Internet Service Provider, Server housing, Virtual servers, Webhosting, Mailhosting, Fiber optics, Wi-Fi, Security systems, CCTV, General help with computers. Possible to individually negotiate payment in cryptocurrencies using mail, phone or in person.",
-        "shop": "computer",
-        "email": "helpdesk@spoje.net",
-        "phone": "+420 608 233 232",
         "office": "it",
-        "website": "http://www.spoje.net/",
-        "addr:city": "Praha 6",
-        "addr:street": "Závěrka",
-        "payment:cash": "yes",
-        "addr:postcode": "16900",
         "opening_hours": "Mo-Fr 9:00-19:00",
-        "payment:paypal": "yes",
-        "internet_access": "service",
         "payment:bitcoin": "yes",
-        "addr:housenumber": "8",
+        "payment:cash": "yes",
+        "payment:paypal": "yes",
         "payment:wire_transfer": "yes",
+        "phone": "+420 608 233 232",
         "recycling:low_energy_bulbs": "yes",
+        "recycling:printer_cartridges": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:printer_cartridges": "yes"
+        "shop": "computer",
+        "website": "http://www.spoje.net/"
       }
     },
     {
@@ -135,10 +135,10 @@
         "@id": 4309170164,
         "@url": "https://www.openstreetmap.org/node/4309170164",
         "name": "Elektro",
-        "shop": "electronics",
-        "operator": "Proton",
         "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00; Sa 08:00-11:30; Su,PH off",
-        "recycling:electrical_appliances": "yes"
+        "operator": "Proton",
+        "recycling:electrical_appliances": "yes",
+        "shop": "electronics"
       }
     },
     {

@@ -44,18 +44,18 @@
         "@type": "node",
         "@id": 2322812108,
         "@url": "https://www.openstreetmap.org/node/2322812108",
-        "name": "Pivárium",
-        "shop": "beverages",
         "addr:city": "Nové Strašecí",
-        "ref:ruian": "21368970",
-        "drink:beer": "yes",
+        "addr:conscriptionnumber": "31",
+        "addr:country": "CZ",
+        "addr:housenumber": "31",
+        "addr:postcode": "27101",
         "addr:street": "Palackého",
         "description": "Víc než 200 druhů piv. Piva z malých pivovarů",
-        "source:addr": "ruian",
-        "addr:country": "CZ",
-        "addr:postcode": "27101",
-        "addr:housenumber": "31",
-        "addr:conscriptionnumber": "31"
+        "drink:beer": "yes",
+        "name": "Pivárium",
+        "ref:ruian": "21368970",
+        "shop": "beverages",
+        "source:addr": "ruian"
       }
     },
     {
@@ -104,9 +104,9 @@
         "@type": "node",
         "@id": 2392717680,
         "@url": "https://www.openstreetmap.org/node/2392717680",
+        "drink:beer": "yes",
         "name": "Pivovar Klášter",
-        "shop": "alcohol",
-        "drink:beer": "yes"
+        "shop": "alcohol"
       }
     },
     {
@@ -122,10 +122,10 @@
         "@type": "node",
         "@id": 2408146787,
         "@url": "https://www.openstreetmap.org/node/2408146787",
-        "name": "BeerGeek Pivotéka",
-        "shop": "beverages",
         "drink:beer": "yes",
-        "opening_hours": "Mo-Fr 13:00-21:00; Sa 11:00-21:00; Su 15:00-20:00"
+        "name": "BeerGeek Pivotéka",
+        "opening_hours": "Mo-Fr 13:00-21:00; Sa 11:00-21:00; Su 15:00-20:00",
+        "shop": "beverages"
       }
     },
     {
@@ -205,10 +205,10 @@
         "@type": "node",
         "@id": 3155117978,
         "@url": "https://www.openstreetmap.org/node/3155117978",
-        "name": "Fedrinx",
-        "shop": "alcohol",
         "drink:beer": "yes",
-        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00"
+        "name": "Fedrinx",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+        "shop": "alcohol"
       }
     },
     {
@@ -276,11 +276,11 @@
         "@type": "node",
         "@id": 3468140934,
         "@url": "https://www.openstreetmap.org/node/3468140934",
-        "shop": "alcohol",
         "amenity": "bar",
-        "smoking": "outside",
         "drink:beer": "yes",
-        "drink:wine": "yes"
+        "drink:wine": "yes",
+        "shop": "alcohol",
+        "smoking": "outside"
       }
     },
     {
@@ -553,15 +553,15 @@
         "@type": "node",
         "@id": 5740966739,
         "@url": "https://www.openstreetmap.org/node/5740966739",
-        "name": "Pivotéka|Vinotéka",
-        "shop": "alcohol",
-        "website": "http://pivoteka-hranice.cz/",
         "addr:city": "Hranice",
+        "addr:housenumber": "380",
+        "addr:postcode": "75301",
+        "addr:street": "Komenského",
         "drink:beer": "yes",
         "drink:wine": "yes",
-        "addr:street": "Komenského",
-        "addr:postcode": "75301",
-        "addr:housenumber": "380"
+        "name": "Pivotéka|Vinotéka",
+        "shop": "alcohol",
+        "website": "http://pivoteka-hranice.cz/"
       }
     },
     {

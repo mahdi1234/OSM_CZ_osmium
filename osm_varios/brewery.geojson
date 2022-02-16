@@ -48,17 +48,17 @@
         "@type": "node",
         "@id": 291203598,
         "@url": "https://www.openstreetmap.org/node/291203598",
-        "name": "Penzion Pod Pralesem",
         "amenity": "restaurant",
         "brewery": "Karlovský minipivovar Pod Pralesem",
-        "cuisine": "regional",
-        "tourism": "hotel",
-        "microbrewery": "yes",
         "contact:email": "recepce@podpralesem.cz",
+        "contact:facebook": "https://www.facebook.com/Penzion-Pod-Pralesem-114508615411415",
         "contact:phone": "+420 571 444 747",
         "contact:website": "http://podpralesem.cz",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "Penzion Pod Pralesem",
         "outdoor_seating": "yes",
-        "contact:facebook": "https://www.facebook.com/Penzion-Pod-Pralesem-114508615411415"
+        "tourism": "hotel"
       }
     },
     {
@@ -130,14 +130,14 @@
         "@type": "node",
         "@id": 296580404,
         "@url": "https://www.openstreetmap.org/node/296580404",
-        "name": "Zámek Zábřeh",
         "amenity": "restaurant",
-        "cuisine": "regional",
-        "tourism": "hotel",
-        "microbrewery": "yes",
         "contact:email": "info@zamek-zabreh.cz",
+        "contact:website": "http://www.zamek-zabreh.cz/",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "Zámek Zábřeh",
         "opening_hours": "May-Sep Mo-Tu,Su 12:00-23:00, Fr,Sa 12:00-24:00; Aug-Apr Mo-Th 17:00-23:00, Fr, Sa 17:00-24:00",
-        "contact:website": "http://www.zamek-zabreh.cz/"
+        "tourism": "hotel"
       }
     },
     {
@@ -180,31 +180,31 @@
         "@type": "node",
         "@id": 331959659,
         "@url": "https://www.openstreetmap.org/node/331959659",
-        "name": "U Fleků",
-        "email": "ufleku@ufleku.cz",
-        "phone": "+420 224 934 019",
-        "source": "local knowledge",
+        "addr:city": "Praha",
+        "addr:conscriptionnumber": "1651",
+        "addr:country": "CZ",
+        "addr:housenumber": "1651/11",
+        "addr:place": "Nové Město",
+        "addr:postcode": "11000",
+        "addr:street": "Křemencova",
+        "addr:streetnumber": "11",
+        "addr:suburb": "Praha 1",
         "amenity": "restaurant",
         "cuisine": "czech;regional",
+        "email": "ufleku@ufleku.cz",
+        "microbrewery": "yes",
+        "name": "U Fleků",
         "name:cs": "U Fleků",
         "name:en": "U Fleků",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+420 224 934 019",
+        "ref:ruian:addr": "21713197",
+        "source": "local knowledge",
+        "source:addr": "cuzk:ruian",
         "website": "http://ufleku.cz/",
         "wikidata": "Q1581385",
-        "addr:city": "Praha",
-        "wikipedia": "cs:Pivovar U Fleků",
-        "addr:place": "Nové Město",
-        "addr:street": "Křemencova",
-        "addr:suburb": "Praha 1",
-        "source:addr": "cuzk:ruian",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "11000",
-        "opening_hours": "Mo-Su 10:00-23:00",
-        "ref:ruian:addr": "21713197",
-        "outdoor_seating": "yes",
-        "addr:housenumber": "1651/11",
-        "addr:streetnumber": "11",
-        "addr:conscriptionnumber": "1651"
+        "wikipedia": "cs:Pivovar U Fleků"
       }
     },
     {
@@ -269,15 +269,15 @@
         "@type": "node",
         "@id": 365747894,
         "@url": "https://www.openstreetmap.org/node/365747894",
-        "name": "Hejkal",
+        "amenity": "pub",
         "craft": "brewery",
         "email": "hejkal@pivovarhejkal.cz",
-        "phone": "+420 720623902",
-        "amenity": "pub",
-        "website": "http://pivovarhejkal.cz/",
         "microbrewery": "yes",
+        "name": "Hejkal",
         "opening_hours": "Mo-Su 14:00-22:00",
-        "outdoor_seating": "yes"
+        "outdoor_seating": "yes",
+        "phone": "+420 720623902",
+        "website": "http://pivovarhejkal.cz/"
       }
     },
     {
@@ -293,14 +293,14 @@
         "@type": "node",
         "@id": 473226958,
         "@url": "https://www.openstreetmap.org/node/473226958",
-        "name": "U Dvou koček",
-        "phone": "+420 224 229 982",
         "amenity": "restaurant",
-        "website": "http://www.udvoukocek.cz",
-        "wheelchair": "no",
         "microbrewery": "yes",
+        "microbrewery:description": "Beer receipt since Mozart times.",
+        "name": "U Dvou koček",
         "opening_hours": "Mo-Su 11:00-23:00",
-        "microbrewery:description": "Beer receipt since Mozart times."
+        "phone": "+420 224 229 982",
+        "website": "http://www.udvoukocek.cz",
+        "wheelchair": "no"
       }
     },
     {
@@ -316,14 +316,14 @@
         "@type": "node",
         "@id": 620043482,
         "@url": "https://www.openstreetmap.org/node/620043482",
-        "name": "Pohostinství Pod Zámkem - Pivovar Šenov",
         "amenity": "pub",
         "brewery": "Pivovar Šenov",
-        "operator": "fa Mr. Sládek s.r.o.",
-        "microbrewery": "yes",
         "contact:email": "info@mr-sladek.cz",
         "contact:phone": "774 249 570",
-        "contact:website": "https://www.pivovar-senov.cz/"
+        "contact:website": "https://www.pivovar-senov.cz/",
+        "microbrewery": "yes",
+        "name": "Pohostinství Pod Zámkem - Pivovar Šenov",
+        "operator": "fa Mr. Sládek s.r.o."
       }
     },
     {
@@ -339,25 +339,25 @@
         "@type": "node",
         "@id": 677924404,
         "@url": "https://www.openstreetmap.org/node/677924404",
-        "name": "U Medvídků",
-        "phone": "+420 224 211 916",
+        "addr:city": "Praha",
+        "addr:conscriptionnumber": "345",
+        "addr:country": "CZ",
+        "addr:housenumber": "345/7",
+        "addr:postcode": "11000",
+        "addr:street": "Na Perštýně",
+        "addr:streetnumber": "7",
+        "addr:unit": "7",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "website": "https://www.umedvidku.cz/",
-        "addr:city": "Praha",
-        "addr:unit": "7",
-        "addr:street": "Na Perštýně",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "11000",
-        "opening_hours": "Mo-Su 11:30-23:00",
-        "addr:housenumber": "345/7",
         "language:menu:cs": "yes",
         "language:menu:de": "yes",
         "language:menu:en": "yes",
         "language:menu:ru": "yes",
-        "addr:streetnumber": "7",
-        "addr:conscriptionnumber": "345"
+        "microbrewery": "yes",
+        "name": "U Medvídků",
+        "opening_hours": "Mo-Su 11:30-23:00",
+        "phone": "+420 224 211 916",
+        "website": "https://www.umedvidku.cz/"
       }
     },
     {
@@ -373,18 +373,18 @@
         "@type": "node",
         "@id": 850050240,
         "@url": "https://www.openstreetmap.org/node/850050240",
-        "name": "U Bezoušku",
-        "note": "see http://www.openstreetmap.org/note/621002",
+        "addr:city": "Průhonice",
+        "addr:housenumber": "5",
+        "addr:postcode": "25243",
+        "addr:street": "Květnové náměstí",
         "amenity": "disused",
+        "contact:phone": "+420267750551",
         "cuisine": "regional",
         "disused": "restaurant",
-        "website": "http://www.ubezousku.cz/",
-        "addr:city": "Průhonice",
-        "addr:street": "Květnové náměstí",
         "microbrewery": "yes",
-        "addr:postcode": "25243",
-        "contact:phone": "+420267750551",
-        "addr:housenumber": "5"
+        "name": "U Bezoušku",
+        "note": "see http://www.openstreetmap.org/note/621002",
+        "website": "http://www.ubezousku.cz/"
       }
     },
     {
@@ -400,18 +400,18 @@
         "@type": "node",
         "@id": 888551217,
         "@url": "https://www.openstreetmap.org/node/888551217",
-        "name": "Malešický mikropivovar",
-        "email": "info@malesickymikropivovar.cz",
-        "phone": "+420 605 707 007",
         "amenity": "restaurant",
+        "amenity_1": "brewery",
         "brewery": "self;various",
         "cuisine": "regional",
-        "smoking": "outside",
-        "website": "http://www.malesickymikropivovar.cz/",
-        "real_ale": "yes",
-        "amenity_1": "brewery",
+        "email": "info@malesickymikropivovar.cz",
+        "internet_access": "wlan",
         "microbrewery": "yes",
-        "internet_access": "wlan"
+        "name": "Malešický mikropivovar",
+        "phone": "+420 605 707 007",
+        "real_ale": "yes",
+        "smoking": "outside",
+        "website": "http://www.malesickymikropivovar.cz/"
       }
     },
     {
@@ -427,18 +427,18 @@
         "@type": "node",
         "@id": 942823973,
         "@url": "https://www.openstreetmap.org/node/942823973",
-        "name": "Restaurace Na obci",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "smoking": "separated",
-        "website": "http://restaurace-obec.cz/",
-        "takeaway": "yes",
-        "wheelchair": "yes",
-        "microbrewery": "yes",
-        "opening_hours": "Su-th 09:00-22:00,Fr-Sa 09:00-24:00",
         "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Restaurace Na obci",
+        "opening_hours": "Su-th 09:00-22:00,Fr-Sa 09:00-24:00",
         "outdoor_seating": "yes",
-        "internet_access:fee": "no"
+        "smoking": "separated",
+        "takeaway": "yes",
+        "website": "http://restaurace-obec.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -482,21 +482,21 @@
         "@type": "node",
         "@id": 1068488604,
         "@url": "https://www.openstreetmap.org/node/1068488604",
-        "name": "Jihoměstský pivovar",
-        "email": "jihomestskypivovar@seznam.cz",
-        "phone": "+420222352242",
+        "addr:conscriptionnumber": "1602",
+        "addr:housenumber": "1602/11",
+        "addr:street": "Podjavorinské",
+        "addr:streetnumber": "11",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "smoking": "no",
-        "website": "http://www.jihomestskypivovar.cz/",
-        "addr:street": "Podjavorinské",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Th 17:00-23:00; Fr 17:00-24:00; Sa 17:00-24:00; Su 17:00-22:30",
+        "email": "jihomestskypivovar@seznam.cz",
         "internet_access": "wlan",
-        "addr:housenumber": "1602/11",
-        "addr:streetnumber": "11",
         "internet_access:fee": "no",
-        "addr:conscriptionnumber": "1602"
+        "microbrewery": "yes",
+        "name": "Jihoměstský pivovar",
+        "opening_hours": "Mo-Th 17:00-23:00; Fr 17:00-24:00; Sa 17:00-24:00; Su 17:00-22:30",
+        "phone": "+420222352242",
+        "smoking": "no",
+        "website": "http://www.jihomestskypivovar.cz/"
       }
     },
     {
@@ -512,15 +512,15 @@
         "@type": "node",
         "@id": 1214804263,
         "@url": "https://www.openstreetmap.org/node/1214804263",
-        "name": "Sladovna a pivovar",
-        "craft": "brewery",
         "addr:city": "Kounice",
-        "addr:place": "Kounice",
+        "addr:conscriptionnumber": "52",
         "addr:country": "CZ",
-        "addr:postcode": "28915",
-        "ref:ruian:addr": "1139550",
         "addr:housenumber": "52",
-        "addr:conscriptionnumber": "52"
+        "addr:place": "Kounice",
+        "addr:postcode": "28915",
+        "craft": "brewery",
+        "name": "Sladovna a pivovar",
+        "ref:ruian:addr": "1139550"
       }
     },
     {
@@ -536,14 +536,14 @@
         "@type": "node",
         "@id": 1226744002,
         "@url": "https://www.openstreetmap.org/node/1226744002",
-        "url": "http://www.npivovar.cz",
-        "name": "Novoměstský pivovar",
-        "amenity": "restaurant",
         "addr:city": "Praha",
-        "addr:street": "Vodičkova",
-        "microbrewery": "yes",
+        "addr:housenumber": "20",
         "addr:postcode": "11000",
-        "addr:housenumber": "20"
+        "addr:street": "Vodičkova",
+        "amenity": "restaurant",
+        "microbrewery": "yes",
+        "name": "Novoměstský pivovar",
+        "url": "http://www.npivovar.cz"
       }
     },
     {
@@ -559,9 +559,9 @@
         "@type": "node",
         "@id": 1234616066,
         "@url": "https://www.openstreetmap.org/node/1234616066",
-        "name": "Na Rychtě",
         "amenity": "restaurant",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Na Rychtě"
       }
     },
     {
@@ -577,14 +577,14 @@
         "@type": "node",
         "@id": 1280378203,
         "@url": "https://www.openstreetmap.org/node/1280378203",
-        "name": "Dalešický pivovar",
+        "amenity": "restaurant",
         "email": "recepce@pivovar-dalesice.cz",
+        "microbrewery": "yes",
+        "name": "Dalešický pivovar",
+        "opening_hours": "Mo-Sa 10:30-23:00; Su 10:30-21:00",
         "phone": "+420 568 860 942",
         "source": "uhul:ortofoto;cuzk:km",
-        "amenity": "restaurant",
-        "website": "www.pivovar-dalesice.cz",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Sa 10:30-23:00; Su 10:30-21:00"
+        "website": "www.pivovar-dalesice.cz"
       }
     },
     {
@@ -630,16 +630,16 @@
         "@type": "node",
         "@id": 1414770616,
         "@url": "https://www.openstreetmap.org/node/1414770616",
-        "name": "Minipivovar Krmelín a Hospoda u Hodže",
-        "amenity": "pub",
-        "addr:place": "Krmelín",
-        "addr:street": "Brušperská",
+        "addr:conscriptionnumber": "22",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "73924",
-        "ref:ruian:addr": "14148021",
         "addr:housenumber": "22",
-        "addr:conscriptionnumber": "22"
+        "addr:place": "Krmelín",
+        "addr:postcode": "73924",
+        "addr:street": "Brušperská",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Minipivovar Krmelín a Hospoda u Hodže",
+        "ref:ruian:addr": "14148021"
       }
     },
     {
@@ -763,14 +763,14 @@
         "@type": "node",
         "@id": 1504882255,
         "@url": "https://www.openstreetmap.org/node/1504882255",
-        "name": "Pivovar Kelč",
-        "craft": "brewery",
-        "addr:place": "Kelč",
+        "addr:conscriptionnumber": "112",
         "addr:country": "CZ",
-        "addr:postcode": "75643",
-        "ref:ruian:addr": "21684120",
         "addr:housenumber": "112",
-        "addr:conscriptionnumber": "112"
+        "addr:place": "Kelč",
+        "addr:postcode": "75643",
+        "craft": "brewery",
+        "name": "Pivovar Kelč",
+        "ref:ruian:addr": "21684120"
       }
     },
     {
@@ -786,20 +786,20 @@
         "@type": "node",
         "@id": 1567852281,
         "@url": "https://www.openstreetmap.org/node/1567852281",
-        "name": "Pivovar Novosad",
-        "phone": "+320 481 528100",
         "amenity": "restaurant",
-        "website": "http://www.pivovarharrachov.cz",
-        "operator": "Chech Inn Hotels s.r.o",
-        "wheelchair": "no",
         "microbrewery": "yes",
-        "payment:visa": "yes",
+        "name": "Pivovar Novosad",
         "opening_hours": "Mo-Th 09:00-22:00; Fr 09:00-23:00; Sa 10:00-23:00; Su 10:00-22:00",
-        "payment:coins": "yes",
-        "payment:notes": "yes",
+        "operator": "Chech Inn Hotels s.r.o",
         "outdoor_seating": "yes",
+        "payment:coins": "yes",
         "payment:maestro": "yes",
-        "payment:mastercard": "yes"
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "phone": "+320 481 528100",
+        "website": "http://www.pivovarharrachov.cz",
+        "wheelchair": "no"
       }
     },
     {
@@ -815,15 +815,15 @@
         "@type": "node",
         "@id": 1585831456,
         "@url": "https://www.openstreetmap.org/node/1585831456",
-        "name": "U Labutě",
-        "phone": "+420416534837",
-        "amenity": "pub",
-        "name:en": "U Labute",
-        "website": "http://www.minipivovarlabut.cz",
-        "addr:street": "Zítkova",
-        "microbrewery": "yes",
+        "addr:housenumber": "784/5",
         "addr:postcode": "41201",
-        "addr:housenumber": "784/5"
+        "addr:street": "Zítkova",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "U Labutě",
+        "name:en": "U Labute",
+        "phone": "+420416534837",
+        "website": "http://www.minipivovarlabut.cz"
       }
     },
     {
@@ -839,20 +839,20 @@
         "@type": "node",
         "@id": 1695240478,
         "@url": "https://www.openstreetmap.org/node/1695240478",
-        "name": "Minipivovar KUNC",
-        "source": "local knowledge",
-        "amenity": "pub",
-        "website": "http://www.minipivovarkunc.cz/",
-        "addr:place": "Hodonín",
-        "source:loc": "cuzk:km",
-        "addr:street": "Národní třída",
+        "addr:conscriptionnumber": "264",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "69501",
         "addr:housename": "Minipivovar Kunc Hodonín",
         "addr:housenumber": "264/10",
+        "addr:place": "Hodonín",
+        "addr:postcode": "69501",
+        "addr:street": "Národní třída",
         "addr:streetnumber": "10",
-        "addr:conscriptionnumber": "264"
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Minipivovar KUNC",
+        "source": "local knowledge",
+        "source:loc": "cuzk:km",
+        "website": "http://www.minipivovarkunc.cz/"
       }
     },
     {
@@ -868,9 +868,9 @@
         "@type": "node",
         "@id": 1718456345,
         "@url": "https://www.openstreetmap.org/node/1718456345",
-        "name": "Restaurant v pivovaře",
+        "amenity": "restaurant",
         "craft": "brewery",
-        "amenity": "restaurant"
+        "name": "Restaurant v pivovaře"
       }
     },
     {
@@ -886,26 +886,26 @@
         "@type": "node",
         "@id": 1722938665,
         "@url": "https://www.openstreetmap.org/node/1722938665",
-        "name": "Pivovar MMX",
-        "phone": "+420 257 711 296",
-        "amenity": "restaurant",
-        "smoking": "no",
-        "website": "http://mmxpivo.com/",
-        "facebook": "https://www.facebook.com/MMXpivovar/",
         "addr:city": "Lety",
-        "addr:place": "Lety",
-        "addr:street": "Pražská",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "452",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "25229",
-        "opening_hours": "Mo,Su 11:00-21:00; Tu-Th 11:00-23:00; Fr,Sa 11:00-24:00",
-        "ref:ruian:addr": "25443925",
-        "internet_access": "wlan",
-        "outdoor_seating": "yes",
         "addr:housenumber": "452",
+        "addr:place": "Lety",
+        "addr:postcode": "25229",
+        "addr:street": "Pražská",
+        "amenity": "restaurant",
+        "facebook": "https://www.facebook.com/MMXpivovar/",
+        "internet_access": "wlan",
         "internet_access:fee": "no",
-        "addr:conscriptionnumber": "452"
+        "microbrewery": "yes",
+        "name": "Pivovar MMX",
+        "opening_hours": "Mo,Su 11:00-21:00; Tu-Th 11:00-23:00; Fr,Sa 11:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+420 257 711 296",
+        "ref:ruian:addr": "25443925",
+        "smoking": "no",
+        "source:addr": "cuzk:ruian",
+        "website": "http://mmxpivo.com/"
       }
     },
     {
@@ -943,9 +943,9 @@
         "@type": "node",
         "@id": 1813203401,
         "@url": "https://www.openstreetmap.org/node/1813203401",
-        "name": "Pivovar",
         "amenity": "pub",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Pivovar"
       }
     },
     {
@@ -961,15 +961,15 @@
         "@type": "node",
         "@id": 1827982268,
         "@url": "https://www.openstreetmap.org/node/1827982268",
-        "name": "Pivovar Kujeba",
-        "craft": "brewery",
-        "addr:place": "Litomyšlské Předměstí",
-        "addr:street": "Žižkova",
+        "addr:conscriptionnumber": "801",
         "addr:country": "CZ",
-        "addr:postcode": "56601",
-        "ref:ruian:addr": "26646633",
         "addr:housenumber": "801",
-        "addr:conscriptionnumber": "801"
+        "addr:place": "Litomyšlské Předměstí",
+        "addr:postcode": "56601",
+        "addr:street": "Žižkova",
+        "craft": "brewery",
+        "name": "Pivovar Kujeba",
+        "ref:ruian:addr": "26646633"
       }
     },
     {
@@ -1042,33 +1042,33 @@
         "@type": "node",
         "@id": 1986853161,
         "@url": "https://www.openstreetmap.org/node/1986853161",
-        "name": "U Tří růží",
-        "email": "rezervace@u3r.cz",
-        "phone": "+420 601 588 281",
+        "addr:city": "Praha",
+        "addr:conscriptionnumber": "232",
+        "addr:country": "CZ",
+        "addr:housenumber": "232/10",
+        "addr:place": "Staré Město",
+        "addr:postcode": "11000",
+        "addr:street": "Husova",
+        "addr:streetnumber": "10",
+        "addr:suburb": "Praha 1",
         "amenity": "restaurant",
         "cuisine": "czech;regional",
-        "name:ru": "у трёх роз",
-        "toilets": "yes",
-        "website": "https://www.u3r.cz/",
-        "addr:city": "Praha",
-        "addr:place": "Staré Město",
-        "wheelchair": "no",
-        "addr:street": "Husova",
-        "addr:suburb": "Praha 1",
-        "source:addr": "cuzk:ruian",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "11000",
-        "opening_hours": "Mo-Su 11:00-23:00; Fr,Sa 11:00-24:00",
-        "ref:ruian:addr": "21717141",
+        "email": "rezervace@u3r.cz",
         "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "U Tří růží",
+        "name:ru": "у трёх роз",
+        "opening_hours": "Mo-Su 11:00-23:00; Fr,Sa 11:00-24:00",
         "outdoor_seating": "no",
-        "addr:housenumber": "232/10",
-        "addr:streetnumber": "10",
-        "toilets:wheelchair": "no",
         "payment:credit_cards": "yes",
-        "wheelchair:description": "steps at entrance, staircase to toilets",
-        "addr:conscriptionnumber": "232"
+        "phone": "+420 601 588 281",
+        "ref:ruian:addr": "21717141",
+        "source:addr": "cuzk:ruian",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.u3r.cz/",
+        "wheelchair": "no",
+        "wheelchair:description": "steps at entrance, staircase to toilets"
       }
     },
     {
@@ -1105,31 +1105,31 @@
         "@type": "node",
         "@id": 2212541149,
         "@url": "https://www.openstreetmap.org/node/2212541149",
-        "name": "Pivovarská restaurace",
-        "phone": "+420 220 515 687",
-        "amenity": "restaurant",
-        "smoking": "no",
-        "website": "http://www.unetickypivovar.cz/",
-        "capacity": "100",
-        "operator": "Únětický pivovar",
         "addr:city": "Únětice",
-        "addr:place": "Únětice",
-        "wheelchair": "yes",
-        "addr:street": "Rýznerova",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "19",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "payment:visa": "yes",
-        "addr:postcode": "25262",
-        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-21:00",
-        "ref:ruian:addr": "6397905",
-        "outdoor_seating": "yes",
         "addr:housenumber": "19/5",
-        "payment:cash:CZK": "yes",
+        "addr:place": "Únětice",
+        "addr:postcode": "25262",
+        "addr:street": "Rýznerova",
         "addr:streetnumber": "5",
+        "amenity": "restaurant",
+        "capacity": "100",
+        "microbrewery": "yes",
+        "name": "Pivovarská restaurace",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-21:00",
+        "operator": "Únětický pivovar",
+        "outdoor_seating": "yes",
+        "payment:cash:CZK": "yes",
         "payment:mastercard": "yes",
         "payment:meal_voucher": "yes",
-        "addr:conscriptionnumber": "19"
+        "payment:visa": "yes",
+        "phone": "+420 220 515 687",
+        "ref:ruian:addr": "6397905",
+        "smoking": "no",
+        "source:addr": "cuzk:ruian",
+        "website": "http://www.unetickypivovar.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1145,14 +1145,14 @@
         "@type": "node",
         "@id": 2316882197,
         "@url": "https://www.openstreetmap.org/node/2316882197",
-        "name": "Hostinec a Minipivovar U Koníčka",
         "amenity": "restaurant",
         "brewery": "Koníček",
-        "website": "https://www.pivovarkonicek.cz/",
-        "microbrewery": "yes",
         "contact:phone": "+420 558 651 172",
+        "microbrewery": "yes",
+        "name": "Hostinec a Minipivovar U Koníčka",
         "opening_hours": "Mo-Su 10:00-22:00; Fr,Sa 10:00-23:00",
-        "outdoor_seating": "yes"
+        "outdoor_seating": "yes",
+        "website": "https://www.pivovarkonicek.cz/"
       }
     },
     {
@@ -1168,16 +1168,16 @@
         "@type": "node",
         "@id": 2320747275,
         "@url": "https://www.openstreetmap.org/node/2320747275",
-        "name": "Podřipský rodinný minipivovar",
-        "craft": "brewery",
-        "website": "http://www.podripske-pivo.cz",
         "addr:city": "Ctiněves",
-        "addr:place": "Ctiněves",
+        "addr:conscriptionnumber": "1",
         "addr:country": "CZ",
-        "addr:postcode": "41301",
-        "ref:ruian:addr": "16643356",
         "addr:housenumber": "1",
-        "addr:conscriptionnumber": "1"
+        "addr:place": "Ctiněves",
+        "addr:postcode": "41301",
+        "craft": "brewery",
+        "name": "Podřipský rodinný minipivovar",
+        "ref:ruian:addr": "16643356",
+        "website": "http://www.podripske-pivo.cz"
       }
     },
     {
@@ -1193,20 +1193,20 @@
         "@type": "node",
         "@id": 2322843619,
         "@url": "https://www.openstreetmap.org/node/2322843619",
-        "name": "Poddžbánský pivovar",
-        "craft": "brewery",
-        "source": "www.lunchtime.cz",
-        "amenity": "restaurant",
-        "cuisine": "regional",
-        "website": "https://www.poddzbanskypivovar.cz/",
         "addr:city": "Mutějovice",
-        "ref:ruian": "8579865",
-        "addr:street": "Velká Strana",
-        "source:addr": "ruian",
+        "addr:conscriptionnumber": "2",
         "addr:country": "CZ",
-        "addr:postcode": "27007",
         "addr:housenumber": "2",
-        "addr:conscriptionnumber": "2"
+        "addr:postcode": "27007",
+        "addr:street": "Velká Strana",
+        "amenity": "restaurant",
+        "craft": "brewery",
+        "cuisine": "regional",
+        "name": "Poddžbánský pivovar",
+        "ref:ruian": "8579865",
+        "source": "www.lunchtime.cz",
+        "source:addr": "ruian",
+        "website": "https://www.poddzbanskypivovar.cz/"
       }
     },
     {
@@ -1222,11 +1222,11 @@
         "@type": "node",
         "@id": 2385363175,
         "@url": "https://www.openstreetmap.org/node/2385363175",
-        "name": "Restaurace Kolštejn",
         "amenity": "restaurant",
-        "microbrewery": "yes",
         "contact:email": "pivovar@relaxkolstejn.cz",
-        "contact:website": "http://www.pivovarkolstejn.cz/"
+        "contact:website": "http://www.pivovarkolstejn.cz/",
+        "microbrewery": "yes",
+        "name": "Restaurace Kolštejn"
       }
     },
     {
@@ -1286,17 +1286,17 @@
         "@type": "node",
         "@id": 2443050242,
         "@url": "https://www.openstreetmap.org/node/2443050242",
+        "amenity": "restaurant",
+        "contact:email": "info@minipivovarjesenik.cz",
+        "craft": "brewery",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
         "name": "Minipivovar Jeseník",
         "note": "pivovar",
-        "craft": "brewery",
-        "amenity": "restaurant",
-        "smoking": "no",
-        "website": "http://www.minipivovarjesenik.cz/",
-        "microbrewery": "yes",
-        "contact:email": "info@minipivovarjesenik.cz",
         "opening_hours": "Tu-Sa 14:00-22:00; Su 14:00-18:30",
-        "internet_access": "wlan",
-        "internet_access:fee": "no"
+        "smoking": "no",
+        "website": "http://www.minipivovarjesenik.cz/"
       }
     },
     {
@@ -1312,20 +1312,20 @@
         "@type": "node",
         "@id": 2458107644,
         "@url": "https://www.openstreetmap.org/node/2458107644",
-        "name": "Hobit Club",
-        "amenity": "pub",
-        "smoking": "dedicated",
         "addr:city": "Ostrava",
-        "addr:street": "Přívozská",
-        "microbrewery": "yes",
+        "addr:housenumber": "34",
         "addr:postcode": "70200",
+        "addr:street": "Přívozská",
+        "amenity": "pub",
         "contact:email": "hobitclub@pivovarsky-dum.eu",
-        "opening_hours": "Mo-Th 14:00-02:00, Sa 16:00-02:00",
         "contact:website": "http://www.hobitclub.net/",
         "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Hobit Club",
+        "opening_hours": "Mo-Th 14:00-02:00, Sa 16:00-02:00",
         "outdoor_seating": "yes",
-        "addr:housenumber": "34",
-        "internet_access:fee": "no"
+        "smoking": "dedicated"
       }
     },
     {
@@ -1341,27 +1341,27 @@
         "@type": "node",
         "@id": 2464677439,
         "@url": "https://www.openstreetmap.org/node/2464677439",
-        "name": "Minipivovar a pivnice U Stočesů",
-        "email": "pivo@ustocesu.cz",
-        "phone": "+420 722 099 077",
-        "amenity": "restaurant",
-        "website": "http://www.ustocesu.cz/",
-        "facebook": "https://www.facebook.com/ustocesu/",
-        "wikidata": "Q22332885",
         "addr:city": "Rokycany",
-        "wikipedia": "cs:Minipivovar a pivnice U Stočesů",
-        "addr:place": "Plzeňské Předměstí",
-        "source:loc": "survey",
-        "addr:street": "Sokolská",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "282",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "33701",
-        "opening_hours": "Mo-Th 14:00-24:00; Sa 12:00-01:00; Su 12:00-23:00; Fr 14:00-01:00",
-        "ref:ruian:addr": "20763794",
-        "outdoor_seating": "yes",
         "addr:housenumber": "282",
-        "addr:conscriptionnumber": "282"
+        "addr:place": "Plzeňské Předměstí",
+        "addr:postcode": "33701",
+        "addr:street": "Sokolská",
+        "amenity": "restaurant",
+        "email": "pivo@ustocesu.cz",
+        "facebook": "https://www.facebook.com/ustocesu/",
+        "microbrewery": "yes",
+        "name": "Minipivovar a pivnice U Stočesů",
+        "opening_hours": "Mo-Th 14:00-24:00; Sa 12:00-01:00; Su 12:00-23:00; Fr 14:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+420 722 099 077",
+        "ref:ruian:addr": "20763794",
+        "source:addr": "cuzk:ruian",
+        "source:loc": "survey",
+        "website": "http://www.ustocesu.cz/",
+        "wikidata": "Q22332885",
+        "wikipedia": "cs:Minipivovar a pivnice U Stočesů"
       }
     },
     {
@@ -1377,13 +1377,13 @@
         "@type": "node",
         "@id": 2478509565,
         "@url": "https://www.openstreetmap.org/node/2478509565",
-        "name": "Starosuchdolská restaurace",
-        "email": "info@starosuchdolska.cz",
-        "phone": "+420604256414",
         "amenity": "restaurant",
-        "website": "http://www.starosuchdolska.cz/",
+        "email": "info@starosuchdolska.cz",
         "microbrewery": "yes",
-        "opening_hours": "11:00-23:00"
+        "name": "Starosuchdolská restaurace",
+        "opening_hours": "11:00-23:00",
+        "phone": "+420604256414",
+        "website": "http://www.starosuchdolska.cz/"
       }
     },
     {
@@ -1429,10 +1429,10 @@
         "@type": "node",
         "@id": 2608463986,
         "@url": "https://www.openstreetmap.org/node/2608463986",
-        "name": "Lucky Bastard",
         "craft": "brewery",
-        "website": "http://www.lucky-bastard.cz/en/",
-        "man_made": "works"
+        "man_made": "works",
+        "name": "Lucky Bastard",
+        "website": "http://www.lucky-bastard.cz/en/"
       }
     },
     {
@@ -1448,14 +1448,14 @@
         "@type": "node",
         "@id": 2693852746,
         "@url": "https://www.openstreetmap.org/node/2693852746",
-        "name": "Pivovar Regent",
-        "craft": "brewery",
-        "website": "http://www.pivovar-regent.cz/",
-        "operator": "Bohemia Regent, a.s.",
         "addr:city": "Třeboň",
-        "addr:street": "Trocnovské nám.",
+        "addr:housenumber": "124",
         "addr:postcode": "37901",
-        "addr:housenumber": "124"
+        "addr:street": "Trocnovské nám.",
+        "craft": "brewery",
+        "name": "Pivovar Regent",
+        "operator": "Bohemia Regent, a.s.",
+        "website": "http://www.pivovar-regent.cz/"
       }
     },
     {
@@ -1471,15 +1471,15 @@
         "@type": "node",
         "@id": 2693861233,
         "@url": "https://www.openstreetmap.org/node/2693861233",
-        "name": "Glokner Hostinský pivovar",
-        "craft": "brewery",
-        "product": "beer",
-        "website": "http://www.villagegolfhotel.com/",
         "addr:city": "Mirkovice",
-        "addr:street": "Svachova lhotka",
-        "microbrewery": "yes",
+        "addr:housenumber": "1",
         "addr:postcode": "38232",
-        "addr:housenumber": "1"
+        "addr:street": "Svachova lhotka",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Glokner Hostinský pivovar",
+        "product": "beer",
+        "website": "http://www.villagegolfhotel.com/"
       }
     },
     {
@@ -1495,15 +1495,15 @@
         "@type": "node",
         "@id": 2694581227,
         "@url": "https://www.openstreetmap.org/node/2694581227",
-        "name": "Beeránek",
+        "addr:city": "České Budějovice",
+        "addr:housenumber": "7/55",
+        "addr:postcode": "37001",
+        "addr:street": "Česká",
         "craft": "brewery",
+        "name": "Beeránek",
         "product": "beer",
         "website": "http://beeranek.cz/",
-        "addr:city": "České Budějovice",
-        "wheelchair": "no",
-        "addr:street": "Česká",
-        "addr:postcode": "37001",
-        "addr:housenumber": "7/55"
+        "wheelchair": "no"
       }
     },
     {
@@ -1519,13 +1519,13 @@
         "@type": "node",
         "@id": 2718026171,
         "@url": "https://www.openstreetmap.org/node/2718026171",
-        "name": "Gusta",
-        "email": "mydas@volny.cz",
-        "phone": "+420 775 660 728",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "website": "http://www.pivovartrebonice.com/",
-        "microbrewery": "yes"
+        "email": "mydas@volny.cz",
+        "microbrewery": "yes",
+        "name": "Gusta",
+        "phone": "+420 775 660 728",
+        "website": "http://www.pivovartrebonice.com/"
       }
     },
     {
@@ -1541,14 +1541,14 @@
         "@type": "node",
         "@id": 2737126880,
         "@url": "https://www.openstreetmap.org/node/2737126880",
-        "name": "Pivovar Eggenberg",
         "craft": "brewery",
-        "phone": "+420 380 711 426",
+        "man_made": "works",
+        "name": "Pivovar Eggenberg",
         "name:de": "Brauerei Eggenberg",
         "name:en": "Brewery Eggenberg",
         "name:ru": "Пивоваренный завод Эггенберг",
+        "phone": "+420 380 711 426",
         "website": "http://www.eggenberg.cz/",
-        "man_made": "works",
         "wikidata": "Q1297476",
         "wikipedia": "cs:Pivovar Eggenberg"
       }
@@ -1626,8 +1626,8 @@
         "@type": "node",
         "@id": 2854490352,
         "@url": "https://www.openstreetmap.org/node/2854490352",
-        "name": "Pivovar Poutník - Pelhřimov",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Pivovar Poutník - Pelhřimov"
       }
     },
     {
@@ -1674,26 +1674,26 @@
         "@type": "node",
         "@id": 2954887940,
         "@url": "https://www.openstreetmap.org/node/2954887940",
-        "name": "Bistro Na Staré poště",
-        "email": "info@bistrostaraposta.cz",
-        "phone": "+420 727 835 455",
-        "amenity": "restaurant",
-        "cuisine": "regional;burger;coffee_shop",
-        "website": "http://www.kavarnanymburk.cz/",
-        "delivery": "yes",
-        "takeaway": "yes",
         "addr:city": "Nymburk",
-        "addr:street": "Tyršova",
-        "microbrewery": "yes",
-        "payment:cash": "yes",
-        "payment:visa": "yes",
-        "addr:postcode": "28802",
-        "opening_hours": "We-Sa 12:00-20:00; Su 12:00-16:00",
-        "outdoor_seating": "yes",
         "addr:housenumber": "226/23",
+        "addr:postcode": "28802",
+        "addr:street": "Tyršova",
+        "amenity": "restaurant",
         "contact:facebook": "https://www.facebook.com/bistrostaraposta/",
         "contact:instagram": "https://www.instagram.com/bistrostaraposta/",
-        "payment:mastercard": "yes"
+        "cuisine": "regional;burger;coffee_shop",
+        "delivery": "yes",
+        "email": "info@bistrostaraposta.cz",
+        "microbrewery": "yes",
+        "name": "Bistro Na Staré poště",
+        "opening_hours": "We-Sa 12:00-20:00; Su 12:00-16:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+420 727 835 455",
+        "takeaway": "yes",
+        "website": "http://www.kavarnanymburk.cz/"
       }
     },
     {
@@ -1709,22 +1709,22 @@
         "@type": "node",
         "@id": 2956936128,
         "@url": "https://www.openstreetmap.org/node/2956936128",
-        "url": "https://penzion-eska.webnode.cz/",
-        "name": "Restaurace a Penzionu EŠKA",
-        "email": "penzion-eska@email.cz",
-        "phone": "+420 318 692 805",
         "amenity": "restaurant",
-        "cuisine": "regional",
-        "smoking": "outside",
-        "tourism": "guest_house",
-        "website": "http://www.penzion-eska.cz/",
         "capacity": "40",
+        "cuisine": "regional",
         "delivery": "no",
-        "takeaway": "no",
         "description": "Denně od 10:00 do 14:00 hodin hotová jídla, dále od 14:00 hod. nabízí jídla minutková.",
+        "email": "penzion-eska@email.cz",
         "microbrewery": "yes",
+        "name": "Restaurace a Penzionu EŠKA",
         "opening_hours": "Mo-Th 10:00-22:00; Fr,Sa 10:00-23:00; Su 10:00-21:00",
-        "outdoor_seating": "yes"
+        "outdoor_seating": "yes",
+        "phone": "+420 318 692 805",
+        "smoking": "outside",
+        "takeaway": "no",
+        "tourism": "guest_house",
+        "url": "https://penzion-eska.webnode.cz/",
+        "website": "http://www.penzion-eska.cz/"
       }
     },
     {
@@ -1760,19 +1760,19 @@
         "@type": "node",
         "@id": 2962212381,
         "@url": "https://www.openstreetmap.org/node/2962212381",
-        "name": "Pivovar Ruprenz",
+        "addr:conscriptionnumber": "26",
+        "addr:country": "CZ",
+        "addr:housenumber": "26",
+        "addr:place": "Uhřínovice",
+        "addr:postcode": "58832",
         "craft": "brewery",
         "email": "pivoruprenz@email.cz",
-        "phone": "603 465 388",
-        "website": "www.pivoruprenz.cz",
-        "operator": "Martin Povýšil",
-        "addr:place": "Uhřínovice",
-        "addr:country": "CZ",
         "microbrewery": "yes",
-        "addr:postcode": "58832",
+        "name": "Pivovar Ruprenz",
+        "operator": "Martin Povýšil",
+        "phone": "603 465 388",
         "ref:ruian:addr": "25590057",
-        "addr:housenumber": "26",
-        "addr:conscriptionnumber": "26"
+        "website": "www.pivoruprenz.cz"
       }
     },
     {
@@ -1817,13 +1817,13 @@
         "@type": "node",
         "@id": 2974615832,
         "@url": "https://www.openstreetmap.org/node/2974615832",
-        "name": "Burgr's Fresh Burger Bistro",
         "amenity": "restaurant",
         "cuisine": "burger",
+        "microbrewery": "yes",
+        "name": "Burgr's Fresh Burger Bistro",
         "name:cs": "Burgr's Fresh Burger Bistro",
         "name:en": "Burgr's Fresh Burger Bistro",
-        "website": "http://burgrs.eu/",
-        "microbrewery": "yes"
+        "website": "http://burgrs.eu/"
       }
     },
     {
@@ -1839,8 +1839,8 @@
         "@type": "node",
         "@id": 3040471049,
         "@url": "https://www.openstreetmap.org/node/3040471049",
-        "name": "Energon",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Energon"
       }
     },
     {
@@ -1856,15 +1856,15 @@
         "@type": "node",
         "@id": 3144986166,
         "@url": "https://www.openstreetmap.org/node/3144986166",
-        "name": "Na staré poště",
         "amenity": "restaurant",
-        "tourism": "guest_house",
-        "microbrewery": "yes",
         "contact:email": "nastareposte@email.cz",
-        "opening_hours": "Mo-Su 10:00-22:00",
         "contact:website": "http://www.nastareposte.cz/",
         "internet_access": "wlan",
-        "outdoor_seating": "yes"
+        "microbrewery": "yes",
+        "name": "Na staré poště",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "tourism": "guest_house"
       }
     },
     {
@@ -1880,14 +1880,14 @@
         "@type": "node",
         "@id": 3144990809,
         "@url": "https://www.openstreetmap.org/node/3144990809",
-        "name": "Excelent",
-        "email": "hotel@excelent.cz",
         "amenity": "restaurant",
-        "smoking": "yes",
-        "website": "http://www.hotelexcelent.cz/restaurace/",
+        "email": "hotel@excelent.cz",
+        "internet_access": "wlan",
         "microbrewery": "yes",
+        "name": "Excelent",
         "opening_hours": "Mo-Th 10:30-23:00; Fr-Sa 10:30-24:00; Su 10:30-22:00",
-        "internet_access": "wlan"
+        "smoking": "yes",
+        "website": "http://www.hotelexcelent.cz/restaurace/"
       }
     },
     {
@@ -1903,12 +1903,12 @@
         "@type": "node",
         "@id": 3145000467,
         "@url": "https://www.openstreetmap.org/node/3145000467",
-        "name": "Nová Sladovna",
         "amenity": "restaurant",
-        "microbrewery": "yes",
         "contact:email": "gastronomieopava@gastro-opava.cz",
-        "opening_hours": "Mo-Su 11:00-23:00",
-        "contact:website": "http://www.nova-sladovna.cz/"
+        "contact:website": "http://www.nova-sladovna.cz/",
+        "microbrewery": "yes",
+        "name": "Nová Sladovna",
+        "opening_hours": "Mo-Su 11:00-23:00"
       }
     },
     {
@@ -1924,10 +1924,10 @@
         "@type": "node",
         "@id": 3145000468,
         "@url": "https://www.openstreetmap.org/node/3145000468",
-        "name": "Pivovárek Trubadúr",
-        "craft": "brewery",
         "contact:email": "trubadur@volny.cz",
-        "contact:website": "http://www.pivo-trubadur.cz/"
+        "contact:website": "http://www.pivo-trubadur.cz/",
+        "craft": "brewery",
+        "name": "Pivovárek Trubadúr"
       }
     },
     {
@@ -1943,12 +1943,12 @@
         "@type": "node",
         "@id": 3145066610,
         "@url": "https://www.openstreetmap.org/node/3145066610",
-        "name": "U Komárků",
         "amenity": "restaurant",
-        "microbrewery": "yes",
         "contact:email": "info@ukomarku.cz",
-        "opening_hours": "Mo-Fr 15:00-22:00; Sa 10:00-23:00; Su 10:00-22:00",
-        "contact:website": "http://www.ukomarku.cz/hlavni-strana/"
+        "contact:website": "http://www.ukomarku.cz/hlavni-strana/",
+        "microbrewery": "yes",
+        "name": "U Komárků",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa 10:00-23:00; Su 10:00-22:00"
       }
     },
     {
@@ -1964,13 +1964,13 @@
         "@type": "node",
         "@id": 3147408695,
         "@url": "https://www.openstreetmap.org/node/3147408695",
-        "name": "Avar",
         "amenity": "pub",
-        "wheelchair": "limited",
-        "microbrewery": "yes",
         "contact:email": "pivovaravar@volny.cz",
+        "contact:website": "http://www.pivovaravar.cz/",
+        "microbrewery": "yes",
+        "name": "Avar",
         "opening_hours": "Mo-Th 10:00-22:00; Fr 10:00-24:00; Sa 10:00-23:00; Su 09:30-22:00",
-        "contact:website": "http://www.pivovaravar.cz/"
+        "wheelchair": "limited"
       }
     },
     {
@@ -1986,14 +1986,14 @@
         "@type": "node",
         "@id": 3149701714,
         "@url": "https://www.openstreetmap.org/node/3149701714",
-        "name": "Pivovar Chomout",
-        "phone": "608778348",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "smoking": "no",
-        "website": "https://www.pivochomout.cz/",
+        "internet_access": "wlan",
         "microbrewery": "yes",
-        "internet_access": "wlan"
+        "name": "Pivovar Chomout",
+        "phone": "608778348",
+        "smoking": "no",
+        "website": "https://www.pivochomout.cz/"
       }
     },
     {
@@ -2009,16 +2009,16 @@
         "@type": "node",
         "@id": 3152832757,
         "@url": "https://www.openstreetmap.org/node/3152832757",
-        "name": "Hostinec Ve Dvoře",
+        "addr:housenumber": "135/1",
+        "addr:postcode": "73932",
+        "addr:street": "K Sokolovně",
         "amenity": "pub",
         "brewery": "Brabčák",
-        "addr:street": "K Sokolovně",
-        "microbrewery": "yes",
-        "addr:postcode": "73932",
         "contact:email": "hostinecvedvore@seznam.cz",
-        "opening_hours": "Tu-Th 14:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-22:00",
         "contact:website": "http://www.hostinecvedvore.cz/",
-        "addr:housenumber": "135/1"
+        "microbrewery": "yes",
+        "name": "Hostinec Ve Dvoře",
+        "opening_hours": "Tu-Th 14:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-22:00"
       }
     },
     {
@@ -2034,10 +2034,10 @@
         "@type": "node",
         "@id": 3152867242,
         "@url": "https://www.openstreetmap.org/node/3152867242",
-        "name": "Svatokopecké Pivo",
+        "contact:website": "http://www.svatokopeckepivo.cz/",
         "craft": "brewery",
         "microbrewery": "yes",
-        "contact:website": "http://www.svatokopeckepivo.cz/"
+        "name": "Svatokopecké Pivo"
       }
     },
     {
@@ -2053,18 +2053,18 @@
         "@type": "node",
         "@id": 3156984581,
         "@url": "https://www.openstreetmap.org/node/3156984581",
-        "name": "Vinohradský pivovar",
-        "phone": "+420 222 760 080",
+        "addr:city": "Praha",
+        "addr:housenumber": "2506/106",
+        "addr:postcode": "101 00",
+        "addr:street": "Korunní",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "website": "http://www.vinohradskypivovar.cz/",
-        "addr:city": "Praha",
-        "wheelchair": "no",
-        "addr:street": "Korunní",
         "microbrewery": "yes",
-        "addr:postcode": "101 00",
+        "name": "Vinohradský pivovar",
         "opening_hours": "Mo-Su 11:00-00:00",
-        "addr:housenumber": "2506/106"
+        "phone": "+420 222 760 080",
+        "website": "http://www.vinohradskypivovar.cz/",
+        "wheelchair": "no"
       }
     },
     {
@@ -2080,8 +2080,8 @@
         "@type": "node",
         "@id": 3158110704,
         "@url": "https://www.openstreetmap.org/node/3158110704",
-        "name": "Pivovar Popelín",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Pivovar Popelín"
       }
     },
     {
@@ -2130,13 +2130,13 @@
         "@type": "node",
         "@id": 3216517861,
         "@url": "https://www.openstreetmap.org/node/3216517861",
-        "name": "Jelínkova Vila",
-        "phone": "+420 566 502 200",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "website": "https://www.jelinkovavila.cz/cs/restaurace",
         "microbrewery": "yes",
-        "opening_hours": "Mo-Th 11:00-23:00; Fr,Sa 11:00-24:00; Su 11:00-21:00"
+        "name": "Jelínkova Vila",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr,Sa 11:00-24:00; Su 11:00-21:00",
+        "phone": "+420 566 502 200",
+        "website": "https://www.jelinkovavila.cz/cs/restaurace"
       }
     },
     {
@@ -2152,10 +2152,10 @@
         "@type": "node",
         "@id": 3217884407,
         "@url": "https://www.openstreetmap.org/node/3217884407",
-        "name": "Pivovar Cvikov",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Pivovar Cvikov"
       }
     },
     {
@@ -2187,25 +2187,25 @@
         "@type": "node",
         "@id": 3285422367,
         "@url": "https://www.openstreetmap.org/node/3285422367",
-        "name": "Pivovar Victor",
-        "email": "info@pivovarvictor.cz",
-        "phone": "+420 601 577 477",
-        "amenity": "restaurant",
-        "website": "http://www.pivovarvictor.cz/",
         "addr:city": "Praha",
-        "addr:place": "Žižkov",
-        "source:loc": "survey",
-        "addr:street": "Husitská",
-        "addr:suburb": "Praha 3",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "72",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "13000",
-        "opening_hours": "Mo-Su 12:00-23:00",
-        "ref:ruian:addr": "21767734",
         "addr:housenumber": "72/35",
+        "addr:place": "Žižkov",
+        "addr:postcode": "13000",
+        "addr:street": "Husitská",
         "addr:streetnumber": "35",
-        "addr:conscriptionnumber": "72"
+        "addr:suburb": "Praha 3",
+        "amenity": "restaurant",
+        "email": "info@pivovarvictor.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar Victor",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "phone": "+420 601 577 477",
+        "ref:ruian:addr": "21767734",
+        "source:addr": "cuzk:ruian",
+        "source:loc": "survey",
+        "website": "http://www.pivovarvictor.cz/"
       }
     },
     {
@@ -2221,20 +2221,20 @@
         "@type": "node",
         "@id": 3359346897,
         "@url": "https://www.openstreetmap.org/node/3359346897",
-        "name": "Hostinec U Paní Magdalény",
-        "phone": "+420 606 944 074",
-        "source": "survey",
+        "addr:city": "Všeradice",
+        "addr:country": "CZ",
+        "addr:place": "Všeradice",
+        "addr:postcode": "26726",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "website": "http://www.zamecky-dvur.cz/",
         "facebook": "https://www.facebook.com/ZameckyPivovarAHostinecUPaniMagdaleny/",
-        "addr:city": "Všeradice",
-        "addr:place": "Všeradice",
-        "addr:country": "CZ",
         "microbrewery": "yes",
-        "addr:postcode": "26726",
+        "name": "Hostinec U Paní Magdalény",
         "opening_hours": "Mo-Th 10:30-22:00; Fr 10:30-24:00; Sa 10:00-24:00; Su 10:00-22:00",
-        "outdoor_seating": "yes"
+        "outdoor_seating": "yes",
+        "phone": "+420 606 944 074",
+        "source": "survey",
+        "website": "http://www.zamecky-dvur.cz/"
       }
     },
     {
@@ -2250,13 +2250,13 @@
         "@type": "node",
         "@id": 3382993585,
         "@url": "https://www.openstreetmap.org/node/3382993585",
-        "name": "Podhorský pivovar",
-        "craft": "brewery",
         "addr:city": "Frýdlant nad Ostravicí",
-        "addr:street": "Náměstí",
+        "addr:housenumber": "1",
         "addr:postcode": "73911",
-        "opening_hours": "Mo-Th 9:00-22:00;Fr 9:00-24:00;Sa 9:30 - 24:00;Su 9:30 - 22:00",
-        "addr:housenumber": "1"
+        "addr:street": "Náměstí",
+        "craft": "brewery",
+        "name": "Podhorský pivovar",
+        "opening_hours": "Mo-Th 9:00-22:00;Fr 9:00-24:00;Sa 9:30 - 24:00;Su 9:30 - 22:00"
       }
     },
     {
@@ -2312,10 +2312,10 @@
         "@type": "node",
         "@id": 3398164166,
         "@url": "https://www.openstreetmap.org/node/3398164166",
-        "name": "Hospůdka Na Kopečku",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Hospůdka Na Kopečku"
       }
     },
     {
@@ -2385,24 +2385,24 @@
         "@type": "node",
         "@id": 3705609214,
         "@url": "https://www.openstreetmap.org/node/3705609214",
-        "name": "Pivovar Hostomice pod Brdy",
-        "phone": "+420 737 499 468;+420 603 712 953",
-        "amenity": "pub",
-        "website": "http://pivovarhostomice.cz/",
-        "facebook": "https://www.facebook.com/pivovarhostomicepodbrdy/",
         "addr:city": "Hostomice",
-        "addr:place": "Hostomice",
-        "addr:street": "Pivovarská",
-        "description": "Studená kuchyně, Pizza",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "214",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "26724",
-        "opening_hours": "Mo-Th 14:00-21:00; Fr 14:00-23:00; Sa 10:00-23:00; Su 10:00-21:00",
-        "ref:ruian:addr": "21058288",
-        "outdoor_seating": "yes",
         "addr:housenumber": "214",
-        "addr:conscriptionnumber": "214"
+        "addr:place": "Hostomice",
+        "addr:postcode": "26724",
+        "addr:street": "Pivovarská",
+        "amenity": "pub",
+        "description": "Studená kuchyně, Pizza",
+        "facebook": "https://www.facebook.com/pivovarhostomicepodbrdy/",
+        "microbrewery": "yes",
+        "name": "Pivovar Hostomice pod Brdy",
+        "opening_hours": "Mo-Th 14:00-21:00; Fr 14:00-23:00; Sa 10:00-23:00; Su 10:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+420 737 499 468;+420 603 712 953",
+        "ref:ruian:addr": "21058288",
+        "source:addr": "cuzk:ruian",
+        "website": "http://pivovarhostomice.cz/"
       }
     },
     {
@@ -2443,8 +2443,8 @@
         "@type": "node",
         "@id": 3731779004,
         "@url": "https://www.openstreetmap.org/node/3731779004",
-        "name": "Želivský klášterní pivovar",
         "craft": "brewery",
+        "name": "Želivský klášterní pivovar",
         "website": "https://zeliv.eu/klasterni-pivovar/"
       }
     },
@@ -2461,10 +2461,10 @@
         "@type": "node",
         "@id": 3733115435,
         "@url": "https://www.openstreetmap.org/node/3733115435",
-        "name": "Hotel Ostende",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Hotel Ostende"
       }
     },
     {
@@ -2509,12 +2509,12 @@
         "@type": "node",
         "@id": 3774581178,
         "@url": "https://www.openstreetmap.org/node/3774581178",
-        "name": "Olivův pivovar",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "website": "https://www.olivuvpivovar.cz/",
         "microbrewery": "yes",
-        "outdoor_seating": "yes"
+        "name": "Olivův pivovar",
+        "outdoor_seating": "yes",
+        "website": "https://www.olivuvpivovar.cz/"
       }
     },
     {
@@ -2530,8 +2530,8 @@
         "@type": "node",
         "@id": 3781762994,
         "@url": "https://www.openstreetmap.org/node/3781762994",
-        "name": "Pivovar Centrum Eden",
         "craft": "brewery",
+        "name": "Pivovar Centrum Eden",
         "name:en": "brewery Eden Centre",
         "operator": "Centrum Eden"
       }
@@ -2549,13 +2549,13 @@
         "@type": "node",
         "@id": 3784724271,
         "@url": "https://www.openstreetmap.org/node/3784724271",
-        "name": "Štiřínská stodola",
         "amenity": "restaurant",
-        "website": "http://www.stirinskastodola.cz/",
-        "microbrewery": "yes",
         "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Štiřínská stodola",
         "outdoor_seating": "yes",
-        "internet_access:fee": "no"
+        "website": "http://www.stirinskastodola.cz/"
       }
     },
     {
@@ -2571,10 +2571,10 @@
         "@type": "node",
         "@id": 3822997275,
         "@url": "https://www.openstreetmap.org/node/3822997275",
-        "name": "Pajzl u Jakuba",
         "amenity": "pub",
-        "website": "http://www.vysebrodskypivovar.cz",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Pajzl u Jakuba",
+        "website": "http://www.vysebrodskypivovar.cz"
       }
     },
     {
@@ -2590,9 +2590,9 @@
         "@type": "node",
         "@id": 3841852393,
         "@url": "https://www.openstreetmap.org/node/3841852393",
-        "name": "Restaurace Pod Pantheonem a Maloskalský Minipivovar",
         "amenity": "restaurant",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Restaurace Pod Pantheonem a Maloskalský Minipivovar"
       }
     },
     {
@@ -2608,11 +2608,11 @@
         "@type": "node",
         "@id": 3931993482,
         "@url": "https://www.openstreetmap.org/node/3931993482",
-        "name": "Pivovar Excelent",
-        "craft": "brewery",
-        "website": "http://www.hotelexcelent.cz/pivovar/",
         "contact:email": "info@hotelexcelent.cz",
-        "contact:phone": "+420 721007623"
+        "contact:phone": "+420 721007623",
+        "craft": "brewery",
+        "name": "Pivovar Excelent",
+        "website": "http://www.hotelexcelent.cz/pivovar/"
       }
     },
     {
@@ -2628,8 +2628,8 @@
         "@type": "node",
         "@id": 3949888214,
         "@url": "https://www.openstreetmap.org/node/3949888214",
-        "name": "Městský Karvinský pivovar",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Městský Karvinský pivovar"
       }
     },
     {
@@ -2675,8 +2675,8 @@
         "@type": "node",
         "@id": 3971800420,
         "@url": "https://www.openstreetmap.org/node/3971800420",
-        "name": "Pivovar Xaver",
         "craft": "brewery",
+        "name": "Pivovar Xaver",
         "website": "http://www.pivoxaver.eu/"
       }
     },
@@ -2693,15 +2693,15 @@
         "@type": "node",
         "@id": 3978068599,
         "@url": "https://www.openstreetmap.org/node/3978068599",
-        "name": "Hospoda na hřišti",
-        "amenity": "pub",
-        "addr:place": "Velké Opatovice",
-        "addr:street": "Rybník",
-        "microbrewery": "yes",
-        "addr:postcode": "67963",
-        "ref:ruian:addr": "74471341",
+        "addr:conscriptionnumber": "771",
         "addr:housenumber": "771",
-        "addr:conscriptionnumber": "771"
+        "addr:place": "Velké Opatovice",
+        "addr:postcode": "67963",
+        "addr:street": "Rybník",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Hospoda na hřišti",
+        "ref:ruian:addr": "74471341"
       }
     },
     {
@@ -2717,8 +2717,8 @@
         "@type": "node",
         "@id": 3979586736,
         "@url": "https://www.openstreetmap.org/node/3979586736",
-        "name": "Hradní pivovar Hustopeče",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Hradní pivovar Hustopeče"
       }
     },
     {
@@ -2734,15 +2734,15 @@
         "@type": "node",
         "@id": 4008111074,
         "@url": "https://www.openstreetmap.org/node/4008111074",
-        "name": "Trautenberg",
-        "craft": "brewery",
-        "amenity": "restaurant",
-        "addr:place": "Horní Malá Úpa",
+        "addr:conscriptionnumber": "87",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "54227",
         "addr:housenumber": "87",
-        "addr:conscriptionnumber": "87"
+        "addr:place": "Horní Malá Úpa",
+        "addr:postcode": "54227",
+        "amenity": "restaurant",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Trautenberg"
       }
     },
     {
@@ -2947,8 +2947,8 @@
         "@type": "node",
         "@id": 4014269093,
         "@url": "https://www.openstreetmap.org/node/4014269093",
-        "name": "Měšťanský pivovar",
         "craft": "brewery",
+        "name": "Měšťanský pivovar",
         "source": "survey",
         "website": "http://www.pivovar-policka.cz"
       }
@@ -2982,9 +2982,9 @@
         "@type": "node",
         "@id": 4158910091,
         "@url": "https://www.openstreetmap.org/node/4158910091",
-        "name": "Pivovar Jílovice",
         "amenity": "biergarten",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Pivovar Jílovice"
       }
     },
     {
@@ -3000,17 +3000,17 @@
         "@type": "node",
         "@id": 4162054192,
         "@url": "https://www.openstreetmap.org/node/4162054192",
-        "name": "Knížecí pivovar Plasy",
-        "email": "pivovarplasy@centrum.cz",
-        "phone": "+420 727 875 115",
         "amenity": "pub",
-        "smoking": "no",
-        "website": "http://www.pivovarplasy.cz/",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-23:00; Sa 11:00-23:00; Su 11:00-22:00",
+        "email": "pivovarplasy@centrum.cz",
         "internet_access": "yes",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Knížecí pivovar Plasy",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-23:00; Sa 11:00-23:00; Su 11:00-22:00",
         "outdoor_seating": "yes",
-        "internet_access:fee": "no"
+        "phone": "+420 727 875 115",
+        "smoking": "no",
+        "website": "http://www.pivovarplasy.cz/"
       }
     },
     {
@@ -3026,10 +3026,10 @@
         "@type": "node",
         "@id": 4171831959,
         "@url": "https://www.openstreetmap.org/node/4171831959",
-        "name": "Pivovarská hospoda Medlešice",
         "amenity": "pub",
-        "operator": "Pivovar Medlešice",
         "microbrewery": "yes",
+        "name": "Pivovarská hospoda Medlešice",
+        "operator": "Pivovar Medlešice",
         "outdoor_seating": "yes"
       }
     },
@@ -3046,11 +3046,11 @@
         "@type": "node",
         "@id": 4217986656,
         "@url": "https://www.openstreetmap.org/node/4217986656",
-        "name": "Pivovar Žamberk",
-        "source": "survey",
         "amenity": "pub",
         "microbrewery": "yes",
-        "opening_hours": "Tu,We 11:00-22:00; Th-Sa 11:00-23:00; Su,PH 11:00-22:00"
+        "name": "Pivovar Žamberk",
+        "opening_hours": "Tu,We 11:00-22:00; Th-Sa 11:00-23:00; Su,PH 11:00-22:00",
+        "source": "survey"
       }
     },
     {
@@ -3066,18 +3066,18 @@
         "@type": "node",
         "@id": 4243300486,
         "@url": "https://www.openstreetmap.org/node/4243300486",
-        "name": "Břevnovský klášterní pivovar svatého Vojtěcha",
-        "shop": "alcohol",
         "craft": "brewery",
+        "description": "Lahvová piva lze koupit i v infocentru, točená i v Břevnovském výčepu v areálu kláštera",
+        "facebook": "https://www.facebook.com/Brevnovskypivovar/",
+        "name": "Břevnovský klášterní pivovar svatého Vojtěcha",
+        "opening_hours": "Mo,Fr 10:00-11:45,12:30-17:00; Tu-Th 10:00-11:45,12:30-18:00",
         "phone": "+420 607 038 304",
+        "shop": "alcohol",
+        "short_name": "Břevnovský klášterní pivovar sv. Vojtěcha",
         "source": "survey",
         "website": "http://brevnovskypivovar.cz/",
-        "facebook": "https://www.facebook.com/Brevnovskypivovar/",
         "wikidata": "Q11706909",
-        "wikipedia": "cs:Břevnovský klášterní pivovar",
-        "short_name": "Břevnovský klášterní pivovar sv. Vojtěcha",
-        "description": "Lahvová piva lze koupit i v infocentru, točená i v Břevnovském výčepu v areálu kláštera",
-        "opening_hours": "Mo,Fr 10:00-11:45,12:30-17:00; Tu-Th 10:00-11:45,12:30-18:00"
+        "wikipedia": "cs:Břevnovský klášterní pivovar"
       }
     },
     {
@@ -3143,20 +3143,20 @@
         "@type": "node",
         "@id": 4552246121,
         "@url": "https://www.openstreetmap.org/node/4552246121",
-        "name": "Rodinný pivovar Vilém",
-        "craft": "brewery",
-        "phone": "+420 731 015 071",
-        "website": "http://www.pivovar-vilem.eu/",
-        "facebook": "https://www.facebook.com/pivovar.vilem/",
         "addr:city": "Jince",
-        "addr:place": "Jince",
-        "addr:street": "Eškova",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "33",
         "addr:country": "CZ",
-        "addr:postcode": "26223",
-        "ref:ruian:addr": "22876537",
         "addr:housenumber": "33",
-        "addr:conscriptionnumber": "33"
+        "addr:place": "Jince",
+        "addr:postcode": "26223",
+        "addr:street": "Eškova",
+        "craft": "brewery",
+        "facebook": "https://www.facebook.com/pivovar.vilem/",
+        "name": "Rodinný pivovar Vilém",
+        "phone": "+420 731 015 071",
+        "ref:ruian:addr": "22876537",
+        "source:addr": "cuzk:ruian",
+        "website": "http://www.pivovar-vilem.eu/"
       }
     },
     {
@@ -3172,12 +3172,12 @@
         "@type": "node",
         "@id": 4575991940,
         "@url": "https://www.openstreetmap.org/node/4575991940",
-        "name": "Pivovar Bahno",
-        "craft": "brewery",
-        "amenity": "pub",
-        "website": "http://pivovar-bahno.cz/",
         "alt_name": "Malý pivovar Pardubice",
-        "microbrewery": "yes"
+        "amenity": "pub",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar Bahno",
+        "website": "http://pivovar-bahno.cz/"
       }
     },
     {
@@ -3193,13 +3193,13 @@
         "@type": "node",
         "@id": 4591233993,
         "@url": "https://www.openstreetmap.org/node/4591233993",
-        "name": "Řemeslný pivovar Husar",
-        "amenity": "restaurant",
-        "name:cs": "Řemeslný pivovar Husar",
-        "website": "https://www.pivohusar.cz/",
+        "addr:housenumber": "57",
         "addr:place": "Koválovice u Tištína",
+        "amenity": "restaurant",
         "microbrewery": "yes",
-        "addr:housenumber": "57"
+        "name": "Řemeslný pivovar Husar",
+        "name:cs": "Řemeslný pivovar Husar",
+        "website": "https://www.pivohusar.cz/"
       }
     },
     {
@@ -3242,16 +3242,16 @@
         "@type": "node",
         "@id": 4596332392,
         "@url": "https://www.openstreetmap.org/node/4596332392",
-        "name": "Pivovar Moravský Žižkov",
-        "email": "info@pivovar.in",
-        "phone": "+420607562306",
-        "amenity": "restaurant",
-        "website": "http://www.pivovar.in",
-        "addr:street": "Chalúpky",
-        "microbrewery": "yes",
+        "addr:housenumber": "485",
         "addr:postcode": "69101",
+        "addr:street": "Chalúpky",
+        "amenity": "restaurant",
+        "email": "info@pivovar.in",
         "internet_access": "wlan",
-        "addr:housenumber": "485"
+        "microbrewery": "yes",
+        "name": "Pivovar Moravský Žižkov",
+        "phone": "+420607562306",
+        "website": "http://www.pivovar.in"
       }
     },
     {
@@ -3267,13 +3267,13 @@
         "@type": "node",
         "@id": 4641885570,
         "@url": "https://www.openstreetmap.org/node/4641885570",
-        "name": "Kohutka",
-        "email": "kohutka.pivovar@gmail.com",
         "amenity": "restaurant",
         "brewery": "Kohut",
-        "website": "https://cs-cz.facebook.com/Restaurace-A-Pivovar-Kohutka-147174862115099/",
+        "email": "kohutka.pivovar@gmail.com",
         "microbrewery": "yes",
-        "outdoor_seating": "yes"
+        "name": "Kohutka",
+        "outdoor_seating": "yes",
+        "website": "https://cs-cz.facebook.com/Restaurace-A-Pivovar-Kohutka-147174862115099/"
       }
     },
     {
@@ -3289,16 +3289,16 @@
         "@type": "node",
         "@id": 4676725515,
         "@url": "https://www.openstreetmap.org/node/4676725515",
-        "name": "Holendr",
+        "amenity": "restaurant",
         "craft": "brewery",
         "email": "sladci@holendr.cz",
+        "microbrewery": "yes",
+        "name": "Holendr",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr 10:00-24:00; Sa 11:00-24:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
         "phone": "+420 775 397 075",
         "source": "survey;gps",
-        "amenity": "restaurant",
-        "website": "www.holendr.cz",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Th 10:00-22:00; Fr 10:00-24:00; Sa 11:00-24:00; Su 11:00-22:00",
-        "outdoor_seating": "yes"
+        "website": "www.holendr.cz"
       }
     },
     {
@@ -3314,14 +3314,14 @@
         "@type": "node",
         "@id": 4769471740,
         "@url": "https://www.openstreetmap.org/node/4769471740",
-        "name": "Pivovar Koníček Vojkovice",
-        "craft": "brewery",
-        "phone": "+420736243059",
-        "tourism": "attraction",
-        "website": "https://www.pivovarkonicek.cz/",
+        "addr:housenumber": "10",
         "addr:place": "Vojkovice",
         "addr:postcode": "73951",
-        "addr:housenumber": "10"
+        "craft": "brewery",
+        "name": "Pivovar Koníček Vojkovice",
+        "phone": "+420736243059",
+        "tourism": "attraction",
+        "website": "https://www.pivovarkonicek.cz/"
       }
     },
     {
@@ -3337,23 +3337,23 @@
         "@type": "node",
         "@id": 4783981279,
         "@url": "https://www.openstreetmap.org/node/4783981279",
-        "name": "Naše farma",
-        "email": "rezervace@nasefarma.cz",
-        "phone": "+420 605 228 803",
+        "addr:city": "České Budějovice",
+        "addr:country": "CZ",
+        "addr:housenumber": "15",
+        "addr:postcode": "37001",
+        "addr:street": "U Černé věže",
         "amenity": "restaurant",
         "cuisine": "steak_house",
+        "email": "rezervace@nasefarma.cz",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Naše farma",
+        "operator": "ATS Invest s.r.o.",
+        "phone": "+420 605 228 803",
         "smoking": "no",
         "website": "http://www.nasefarma.cz/",
-        "operator": "ATS Invest s.r.o.",
-        "addr:city": "České Budějovice",
-        "wheelchair": "yes",
-        "addr:street": "U Černé věže",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "37001",
-        "internet_access": "wlan",
-        "addr:housenumber": "15",
-        "internet_access:fee": "no"
+        "wheelchair": "yes"
       }
     },
     {
@@ -3369,17 +3369,17 @@
         "@type": "node",
         "@id": 4818360175,
         "@url": "https://www.openstreetmap.org/node/4818360175",
-        "name": "Pivovar Mazák",
+        "addr:city": "Dolní Bojanovice",
+        "addr:housenumber": "1110",
+        "addr:postcode": "69617",
+        "addr:street": "Hodonínská",
         "craft": "brewery",
         "email": "info@pivovarmazak.cz",
+        "name": "Pivovar Mazák",
+        "opening_hours": "Mo-Fr 08:00-16:30",
         "phone": "+420 775 000 697",
         "product": "beer",
-        "website": "https://www.pivovarmazak.cz/",
-        "addr:city": "Dolní Bojanovice",
-        "addr:street": "Hodonínská",
-        "addr:postcode": "69617",
-        "opening_hours": "Mo-Fr 08:00-16:30",
-        "addr:housenumber": "1110"
+        "website": "https://www.pivovarmazak.cz/"
       }
     },
     {
@@ -3395,16 +3395,16 @@
         "@type": "node",
         "@id": 4826728169,
         "@url": "https://www.openstreetmap.org/node/4826728169",
-        "name": "Minipivovar Studánka",
+        "addr:city": "Liberec",
+        "addr:housenumber": "227",
+        "addr:postcode": "46001",
+        "addr:street": "Albrechtická",
         "craft": "brewery",
         "email": "studanka.minipivovar@email.cz",
-        "phone": "+420 602 646 639",
-        "website": "http://www.minipivovar.eu",
-        "addr:city": "Liberec",
-        "addr:street": "Albrechtická",
-        "addr:postcode": "46001",
+        "name": "Minipivovar Studánka",
         "opening_hours": "Apr 01-Oct 31 Mo-Fr 15:00-21:00; Apr 01-Oct 31 Tu off; Apr 01-Oct 31 Sa,Su 13:00-21:00; Nov 01-Mar 31 We-Fr 16:00-20:00; Nov 01-Mar 31 Sa,Su 14:00-20:00",
-        "addr:housenumber": "227"
+        "phone": "+420 602 646 639",
+        "website": "http://www.minipivovar.eu"
       }
     },
     {
@@ -3420,8 +3420,8 @@
         "@type": "node",
         "@id": 4844372714,
         "@url": "https://www.openstreetmap.org/node/4844372714",
-        "name": "Palírna \"U Jadrníčků\"",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Palírna \"U Jadrníčků\""
       }
     },
     {
@@ -3437,8 +3437,8 @@
         "@type": "node",
         "@id": 4844435541,
         "@url": "https://www.openstreetmap.org/node/4844435541",
-        "name": "U Čápa",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "U Čápa"
       }
     },
     {
@@ -3454,8 +3454,8 @@
         "@type": "node",
         "@id": 4929260240,
         "@url": "https://www.openstreetmap.org/node/4929260240",
-        "name": "Pivovar Záhlinice",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Pivovar Záhlinice"
       }
     },
     {
@@ -3471,8 +3471,8 @@
         "@type": "node",
         "@id": 4959489241,
         "@url": "https://www.openstreetmap.org/node/4959489241",
-        "name": "Pivovar Hendrych",
         "craft": "brewery",
+        "name": "Pivovar Hendrych",
         "product": "beer",
         "website": "http://www.pivohendrych.cz"
       }
@@ -3490,19 +3490,19 @@
         "@type": "node",
         "@id": 5038517320,
         "@url": "https://www.openstreetmap.org/node/5038517320",
-        "name": "Šťáhlavický Pivovar U Šenkýřů",
-        "craft": "brewery",
-        "phone": "+420 774 375 060",
-        "website": "http://www.pivovarstahlavice.cz/",
-        "facebook": "https://www.facebook.com/pivovarusenkyru/",
         "addr:city": "Šťáhlavy",
-        "addr:place": "Šťáhlavice",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "150",
         "addr:country": "CZ",
-        "addr:postcode": "33204",
-        "ref:ruian:addr": "967696",
         "addr:housenumber": "150",
-        "addr:conscriptionnumber": "150"
+        "addr:place": "Šťáhlavice",
+        "addr:postcode": "33204",
+        "craft": "brewery",
+        "facebook": "https://www.facebook.com/pivovarusenkyru/",
+        "name": "Šťáhlavický Pivovar U Šenkýřů",
+        "phone": "+420 774 375 060",
+        "ref:ruian:addr": "967696",
+        "source:addr": "cuzk:ruian",
+        "website": "http://www.pivovarstahlavice.cz/"
       }
     },
     {
@@ -3518,23 +3518,23 @@
         "@type": "node",
         "@id": 5041015897,
         "@url": "https://www.openstreetmap.org/node/5041015897",
-        "name": "Pivovar Kytín",
-        "phone": "+420 606 064 927",
-        "amenity": "restaurant",
-        "website": "https://www.pivovarkytin.cz/",
-        "facebook": "https://www.facebook.com/PivovarKytin/",
         "addr:city": "Kytín",
-        "amenity_1": "pub",
-        "addr:place": "Kytín",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "205",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "25210",
-        "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-24:00; Sa 10:30-24:00; Su 10:30-21:00",
-        "ref:ruian:addr": "76171850",
-        "outdoor_seating": "yes",
         "addr:housenumber": "205",
-        "addr:conscriptionnumber": "205"
+        "addr:place": "Kytín",
+        "addr:postcode": "25210",
+        "amenity": "restaurant",
+        "amenity_1": "pub",
+        "facebook": "https://www.facebook.com/PivovarKytin/",
+        "microbrewery": "yes",
+        "name": "Pivovar Kytín",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-24:00; Sa 10:30-24:00; Su 10:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+420 606 064 927",
+        "ref:ruian:addr": "76171850",
+        "source:addr": "cuzk:ruian",
+        "website": "https://www.pivovarkytin.cz/"
       }
     },
     {
@@ -3550,18 +3550,18 @@
         "@type": "node",
         "@id": 5043628024,
         "@url": "https://www.openstreetmap.org/node/5043628024",
-        "name": "Mini pivovar Radouš",
-        "phone": "+420 776 570 736;+420 608 247 964",
-        "amenity": "pub",
-        "website": "http://pivovar.stahlavy.com/",
-        "facebook": "https://www.facebook.com/PivovarRadous/",
         "addr:city": "Šťáhlavy",
-        "addr:place": "Šťáhlavy",
-        "addr:street": "Náves republiky",
         "addr:country": "CZ",
-        "microbrewery": "yes",
+        "addr:place": "Šťáhlavy",
         "addr:postcode": "33203",
-        "outdoor_seating": "yes"
+        "addr:street": "Náves republiky",
+        "amenity": "pub",
+        "facebook": "https://www.facebook.com/PivovarRadous/",
+        "microbrewery": "yes",
+        "name": "Mini pivovar Radouš",
+        "outdoor_seating": "yes",
+        "phone": "+420 776 570 736;+420 608 247 964",
+        "website": "http://pivovar.stahlavy.com/"
       }
     },
     {
@@ -3577,8 +3577,8 @@
         "@type": "node",
         "@id": 5045520403,
         "@url": "https://www.openstreetmap.org/node/5045520403",
-        "name": "Paroháč",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Paroháč"
       }
     },
     {
@@ -3594,23 +3594,23 @@
         "@type": "node",
         "@id": 5055455972,
         "@url": "https://www.openstreetmap.org/node/5055455972",
-        "name": "Pension Helene",
-        "phone": "+420 604 296 289",
-        "amenity": "restaurant",
-        "tourism": "guest_house",
-        "website": "http://www.pension-helene.cz/",
-        "facebook": "https://www.facebook.com/pensionhelene/",
         "addr:city": "Kytlice",
-        "addr:place": "Kytlice",
-        "source:addr": "cuzk:ruian",
+        "addr:conscriptionnumber": "120",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "40745",
-        "opening_hours": "Tu 17:00-22:00; We-Fr 14:00-22:00; Sa 13:00-22:00; Su 13:00-20:00",
-        "ref:ruian:addr": "48755",
-        "outdoor_seating": "yes",
         "addr:housenumber": "120",
-        "addr:conscriptionnumber": "120"
+        "addr:place": "Kytlice",
+        "addr:postcode": "40745",
+        "amenity": "restaurant",
+        "facebook": "https://www.facebook.com/pensionhelene/",
+        "microbrewery": "yes",
+        "name": "Pension Helene",
+        "opening_hours": "Tu 17:00-22:00; We-Fr 14:00-22:00; Sa 13:00-22:00; Su 13:00-20:00",
+        "outdoor_seating": "yes",
+        "phone": "+420 604 296 289",
+        "ref:ruian:addr": "48755",
+        "source:addr": "cuzk:ruian",
+        "tourism": "guest_house",
+        "website": "http://www.pension-helene.cz/"
       }
     },
     {
@@ -3658,13 +3658,13 @@
         "@id": 5171505221,
         "@url": "https://www.openstreetmap.org/node/5171505221",
         "amenity": "restaurant",
-        "cuisine": "regional",
-        "microbrewery": "yes",
         "contact:email": "info@pivovarmonopol.cz",
         "contact:phone": "+420 727844414",
-        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00; Su 11:00-22:00",
         "contact:website": "http://www.pivovarmonopol.cz",
-        "internet_access": "wlan"
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00; Su 11:00-22:00"
       }
     },
     {
@@ -3680,11 +3680,11 @@
         "@type": "node",
         "@id": 5178207115,
         "@url": "https://www.openstreetmap.org/node/5178207115",
-        "name": "Hotel U Černého medvěda",
         "amenity": "restaurant",
         "cuisine": "czech",
-        "website": "http://www.cernymedved.cz/",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Hotel U Černého medvěda",
+        "website": "http://www.cernymedved.cz/"
       }
     },
     {
@@ -3741,11 +3741,11 @@
         "@type": "node",
         "@id": 5310976209,
         "@url": "https://www.openstreetmap.org/node/5310976209",
-        "name": "Bobr",
         "craft": "brewery",
+        "facebook": "https://www.facebook.com/pivobobr/",
+        "name": "Bobr",
         "phone": "+420 604 911 033;+420 723 905 250",
-        "website": "http://www.pivovarbobr.cz/",
-        "facebook": "https://www.facebook.com/pivobobr/"
+        "website": "http://www.pivovarbobr.cz/"
       }
     },
     {
@@ -3761,18 +3761,18 @@
         "@type": "node",
         "@id": 5486695102,
         "@url": "https://www.openstreetmap.org/node/5486695102",
-        "name": "Rokiten",
+        "addr:city": "Moravský Krumlov",
+        "addr:housenumber": "393",
+        "addr:postcode": "67201",
+        "addr:street": "Znojemská",
+        "brewery": "Pivovar Krum",
         "email": "info@rokiten.cz",
+        "microbrewery": "yes",
+        "name": "Rokiten",
         "phone": "+420 605 248 935",
         "stars": "3",
-        "brewery": "Pivovar Krum",
         "tourism": "hotel",
-        "website": "http://www.rokiten.cz",
-        "addr:city": "Moravský Krumlov",
-        "addr:street": "Znojemská",
-        "microbrewery": "yes",
-        "addr:postcode": "67201",
-        "addr:housenumber": "393"
+        "website": "http://www.rokiten.cz"
       }
     },
     {
@@ -3788,8 +3788,8 @@
         "@type": "node",
         "@id": 5579948204,
         "@url": "https://www.openstreetmap.org/node/5579948204",
-        "name": "Heřmanický pivovar",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Heřmanický pivovar"
       }
     },
     {
@@ -3805,10 +3805,10 @@
         "@type": "node",
         "@id": 5616778127,
         "@url": "https://www.openstreetmap.org/node/5616778127",
-        "name": "Zenke",
         "amenity": "pub",
         "brewery": "Zenke",
         "microbrewery": "yes",
+        "name": "Zenke",
         "opening_hours": "Fr-Sa 14:00-22:00; Su 14:00-20:00"
       }
     },
@@ -3825,12 +3825,12 @@
         "@type": "node",
         "@id": 5621735306,
         "@url": "https://www.openstreetmap.org/node/5621735306",
-        "name": "Katolický dům - Tosca",
         "amenity": "restaurant",
         "brewery": "Starobělský pivovar",
-        "website": "http://starobelskypivovar.cz",
         "microbrewery": "yes",
-        "opening_hours": "Mo-Su 11:00-22:00; Fr-Sa 11:00-24:00"
+        "name": "Katolický dům - Tosca",
+        "opening_hours": "Mo-Su 11:00-22:00; Fr-Sa 11:00-24:00",
+        "website": "http://starobelskypivovar.cz"
       }
     },
     {
@@ -3846,26 +3846,26 @@
         "@type": "node",
         "@id": 5650404922,
         "@url": "https://www.openstreetmap.org/node/5650404922",
-        "name": "Krásenský pivovar",
+        "addr:city": "Valašské Meziříčí",
+        "addr:housenumber": "78",
+        "addr:postcode": "75701",
+        "addr:street": "Na Tržnici",
+        "amenity": "restaurant",
         "craft": "brewery",
         "email": "info@krasenskypivovar.cz",
-        "amenity": "restaurant",
-        "website": "https://www.krasenskypivovar.cz/",
-        "addr:city": "Valašské Meziříčí",
-        "addr:street": "Na Tržnici",
-        "payment:jcb": "yes",
         "microbrewery": "yes",
-        "payment:visa": "yes",
-        "addr:postcode": "75701",
+        "name": "Krásenský pivovar",
         "opening_hours": "Mo-Th 11:00-23:00; Fr,Sa 11:00-01:00; Su 11:00-22:00",
         "outdoor_seating": "yes",
-        "payment:maestro": "yes",
-        "addr:housenumber": "78",
-        "payment:mastercard": "yes",
-        "payment:visa_debit": "yes",
         "payment:diners_club": "yes",
         "payment:discover_card": "yes",
-        "payment:visa_electron": "yes"
+        "payment:jcb": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "website": "https://www.krasenskypivovar.cz/"
       }
     },
     {
@@ -3881,11 +3881,11 @@
         "@type": "node",
         "@id": 5651449956,
         "@url": "https://www.openstreetmap.org/node/5651449956",
-        "name": "Venuše",
         "amenity": "restaurant",
-        "website": "http://www.pivovarvenuse.cz/",
         "microbrewery": "yes",
-        "opening_hours": "Mo-Th 11:00-22:00, Fr-Sa 11:00-23:00, Su 12:00-22"
+        "name": "Venuše",
+        "opening_hours": "Mo-Th 11:00-22:00, Fr-Sa 11:00-23:00, Su 12:00-22",
+        "website": "http://www.pivovarvenuse.cz/"
       }
     },
     {
@@ -3901,12 +3901,12 @@
         "@type": "node",
         "@id": 5661548196,
         "@url": "https://www.openstreetmap.org/node/5661548196",
-        "name": "Ohrada",
-        "source": "bing;survey",
         "amenity": "restaurant",
-        "website": "http://www.pivovarohrada.cz/restaurace",
         "microbrewery": "yes",
-        "outdoor_seating": "yes"
+        "name": "Ohrada",
+        "outdoor_seating": "yes",
+        "source": "bing;survey",
+        "website": "http://www.pivovarohrada.cz/restaurace"
       }
     },
     {
@@ -3922,8 +3922,8 @@
         "@type": "node",
         "@id": 5733882700,
         "@url": "https://www.openstreetmap.org/node/5733882700",
-        "name": "Měšťanský pivovar Kutná Hora",
         "craft": "brewery",
+        "name": "Měšťanský pivovar Kutná Hora",
         "product": "beer"
       }
     },
@@ -3940,11 +3940,11 @@
         "@type": "node",
         "@id": 5793989823,
         "@url": "https://www.openstreetmap.org/node/5793989823",
-        "name": "Pivovar Hrádek",
-        "craft": "brewery",
         "contact:email": "info@pivovar-hradek.cz",
+        "contact:facebook": "https://www.facebook.com/PivovarHradek",
         "contact:website": "http://www.pivovar-hradek.cz",
-        "contact:facebook": "https://www.facebook.com/PivovarHradek"
+        "craft": "brewery",
+        "name": "Pivovar Hrádek"
       }
     },
     {
@@ -4008,9 +4008,9 @@
         "@type": "node",
         "@id": 6051107357,
         "@url": "https://www.openstreetmap.org/node/6051107357",
-        "name": "Pivovarská hospůdka",
         "amenity": "pub",
         "microbrewery": "yes",
+        "name": "Pivovarská hospůdka",
         "outdoor_seating": "yes"
       }
     },
@@ -4027,12 +4027,12 @@
         "@type": "node",
         "@id": 6175152586,
         "@url": "https://www.openstreetmap.org/node/6175152586",
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "microbrewery": "yes",
         "name": "Restaurace a penzion Topolská Hospoda",
         "source": "survey",
-        "amenity": "restaurant",
-        "tourism": "guest_house",
-        "delivery": "yes",
-        "microbrewery": "yes"
+        "tourism": "guest_house"
       }
     },
     {
@@ -4048,21 +4048,21 @@
         "@type": "node",
         "@id": 6178361465,
         "@url": "https://www.openstreetmap.org/node/6178361465",
-        "name": "Klášterní pivovar Strahov",
         "craft": "brewery",
         "email": "zuzana@klasterni-pivovar.cz",
+        "facebook": "https://www.facebook.com/Pivovar-Strahov-SvNorbert-255900158543/",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Klášterní pivovar Strahov",
+        "name:en": "Strahov Monastic Brewery",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
         "phone": "+420 233 353 155",
         "source": "survey",
-        "name:en": "Strahov Monastic Brewery",
-        "website": "http://www.klasterni-pivovar.cz/",
-        "facebook": "https://www.facebook.com/Pivovar-Strahov-SvNorbert-255900158543/",
-        "microbrewery": "yes",
-        "payment:cash": "yes",
-        "payment:visa": "yes",
-        "opening_hours": "Mo-Su 10:00-22:00",
-        "internet_access": "wlan",
-        "payment:mastercard": "yes",
-        "internet_access:fee": "no"
+        "website": "http://www.klasterni-pivovar.cz/"
       }
     },
     {
@@ -4155,12 +4155,12 @@
         "@type": "node",
         "@id": 6242693314,
         "@url": "https://www.openstreetmap.org/node/6242693314",
-        "name": "Minipivovar Grádo",
         "craft": "brewery",
         "email": "Lukas.Fiala@pivovargrado.cz",
+        "name": "Minipivovar Grádo",
+        "opening_hours": "Mo-Fr 08:00-15:00",
         "phone": "+420 605 295 072",
-        "website": "http://www.pivovargrado.cz/",
-        "opening_hours": "Mo-Fr 08:00-15:00"
+        "website": "http://www.pivovargrado.cz/"
       }
     },
     {
@@ -4212,17 +4212,17 @@
         "@type": "node",
         "@id": 6251438786,
         "@url": "https://www.openstreetmap.org/node/6251438786",
-        "name": "Andělský Pivovar",
-        "shop": "beverages",
-        "amenity": "restaurant",
-        "website": "https://www.andelskypivovar.cz/",
-        "addr:street": "Lidická",
-        "microbrewery": "yes",
-        "addr:postcode": "15000",
-        "opening_hours": "Mo-Su 11:00-24:00",
-        "internet_access": "wlan",
+        "addr:conscriptionnumber": "337",
         "addr:housenumber": "337/30",
-        "addr:conscriptionnumber": "337"
+        "addr:postcode": "15000",
+        "addr:street": "Lidická",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Andělský Pivovar",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "shop": "beverages",
+        "website": "https://www.andelskypivovar.cz/"
       }
     },
     {
@@ -4265,9 +4265,9 @@
         "@type": "node",
         "@id": 6273669266,
         "@url": "https://www.openstreetmap.org/node/6273669266",
-        "name": "Čtyři lípy",
         "craft": "brewery",
         "microbrewery": "yes",
+        "name": "Čtyři lípy",
         "opening_hours": "We-Th 11:00-17:00, Fr 11:00-18:00, Sa 09:00-12:00"
       }
     },
@@ -4316,8 +4316,8 @@
         "@type": "node",
         "@id": 6427971444,
         "@url": "https://www.openstreetmap.org/node/6427971444",
-        "name": "Pivovar Na mlýně",
         "craft": "brewery",
+        "name": "Pivovar Na mlýně",
         "product": "beer"
       }
     },
@@ -4396,9 +4396,9 @@
         "@type": "node",
         "@id": 6443915049,
         "@url": "https://www.openstreetmap.org/node/6443915049",
-        "name": "Panský pivovar Sokolnice",
         "craft": "brewery",
         "email": "info@pivovarsokolnice.cz",
+        "name": "Panský pivovar Sokolnice",
         "phone": "+420 602 818 126",
         "website": "http://pivovarsokolnice.cz/"
       }
@@ -4416,14 +4416,14 @@
         "@type": "node",
         "@id": 6485121700,
         "@url": "https://www.openstreetmap.org/node/6485121700",
-        "name": "Pivovarská restaurace Na Letňáku",
-        "phone": "+420736400655",
         "amenity": "restaurant",
-        "website": "http://www.pivozloun.cz/",
-        "operator": "Pivo ZLoun s.r.o.",
         "microbrewery": "yes",
+        "name": "Pivovarská restaurace Na Letňáku",
         "opening_hours": "Mo-Th 16:00-02:00, Fr-Sa 16:00-04:00, Su 16:00-24:00",
-        "outdoor_seating": "yes"
+        "operator": "Pivo ZLoun s.r.o.",
+        "outdoor_seating": "yes",
+        "phone": "+420736400655",
+        "website": "http://www.pivozloun.cz/"
       }
     },
     {
@@ -4439,18 +4439,18 @@
         "@type": "node",
         "@id": 6516177085,
         "@url": "https://www.openstreetmap.org/node/6516177085",
-        "name": "Kbelsky Pivovar",
+        "addr:housenumber": "1122",
+        "addr:postcode": "19700",
+        "addr:street": "Mladoboleslavská",
+        "amenity": "restaurant",
         "craft": "brewery",
         "email": "provoz@kbelskypivovar.cz",
-        "phone": "+420773099455",
-        "amenity": "restaurant",
-        "website": "http://kbelskypivovar.cz/",
-        "addr:street": "Mladoboleslavská",
-        "microbrewery": "yes",
-        "addr:postcode": "19700",
-        "opening_hours": "Mo-Su 11:00-23:00",
         "internet_access": "wlan",
-        "addr:housenumber": "1122"
+        "microbrewery": "yes",
+        "name": "Kbelsky Pivovar",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+420773099455",
+        "website": "http://kbelskypivovar.cz/"
       }
     },
     {
@@ -4466,10 +4466,10 @@
         "@type": "node",
         "@id": 6616223181,
         "@url": "https://www.openstreetmap.org/node/6616223181",
-        "name": "Zámecký pivovar Břeclav",
         "craft": "brewery",
-        "website": "https://pivovarbreclav.cz/",
-        "man_made": "works"
+        "man_made": "works",
+        "name": "Zámecký pivovar Břeclav",
+        "website": "https://pivovarbreclav.cz/"
       }
     },
     {
@@ -4485,10 +4485,10 @@
         "@type": "node",
         "@id": 6618980845,
         "@url": "https://www.openstreetmap.org/node/6618980845",
-        "name": "Hasičský pivovar",
         "craft": "brewery",
-        "website": "http://www.pivovarbitov.cz/",
-        "start_date": "2015-12-01"
+        "name": "Hasičský pivovar",
+        "start_date": "2015-12-01",
+        "website": "http://www.pivovarbitov.cz/"
       }
     },
     {
@@ -4529,8 +4529,8 @@
         "@type": "node",
         "@id": 6641376971,
         "@url": "https://www.openstreetmap.org/node/6641376971",
-        "name": "Pivovar Květnice",
         "craft": "brewery",
+        "name": "Pivovar Květnice",
         "website": "http://pivovar-kvetnice.cz/"
       }
     },
@@ -4547,8 +4547,8 @@
         "@type": "node",
         "@id": 6685097005,
         "@url": "https://www.openstreetmap.org/node/6685097005",
-        "name": "Galant",
-        "craft": "brewery"
+        "craft": "brewery",
+        "name": "Galant"
       }
     },
     {
@@ -4566,9 +4566,9 @@
         "@url": "https://www.openstreetmap.org/node/6737201782",
         "craft": "brewery",
         "email": "info@rudohor.cz",
+        "operator": "Rudohor",
         "phone": "+420703361158",
-        "website": "https://www.rudohor.cz/",
-        "operator": "Rudohor"
+        "website": "https://www.rudohor.cz/"
       }
     },
     {
@@ -4584,17 +4584,17 @@
         "@type": "node",
         "@id": 6757947785,
         "@url": "https://www.openstreetmap.org/node/6757947785",
-        "name": "Beertime",
+        "addr:city": "Praha",
+        "addr:housenumber": "61/116",
+        "addr:postcode": "15000",
+        "addr:street": "Nádražní",
         "amenity": "pub",
         "brewery": "various",
-        "name:en": "Beertime",
-        "website": "http://www.beertime.pub/",
-        "addr:city": "Praha",
-        "addr:street": "Nádražní",
         "microbrewery": "yes",
-        "addr:postcode": "15000",
+        "name": "Beertime",
+        "name:en": "Beertime",
         "outdoor_seating": "yes",
-        "addr:housenumber": "61/116"
+        "website": "http://www.beertime.pub/"
       }
     },
     {
@@ -4664,12 +4664,12 @@
         "@type": "node",
         "@id": 7255699832,
         "@url": "https://www.openstreetmap.org/node/7255699832",
-        "name": "Gwern",
-        "craft": "brewery",
         "amenity": "pub",
+        "craft": "brewery",
+        "name": "Gwern",
+        "opening_hours": "Su-Th 15:00-20:00; Fr-Sa 15:00-22:00",
         "wikidata": "Q61528381",
-        "wikipedia": "cs:Pivovar Gwern",
-        "opening_hours": "Su-Th 15:00-20:00; Fr-Sa 15:00-22:00"
+        "wikipedia": "cs:Pivovar Gwern"
       }
     },
     {
@@ -4685,19 +4685,19 @@
         "@type": "node",
         "@id": 7335751223,
         "@url": "https://www.openstreetmap.org/node/7335751223",
-        "name": "Vorkloster",
+        "amenity": "restaurant",
         "craft": "brewery",
         "email": "info@pivovarportacoeli.cz",
-        "amenity": "restaurant",
-        "website": "https://www.vorkloster.cz/",
-        "wheelchair": "yes",
         "microbrewery": "yes",
-        "payment:visa": "yes",
+        "name": "Vorkloster",
         "opening_hours": "Mo-Fr 15:00-22:00; Sa,Su 11:00-22:00",
         "payment:maestro": "yes",
         "payment:mastercard": "yes",
+        "payment:visa": "yes",
         "payment:visa_debit": "yes",
-        "payment:visa_electron": "yes"
+        "payment:visa_electron": "yes",
+        "website": "https://www.vorkloster.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4805,17 +4805,17 @@
         "@type": "node",
         "@id": 7597452813,
         "@url": "https://www.openstreetmap.org/node/7597452813",
-        "name": "Pivovar Řevnice",
-        "craft": "brewery",
-        "amenity": "pub",
-        "website": "https://www.pivovar-revnice.cz/",
-        "operator": "Corso Gastro s.r.o.",
         "addr:city": "Řevnice",
-        "addr:street": "Pod Lipami",
-        "microbrewery": "yes",
+        "addr:housenumber": "71",
         "addr:postcode": "25230",
+        "addr:street": "Pod Lipami",
+        "amenity": "pub",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar Řevnice",
         "opening_hours": "Mo-Su 11:00-23:00",
-        "addr:housenumber": "71"
+        "operator": "Corso Gastro s.r.o.",
+        "website": "https://www.pivovar-revnice.cz/"
       }
     },
     {
@@ -4831,12 +4831,12 @@
         "@type": "node",
         "@id": 7616218222,
         "@url": "https://www.openstreetmap.org/node/7616218222",
-        "name": "Ostende",
         "amenity": "biergarten",
-        "toilets": "yes",
         "microbrewery": "yes",
+        "name": "Ostende",
         "opening_hours": "Mo-Th 12:00-20:00; Fr 12:00-22:00; Sa 08:00-22:00; Su 08:00-18:00",
-        "outdoor_seating": "yes"
+        "outdoor_seating": "yes",
+        "toilets": "yes"
       }
     },
     {
@@ -4880,12 +4880,12 @@
         "@type": "node",
         "@id": 7717256709,
         "@url": "https://www.openstreetmap.org/node/7717256709",
-        "name": "Pivovar Dubňák",
-        "craft": "brewery",
-        "phone": "+420 739 996 394",
-        "website": "http://dubnak.cz/",
+        "addr:housenumber": "7/5",
         "addr:street": "Nádražní",
-        "addr:housenumber": "7/5"
+        "craft": "brewery",
+        "name": "Pivovar Dubňák",
+        "phone": "+420 739 996 394",
+        "website": "http://dubnak.cz/"
       }
     },
     {
@@ -4901,21 +4901,21 @@
         "@type": "node",
         "@id": 7729116134,
         "@url": "https://www.openstreetmap.org/node/7729116134",
-        "name": "U Kače",
-        "phone": "+420 735 351 408",
         "amenity": "restaurant",
-        "website": "http://dubnak.cz/",
         "microbrewery": "yes",
-        "payment:visa": "yes",
+        "name": "U Kače",
         "opening_hours": "Mo-Th 14:00-21:00; Fr,Sa 13:00-24:00; Su 13:00-20:00",
         "outdoor_seating": "yes",
-        "payment:maestro": "yes",
-        "payment:mastercard": "yes",
-        "payment:visa_debit": "yes",
+        "payment:american_express": "yes",
         "payment:diners_club": "yes",
         "payment:discover_card": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
         "payment:visa_electron": "yes",
-        "payment:american_express": "yes"
+        "phone": "+420 735 351 408",
+        "website": "http://dubnak.cz/"
       }
     },
     {
@@ -5950,28 +5950,28 @@
         "@type": "way",
         "@id": 19921110,
         "@url": "https://www.openstreetmap.org/way/19921110",
-        "name": "Luční bouda",
+        "addr:conscriptionnumber": "203",
+        "addr:country": "CZ",
+        "addr:housenumber": "203",
+        "addr:place": "Pec pod Sněžkou",
+        "addr:postcode": "54221",
+        "building": "hotel",
+        "building:ruian:type": "11",
         "image": "https://cs.wikipedia.org/wiki/Luční_bouda#/media/File:Lu%C4%8Dn%C3%AD_Bouda_FR01.jpg",
-        "source": "cuzk:ruian",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Luční bouda",
         "name:de": "Wiesenbaude",
         "name:en": "Meadow Chalet",
         "name:pl": "Schronisko Buda Łąkowa",
-        "tourism": "alpine_hut",
-        "website": "https://lucnibouda.cz",
-        "building": "hotel",
-        "wikidata": "Q132423",
-        "wikipedia": "cs:Luční bouda",
-        "addr:place": "Pec pod Sněžkou",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "54221",
         "opening_hours": "Mo-Su 08:00-24:00",
         "ref:ruian:addr": "21047367",
-        "internet_access": "wlan",
-        "addr:housenumber": "203",
         "ref:ruian:building": "20806141",
-        "building:ruian:type": "11",
-        "addr:conscriptionnumber": "203"
+        "source": "cuzk:ruian",
+        "tourism": "alpine_hut",
+        "website": "https://lucnibouda.cz",
+        "wikidata": "Q132423",
+        "wikipedia": "cs:Luční bouda"
       }
     },
     {
@@ -6005,17 +6005,17 @@
         "@type": "way",
         "@id": 37790997,
         "@url": "https://www.openstreetmap.org/way/37790997",
-        "name": "Městský pivovar",
-        "source": "cuzk:ruian",
         "amenity": "pub",
-        "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk",
         "building": "house",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
         "building:levels": "1",
-        "source:position": "cuzk:km",
+        "building:ruian:type": "7",
+        "microbrewery": "yes",
+        "name": "Městský pivovar",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
         "ref:ruian:building": "8267995",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "source:position": "cuzk:km",
+        "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk"
       }
     },
     {
@@ -6085,20 +6085,20 @@
         "@type": "way",
         "@id": 38933337,
         "@url": "https://www.openstreetmap.org/way/38933337",
-        "name": "Minipivovar Polivar",
-        "source": "cuzk:ruian",
         "amenity": "pub",
         "brewery": "Polivar",
-        "smoking": "separated",
         "building": "civic",
-        "start_date": "2003-01-01",
-        "wheelchair": "yes",
-        "microbrewery": "yes",
-        "opening_hours": "mo-su 10:00-23:00",
         "building:levels": "1",
+        "building:ruian:type": "5",
+        "microbrewery": "yes",
+        "name": "Minipivovar Polivar",
+        "opening_hours": "mo-su 10:00-23:00",
         "outdoor_seating": "yes",
         "ref:ruian:building": "25337505",
-        "building:ruian:type": "5"
+        "smoking": "separated",
+        "source": "cuzk:ruian",
+        "start_date": "2003-01-01",
+        "wheelchair": "yes"
       }
     },
     {
@@ -6494,13 +6494,13 @@
         "@type": "way",
         "@id": 51419390,
         "@url": "https://www.openstreetmap.org/way/51419390",
-        "name": "Kozlíček",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "www.pivovar-kozlicek.cz",
         "building": "yes",
+        "building:ruian:type": "18",
+        "craft": "brewery",
+        "name": "Kozlíček",
         "ref:ruian:building": "13642821",
-        "building:ruian:type": "18"
+        "source": "cuzk:ruian",
+        "website": "www.pivovar-kozlicek.cz"
       }
     },
     {
@@ -6550,18 +6550,18 @@
         "@type": "way",
         "@id": 53226065,
         "@url": "https://www.openstreetmap.org/way/53226065",
-        "name": "Pivovar Podlesí",
-        "phone": "+420 326 531 949",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
-        "website": "http://www.pivovarpodlesi.cz/",
         "building": "house",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Su 10:30-22:00; Fr,Sa 10:30-24:00",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "microbrewery": "yes",
+        "name": "Pivovar Podlesí",
+        "opening_hours": "Mo-Su 10:30-22:00; Fr,Sa 10:30-24:00",
         "outdoor_seating": "yes",
+        "phone": "+420 326 531 949",
         "ref:ruian:building": "22682287",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "website": "http://www.pivovarpodlesi.cz/"
       }
     },
     {
@@ -6603,16 +6603,16 @@
         "@type": "way",
         "@id": 55453200,
         "@url": "https://www.openstreetmap.org/way/55453200",
-        "name": "Pivovar Kocour",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "http://www.pivovar-kocour.cz",
         "building": "warehouse",
-        "start_date": "2012-12-03",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "12",
+        "craft": "brewery",
+        "name": "Pivovar Kocour",
         "ref:ruian:building": "273759",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "start_date": "2012-12-03",
+        "website": "http://www.pivovar-kocour.cz"
       }
     },
     {
@@ -6718,13 +6718,13 @@
         "@type": "way",
         "@id": 59111855,
         "@url": "https://www.openstreetmap.org/way/59111855",
-        "name": "Labuť",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:levels": "1",
+        "building:ruian:type": "5",
+        "craft": "brewery",
+        "name": "Labuť",
         "ref:ruian:building": "2881608",
-        "building:ruian:type": "5"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -6774,12 +6774,12 @@
         "@type": "way",
         "@id": 59196637,
         "@url": "https://www.openstreetmap.org/way/59196637",
-        "name": "Hákův parní pivovar",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
+        "building:ruian:type": "5",
+        "craft": "brewery",
+        "name": "Hákův parní pivovar",
         "ref:ruian:building": "26192489",
-        "building:ruian:type": "5"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -7029,14 +7029,14 @@
         "@type": "way",
         "@id": 62058544,
         "@url": "https://www.openstreetmap.org/way/62058544",
-        "name": "Minipivovar Kněžínek",
-        "source": "cuzk:ruian",
         "building": "yes",
-        "start_date": "2010-10-05",
-        "microbrewery": "yes",
         "building:levels": "3",
+        "building:ruian:type": "19",
+        "microbrewery": "yes",
+        "name": "Minipivovar Kněžínek",
         "ref:ruian:building": "78038120",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "start_date": "2010-10-05"
       }
     },
     {
@@ -7094,14 +7094,14 @@
         "@type": "way",
         "@id": 62147117,
         "@url": "https://www.openstreetmap.org/way/62147117",
-        "name": "Pivovar U Bulovky",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:flats": "2",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "name": "Pivovar U Bulovky",
         "ref:ruian:building": "22196382",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -7143,12 +7143,12 @@
         "@type": "way",
         "@id": 62176341,
         "@url": "https://www.openstreetmap.org/way/62176341",
-        "name": "Trilobit",
-        "craft": "brewery",
         "building": "yes",
         "building:levels": "1",
-        "ref:ruian:building": "22204644",
-        "building:ruian:type": "19"
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Trilobit",
+        "ref:ruian:building": "22204644"
       }
     },
     {
@@ -7436,15 +7436,15 @@
         "@type": "way",
         "@id": 71098857,
         "@url": "https://www.openstreetmap.org/way/71098857",
-        "name": "Minipivovar Malt",
-        "source": "cuzk:ruian",
         "building": "warehouse",
-        "wikidata": "Q59576546",
-        "microbrewery": "yes",
         "building:flats": "7",
         "building:levels": "3",
+        "building:ruian:type": "12",
+        "microbrewery": "yes",
+        "name": "Minipivovar Malt",
         "ref:ruian:building": "11705132",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "wikidata": "Q59576546"
       }
     },
     {
@@ -7566,13 +7566,13 @@
         "@type": "way",
         "@id": 71507411,
         "@url": "https://www.openstreetmap.org/way/71507411",
-        "name": "sladovna Briess",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "warehouse",
-        "start_date": "1890",
+        "building:ruian:type": "12",
+        "craft": "brewery",
+        "name": "sladovna Briess",
         "ref:ruian:building": "48686298",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "start_date": "1890"
       }
     },
     {
@@ -7926,19 +7926,19 @@
         "@type": "way",
         "@id": 83837583,
         "@url": "https://www.openstreetmap.org/way/83837583",
-        "name": "Kutílkova palírna a pivovar;pivovar Žlebské Chvalovice",
+        "addr:city": "Třemošnice",
+        "addr:conscriptionnumber": "88",
+        "addr:country": "CZ",
+        "addr:housenumber": "88",
+        "addr:place": "Žlebské Chvalovice",
+        "addr:postcode": "53843",
+        "building": "yes",
         "craft": "brewery",
         "email": "info@kutilkovapalirna.cz",
-        "source": "cuzk:km",
-        "website": "http://kutilkovapalirna.cz/",
-        "building": "yes",
-        "addr:city": "Třemošnice",
-        "addr:place": "Žlebské Chvalovice",
-        "addr:country": "CZ",
-        "addr:postcode": "53843",
+        "name": "Kutílkova palírna a pivovar;pivovar Žlebské Chvalovice",
         "ref:ruian:addr": "5420571",
-        "addr:housenumber": "88",
-        "addr:conscriptionnumber": "88"
+        "source": "cuzk:km",
+        "website": "http://kutilkovapalirna.cz/"
       }
     },
     {
@@ -8052,17 +8052,17 @@
         "@type": "way",
         "@id": 85486909,
         "@url": "https://www.openstreetmap.org/way/85486909",
-        "name": "Únětický pivovar",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "http://www.unetickypivovar.cz/",
         "building": "yes",
-        "wikidata": "Q11086998",
-        "wikipedia": "cs:Únětický pivovar",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Únětický pivovar",
         "ref:ruian:building": "6359981",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "website": "http://www.unetickypivovar.cz/",
+        "wikidata": "Q11086998",
+        "wikipedia": "cs:Únětický pivovar"
       }
     },
     {
@@ -8096,10 +8096,10 @@
         "@type": "way",
         "@id": 85740068,
         "@url": "https://www.openstreetmap.org/way/85740068",
-        "name": "Kaberna",
+        "building": "yes",
         "craft": "brewery",
-        "source": "cuzk:km",
-        "building": "yes"
+        "name": "Kaberna",
+        "source": "cuzk:km"
       }
     },
     {
@@ -8293,19 +8293,19 @@
         "@type": "way",
         "@id": 87541315,
         "@url": "https://www.openstreetmap.org/way/87541315",
-        "name": "Pivovar Rebel",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "product": "beer",
-        "building": "industrial",
-        "operator": "Měšťanský pivovar Havlíčkův Brod a.s",
         "addr:city": "Havlíčkův Brod",
-        "addr:street": "Dobrovského",
+        "addr:housenumber": "2027",
         "addr:postcode": "58001",
+        "addr:street": "Dobrovského",
+        "building": "industrial",
         "building:flats": "6",
         "building:levels": "3",
-        "addr:housenumber": "2027",
-        "ref:ruian:building": "9554238"
+        "craft": "brewery",
+        "name": "Pivovar Rebel",
+        "operator": "Měšťanský pivovar Havlíčkův Brod a.s",
+        "product": "beer",
+        "ref:ruian:building": "9554238",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -8363,15 +8363,15 @@
         "@type": "way",
         "@id": 88715418,
         "@url": "https://www.openstreetmap.org/way/88715418",
-        "name": "Svatojakubský pivovar",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
         "building": "house",
-        "microbrewery": "yes",
         "building:flats": "1",
         "building:levels": "1",
-        "ref:ruian:building": "18469116"
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Svatojakubský pivovar",
+        "ref:ruian:building": "18469116",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -8471,16 +8471,16 @@
         "@type": "way",
         "@id": 90035896,
         "@url": "https://www.openstreetmap.org/way/90035896",
+        "amenity": "restaurant",
+        "building": "civic",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "microbrewery": "yes",
         "name": "Pivovárek na Kopečku",
         "phone": "+420724691987",
-        "source": "cuzk:ruian",
-        "amenity": "restaurant",
-        "website": "https://pivovareknakopecku.cz/",
-        "building": "civic",
-        "microbrewery": "yes",
-        "building:levels": "1",
         "ref:ruian:building": "18791301",
-        "building:ruian:type": "5"
+        "source": "cuzk:ruian",
+        "website": "https://pivovareknakopecku.cz/"
       }
     },
     {
@@ -8546,17 +8546,17 @@
         "@type": "way",
         "@id": 97741399,
         "@url": "https://www.openstreetmap.org/way/97741399",
-        "name": "Vyšebrodský minipivovar",
-        "craft": "brewery",
-        "phone": "+420 777 280 610",
-        "source": "cuzk:ruian",
-        "website": "http://www.vysebrodskypivovar.cz",
         "building": "house",
-        "microbrewery": "yes",
         "building:flats": "3",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Vyšebrodský minipivovar",
+        "phone": "+420 777 280 610",
         "ref:ruian:building": "8701784",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "website": "http://www.vysebrodskypivovar.cz"
       }
     },
     {
@@ -8626,15 +8626,15 @@
         "@type": "way",
         "@id": 110415536,
         "@url": "https://www.openstreetmap.org/way/110415536",
-        "name": "Pivovar Welzl",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "product": "beer",
         "building": "industrial",
-        "start_date": "2017-04-01",
         "building:flats": "1",
+        "building:ruian:type": "16",
+        "craft": "brewery",
+        "name": "Pivovar Welzl",
+        "product": "beer",
         "ref:ruian:building": "8106991",
-        "building:ruian:type": "16"
+        "source": "cuzk:ruian",
+        "start_date": "2017-04-01"
       }
     },
     {
@@ -8752,15 +8752,15 @@
         "@type": "way",
         "@id": 113747407,
         "@url": "https://www.openstreetmap.org/way/113747407",
-        "name": "Černokostelecký zájezdní pivovár",
-        "source": "cuzk:ruian",
         "amenity": "biergarten",
-        "website": "www.pivovarkostelec.cz",
         "building": "residential",
-        "microbrewery": "yes",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "microbrewery": "yes",
+        "name": "Černokostelecký zájezdní pivovár",
         "ref:ruian:building": "6016359",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian",
+        "website": "www.pivovarkostelec.cz"
       }
     },
     {
@@ -8850,11 +8850,11 @@
         "@type": "way",
         "@id": 114624491,
         "@url": "https://www.openstreetmap.org/way/114624491",
-        "name": "Nomád",
+        "building": "yes",
         "craft": "brewery",
         "layer": "1",
-        "source": "cuzk:km",
-        "building": "yes"
+        "name": "Nomád",
+        "source": "cuzk:km"
       }
     },
     {
@@ -8892,15 +8892,15 @@
         "@type": "way",
         "@id": 138997997,
         "@url": "https://www.openstreetmap.org/way/138997997",
-        "name": "Valašský pivovar",
-        "source": "uhul:ortofoto, cuzk:km",
         "amenity": "restaurant",
         "brewery": "Valašský pivovar",
         "building": "yes",
-        "microbrewery": "yes",
         "contact:email": "info@fojtstvi.cz",
+        "contact:website": "http://www.relaxvpodhuri.cz/cs/gastronomie/valassky-pivovar-v-kozlovicich",
+        "microbrewery": "yes",
+        "name": "Valašský pivovar",
         "opening_hours": "Su-Mo 11:00-20:00; Tu 11:00-21:00; We-Th 11:00-22:00; Fr-Sa 11:00-24:00",
-        "contact:website": "http://www.relaxvpodhuri.cz/cs/gastronomie/valassky-pivovar-v-kozlovicich"
+        "source": "uhul:ortofoto, cuzk:km"
       }
     },
     {
@@ -8942,9 +8942,9 @@
         "@type": "way",
         "@id": 138998280,
         "@url": "https://www.openstreetmap.org/way/138998280",
-        "source": "uhul:ortofoto, cuzk:km",
         "building": "yes",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "source": "uhul:ortofoto, cuzk:km"
       }
     },
     {
@@ -9143,16 +9143,16 @@
         "@type": "way",
         "@id": 143760345,
         "@url": "https://www.openstreetmap.org/way/143760345",
-        "name": "U krále Ječmínka",
+        "addr:housenumber": "1652/4a",
+        "addr:street": "Újezd",
+        "amenity": "restaurant",
+        "building": "yes",
         "email": "restaurant@ukralejecminka.cz",
+        "microbrewery": "yes",
+        "name": "U krále Ječmínka",
         "phone": "+420582346401",
         "source": "cuzk:km",
-        "amenity": "restaurant",
-        "website": "http://www.ukralejecminka.cz/",
-        "building": "yes",
-        "addr:street": "Újezd",
-        "microbrewery": "yes",
-        "addr:housenumber": "1652/4a"
+        "website": "http://www.ukralejecminka.cz/"
       }
     },
     {
@@ -9210,11 +9210,11 @@
         "@type": "way",
         "@id": 144489488,
         "@url": "https://www.openstreetmap.org/way/144489488",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
+        "building:ruian:type": "19",
+        "craft": "brewery",
         "ref:ruian:building": "45012784",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -9368,17 +9368,17 @@
         "@type": "way",
         "@id": 160538594,
         "@url": "https://www.openstreetmap.org/way/160538594",
-        "name": "Pivovar Matuška",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "brewery": "yes",
-        "website": "http://www.pivovarmatuska.cz/",
         "building": "residential",
-        "microbrewery": "yes",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar Matuška",
         "ref:ruian:building": "1606093",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian",
+        "website": "http://www.pivovarmatuska.cz/"
       }
     },
     {
@@ -9460,16 +9460,16 @@
         "@type": "way",
         "@id": 180624196,
         "@url": "https://www.openstreetmap.org/way/180624196",
-        "name": "Pivovarská Bašta",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
-        "cuisine": "regional",
         "building": "hotel",
-        "start_date": "1999-07-14",
-        "microbrewery": "yes",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "Pivovarská Bašta",
         "ref:ruian:building": "24603678",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian",
+        "start_date": "1999-07-14"
       }
     },
     {
@@ -9539,15 +9539,15 @@
         "@type": "way",
         "@id": 180672102,
         "@url": "https://www.openstreetmap.org/way/180672102",
-        "name": "Chomout",
-        "source": "cuzk:ruian",
         "amenity": "pub",
         "building": "warehouse",
-        "microbrewery": "yes",
         "building:levels": "2",
+        "building:ruian:type": "12",
+        "microbrewery": "yes",
+        "name": "Chomout",
         "outdoor_seating": "yes",
         "ref:ruian:building": "22878912",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -9613,10 +9613,10 @@
         "@type": "way",
         "@id": 180672104,
         "@url": "https://www.openstreetmap.org/way/180672104",
-        "name": "Chomout",
+        "building": "yes",
         "craft": "brewery",
-        "source": "cuzk:km",
-        "building": "yes"
+        "name": "Chomout",
+        "source": "cuzk:km"
       }
     },
     {
@@ -9777,15 +9777,15 @@
         "@type": "way",
         "@id": 181341219,
         "@url": "https://www.openstreetmap.org/way/181341219",
-        "url": "www.pivovarskydvur.cz",
-        "name": "Pivovarský dvůr",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
         "building": "yes",
-        "start_date": "2009-05-11",
+        "building:ruian:type": "20",
         "microbrewery": "yes",
+        "name": "Pivovarský dvůr",
         "ref:ruian:building": "27276309",
-        "building:ruian:type": "20"
+        "source": "cuzk:ruian",
+        "start_date": "2009-05-11",
+        "url": "www.pivovarskydvur.cz"
       }
     },
     {
@@ -9823,11 +9823,11 @@
         "@type": "way",
         "@id": 182992693,
         "@url": "https://www.openstreetmap.org/way/182992693",
-        "name": "Marina",
+        "building": "yes",
         "craft": "brewery",
+        "name": "Marina",
         "source": "cuzk:km",
-        "surface": "cobblestone",
-        "building": "yes"
+        "surface": "cobblestone"
       }
     },
     {
@@ -9928,24 +9928,24 @@
         "@type": "way",
         "@id": 205990694,
         "@url": "https://www.openstreetmap.org/way/205990694",
-        "name": "Andula",
-        "email": "info@friesovyboudy.cz",
-        "phone": "+420 499 434 135",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
+        "building": "hotel",
+        "building:levels": "4",
+        "building:ruian:type": "11",
         "cuisine": "regional",
+        "email": "info@friesovyboudy.cz",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Andula",
+        "phone": "+420 499 434 135",
+        "ref:ruian:building": "52086381",
         "smoking": "no",
+        "source": "cuzk:ruian",
+        "start_date": "2012-11-28",
         "tourism": "guest_house",
         "website": "https://penzionandula.cz/",
-        "building": "hotel",
-        "start_date": "2012-11-28",
-        "wheelchair": "yes",
-        "microbrewery": "yes",
-        "building:levels": "4",
-        "internet_access": "wlan",
-        "ref:ruian:building": "52086381",
-        "building:ruian:type": "11",
-        "internet_access:fee": "no"
+        "wheelchair": "yes"
       }
     },
     {
@@ -10070,14 +10070,14 @@
         "@type": "way",
         "@id": 210884848,
         "@url": "https://www.openstreetmap.org/way/210884848",
-        "name": "Millenium",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "name": "Millenium",
         "ref:ruian:building": "17638691",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -10341,27 +10341,27 @@
         "@type": "way",
         "@id": 231916005,
         "@url": "https://www.openstreetmap.org/way/231916005",
-        "name": "Pivovar Hostivar 1",
-        "email": "info@pivovar-hostivar.cz",
-        "phone": "+420 702 202 903",
-        "source": "cuzk:ruian",
-        "amenity": "restaurant",
-        "smoking": "no",
-        "website": "https://www.pivovar-hostivar.cz/",
-        "building": "yes",
         "addr:city": "Praha",
-        "start_date": "2013-09-25",
-        "wheelchair": "yes",
-        "addr:street": "Lochotínská",
-        "reservation": "recommended",
-        "microbrewery": "yes",
-        "addr:postcode": "10900",
-        "opening_hours": "Mo-Su 11:00-23:00",
-        "building:levels": "1",
         "addr:housenumber": "656",
+        "addr:postcode": "10900",
+        "addr:street": "Lochotínská",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:ruian:type": "19",
+        "email": "info@pivovar-hostivar.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar Hostivar 1",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+420 702 202 903",
         "ref:ruian:building": "60923652",
+        "reservation": "recommended",
+        "smoking": "no",
+        "source": "cuzk:ruian",
+        "start_date": "2013-09-25",
         "toilets:wheelchair": "yes",
-        "building:ruian:type": "19"
+        "website": "https://www.pivovar-hostivar.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -10403,16 +10403,16 @@
         "@type": "way",
         "@id": 260375743,
         "@url": "https://www.openstreetmap.org/way/260375743",
-        "name": "Pivovar Spitt",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "amenity": "biergarten",
         "building": "house",
-        "ref:ruian": "16711459",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Pivovar Spitt",
+        "ref:ruian": "16711459",
         "ref:ruian:building": "16711459",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -10564,25 +10564,25 @@
         "@type": "way",
         "@id": 274541779,
         "@url": "https://www.openstreetmap.org/way/274541779",
-        "bar": "yes",
-        "name": "Restaurace Western",
-        "source": "cuzk:ruian",
-        "amenity": "restaurant",
-        "cuisine": "regional",
-        "building": "yes",
         "addr:city": "Vysoká",
-        "addr:place": "Bartultovice",
+        "addr:conscriptionnumber": "44",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "79399",
-        "building:flats": "1",
-        "ref:ruian:addr": "14050161",
-        "building:levels": "1",
-        "internet_access": "wlan",
         "addr:housenumber": "44",
-        "ref:ruian:building": "13958950",
+        "addr:place": "Bartultovice",
+        "addr:postcode": "79399",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "building": "yes",
+        "building:flats": "1",
+        "building:levels": "1",
         "building:ruian:type": "15",
-        "addr:conscriptionnumber": "44"
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Restaurace Western",
+        "ref:ruian:addr": "14050161",
+        "ref:ruian:building": "13958950",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -10656,10 +10656,10 @@
         "@type": "way",
         "@id": 274631107,
         "@url": "https://www.openstreetmap.org/way/274631107",
-        "name": "Zámecký pivovar Dětenice",
+        "building": "industrial",
         "craft": "brewery",
-        "source": "cuzk:km",
-        "building": "industrial"
+        "name": "Zámecký pivovar Dětenice",
+        "source": "cuzk:km"
       }
     },
     {
@@ -10858,12 +10858,12 @@
         "@type": "way",
         "@id": 292617786,
         "@url": "https://www.openstreetmap.org/way/292617786",
-        "name": "Minipivovar Žumberk",
-        "craft": "brewery",
-        "phone": "+420 774 232 886",
-        "website": "http://pivozumberk.cz/",
         "building": "yes",
-        "microbrewery": "yes"
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Minipivovar Žumberk",
+        "phone": "+420 774 232 886",
+        "website": "http://pivozumberk.cz/"
       }
     },
     {
@@ -10921,16 +10921,16 @@
         "@type": "way",
         "@id": 312427504,
         "@url": "https://www.openstreetmap.org/way/312427504",
-        "name": "Mandava",
-        "source": "cuzk:ruian",
         "amenity": "pub",
         "building": "yes",
-        "start_date": "2013-04-26",
-        "microbrewery": "yes",
         "building:levels": "2",
+        "building:ruian:type": "19",
+        "microbrewery": "yes",
+        "name": "Mandava",
         "outdoor_seating": "yes",
         "ref:ruian:building": "27371379",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "start_date": "2013-04-26"
       }
     },
     {
@@ -10980,14 +10980,14 @@
         "@type": "way",
         "@id": 314527407,
         "@url": "https://www.openstreetmap.org/way/314527407",
-        "name": "Pivovar Mlýn - Střížovice",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:flats": "2",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Pivovar Mlýn - Střížovice",
         "ref:ruian:building": "16663276",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -11037,13 +11037,13 @@
         "@type": "way",
         "@id": 344932173,
         "@url": "https://www.openstreetmap.org/way/344932173",
-        "name": "Kynšperský pivovar",
+        "addr:city": "Kynšperk nad Ohří",
+        "addr:housenumber": "482",
+        "addr:postcode": "35751",
+        "addr:street": "Sokolovská",
         "craft": "brewery",
         "landuse": "industrial",
-        "addr:city": "Kynšperk nad Ohří",
-        "addr:street": "Sokolovská",
-        "addr:postcode": "35751",
-        "addr:housenumber": "482"
+        "name": "Kynšperský pivovar"
       }
     },
     {
@@ -11081,13 +11081,13 @@
         "@type": "way",
         "@id": 347099040,
         "@url": "https://www.openstreetmap.org/way/347099040",
-        "name": "Dědkův mlýn",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
-        "start_date": "2006-08-09",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Dědkův mlýn",
         "ref:ruian:building": "26705494",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "start_date": "2006-08-09"
       }
     },
     {
@@ -11121,10 +11121,10 @@
         "@type": "way",
         "@id": 359239074,
         "@url": "https://www.openstreetmap.org/way/359239074",
-        "name": "Pivovar Malenovice Zlínský Švec",
         "amenity": "biergarten",
-        "website": "https://zlinskysvec.cz/",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Pivovar Malenovice Zlínský Švec",
+        "website": "https://zlinskysvec.cz/"
       }
     },
     {
@@ -11217,15 +11217,15 @@
         "@type": "way",
         "@id": 438270274,
         "@url": "https://www.openstreetmap.org/way/438270274",
-        "name": "Neumann",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "http://www.pivovar-neumann.cz/",
         "building": "house",
         "building:flats": "1",
         "building:levels": "2",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Neumann",
         "ref:ruian:building": "2069083",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "website": "http://www.pivovar-neumann.cz/"
       }
     },
     {
@@ -11307,21 +11307,21 @@
         "@type": "way",
         "@id": 489766498,
         "@url": "https://www.openstreetmap.org/way/489766498",
-        "name": "Pivovar Hostivar H2",
-        "email": "h2@pivovar-hostivar.cz",
-        "phone": "+420702203143",
-        "amenity": "restaurant",
-        "smoking": "no",
-        "website": "https://www.pivovar-hostivar.cz/",
-        "building": "yes",
         "addr:city": "Praha",
-        "addr:street": "Hornoměcholupská",
-        "reservation": "recommended",
-        "microbrewery": "yes",
+        "addr:housenumber": "755/115",
         "addr:postcode": "10900",
-        "opening_hours": "Mo-Fr 07:00-23:00; Sa-Su 08:00-23:00",
+        "addr:street": "Hornoměcholupská",
+        "amenity": "restaurant",
+        "building": "yes",
         "building:levels": "2",
-        "addr:housenumber": "755/115"
+        "email": "h2@pivovar-hostivar.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar Hostivar H2",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa-Su 08:00-23:00",
+        "phone": "+420702203143",
+        "reservation": "recommended",
+        "smoking": "no",
+        "website": "https://www.pivovar-hostivar.cz/"
       }
     },
     {
@@ -11367,25 +11367,25 @@
         "@type": "way",
         "@id": 499542768,
         "@url": "https://www.openstreetmap.org/way/499542768",
-        "name": "Pivovar Ossegg",
-        "source": "cuzk:ruian",
+        "addr:city": "Osek",
+        "addr:conscriptionnumber": "484",
+        "addr:country": "CZ",
+        "addr:housenumber": "1",
+        "addr:place": "Osek",
+        "addr:postcode": "41705",
+        "addr:street": "Rooseveltova",
         "amenity": "restaurant",
         "brewery": "Ossegg",
-        "website": "http://ossegg.cz/",
         "building": "yes",
-        "addr:city": "Osek",
-        "addr:place": "Osek",
-        "addr:street": "Rooseveltova",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "41705",
         "building:flats": "1",
-        "ref:ruian:addr": "15025870",
         "building:levels": "1",
-        "addr:housenumber": "1",
-        "ref:ruian:building": "14917696",
         "building:ruian:type": "5",
-        "addr:conscriptionnumber": "484"
+        "microbrewery": "yes",
+        "name": "Pivovar Ossegg",
+        "ref:ruian:addr": "15025870",
+        "ref:ruian:building": "14917696",
+        "source": "cuzk:ruian",
+        "website": "http://ossegg.cz/"
       }
     },
     {
@@ -11479,9 +11479,9 @@
         "@type": "way",
         "@id": 499667141,
         "@url": "https://www.openstreetmap.org/way/499667141",
-        "name": "Bývalý Akciový pivovar Prostějov",
         "craft": "brewery",
-        "landuse": "industrial"
+        "landuse": "industrial",
+        "name": "Bývalý Akciový pivovar Prostějov"
       }
     },
     {
@@ -11672,9 +11672,9 @@
         "@type": "way",
         "@id": 642878042,
         "@url": "https://www.openstreetmap.org/way/642878042",
-        "name": "Ogar",
         "craft": "brewery",
         "landuse": "industrial",
+        "name": "Ogar",
         "website": "https://www.pivovarogar.cz/"
       }
     },
@@ -11725,19 +11725,19 @@
         "@type": "way",
         "@id": 709650011,
         "@url": "https://www.openstreetmap.org/way/709650011",
-        "name": "Kvasar",
+        "building": "warehouse",
+        "building:levels": "3",
+        "building:ruian:type": "12",
         "craft": "brewery",
         "email": "pivokvasar@gmail.com",
-        "phone": "+420 549 416 117",
-        "source": "cuzk:ruian",
-        "website": "http://pivokvasar.cz/",
-        "building": "warehouse",
-        "start_date": "2017-05-30",
-        "wheelchair": "yes",
+        "name": "Kvasar",
         "opening_hours": "Mo-Fr 07:30-17:00",
-        "building:levels": "3",
+        "phone": "+420 549 416 117",
         "ref:ruian:building": "89772571",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "start_date": "2017-05-30",
+        "website": "http://pivokvasar.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -11959,14 +11959,14 @@
         "@type": "way",
         "@id": 731979537,
         "@url": "https://www.openstreetmap.org/way/731979537",
-        "name": "Březňák",
-        "craft": "brewery",
         "barrier": "fence",
+        "craft": "brewery",
+        "industrial": "brewery",
+        "name": "Březňák",
+        "start_date": "1606",
         "website": "http://www.breznak.cz",
         "wikidata": "Q3490068",
-        "wikipedia": "cs:Březňák",
-        "industrial": "brewery",
-        "start_date": "1606"
+        "wikipedia": "cs:Březňák"
       }
     },
     {
@@ -12056,9 +12056,9 @@
         "@type": "way",
         "@id": 740682447,
         "@url": "https://www.openstreetmap.org/way/740682447",
-        "name": "Na Rychtě",
+        "building": "yes",
         "craft": "brewery",
-        "building": "yes"
+        "name": "Na Rychtě"
       }
     },
     {
@@ -12530,28 +12530,28 @@
         "@type": "way",
         "@id": 19921110,
         "@url": "https://www.openstreetmap.org/way/19921110",
-        "name": "Luční bouda",
+        "addr:conscriptionnumber": "203",
+        "addr:country": "CZ",
+        "addr:housenumber": "203",
+        "addr:place": "Pec pod Sněžkou",
+        "addr:postcode": "54221",
+        "building": "hotel",
+        "building:ruian:type": "11",
         "image": "https://cs.wikipedia.org/wiki/Luční_bouda#/media/File:Lu%C4%8Dn%C3%AD_Bouda_FR01.jpg",
-        "source": "cuzk:ruian",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Luční bouda",
         "name:de": "Wiesenbaude",
         "name:en": "Meadow Chalet",
         "name:pl": "Schronisko Buda Łąkowa",
-        "tourism": "alpine_hut",
-        "website": "https://lucnibouda.cz",
-        "building": "hotel",
-        "wikidata": "Q132423",
-        "wikipedia": "cs:Luční bouda",
-        "addr:place": "Pec pod Sněžkou",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "54221",
         "opening_hours": "Mo-Su 08:00-24:00",
         "ref:ruian:addr": "21047367",
-        "internet_access": "wlan",
-        "addr:housenumber": "203",
         "ref:ruian:building": "20806141",
-        "building:ruian:type": "11",
-        "addr:conscriptionnumber": "203"
+        "source": "cuzk:ruian",
+        "tourism": "alpine_hut",
+        "website": "https://lucnibouda.cz",
+        "wikidata": "Q132423",
+        "wikipedia": "cs:Luční bouda"
       }
     },
     {
@@ -12589,17 +12589,17 @@
         "@type": "way",
         "@id": 37790997,
         "@url": "https://www.openstreetmap.org/way/37790997",
-        "name": "Městský pivovar",
-        "source": "cuzk:ruian",
         "amenity": "pub",
-        "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk",
         "building": "house",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
         "building:levels": "1",
-        "source:position": "cuzk:km",
+        "building:ruian:type": "7",
+        "microbrewery": "yes",
+        "name": "Městský pivovar",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
         "ref:ruian:building": "8267995",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "source:position": "cuzk:km",
+        "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk"
       }
     },
     {
@@ -12673,20 +12673,20 @@
         "@type": "way",
         "@id": 38933337,
         "@url": "https://www.openstreetmap.org/way/38933337",
-        "name": "Minipivovar Polivar",
-        "source": "cuzk:ruian",
         "amenity": "pub",
         "brewery": "Polivar",
-        "smoking": "separated",
         "building": "civic",
-        "start_date": "2003-01-01",
-        "wheelchair": "yes",
-        "microbrewery": "yes",
-        "opening_hours": "mo-su 10:00-23:00",
         "building:levels": "1",
+        "building:ruian:type": "5",
+        "microbrewery": "yes",
+        "name": "Minipivovar Polivar",
+        "opening_hours": "mo-su 10:00-23:00",
         "outdoor_seating": "yes",
         "ref:ruian:building": "25337505",
-        "building:ruian:type": "5"
+        "smoking": "separated",
+        "source": "cuzk:ruian",
+        "start_date": "2003-01-01",
+        "wheelchair": "yes"
       }
     },
     {
@@ -13423,15 +13423,15 @@
         "@type": "relation",
         "@id": 6826330,
         "@url": "https://www.openstreetmap.org/relation/6826330",
-        "name": "Pivovar Staropramen",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
-        "wikidata": "Q13360260",
-        "wikipedia": "cs:Pivovar Staropramen",
         "building:levels": "4",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Pivovar Staropramen",
         "ref:ruian:building": "21911606",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "wikidata": "Q13360260",
+        "wikipedia": "cs:Pivovar Staropramen"
       }
     },
     {
@@ -13558,13 +13558,13 @@
         "@type": "way",
         "@id": 51419390,
         "@url": "https://www.openstreetmap.org/way/51419390",
-        "name": "Kozlíček",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "www.pivovar-kozlicek.cz",
         "building": "yes",
+        "building:ruian:type": "18",
+        "craft": "brewery",
+        "name": "Kozlíček",
         "ref:ruian:building": "13642821",
-        "building:ruian:type": "18"
+        "source": "cuzk:ruian",
+        "website": "www.pivovar-kozlicek.cz"
       }
     },
     {
@@ -13618,18 +13618,18 @@
         "@type": "way",
         "@id": 53226065,
         "@url": "https://www.openstreetmap.org/way/53226065",
-        "name": "Pivovar Podlesí",
-        "phone": "+420 326 531 949",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
-        "website": "http://www.pivovarpodlesi.cz/",
         "building": "house",
-        "microbrewery": "yes",
-        "opening_hours": "Mo-Su 10:30-22:00; Fr,Sa 10:30-24:00",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "microbrewery": "yes",
+        "name": "Pivovar Podlesí",
+        "opening_hours": "Mo-Su 10:30-22:00; Fr,Sa 10:30-24:00",
         "outdoor_seating": "yes",
+        "phone": "+420 326 531 949",
         "ref:ruian:building": "22682287",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "website": "http://www.pivovarpodlesi.cz/"
       }
     },
     {
@@ -13675,16 +13675,16 @@
         "@type": "way",
         "@id": 55453200,
         "@url": "https://www.openstreetmap.org/way/55453200",
-        "name": "Pivovar Kocour",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "http://www.pivovar-kocour.cz",
         "building": "warehouse",
-        "start_date": "2012-12-03",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "12",
+        "craft": "brewery",
+        "name": "Pivovar Kocour",
         "ref:ruian:building": "273759",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "start_date": "2012-12-03",
+        "website": "http://www.pivovar-kocour.cz"
       }
     },
     {
@@ -13798,13 +13798,13 @@
         "@type": "way",
         "@id": 59111855,
         "@url": "https://www.openstreetmap.org/way/59111855",
-        "name": "Labuť",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:levels": "1",
+        "building:ruian:type": "5",
+        "craft": "brewery",
+        "name": "Labuť",
         "ref:ruian:building": "2881608",
-        "building:ruian:type": "5"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -13858,12 +13858,12 @@
         "@type": "way",
         "@id": 59196637,
         "@url": "https://www.openstreetmap.org/way/59196637",
-        "name": "Hákův parní pivovar",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
+        "building:ruian:type": "5",
+        "craft": "brewery",
+        "name": "Hákův parní pivovar",
         "ref:ruian:building": "26192489",
-        "building:ruian:type": "5"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -14125,14 +14125,14 @@
         "@type": "way",
         "@id": 62058544,
         "@url": "https://www.openstreetmap.org/way/62058544",
-        "name": "Minipivovar Kněžínek",
-        "source": "cuzk:ruian",
         "building": "yes",
-        "start_date": "2010-10-05",
-        "microbrewery": "yes",
         "building:levels": "3",
+        "building:ruian:type": "19",
+        "microbrewery": "yes",
+        "name": "Minipivovar Kněžínek",
         "ref:ruian:building": "78038120",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "start_date": "2010-10-05"
       }
     },
     {
@@ -14194,14 +14194,14 @@
         "@type": "way",
         "@id": 62147117,
         "@url": "https://www.openstreetmap.org/way/62147117",
-        "name": "Pivovar U Bulovky",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:flats": "2",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "name": "Pivovar U Bulovky",
         "ref:ruian:building": "22196382",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -14247,12 +14247,12 @@
         "@type": "way",
         "@id": 62176341,
         "@url": "https://www.openstreetmap.org/way/62176341",
-        "name": "Trilobit",
-        "craft": "brewery",
         "building": "yes",
         "building:levels": "1",
-        "ref:ruian:building": "22204644",
-        "building:ruian:type": "19"
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Trilobit",
+        "ref:ruian:building": "22204644"
       }
     },
     {
@@ -14548,15 +14548,15 @@
         "@type": "way",
         "@id": 71098857,
         "@url": "https://www.openstreetmap.org/way/71098857",
-        "name": "Minipivovar Malt",
-        "source": "cuzk:ruian",
         "building": "warehouse",
-        "wikidata": "Q59576546",
-        "microbrewery": "yes",
         "building:flats": "7",
         "building:levels": "3",
+        "building:ruian:type": "12",
+        "microbrewery": "yes",
+        "name": "Minipivovar Malt",
         "ref:ruian:building": "11705132",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "wikidata": "Q59576546"
       }
     },
     {
@@ -14682,13 +14682,13 @@
         "@type": "way",
         "@id": 71507411,
         "@url": "https://www.openstreetmap.org/way/71507411",
-        "name": "sladovna Briess",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "warehouse",
-        "start_date": "1890",
+        "building:ruian:type": "12",
+        "craft": "brewery",
+        "name": "sladovna Briess",
         "ref:ruian:building": "48686298",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "start_date": "1890"
       }
     },
     {
@@ -15062,19 +15062,19 @@
         "@type": "way",
         "@id": 83837583,
         "@url": "https://www.openstreetmap.org/way/83837583",
-        "name": "Kutílkova palírna a pivovar;pivovar Žlebské Chvalovice",
+        "addr:city": "Třemošnice",
+        "addr:conscriptionnumber": "88",
+        "addr:country": "CZ",
+        "addr:housenumber": "88",
+        "addr:place": "Žlebské Chvalovice",
+        "addr:postcode": "53843",
+        "building": "yes",
         "craft": "brewery",
         "email": "info@kutilkovapalirna.cz",
-        "source": "cuzk:km",
-        "website": "http://kutilkovapalirna.cz/",
-        "building": "yes",
-        "addr:city": "Třemošnice",
-        "addr:place": "Žlebské Chvalovice",
-        "addr:country": "CZ",
-        "addr:postcode": "53843",
+        "name": "Kutílkova palírna a pivovar;pivovar Žlebské Chvalovice",
         "ref:ruian:addr": "5420571",
-        "addr:housenumber": "88",
-        "addr:conscriptionnumber": "88"
+        "source": "cuzk:km",
+        "website": "http://kutilkovapalirna.cz/"
       }
     },
     {
@@ -15192,17 +15192,17 @@
         "@type": "way",
         "@id": 85486909,
         "@url": "https://www.openstreetmap.org/way/85486909",
-        "name": "Únětický pivovar",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "http://www.unetickypivovar.cz/",
         "building": "yes",
-        "wikidata": "Q11086998",
-        "wikipedia": "cs:Únětický pivovar",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Únětický pivovar",
         "ref:ruian:building": "6359981",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "website": "http://www.unetickypivovar.cz/",
+        "wikidata": "Q11086998",
+        "wikipedia": "cs:Únětický pivovar"
       }
     },
     {
@@ -15240,10 +15240,10 @@
         "@type": "way",
         "@id": 85740068,
         "@url": "https://www.openstreetmap.org/way/85740068",
-        "name": "Kaberna",
+        "building": "yes",
         "craft": "brewery",
-        "source": "cuzk:km",
-        "building": "yes"
+        "name": "Kaberna",
+        "source": "cuzk:km"
       }
     },
     {
@@ -15441,19 +15441,19 @@
         "@type": "way",
         "@id": 87541315,
         "@url": "https://www.openstreetmap.org/way/87541315",
-        "name": "Pivovar Rebel",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "product": "beer",
-        "building": "industrial",
-        "operator": "Měšťanský pivovar Havlíčkův Brod a.s",
         "addr:city": "Havlíčkův Brod",
-        "addr:street": "Dobrovského",
+        "addr:housenumber": "2027",
         "addr:postcode": "58001",
+        "addr:street": "Dobrovského",
+        "building": "industrial",
         "building:flats": "6",
         "building:levels": "3",
-        "addr:housenumber": "2027",
-        "ref:ruian:building": "9554238"
+        "craft": "brewery",
+        "name": "Pivovar Rebel",
+        "operator": "Měšťanský pivovar Havlíčkův Brod a.s",
+        "product": "beer",
+        "ref:ruian:building": "9554238",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -15515,15 +15515,15 @@
         "@type": "way",
         "@id": 88715418,
         "@url": "https://www.openstreetmap.org/way/88715418",
-        "name": "Svatojakubský pivovar",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
         "building": "house",
-        "microbrewery": "yes",
         "building:flats": "1",
         "building:levels": "1",
-        "ref:ruian:building": "18469116"
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Svatojakubský pivovar",
+        "ref:ruian:building": "18469116",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -15631,16 +15631,16 @@
         "@type": "way",
         "@id": 90035896,
         "@url": "https://www.openstreetmap.org/way/90035896",
+        "amenity": "restaurant",
+        "building": "civic",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "microbrewery": "yes",
         "name": "Pivovárek na Kopečku",
         "phone": "+420724691987",
-        "source": "cuzk:ruian",
-        "amenity": "restaurant",
-        "website": "https://pivovareknakopecku.cz/",
-        "building": "civic",
-        "microbrewery": "yes",
-        "building:levels": "1",
         "ref:ruian:building": "18791301",
-        "building:ruian:type": "5"
+        "source": "cuzk:ruian",
+        "website": "https://pivovareknakopecku.cz/"
       }
     },
     {
@@ -15710,17 +15710,17 @@
         "@type": "way",
         "@id": 97741399,
         "@url": "https://www.openstreetmap.org/way/97741399",
-        "name": "Vyšebrodský minipivovar",
-        "craft": "brewery",
-        "phone": "+420 777 280 610",
-        "source": "cuzk:ruian",
-        "website": "http://www.vysebrodskypivovar.cz",
         "building": "house",
-        "microbrewery": "yes",
         "building:flats": "3",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Vyšebrodský minipivovar",
+        "phone": "+420 777 280 610",
         "ref:ruian:building": "8701784",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "website": "http://www.vysebrodskypivovar.cz"
       }
     },
     {
@@ -15794,15 +15794,15 @@
         "@type": "way",
         "@id": 110415536,
         "@url": "https://www.openstreetmap.org/way/110415536",
-        "name": "Pivovar Welzl",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "product": "beer",
         "building": "industrial",
-        "start_date": "2017-04-01",
         "building:flats": "1",
+        "building:ruian:type": "16",
+        "craft": "brewery",
+        "name": "Pivovar Welzl",
+        "product": "beer",
         "ref:ruian:building": "8106991",
-        "building:ruian:type": "16"
+        "source": "cuzk:ruian",
+        "start_date": "2017-04-01"
       }
     },
     {
@@ -15924,15 +15924,15 @@
         "@type": "way",
         "@id": 113747407,
         "@url": "https://www.openstreetmap.org/way/113747407",
-        "name": "Černokostelecký zájezdní pivovár",
-        "source": "cuzk:ruian",
         "amenity": "biergarten",
-        "website": "www.pivovarkostelec.cz",
         "building": "residential",
-        "microbrewery": "yes",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "microbrewery": "yes",
+        "name": "Černokostelecký zájezdní pivovár",
         "ref:ruian:building": "6016359",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian",
+        "website": "www.pivovarkostelec.cz"
       }
     },
     {
@@ -16026,11 +16026,11 @@
         "@type": "way",
         "@id": 114624491,
         "@url": "https://www.openstreetmap.org/way/114624491",
-        "name": "Nomád",
+        "building": "yes",
         "craft": "brewery",
         "layer": "1",
-        "source": "cuzk:km",
-        "building": "yes"
+        "name": "Nomád",
+        "source": "cuzk:km"
       }
     },
     {
@@ -16072,15 +16072,15 @@
         "@type": "way",
         "@id": 138997997,
         "@url": "https://www.openstreetmap.org/way/138997997",
-        "name": "Valašský pivovar",
-        "source": "uhul:ortofoto, cuzk:km",
         "amenity": "restaurant",
         "brewery": "Valašský pivovar",
         "building": "yes",
-        "microbrewery": "yes",
         "contact:email": "info@fojtstvi.cz",
+        "contact:website": "http://www.relaxvpodhuri.cz/cs/gastronomie/valassky-pivovar-v-kozlovicich",
+        "microbrewery": "yes",
+        "name": "Valašský pivovar",
         "opening_hours": "Su-Mo 11:00-20:00; Tu 11:00-21:00; We-Th 11:00-22:00; Fr-Sa 11:00-24:00",
-        "contact:website": "http://www.relaxvpodhuri.cz/cs/gastronomie/valassky-pivovar-v-kozlovicich"
+        "source": "uhul:ortofoto, cuzk:km"
       }
     },
     {
@@ -16126,9 +16126,9 @@
         "@type": "way",
         "@id": 138998280,
         "@url": "https://www.openstreetmap.org/way/138998280",
-        "source": "uhul:ortofoto, cuzk:km",
         "building": "yes",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "source": "uhul:ortofoto, cuzk:km"
       }
     },
     {
@@ -16335,16 +16335,16 @@
         "@type": "way",
         "@id": 143760345,
         "@url": "https://www.openstreetmap.org/way/143760345",
-        "name": "U krále Ječmínka",
+        "addr:housenumber": "1652/4a",
+        "addr:street": "Újezd",
+        "amenity": "restaurant",
+        "building": "yes",
         "email": "restaurant@ukralejecminka.cz",
+        "microbrewery": "yes",
+        "name": "U krále Ječmínka",
         "phone": "+420582346401",
         "source": "cuzk:km",
-        "amenity": "restaurant",
-        "website": "http://www.ukralejecminka.cz/",
-        "building": "yes",
-        "addr:street": "Újezd",
-        "microbrewery": "yes",
-        "addr:housenumber": "1652/4a"
+        "website": "http://www.ukralejecminka.cz/"
       }
     },
     {
@@ -16406,11 +16406,11 @@
         "@type": "way",
         "@id": 144489488,
         "@url": "https://www.openstreetmap.org/way/144489488",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
+        "building:ruian:type": "19",
+        "craft": "brewery",
         "ref:ruian:building": "45012784",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -16576,17 +16576,17 @@
         "@type": "way",
         "@id": 160538594,
         "@url": "https://www.openstreetmap.org/way/160538594",
-        "name": "Pivovar Matuška",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "brewery": "yes",
-        "website": "http://www.pivovarmatuska.cz/",
         "building": "residential",
-        "microbrewery": "yes",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar Matuška",
         "ref:ruian:building": "1606093",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian",
+        "website": "http://www.pivovarmatuska.cz/"
       }
     },
     {
@@ -16672,16 +16672,16 @@
         "@type": "way",
         "@id": 180624196,
         "@url": "https://www.openstreetmap.org/way/180624196",
-        "name": "Pivovarská Bašta",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
-        "cuisine": "regional",
         "building": "hotel",
-        "start_date": "1999-07-14",
-        "microbrewery": "yes",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "Pivovarská Bašta",
         "ref:ruian:building": "24603678",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian",
+        "start_date": "1999-07-14"
       }
     },
     {
@@ -16755,15 +16755,15 @@
         "@type": "way",
         "@id": 180672102,
         "@url": "https://www.openstreetmap.org/way/180672102",
-        "name": "Chomout",
-        "source": "cuzk:ruian",
         "amenity": "pub",
         "building": "warehouse",
-        "microbrewery": "yes",
         "building:levels": "2",
+        "building:ruian:type": "12",
+        "microbrewery": "yes",
+        "name": "Chomout",
         "outdoor_seating": "yes",
         "ref:ruian:building": "22878912",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -16833,10 +16833,10 @@
         "@type": "way",
         "@id": 180672104,
         "@url": "https://www.openstreetmap.org/way/180672104",
-        "name": "Chomout",
+        "building": "yes",
         "craft": "brewery",
-        "source": "cuzk:km",
-        "building": "yes"
+        "name": "Chomout",
+        "source": "cuzk:km"
       }
     },
     {
@@ -17005,15 +17005,15 @@
         "@type": "way",
         "@id": 181341219,
         "@url": "https://www.openstreetmap.org/way/181341219",
-        "url": "www.pivovarskydvur.cz",
-        "name": "Pivovarský dvůr",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
         "building": "yes",
-        "start_date": "2009-05-11",
+        "building:ruian:type": "20",
         "microbrewery": "yes",
+        "name": "Pivovarský dvůr",
         "ref:ruian:building": "27276309",
-        "building:ruian:type": "20"
+        "source": "cuzk:ruian",
+        "start_date": "2009-05-11",
+        "url": "www.pivovarskydvur.cz"
       }
     },
     {
@@ -17055,11 +17055,11 @@
         "@type": "way",
         "@id": 182992693,
         "@url": "https://www.openstreetmap.org/way/182992693",
-        "name": "Marina",
+        "building": "yes",
         "craft": "brewery",
+        "name": "Marina",
         "source": "cuzk:km",
-        "surface": "cobblestone",
-        "building": "yes"
+        "surface": "cobblestone"
       }
     },
     {
@@ -17168,24 +17168,24 @@
         "@type": "way",
         "@id": 205990694,
         "@url": "https://www.openstreetmap.org/way/205990694",
-        "name": "Andula",
-        "email": "info@friesovyboudy.cz",
-        "phone": "+420 499 434 135",
-        "source": "cuzk:ruian",
         "amenity": "restaurant",
+        "building": "hotel",
+        "building:levels": "4",
+        "building:ruian:type": "11",
         "cuisine": "regional",
+        "email": "info@friesovyboudy.cz",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Andula",
+        "phone": "+420 499 434 135",
+        "ref:ruian:building": "52086381",
         "smoking": "no",
+        "source": "cuzk:ruian",
+        "start_date": "2012-11-28",
         "tourism": "guest_house",
         "website": "https://penzionandula.cz/",
-        "building": "hotel",
-        "start_date": "2012-11-28",
-        "wheelchair": "yes",
-        "microbrewery": "yes",
-        "building:levels": "4",
-        "internet_access": "wlan",
-        "ref:ruian:building": "52086381",
-        "building:ruian:type": "11",
-        "internet_access:fee": "no"
+        "wheelchair": "yes"
       }
     },
     {
@@ -17318,14 +17318,14 @@
         "@type": "way",
         "@id": 210884848,
         "@url": "https://www.openstreetmap.org/way/210884848",
-        "name": "Millenium",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "name": "Millenium",
         "ref:ruian:building": "17638691",
-        "building:ruian:type": "3"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -17605,27 +17605,27 @@
         "@type": "way",
         "@id": 231916005,
         "@url": "https://www.openstreetmap.org/way/231916005",
-        "name": "Pivovar Hostivar 1",
-        "email": "info@pivovar-hostivar.cz",
-        "phone": "+420 702 202 903",
-        "source": "cuzk:ruian",
-        "amenity": "restaurant",
-        "smoking": "no",
-        "website": "https://www.pivovar-hostivar.cz/",
-        "building": "yes",
         "addr:city": "Praha",
-        "start_date": "2013-09-25",
-        "wheelchair": "yes",
-        "addr:street": "Lochotínská",
-        "reservation": "recommended",
-        "microbrewery": "yes",
-        "addr:postcode": "10900",
-        "opening_hours": "Mo-Su 11:00-23:00",
-        "building:levels": "1",
         "addr:housenumber": "656",
+        "addr:postcode": "10900",
+        "addr:street": "Lochotínská",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:ruian:type": "19",
+        "email": "info@pivovar-hostivar.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar Hostivar 1",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+420 702 202 903",
         "ref:ruian:building": "60923652",
+        "reservation": "recommended",
+        "smoking": "no",
+        "source": "cuzk:ruian",
+        "start_date": "2013-09-25",
         "toilets:wheelchair": "yes",
-        "building:ruian:type": "19"
+        "website": "https://www.pivovar-hostivar.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -17671,16 +17671,16 @@
         "@type": "way",
         "@id": 260375743,
         "@url": "https://www.openstreetmap.org/way/260375743",
-        "name": "Pivovar Spitt",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "amenity": "biergarten",
         "building": "house",
-        "ref:ruian": "16711459",
         "building:flats": "1",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Pivovar Spitt",
+        "ref:ruian": "16711459",
         "ref:ruian:building": "16711459",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -17840,25 +17840,25 @@
         "@type": "way",
         "@id": 274541779,
         "@url": "https://www.openstreetmap.org/way/274541779",
-        "bar": "yes",
-        "name": "Restaurace Western",
-        "source": "cuzk:ruian",
-        "amenity": "restaurant",
-        "cuisine": "regional",
-        "building": "yes",
         "addr:city": "Vysoká",
-        "addr:place": "Bartultovice",
+        "addr:conscriptionnumber": "44",
         "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "79399",
-        "building:flats": "1",
-        "ref:ruian:addr": "14050161",
-        "building:levels": "1",
-        "internet_access": "wlan",
         "addr:housenumber": "44",
-        "ref:ruian:building": "13958950",
+        "addr:place": "Bartultovice",
+        "addr:postcode": "79399",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "building": "yes",
+        "building:flats": "1",
+        "building:levels": "1",
         "building:ruian:type": "15",
-        "addr:conscriptionnumber": "44"
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Restaurace Western",
+        "ref:ruian:addr": "14050161",
+        "ref:ruian:building": "13958950",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -17936,10 +17936,10 @@
         "@type": "way",
         "@id": 274631107,
         "@url": "https://www.openstreetmap.org/way/274631107",
-        "name": "Zámecký pivovar Dětenice",
+        "building": "industrial",
         "craft": "brewery",
-        "source": "cuzk:km",
-        "building": "industrial"
+        "name": "Zámecký pivovar Dětenice",
+        "source": "cuzk:km"
       }
     },
     {
@@ -18154,12 +18154,12 @@
         "@type": "way",
         "@id": 292617786,
         "@url": "https://www.openstreetmap.org/way/292617786",
-        "name": "Minipivovar Žumberk",
-        "craft": "brewery",
-        "phone": "+420 774 232 886",
-        "website": "http://pivozumberk.cz/",
         "building": "yes",
-        "microbrewery": "yes"
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Minipivovar Žumberk",
+        "phone": "+420 774 232 886",
+        "website": "http://pivozumberk.cz/"
       }
     },
     {
@@ -18221,16 +18221,16 @@
         "@type": "way",
         "@id": 312427504,
         "@url": "https://www.openstreetmap.org/way/312427504",
-        "name": "Mandava",
-        "source": "cuzk:ruian",
         "amenity": "pub",
         "building": "yes",
-        "start_date": "2013-04-26",
-        "microbrewery": "yes",
         "building:levels": "2",
+        "building:ruian:type": "19",
+        "microbrewery": "yes",
+        "name": "Mandava",
         "outdoor_seating": "yes",
         "ref:ruian:building": "27371379",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "start_date": "2013-04-26"
       }
     },
     {
@@ -18284,14 +18284,14 @@
         "@type": "way",
         "@id": 314527407,
         "@url": "https://www.openstreetmap.org/way/314527407",
-        "name": "Pivovar Mlýn - Střížovice",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
         "building:flats": "2",
         "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Pivovar Mlýn - Střížovice",
         "ref:ruian:building": "16663276",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -18345,13 +18345,13 @@
         "@type": "way",
         "@id": 344932173,
         "@url": "https://www.openstreetmap.org/way/344932173",
-        "name": "Kynšperský pivovar",
+        "addr:city": "Kynšperk nad Ohří",
+        "addr:housenumber": "482",
+        "addr:postcode": "35751",
+        "addr:street": "Sokolovská",
         "craft": "brewery",
         "landuse": "industrial",
-        "addr:city": "Kynšperk nad Ohří",
-        "addr:street": "Sokolovská",
-        "addr:postcode": "35751",
-        "addr:housenumber": "482"
+        "name": "Kynšperský pivovar"
       }
     },
     {
@@ -18393,13 +18393,13 @@
         "@type": "way",
         "@id": 347099040,
         "@url": "https://www.openstreetmap.org/way/347099040",
-        "name": "Dědkův mlýn",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
         "building": "yes",
-        "start_date": "2006-08-09",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Dědkův mlýn",
         "ref:ruian:building": "26705494",
-        "building:ruian:type": "19"
+        "source": "cuzk:ruian",
+        "start_date": "2006-08-09"
       }
     },
     {
@@ -18437,10 +18437,10 @@
         "@type": "way",
         "@id": 359239074,
         "@url": "https://www.openstreetmap.org/way/359239074",
-        "name": "Pivovar Malenovice Zlínský Švec",
         "amenity": "biergarten",
-        "website": "https://zlinskysvec.cz/",
-        "microbrewery": "yes"
+        "microbrewery": "yes",
+        "name": "Pivovar Malenovice Zlínský Švec",
+        "website": "https://zlinskysvec.cz/"
       }
     },
     {
@@ -18541,15 +18541,15 @@
         "@type": "way",
         "@id": 438270274,
         "@url": "https://www.openstreetmap.org/way/438270274",
-        "name": "Neumann",
-        "craft": "brewery",
-        "source": "cuzk:ruian",
-        "website": "http://www.pivovar-neumann.cz/",
         "building": "house",
         "building:flats": "1",
         "building:levels": "2",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Neumann",
         "ref:ruian:building": "2069083",
-        "building:ruian:type": "7"
+        "source": "cuzk:ruian",
+        "website": "http://www.pivovar-neumann.cz/"
       }
     },
     {
@@ -18639,21 +18639,21 @@
         "@type": "way",
         "@id": 489766498,
         "@url": "https://www.openstreetmap.org/way/489766498",
-        "name": "Pivovar Hostivar H2",
-        "email": "h2@pivovar-hostivar.cz",
-        "phone": "+420702203143",
-        "amenity": "restaurant",
-        "smoking": "no",
-        "website": "https://www.pivovar-hostivar.cz/",
-        "building": "yes",
         "addr:city": "Praha",
-        "addr:street": "Hornoměcholupská",
-        "reservation": "recommended",
-        "microbrewery": "yes",
+        "addr:housenumber": "755/115",
         "addr:postcode": "10900",
-        "opening_hours": "Mo-Fr 07:00-23:00; Sa-Su 08:00-23:00",
+        "addr:street": "Hornoměcholupská",
+        "amenity": "restaurant",
+        "building": "yes",
         "building:levels": "2",
-        "addr:housenumber": "755/115"
+        "email": "h2@pivovar-hostivar.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar Hostivar H2",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa-Su 08:00-23:00",
+        "phone": "+420702203143",
+        "reservation": "recommended",
+        "smoking": "no",
+        "website": "https://www.pivovar-hostivar.cz/"
       }
     },
     {
@@ -18703,25 +18703,25 @@
         "@type": "way",
         "@id": 499542768,
         "@url": "https://www.openstreetmap.org/way/499542768",
-        "name": "Pivovar Ossegg",
-        "source": "cuzk:ruian",
+        "addr:city": "Osek",
+        "addr:conscriptionnumber": "484",
+        "addr:country": "CZ",
+        "addr:housenumber": "1",
+        "addr:place": "Osek",
+        "addr:postcode": "41705",
+        "addr:street": "Rooseveltova",
         "amenity": "restaurant",
         "brewery": "Ossegg",
-        "website": "http://ossegg.cz/",
         "building": "yes",
-        "addr:city": "Osek",
-        "addr:place": "Osek",
-        "addr:street": "Rooseveltova",
-        "addr:country": "CZ",
-        "microbrewery": "yes",
-        "addr:postcode": "41705",
         "building:flats": "1",
-        "ref:ruian:addr": "15025870",
         "building:levels": "1",
-        "addr:housenumber": "1",
-        "ref:ruian:building": "14917696",
         "building:ruian:type": "5",
-        "addr:conscriptionnumber": "484"
+        "microbrewery": "yes",
+        "name": "Pivovar Ossegg",
+        "ref:ruian:addr": "15025870",
+        "ref:ruian:building": "14917696",
+        "source": "cuzk:ruian",
+        "website": "http://ossegg.cz/"
       }
     },
     {
@@ -18819,9 +18819,9 @@
         "@type": "way",
         "@id": 499667141,
         "@url": "https://www.openstreetmap.org/way/499667141",
-        "name": "Bývalý Akciový pivovar Prostějov",
         "craft": "brewery",
-        "landuse": "industrial"
+        "landuse": "industrial",
+        "name": "Bývalý Akciový pivovar Prostějov"
       }
     },
     {
@@ -19148,15 +19148,15 @@
         "@type": "relation",
         "@id": 8766153,
         "@url": "https://www.openstreetmap.org/relation/8766153",
-        "name": "Chodovar",
+        "contact:databox": "uw5vsn5",
         "craft": "brewery",
         "email": "chodovar@chodovar.cz",
-        "phone": "+420 374 611 611",
-        "landuse": "industrial",
-        "website": "https://www.chodovar.cz/",
         "facebook": "https://www.facebook.com/ChodovarCZ/",
+        "landuse": "industrial",
+        "name": "Chodovar",
         "operator": "Chodovar spol. s r.o.",
-        "contact:databox": "uw5vsn5"
+        "phone": "+420 374 611 611",
+        "website": "https://www.chodovar.cz/"
       }
     },
     {
@@ -19210,9 +19210,9 @@
         "@type": "way",
         "@id": 642878042,
         "@url": "https://www.openstreetmap.org/way/642878042",
-        "name": "Ogar",
         "craft": "brewery",
         "landuse": "industrial",
+        "name": "Ogar",
         "website": "https://www.pivovarogar.cz/"
       }
     },
@@ -19267,19 +19267,19 @@
         "@type": "way",
         "@id": 709650011,
         "@url": "https://www.openstreetmap.org/way/709650011",
-        "name": "Kvasar",
+        "building": "warehouse",
+        "building:levels": "3",
+        "building:ruian:type": "12",
         "craft": "brewery",
         "email": "pivokvasar@gmail.com",
-        "phone": "+420 549 416 117",
-        "source": "cuzk:ruian",
-        "website": "http://pivokvasar.cz/",
-        "building": "warehouse",
-        "start_date": "2017-05-30",
-        "wheelchair": "yes",
+        "name": "Kvasar",
         "opening_hours": "Mo-Fr 07:30-17:00",
-        "building:levels": "3",
+        "phone": "+420 549 416 117",
         "ref:ruian:building": "89772571",
-        "building:ruian:type": "12"
+        "source": "cuzk:ruian",
+        "start_date": "2017-05-30",
+        "website": "http://pivokvasar.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -19509,14 +19509,14 @@
         "@type": "way",
         "@id": 731979537,
         "@url": "https://www.openstreetmap.org/way/731979537",
-        "name": "Březňák",
-        "craft": "brewery",
         "barrier": "fence",
+        "craft": "brewery",
+        "industrial": "brewery",
+        "name": "Březňák",
+        "start_date": "1606",
         "website": "http://www.breznak.cz",
         "wikidata": "Q3490068",
-        "wikipedia": "cs:Březňák",
-        "industrial": "brewery",
-        "start_date": "1606"
+        "wikipedia": "cs:Březňák"
       }
     },
     {
@@ -19614,9 +19614,9 @@
         "@type": "way",
         "@id": 740682447,
         "@url": "https://www.openstreetmap.org/way/740682447",
-        "name": "Na Rychtě",
+        "building": "yes",
         "craft": "brewery",
-        "building": "yes"
+        "name": "Na Rychtě"
       }
     },
     {

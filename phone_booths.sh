@@ -6,14 +6,14 @@ echo "Active phone booths"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/*=telephone --overwrite -o ./phone_booths/all_phone_booths.pbf
 osmium export ./phone_booths/all_phone_booths.pbf --overwrite -o ./phone_booths/all_phone_booths_temp.json -c osmium_options.json
 cat ./phone_booths/all_phone_booths_temp.json | ./urlize.sh |grep -vi 'LineString' > ./phone_booths/all_phone_booths.json
-cat ./phone_booths/all_phone_booths.json  | grep -e '"amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey:date" | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/active_phone_booths.geojson
+cat ./phone_booths/all_phone_booths.json  | grep -e '"amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey:date" | ./sanitize_json_jq.sh > ./phone_booths/active_phone_booths.geojson
 
 echo "Disused phone booths"
-#cat ./phone_booths/all_phone_booths.json | grep -e '"disused:amenity":"telephone"' -e '"historic:amenity":"telephone"' -e '"was:amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey_date" | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/disused_phone_booths.geojson
-cat ./phone_booths/all_phone_booths.json | grep -e ':amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey:date" | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/disused_phone_booths.geojson
+#cat ./phone_booths/all_phone_booths.json | grep -e '"disused:amenity":"telephone"' -e '"historic:amenity":"telephone"' -e '"was:amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey_date" | ./sanitize_json_jq.sh > ./phone_booths/disused_phone_booths.geojson
+cat ./phone_booths/all_phone_booths.json | grep -e ':amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey:date" | ./sanitize_json_jq.sh > ./phone_booths/disused_phone_booths.geojson
 
 echo "Verified phone booths"
-cat ./phone_booths/all_phone_booths.json | grep -e '"survey:date"' -e '"check_date"' -e 'FeatureCollection' -e '^]}$' | tac | sed '2s/,$//' | tac | jq . > ./phone_booths/verified_phone_booths.geojson
+cat ./phone_booths/all_phone_booths.json | grep -e '"survey:date"' -e '"check_date"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./phone_booths/verified_phone_booths.geojson
 
 echo "Dump progress stats"
 > ./phone_booths/progress.txt

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-mkdir -p phone_booths
+mkdir -p ./phone_booths
 
 echo "Active phone booths"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/*=telephone --overwrite -o ./phone_booths/all_phone_booths.pbf
-osmium export ./phone_booths/all_phone_booths.pbf --overwrite -o ./phone_booths/all_phone_booths_temp.json -c osmium_options.json
+osmium export ./phone_booths/all_phone_booths.pbf --overwrite -o ./phone_booths/all_phone_booths_temp.json -c ./osmium_options.json
 cat ./phone_booths/all_phone_booths_temp.json | ./urlize.sh |grep -vi 'LineString' > ./phone_booths/all_phone_booths.json
 cat ./phone_booths/all_phone_booths.json  | grep -e '"amenity":"telephone"' -e 'FeatureCollection' -e '^]}$' | grep -vi "check_date" | grep -vi "survey:date" | ./sanitize_json_jq.sh > ./phone_booths/active_phone_booths.geojson
 
@@ -30,9 +30,9 @@ total=$(( $active + $disused + $checked))
 echo "Celkem - $total" >> ./phone_booths/progress.txt
 
 echo "Create gpx"
-mkdir -p phone_booths/gpx
+mkdir -p ./phone_booths/gpx
 gpsbabel -i geojson -f ./phone_booths/active_phone_booths.geojson -o gpx -F ./phone_booths/gpx/active_phone_booths.gpx
 gpsbabel -i geojson -f ./phone_booths/disused_phone_booths.geojson -o gpx -F ./phone_booths/gpx/disused_phone_booths.gpx
 gpsbabel -i geojson -f ./phone_booths/verified_phone_booths.geojson -o gpx -F ./phone_booths/gpx/verified_phone_booths.gpx
 gpsbabel -i geojson -f ./phone_booths/active_phone_booths.geojson -f ./phone_booths/disused_phone_booths.geojson -o gpx -F ./phone_booths/gpx/phone_booths_for_verification.gpx
-sed -i '/.*time.*/d' phone_booths/gpx/*.gpx
+sed -i '/.*time.*/d' ./phone_booths/gpx/*.gpx

@@ -4,7 +4,7 @@ mkdir -p ekokom
 
 echo "Amenity recycling"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=recycling --overwrite -o ./ekokom/all_recycling.pbf
-osmium export ./ekokom/all_recycling.pbf --overwrite -o ./ekokom/all_recycling_temp.json -c osmium_options.json
+osmium export ./ekokom/all_recycling.pbf --overwrite -o ./ekokom/all_recycling_temp.json -c ./osmium_options.json
 cat ./ekokom/all_recycling_temp.json | grep -vi 'LineString' > ./ekokom/all_recycling.json
 cat ./ekokom/all_recycling.json | grep -e '"amenity":"recycling"' -e 'FeatureCollection' -e '^]}$' | grep -ie 'recycling:' -e '"recycling_type":"centre"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json.sh > ./ekokom/filtered.json
 cat ./ekokom/filtered.json | jq . > ./ekokom/filtered.geojson

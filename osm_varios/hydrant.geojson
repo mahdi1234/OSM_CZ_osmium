@@ -10334,6 +10334,7 @@
         "@url": "https://www.openstreetmap.org/node/5519251421",
         "emergency": "fire_hydrant",
         "fire_hydrant:count": "2",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -23504,6 +23505,29 @@
         "@id": 9522540218,
         "@url": "https://www.openstreetmap.org/node/9522540218",
         "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6065385,
+          49.189488
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9542982541,
+        "@url": "https://www.openstreetmap.org/node/9542982541",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
       }

@@ -238,24 +238,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.1955685,
-          49.8855778
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 921102393,
-        "@url": "https://www.openstreetmap.org/node/921102393",
-        "amenity": "recycling",
-        "name": "Kompostárna",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.8754607,
           49.2279016
         ]
@@ -10112,6 +10094,59 @@
         "amenity": "recycling",
         "name": "Kovošrot KST",
         "operator": "KST Holešov, s.r.o.",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1951649,
+                49.8855276
+              ],
+              [
+                18.1952256,
+                49.8853767
+              ],
+              [
+                18.1954577,
+                49.8852603
+              ],
+              [
+                18.1960794,
+                49.8850879
+              ],
+              [
+                18.1963661,
+                49.8855847
+              ],
+              [
+                18.1957908,
+                49.8859062
+              ],
+              [
+                18.1956312,
+                49.8857619
+              ],
+              [
+                18.1951649,
+                49.8855276
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1035841396,
+        "@url": "https://www.openstreetmap.org/way/1035841396",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Kompostárna",
         "recycling_type": "centre"
       }
     }

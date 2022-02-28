@@ -1463,17 +1463,17 @@
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
-        "recycling:dřevo": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
-        "recycling:nebezpečný_odpad": "yes",
-        "recycling:oleje": "yes",
+        "recycling:hardcore": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:oil": "yes",
         "recycling:paper": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling:suť": "yes",
+        "recycling:wood": "yes",
         "recycling_type": "centre",
         "ref:ruian": "26691001",
         "source:addr": "ruian"
@@ -11356,6 +11356,31 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6065022,
+          49.1894422
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9542982542,
+        "@url": "https://www.openstreetmap.org/node/9542982542",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container",
+        "ref:ekokom": "34720"
       }
     },
     {

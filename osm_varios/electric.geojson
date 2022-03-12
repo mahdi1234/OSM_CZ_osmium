@@ -10865,8 +10865,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6652689,
-          49.9367882
+          12.6653721,
+          49.9367713
         ]
       },
       "properties": {
@@ -25208,6 +25208,45 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.4179658,
+            49.4238304
+          ],
+          [
+            14.4180268,
+            49.4238542
+          ],
+          [
+            14.4183765,
+            49.4236413
+          ],
+          [
+            14.4181163,
+            49.423525
+          ],
+          [
+            14.4179658,
+            49.4238304
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 431518671,
+        "@url": "https://www.openstreetmap.org/way/431518671",
+        "amenity": "recycling",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.4973678,
             49.2186996
           ],
@@ -31917,6 +31956,49 @@
         "recycling:electrical_appliances": "yes",
         "recycling:electrical_items": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.4179658,
+                49.4238304
+              ],
+              [
+                14.4181163,
+                49.423525
+              ],
+              [
+                14.4183765,
+                49.4236413
+              ],
+              [
+                14.4180268,
+                49.4238542
+              ],
+              [
+                14.4179658,
+                49.4238304
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 431518671,
+        "@url": "https://www.openstreetmap.org/way/431518671",
+        "amenity": "recycling",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "centre"
       }
     },

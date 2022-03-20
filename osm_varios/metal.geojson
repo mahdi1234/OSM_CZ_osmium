@@ -94,7 +94,7 @@
         "@id": 332454994,
         "@url": "https://www.openstreetmap.org/node/332454994",
         "amenity": "recycling",
-        "contact:phone": "288409188",
+        "contact:phone": "+420 288409188",
         "contact:website": "www.psas.cz",
         "ipr:name": "Kladenská 282/29",
         "operator": "Pražské služby a.s.",
@@ -795,7 +795,7 @@
         "@id": 1382175746,
         "@url": "https://www.openstreetmap.org/node/1382175746",
         "amenity": "recycling",
-        "contact:phone": "288409188",
+        "contact:phone": "+420 288409188",
         "contact:website": "www.psas.cz",
         "ipr:name": "Heyrovského náměstí 288/9",
         "operator": "Pražské služby a.s.",
@@ -4189,7 +4189,7 @@
         "@id": 4705658430,
         "@url": "https://www.openstreetmap.org/node/4705658430",
         "amenity": "recycling",
-        "contact:phone": "288409188",
+        "contact:phone": "+420 288409188",
         "contact:website": "www.psas.cz",
         "ipr:name": "Vokovická 32/3",
         "operator": "Pražské služby a.s.",
@@ -10206,6 +10206,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.1912981,
+          50.2837306
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9027207512,
+        "@url": "https://www.openstreetmap.org/node/9027207512",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "opening_hours:covid19": "same",
+        "operator": "FCC BEC, s.r.o.",
+        "recycling:glass": "yes",
+        "recycling:metal": "yes",
+        "recycling:oils": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.3469097,
           50.123549
         ]
@@ -11923,6 +11948,94 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4394759,
+          49.7746699
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9588720177,
+        "@url": "https://www.openstreetmap.org/node/9588720177",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4417098,
+          49.7720648
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9588752974,
+        "@url": "https://www.openstreetmap.org/node/9588752974",
+        "amenity": "recycling",
+        "recycling:electrical_items": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4288039,
+          49.7804604
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9588815344,
+        "@url": "https://www.openstreetmap.org/node/9588815344",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4311135,
+          49.7836937
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9588889847,
+        "@url": "https://www.openstreetmap.org/node/9588889847",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

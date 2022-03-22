@@ -2125,6 +2125,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5923426,
+          49.20867
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9593593785,
+        "@url": "https://www.openstreetmap.org/node/9593593785",
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -3708,6 +3725,7 @@
         "amenity": "recycling",
         "name": "Sběrné suroviny",
         "name:en": "Scrap yard",
+        "opening_hours": "Mo-Th 08:00-16:30; Fr 08:00-14:00; Sa 09:00-12:00",
         "recycling_type": "centre",
         "source": "craftak"
       }

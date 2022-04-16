@@ -7528,16 +7528,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2989394,
-          50.018294
+          14.298936,
+          50.0182713
         ]
       },
       "properties": {
         "@type": "node",
-        "@id": 9375591660,
-        "@url": "https://www.openstreetmap.org/node/9375591660",
+        "@id": 9375597737,
+        "@url": "https://www.openstreetmap.org/node/9375597737",
         "amenity": "recycling",
+        "recycling:bottles": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -8222,6 +8225,44 @@
         "recycling:cooking_oil": "yes",
         "recycling_type": "container",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6727225,
+          49.2417476
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9668565956,
+        "@url": "https://www.openstreetmap.org/node/9668565956",
+        "amenity": "recycling",
+        "email": "info@kts-ekologie.cz",
+        "mobile": "+420 731 406 146",
+        "name": "SSO Bílovice nad Svitavou",
+        "opening_hours": "Tu,Fr 14:00-18:00; Sa 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10528",
+        "website": "https://www.kts-ekologie.cz/"
       }
     },
     {

@@ -15299,7 +15299,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "ref:ekokom": "10549"
       }
     },
     {
@@ -21064,8 +21065,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.2568285,
-          49.7970699
+          18.2567708,
+          49.7971757
         ]
       },
       "properties": {
@@ -29589,6 +29590,87 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.6911075,
+            49.9599409
+          ],
+          [
+            12.6910949,
+            49.9593595
+          ],
+          [
+            12.6905216,
+            49.9592902
+          ],
+          [
+            12.6900452,
+            49.9592157
+          ],
+          [
+            12.6895851,
+            49.9592157
+          ],
+          [
+            12.6893045,
+            49.9592325
+          ],
+          [
+            12.6890875,
+            49.9592661
+          ],
+          [
+            12.6890924,
+            49.9594057
+          ],
+          [
+            12.6898363,
+            49.9603398
+          ],
+          [
+            12.6905819,
+            49.9600994
+          ],
+          [
+            12.6909629,
+            49.9599793
+          ],
+          [
+            12.6910372,
+            49.9599525
+          ],
+          [
+            12.6911075,
+            49.9599409
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1052320344,
+        "@url": "https://www.openstreetmap.org/way/1052320344",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr odpadů Mariánské lázně",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tds-ml.cz/sluzby/sberny-dvur-odpadu-sdo-/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -36615,6 +36697,91 @@
         "recycling:electrical_appliances": "yes",
         "recycling:hazardous_waste": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.6890875,
+                49.9592661
+              ],
+              [
+                12.6893045,
+                49.9592325
+              ],
+              [
+                12.6895851,
+                49.9592157
+              ],
+              [
+                12.6900452,
+                49.9592157
+              ],
+              [
+                12.6905216,
+                49.9592902
+              ],
+              [
+                12.6910949,
+                49.9593595
+              ],
+              [
+                12.6911075,
+                49.9599409
+              ],
+              [
+                12.6910372,
+                49.9599525
+              ],
+              [
+                12.6909629,
+                49.9599793
+              ],
+              [
+                12.6905819,
+                49.9600994
+              ],
+              [
+                12.6898363,
+                49.9603398
+              ],
+              [
+                12.6890924,
+                49.9594057
+              ],
+              [
+                12.6890875,
+                49.9592661
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1052320344,
+        "@url": "https://www.openstreetmap.org/way/1052320344",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr odpadů Mariánské lázně",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tds-ml.cz/sluzby/sberny-dvur-odpadu-sdo-/"
       }
     }
   ]

@@ -2592,9 +2592,10 @@
         "@type": "node",
         "@id": 3529227991,
         "@url": "https://www.openstreetmap.org/node/3529227991",
-        "emergency": "rescue_box",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "operator": "Lesy ČR, s.p."
+        "operator": "Lesy ČR, s.p.",
+        "ref": "NA 125"
       }
     },
     {
@@ -18627,6 +18628,29 @@
         "highway": "emergency_access_point",
         "ref": "LN002",
         "source": "survey;gps;own streetlevel imagery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2651611,
+          50.1919114
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9699234104,
+        "@url": "https://www.openstreetmap.org/node/9699234104",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "name": "Ořkov - hájenka",
+        "operator": "VLS",
+        "ref": "46",
+        "source": "survey;gps;own streetlevel imagery",
+        "survey:date": "2022-04-14",
+        "website": "www.vls.cz"
       }
     },
     {

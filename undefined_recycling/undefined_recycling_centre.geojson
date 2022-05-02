@@ -2076,6 +2076,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6671114,
+          49.293431
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9707487475,
+        "@url": "https://www.openstreetmap.org/node/9707487475",
+        "amenity": "recycling",
+        "recycling_type": "centre",
+        "ref:ekokom": "10526"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -2486,57 +2504,6 @@
         "ref:ruian:building": "50752618",
         "source": "cuzk:ruian",
         "website": "https://www.valtice.eu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                16.4969788,
-                49.2063646
-              ],
-              [
-                16.4969821,
-                49.206268
-              ],
-              [
-                16.4970184,
-                49.2062685
-              ],
-              [
-                16.4973653,
-                49.2062696
-              ],
-              [
-                16.4973835,
-                49.206386
-              ],
-              [
-                16.4972029,
-                49.2063765
-              ],
-              [
-                16.4969788,
-                49.2063646
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 55506237,
-        "@url": "https://www.openstreetmap.org/way/55506237",
-        "amenity": "recycling",
-        "building:ruian:type": "16",
-        "operator": "Brno",
-        "recycling_type": "centre",
-        "ref:ruian:building": "41883195",
-        "source": "cuzk:ruian"
       }
     },
     {
@@ -5882,7 +5849,8 @@
         "amenity": "recycling",
         "name": "Recyklační centrum, sběrný dvůr odpadů obce Ostopovice",
         "operator": "Obec Ostopovice",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "ref:ekokom": "10666"
       }
     },
     {

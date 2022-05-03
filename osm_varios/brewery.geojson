@@ -12906,6 +12906,50 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.6204112,
+            49.8505528
+          ],
+          [
+            15.6204728,
+            49.8505739
+          ],
+          [
+            15.6205036,
+            49.8505367
+          ],
+          [
+            15.6204382,
+            49.8505169
+          ],
+          [
+            15.6204112,
+            49.8505528
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1056570794,
+        "@url": "https://www.openstreetmap.org/way/1056570794",
+        "addr:city": "Seč",
+        "addr:housenumber": "36",
+        "addr:street": "Počátky",
+        "amenity": "pub",
+        "brewery": "various",
+        "building": "yes",
+        "microbrewery": "yes",
+        "name": "Pivovar Hančar",
+        "opening_hours": "Fr 17:00-22:00; Sa 10:00-22:00; Su 10:00-20:00",
+        "outdoor_seating": "yes",
+        "website": "https://pivovar-libor-hancar-pocatky.webnode.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -20961,6 +21005,54 @@
         "source": "cuzk:ruian",
         "website": "https://www.pivorohozec.cz/",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.6204112,
+                49.8505528
+              ],
+              [
+                15.6204382,
+                49.8505169
+              ],
+              [
+                15.6205036,
+                49.8505367
+              ],
+              [
+                15.6204728,
+                49.8505739
+              ],
+              [
+                15.6204112,
+                49.8505528
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1056570794,
+        "@url": "https://www.openstreetmap.org/way/1056570794",
+        "addr:city": "Seč",
+        "addr:housenumber": "36",
+        "addr:street": "Počátky",
+        "amenity": "pub",
+        "brewery": "various",
+        "building": "yes",
+        "microbrewery": "yes",
+        "name": "Pivovar Hančar",
+        "opening_hours": "Fr 17:00-22:00; Sa 10:00-22:00; Su 10:00-20:00",
+        "outdoor_seating": "yes",
+        "website": "https://pivovar-libor-hancar-pocatky.webnode.cz/"
       }
     }
   ]

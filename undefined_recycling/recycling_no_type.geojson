@@ -3920,15 +3920,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4081588,
-          50.2355129
+          14.4081146,
+          50.2355609
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 1649298404,
         "@url": "https://www.openstreetmap.org/node/1649298404",
-        "amenity": "recycling"
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes"
       }
     },
     {

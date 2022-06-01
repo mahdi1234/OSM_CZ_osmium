@@ -532,12 +532,25 @@
         "@type": "node",
         "@id": 1234616066,
         "@url": "https://www.openstreetmap.org/node/1234616066",
+        "addr:city": "Ústí nad Labem",
+        "addr:country": "CZ",
         "addr:housenumber": "75/9",
+        "addr:postcode": "40001",
+        "addr:street": "Klášterní",
         "amenity": "restaurant",
+        "cuisine": "regional",
+        "email": "restaurace@pivovarnarychte.cz",
+        "fax": "+420 475 212945",
         "microbrewery": "yes",
         "name": "Na Rychtě",
-        "opening_hours": "Mo-Sa 10:30-00:00; Su 11:00-22:00",
-        "phone": "+420 475 213138"
+        "opening_hours": "Mo-Sa 10:30-24:00; Su 11:00-22:00",
+        "outdoor_seating": "no",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "phone": "+420 475 213138",
+        "tourism": "hotel",
+        "website": "http://www.pivovarnarychte.cz"
       }
     },
     {
@@ -5872,6 +5885,44 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5170932,
+          49.177085
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9785409756,
+        "@url": "https://www.openstreetmap.org/node/9785409756",
+        "amenity": "restaurant",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar Chmelnice",
+        "phone": "+420573035059",
+        "website": "https://www.hotelchmelnice.cz/restaurace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.412552,
+          50.4595334
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9786488450,
+        "@url": "https://www.openstreetmap.org/node/9786488450",
+        "craft": "brewery",
+        "name": "Pivovar Karásek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -6117,66 +6168,6 @@
         "source": "cuzk:ruian",
         "start_date": "2003-01-01",
         "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.5167739,
-            49.1771142
-          ],
-          [
-            17.5168697,
-            49.1771894
-          ],
-          [
-            17.5169567,
-            49.1771502
-          ],
-          [
-            17.51699,
-            49.1771804
-          ],
-          [
-            17.5171709,
-            49.1770925
-          ],
-          [
-            17.5170152,
-            49.1769604
-          ],
-          [
-            17.5168403,
-            49.1770435
-          ],
-          [
-            17.5168688,
-            49.1770681
-          ],
-          [
-            17.5167739,
-            49.1771142
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 42688452,
-        "@url": "https://www.openstreetmap.org/way/42688452",
-        "amenity": "restaurant",
-        "amenity_1": "bre",
-        "building": "civic",
-        "building:levels": "1",
-        "building:ruian:type": "15",
-        "craft": "brewery",
-        "microbrewery": "yes",
-        "name": "Pivovar Chmelnice",
-        "ref:ruian:building": "4054393",
-        "source": "cuzk:ruian",
-        "website": "http://www.pivovarchmelnice.cz/"
       }
     },
     {
@@ -13219,70 +13210,6 @@
         "source": "cuzk:ruian",
         "start_date": "2003-01-01",
         "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                17.5167739,
-                49.1771142
-              ],
-              [
-                17.5168688,
-                49.1770681
-              ],
-              [
-                17.5168403,
-                49.1770435
-              ],
-              [
-                17.5170152,
-                49.1769604
-              ],
-              [
-                17.5171709,
-                49.1770925
-              ],
-              [
-                17.51699,
-                49.1771804
-              ],
-              [
-                17.5169567,
-                49.1771502
-              ],
-              [
-                17.5168697,
-                49.1771894
-              ],
-              [
-                17.5167739,
-                49.1771142
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 42688452,
-        "@url": "https://www.openstreetmap.org/way/42688452",
-        "amenity": "restaurant",
-        "amenity_1": "bre",
-        "building": "civic",
-        "building:levels": "1",
-        "building:ruian:type": "15",
-        "craft": "brewery",
-        "microbrewery": "yes",
-        "name": "Pivovar Chmelnice",
-        "ref:ruian:building": "4054393",
-        "source": "cuzk:ruian",
-        "website": "http://www.pivovarchmelnice.cz/"
       }
     },
     {

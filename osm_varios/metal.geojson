@@ -5559,9 +5559,13 @@
         "@id": 5661124632,
         "@url": "https://www.openstreetmap.org/node/5661124632",
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -7090,8 +7094,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0513216,
-          50.5336729
+          16.0511231,
+          50.5336535
         ]
       },
       "properties": {

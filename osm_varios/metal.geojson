@@ -6296,6 +6296,7 @@
         "collection_times": "Tu,Fr 12:30-18:00; Sa 09:00-13:00",
         "mobile": "+420 606 914 860",
         "name": "SSO Plástky",
+        "opening_hours": "Tu,Fr 12:30-18:00; Sa 09:00-13:00",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
@@ -14208,6 +14209,51 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3154464,
+          49.8633332
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9831517181,
+        "@url": "https://www.openstreetmap.org/node/9831517181",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3189185,
+          49.8576348
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9831518057,
+        "@url": "https://www.openstreetmap.org/node/9831518057",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }

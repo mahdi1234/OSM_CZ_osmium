@@ -250,28 +250,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0559316,
-          49.1098239
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 722689305,
-        "@url": "https://www.openstreetmap.org/node/722689305",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.2024109,
           49.8963739
         ]
@@ -13163,6 +13141,60 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.0557669,
+            49.1098491
+          ],
+          [
+            16.0559769,
+            49.1099491
+          ],
+          [
+            16.0561744,
+            49.109916
+          ],
+          [
+            16.0561398,
+            49.1098292
+          ],
+          [
+            16.0561183,
+            49.1097375
+          ],
+          [
+            16.0560161,
+            49.1097448
+          ],
+          [
+            16.0557394,
+            49.109773
+          ],
+          [
+            16.0557669,
+            49.1098491
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 58000828,
+        "@url": "https://www.openstreetmap.org/way/58000828",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.6461421,
             49.2200102
           ],
@@ -20646,6 +20678,64 @@
         "recycling:scrap_metal": "yes",
         "recycling:waste": "yes",
         "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.0557394,
+                49.109773
+              ],
+              [
+                16.0560161,
+                49.1097448
+              ],
+              [
+                16.0561183,
+                49.1097375
+              ],
+              [
+                16.0561398,
+                49.1098292
+              ],
+              [
+                16.0561744,
+                49.109916
+              ],
+              [
+                16.0559769,
+                49.1099491
+              ],
+              [
+                16.0557669,
+                49.1098491
+              ],
+              [
+                16.0557394,
+                49.109773
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 58000828,
+        "@url": "https://www.openstreetmap.org/way/58000828",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
       }
     },

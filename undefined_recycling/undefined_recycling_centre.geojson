@@ -213,6 +213,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4065403,
+          50.800128
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 819010821,
+        "@url": "https://www.openstreetmap.org/node/819010821",
+        "amenity": "recycling",
+        "name": "Sběrné suroviny",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.53238,
           49.8845863
         ]
@@ -1678,6 +1696,26 @@
         "operator": "Odbor místního hospodářství ÚMČ Praha 20",
         "operator:type": "local_authority",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3196659,
+          50.2399303
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8829555255,
+        "@url": "https://www.openstreetmap.org/node/8829555255",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "phone": "+420315726589",
+        "recycling_type": "centre",
+        "website": "https://www.mestokralupy.cz/mesto/technicke-sluzby#utm_source=mapy.cz&utm_medium=ppd&utm_campaign=firmy.cz-1906816"
       }
     },
     {
@@ -4488,6 +4526,45 @@
         "recycling_type": "centre",
         "ref:ruian:building": "24550957",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.2279821,
+                50.032055
+              ],
+              [
+                14.2280827,
+                50.0317436
+              ],
+              [
+                14.2282554,
+                50.031769
+              ],
+              [
+                14.2281286,
+                50.032115
+              ],
+              [
+                14.2279821,
+                50.032055
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 381437477,
+        "@url": "https://www.openstreetmap.org/way/381437477",
+        "amenity": "recycling",
+        "recycling_type": "centre"
       }
     },
     {
@@ -8823,6 +8900,57 @@
         "@type": "way",
         "@id": 923288560,
         "@url": "https://www.openstreetmap.org/way/923288560",
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.5500591,
+                50.3387262
+              ],
+              [
+                13.5506041,
+                50.3384552
+              ],
+              [
+                13.5513757,
+                50.3383061
+              ],
+              [
+                13.5517367,
+                50.3385048
+              ],
+              [
+                13.5521048,
+                50.3388798
+              ],
+              [
+                13.5515526,
+                50.3391147
+              ],
+              [
+                13.5504909,
+                50.3388708
+              ],
+              [
+                13.5500591,
+                50.3387262
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 926018365,
+        "@url": "https://www.openstreetmap.org/way/926018365",
         "amenity": "recycling",
         "recycling_type": "centre"
       }

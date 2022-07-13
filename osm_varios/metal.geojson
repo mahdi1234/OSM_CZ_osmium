@@ -275,8 +275,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5906199,
-          49.4054485
+          15.5905783,
+          49.4054729
         ]
       },
       "properties": {
@@ -290,7 +290,8 @@
         "recycling:cans": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:white_goods": "yes"
+        "recycling:white_goods": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -932,7 +933,8 @@
         "@id": 1409028375,
         "@url": "https://www.openstreetmap.org/node/1409028375",
         "amenity": "recycling",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -2498,6 +2500,28 @@
         "@url": "https://www.openstreetmap.org/node/2815305294",
         "amenity": "recycling",
         "recycling:cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4440225,
+          50.064199
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2815370984,
+        "@url": "https://www.openstreetmap.org/node/2815370984",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -4095,8 +4119,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4588581,
-          49.6580232
+          15.4589734,
+          49.6579885
         ]
       },
       "properties": {
@@ -4107,7 +4131,8 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -15036,10 +15061,6 @@
             50.0672284
           ],
           [
-            15.7572768,
-            50.0671578
-          ],
-          [
             15.757337,
             50.0671673
           ],
@@ -15056,7 +15077,8 @@
         "amenity": "recycling",
         "recycling:batteries": "no",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -23694,10 +23716,6 @@
                 50.0671673
               ],
               [
-                15.7572768,
-                50.0671578
-              ],
-              [
                 15.7577298,
                 50.0672284
               ],
@@ -23724,7 +23742,8 @@
         "amenity": "recycling",
         "recycling:batteries": "no",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {

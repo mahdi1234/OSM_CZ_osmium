@@ -2624,7 +2624,8 @@
         "recycling:glass": "yes",
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic_bottles": "yes"
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -6383,6 +6384,56 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9788041,
+          49.7839929
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4672524645,
+        "@url": "https://www.openstreetmap.org/node/4672524645",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9806577,
+          49.7797972
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4672524646,
+        "@url": "https://www.openstreetmap.org/node/4672524646",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -10291,8 +10342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.3334437,
-          49.5208477
+          18.3336033,
+          49.5208817
         ]
       },
       "properties": {
@@ -10303,7 +10354,8 @@
         "recycling:cardboard": "yes",
         "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
-        "recycling:plastic": "yes"
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -23493,6 +23545,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.9795361,
+          49.7885519
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9886605501,
+        "@url": "https://www.openstreetmap.org/node/9886605501",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.9815889,
           50.2021903
         ]
@@ -23506,6 +23583,49 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8007551,
+          49.5113679
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9889022323,
+        "@url": "https://www.openstreetmap.org/node/9889022323",
+        "amenity": "recycling",
+        "recycling:electrical_items": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9698517,
+          49.8088061
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9889393590,
+        "@url": "https://www.openstreetmap.org/node/9889393590",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -29534,6 +29654,95 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.0080314,
+            49.7033376
+          ],
+          [
+            14.0079968,
+            49.7033696
+          ],
+          [
+            14.0080023,
+            49.7034589
+          ],
+          [
+            14.0077091,
+            49.703469
+          ],
+          [
+            14.0070876,
+            49.7039738
+          ],
+          [
+            14.0071813,
+            49.7040217
+          ],
+          [
+            14.0072511,
+            49.7040573
+          ],
+          [
+            14.0072775,
+            49.7040363
+          ],
+          [
+            14.0089015,
+            49.7039735
+          ],
+          [
+            14.0088384,
+            49.7032911
+          ],
+          [
+            14.0086389,
+            49.7030911
+          ],
+          [
+            14.0084624,
+            49.7029888
+          ],
+          [
+            14.0081428,
+            49.7029996
+          ],
+          [
+            14.0080362,
+            49.7030723
+          ],
+          [
+            14.0080314,
+            49.7033376
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 945838608,
+        "@url": "https://www.openstreetmap.org/way/945838608",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "website": "https://www.ts-pb.cz/uploads/editor/sberny-dvur/Provozni%CC%81%20doba%20A4.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             17.2279922,
             49.1421161
           ],
@@ -30569,6 +30778,81 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10553"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.9794912,
+            49.7885205
+          ],
+          [
+            13.9796392,
+            49.7885786
+          ],
+          [
+            13.9797132,
+            49.7885667
+          ],
+          [
+            13.9795954,
+            49.788191
+          ],
+          [
+            13.979545,
+            49.7879467
+          ],
+          [
+            13.9795509,
+            49.7878006
+          ],
+          [
+            13.9794962,
+            49.7878365
+          ],
+          [
+            13.9792902,
+            49.7879635
+          ],
+          [
+            13.9792136,
+            49.7880514
+          ],
+          [
+            13.9791195,
+            49.7881568
+          ],
+          [
+            13.9791153,
+            49.7881904
+          ],
+          [
+            13.9791363,
+            49.7882578
+          ],
+          [
+            13.9794912,
+            49.7885205
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1078768435,
+        "@url": "https://www.openstreetmap.org/way/1078768435",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Městys Jince",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:rubble": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.jince.cz/sluzby-a-organizace/technicke-sluzby-mestyse-jince/"
       }
     },
     {
@@ -36934,6 +37218,99 @@
           [
             [
               [
+                14.0070876,
+                49.7039738
+              ],
+              [
+                14.0077091,
+                49.703469
+              ],
+              [
+                14.0080023,
+                49.7034589
+              ],
+              [
+                14.0079968,
+                49.7033696
+              ],
+              [
+                14.0080314,
+                49.7033376
+              ],
+              [
+                14.0080362,
+                49.7030723
+              ],
+              [
+                14.0081428,
+                49.7029996
+              ],
+              [
+                14.0084624,
+                49.7029888
+              ],
+              [
+                14.0086389,
+                49.7030911
+              ],
+              [
+                14.0088384,
+                49.7032911
+              ],
+              [
+                14.0089015,
+                49.7039735
+              ],
+              [
+                14.0072775,
+                49.7040363
+              ],
+              [
+                14.0072511,
+                49.7040573
+              ],
+              [
+                14.0071813,
+                49.7040217
+              ],
+              [
+                14.0070876,
+                49.7039738
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 945838608,
+        "@url": "https://www.openstreetmap.org/way/945838608",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "website": "https://www.ts-pb.cz/uploads/editor/sberny-dvur/Provozni%CC%81%20doba%20A4.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 17.2277393,
                 49.1419814
               ],
@@ -38023,6 +38400,85 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10553"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.9791153,
+                49.7881904
+              ],
+              [
+                13.9791195,
+                49.7881568
+              ],
+              [
+                13.9792136,
+                49.7880514
+              ],
+              [
+                13.9792902,
+                49.7879635
+              ],
+              [
+                13.9794962,
+                49.7878365
+              ],
+              [
+                13.9795509,
+                49.7878006
+              ],
+              [
+                13.979545,
+                49.7879467
+              ],
+              [
+                13.9795954,
+                49.788191
+              ],
+              [
+                13.9797132,
+                49.7885667
+              ],
+              [
+                13.9796392,
+                49.7885786
+              ],
+              [
+                13.9794912,
+                49.7885205
+              ],
+              [
+                13.9791363,
+                49.7882578
+              ],
+              [
+                13.9791153,
+                49.7881904
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1078768435,
+        "@url": "https://www.openstreetmap.org/way/1078768435",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Městys Jince",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:rubble": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.jince.cz/sluzby-a-organizace/technicke-sluzby-mestyse-jince/"
       }
     }
   ]

@@ -8817,6 +8817,7 @@
         "@id": 4811432949,
         "@url": "https://www.openstreetmap.org/node/4811432949",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -13417,6 +13418,7 @@
         "@id": 6259666415,
         "@url": "https://www.openstreetmap.org/node/6259666415",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "underground"
       }
     },
@@ -23287,7 +23289,9 @@
         "@type": "node",
         "@id": 9448029055,
         "@url": "https://www.openstreetmap.org/node/9448029055",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     },
     {
@@ -24756,6 +24760,46 @@
         "@type": "node",
         "@id": 9902556497,
         "@url": "https://www.openstreetmap.org/node/9902556497",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "blue",
+        "couplings": "3",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4560999,
+          48.9814915
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9907712423,
+        "@url": "https://www.openstreetmap.org/node/9907712423",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7626997,
+          49.5888662
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9910325221,
+        "@url": "https://www.openstreetmap.org/node/9910325221",
         "bonnet:colour": "gray",
         "cap:colour": "silver",
         "colour": "blue",

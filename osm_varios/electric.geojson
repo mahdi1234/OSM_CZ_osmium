@@ -4666,6 +4666,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.6758763,
+          49.4768014
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3782500975,
+        "@url": "https://www.openstreetmap.org/node/3782500975",
+        "amenity": "recycling",
+        "material": "metal",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.6780175,
           49.4058509
         ]
@@ -14486,7 +14513,13 @@
         "@id": 7988202819,
         "@url": "https://www.openstreetmap.org/node/7988202819",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
         "recycling:electrical_items": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container",
         "survey:date": "2020-10-04"
       }

@@ -23754,6 +23754,62 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.6863004,
+            49.4810957
+          ],
+          [
+            14.6866634,
+            49.4810318
+          ],
+          [
+            14.6866366,
+            49.4809482
+          ],
+          [
+            14.6868637,
+            49.4809052
+          ],
+          [
+            14.6866509,
+            49.4807379
+          ],
+          [
+            14.6861878,
+            49.4808378
+          ],
+          [
+            14.6863004,
+            49.4810957
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1082337758,
+        "@url": "https://www.openstreetmap.org/way/1082337758",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Chotoviny",
+        "opening_hours": "Apr-Oct: Mo 09:00-11:00; We,Fr 15:00-17:00; Sa 08:00-12:00; Nov-Feb: Mo 09:00-11:00; We,Fr 14:00-16:00; Sa 08:00-12:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:jakékoliv_sklo_(temperované_sklo": "yes",
+        "recycling:okna": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:zrcadla_atd.)": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -33037,6 +33093,66 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10553"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.6861878,
+                49.4808378
+              ],
+              [
+                14.6866509,
+                49.4807379
+              ],
+              [
+                14.6868637,
+                49.4809052
+              ],
+              [
+                14.6866366,
+                49.4809482
+              ],
+              [
+                14.6866634,
+                49.4810318
+              ],
+              [
+                14.6863004,
+                49.4810957
+              ],
+              [
+                14.6861878,
+                49.4808378
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1082337758,
+        "@url": "https://www.openstreetmap.org/way/1082337758",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Chotoviny",
+        "opening_hours": "Apr-Oct: Mo 09:00-11:00; We,Fr 15:00-17:00; Sa 08:00-12:00; Nov-Feb: Mo 09:00-11:00; We,Fr 14:00-16:00; Sa 08:00-12:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:jakékoliv_sklo_(temperované_sklo": "yes",
+        "recycling:okna": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:zrcadla_atd.)": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

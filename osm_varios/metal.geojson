@@ -23830,6 +23830,62 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.2381247,
+            49.889313
+          ],
+          [
+            18.2379471,
+            49.8893497
+          ],
+          [
+            18.2376681,
+            49.8894652
+          ],
+          [
+            18.2374998,
+            49.8896758
+          ],
+          [
+            18.2371961,
+            49.8895114
+          ],
+          [
+            18.2372512,
+            49.8895105
+          ],
+          [
+            18.2379819,
+            49.8889139
+          ],
+          [
+            18.2384046,
+            49.889126
+          ],
+          [
+            18.2384065,
+            49.8891613
+          ],
+          [
+            18.2381247,
+            49.889313
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1083072206,
+        "@url": "https://www.openstreetmap.org/way/1083072206",
+        "amenity": "recycling",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -33169,6 +33225,66 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.2371961,
+                49.8895114
+              ],
+              [
+                18.2372512,
+                49.8895105
+              ],
+              [
+                18.2379819,
+                49.8889139
+              ],
+              [
+                18.2384046,
+                49.889126
+              ],
+              [
+                18.2384065,
+                49.8891613
+              ],
+              [
+                18.2381247,
+                49.889313
+              ],
+              [
+                18.2379471,
+                49.8893497
+              ],
+              [
+                18.2376681,
+                49.8894652
+              ],
+              [
+                18.2374998,
+                49.8896758
+              ],
+              [
+                18.2371961,
+                49.8895114
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1083072206,
+        "@url": "https://www.openstreetmap.org/way/1083072206",
+        "amenity": "recycling",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
       }

@@ -5090,6 +5090,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.9381138,
+          49.5772225
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5003289335,
+        "@url": "https://www.openstreetmap.org/node/5003289335",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.8755678,
           49.2288146
         ]
@@ -23856,8 +23882,16 @@
             49.1978706
           ],
           [
-            16.6616705,
-            49.1974003
+            16.6615877,
+            49.1977105
+          ],
+          [
+            16.6616708,
+            49.1973975
+          ],
+          [
+            16.6617298,
+            49.1971793
           ],
           [
             16.6617443,
@@ -23900,7 +23934,6 @@
         "recycling:green_waste": "yes",
         "recycling:hazardous_waste": "yes",
         "recycling:low_energy_bulbs": "yes",
-        "recycling:metal": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
@@ -24021,6 +24054,51 @@
         "amenity": "recycling",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.6245701,
+            50.3670142
+          ],
+          [
+            15.6250475,
+            50.3669988
+          ],
+          [
+            15.6249831,
+            50.3663041
+          ],
+          [
+            15.6245111,
+            50.3662733
+          ],
+          [
+            15.6245701,
+            50.3670142
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1087430248,
+        "@url": "https://www.openstreetmap.org/way/1087430248",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Hořice",
+        "opening_hours": "Mo 14:00-18:00, We 09:00-12:00, 14:00-17:00, Fr 14:00-18:00, Sa 08:00-14:00",
+        "operator": "Technické služby Hořice",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://tshorice.cz/sberny-dvur/os-53"
       }
     },
     {
@@ -33299,8 +33377,16 @@
                 49.1978706
               ],
               [
-                16.6616705,
-                49.1974003
+                16.6615877,
+                49.1977105
+              ],
+              [
+                16.6616708,
+                49.1973975
+              ],
+              [
+                16.6617298,
+                49.1971793
               ],
               [
                 16.6617443,
@@ -33381,7 +33467,6 @@
         "recycling:green_waste": "yes",
         "recycling:hazardous_waste": "yes",
         "recycling:low_energy_bulbs": "yes",
-        "recycling:metal": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
@@ -33510,6 +33595,55 @@
         "amenity": "recycling",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.6245111,
+                50.3662733
+              ],
+              [
+                15.6249831,
+                50.3663041
+              ],
+              [
+                15.6250475,
+                50.3669988
+              ],
+              [
+                15.6245701,
+                50.3670142
+              ],
+              [
+                15.6245111,
+                50.3662733
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1087430248,
+        "@url": "https://www.openstreetmap.org/way/1087430248",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Hořice",
+        "opening_hours": "Mo 14:00-18:00, We 09:00-12:00, 14:00-17:00, Fr 14:00-18:00, Sa 08:00-14:00",
+        "operator": "Technické služby Hořice",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://tshorice.cz/sberny-dvur/os-53"
       }
     }
   ]

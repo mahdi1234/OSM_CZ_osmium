@@ -2278,6 +2278,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4429674,
+          50.0467957
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2571913495,
+        "@url": "https://www.openstreetmap.org/node/2571913495",
+        "amenity": "recycling",
+        "recycling:aluminium": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.1119961,
           49.4786385
         ]
@@ -2553,6 +2579,35 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4286824,
+          50.0578975
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2845556201,
+        "@url": "https://www.openstreetmap.org/node/2845556201",
+        "amenity": "recycling",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -23289,13 +23344,18 @@
         "@type": "way",
         "@id": 964194744,
         "@url": "https://www.openstreetmap.org/way/964194744",
+        "addr:postcode": "25088",
+        "addr:street": "Tovární",
         "amenity": "recycling",
         "barrier": "wall",
+        "email": "vykupcelakovice@seznam.cz",
         "landuse": "industrial",
         "name": "Výkupna druhotných surovin",
+        "opening_hours": "Mo-Fr 07:30-16:30; Sa 08:00-12:00",
         "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "website": "http://www.vykupcelakovice.cz"
       }
     },
     {
@@ -32778,13 +32838,18 @@
         "@type": "way",
         "@id": 964194744,
         "@url": "https://www.openstreetmap.org/way/964194744",
+        "addr:postcode": "25088",
+        "addr:street": "Tovární",
         "amenity": "recycling",
         "barrier": "wall",
+        "email": "vykupcelakovice@seznam.cz",
         "landuse": "industrial",
         "name": "Výkupna druhotných surovin",
+        "opening_hours": "Mo-Fr 07:30-16:30; Sa 08:00-12:00",
         "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "website": "http://www.vykupcelakovice.cz"
       }
     },
     {

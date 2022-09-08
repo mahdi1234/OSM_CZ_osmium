@@ -3391,6 +3391,7 @@
         "@id": 3793994362,
         "@url": "https://www.openstreetmap.org/node/3793994362",
         "amenity": "recycling",
+        "check_date": "2022-09-07",
         "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 09:00-18:00",
         "recycling:batteries": "yes",
         "recycling:small_appliances": "yes",
@@ -20220,6 +20221,83 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.6117131,
+            50.9085172
+          ],
+          [
+            14.611284,
+            50.9084047
+          ],
+          [
+            14.6116327,
+            50.9078601
+          ],
+          [
+            14.6116582,
+            50.9078457
+          ],
+          [
+            14.611685,
+            50.9078339
+          ],
+          [
+            14.6117024,
+            50.9078271
+          ],
+          [
+            14.6117346,
+            50.9078204
+          ],
+          [
+            14.6117708,
+            50.9078195
+          ],
+          [
+            14.6118352,
+            50.9078246
+          ],
+          [
+            14.6118794,
+            50.9078373
+          ],
+          [
+            14.6121597,
+            50.9079092
+          ],
+          [
+            14.6117748,
+            50.908458
+          ],
+          [
+            14.6117131,
+            50.9085172
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1092583153,
+        "@url": "https://www.openstreetmap.org/way/1092583153",
+        "amenity": "recycling",
+        "operator": "Stadt Varnsdorf",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -28409,6 +28487,87 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "https://tshorice.cz/sberny-dvur/os-53"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.611284,
+                50.9084047
+              ],
+              [
+                14.6116327,
+                50.9078601
+              ],
+              [
+                14.6116582,
+                50.9078457
+              ],
+              [
+                14.611685,
+                50.9078339
+              ],
+              [
+                14.6117024,
+                50.9078271
+              ],
+              [
+                14.6117346,
+                50.9078204
+              ],
+              [
+                14.6117708,
+                50.9078195
+              ],
+              [
+                14.6118352,
+                50.9078246
+              ],
+              [
+                14.6118794,
+                50.9078373
+              ],
+              [
+                14.6121597,
+                50.9079092
+              ],
+              [
+                14.6117748,
+                50.908458
+              ],
+              [
+                14.6117131,
+                50.9085172
+              ],
+              [
+                14.611284,
+                50.9084047
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1092583153,
+        "@url": "https://www.openstreetmap.org/way/1092583153",
+        "amenity": "recycling",
+        "operator": "Stadt Varnsdorf",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container"
       }
     }
   ]

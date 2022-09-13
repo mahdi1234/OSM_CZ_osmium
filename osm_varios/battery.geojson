@@ -12460,6 +12460,63 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5750626,
+          49.5564272
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10016760798,
+        "@url": "https://www.openstreetmap.org/node/10016760798",
+        "amenity": "recycling",
+        "email": "remat@remat.cz",
+        "name": "Remat",
+        "opening_hours": "Mo,We 07:00-16:00; Tu-Fr 07:00-15:00; Sa 08:00-11:00",
+        "phone": "+420 516 474 221",
+        "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.remat.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5757033,
+          49.5568474
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10016760799,
+        "@url": "https://www.openstreetmap.org/node/10016760799",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -14967,7 +15024,8 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10566",
-        "source": "survey"
+        "source": "survey",
+        "wheelchair": "yes"
       }
     },
     {
@@ -22954,7 +23012,8 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10566",
-        "source": "survey"
+        "source": "survey",
+        "wheelchair": "yes"
       }
     },
     {

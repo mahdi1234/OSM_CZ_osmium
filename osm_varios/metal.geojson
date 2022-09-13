@@ -5467,6 +5467,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.5639201,
+          49.6101668
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5276238093,
+        "@url": "https://www.openstreetmap.org/node/5276238093",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.9204367,
           50.3664733
         ]
@@ -15756,6 +15782,36 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5485424,
+          49.5779823
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10016760802,
+        "@url": "https://www.openstreetmap.org/node/10016760802",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -18659,7 +18715,8 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10566",
-        "source": "survey"
+        "source": "survey",
+        "wheelchair": "yes"
       }
     },
     {
@@ -28036,7 +28093,8 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10566",
-        "source": "survey"
+        "source": "survey",
+        "wheelchair": "yes"
       }
     },
     {

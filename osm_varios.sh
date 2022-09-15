@@ -91,3 +91,8 @@ echo "Micro brewery"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/craft=brewery microbrewery=yes --overwrite -o ./osm_varios/brewery.pbf
 osmium export ./osm_varios/brewery.pbf --overwrite -o ./osm_varios/brewery.json -c ./osmium_options.json
 cat ./osm_varios/brewery.json | ./urlize.sh | grep -e 'brewery' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/brewery.geojson
+
+echo "Vegan"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/diet:vegan=only --overwrite -o ./osm_varios/all_vege.pbf
+osmium export ./osm_varios/all_vege.pbf --overwrite -o ./osm_varios/all_vege.json -c ./osmium_options.json
+cat ./osm_varios/all_vege.json | ./urlize.sh | grep -e '"diet:vegetarian":"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/vege.geojson

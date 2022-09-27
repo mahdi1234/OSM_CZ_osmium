@@ -6553,7 +6553,16 @@
         "@type": "node",
         "@id": 7223131779,
         "@url": "https://www.openstreetmap.org/node/7223131779",
-        "shop": "alcohol"
+        "addr:city": "Broumov",
+        "addr:housenumber": "55",
+        "addr:postcode": "550 01",
+        "addr:street": "třída Osvobození",
+        "name": "Pivovar Broumov prodejna",
+        "opening_hours": "Sep-Jun Mo-Fr 08:00-16:00, Sa 09:00-13:00; Jul-Aug Mo-Fr 08:00-17:00, Sa 09:00-13:00",
+        "payment:cash": "only",
+        "payment:debit_cards": "no",
+        "shop": "alcohol",
+        "source": "survey"
       }
     },
     {
@@ -7493,6 +7502,25 @@
         "name": "\"Becherovka\"",
         "name:en": "\"Becherovka\"",
         "shop": "alcohol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3969387,
+          50.060731
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10053308387,
+        "@url": "https://www.openstreetmap.org/node/10053308387",
+        "drink": "wine",
+        "name": "Dům portského vína",
+        "shop": "alcohol",
+        "website": "portske.cz"
       }
     },
     {

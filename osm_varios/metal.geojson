@@ -5926,6 +5926,7 @@
         "recycling:cartons": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",
@@ -8940,10 +8941,14 @@
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -8963,10 +8968,13 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -24289,6 +24297,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.594664,
+          50.065127
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9268901837,
+        "@url": "https://www.openstreetmap.org/node/9268901837",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6403882,
           49.1951601
         ]
@@ -30410,6 +30441,30 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.doubravnik.cz/sberny_dvur.php"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5917418,
+          49.2223939
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10075756121,
+        "@url": "https://www.openstreetmap.org/node/10075756121",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {

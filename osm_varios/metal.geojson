@@ -18521,10 +18521,35 @@
         "@id": 8194379606,
         "@url": "https://www.openstreetmap.org/node/8194379606",
         "amenity": "recycling",
-        "recycling:cans": "yes",
         "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2741114,
+          49.9613481
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8194379607,
+        "@url": "https://www.openstreetmap.org/node/8194379607",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },

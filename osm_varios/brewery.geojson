@@ -5331,33 +5331,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3913062,
-          49.7533335
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8536318910,
-        "@url": "https://www.openstreetmap.org/node/8536318910",
-        "addr:city": "Plzeň 3-Východní Předměstí",
-        "addr:country": "CZ",
-        "addr:housenumber": "64/7",
-        "addr:postcode": "30100",
-        "addr:street": "U Prazdroje",
-        "craft": "brewery",
-        "description": "Sídlíme v budově bývalé elektrárny na soutoku Mže a Radbuzy",
-        "email": "info@pivovarproud.cz",
-        "microbrewery": "yes",
-        "name": "Pivovar Proud",
-        "phone": "+420 605 885 414; +420 724 617 186; +420 735 189 217",
-        "website": "https://www.pivovarproud.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.3996339,
           49.6961613
         ]
@@ -6723,6 +6696,110 @@
         "tourism": "hotel",
         "website": "https://www.skolicka.cz/",
         "wikidata": "Q101246551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.3909407,
+            49.753211
+          ],
+          [
+            13.391084,
+            49.753418
+          ],
+          [
+            13.3910036,
+            49.7534417
+          ],
+          [
+            13.3911072,
+            49.7535922
+          ],
+          [
+            13.3911877,
+            49.7535691
+          ],
+          [
+            13.3912763,
+            49.7536974
+          ],
+          [
+            13.3912956,
+            49.7537253
+          ],
+          [
+            13.3913079,
+            49.7537218
+          ],
+          [
+            13.3913677,
+            49.7538092
+          ],
+          [
+            13.3918693,
+            49.7536637
+          ],
+          [
+            13.3915363,
+            49.7531808
+          ],
+          [
+            13.3913924,
+            49.7532226
+          ],
+          [
+            13.3913042,
+            49.7532482
+          ],
+          [
+            13.3912908,
+            49.7532283
+          ],
+          [
+            13.3912241,
+            49.7531294
+          ],
+          [
+            13.3912108,
+            49.7531334
+          ],
+          [
+            13.3912118,
+            49.7531347
+          ],
+          [
+            13.3909407,
+            49.753211
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 51166546,
+        "@url": "https://www.openstreetmap.org/way/51166546",
+        "addr:city": "Plzeň 3-Východní Předměstí",
+        "addr:conscriptionnumber": "2529",
+        "addr:country": "CZ",
+        "addr:housenumber": "64/7",
+        "addr:place": "Východní Předměstí",
+        "addr:postcode": "30100",
+        "addr:street": "U Prazdroje",
+        "building": "industrial",
+        "building:ruian:type": "1",
+        "craft": "brewery",
+        "description": "Sídlíme v budově bývalé elektrárny na soutoku Mže a Radbuzy",
+        "email": "info@pivovarproud.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar Proud",
+        "phone": "+420 605 885 414;+420 724 617 186;+420 735 189 217",
+        "ref:ruian:addr": "24569895",
+        "ref:ruian:building": "24140783",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivovarproud.cz/"
       }
     },
     {
@@ -14259,6 +14336,114 @@
         "tourism": "hotel",
         "website": "https://www.skolicka.cz/",
         "wikidata": "Q101246551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.3909407,
+                49.753211
+              ],
+              [
+                13.3912118,
+                49.7531347
+              ],
+              [
+                13.3912108,
+                49.7531334
+              ],
+              [
+                13.3912241,
+                49.7531294
+              ],
+              [
+                13.3912908,
+                49.7532283
+              ],
+              [
+                13.3913042,
+                49.7532482
+              ],
+              [
+                13.3913924,
+                49.7532226
+              ],
+              [
+                13.3915363,
+                49.7531808
+              ],
+              [
+                13.3918693,
+                49.7536637
+              ],
+              [
+                13.3913677,
+                49.7538092
+              ],
+              [
+                13.3913079,
+                49.7537218
+              ],
+              [
+                13.3912956,
+                49.7537253
+              ],
+              [
+                13.3912763,
+                49.7536974
+              ],
+              [
+                13.3911877,
+                49.7535691
+              ],
+              [
+                13.3911072,
+                49.7535922
+              ],
+              [
+                13.3910036,
+                49.7534417
+              ],
+              [
+                13.391084,
+                49.753418
+              ],
+              [
+                13.3909407,
+                49.753211
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 51166546,
+        "@url": "https://www.openstreetmap.org/way/51166546",
+        "addr:city": "Plzeň 3-Východní Předměstí",
+        "addr:conscriptionnumber": "2529",
+        "addr:country": "CZ",
+        "addr:housenumber": "64/7",
+        "addr:place": "Východní Předměstí",
+        "addr:postcode": "30100",
+        "addr:street": "U Prazdroje",
+        "building": "industrial",
+        "building:ruian:type": "1",
+        "craft": "brewery",
+        "description": "Sídlíme v budově bývalé elektrárny na soutoku Mže a Radbuzy",
+        "email": "info@pivovarproud.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar Proud",
+        "phone": "+420 605 885 414;+420 724 617 186;+420 735 189 217",
+        "ref:ruian:addr": "24569895",
+        "ref:ruian:building": "24140783",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivovarproud.cz/"
       }
     },
     {

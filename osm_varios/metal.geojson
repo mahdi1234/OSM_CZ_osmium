@@ -3178,6 +3178,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.2994847,
+          50.0669732
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2111054596,
+        "@url": "https://www.openstreetmap.org/node/2111054596",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6364344,
           49.2036759
         ]
@@ -5433,6 +5455,29 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4837255,
+          50.0306772
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2933124519,
+        "@url": "https://www.openstreetmap.org/node/2933124519",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -39804,6 +39849,10 @@
             49.057125
           ],
           [
+            13.7848272,
+            49.0570621
+          ],
+          [
             13.784751,
             49.056973
           ],
@@ -49682,6 +49731,10 @@
               [
                 13.784881,
                 49.057125
+              ],
+              [
+                13.7848272,
+                49.0570621
               ],
               [
                 13.784751,

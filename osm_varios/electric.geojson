@@ -6773,8 +6773,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5826298,
-          49.2382925
+          16.5825939,
+          49.2383318
         ]
       },
       "properties": {
@@ -14024,6 +14024,27 @@
         "@url": "https://www.openstreetmap.org/node/7608130305",
         "amenity": "recycling",
         "recycling:electrical_items": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5114388,
+          50.9071582
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7608313246,
+        "@url": "https://www.openstreetmap.org/node/7608313246",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -24850,6 +24871,37 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9498227,
+          49.2757054
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10179006732,
+        "@url": "https://www.openstreetmap.org/node/10179006732",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -31501,8 +31553,16 @@
             49.7167723
           ],
           [
-            13.4165579,
-            49.7167886
+            13.4164693,
+            49.716779
+          ],
+          [
+            13.4165873,
+            49.7167918
+          ],
+          [
+            13.4166579,
+            49.7167994
           ],
           [
             13.4166978,
@@ -39223,8 +39283,16 @@
                 49.7167723
               ],
               [
-                13.4165579,
-                49.7167886
+                13.4164693,
+                49.716779
+              ],
+              [
+                13.4165873,
+                49.7167918
+              ],
+              [
+                13.4166579,
+                49.7167994
               ],
               [
                 13.4166978,

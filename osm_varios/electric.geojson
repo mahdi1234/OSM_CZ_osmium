@@ -3452,8 +3452,10 @@
         "@url": "https://www.openstreetmap.org/node/2671485672",
         "amenity": "recycling",
         "recycling:batteries": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_packaging": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -5660,6 +5662,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.8141145,
+          49.513103
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3979308217,
+        "@url": "https://www.openstreetmap.org/node/3979308217",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.5548087,
           49.1435913
         ]
@@ -7148,6 +7170,24 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9232927,
+          50.411319
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4771838594,
+        "@url": "https://www.openstreetmap.org/node/4771838594",
+        "amenity": "recycling",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

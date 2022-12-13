@@ -6214,26 +6214,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7625302,
-          50.0835571
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4309170164,
-        "@url": "https://www.openstreetmap.org/node/4309170164",
-        "name": "Elektro",
-        "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00; Sa 08:00-11:30; Su,PH off",
-        "operator": "Proton",
-        "recycling:electrical_appliances": "yes",
-        "shop": "electronics"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.5570242,
           49.3051127
         ]
@@ -6243,6 +6223,7 @@
         "@id": 4324950610,
         "@url": "https://www.openstreetmap.org/node/4324950610",
         "amenity": "recycling",
+        "check_date": "2022-12-11",
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
@@ -12847,8 +12828,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4784695,
-          48.9863008
+          14.4784554,
+          48.986273
         ]
       },
       "properties": {
@@ -13149,6 +13130,26 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5128574,
+          48.9852017
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7362781470,
+        "@url": "https://www.openstreetmap.org/node/7362781470",
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -15124,6 +15125,28 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5170445,
+          48.9809053
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8041737218,
+        "@url": "https://www.openstreetmap.org/node/8041737218",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -18898,6 +18921,29 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2931345,
+          48.9038111
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8933898390,
+        "@url": "https://www.openstreetmap.org/node/8933898390",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -29239,6 +29285,78 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.0516667,
+            49.3665977
+          ],
+          [
+            14.0517511,
+            49.3667766
+          ],
+          [
+            14.0517969,
+            49.3667438
+          ],
+          [
+            14.0519417,
+            49.3667619
+          ],
+          [
+            14.052312,
+            49.3667547
+          ],
+          [
+            14.0524456,
+            49.3666549
+          ],
+          [
+            14.0524568,
+            49.3665135
+          ],
+          [
+            14.0523064,
+            49.3662796
+          ],
+          [
+            14.0523399,
+            49.366169
+          ],
+          [
+            14.0521829,
+            49.3661546
+          ],
+          [
+            14.052144,
+            49.3662297
+          ],
+          [
+            14.0519837,
+            49.3663581
+          ],
+          [
+            14.0517913,
+            49.3664882
+          ],
+          [
+            14.0516667,
+            49.3665977
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 574531306,
+        "@url": "https://www.openstreetmap.org/way/574531306",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             17.4753936,
             49.4477082
           ],
@@ -31409,6 +31527,76 @@
         "type": "LineString",
         "coordinates": [
           [
+            12.8651773,
+            50.3286696
+          ],
+          [
+            12.8653196,
+            50.3286596
+          ],
+          [
+            12.8652688,
+            50.3283653
+          ],
+          [
+            12.865132,
+            50.3283749
+          ],
+          [
+            12.8650941,
+            50.3283776
+          ],
+          [
+            12.8651025,
+            50.3284401
+          ],
+          [
+            12.8651412,
+            50.3284657
+          ],
+          [
+            12.865146,
+            50.328495
+          ],
+          [
+            12.8651498,
+            50.3285183
+          ],
+          [
+            12.8651773,
+            50.3286696
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 982081999,
+        "@url": "https://www.openstreetmap.org/way/982081999",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "opening_hours": "We 13:00-17:00; Sa 09:00-17:00",
+        "operator": "OÚ Merklín",
+        "operator:type": "government",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obecmerklin.cz/obec-1/sberne-misto-komunalniho-odpadu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             18.1625359,
             49.8269752
           ],
@@ -32554,6 +32742,55 @@
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.0483271,
+            49.2967734
+          ],
+          [
+            14.0489421,
+            49.2967388
+          ],
+          [
+            14.0489289,
+            49.2964999
+          ],
+          [
+            14.0483526,
+            49.2965478
+          ],
+          [
+            14.0482833,
+            49.2966268
+          ],
+          [
+            14.0483271,
+            49.2967734
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1105724618,
+        "@url": "https://www.openstreetmap.org/way/1105724618",
+        "amenity": "recycling",
+        "opening_hours": "Fr 16:00-17:00",
+        "operator": "Obec Dobev",
+        "operator:type": "government",
+        "recycling:beverage_cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.obecdobev.cz/odpady/ds-4388/p1=2777"
       }
     },
     {
@@ -36905,6 +37142,82 @@
           [
             [
               [
+                14.0516667,
+                49.3665977
+              ],
+              [
+                14.0517913,
+                49.3664882
+              ],
+              [
+                14.0519837,
+                49.3663581
+              ],
+              [
+                14.052144,
+                49.3662297
+              ],
+              [
+                14.0521829,
+                49.3661546
+              ],
+              [
+                14.0523399,
+                49.366169
+              ],
+              [
+                14.0523064,
+                49.3662796
+              ],
+              [
+                14.0524568,
+                49.3665135
+              ],
+              [
+                14.0524456,
+                49.3666549
+              ],
+              [
+                14.052312,
+                49.3667547
+              ],
+              [
+                14.0519417,
+                49.3667619
+              ],
+              [
+                14.0517969,
+                49.3667438
+              ],
+              [
+                14.0517511,
+                49.3667766
+              ],
+              [
+                14.0516667,
+                49.3665977
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 574531306,
+        "@url": "https://www.openstreetmap.org/way/574531306",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 17.4753384,
                 49.4474566
               ],
@@ -39195,6 +39508,80 @@
           [
             [
               [
+                12.8650941,
+                50.3283776
+              ],
+              [
+                12.865132,
+                50.3283749
+              ],
+              [
+                12.8652688,
+                50.3283653
+              ],
+              [
+                12.8653196,
+                50.3286596
+              ],
+              [
+                12.8651773,
+                50.3286696
+              ],
+              [
+                12.8651498,
+                50.3285183
+              ],
+              [
+                12.865146,
+                50.328495
+              ],
+              [
+                12.8651412,
+                50.3284657
+              ],
+              [
+                12.8651025,
+                50.3284401
+              ],
+              [
+                12.8650941,
+                50.3283776
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 982081999,
+        "@url": "https://www.openstreetmap.org/way/982081999",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "opening_hours": "We 13:00-17:00; Sa 09:00-17:00",
+        "operator": "OÚ Merklín",
+        "operator:type": "government",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obecmerklin.cz/obec-1/sberne-misto-komunalniho-odpadu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 18.1625359,
                 49.8269752
               ],
@@ -40398,6 +40785,59 @@
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.0482833,
+                49.2966268
+              ],
+              [
+                14.0483526,
+                49.2965478
+              ],
+              [
+                14.0489289,
+                49.2964999
+              ],
+              [
+                14.0489421,
+                49.2967388
+              ],
+              [
+                14.0483271,
+                49.2967734
+              ],
+              [
+                14.0482833,
+                49.2966268
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1105724618,
+        "@url": "https://www.openstreetmap.org/way/1105724618",
+        "amenity": "recycling",
+        "opening_hours": "Fr 16:00-17:00",
+        "operator": "Obec Dobev",
+        "operator:type": "government",
+        "recycling:beverage_cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.obecdobev.cz/odpady/ds-4388/p1=2777"
       }
     }
   ]

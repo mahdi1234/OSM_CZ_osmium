@@ -25169,6 +25169,51 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5364605,
+          49.4683398
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10263100284,
+        "@url": "https://www.openstreetmap.org/node/10263100284",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3865934,
+          49.9324408
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10263285818,
+        "@url": "https://www.openstreetmap.org/node/10263285818",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -29600,6 +29645,42 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "http://www.lipuvka.eu/obecni-urad/odpady-a-poplatky/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.3943023,
+            49.0585623
+          ],
+          [
+            15.3945376,
+            49.0585152
+          ],
+          [
+            15.3943499,
+            49.0580279
+          ],
+          [
+            15.3941162,
+            49.0581059
+          ],
+          [
+            15.3943023,
+            49.0585623
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 687495082,
+        "@url": "https://www.openstreetmap.org/way/687495082",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -37475,6 +37556,46 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "http://www.lipuvka.eu/obecni-urad/odpady-a-poplatky/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.3941162,
+                49.0581059
+              ],
+              [
+                15.3943499,
+                49.0580279
+              ],
+              [
+                15.3945376,
+                49.0585152
+              ],
+              [
+                15.3943023,
+                49.0585623
+              ],
+              [
+                15.3941162,
+                49.0581059
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 687495082,
+        "@url": "https://www.openstreetmap.org/way/687495082",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {

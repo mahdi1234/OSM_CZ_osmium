@@ -8181,6 +8181,62 @@
         "type": "LineString",
         "coordinates": [
           [
+            12.9273581,
+            49.4417423
+          ],
+          [
+            12.9273617,
+            49.4417245
+          ],
+          [
+            12.9273829,
+            49.4417264
+          ],
+          [
+            12.9274112,
+            49.4415847
+          ],
+          [
+            12.927376,
+            49.4415554
+          ],
+          [
+            12.9272226,
+            49.4415416
+          ],
+          [
+            12.9271752,
+            49.4417856
+          ],
+          [
+            12.9267808,
+            49.4417518
+          ],
+          [
+            12.9267852,
+            49.4417312
+          ],
+          [
+            12.9266847,
+            49.4417224
+          ],
+          [
+            12.9266877,
+            49.4417057
+          ],
+          [
+            12.9266607,
+            49.4417039
+          ],
+          [
+            12.9266524,
+            49.4417444
+          ],
+          [
+            12.9266742,
+            49.4417458
+          ],
+          [
             12.9266492,
             49.4418747
           ],
@@ -8193,44 +8249,24 @@
             49.441975
           ],
           [
-            12.9273147,
+            12.9273148,
             49.4419919
           ],
           [
-            12.9273316,
-            49.4419093
-          ],
-          [
-            12.9273548,
-            49.4419112
-          ],
-          [
-            12.9273656,
-            49.4418574
+            12.9273425,
+            49.4418554
           ],
           [
             12.9273195,
             49.4418532
           ],
           [
-            12.9273516,
-            49.4416914
+            12.9273418,
+            49.441741
           ],
           [
-            12.9271966,
-            49.4416752
-          ],
-          [
-            12.9271752,
-            49.4417856
-          ],
-          [
-            12.9266748,
-            49.4417427
-          ],
-          [
-            12.9266492,
-            49.4418747
+            12.9273581,
+            49.4417423
           ]
         ]
       },
@@ -8242,16 +8278,18 @@
         "addr:housenumber": "10",
         "addr:postcode": "34401",
         "addr:street": "Pivovarská",
-        "building": "industrial",
-        "building:ruian:type": "12",
+        "building": "civic",
+        "building:levels": "6",
+        "building:ruian:type": "15",
         "contact:facebook": "https://www.facebook.com/PivovarDomazlice",
         "craft": "brewery",
         "description": "Městský pivovar Domažlice navazuje na výrobu piva v Domažlicích s tradicí už od r. 1341. Minipivovar s kapacitou 3000 hl se nachází v prostorách původní humnové sladovny postavené v 19. století. Pivo můžete ochutnat v Pivnici Domažlice.",
         "microbrewery": "yes",
         "name": "Městský pivovar Domažlice",
         "phone": "+420 606 044 688",
-        "ref:ruian:building": "50034430",
+        "ref:ruian:building": "6841643",
         "source": "cuzk:ruian",
+        "start_date": "2020-07-15",
         "website": "https://www.idomazlice.cz/cs/kulturnicentrumpivovardomazlice/"
       }
     },
@@ -8261,56 +8299,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            15.565984,
-            49.893645
-          ],
-          [
-            15.566004,
-            49.89362
-          ],
-          [
-            15.565965,
-            49.893609
-          ],
-          [
-            15.566029,
-            49.893526
-          ],
-          [
-            15.566003,
-            49.893519
-          ],
-          [
-            15.566015,
-            49.893503
-          ],
-          [
-            15.566091,
-            49.893525
-          ],
-          [
-            15.566063,
-            49.89356
-          ],
-          [
-            15.566128,
-            49.893583
-          ],
-          [
-            15.566193,
-            49.893496
+            15.5661919,
+            49.8934981
           ],
           [
             15.566023,
-            49.893441
+            49.8934424
           ],
           [
-            15.565886,
-            49.893615
+            15.5658871,
+            49.8936177
           ],
           [
-            15.565984,
-            49.893645
+            15.5659835,
+            49.8936466
+          ],
+          [
+            15.5660031,
+            49.8936211
+          ],
+          [
+            15.5659634,
+            49.8936091
+          ],
+          [
+            15.566028,
+            49.8935274
+          ],
+          [
+            15.5660026,
+            49.893519
+          ],
+          [
+            15.5660161,
+            49.8935024
+          ],
+          [
+            15.5660913,
+            49.8935266
+          ],
+          [
+            15.5660637,
+            49.8935618
+          ],
+          [
+            15.5661271,
+            49.8935829
+          ],
+          [
+            15.5661919,
+            49.8934981
           ]
         ]
       },
@@ -8325,11 +8363,13 @@
         "addr:place": "Žlebské Chvalovice",
         "addr:postcode": "53843",
         "building": "yes",
+        "building:ruian:type": "19",
         "craft": "brewery",
         "email": "info@kutilkovapalirna.cz",
         "name": "Kutílkova palírna a pivovar;pivovar Žlebské Chvalovice",
         "ref:ruian:addr": "5420571",
-        "source": "cuzk:km",
+        "ref:ruian:building": "5387663",
+        "source": "cuzk:ruian",
         "website": "http://kutilkovapalirna.cz/"
       }
     },
@@ -15774,39 +15814,75 @@
                 49.4418747
               ],
               [
-                12.9266748,
-                49.4417427
+                12.9266742,
+                49.4417458
+              ],
+              [
+                12.9266524,
+                49.4417444
+              ],
+              [
+                12.9266607,
+                49.4417039
+              ],
+              [
+                12.9266877,
+                49.4417057
+              ],
+              [
+                12.9266847,
+                49.4417224
+              ],
+              [
+                12.9267852,
+                49.4417312
+              ],
+              [
+                12.9267808,
+                49.4417518
               ],
               [
                 12.9271752,
                 49.4417856
               ],
               [
-                12.9271966,
-                49.4416752
+                12.9272226,
+                49.4415416
               ],
               [
-                12.9273516,
-                49.4416914
+                12.927376,
+                49.4415554
+              ],
+              [
+                12.9274112,
+                49.4415847
+              ],
+              [
+                12.9273829,
+                49.4417264
+              ],
+              [
+                12.9273617,
+                49.4417245
+              ],
+              [
+                12.9273581,
+                49.4417423
+              ],
+              [
+                12.9273418,
+                49.441741
               ],
               [
                 12.9273195,
                 49.4418532
               ],
               [
-                12.9273656,
-                49.4418574
+                12.9273425,
+                49.4418554
               ],
               [
-                12.9273548,
-                49.4419112
-              ],
-              [
-                12.9273316,
-                49.4419093
-              ],
-              [
-                12.9273147,
+                12.9273148,
                 49.4419919
               ],
               [
@@ -15833,16 +15909,18 @@
         "addr:housenumber": "10",
         "addr:postcode": "34401",
         "addr:street": "Pivovarská",
-        "building": "industrial",
-        "building:ruian:type": "12",
+        "building": "civic",
+        "building:levels": "6",
+        "building:ruian:type": "15",
         "contact:facebook": "https://www.facebook.com/PivovarDomazlice",
         "craft": "brewery",
         "description": "Městský pivovar Domažlice navazuje na výrobu piva v Domažlicích s tradicí už od r. 1341. Minipivovar s kapacitou 3000 hl se nachází v prostorách původní humnové sladovny postavené v 19. století. Pivo můžete ochutnat v Pivnici Domažlice.",
         "microbrewery": "yes",
         "name": "Městský pivovar Domažlice",
         "phone": "+420 606 044 688",
-        "ref:ruian:building": "50034430",
+        "ref:ruian:building": "6841643",
         "source": "cuzk:ruian",
+        "start_date": "2020-07-15",
         "website": "https://www.idomazlice.cz/cs/kulturnicentrumpivovardomazlice/"
       }
     },
@@ -15854,56 +15932,56 @@
           [
             [
               [
-                15.565886,
-                49.893615
+                15.5658871,
+                49.8936177
               ],
               [
                 15.566023,
-                49.893441
+                49.8934424
               ],
               [
-                15.566193,
-                49.893496
+                15.5661919,
+                49.8934981
               ],
               [
-                15.566128,
-                49.893583
+                15.5661271,
+                49.8935829
               ],
               [
-                15.566063,
-                49.89356
+                15.5660637,
+                49.8935618
               ],
               [
-                15.566091,
-                49.893525
+                15.5660913,
+                49.8935266
               ],
               [
-                15.566015,
-                49.893503
+                15.5660161,
+                49.8935024
               ],
               [
-                15.566003,
+                15.5660026,
                 49.893519
               ],
               [
-                15.566029,
-                49.893526
+                15.566028,
+                49.8935274
               ],
               [
-                15.565965,
-                49.893609
+                15.5659634,
+                49.8936091
               ],
               [
-                15.566004,
-                49.89362
+                15.5660031,
+                49.8936211
               ],
               [
-                15.565984,
-                49.893645
+                15.5659835,
+                49.8936466
               ],
               [
-                15.565886,
-                49.893615
+                15.5658871,
+                49.8936177
               ]
             ]
           ]
@@ -15920,11 +15998,13 @@
         "addr:place": "Žlebské Chvalovice",
         "addr:postcode": "53843",
         "building": "yes",
+        "building:ruian:type": "19",
         "craft": "brewery",
         "email": "info@kutilkovapalirna.cz",
         "name": "Kutílkova palírna a pivovar;pivovar Žlebské Chvalovice",
         "ref:ruian:addr": "5420571",
-        "source": "cuzk:km",
+        "ref:ruian:building": "5387663",
+        "source": "cuzk:ruian",
         "website": "http://kutilkovapalirna.cz/"
       }
     },

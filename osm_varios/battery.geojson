@@ -12949,6 +12949,32 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5960493,
+          49.5281566
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10284395493,
+        "@url": "https://www.openstreetmap.org/node/10284395493",
+        "amenity": "recycling",
+        "operator": "Město Lipník",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -13974,10 +14000,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.4942718,
-            48.9294127
-          ],
-          [
             14.4942323,
             48.9291132
           ],
@@ -14004,6 +14026,18 @@
           [
             14.4942718,
             48.9294127
+          ],
+          [
+            14.4937785,
+            48.9293697
+          ],
+          [
+            14.4937121,
+            48.9291553
+          ],
+          [
+            14.4942323,
+            48.9291132
           ]
         ]
       },
@@ -14012,9 +14046,11 @@
         "@id": 57849375,
         "@url": "https://www.openstreetmap.org/way/57849375",
         "amenity": "recycling",
+        "opening_hours": "Mo 17:00-19:00; Th 17:00-19:00",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -19008,49 +19044,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            17.5960852,
-            49.5280971
-          ],
-          [
-            17.5960552,
-            49.5281724
-          ],
-          [
-            17.5960169,
-            49.5281659
-          ],
-          [
-            17.5960469,
-            49.5280907
-          ],
-          [
-            17.5960852,
-            49.5280971
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 837982381,
-        "@url": "https://www.openstreetmap.org/way/837982381",
-        "amenity": "recycling",
-        "operator": "Město Lipník",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:shoes": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             14.0237662,
             49.910732
           ],
@@ -21958,6 +21951,10 @@
           [
             [
               [
+                14.4937121,
+                48.9291553
+              ],
+              [
                 14.4942323,
                 48.9291132
               ],
@@ -21986,8 +21983,12 @@
                 48.9294127
               ],
               [
-                14.4942323,
-                48.9291132
+                14.4937785,
+                48.9293697
+              ],
+              [
+                14.4937121,
+                48.9291553
               ]
             ]
           ]
@@ -21998,9 +21999,11 @@
         "@id": 57849375,
         "@url": "https://www.openstreetmap.org/way/57849375",
         "amenity": "recycling",
+        "opening_hours": "Mo 17:00-19:00; Th 17:00-19:00",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -27262,53 +27265,6 @@
         "recycling:paper": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                17.5960169,
-                49.5281659
-              ],
-              [
-                17.5960469,
-                49.5280907
-              ],
-              [
-                17.5960852,
-                49.5280971
-              ],
-              [
-                17.5960552,
-                49.5281724
-              ],
-              [
-                17.5960169,
-                49.5281659
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 837982381,
-        "@url": "https://www.openstreetmap.org/way/837982381",
-        "amenity": "recycling",
-        "operator": "Město Lipník",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:shoes": "yes",
-        "recycling_type": "container"
       }
     },
     {

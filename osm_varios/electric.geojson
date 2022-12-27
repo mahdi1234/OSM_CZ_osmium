@@ -33392,6 +33392,59 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.608714,
+            49.0739494
+          ],
+          [
+            16.6085971,
+            49.0738981
+          ],
+          [
+            16.6085059,
+            49.073829
+          ],
+          [
+            16.6084885,
+            49.0736758
+          ],
+          [
+            16.6088689,
+            49.0736325
+          ],
+          [
+            16.608919,
+            49.0736619
+          ],
+          [
+            16.6089114,
+            49.0737255
+          ],
+          [
+            16.608714,
+            49.0739494
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1124992510,
+        "@url": "https://www.openstreetmap.org/way/1124992510",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -41640,6 +41693,63 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "http://www.obecdobev.cz/odpady/ds-4388/p1=2777"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.6084885,
+                49.0736758
+              ],
+              [
+                16.6088689,
+                49.0736325
+              ],
+              [
+                16.608919,
+                49.0736619
+              ],
+              [
+                16.6089114,
+                49.0737255
+              ],
+              [
+                16.608714,
+                49.0739494
+              ],
+              [
+                16.6085971,
+                49.0738981
+              ],
+              [
+                16.6085059,
+                49.073829
+              ],
+              [
+                16.6084885,
+                49.0736758
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1124992510,
+        "@url": "https://www.openstreetmap.org/way/1124992510",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

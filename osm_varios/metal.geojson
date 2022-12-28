@@ -20021,6 +20021,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4031589,
+          48.9056994
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8387927956,
+        "@url": "https://www.openstreetmap.org/node/8387927956",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5570242,
           49.2096088
         ]
@@ -20103,6 +20124,28 @@
         "recycling:metal": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.504358,
+          48.911446
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8422997053,
+        "@url": "https://www.openstreetmap.org/node/8422997053",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -40331,6 +40374,51 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.5005264,
+            48.9797721
+          ],
+          [
+            14.5003678,
+            48.9800843
+          ],
+          [
+            14.500052,
+            48.9800078
+          ],
+          [
+            14.4999502,
+            48.9799832
+          ],
+          [
+            14.5001981,
+            48.9796768
+          ],
+          [
+            14.5005264,
+            48.9797721
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 863256435,
+        "@url": "https://www.openstreetmap.org/way/863256435",
+        "amenity": "recycling",
+        "name": "SBĚRSUR s.r.o.",
+        "recycling:car_batteries": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://sbersur.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.495345,
             50.2392865
           ],
@@ -50435,6 +50523,55 @@
         "recycling:waste": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.4999502,
+                48.9799832
+              ],
+              [
+                14.5001981,
+                48.9796768
+              ],
+              [
+                14.5005264,
+                48.9797721
+              ],
+              [
+                14.5003678,
+                48.9800843
+              ],
+              [
+                14.500052,
+                48.9800078
+              ],
+              [
+                14.4999502,
+                48.9799832
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 863256435,
+        "@url": "https://www.openstreetmap.org/way/863256435",
+        "amenity": "recycling",
+        "name": "SBĚRSUR s.r.o.",
+        "recycling:car_batteries": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://sbersur.cz/"
       }
     },
     {

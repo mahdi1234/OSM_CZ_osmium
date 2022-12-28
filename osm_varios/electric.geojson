@@ -4014,6 +4014,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5965128,
+          49.0164073
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3120199608,
+        "@url": "https://www.openstreetmap.org/node/3120199608",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.6568168,
           49.6887147
         ]
@@ -9438,6 +9460,27 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6175932,
+          48.9316113
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5831950982,
+        "@url": "https://www.openstreetmap.org/node/5831950982",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -29981,6 +30024,83 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.4397983,
+            48.9725482
+          ],
+          [
+            14.4401584,
+            48.9725766
+          ],
+          [
+            14.4401724,
+            48.9725312
+          ],
+          [
+            14.4401836,
+            48.9725025
+          ],
+          [
+            14.44036,
+            48.9723201
+          ],
+          [
+            14.4404855,
+            48.972147
+          ],
+          [
+            14.4404535,
+            48.9721227
+          ],
+          [
+            14.4402335,
+            48.9720579
+          ],
+          [
+            14.4402194,
+            48.9720552
+          ],
+          [
+            14.4399297,
+            48.9723651
+          ],
+          [
+            14.4397983,
+            48.9725482
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 655052816,
+        "@url": "https://www.openstreetmap.org/way/655052816",
+        "amenity": "recycling",
+        "email": "cb@fcc-group.cz",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr České Budějovice - Švábův Hrádek",
+        "opening_hours": "Apr-Oct Mo-Fr 08:00-20:00,Sa 08:00-12:00,Su 08:00-11:00; Nov-Mar Mo-Fr 08:00-18:00,Sa 08:00-12:00,Su 08:00-11:00",
+        "operator": "FCC České Budějovice, s.r.o.",
+        "phone": "+420 724 249 311",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/jizni-cechy/sd-ceske-budejovice-svabuv-hradek.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.9121001,
             50.4341789
           ],
@@ -30886,6 +31006,85 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.5705401,
+            49.1009069
+          ],
+          [
+            14.5707905,
+            49.1004007
+          ],
+          [
+            14.5708335,
+            49.1004133
+          ],
+          [
+            14.5709002,
+            49.1004328
+          ],
+          [
+            14.5708572,
+            49.1004754
+          ],
+          [
+            14.5710942,
+            49.1006164
+          ],
+          [
+            14.5711283,
+            49.1005525
+          ],
+          [
+            14.5712299,
+            49.100575
+          ],
+          [
+            14.571491,
+            49.1006468
+          ],
+          [
+            14.5714204,
+            49.1007247
+          ],
+          [
+            14.571276,
+            49.1009855
+          ],
+          [
+            14.5711086,
+            49.1009451
+          ],
+          [
+            14.5709901,
+            49.101
+          ],
+          [
+            14.5707462,
+            49.1009345
+          ],
+          [
+            14.5705401,
+            49.1009069
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 793773152,
+        "@url": "https://www.openstreetmap.org/way/793773152",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "opening_hours": "We 15:00-18:00, Su 9:00-12:00",
+        "operator": "Městys Ševětín",
+        "recycling:electrical_appliances": "yes",
         "recycling_type": "centre"
       }
     },
@@ -33261,6 +33460,55 @@
         "recycling:rubble": "yes",
         "recycling_type": "centre",
         "website": "https://www.jince.cz/sluzby-a-organizace/technicke-sluzby-mestyse-jince/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.540309,
+            48.9456251
+          ],
+          [
+            14.5404515,
+            48.9460704
+          ],
+          [
+            14.5402601,
+            48.9460973
+          ],
+          [
+            14.5401156,
+            48.946104
+          ],
+          [
+            14.5397414,
+            48.9458627
+          ],
+          [
+            14.5401177,
+            48.9456529
+          ],
+          [
+            14.540309,
+            48.9456251
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1084193727,
+        "@url": "https://www.openstreetmap.org/way/1084193727",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.srubec.cz/sberny-dvur-ve-zborovske-ulici/d-5382"
       }
     },
     {
@@ -38105,6 +38353,87 @@
           [
             [
               [
+                14.4397983,
+                48.9725482
+              ],
+              [
+                14.4399297,
+                48.9723651
+              ],
+              [
+                14.4402194,
+                48.9720552
+              ],
+              [
+                14.4402335,
+                48.9720579
+              ],
+              [
+                14.4404535,
+                48.9721227
+              ],
+              [
+                14.4404855,
+                48.972147
+              ],
+              [
+                14.44036,
+                48.9723201
+              ],
+              [
+                14.4401836,
+                48.9725025
+              ],
+              [
+                14.4401724,
+                48.9725312
+              ],
+              [
+                14.4401584,
+                48.9725766
+              ],
+              [
+                14.4397983,
+                48.9725482
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 655052816,
+        "@url": "https://www.openstreetmap.org/way/655052816",
+        "amenity": "recycling",
+        "email": "cb@fcc-group.cz",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr České Budějovice - Švábův Hrádek",
+        "opening_hours": "Apr-Oct Mo-Fr 08:00-20:00,Sa 08:00-12:00,Su 08:00-11:00; Nov-Mar Mo-Fr 08:00-18:00,Sa 08:00-12:00,Su 08:00-11:00",
+        "operator": "FCC České Budějovice, s.r.o.",
+        "phone": "+420 724 249 311",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/jizni-cechy/sd-ceske-budejovice-svabuv-hradek.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 14.9121001,
                 50.4341789
               ],
@@ -39056,6 +39385,89 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.5705401,
+                49.1009069
+              ],
+              [
+                14.5707905,
+                49.1004007
+              ],
+              [
+                14.5708335,
+                49.1004133
+              ],
+              [
+                14.5709002,
+                49.1004328
+              ],
+              [
+                14.5708572,
+                49.1004754
+              ],
+              [
+                14.5710942,
+                49.1006164
+              ],
+              [
+                14.5711283,
+                49.1005525
+              ],
+              [
+                14.5712299,
+                49.100575
+              ],
+              [
+                14.571491,
+                49.1006468
+              ],
+              [
+                14.5714204,
+                49.1007247
+              ],
+              [
+                14.571276,
+                49.1009855
+              ],
+              [
+                14.5711086,
+                49.1009451
+              ],
+              [
+                14.5709901,
+                49.101
+              ],
+              [
+                14.5707462,
+                49.1009345
+              ],
+              [
+                14.5705401,
+                49.1009069
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 793773152,
+        "@url": "https://www.openstreetmap.org/way/793773152",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "opening_hours": "We 15:00-18:00, Su 9:00-12:00",
+        "operator": "Městys Ševětín",
+        "recycling:electrical_appliances": "yes",
         "recycling_type": "centre"
       }
     },
@@ -41559,6 +41971,59 @@
         "recycling:rubble": "yes",
         "recycling_type": "centre",
         "website": "https://www.jince.cz/sluzby-a-organizace/technicke-sluzby-mestyse-jince/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.5397414,
+                48.9458627
+              ],
+              [
+                14.5401177,
+                48.9456529
+              ],
+              [
+                14.540309,
+                48.9456251
+              ],
+              [
+                14.5404515,
+                48.9460704
+              ],
+              [
+                14.5402601,
+                48.9460973
+              ],
+              [
+                14.5401156,
+                48.946104
+              ],
+              [
+                14.5397414,
+                48.9458627
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1084193727,
+        "@url": "https://www.openstreetmap.org/way/1084193727",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.srubec.cz/sberny-dvur-ve-zborovske-ulici/d-5382"
       }
     },
     {

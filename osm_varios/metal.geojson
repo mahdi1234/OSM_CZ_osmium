@@ -3772,29 +3772,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4850547,
-          48.7358912
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2452131701,
-        "@url": "https://www.openstreetmap.org/node/2452131701",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.3800614,
           49.78389
         ]
@@ -15501,6 +15478,30 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6405214,
+          49.4518561
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6980167438,
+        "@url": "https://www.openstreetmap.org/node/6980167438",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -33837,6 +33838,49 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7031872,
+          49.4057332
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10302676828,
+        "@url": "https://www.openstreetmap.org/node/10302676828",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3749217,
+          50.3019953
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10302779115,
+        "@url": "https://www.openstreetmap.org/node/10302779115",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -41120,6 +41164,115 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.486949,
+            48.744428
+          ],
+          [
+            14.4867949,
+            48.744538
+          ],
+          [
+            14.486878,
+            48.7449997
+          ],
+          [
+            14.487216,
+            48.7450722
+          ],
+          [
+            14.4874493,
+            48.7449059
+          ],
+          [
+            14.4876505,
+            48.7446442
+          ],
+          [
+            14.4876076,
+            48.74463
+          ],
+          [
+            14.4875699,
+            48.7446747
+          ],
+          [
+            14.4875469,
+            48.7447057
+          ],
+          [
+            14.487461,
+            48.74468
+          ],
+          [
+            14.487416,
+            48.744745
+          ],
+          [
+            14.487236,
+            48.744691
+          ],
+          [
+            14.487263,
+            48.744653
+          ],
+          [
+            14.487221,
+            48.74464
+          ],
+          [
+            14.487235,
+            48.744618
+          ],
+          [
+            14.487328,
+            48.744644
+          ],
+          [
+            14.487341,
+            48.744619
+          ],
+          [
+            14.487176,
+            48.74458
+          ],
+          [
+            14.48721,
+            48.744526
+          ],
+          [
+            14.487261,
+            48.744538
+          ],
+          [
+            14.48728,
+            48.744504
+          ],
+          [
+            14.4870948,
+            48.7444615
+          ],
+          [
+            14.486949,
+            48.744428
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 793751444,
+        "@url": "https://www.openstreetmap.org/way/793751444",
+        "amenity": "recycling",
+        "name": "Kovošrot",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.0930677,
             50.5778724
           ],
@@ -43627,6 +43780,88 @@
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
         "website": "http://www.lazne-belohrad.cz/mesto/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4847036,
+            48.7356905
+          ],
+          [
+            14.4843329,
+            48.7353105
+          ],
+          [
+            14.4845548,
+            48.7352415
+          ],
+          [
+            14.4845729,
+            48.7352702
+          ],
+          [
+            14.4847989,
+            48.7352017
+          ],
+          [
+            14.4851147,
+            48.7355679
+          ],
+          [
+            14.485398,
+            48.7359242
+          ],
+          [
+            14.485369,
+            48.7359342
+          ],
+          [
+            14.4855055,
+            48.7361256
+          ],
+          [
+            14.4853804,
+            48.7362366
+          ],
+          [
+            14.4851852,
+            48.7361209
+          ],
+          [
+            14.4852996,
+            48.7360762
+          ],
+          [
+            14.4848895,
+            48.7356142
+          ],
+          [
+            14.4847036,
+            48.7356905
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1126676727,
+        "@url": "https://www.openstreetmap.org/way/1126676727",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kaplice, Omlenická ulice",
+        "operator": "Technické služby Kaplice spol. s r. o.",
+        "phone": "+420 380 426 711",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestokaplice.cz/odpady-sberny-dvur-svoz-plan-odpadoveho-hospodarstvi/mesto-samosprava-36"
       }
     },
     {
@@ -51420,6 +51655,119 @@
           [
             [
               [
+                14.4867949,
+                48.744538
+              ],
+              [
+                14.486949,
+                48.744428
+              ],
+              [
+                14.4870948,
+                48.7444615
+              ],
+              [
+                14.48728,
+                48.744504
+              ],
+              [
+                14.487261,
+                48.744538
+              ],
+              [
+                14.48721,
+                48.744526
+              ],
+              [
+                14.487176,
+                48.74458
+              ],
+              [
+                14.487341,
+                48.744619
+              ],
+              [
+                14.487328,
+                48.744644
+              ],
+              [
+                14.487235,
+                48.744618
+              ],
+              [
+                14.487221,
+                48.74464
+              ],
+              [
+                14.487263,
+                48.744653
+              ],
+              [
+                14.487236,
+                48.744691
+              ],
+              [
+                14.487416,
+                48.744745
+              ],
+              [
+                14.487461,
+                48.74468
+              ],
+              [
+                14.4875469,
+                48.7447057
+              ],
+              [
+                14.4875699,
+                48.7446747
+              ],
+              [
+                14.4876076,
+                48.74463
+              ],
+              [
+                14.4876505,
+                48.7446442
+              ],
+              [
+                14.4874493,
+                48.7449059
+              ],
+              [
+                14.487216,
+                48.7450722
+              ],
+              [
+                14.486878,
+                48.7449997
+              ],
+              [
+                14.4867949,
+                48.744538
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 793751444,
+        "@url": "https://www.openstreetmap.org/way/793751444",
+        "amenity": "recycling",
+        "name": "Kovošrot",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 15.0923362,
                 50.5788808
               ],
@@ -54069,6 +54417,92 @@
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
         "website": "http://www.lazne-belohrad.cz/mesto/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.4843329,
+                48.7353105
+              ],
+              [
+                14.4845548,
+                48.7352415
+              ],
+              [
+                14.4845729,
+                48.7352702
+              ],
+              [
+                14.4847989,
+                48.7352017
+              ],
+              [
+                14.4851147,
+                48.7355679
+              ],
+              [
+                14.485398,
+                48.7359242
+              ],
+              [
+                14.485369,
+                48.7359342
+              ],
+              [
+                14.4855055,
+                48.7361256
+              ],
+              [
+                14.4853804,
+                48.7362366
+              ],
+              [
+                14.4851852,
+                48.7361209
+              ],
+              [
+                14.4852996,
+                48.7360762
+              ],
+              [
+                14.4848895,
+                48.7356142
+              ],
+              [
+                14.4847036,
+                48.7356905
+              ],
+              [
+                14.4843329,
+                48.7353105
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1126676727,
+        "@url": "https://www.openstreetmap.org/way/1126676727",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kaplice, Omlenická ulice",
+        "operator": "Technické služby Kaplice spol. s r. o.",
+        "phone": "+420 380 426 711",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestokaplice.cz/odpady-sberny-dvur-svoz-plan-odpadoveho-hospodarstvi/mesto-samosprava-36"
       }
     }
   ]

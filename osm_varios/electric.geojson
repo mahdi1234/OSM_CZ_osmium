@@ -9264,12 +9264,14 @@
         "@url": "https://www.openstreetmap.org/node/5629239172",
         "amenity": "recycling",
         "operator": "Služby města Český Krumlov s.r.o.",
+        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
-        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -25886,6 +25888,75 @@
         "@url": "https://www.openstreetmap.org/node/10300375085",
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4949177,
+          48.7340565
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10302322070,
+        "@url": "https://www.openstreetmap.org/node/10302322070",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7031872,
+          49.4057332
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10302676828,
+        "@url": "https://www.openstreetmap.org/node/10302676828",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7044156,
+          49.4039953
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10302676830,
+        "@url": "https://www.openstreetmap.org/node/10302676830",
+        "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",

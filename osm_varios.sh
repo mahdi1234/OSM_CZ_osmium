@@ -96,3 +96,8 @@ echo "Vegan"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/diet:vegan=only --overwrite -o ./osm_varios/all_vege.pbf
 osmium export ./osm_varios/all_vege.pbf --overwrite -o ./osm_varios/all_vege.json -c ./osmium_options.json
 cat ./osm_varios/all_vege.json | ./urlize.sh | grep -e '"diet:vegetarian":"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/vege.geojson
+
+echo "Beehive"
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/man_made=beehive --overwrite -o ./osm_varios/beehive.pbf
+osmium export ./osm_varios/beehive.pbf --overwrite -o ./osm_varios/beehive.json -c ./osmium_options.json
+cat ./osm_varios/beehive.json | ./urlize.sh | grep -e '"beehive"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/beehive.geojson

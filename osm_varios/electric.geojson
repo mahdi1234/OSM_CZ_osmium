@@ -26258,6 +26258,28 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4797411,
+          49.300129
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10542833550,
+        "@url": "https://www.openstreetmap.org/node/10542833550",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -34493,6 +34515,57 @@
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
         "website": "http://www.lazne-belohrad.cz/mesto/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.3363506,
+            49.3262959
+          ],
+          [
+            14.3369207,
+            49.3262605
+          ],
+          [
+            14.336926,
+            49.326334
+          ],
+          [
+            14.3369423,
+            49.3263951
+          ],
+          [
+            14.3369262,
+            49.3263964
+          ],
+          [
+            14.3368873,
+            49.3264698
+          ],
+          [
+            14.3363896,
+            49.3265103
+          ],
+          [
+            14.3363506,
+            49.3262959
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1131161215,
+        "@url": "https://www.openstreetmap.org/way/1131161215",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -43189,6 +43262,61 @@
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
         "website": "http://www.lazne-belohrad.cz/mesto/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.3363506,
+                49.3262959
+              ],
+              [
+                14.3369207,
+                49.3262605
+              ],
+              [
+                14.336926,
+                49.326334
+              ],
+              [
+                14.3369423,
+                49.3263951
+              ],
+              [
+                14.3369262,
+                49.3263964
+              ],
+              [
+                14.3368873,
+                49.3264698
+              ],
+              [
+                14.3363896,
+                49.3265103
+              ],
+              [
+                14.3363506,
+                49.3262959
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1131161215,
+        "@url": "https://www.openstreetmap.org/way/1131161215",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

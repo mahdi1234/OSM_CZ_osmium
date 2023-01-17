@@ -11112,8 +11112,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5485424,
-          49.5779823
+          16.5484862,
+          49.5779744
         ]
       },
       "properties": {
@@ -17004,6 +17004,55 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5484294,
+            49.5780122
+          ],
+          [
+            16.5485677,
+            49.5779661
+          ],
+          [
+            16.5485402,
+            49.5779257
+          ],
+          [
+            16.5483999,
+            49.5779535
+          ],
+          [
+            16.5484294,
+            49.5780122
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1132490785,
+        "@url": "https://www.openstreetmap.org/way/1132490785",
+        "amenity": "recycling",
+        "covered": "no",
+        "image": "https://www.obec-skrchov.eu/evt_image.php?img=13164",
+        "opening_hours": "24/7",
+        "recycling:bio": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:shoes": "yes",
+        "recycling:textile": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -19965,6 +20014,59 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10553"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5483999,
+                49.5779535
+              ],
+              [
+                16.5485402,
+                49.5779257
+              ],
+              [
+                16.5485677,
+                49.5779661
+              ],
+              [
+                16.5484294,
+                49.5780122
+              ],
+              [
+                16.5483999,
+                49.5779535
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1132490785,
+        "@url": "https://www.openstreetmap.org/way/1132490785",
+        "amenity": "recycling",
+        "covered": "no",
+        "image": "https://www.obec-skrchov.eu/evt_image.php?img=13164",
+        "opening_hours": "24/7",
+        "recycling:bio": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:shoes": "yes",
+        "recycling:textile": "yes",
+        "recycling_type": "container"
       }
     }
   ]

@@ -453,6 +453,7 @@
         "@id": 1619564558,
         "@url": "https://www.openstreetmap.org/node/1619564558",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -12344,8 +12345,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3812511,
-          49.7483394
+          13.3812856,
+          49.7484016
         ]
       },
       "properties": {
@@ -27053,6 +27054,42 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3132623,
+          48.8033136
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10573495457,
+        "@url": "https://www.openstreetmap.org/node/10573495457",
+        "colour": "červená",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5669403,
+          49.1736989
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10576801909,
+        "@url": "https://www.openstreetmap.org/node/10576801909",
+        "emergency": "fire_hydrant"
       }
     }
   ]

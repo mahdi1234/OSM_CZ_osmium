@@ -105,6 +105,6 @@ cat ./osm_varios/beehive.json | ./urlize.sh | grep -e '"beehive"' -e '"apiary"' 
 echo "Recycling Brno plastic"
 osmium tags-filter ./brno-latest.osm.pbf nwr/recycling_type=container --overwrite -o ./osm_varios/brno_container.pbf
 osmium export ./osm_varios/brno_container.pbf --overwrite -o ./osm_varios/brno_container.json -c ./osmium_options.json
-cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:plastic":"yes"' -e '"recycling:plastic_bottles":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:cans":"yes"' | grep -ve '"recycling:scrap_metal":"yes"' | ./sanitize_json_jq.sh > ./osm_varios/brno_container.geojson
+cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:plastic":"yes"' -e '"recycling:plastic_bottles":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:cans":"yes"' | grep -ve '"recycling:scrap_metal":"yes"' | grep -ve '"access":"private"' | ./sanitize_json_jq.sh > ./osm_varios/brno_container.geojson
 echo '#!/bin/bash' > ./osm_varios/brno_container_JOSM.sh
-cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:plastic":"yes"' -e '"recycling:plastic_bottles":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:cans":"yes"' | grep -ve '"recycling:scrap_metal":"yes"' | ./josmize.sh >> ./osm_varios/brno_container_JOSM.sh
+cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:plastic":"yes"' -e '"recycling:plastic_bottles":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:cans":"yes"' | grep -ve '"recycling:scrap_metal":"yes"' | grep -ve '"access":"private"' | ./josmize.sh >> ./osm_varios/brno_container_JOSM.sh

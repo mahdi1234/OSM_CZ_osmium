@@ -268,10 +268,13 @@
         "amenity": "recycling",
         "location": "overground",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -19479,6 +19482,98 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.5322797,
+            50.0855652
+          ],
+          [
+            14.5324852,
+            50.0855812
+          ],
+          [
+            14.5325537,
+            50.0852494
+          ],
+          [
+            14.5325349,
+            50.0852471
+          ],
+          [
+            14.532689,
+            50.0846213
+          ],
+          [
+            14.5321237,
+            50.0844853
+          ],
+          [
+            14.5319515,
+            50.0850055
+          ],
+          [
+            14.5319267,
+            50.085076
+          ],
+          [
+            14.5318778,
+            50.0852219
+          ],
+          [
+            14.5318611,
+            50.0852862
+          ],
+          [
+            14.5318192,
+            50.0853963
+          ],
+          [
+            14.531781,
+            50.0855184
+          ],
+          [
+            14.5320247,
+            50.0855442
+          ],
+          [
+            14.5322797,
+            50.0855652
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 853247651,
+        "@url": "https://www.openstreetmap.org/way/853247651",
+        "addr:city": "Praha",
+        "addr:housenumber": "5",
+        "addr:postcode": "10800",
+        "addr:street": "Teplárenská",
+        "amenity": "recycling",
+        "contact:email": "vs-ekoprag@vs-ekoprag.cz",
+        "contact:phone": "+420 272 700 952; +420 777 301 201",
+        "contact:website": "https://www.vs-ekoprag.cz/sberny-dvur",
+        "name": "Sběrný dvůr hlavního města",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00; Su, PH off",
+        "operator": "VS – EKOPRAG",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.4916267,
             48.9731018
           ],
@@ -27875,6 +27970,102 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.531781,
+                50.0855184
+              ],
+              [
+                14.5318192,
+                50.0853963
+              ],
+              [
+                14.5318611,
+                50.0852862
+              ],
+              [
+                14.5318778,
+                50.0852219
+              ],
+              [
+                14.5319267,
+                50.085076
+              ],
+              [
+                14.5319515,
+                50.0850055
+              ],
+              [
+                14.5321237,
+                50.0844853
+              ],
+              [
+                14.532689,
+                50.0846213
+              ],
+              [
+                14.5325349,
+                50.0852471
+              ],
+              [
+                14.5325537,
+                50.0852494
+              ],
+              [
+                14.5324852,
+                50.0855812
+              ],
+              [
+                14.5322797,
+                50.0855652
+              ],
+              [
+                14.5320247,
+                50.0855442
+              ],
+              [
+                14.531781,
+                50.0855184
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 853247651,
+        "@url": "https://www.openstreetmap.org/way/853247651",
+        "addr:city": "Praha",
+        "addr:housenumber": "5",
+        "addr:postcode": "10800",
+        "addr:street": "Teplárenská",
+        "amenity": "recycling",
+        "contact:email": "vs-ekoprag@vs-ekoprag.cz",
+        "contact:phone": "+420 272 700 952; +420 777 301 201",
+        "contact:website": "https://www.vs-ekoprag.cz/sberny-dvur",
+        "name": "Sběrný dvůr hlavního města",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00; Su, PH off",
+        "operator": "VS – EKOPRAG",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
       }
     },

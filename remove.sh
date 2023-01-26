@@ -1,5 +1,4 @@
 #!/bin/bash
-rm ./czech-republic-latest.osm.pbf
-rm ./extract.pbf
+rm ./*.pbf
 rm ./*/*.json
 rm ./*/*.pbf

@@ -3825,33 +3825,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3124176,
-          49.0389881
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5486695102,
-        "@url": "https://www.openstreetmap.org/node/5486695102",
-        "addr:city": "Moravský Krumlov",
-        "addr:housenumber": "393",
-        "addr:postcode": "67201",
-        "addr:street": "Znojemská",
-        "brewery": "Pivovar Krum",
-        "email": "info@rokiten.cz",
-        "microbrewery": "yes",
-        "name": "Rokiten",
-        "phone": "+420 605 248 935",
-        "stars": "3",
-        "tourism": "hotel",
-        "website": "http://www.rokiten.cz"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.3300072,
           49.8592503
         ]
@@ -5946,8 +5919,11 @@
         "@type": "node",
         "@id": 9661434771,
         "@url": "https://www.openstreetmap.org/node/9661434771",
+        "craft": "brewery",
         "microbrewery": "yes",
-        "name": "Pivovar Petrovice"
+        "name": "Pivovar Petrovice",
+        "operator": "Pivovar Petrovice s.r.o.",
+        "website": "http://www.pivovarpetrovice.cz/"
       }
     },
     {
@@ -6215,6 +6191,27 @@
         "operator": "MALÁ HLUBOKÁ a.s.",
         "phone": "+420 774 752 424; +420 777 752 400",
         "website": "https://www.malahluboka.cz/pivovar-grasel/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3128679,
+          49.0388854
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10602245705,
+        "@url": "https://www.openstreetmap.org/node/10602245705",
+        "craft": "brewery",
+        "email": "info@rokiten.cz",
+        "microbrewery": "yes",
+        "mobile": "+420 605 248 935",
+        "name": "Krum",
+        "website": "http://www.rokiten.cz/pivovar"
       }
     },
     {
@@ -12103,6 +12100,10 @@
           [
             17.1346041,
             49.4768975
+          ],
+          [
+            17.1345589,
+            49.4769246
           ],
           [
             17.1341916,
@@ -19847,6 +19848,10 @@
               [
                 17.1346041,
                 49.4768975
+              ],
+              [
+                17.1345589,
+                49.4769246
               ],
               [
                 17.1341916,

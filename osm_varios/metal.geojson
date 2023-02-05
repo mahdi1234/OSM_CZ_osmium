@@ -41167,6 +41167,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9538111,
+          48.9763105
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10605953240,
+        "@url": "https://www.openstreetmap.org/node/10605953240",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -47224,83 +47247,6 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.4661887,
-            50.1028092
-          ],
-          [
-            14.4659091,
-            50.1024474
-          ],
-          [
-            14.4660769,
-            50.1023947
-          ],
-          [
-            14.4662985,
-            50.1023251
-          ],
-          [
-            14.466314,
-            50.1023195
-          ],
-          [
-            14.4664326,
-            50.1022802
-          ],
-          [
-            14.4665224,
-            50.1023288
-          ],
-          [
-            14.4667243,
-            50.1026268
-          ],
-          [
-            14.4665758,
-            50.1026908
-          ],
-          [
-            14.4663577,
-            50.1027675
-          ],
-          [
-            14.4661887,
-            50.1028092
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 545303622,
-        "@url": "https://www.openstreetmap.org/way/545303622",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Voctářova",
-        "recycling:batteries": "yes",
-        "recycling:books": "yes",
-        "recycling:cartons": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:wood": "yes",
         "recycling_type": "centre"
       }
     },
@@ -57877,87 +57823,6 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                14.4659091,
-                50.1024474
-              ],
-              [
-                14.4660769,
-                50.1023947
-              ],
-              [
-                14.4662985,
-                50.1023251
-              ],
-              [
-                14.466314,
-                50.1023195
-              ],
-              [
-                14.4664326,
-                50.1022802
-              ],
-              [
-                14.4665224,
-                50.1023288
-              ],
-              [
-                14.4667243,
-                50.1026268
-              ],
-              [
-                14.4665758,
-                50.1026908
-              ],
-              [
-                14.4663577,
-                50.1027675
-              ],
-              [
-                14.4661887,
-                50.1028092
-              ],
-              [
-                14.4659091,
-                50.1024474
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 545303622,
-        "@url": "https://www.openstreetmap.org/way/545303622",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Voctářova",
-        "recycling:batteries": "yes",
-        "recycling:books": "yes",
-        "recycling:cartons": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:wood": "yes",
         "recycling_type": "centre"
       }
     },

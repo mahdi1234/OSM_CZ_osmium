@@ -1322,6 +1322,7 @@
         "@id": 2529563687,
         "@url": "https://www.openstreetmap.org/node/2529563687",
         "amenity": "recycling",
+        "check_date:recycling": "2023-02-06",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
@@ -10936,6 +10937,29 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2303466,
+          48.6400229
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9779551202,
+        "@url": "https://www.openstreetmap.org/node/9779551202",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {

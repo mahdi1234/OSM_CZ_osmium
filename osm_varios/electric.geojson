@@ -9023,7 +9023,7 @@
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "container"
       }
     },
     {
@@ -27589,6 +27589,32 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.582014,
+          50.4308202
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10649521263,
+        "@url": "https://www.openstreetmap.org/node/10649521263",
+        "amenity": "recycling",
+        "note": "13 - \"Barákova - u náměstí\"\nspravuje Asekol",
+        "recycling:batteries": "yes",
+        "recycling:electronics": "yes",
+        "recycling:fluorescent_tubes": "no",
+        "recycling:light_bulbs": "no",
+        "recycling:low_energy_bulbs": "no",
+        "recycling:mobile_phones": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -35822,8 +35848,11 @@
         "recycling:plastic_packaging": "yes",
         "recycling:polystyrene_foam": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:second_hand": "yes",
         "recycling:sheet_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
+        "recycling:textiles": "yes",
         "recycling:tv_monitor": "yes",
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
@@ -44781,8 +44810,11 @@
         "recycling:plastic_packaging": "yes",
         "recycling:polystyrene_foam": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:second_hand": "yes",
         "recycling:sheet_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
+        "recycling:textiles": "yes",
         "recycling:tv_monitor": "yes",
         "recycling:white_goods": "yes",
         "recycling_type": "centre",

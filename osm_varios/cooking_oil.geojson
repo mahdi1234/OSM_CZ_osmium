@@ -3192,6 +3192,9 @@
         "@url": "https://www.openstreetmap.org/node/5474313616",
         "amenity": "recycling",
         "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -3535,6 +3538,27 @@
         "recycling:shoes": "yes",
         "recycling_type": "container",
         "ref:ekokom": "2981"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4360711,
+          50.0727579
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6266231336,
+        "@url": "https://www.openstreetmap.org/node/6266231336",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -15639,8 +15663,10 @@
         "@id": 10649521265,
         "@url": "https://www.openstreetmap.org/node/10649521265",
         "amenity": "recycling",
-        "note": "2 - \"Třetí strana - střed\"\nspravuje Ecoservis",
+        "note": "2 - \"Třetí strana - střed\" spravuje Ecoservis",
+        "operator": "Ecoservis",
         "recycling:cooking_oil": "yes",
+        "recycling_type": "container",
         "source": "survey",
         "waste": "oil"
       }
@@ -15659,8 +15685,10 @@
         "@id": 10649521266,
         "@url": "https://www.openstreetmap.org/node/10649521266",
         "amenity": "recycling",
-        "note": "4 - \"Jiráskovo nábřeží - u mostu\"\nspravuje Ecoservis",
+        "note": "4 - \"Jiráskovo nábřeží - u mostu\" spravuje Ecoservis",
+        "operator": "Ecoservis",
         "recycling:cooking_oil": "yes",
+        "recycling_type": "container",
         "source": "survey",
         "waste": "oil"
       }
@@ -15679,8 +15707,10 @@
         "@id": 10649521267,
         "@url": "https://www.openstreetmap.org/node/10649521267",
         "amenity": "recycling",
-        "note": "8 - \"Zámecká - u č.p. 500\"\nspravuje Ecoservis",
+        "note": "8 - \"Zámecká - u č.p. 500\" spravuje Ecoservis",
+        "operator": "Ecoservis",
         "recycling:cooking_oil": "yes",
+        "recycling_type": "container",
         "source": "survey",
         "waste": "oil"
       }
@@ -15699,8 +15729,10 @@
         "@id": 10649521269,
         "@url": "https://www.openstreetmap.org/node/10649521269",
         "amenity": "recycling",
-        "note": "11 - \"Macharova - u plotu dětské léčebny\"\nspravuje Ecoservis",
+        "note": "11 - \"Macharova - u plotu dětské léčebny\" spravuje Ecoservis",
+        "operator": "Ecoservis",
         "recycling:cooking_oil": "yes",
+        "recycling_type": "container",
         "source": "survey",
         "waste": "oil"
       }
@@ -15719,10 +15751,33 @@
         "@id": 10649521271,
         "@url": "https://www.openstreetmap.org/node/10649521271",
         "amenity": "recycling",
-        "note": "12 - \"Barákova - u hasičské zbrojnice\"\nspravuje Ecoservis",
+        "note": "12 - \"Barákova - u hasičské zbrojnice\" spravuje Ecoservis",
+        "operator": "Ecoservis",
         "recycling:cooking_oil": "yes",
+        "recycling_type": "container",
         "source": "survey",
         "waste": "oil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7401866,
+          50.02905
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10652815539,
+        "@url": "https://www.openstreetmap.org/node/10652815539",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
       }
     },
     {

@@ -25164,8 +25164,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7262327,
-          49.1694801
+          16.726191,
+          49.1694694
         ]
       },
       "properties": {
@@ -25191,8 +25191,11 @@
         "@id": 9967428019,
         "@url": "https://www.openstreetmap.org/node/9967428019",
         "emergency": "fire_hydrant",
-        "fire_hydrant:position": "sidewalk",
-        "fire_hydrant:type": "pillar"
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "pillar:type": "dry_barrel",
+        "survey:date": "2023-02-13",
+        "water_source": "main"
       }
     },
     {
@@ -27339,6 +27342,105 @@
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7181417,
+          49.1672439
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10653923938,
+        "@url": "https://www.openstreetmap.org/node/10653923938",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "72",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "pillar:type": "dry_barrel",
+        "survey:date": "2023-02-13",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7199039,
+          49.1707496
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10653924258,
+        "@url": "https://www.openstreetmap.org/node/10653924258",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "72",
+        "fire_hydrant:position": "parking_lot",
+        "fire_hydrant:type": "pillar",
+        "pillar:type": "dry_barrel",
+        "survey:date": "2023-02-13",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7214623,
+          49.179624
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10653924269,
+        "@url": "https://www.openstreetmap.org/node/10653924269",
+        "emergency": "fire_hydrant",
+        "survey:date": "2023-02-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.73361,
+          49.1693133
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10653930289,
+        "@url": "https://www.openstreetmap.org/node/10653930289",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "72",
+        "fire_hydrant:position": "parking_lot",
+        "fire_hydrant:type": "pillar",
+        "pillar:type": "dry_barrel",
+        "survey:date": "2023-02-13",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7161649,
+          49.1694887
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10654140128,
+        "@url": "https://www.openstreetmap.org/node/10654140128",
+        "emergency": "fire_hydrant"
       }
     }
   ]

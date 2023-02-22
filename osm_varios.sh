@@ -114,4 +114,4 @@ osmium tags-filter ./brno-latest.osm.pbf nwr/highway=steps --overwrite -o ./osm_
 osmium export ./osm_varios/brno_steps.pbf --overwrite -o ./osm_varios/brno_steps.json -c ./osmium_options.json
 cat ./osm_varios/brno_steps.json | ./urlize.sh | grep -e '"highway":"steps"' -e 'FeatureCollection' -e '^]}$' | grep -e '"step_count"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/brno_steps.geojson
 ## jq example cat ./osm_varios/brno_steps.geojson | jq '.features[] | select(.properties."step_count" == "47")'
-
+cat ./osm_varios/brno_steps.geojson | jq '.features |=  sort_by(.properties.step_count | tonumber)' > ./osm_varios/brno_steps_sorted.geojson

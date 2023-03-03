@@ -1170,23 +1170,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.1091527,
-          49.4142849
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5744962106,
-        "@url": "https://www.openstreetmap.org/node/5744962106",
-        "amenity": "recycling",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.5853887,
           50.1227692
         ]
@@ -2353,6 +2336,24 @@
         "@id": 10693922059,
         "@url": "https://www.openstreetmap.org/node/10693922059",
         "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7254607,
+          50.0864949
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10704552434,
+        "@url": "https://www.openstreetmap.org/node/10704552434",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "recycling_type": "centre"
       }
     },
@@ -10114,6 +10115,66 @@
         "amenity": "recycling",
         "industrial": "scrap_yard",
         "landuse": "industrial",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1154826,
+                49.409725
+              ],
+              [
+                18.1158748,
+                49.4093923
+              ],
+              [
+                18.1160897,
+                49.4094986
+              ],
+              [
+                18.1162298,
+                49.409646
+              ],
+              [
+                18.1161936,
+                49.4096667
+              ],
+              [
+                18.1161422,
+                49.4096108
+              ],
+              [
+                18.115613,
+                49.4098163
+              ],
+              [
+                18.115569,
+                49.4098268
+              ],
+              [
+                18.115535,
+                49.4097867
+              ],
+              [
+                18.1154826,
+                49.409725
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1150496190,
+        "@url": "https://www.openstreetmap.org/way/1150496190",
+        "amenity": "recycling",
+        "name": "Sběrmý dvůr Valašská Bystřice",
         "recycling_type": "centre"
       }
     }

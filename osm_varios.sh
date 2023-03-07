@@ -109,6 +109,16 @@ cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:plastic
 echo '#!/bin/bash' > ./osm_varios/brno_container_JOSM.sh
 cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:plastic":"yes"' -e '"recycling:plastic_bottles":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:cans":"yes"' | grep -ve '"recycling:scrap_metal":"yes"' | grep -ve '"access":"private"' | ./josmize.sh >> ./osm_varios/brno_container_JOSM.sh
 
+echo "Brno recycling clothes without shoes"
+cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:clothes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:shoes":"yes"' | ./sanitize_json_jq.sh > ./osm_varios/brno_container_no_shoes.geojson
+echo '#!/bin/bash' > ./osm_varios/brno_container_no_shoes_JOSM.sh
+cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:clothes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:shoes":"yes"' | ./josmize.sh >> ./osm_varios/brno_container_no_shoes_JOSM.sh
+
+echo "Brno recycling shoes without clothes"
+cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:shoes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:clothes":"yes"' | ./sanitize_json_jq.sh > ./osm_varios/brno_container_no_clothes.geojson
+echo '#!/bin/bash' > ./osm_varios/brno_container_no_clothes_JOSM.sh
+cat ./osm_varios/brno_container.json | ./urlize.sh | grep -e '"recycling:shoes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:clothes":"yes"' | ./josmize.sh >> ./osm_varios/brno_container_no_clothes_JOSM.sh
+
 echo "Brno steps count"
 osmium tags-filter ./brno-latest.osm.pbf nwr/highway=steps --overwrite -o ./osm_varios/brno_steps.pbf
 osmium export ./osm_varios/brno_steps.pbf --overwrite -o ./osm_varios/brno_steps.json -c ./osmium_options.json

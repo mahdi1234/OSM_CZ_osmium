@@ -266,6 +266,7 @@
         "@id": 906604267,
         "@url": "https://www.openstreetmap.org/node/906604267",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
@@ -774,6 +775,8 @@
         "@url": "https://www.openstreetmap.org/node/1746656769",
         "amenity": "recycling",
         "location": "overground",
+        "opening_hours": "24/7",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -16218,6 +16221,55 @@
         "@url": "https://www.openstreetmap.org/node/10702765645",
         "amenity": "recycling",
         "recycling:cooking_oil": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3016426,
+          50.0643082
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10719618356,
+        "@url": "https://www.openstreetmap.org/node/10719618356",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "Pražské služby",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:sklo": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3049341,
+          50.0627718
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10719618358,
+        "@url": "https://www.openstreetmap.org/node/10719618358",
+        "amenity": "recycling",
+        "operator": "Pražské služby",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:sklo": "yes",
         "recycling_type": "container"
       }
     },

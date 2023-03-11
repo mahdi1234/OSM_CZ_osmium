@@ -3568,6 +3568,10 @@
             49.2162862
           ],
           [
+            16.6149973,
+            49.2162999
+          ],
+          [
             16.6149614,
             49.2163028
           ]
@@ -23652,6 +23656,7 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",
+        "lit": "no",
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "20",
@@ -23680,6 +23685,7 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",
+        "lit": "yes",
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "20",
@@ -44481,8 +44487,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6292672,
-            49.202594
+            16.6292758,
+            49.2025983
           ],
           [
             16.6292904,
@@ -44514,8 +44520,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6293405,
-            49.2025547
+            16.6293502,
+            49.202564
           ],
           [
             16.6293636,
@@ -44547,8 +44553,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6294022,
-            49.2025217
+            16.6294113,
+            49.20253
           ],
           [
             16.6294271,
@@ -44580,8 +44586,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6294589,
-            49.2024913
+            16.6294691,
+            49.2024996
           ],
           [
             16.6294833,
@@ -44813,6 +44819,30 @@
         "step_count": "14",
         "surface": "concrete",
         "width": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6215982,
+            49.1907152
+          ],
+          [
+            16.6216349,
+            49.1907067
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1153315666,
+        "@url": "https://www.openstreetmap.org/way/1153315666",
+        "highway": "steps",
+        "incline": "up",
+        "step_count": "9"
       }
     }
   ]

@@ -32586,10 +32586,15 @@
         "amenity": "recycling",
         "indoor": "no",
         "opening_hours": "24/7",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:clothes": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -41987,6 +41992,86 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5010447,
+          49.2190449
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10726715612,
+        "@url": "https://www.openstreetmap.org/node/10726715612",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5013273,
+          49.2186881
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10726715613,
+        "@url": "https://www.openstreetmap.org/node/10726715613",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4994993,
+          49.2171931
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10726715615,
+        "@url": "https://www.openstreetmap.org/node/10726715615",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -46842,46 +46927,6 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.dobravodaucb.cz/e_download.php?file=data/editor/76cs_1.pdf&original=Provozn%C3%AD%20%C5%99%C3%A1d.pdf"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            16.4994578,
-            49.2171869
-          ],
-          [
-            16.4994149,
-            49.2172044
-          ],
-          [
-            16.4994289,
-            49.2172184
-          ],
-          [
-            16.4994719,
-            49.2172013
-          ],
-          [
-            16.4994578,
-            49.2171869
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 431558305,
-        "@url": "https://www.openstreetmap.org/way/431558305",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
       }
     },
     {
@@ -57438,50 +57483,6 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.dobravodaucb.cz/e_download.php?file=data/editor/76cs_1.pdf&original=Provozn%C3%AD%20%C5%99%C3%A1d.pdf"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                16.4994149,
-                49.2172044
-              ],
-              [
-                16.4994578,
-                49.2171869
-              ],
-              [
-                16.4994719,
-                49.2172013
-              ],
-              [
-                16.4994289,
-                49.2172184
-              ],
-              [
-                16.4994149,
-                49.2172044
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 431558305,
-        "@url": "https://www.openstreetmap.org/way/431558305",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
       }
     },
     {

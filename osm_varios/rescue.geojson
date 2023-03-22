@@ -3686,9 +3686,10 @@
         "@type": "node",
         "@id": 5005962793,
         "@url": "https://www.openstreetmap.org/node/5005962793",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "name": "Bod Záchrany (Rescue Point) SM 005",
-        "ref": "SM 005"
+        "operator": "Lesy ČR s.p.",
+        "ref": "SM005"
       }
     },
     {
@@ -16101,6 +16102,7 @@
         "@url": "https://www.openstreetmap.org/node/8237266188",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
         "ref": "BO001"
       }
     },
@@ -20536,6 +20538,46 @@
         "@url": "https://www.openstreetmap.org/node/10727620303",
         "highway": "emergency_access_point",
         "operator": "Záchranná služba jihočeského kraje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8973314,
+          50.1435418
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10751022120,
+        "@url": "https://www.openstreetmap.org/node/10751022120",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR s.p.",
+        "ref": "PA009",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8955627,
+          50.1442134
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10751022121,
+        "@url": "https://www.openstreetmap.org/node/10751022121",
+        "description": "Starší bílá tabulka s červeným křížem a číslicí \"5\"",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "5",
+        "source": "survey"
       }
     },
     {

@@ -2360,6 +2360,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3786445,
+          49.5322329
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10765318397,
+        "@url": "https://www.openstreetmap.org/node/10765318397",
+        "amenity": "recycling",
+        "name": "Bergasto Enviroment",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -10078,67 +10096,6 @@
         "@id": 1146819302,
         "@url": "https://www.openstreetmap.org/way/1146819302",
         "amenity": "recycling",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                12.7171045,
-                49.5886658
-              ],
-              [
-                12.7174975,
-                49.5886692
-              ],
-              [
-                12.7176049,
-                49.5887631
-              ],
-              [
-                12.7188565,
-                49.5888357
-              ],
-              [
-                12.7188565,
-                49.5890325
-              ],
-              [
-                12.7184268,
-                49.589196
-              ],
-              [
-                12.7175115,
-                49.5890476
-              ],
-              [
-                12.7173086,
-                49.5889535
-              ],
-              [
-                12.7171651,
-                49.5888146
-              ],
-              [
-                12.7171045,
-                49.5886658
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "relation",
-        "@id": 15526638,
-        "@url": "https://www.openstreetmap.org/relation/15526638",
-        "amenity": "recycling",
-        "industrial": "scrap_yard",
-        "landuse": "industrial",
         "recycling_type": "centre"
       }
     },

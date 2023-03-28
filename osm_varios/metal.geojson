@@ -13258,8 +13258,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5946637,
-          49.1887098
+          16.594774,
+          49.1886903
         ]
       },
       "properties": {
@@ -40397,9 +40397,11 @@
         "@url": "https://www.openstreetmap.org/node/10588146198",
         "amenity": "recycling",
         "recycling:cooking_oil": "yes",
-        "recycling:metal": "yes",
         "recycling:organic": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -42346,6 +42348,52 @@
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9378507,
+          50.3060305
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10762058181,
+        "@url": "https://www.openstreetmap.org/node/10762058181",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8306225,
+          50.2042408
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10765322222,
+        "@url": "https://www.openstreetmap.org/node/10765322222",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -52539,6 +52587,108 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.mokrylom.cz/sberny-dvur-mokry-lom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.7171055,
+            49.5886738
+          ],
+          [
+            12.7171358,
+            49.5887296
+          ],
+          [
+            12.7172173,
+            49.5888354
+          ],
+          [
+            12.7172518,
+            49.5888788
+          ],
+          [
+            12.7173266,
+            49.5889411
+          ],
+          [
+            12.717422,
+            49.5889797
+          ],
+          [
+            12.7175341,
+            49.5890122
+          ],
+          [
+            12.7176637,
+            49.589033
+          ],
+          [
+            12.7180821,
+            49.5890718
+          ],
+          [
+            12.7181591,
+            49.5890842
+          ],
+          [
+            12.7184459,
+            49.5891779
+          ],
+          [
+            12.7186028,
+            49.589106
+          ],
+          [
+            12.7186917,
+            49.5890664
+          ],
+          [
+            12.7187899,
+            49.5890369
+          ],
+          [
+            12.7187899,
+            49.5888983
+          ],
+          [
+            12.7182061,
+            49.5888659
+          ],
+          [
+            12.7182046,
+            49.5888849
+          ],
+          [
+            12.7174107,
+            49.5888421
+          ],
+          [
+            12.7174118,
+            49.5887275
+          ],
+          [
+            12.7171055,
+            49.5886738
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1149144623,
+        "@url": "https://www.openstreetmap.org/way/1149144623",
+        "amenity": "recycling",
+        "industrial": "scrap_yard",
+        "landuse": "industrial",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -63395,6 +63545,112 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.mokrylom.cz/sberny-dvur-mokry-lom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.7171055,
+                49.5886738
+              ],
+              [
+                12.7174118,
+                49.5887275
+              ],
+              [
+                12.7174107,
+                49.5888421
+              ],
+              [
+                12.7182046,
+                49.5888849
+              ],
+              [
+                12.7182061,
+                49.5888659
+              ],
+              [
+                12.7187899,
+                49.5888983
+              ],
+              [
+                12.7187899,
+                49.5890369
+              ],
+              [
+                12.7186917,
+                49.5890664
+              ],
+              [
+                12.7186028,
+                49.589106
+              ],
+              [
+                12.7184459,
+                49.5891779
+              ],
+              [
+                12.7181591,
+                49.5890842
+              ],
+              [
+                12.7180821,
+                49.5890718
+              ],
+              [
+                12.7176637,
+                49.589033
+              ],
+              [
+                12.7175341,
+                49.5890122
+              ],
+              [
+                12.717422,
+                49.5889797
+              ],
+              [
+                12.7173266,
+                49.5889411
+              ],
+              [
+                12.7172518,
+                49.5888788
+              ],
+              [
+                12.7172173,
+                49.5888354
+              ],
+              [
+                12.7171358,
+                49.5887296
+              ],
+              [
+                12.7171055,
+                49.5886738
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1149144623,
+        "@url": "https://www.openstreetmap.org/way/1149144623",
+        "amenity": "recycling",
+        "industrial": "scrap_yard",
+        "landuse": "industrial",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

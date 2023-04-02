@@ -1050,12 +1050,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6692388,
-            49.2018449
+            16.6693042,
+            49.2018677
           ],
           [
-            16.6694704,
-            49.2018942
+            16.6694774,
+            49.2019037
           ]
         ]
       },
@@ -1069,7 +1069,7 @@
         "lit": "no",
         "ramp": "no",
         "source": "uhul:ortofoto",
-        "step_count": "30",
+        "step_count": "21",
         "surface": "paving_stones"
       }
     },
@@ -3632,18 +3632,18 @@
         "@type": "way",
         "@id": 44849167,
         "@url": "https://www.openstreetmap.org/way/44849167",
-        "handrail:left": "yes",
-        "handrail:right": "yes",
-        "highway": "steps",
-        "incline": "down",
-        "layer": "-1",
         "lit": "yes",
         "ramp": "no",
-        "ramp:wheelchair": "no",
+        "layer": "-1",
+        "width": "2",
         "source": "survey",
-        "step_count": "29",
+        "highway": "steps",
+        "incline": "down",
         "surface": "concrete",
-        "width": "2"
+        "step_count": "29",
+        "handrail:left": "yes",
+        "handrail:right": "yes",
+        "ramp:wheelchair": "no"
       }
     },
     {
@@ -6657,13 +6657,13 @@
         "@type": "way",
         "@id": 70120022,
         "@url": "https://www.openstreetmap.org/way/70120022",
+        "ramp": "no",
+        "source": "cuzk:km",
         "highway": "steps",
         "incline": "down",
-        "ramp": "no",
-        "ramp:wheelchair": "no",
-        "source": "cuzk:km",
+        "surface": "concrete",
         "step_count": "25",
-        "surface": "concrete"
+        "ramp:wheelchair": "no"
       }
     },
     {
@@ -6685,14 +6685,14 @@
         "@type": "way",
         "@id": 70120024,
         "@url": "https://www.openstreetmap.org/way/70120024",
-        "handrail:center": "yes",
+        "ramp": "no",
+        "source": "cuzk:km",
         "highway": "steps",
         "incline": "up",
-        "ramp": "no",
-        "ramp:wheelchair": "no",
-        "source": "cuzk:km",
+        "surface": "concrete",
         "step_count": "27",
-        "surface": "concrete"
+        "handrail:center": "yes",
+        "ramp:wheelchair": "no"
       }
     },
     {
@@ -7143,8 +7143,8 @@
         "@type": "way",
         "@id": 73281056,
         "@url": "https://www.openstreetmap.org/way/73281056",
-        "highway": "steps",
         "source": "cuzk:km",
+        "highway": "steps",
         "step_count": "42"
       }
     },
@@ -7569,8 +7569,8 @@
             49.2041078
           ],
           [
-            16.6788218,
-            49.2040534
+            16.6788434,
+            49.2040438
           ]
         ]
       },
@@ -7578,6 +7578,7 @@
         "@type": "way",
         "@id": 83384470,
         "@url": "https://www.openstreetmap.org/way/83384470",
+        "covered": "yes",
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",
@@ -12679,11 +12680,11 @@
         "@type": "way",
         "@id": 161828825,
         "@url": "https://www.openstreetmap.org/way/161828825",
-        "highway": "steps",
+        "width": "2",
         "source": "survey",
-        "step_count": "6",
+        "highway": "steps",
         "surface": "concrete",
-        "width": "2"
+        "step_count": "6"
       }
     },
     {
@@ -13018,24 +13019,24 @@
         "@type": "way",
         "@id": 167319940,
         "@url": "https://www.openstreetmap.org/way/167319940",
-        "handrail": "yes",
-        "handrail:center": "no",
-        "handrail:left": "yes",
-        "handrail:right": "yes",
-        "highway": "steps",
-        "incline": "up",
         "lit": "yes",
         "ramp": "yes",
+        "width": "3",
+        "source": "uhul:ortofoto",
+        "highway": "steps",
+        "incline": "up",
+        "surface": "stone",
+        "handrail": "yes",
+        "step_count": "29",
         "ramp:bicycle": "yes",
         "ramp:luggage": "manual",
+        "handrail:left": "yes",
         "ramp:stroller": "yes",
-        "ramp:wheelchair": "yes",
-        "source": "uhul:ortofoto",
+        "handrail:right": "yes",
         "step.condition": "even",
-        "step_count": "29",
-        "surface": "stone",
         "tactile_paving": "no",
-        "width": "3"
+        "handrail:center": "no",
+        "ramp:wheelchair": "yes"
       }
     },
     {
@@ -14229,9 +14230,9 @@
         "@type": "way",
         "@id": 197190863,
         "@url": "https://www.openstreetmap.org/way/197190863",
+        "source": "survey",
         "highway": "steps",
         "incline": "down",
-        "source": "survey",
         "step_count": "2"
       }
     },
@@ -14254,9 +14255,9 @@
         "@type": "way",
         "@id": 197190867,
         "@url": "https://www.openstreetmap.org/way/197190867",
+        "source": "survey",
         "highway": "steps",
         "incline": "down",
-        "source": "survey",
         "step_count": "2"
       }
     },
@@ -14279,9 +14280,9 @@
         "@type": "way",
         "@id": 197518758,
         "@url": "https://www.openstreetmap.org/way/197518758",
+        "source": "survey",
         "highway": "steps",
         "incline": "down",
-        "source": "survey",
         "step_count": "4"
       }
     },
@@ -14304,9 +14305,9 @@
         "@type": "way",
         "@id": 197518761,
         "@url": "https://www.openstreetmap.org/way/197518761",
+        "source": "survey",
         "highway": "steps",
         "incline": "down",
-        "source": "survey",
         "step_count": "2"
       }
     },
@@ -15403,9 +15404,9 @@
         "@type": "way",
         "@id": 220528005,
         "@url": "https://www.openstreetmap.org/way/220528005",
+        "source": "survey",
         "highway": "steps",
         "incline": "down",
-        "source": "survey",
         "step_count": "3"
       }
     },
@@ -16507,10 +16508,10 @@
         "@type": "way",
         "@id": 256628537,
         "@url": "https://www.openstreetmap.org/way/256628537",
-        "highway": "steps",
         "lit": "yes",
-        "step_count": "20",
-        "surface": "concrete"
+        "highway": "steps",
+        "surface": "concrete",
+        "step_count": "20"
       }
     },
     {
@@ -16917,11 +16918,11 @@
         "@type": "way",
         "@id": 261902003,
         "@url": "https://www.openstreetmap.org/way/261902003",
-        "highway": "steps",
         "lit": "no",
         "source": "cuzk:km",
-        "step_count": "20",
-        "surface": "cobblestone"
+        "highway": "steps",
+        "surface": "cobblestone",
+        "step_count": "20"
       }
     },
     {
@@ -16980,15 +16981,15 @@
         "@id": 262806803,
         "@url": "https://www.openstreetmap.org/way/262806803",
         "foot": "yes",
-        "handrail:left": "yes",
+        "width": "1",
+        "source": "gps",
         "highway": "steps",
         "incline": "up",
-        "mtb:description:cs": "schodový přelez plotu, kolo lze snadno přenést",
-        "mtb:scale": "4",
-        "source": "gps",
-        "step_count": "6",
         "surface": "metal",
-        "width": "1"
+        "mtb:scale": "4",
+        "step_count": "6",
+        "handrail:left": "yes",
+        "mtb:description:cs": "schodový přelez plotu, kolo lze snadno přenést"
       }
     },
     {
@@ -24306,16 +24307,16 @@
         "@type": "way",
         "@id": 623839049,
         "@url": "https://www.openstreetmap.org/way/623839049",
-        "handrail:left": "yes",
-        "handrail:right": "yes",
+        "ramp": "no",
+        "width": "1.5",
+        "source": "survey",
         "highway": "steps",
         "incline": "up",
-        "ramp": "no",
-        "ramp:wheelchair": "no",
-        "source": "survey",
-        "step_count": "22",
         "surface": "pebblestone",
-        "width": "1.5"
+        "step_count": "22",
+        "handrail:left": "yes",
+        "handrail:right": "yes",
+        "ramp:wheelchair": "no"
       }
     },
     {
@@ -25457,11 +25458,11 @@
         "@type": "way",
         "@id": 706186263,
         "@url": "https://www.openstreetmap.org/way/706186263",
-        "handrail": "yes",
+        "width": "2",
         "highway": "steps",
         "incline": "down",
-        "step_count": "4",
-        "width": "2"
+        "handrail": "yes",
+        "step_count": "4"
       }
     },
     {
@@ -25483,11 +25484,11 @@
         "@type": "way",
         "@id": 706186264,
         "@url": "https://www.openstreetmap.org/way/706186264",
-        "handrail": "yes",
+        "width": "2",
         "highway": "steps",
         "incline": "down",
-        "step_count": "4",
-        "width": "2"
+        "handrail": "yes",
+        "step_count": "4"
       }
     },
     {
@@ -25509,9 +25510,9 @@
         "@type": "way",
         "@id": 706186270,
         "@url": "https://www.openstreetmap.org/way/706186270",
-        "handrail": "yes",
         "highway": "steps",
         "incline": "down",
+        "handrail": "yes",
         "step_count": "8"
       }
     },
@@ -25625,15 +25626,15 @@
         "@id": 706227382,
         "@url": "https://www.openstreetmap.org/way/706227382",
         "foot": "yes",
-        "handrail:left": "yes",
+        "width": "1",
+        "source": "gps",
         "highway": "steps",
         "incline": "down",
-        "mtb:description:cs": "schodový přelez plotu, kolo lze snadno přenést",
-        "mtb:scale": "4",
-        "source": "gps",
-        "step_count": "6",
         "surface": "metal",
-        "width": "1"
+        "mtb:scale": "4",
+        "step_count": "6",
+        "handrail:left": "yes",
+        "mtb:description:cs": "schodový přelez plotu, kolo lze snadno přenést"
       }
     },
     {
@@ -27742,11 +27743,11 @@
         "@type": "way",
         "@id": 788283461,
         "@url": "https://www.openstreetmap.org/way/788283461",
+        "width": "0.5",
         "highway": "steps",
         "incline": "10%",
-        "step_count": "32",
         "surface": "gravel",
-        "width": "0.5"
+        "step_count": "32"
       }
     },
     {
@@ -31192,8 +31193,8 @@
         "@type": "way",
         "@id": 835384263,
         "@url": "https://www.openstreetmap.org/way/835384263",
-        "handrail": "no",
         "highway": "steps",
+        "handrail": "no",
         "step_count": "4"
       }
     },

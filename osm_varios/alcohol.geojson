@@ -59,16 +59,16 @@
         "@type": "node",
         "@id": 296634684,
         "@url": "https://www.openstreetmap.org/node/296634684",
-        "addr:conscriptionnumber": "212",
-        "addr:country": "CZ",
-        "addr:housenumber": "212/2",
-        "addr:postcode": "63500",
-        "addr:street": "U zoologické zahrady",
-        "addr:streetnumber": "2",
         "shop": "alcohol",
-        "source:addr": "uir_adr",
         "source:loc": "cuzk:km",
-        "uir_adr:ADRESA_KOD": "19309538"
+        "addr:street": "U zoologické zahrady",
+        "source:addr": "uir_adr",
+        "addr:country": "CZ",
+        "addr:postcode": "63500",
+        "addr:housenumber": "212/2",
+        "addr:streetnumber": "2",
+        "uir_adr:ADRESA_KOD": "19309538",
+        "addr:conscriptionnumber": "212"
       }
     },
     {
@@ -103,9 +103,9 @@
         "@type": "node",
         "@id": 332224305,
         "@url": "https://www.openstreetmap.org/node/332224305",
-        "drink:wine": "yes",
         "name": "Šakalí šenk",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -155,9 +155,9 @@
         "@type": "node",
         "@id": 370945606,
         "@url": "https://www.openstreetmap.org/node/370945606",
-        "drink:wine": "yes",
         "name": "Bacchus",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -215,14 +215,14 @@
         "@type": "node",
         "@id": 638427407,
         "@url": "https://www.openstreetmap.org/node/638427407",
-        "addr:conscriptionnumber": "419",
-        "addr:country": "CZ",
-        "addr:housenumber": "419",
+        "shop": "alcohol",
         "addr:place": "Roztoky",
-        "addr:postcode": "25263",
         "addr:street": "Jana Palacha",
+        "addr:country": "CZ",
+        "addr:postcode": "25263",
         "ref:ruian:addr": "12874345",
-        "shop": "alcohol"
+        "addr:housenumber": "419",
+        "addr:conscriptionnumber": "419"
       }
     },
     {
@@ -238,15 +238,15 @@
         "@type": "node",
         "@id": 656502288,
         "@url": "https://www.openstreetmap.org/node/656502288",
-        "addr:conscriptionnumber": "431",
-        "addr:country": "CZ",
-        "addr:housenumber": "431",
-        "addr:place": "Hořejší Vrchlabí",
-        "addr:postcode": "54302",
-        "addr:street": "Horská",
         "name": "Jona Drinks",
+        "shop": "alcohol",
+        "addr:place": "Hořejší Vrchlabí",
+        "addr:street": "Horská",
+        "addr:country": "CZ",
+        "addr:postcode": "54302",
         "ref:ruian:addr": "26938197",
-        "shop": "alcohol"
+        "addr:housenumber": "431",
+        "addr:conscriptionnumber": "431"
       }
     },
     {
@@ -296,15 +296,15 @@
         "@type": "node",
         "@id": 930164904,
         "@url": "https://www.openstreetmap.org/node/930164904",
-        "addr:city": "Praha 5",
-        "addr:housenumber": "16",
-        "addr:postcode": "15000",
-        "addr:street": "U Nikolajky",
-        "drink:wine": "yes",
         "name": "Vinařský dům U Nikolajky",
-        "opening_hours": "Mo-Th 10:00-20:00; Fr 10:00-22:00; Sa 13:00-21:00; Su 15:00-20:00",
         "shop": "alcohol",
-        "website": "https://www.facebook.com/vinarskydumunikolajky"
+        "website": "https://www.facebook.com/vinarskydumunikolajky",
+        "addr:city": "Praha 5",
+        "drink:wine": "yes",
+        "addr:street": "U Nikolajky",
+        "addr:postcode": "15000",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr 10:00-22:00; Sa 13:00-21:00; Su 15:00-20:00",
+        "addr:housenumber": "16"
       }
     },
     {
@@ -320,12 +320,12 @@
         "@type": "node",
         "@id": 941476951,
         "@url": "https://www.openstreetmap.org/node/941476951",
-        "email": "obchod@vinovsudech.cz",
         "name": "Sykora",
-        "opening_hours": "Mo-Sa 15:00-21:00; Su 16:00-21:00",
-        "phone": "+420 602 654 739",
         "shop": "alcohol",
-        "website": "http://www.vinovsudech.cz"
+        "email": "obchod@vinovsudech.cz",
+        "phone": "+420 602 654 739",
+        "website": "http://www.vinovsudech.cz",
+        "opening_hours": "Mo-Sa 15:00-21:00; Su 16:00-21:00"
       }
     },
     {
@@ -341,14 +341,14 @@
         "@type": "node",
         "@id": 995953405,
         "@url": "https://www.openstreetmap.org/node/995953405",
-        "drink:wine": "yes",
         "fax": "+420 251560178",
         "name": "Dominec",
-        "opening_hours": "Mo-Fr 09:00-17:00",
-        "phone": "+420 251566280",
         "shop": "alcohol",
+        "phone": "+420 251566280",
         "source": "survey",
-        "website": "http://www.dominec.com/"
+        "website": "http://www.dominec.com/",
+        "drink:wine": "yes",
+        "opening_hours": "Mo-Fr 09:00-17:00"
       }
     },
     {
@@ -364,15 +364,15 @@
         "@type": "node",
         "@id": 1018755835,
         "@url": "https://www.openstreetmap.org/node/1018755835",
+        "name": "Znovín Znojmo a.s.",
+        "shop": "alcohol",
+        "website": "https://www.znovin.cz/",
         "addr:city": "Znojmo",
-        "addr:housename": "Loucký klášter",
-        "addr:postcode": "67181",
         "addr:street": "Loucká",
         "designation": "wine and cheese shop",
-        "name": "Znovín Znojmo a.s.",
+        "addr:postcode": "67181",
         "opening_hours": "Mo-Su 9:00-12:30, 13:00-18:00",
-        "shop": "alcohol",
-        "website": "https://www.znovin.cz/"
+        "addr:housename": "Loucký klášter"
       }
     },
     {
@@ -388,18 +388,18 @@
         "@type": "node",
         "@id": 1073613828,
         "@url": "https://www.openstreetmap.org/node/1073613828",
-        "addr:conscriptionnumber": "4",
-        "addr:country": "CZ",
-        "addr:housename": "Vinotéka Burešová",
-        "addr:housenumber": "4",
+        "name": "Vinotéka Burešová",
+        "shop": "alcohol",
+        "source": "local knowledge",
         "addr:place": "Nové Město na Moravě",
-        "addr:postcode": "59231",
         "addr:street": "Vratislavovo náměstí",
         "designation": "wine shop",
-        "name": "Vinotéka Burešová",
+        "addr:country": "CZ",
+        "addr:postcode": "59231",
+        "addr:housename": "Vinotéka Burešová",
         "ref:ruian:addr": "3458652",
-        "shop": "alcohol",
-        "source": "local knowledge"
+        "addr:housenumber": "4",
+        "addr:conscriptionnumber": "4"
       }
     },
     {
@@ -415,18 +415,18 @@
         "@type": "node",
         "@id": 1073643437,
         "@url": "https://www.openstreetmap.org/node/1073643437",
-        "addr:conscriptionnumber": "161",
-        "addr:country": "CZ",
-        "addr:housename": "Vinotéka u Bukáků",
-        "addr:housenumber": "161",
+        "name": "Vinotéka u Bukáčků",
+        "shop": "alcohol",
+        "source": "local knowledge",
         "addr:place": "Nové Město na Moravě",
-        "addr:postcode": "59231",
         "addr:street": "Malá",
         "designation": "wine shop",
-        "name": "Vinotéka u Bukáčků",
+        "addr:country": "CZ",
+        "addr:postcode": "59231",
+        "addr:housename": "Vinotéka u Bukáků",
         "ref:ruian:addr": "3460011",
-        "shop": "alcohol",
-        "source": "local knowledge"
+        "addr:housenumber": "161",
+        "addr:conscriptionnumber": "161"
       }
     },
     {
@@ -442,14 +442,14 @@
         "@type": "node",
         "@id": 1073778679,
         "@url": "https://www.openstreetmap.org/node/1073778679",
-        "addr:conscriptionnumber": "47",
-        "addr:country": "CZ",
-        "addr:housenumber": "47",
+        "shop": "alcohol",
         "addr:place": "Bystřice nad Pernštejnem",
-        "addr:postcode": "59301",
         "addr:street": "Masarykovo náměstí",
+        "addr:country": "CZ",
+        "addr:postcode": "59301",
         "ref:ruian:addr": "3437019",
-        "shop": "alcohol"
+        "addr:housenumber": "47",
+        "addr:conscriptionnumber": "47"
       }
     },
     {
@@ -465,15 +465,15 @@
         "@type": "node",
         "@id": 1073785828,
         "@url": "https://www.openstreetmap.org/node/1073785828",
-        "addr:conscriptionnumber": "48",
-        "addr:country": "CZ",
-        "addr:housenumber": "48",
-        "addr:place": "Bystřice nad Pernštejnem",
-        "addr:postcode": "59301",
-        "addr:street": "Masarykovo náměstí",
         "name": "Sudová Vínečka",
+        "shop": "alcohol",
+        "addr:place": "Bystřice nad Pernštejnem",
+        "addr:street": "Masarykovo náměstí",
+        "addr:country": "CZ",
+        "addr:postcode": "59301",
         "ref:ruian:addr": "3437027",
-        "shop": "alcohol"
+        "addr:housenumber": "48",
+        "addr:conscriptionnumber": "48"
       }
     },
     {
@@ -506,8 +506,8 @@
         "@id": 1204747373,
         "@url": "https://www.openstreetmap.org/node/1204747373",
         "name": "Vinotéka U soudku",
-        "opening_hours": "Mo-Su 15:00-20:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Su 15:00-20:00"
       }
     },
     {
@@ -539,9 +539,9 @@
         "@type": "node",
         "@id": 1257356273,
         "@url": "https://www.openstreetmap.org/node/1257356273",
-        "drink:wine": "yes",
         "name": "Vinotéka Voršilka",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -626,8 +626,8 @@
         "@type": "node",
         "@id": 1278488469,
         "@url": "https://www.openstreetmap.org/node/1278488469",
-        "drink:wine": "yes",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -676,10 +676,10 @@
         "@type": "node",
         "@id": 1392184137,
         "@url": "https://www.openstreetmap.org/node/1392184137",
-        "email": "jirkadudak@centrum.cz",
         "name": "Vinotéka Naskok",
-        "phone": "+420 777 562 964",
         "shop": "alcohol",
+        "email": "jirkadudak@centrum.cz",
+        "phone": "+420 777 562 964",
         "website": "http://www.sudovevinoadestilaty.cz"
       }
     },
@@ -697,8 +697,8 @@
         "@id": 1397141653,
         "@url": "https://www.openstreetmap.org/node/1397141653",
         "name": "Vinotéka Vaďura",
-        "opening_hours": "Mo-Fr 09:30-12:00,12:30-17:00, Sa 08:30-11:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Fr 09:30-12:00,12:30-17:00, Sa 08:30-11:00"
       }
     },
     {
@@ -715,8 +715,8 @@
         "@id": 1397743430,
         "@url": "https://www.openstreetmap.org/node/1397743430",
         "name": "prodej piva a limonád",
-        "opening_hours": "Mo-Fr 08:30-11:30,13:00-16:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Fr 08:30-11:30,13:00-16:00"
       }
     },
     {
@@ -750,19 +750,19 @@
         "@type": "node",
         "@id": 1483568068,
         "@url": "https://www.openstreetmap.org/node/1483568068",
+        "name": "Sklep Grébovka",
+        "shop": "alcohol",
+        "phone": "+420 774 803 293",
+        "amenity": "bar",
+        "website": "http://www.sklepgrebovka.cz/",
+        "facebook": "https://www.facebook.com/Sklep-Grébovka-295561175377/",
         "addr:city": "Praha",
-        "addr:country": "CZ",
         "addr:place": "Vinohrady",
+        "drink:wine": "yes",
         "addr:street": "Havlíčkovy sady",
         "addr:suburb": "Praha 2",
-        "amenity": "bar",
-        "drink:wine": "yes",
-        "facebook": "https://www.facebook.com/Sklep-Grébovka-295561175377/",
-        "name": "Sklep Grébovka",
-        "opening_hours": "Fr 14:00-21:00",
-        "phone": "+420 774 803 293",
-        "shop": "alcohol",
-        "website": "http://www.sklepgrebovka.cz/"
+        "addr:country": "CZ",
+        "opening_hours": "Fr 14:00-21:00"
       }
     },
     {
@@ -778,9 +778,9 @@
         "@type": "node",
         "@id": 1493298559,
         "@url": "https://www.openstreetmap.org/node/1493298559",
-        "drink:wine": "yes",
         "name": "Dejvický vinný sklípek",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -797,9 +797,9 @@
         "@id": 1493298566,
         "@url": "https://www.openstreetmap.org/node/1493298566",
         "name": "Global Wines & Spirits",
-        "opening_hours": "Mo-Fr 10:00-20:00, Sa 09:00-13:00",
         "shop": "alcohol",
-        "website": "https://www.global-wines.cz/"
+        "website": "https://www.global-wines.cz/",
+        "opening_hours": "Mo-Fr 10:00-20:00, Sa 09:00-13:00"
       }
     },
     {
@@ -815,9 +815,9 @@
         "@type": "node",
         "@id": 1529352793,
         "@url": "https://www.openstreetmap.org/node/1529352793",
-        "drink:wine": "yes",
         "name": "Pálavská vinárna",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -833,15 +833,15 @@
         "@type": "node",
         "@id": 1563317251,
         "@url": "https://www.openstreetmap.org/node/1563317251",
-        "addr:conscriptionnumber": "433",
-        "addr:country": "CZ",
-        "addr:housenumber": "433",
-        "addr:place": "Dobřichovice",
-        "addr:postcode": "25229",
-        "addr:street": "Anežky České",
         "name": "La Fontana",
+        "shop": "alcohol",
+        "addr:place": "Dobřichovice",
+        "addr:street": "Anežky České",
+        "addr:country": "CZ",
+        "addr:postcode": "25229",
         "ref:ruian:addr": "6549985",
-        "shop": "alcohol"
+        "addr:housenumber": "433",
+        "addr:conscriptionnumber": "433"
       }
     },
     {
@@ -1102,8 +1102,8 @@
         "@id": 1934763698,
         "@url": "https://www.openstreetmap.org/node/1934763698",
         "name": "Vinotéka Veber",
-        "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00; Sa 09:00-12:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00; Sa 09:00-12:00"
       }
     },
     {
@@ -1137,17 +1137,17 @@
         "@type": "node",
         "@id": 1977865738,
         "@url": "https://www.openstreetmap.org/node/1977865738",
-        "addr:conscriptionnumber": "319",
-        "addr:housename": "Vinařství Dobčákovi",
-        "addr:housenumber": "319",
+        "name": "Vinařství Dobčákovi",
+        "shop": "alcohol",
+        "website": "www.vinarstvidobcakovi.cz",
         "addr:place": "Strážnice",
-        "addr:postcode": "69662",
         "addr:street": "Masarykova",
         "designation": "Vinařství Dobčákovi",
-        "name": "Vinařství Dobčákovi",
+        "addr:postcode": "69662",
+        "addr:housename": "Vinařství Dobčákovi",
         "ref:ruian:addr": "23219556",
-        "shop": "alcohol",
-        "website": "www.vinarstvidobcakovi.cz"
+        "addr:housenumber": "319",
+        "addr:conscriptionnumber": "319"
       }
     },
     {
@@ -1163,12 +1163,12 @@
         "@type": "node",
         "@id": 1977867816,
         "@url": "https://www.openstreetmap.org/node/1977867816",
-        "addr:housenumber": "1516",
-        "addr:postcode": "69662",
-        "addr:street": "Nádražní",
         "name": "Vinařství Botur",
         "shop": "alcohol",
-        "website": "https://www.vinobotur.cz/"
+        "website": "https://www.vinobotur.cz/",
+        "addr:street": "Nádražní",
+        "addr:postcode": "69662",
+        "addr:housenumber": "1516"
       }
     },
     {
@@ -1407,13 +1407,13 @@
         "@type": "node",
         "@id": 2222732639,
         "@url": "https://www.openstreetmap.org/node/2222732639",
-        "addr:housename": "MAX",
-        "addr:housenumber": "8",
-        "addr:postcode": "635 00",
+        "shop": "alcohol",
+        "source": "local knowledge",
         "addr:street": "Kubíčkova",
         "designation": "Tabak and Alcohol shop",
-        "shop": "alcohol",
-        "source": "local knowledge"
+        "addr:postcode": "635 00",
+        "addr:housename": "MAX",
+        "addr:housenumber": "8"
       }
     },
     {
@@ -1480,9 +1480,9 @@
         "@type": "node",
         "@id": 2260266185,
         "@url": "https://www.openstreetmap.org/node/2260266185",
-        "level": "1",
         "name": "Speciál",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "level": "1"
       }
     },
     {
@@ -1498,8 +1498,8 @@
         "@type": "node",
         "@id": 2265914065,
         "@url": "https://www.openstreetmap.org/node/2265914065",
-        "drink:wine": "yes",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -1568,13 +1568,13 @@
         "@type": "node",
         "@id": 2306828809,
         "@url": "https://www.openstreetmap.org/node/2306828809",
-        "addr:housenumber": "139",
-        "addr:postcode": "685 01",
-        "addr:street": "Legionářská",
         "name": "Vinotéka u Sedláků",
         "shop": "alcohol",
         "source": "survey",
-        "website": "https://www.vinotekabucovice.cz/"
+        "website": "https://www.vinotekabucovice.cz/",
+        "addr:street": "Legionářská",
+        "addr:postcode": "685 01",
+        "addr:housenumber": "139"
       }
     },
     {
@@ -1608,12 +1608,12 @@
         "@type": "node",
         "@id": 2315535212,
         "@url": "https://www.openstreetmap.org/node/2315535212",
-        "addr:housename": "Nápoje",
-        "addr:housenumber": "375",
+        "name": "Nápoje",
+        "shop": "alcohol",
         "addr:place": "Jablonec nad Jizerou",
         "addr:postcode": "512 43",
-        "name": "Nápoje",
-        "shop": "alcohol"
+        "addr:housename": "Nápoje",
+        "addr:housenumber": "375"
       }
     },
     {
@@ -1629,24 +1629,24 @@
         "@type": "node",
         "@id": 2317201406,
         "@url": "https://www.openstreetmap.org/node/2317201406",
-        "addr:city": "Praha",
-        "addr:conscriptionnumber": "310",
-        "addr:country": "CZ",
-        "addr:housenumber": "310/82",
-        "addr:place": "Veleslavín",
-        "addr:postcode": "16200",
-        "addr:street": "Na Petřinách",
-        "addr:streetnumber": "82",
-        "addr:suburb": "Praha 6",
-        "drink:wine": "yes",
         "name": "Vinotéka Slámovka",
-        "old_name": "Vinotéka Pistorcio",
-        "phone": "+420 222 982 861",
-        "ref:ruian:addr": "22282891",
         "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
+        "phone": "+420 222 982 861",
+        "website": "http://www.slamovka.com/",
+        "old_name": "Vinotéka Pistorcio",
+        "addr:city": "Praha",
+        "addr:place": "Veleslavín",
+        "drink:wine": "yes",
         "source:loc": "survey",
-        "website": "http://www.slamovka.com/"
+        "addr:street": "Na Petřinách",
+        "addr:suburb": "Praha 6",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "16200",
+        "ref:ruian:addr": "22282891",
+        "addr:housenumber": "310/82",
+        "addr:streetnumber": "82",
+        "addr:conscriptionnumber": "310"
       }
     },
     {
@@ -1706,8 +1706,8 @@
         "@id": 2327744195,
         "@url": "https://www.openstreetmap.org/node/2327744195",
         "name": "Albert Hypermarket",
-        "opening_hours": "Mo-Su 07:00-22:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Su 07:00-22:00"
       }
     },
     {
@@ -1723,14 +1723,14 @@
         "@type": "node",
         "@id": 2333416248,
         "@url": "https://www.openstreetmap.org/node/2333416248",
-        "addr:housenumber": "1946/44",
-        "addr:postcode": "62100",
-        "addr:street": "Hapalova",
         "name": "Černá Hora velkoobchod Eduard Baráček",
-        "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-12:00",
-        "phone": "+420731501640",
         "shop": "alcohol",
-        "website": "https://www.baracek.cz/"
+        "phone": "+420731501640",
+        "website": "https://www.baracek.cz/",
+        "addr:street": "Hapalova",
+        "addr:postcode": "62100",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-12:00",
+        "addr:housenumber": "1946/44"
       }
     },
     {
@@ -1830,9 +1830,9 @@
         "@type": "node",
         "@id": 2392717680,
         "@url": "https://www.openstreetmap.org/node/2392717680",
-        "drink:beer": "yes",
         "name": "Pivovar Klášter",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:beer": "yes"
       }
     },
     {
@@ -1865,12 +1865,12 @@
         "@type": "node",
         "@id": 2405902070,
         "@url": "https://www.openstreetmap.org/node/2405902070",
-        "addr:housenumber": "414",
-        "addr:postcode": "544 01",
-        "addr:street": "Dukelská",
         "name": "Vinotéka",
+        "shop": "alcohol",
+        "addr:street": "Dukelská",
+        "addr:postcode": "544 01",
         "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-12:00",
-        "shop": "alcohol"
+        "addr:housenumber": "414"
       }
     },
     {
@@ -1921,9 +1921,9 @@
         "@type": "node",
         "@id": 2420223861,
         "@url": "https://www.openstreetmap.org/node/2420223861",
-        "drink:wine": "yes",
         "name": "Vinotéka U Jiřího z Poděbrad",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -2007,23 +2007,23 @@
         "@type": "node",
         "@id": 2444388931,
         "@url": "https://www.openstreetmap.org/node/2444388931",
-        "addr:city": "Rokycany",
-        "addr:conscriptionnumber": "155",
-        "addr:country": "CZ",
-        "addr:housenumber": "155",
-        "addr:place": "Střed",
-        "addr:postcode": "33701",
-        "addr:street": "Hradební",
         "name": "B.A.F.",
-        "opening_hours": "Mo-Fr 05:00-17:00; Sa 08:00-11:30",
-        "phone": "+420 605 401 812",
-        "ref:ruian:addr": "20781903",
         "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
+        "phone": "+420 605 401 812",
+        "website": "http://www.bafvelkoobchod.cz/",
+        "addr:city": "Rokycany",
+        "addr:place": "Střed",
         "source:loc": "survey",
+        "addr:street": "Hradební",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "33701",
+        "opening_hours": "Mo-Fr 05:00-17:00; Sa 08:00-11:30",
+        "ref:ruian:addr": "20781903",
+        "addr:housenumber": "155",
         "source:opening_hours": "survey",
-        "source:opening_hours:date": "2018-09-22",
-        "website": "http://www.bafvelkoobchod.cz/"
+        "addr:conscriptionnumber": "155",
+        "source:opening_hours:date": "2018-09-22"
       }
     },
     {
@@ -2069,9 +2069,9 @@
         "@type": "node",
         "@id": 2494868545,
         "@url": "https://www.openstreetmap.org/node/2494868545",
-        "drink:wine": "yes",
         "name": "Vinotéka Labyrint",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -2105,20 +2105,20 @@
         "@type": "node",
         "@id": 2511317900,
         "@url": "https://www.openstreetmap.org/node/2511317900",
-        "addr:city": "Přerov",
-        "addr:housenumber": "322/29",
-        "addr:postcode": "75002",
-        "addr:street": "Trávník",
-        "description": "Nabídka více než 30 druhů vybraných sudových vín.",
-        "drink:wine": "yes",
-        "drive_through": "no",
+        "name": "Naše Vinotéka",
+        "shop": "alcohol",
         "email": "info@vinosezarukou.cz",
         "level": "0",
-        "name": "Naše Vinotéka",
-        "opening_hours": "Mo-Su 09:00-21:00",
         "phone": "+420 730 159 017",
-        "shop": "alcohol",
-        "website": "http://www.filmovavinoteka.cz/"
+        "website": "http://www.filmovavinoteka.cz/",
+        "addr:city": "Přerov",
+        "drink:wine": "yes",
+        "addr:street": "Trávník",
+        "description": "Nabídka více než 30 druhů vybraných sudových vín.",
+        "addr:postcode": "75002",
+        "drive_through": "no",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "addr:housenumber": "322/29"
       }
     },
     {
@@ -2167,9 +2167,9 @@
         "@type": "node",
         "@id": 2576701830,
         "@url": "https://www.openstreetmap.org/node/2576701830",
-        "description": "Historické zámecké sklepy ve slovácké Strážnici pocházejí již z konce 14. století a svou rozlohou o třech patrech nemají na Moravě obdoby. Od roku 2002 patří rodinné vinařské firmě Zámecké sklepy Strážnice, kterou vedou otec a syn Šebestovi.",
         "name": "Zámecké sklepy",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "description": "Historické zámecké sklepy ve slovácké Strážnici pocházejí již z konce 14. století a svou rozlohou o třech patrech nemají na Moravě obdoby. Od roku 2002 patří rodinné vinařské firmě Zámecké sklepy Strážnice, kterou vedou otec a syn Šebestovi."
       }
     },
     {
@@ -2253,23 +2253,23 @@
         "@type": "node",
         "@id": 2704091527,
         "@url": "https://www.openstreetmap.org/node/2704091527",
-        "amenity": "fuel",
+        "fax": "+420 384 321 338",
+        "name": "Tank Ono - ČS Jindřichův Hradec",
+        "shop": "alcohol",
         "brand": "Tank Ono",
         "email": "hradec@tank-ono.cz",
-        "fax": "+420 384 321 338",
-        "fuel:HGV_diesel": "yes",
-        "fuel:biodiesel": "yes",
-        "fuel:diesel": "yes",
+        "phone": "+420 724 305 484",
+        "source": "survey",
+        "amenity": "fuel",
+        "website": "http://tank-ono.cz",
         "fuel:e85": "yes",
         "fuel:lpg": "yes",
-        "fuel:octane_95": "yes",
-        "name": "Tank Ono - ČS Jindřichův Hradec",
-        "opening_hours": "24/7",
         "operator": "Tank ONO s.r.o.",
-        "phone": "+420 724 305 484",
-        "shop": "alcohol",
-        "source": "survey",
-        "website": "http://tank-ono.cz"
+        "fuel:diesel": "yes",
+        "opening_hours": "24/7",
+        "fuel:biodiesel": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:HGV_diesel": "yes"
       }
     },
     {
@@ -2343,10 +2343,10 @@
         "@id": 2900779685,
         "@url": "https://www.openstreetmap.org/node/2900779685",
         "name": "Bairnsfather Family Distillery s.r.o.",
-        "opening_hours": "Mo-Fr 08:00-17:00",
-        "operator": "Kyle Bairnsfather",
         "shop": "alcohol",
-        "website": "http://www.bairnsfather.net/"
+        "website": "http://www.bairnsfather.net/",
+        "operator": "Kyle Bairnsfather",
+        "opening_hours": "Mo-Fr 08:00-17:00"
       }
     },
     {
@@ -2362,15 +2362,15 @@
         "@type": "node",
         "@id": 2921797011,
         "@url": "https://www.openstreetmap.org/node/2921797011",
-        "addr:city": "Kuřim",
-        "addr:housenumber": "47",
-        "addr:postcode": "66434",
-        "addr:street": "Tišnovská",
         "name": "Vinotéka Perkmistr",
-        "opening_hours": "Mo-Sa 09:00-19:00; Su 14:00-19:00",
-        "phone": "+420 541 213 097",
         "shop": "alcohol",
-        "website": "http://vinotekaperkmistr.cz/"
+        "phone": "+420 541 213 097",
+        "website": "http://vinotekaperkmistr.cz/",
+        "addr:city": "Kuřim",
+        "addr:street": "Tišnovská",
+        "addr:postcode": "66434",
+        "opening_hours": "Mo-Sa 09:00-19:00; Su 14:00-19:00",
+        "addr:housenumber": "47"
       }
     },
     {
@@ -2423,13 +2423,13 @@
         "@type": "node",
         "@id": 2992844666,
         "@url": "https://www.openstreetmap.org/node/2992844666",
-        "addr:city": "Valtice",
-        "addr:housenumber": "16",
-        "addr:postcode": "69142",
-        "addr:street": "nám. Svobody",
         "name": "Vinotéka Vinum Bonum",
         "shop": "alcohol",
-        "website": "http://www.vinumbonum.cz/"
+        "website": "http://www.vinumbonum.cz/",
+        "addr:city": "Valtice",
+        "addr:street": "nám. Svobody",
+        "addr:postcode": "69142",
+        "addr:housenumber": "16"
       }
     },
     {
@@ -2475,12 +2475,12 @@
         "@type": "node",
         "@id": 3101621345,
         "@url": "https://www.openstreetmap.org/node/3101621345",
-        "addr:city": "Brno",
-        "addr:housenumber": "101",
-        "addr:postcode": "61400",
-        "addr:street": "Obřanská",
         "name": "Vinotéka Maloměřice",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Brno",
+        "addr:street": "Obřanská",
+        "addr:postcode": "61400",
+        "addr:housenumber": "101"
       }
     },
     {
@@ -2519,8 +2519,8 @@
         "@id": 3107551362,
         "@url": "https://www.openstreetmap.org/node/3107551362",
         "name": "Vinotéka",
-        "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 17:00-21:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 17:00-21:00"
       }
     },
     {
@@ -2596,10 +2596,10 @@
         "@type": "node",
         "@id": 3155117978,
         "@url": "https://www.openstreetmap.org/node/3155117978",
-        "drink:beer": "yes",
         "name": "Fedrinx",
-        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:beer": "yes",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00"
       }
     },
     {
@@ -2615,14 +2615,14 @@
         "@type": "node",
         "@id": 3156126451,
         "@url": "https://www.openstreetmap.org/node/3156126451",
-        "addr:city": "Brno",
-        "addr:postcode": "61300",
         "name": "Vinotéka Perkmistr",
-        "opening_hours": "Mo-Fr 11:00-19:00",
-        "phone": "+420 530 344 245",
         "shop": "alcohol",
+        "phone": "+420 530 344 245",
         "website": "http://vinotekaperkmistr.cz/",
-        "wheelchair": "no"
+        "addr:city": "Brno",
+        "wheelchair": "no",
+        "addr:postcode": "61300",
+        "opening_hours": "Mo-Fr 11:00-19:00"
       }
     },
     {
@@ -2638,14 +2638,14 @@
         "@type": "node",
         "@id": 3159209114,
         "@url": "https://www.openstreetmap.org/node/3159209114",
-        "addr:city": "Brno",
-        "addr:housenumber": "8",
-        "addr:postcode": "60200",
-        "addr:street": "Bašty",
         "name": "Víno Hruška",
-        "opening_hours": "Mo,Tu 12:00-21:00; We,Th 12:00-22:00; Fr 12:00-24:00, Sa 13:00-22:00",
         "shop": "alcohol",
-        "wheelchair": "no"
+        "addr:city": "Brno",
+        "wheelchair": "no",
+        "addr:street": "Bašty",
+        "addr:postcode": "60200",
+        "opening_hours": "Mo,Tu 12:00-21:00; We,Th 12:00-22:00; Fr 12:00-24:00, Sa 13:00-22:00",
+        "addr:housenumber": "8"
       }
     },
     {
@@ -2713,12 +2713,12 @@
         "@type": "node",
         "@id": 3188381673,
         "@url": "https://www.openstreetmap.org/node/3188381673",
-        "addr:city": "Valtice",
-        "addr:housenumber": "13",
-        "addr:postcode": "69142",
-        "addr:street": "nám. Svobody",
         "name": "Vinium Bonum",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Valtice",
+        "addr:street": "nám. Svobody",
+        "addr:postcode": "69142",
+        "addr:housenumber": "13"
       }
     },
     {
@@ -2734,12 +2734,12 @@
         "@type": "node",
         "@id": 3188381675,
         "@url": "https://www.openstreetmap.org/node/3188381675",
-        "addr:city": "Valtice",
-        "addr:housenumber": "1111",
-        "addr:postcode": "69142",
-        "addr:street": "nám. Svobody",
         "name": "Vinařství Procházka Valtice",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Valtice",
+        "addr:street": "nám. Svobody",
+        "addr:postcode": "69142",
+        "addr:housenumber": "1111"
       }
     },
     {
@@ -2755,28 +2755,28 @@
         "@type": "node",
         "@id": 3206107088,
         "@url": "https://www.openstreetmap.org/node/3206107088",
-        "addr:city": "Praha",
-        "addr:conscriptionnumber": "34",
-        "addr:country": "CZ",
-        "addr:housenumber": "34/7",
-        "addr:place": "Troja",
-        "addr:postcode": "17100",
-        "addr:street": "Pod Havránkou",
-        "addr:streetnumber": "7",
-        "addr:suburb": "Praha-Troja",
-        "alcohol": "wine",
-        "drink:wine": "yes",
-        "facebook": "https://www.facebook.com/vinotekasvklara/",
-        "internet_access": "wlan",
         "name": "Vinotéka sv. Kláry",
-        "opening_hours": "Mo-Fr 13:00-19:00; Sa,Su 11:00-19:00",
-        "outdoor_seating": "yes",
-        "phone": "+420 234 148 153",
-        "ref:ruian:addr": "22313320",
         "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
+        "phone": "+420 234 148 153",
+        "alcohol": "wine",
+        "website": "https://www.botanicka.cz/",
+        "facebook": "https://www.facebook.com/vinotekasvklara/",
+        "addr:city": "Praha",
+        "addr:place": "Troja",
+        "drink:wine": "yes",
         "source:loc": "survey",
-        "website": "https://www.botanicka.cz/"
+        "addr:street": "Pod Havránkou",
+        "addr:suburb": "Praha-Troja",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "17100",
+        "opening_hours": "Mo-Fr 13:00-19:00; Sa,Su 11:00-19:00",
+        "ref:ruian:addr": "22313320",
+        "internet_access": "wlan",
+        "outdoor_seating": "yes",
+        "addr:housenumber": "34/7",
+        "addr:streetnumber": "7",
+        "addr:conscriptionnumber": "34"
       }
     },
     {
@@ -2792,10 +2792,10 @@
         "@type": "node",
         "@id": 3208828725,
         "@url": "https://www.openstreetmap.org/node/3208828725",
-        "brewery": "Herold",
         "name": "Prodej piva nonstop",
         "shop": "alcohol",
-        "source": "survey"
+        "source": "survey",
+        "brewery": "Herold"
       }
     },
     {
@@ -2811,24 +2811,24 @@
         "@type": "node",
         "@id": 3215377359,
         "@url": "https://www.openstreetmap.org/node/3215377359",
-        "addr:conscriptionnumber": "124",
-        "addr:housenumber": "124/10",
-        "addr:postcode": "18200",
-        "addr:street": "Klapkova",
-        "addr:streetnumber": "10",
-        "drink:wine": "yes",
-        "email": "vinoteka@vinoclv.cz",
-        "indoor_seating": "yes",
         "name": "Víno CLV",
-        "opening_hours": "Mo-Fr 11:00-22:00; Sa 15:00-22:00; Su 16:00-21:00",
-        "outdoor_seating": "no",
-        "payment:coins": "yes",
-        "payment:credit_cards": "yes",
-        "payment:notes": "yes",
-        "phone": "+420 734856877",
         "shop": "alcohol",
+        "email": "vinoteka@vinoclv.cz",
+        "phone": "+420 734856877",
         "website": "https://www.vinoclv.cz/",
-        "wheelchair": "yes"
+        "drink:wine": "yes",
+        "wheelchair": "yes",
+        "addr:street": "Klapkova",
+        "addr:postcode": "18200",
+        "opening_hours": "Mo-Fr 11:00-22:00; Sa 15:00-22:00; Su 16:00-21:00",
+        "payment:coins": "yes",
+        "payment:notes": "yes",
+        "indoor_seating": "yes",
+        "outdoor_seating": "no",
+        "addr:housenumber": "124/10",
+        "addr:streetnumber": "10",
+        "payment:credit_cards": "yes",
+        "addr:conscriptionnumber": "124"
       }
     },
     {
@@ -2845,10 +2845,10 @@
         "@id": 3219897044,
         "@url": "https://www.openstreetmap.org/node/3219897044",
         "name": "Vinotéka Separé",
-        "opening_hours": "Mo-Fr 11:00-22:00, Su 17:00-22:00",
         "shop": "alcohol",
         "website": "http://www.vinotekasepare.wz.cz",
-        "wheelchair": "limited"
+        "wheelchair": "limited",
+        "opening_hours": "Mo-Fr 11:00-22:00, Su 17:00-22:00"
       }
     },
     {
@@ -2881,16 +2881,16 @@
         "@type": "node",
         "@id": 3257330036,
         "@url": "https://www.openstreetmap.org/node/3257330036",
+        "name": "Formanka",
+        "shop": "alcohol",
+        "operator": "pivovar Eggenberg",
         "addr:city": "Český Krumlov",
-        "addr:postcode": "381 01",
         "addr:street": "Pivovarská",
         "currency:CZK": "yes",
-        "drive_through": "no",
-        "name": "Formanka",
-        "operator": "pivovar Eggenberg",
         "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "shop": "alcohol"
+        "addr:postcode": "381 01",
+        "drive_through": "no",
+        "payment:credit_cards": "yes"
       }
     },
     {
@@ -2906,8 +2906,8 @@
         "@type": "node",
         "@id": 3258118073,
         "@url": "https://www.openstreetmap.org/node/3258118073",
-        "drink:wine": "yes",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -2923,13 +2923,13 @@
         "@type": "node",
         "@id": 3276685325,
         "@url": "https://www.openstreetmap.org/node/3276685325",
-        "alcohol": "wine",
         "name": "Moravská Banka vín",
-        "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-17:00",
-        "phone": "+420 602 110 000",
         "shop": "alcohol",
+        "phone": "+420 602 110 000",
         "source": "local knowledge",
-        "website": "http://www.bankavin.cz"
+        "alcohol": "wine",
+        "website": "http://www.bankavin.cz",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-17:00"
       }
     },
     {
@@ -2977,12 +2977,12 @@
         "@type": "node",
         "@id": 3291239964,
         "@url": "https://www.openstreetmap.org/node/3291239964",
-        "addr:city": "Havlíčkův Brod",
-        "addr:housenumber": "435",
-        "addr:postcode": "58001",
-        "addr:street": "Humpolecká",
         "name": "Víno Sýkora",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Havlíčkův Brod",
+        "addr:street": "Humpolecká",
+        "addr:postcode": "58001",
+        "addr:housenumber": "435"
       }
     },
     {
@@ -3032,12 +3032,12 @@
         "@type": "node",
         "@id": 3327235329,
         "@url": "https://www.openstreetmap.org/node/3327235329",
-        "addr:housenumber": "632",
-        "addr:postcode": "10800",
-        "addr:street": "Počernická",
-        "drink:wine": "yes",
         "name": "Vinárna Aura",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes",
+        "addr:street": "Počernická",
+        "addr:postcode": "10800",
+        "addr:housenumber": "632"
       }
     },
     {
@@ -3053,12 +3053,12 @@
         "@type": "node",
         "@id": 3384132519,
         "@url": "https://www.openstreetmap.org/node/3384132519",
-        "addr:city": "Brno",
-        "addr:housenumber": "12",
-        "addr:postcode": "60200",
-        "addr:street": "Jánská",
         "name": "Vinotéka U Tří knížat",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Brno",
+        "addr:street": "Jánská",
+        "addr:postcode": "60200",
+        "addr:housenumber": "12"
       }
     },
     {
@@ -3074,13 +3074,13 @@
         "@type": "node",
         "@id": 3392320173,
         "@url": "https://www.openstreetmap.org/node/3392320173",
-        "addr:city": "Praha",
-        "addr:housenumber": "16",
-        "addr:postcode": "10100",
-        "addr:street": "U Vršovického nádraží",
-        "drink:wine": "yes",
         "name": "Vršovická vinotéka",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Praha",
+        "drink:wine": "yes",
+        "addr:street": "U Vršovického nádraží",
+        "addr:postcode": "10100",
+        "addr:housenumber": "16"
       }
     },
     {
@@ -3096,14 +3096,14 @@
         "@type": "node",
         "@id": 3393514475,
         "@url": "https://www.openstreetmap.org/node/3393514475",
-        "addr:city": "Praha",
-        "addr:housenumber": "29",
-        "addr:postcode": "16000",
-        "addr:street": "Africká",
         "name": "Vinotéka",
-        "opening_hours": "Mo-Fr 14:00-20:00",
         "shop": "alcohol",
-        "website": "www.vinostavek.cz"
+        "website": "www.vinostavek.cz",
+        "addr:city": "Praha",
+        "addr:street": "Africká",
+        "addr:postcode": "16000",
+        "opening_hours": "Mo-Fr 14:00-20:00",
+        "addr:housenumber": "29"
       }
     },
     {
@@ -3154,12 +3154,12 @@
         "@type": "node",
         "@id": 3415861512,
         "@url": "https://www.openstreetmap.org/node/3415861512",
-        "contact:email": "vinoostrava@seznam.cz",
-        "contact:website": "http://www.vinoostrava.cz",
         "name": "Vinný sklep u mostu",
-        "opening_hours": "Mo-Fr 10:00-19:00",
         "shop": "alcohol",
-        "source": "survey"
+        "source": "survey",
+        "contact:email": "vinoostrava@seznam.cz",
+        "opening_hours": "Mo-Fr 10:00-19:00",
+        "contact:website": "http://www.vinoostrava.cz"
       }
     },
     {
@@ -3175,16 +3175,16 @@
         "@type": "node",
         "@id": 3456713939,
         "@url": "https://www.openstreetmap.org/node/3456713939",
-        "addr:city": "Uherské Hradiště",
-        "addr:housenumber": "113",
-        "addr:postcode": "68601",
-        "addr:street": "Tyršovo náměstí",
-        "drink:wine": "yes",
         "name": "Kamenný sklípek U Juráků",
-        "opening_hours": "Fr 18:00-24:00",
-        "operator": "Hedvika Juráková",
         "shop": "alcohol",
-        "website": "http://www.ujuraku.cz/"
+        "website": "http://www.ujuraku.cz/",
+        "operator": "Hedvika Juráková",
+        "addr:city": "Uherské Hradiště",
+        "drink:wine": "yes",
+        "addr:street": "Tyršovo náměstí",
+        "addr:postcode": "68601",
+        "opening_hours": "Fr 18:00-24:00",
+        "addr:housenumber": "113"
       }
     },
     {
@@ -3223,12 +3223,12 @@
         "@type": "node",
         "@id": 3464845671,
         "@url": "https://www.openstreetmap.org/node/3464845671",
-        "addr:city": "Havlíčkův Brod",
-        "addr:housenumber": "98",
-        "addr:postcode": "58001",
-        "addr:street": "Dolní",
         "name": "Gata de Gorgos",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Havlíčkův Brod",
+        "addr:street": "Dolní",
+        "addr:postcode": "58001",
+        "addr:housenumber": "98"
       }
     },
     {
@@ -3244,11 +3244,11 @@
         "@type": "node",
         "@id": 3468140934,
         "@url": "https://www.openstreetmap.org/node/3468140934",
-        "amenity": "bar",
-        "drink:beer": "yes",
-        "drink:wine": "yes",
         "shop": "alcohol",
-        "smoking": "outside"
+        "amenity": "bar",
+        "smoking": "outside",
+        "drink:beer": "yes",
+        "drink:wine": "yes"
       }
     },
     {
@@ -3264,9 +3264,9 @@
         "@type": "node",
         "@id": 3496568139,
         "@url": "https://www.openstreetmap.org/node/3496568139",
-        "drink": "wine",
         "name": "Vinotéka",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink": "wine"
       }
     },
     {
@@ -3282,12 +3282,12 @@
         "@type": "node",
         "@id": 3504639399,
         "@url": "https://www.openstreetmap.org/node/3504639399",
-        "alcohol": "wine",
         "name": "Vinotéka Na Cestě",
-        "opening_hours": "Mo-Fr 10:00-17:00; Sa 08:30-11:00",
-        "operator": "Viktor Juliš",
+        "shop": "alcohol",
         "phone": "602263886",
-        "shop": "alcohol"
+        "alcohol": "wine",
+        "operator": "Viktor Juliš",
+        "opening_hours": "Mo-Fr 10:00-17:00; Sa 08:30-11:00"
       }
     },
     {
@@ -3320,13 +3320,13 @@
         "@type": "node",
         "@id": 3589224166,
         "@url": "https://www.openstreetmap.org/node/3589224166",
-        "addr:housenumber": "220/13",
-        "addr:street": "Resslova",
-        "alcohol": "beer",
         "name": "Pivtom",
-        "opening_hours": "Mo-Fr 09:00-18:00",
         "shop": "alcohol",
-        "website": "https://www.pivtom.cz/"
+        "alcohol": "beer",
+        "website": "https://www.pivtom.cz/",
+        "addr:street": "Resslova",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "addr:housenumber": "220/13"
       }
     },
     {
@@ -3342,12 +3342,12 @@
         "@type": "node",
         "@id": 3593969104,
         "@url": "https://www.openstreetmap.org/node/3593969104",
-        "alcohol": "wine",
-        "contact:phone": "+420 603 219 658",
         "name": "Bzenecký dvůr",
-        "opening_hours": "Mo-Fr 16:00-22:00; Sa-Su off \"call us\"",
+        "shop": "alcohol",
+        "alcohol": "wine",
         "operator": "Miloš Svoboda - FREEBAR",
-        "shop": "alcohol"
+        "contact:phone": "+420 603 219 658",
+        "opening_hours": "Mo-Fr 16:00-22:00; Sa-Su off \"call us\""
       }
     },
     {
@@ -3385,15 +3385,15 @@
         "@type": "node",
         "@id": 3642976742,
         "@url": "https://www.openstreetmap.org/node/3642976742",
+        "name": "Vinný club U Dolejšků",
+        "shop": "alcohol",
         "alcohol": "wine",
         "capacity": "25",
+        "operator": "Pavel Michalský",
         "contact:email": "udolejsku@gmail.com",
         "contact:phone": "+420 774 593 699",
-        "contact:website": "http://www.udolejsku.cz",
-        "name": "Vinný club U Dolejšků",
         "opening_hours": "Mo-Fr 14:00-24:00; Sa-Su 18:00-24:00",
-        "operator": "Pavel Michalský",
-        "shop": "alcohol"
+        "contact:website": "http://www.udolejsku.cz"
       }
     },
     {
@@ -3409,20 +3409,20 @@
         "@type": "node",
         "@id": 3650243176,
         "@url": "https://www.openstreetmap.org/node/3650243176",
+        "shop": "alcohol",
         "addr:city": "Dubá",
-        "addr:conscriptionnumber": "82",
-        "addr:country": "CZ",
-        "addr:housenumber": "82/43",
         "addr:place": "Dubá",
-        "addr:postcode": "47141",
-        "addr:street": "Školní",
-        "addr:streetnumber": "43",
         "drink:wine": "yes",
+        "source:loc": "survey",
+        "addr:street": "Školní",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "47141",
         "opening_hours": "Mo-Fr 07:00-12:00,14:00-17:00; We 07:00-12:00; Sa 08:00-11:00",
         "ref:ruian:addr": "23123745",
-        "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
-        "source:loc": "survey"
+        "addr:housenumber": "82/43",
+        "addr:streetnumber": "43",
+        "addr:conscriptionnumber": "82"
       }
     },
     {
@@ -3438,9 +3438,9 @@
         "@type": "node",
         "@id": 3656208381,
         "@url": "https://www.openstreetmap.org/node/3656208381",
-        "drink:wine": "yes",
         "name": "Vinotéka V Peřinách",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -3456,9 +3456,9 @@
         "@type": "node",
         "@id": 3674846600,
         "@url": "https://www.openstreetmap.org/node/3674846600",
-        "drink:wine": "yes",
         "name": "Víno & delikatesy",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -3474,9 +3474,9 @@
         "@type": "node",
         "@id": 3674964901,
         "@url": "https://www.openstreetmap.org/node/3674964901",
-        "drink:wine": "yes",
         "name": "Vinotéka Šestka",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -3515,9 +3515,9 @@
         "@type": "node",
         "@id": 3691128597,
         "@url": "https://www.openstreetmap.org/node/3691128597",
-        "drink:wine": "yes",
         "name": "VINI Italia",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -3572,9 +3572,9 @@
         "@type": "node",
         "@id": 3707602322,
         "@url": "https://www.openstreetmap.org/node/3707602322",
-        "amenity": "bar",
         "shop": "alcohol",
-        "wine": "yes"
+        "wine": "yes",
+        "amenity": "bar"
       }
     },
     {
@@ -3590,9 +3590,9 @@
         "@type": "node",
         "@id": 3707602323,
         "@url": "https://www.openstreetmap.org/node/3707602323",
-        "amenity": "bar",
         "shop": "alcohol",
-        "wine": "yes"
+        "wine": "yes",
+        "amenity": "bar"
       }
     },
     {
@@ -3608,17 +3608,17 @@
         "@type": "node",
         "@id": 3719889318,
         "@url": "https://www.openstreetmap.org/node/3719889318",
-        "addr:city": "Brno",
-        "addr:housenumber": "1",
-        "addr:postcode": "61200",
-        "addr:street": "Reissigova",
-        "drive_through": "no",
         "name": "Global Wines & Spirits",
-        "opening_hours": "Mo-Fr 10:00-20:00; Sa 08:00-14:00; Su off",
-        "phone": "+420 800 100 639",
         "shop": "alcohol",
+        "phone": "+420 800 100 639",
         "website": "https://www.global-wines.cz/",
-        "wheelchair": "no"
+        "addr:city": "Brno",
+        "wheelchair": "no",
+        "addr:street": "Reissigova",
+        "addr:postcode": "61200",
+        "drive_through": "no",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 08:00-14:00; Su off",
+        "addr:housenumber": "1"
       }
     },
     {
@@ -3634,17 +3634,17 @@
         "@type": "node",
         "@id": 3719909983,
         "@url": "https://www.openstreetmap.org/node/3719909983",
-        "addr:city": "Brno",
-        "addr:housenumber": "32a",
-        "addr:postcode": "60200",
-        "addr:street": "Tábor",
-        "drive_through": "no",
         "name": "vinotéka",
-        "opening_hours": "Mo-Fr 12:00-21:00; Sa 13:00-21:00; Su 15:00-20:00",
-        "operator": "Víno Mareček s.r.o.",
-        "payment:cash": "yes",
         "shop": "alcohol",
-        "wheelchair": "yes"
+        "operator": "Víno Mareček s.r.o.",
+        "addr:city": "Brno",
+        "wheelchair": "yes",
+        "addr:street": "Tábor",
+        "payment:cash": "yes",
+        "addr:postcode": "60200",
+        "drive_through": "no",
+        "opening_hours": "Mo-Fr 12:00-21:00; Sa 13:00-21:00; Su 15:00-20:00",
+        "addr:housenumber": "32a"
       }
     },
     {
@@ -3660,16 +3660,16 @@
         "@type": "node",
         "@id": 3721290991,
         "@url": "https://www.openstreetmap.org/node/3721290991",
-        "addr:city": "Brno",
-        "addr:housenumber": "17",
-        "addr:postcode": "63800",
-        "addr:street": "Dusíkova",
         "name": "Vinotéka Perkmistr",
-        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-22:00; Su 14:00-20:00",
-        "phone": "+420 530 335 511",
         "shop": "alcohol",
+        "phone": "+420 530 335 511",
         "website": "http://vinotekaperkmistr.cz/",
-        "wheelchair": "yes"
+        "addr:city": "Brno",
+        "wheelchair": "yes",
+        "addr:street": "Dusíkova",
+        "addr:postcode": "63800",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-22:00; Su 14:00-20:00",
+        "addr:housenumber": "17"
       }
     },
     {
@@ -3702,12 +3702,12 @@
         "@type": "node",
         "@id": 3722825073,
         "@url": "https://www.openstreetmap.org/node/3722825073",
-        "addr:city": "Praha",
-        "addr:housenumber": "28",
-        "addr:postcode": "12000",
-        "addr:street": "Bělehradská",
         "name": "Vinotéka Bacco",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Praha",
+        "addr:street": "Bělehradská",
+        "addr:postcode": "12000",
+        "addr:housenumber": "28"
       }
     },
     {
@@ -3724,8 +3724,8 @@
         "@id": 3727615431,
         "@url": "https://www.openstreetmap.org/node/3727615431",
         "name": "Pivovarská prodejna",
-        "opening_hours": "mo-fr 08:00-18:00, sa 10:00-13:00; su 14:00-17:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "mo-fr 08:00-18:00, sa 10:00-13:00; su 14:00-17:00"
       }
     },
     {
@@ -3761,12 +3761,12 @@
         "@type": "node",
         "@id": 3751377587,
         "@url": "https://www.openstreetmap.org/node/3751377587",
-        "drink:whisky": "yes",
         "name": "Marpek Whisky",
-        "opening_hours": "Mo-Fr 11:00-21:00; Sa 12:00-21:00",
-        "phone": "+420207362029820076",
         "shop": "alcohol",
-        "website": "marpek-whiskey.cz"
+        "phone": "+420207362029820076",
+        "website": "marpek-whiskey.cz",
+        "drink:whisky": "yes",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa 12:00-21:00"
       }
     },
     {
@@ -3835,10 +3835,10 @@
         "@type": "node",
         "@id": 3821661887,
         "@url": "https://www.openstreetmap.org/node/3821661887",
-        "drink:wine": "yes",
         "name": "Vinotéka Noster",
-        "opening_hours": "Mo-Su 15:00-22:00; Sa off",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes",
+        "opening_hours": "Mo-Su 15:00-22:00; Sa off"
       }
     },
     {
@@ -4034,10 +4034,10 @@
         "@type": "node",
         "@id": 3974715537,
         "@url": "https://www.openstreetmap.org/node/3974715537",
-        "drink:wine": "yes",
         "name": "České vinařské závody",
         "shop": "alcohol",
-        "website": "http://www.cvz.cz/"
+        "website": "http://www.cvz.cz/",
+        "drink:wine": "yes"
       }
     },
     {
@@ -4093,9 +4093,9 @@
         "@type": "node",
         "@id": 4167187922,
         "@url": "https://www.openstreetmap.org/node/4167187922",
-        "drink:wine": "yes",
         "name": "vinotéka",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -4188,13 +4188,13 @@
         "@type": "node",
         "@id": 4225418833,
         "@url": "https://www.openstreetmap.org/node/4225418833",
-        "addr:city": "Brno",
-        "addr:housenumber": "5",
-        "addr:postcode": "60200",
-        "addr:street": "Veselá",
         "name": "HY & VE Liquor Shop",
+        "shop": "alcohol",
+        "addr:city": "Brno",
+        "addr:street": "Veselá",
+        "addr:postcode": "60200",
         "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
-        "shop": "alcohol"
+        "addr:housenumber": "5"
       }
     },
     {
@@ -4210,10 +4210,10 @@
         "@type": "node",
         "@id": 4232158620,
         "@url": "https://www.openstreetmap.org/node/4232158620",
-        "addr:postcode": "57802",
-        "addr:street": "Lanškrounská",
         "name": "Trafika",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:street": "Lanškrounská",
+        "addr:postcode": "57802"
       }
     },
     {
@@ -4256,9 +4256,9 @@
         "@type": "node",
         "@id": 4317349294,
         "@url": "https://www.openstreetmap.org/node/4317349294",
-        "drink:wine": "yes",
         "name": "Vinny Restaurant U Perouna",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes"
       }
     },
     {
@@ -4303,8 +4303,8 @@
         "@id": 4340405689,
         "@url": "https://www.openstreetmap.org/node/4340405689",
         "name": "Viet Cong",
-        "opening_hours": "Mo-Su 08:00-18:30",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Su 08:00-18:30"
       }
     },
     {
@@ -4337,8 +4337,8 @@
         "@id": 4359484490,
         "@url": "https://www.openstreetmap.org/node/4359484490",
         "name": "Vinotéka Mifkovi",
-        "name:cs": "Vinotéka Mifkovi",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "name:cs": "Vinotéka Mifkovi"
       }
     },
     {
@@ -4354,17 +4354,17 @@
         "@type": "node",
         "@id": 4375425896,
         "@url": "https://www.openstreetmap.org/node/4375425896",
-        "addr:city": "Mirošov",
-        "addr:country": "CZ",
-        "addr:place": "Mirošov",
-        "addr:postcode": "33843",
-        "addr:street": "Skořická",
         "name": "B.A.F.",
-        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
-        "phone": "+420 605 311 034",
         "shop": "alcohol",
+        "phone": "+420 605 311 034",
         "source": "survey",
-        "website": "http://www.bafvelkoobchod.cz/"
+        "website": "http://www.bafvelkoobchod.cz/",
+        "addr:city": "Mirošov",
+        "addr:place": "Mirošov",
+        "addr:street": "Skořická",
+        "addr:country": "CZ",
+        "addr:postcode": "33843",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00"
       }
     },
     {
@@ -4380,21 +4380,21 @@
         "@type": "node",
         "@id": 4375425897,
         "@url": "https://www.openstreetmap.org/node/4375425897",
-        "addr:city": "Hrádek",
-        "addr:conscriptionnumber": "222",
-        "addr:country": "CZ",
-        "addr:housenumber": "222",
-        "addr:place": "Nová Huť",
-        "addr:postcode": "33842",
-        "addr:street": "1. máje",
         "name": "B.A.F.",
-        "opening_hours": "Mo-Fr 05:00-17:00; Sa 07:00-12:00",
-        "phone": "+420 777 225 831",
-        "ref:ruian:addr": "7107609",
         "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
+        "phone": "+420 777 225 831",
+        "website": "http://www.bafvelkoobchod.cz/",
+        "addr:city": "Hrádek",
+        "addr:place": "Nová Huť",
         "source:loc": "survey",
-        "website": "http://www.bafvelkoobchod.cz/"
+        "addr:street": "1. máje",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "33842",
+        "opening_hours": "Mo-Fr 05:00-17:00; Sa 07:00-12:00",
+        "ref:ruian:addr": "7107609",
+        "addr:housenumber": "222",
+        "addr:conscriptionnumber": "222"
       }
     },
     {
@@ -4410,21 +4410,21 @@
         "@type": "node",
         "@id": 4376921741,
         "@url": "https://www.openstreetmap.org/node/4376921741",
-        "addr:city": "Rokycany",
-        "addr:conscriptionnumber": "120",
-        "addr:country": "CZ",
-        "addr:housenumber": "120",
-        "addr:place": "Střed",
-        "addr:postcode": "33701",
-        "addr:street": "Malé náměstí",
         "name": "B.A.F.",
-        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
-        "phone": "+420 777 225 829",
-        "ref:ruian:addr": "26702801",
         "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
+        "phone": "+420 777 225 829",
+        "website": "http://www.bafvelkoobchod.cz/",
+        "addr:city": "Rokycany",
+        "addr:place": "Střed",
         "source:loc": "survey",
-        "website": "http://www.bafvelkoobchod.cz/"
+        "addr:street": "Malé náměstí",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "33701",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
+        "ref:ruian:addr": "26702801",
+        "addr:housenumber": "120",
+        "addr:conscriptionnumber": "120"
       }
     },
     {
@@ -4466,18 +4466,18 @@
         "@type": "node",
         "@id": 4397079631,
         "@url": "https://www.openstreetmap.org/node/4397079631",
-        "addr:city": "Frymburk",
-        "addr:conscriptionnumber": "81",
-        "addr:country": "CZ",
-        "addr:housenumber": "81",
-        "addr:place": "Frymburk",
-        "addr:postcode": "38279",
-        "facebook": "https://www.facebook.com/Květinové-studio-a-drink-market-619253941571597/",
         "name": "Drink market",
-        "phone": "+420 739 015 036",
-        "ref:ruian:addr": "8691924",
         "shop": "alcohol",
-        "source:addr": "cuzk:ruian"
+        "phone": "+420 739 015 036",
+        "facebook": "https://www.facebook.com/Květinové-studio-a-drink-market-619253941571597/",
+        "addr:city": "Frymburk",
+        "addr:place": "Frymburk",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "38279",
+        "ref:ruian:addr": "8691924",
+        "addr:housenumber": "81",
+        "addr:conscriptionnumber": "81"
       }
     },
     {
@@ -4494,8 +4494,8 @@
         "@id": 4398601653,
         "@url": "https://www.openstreetmap.org/node/4398601653",
         "name": "První vinohradská vinotéka",
-        "opening_hours": "Mo-Sa 14:00-22:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Sa 14:00-22:00"
       }
     },
     {
@@ -4511,24 +4511,24 @@
         "@type": "node",
         "@id": 4423295313,
         "@url": "https://www.openstreetmap.org/node/4423295313",
-        "addr:city": "Praha",
-        "addr:conscriptionnumber": "351",
-        "addr:country": "CZ",
-        "addr:housenumber": "351/1",
-        "addr:place": "Staré Město",
-        "addr:postcode": "11000",
-        "addr:street": "Husova",
-        "addr:streetnumber": "1",
-        "addr:suburb": "Praha 1",
         "name": "Winehaeven",
+        "shop": "alcohol",
+        "addr:city": "Praha",
+        "addr:place": "Staré Město",
+        "source:loc": "survey",
+        "wheelchair": "no",
+        "addr:street": "Husova",
+        "addr:suburb": "Praha 1",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "11000",
         "opening_hours": "Mo-Su 10:00-24:00",
         "ref:ruian:addr": "21718776",
-        "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
-        "source:loc": "survey",
+        "addr:housenumber": "351/1",
+        "addr:streetnumber": "1",
         "source:opening_hours": "survey",
-        "source:opening_hours:date": "2018-10-10",
-        "wheelchair": "no"
+        "addr:conscriptionnumber": "351",
+        "source:opening_hours:date": "2018-10-10"
       }
     },
     {
@@ -4563,24 +4563,24 @@
         "@type": "node",
         "@id": 4443392163,
         "@url": "https://www.openstreetmap.org/node/4443392163",
-        "addr:city": "Praha",
-        "addr:conscriptionnumber": "704",
-        "addr:country": "CZ",
-        "addr:housenumber": "704/61",
-        "addr:place": "Nové Město",
-        "addr:postcode": "11000",
-        "addr:street": "Štěpánská",
-        "addr:streetnumber": "61",
-        "addr:suburb": "Praha 1",
-        "drink:wine": "yes",
-        "name": "Cellarius",
-        "phone": "+420 224 210 979",
-        "ref:ruian:addr": "21704961",
-        "shop": "alcohol",
-        "source:addr": "cuzk:ruian",
-        "source:loc": "survey",
         "url": "http://www.lucerna.cz/",
-        "website": "https://www.cellarius.cz/"
+        "name": "Cellarius",
+        "shop": "alcohol",
+        "phone": "+420 224 210 979",
+        "website": "https://www.cellarius.cz/",
+        "addr:city": "Praha",
+        "addr:place": "Nové Město",
+        "drink:wine": "yes",
+        "source:loc": "survey",
+        "addr:street": "Štěpánská",
+        "addr:suburb": "Praha 1",
+        "source:addr": "cuzk:ruian",
+        "addr:country": "CZ",
+        "addr:postcode": "11000",
+        "ref:ruian:addr": "21704961",
+        "addr:housenumber": "704/61",
+        "addr:streetnumber": "61",
+        "addr:conscriptionnumber": "704"
       }
     },
     {
@@ -4597,8 +4597,8 @@
         "@id": 4443751389,
         "@url": "https://www.openstreetmap.org/node/4443751389",
         "name": "Lihovar Kolín",
-        "name:cs": "Lihovar Kolín",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "name:cs": "Lihovar Kolín"
       }
     },
     {
@@ -4644,10 +4644,10 @@
         "@type": "node",
         "@id": 4493890014,
         "@url": "https://www.openstreetmap.org/node/4493890014",
-        "drink:wine": "yes",
         "name": "Bottega del Vino",
-        "opening_hours": "Mo-Fr 15:00-20:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes",
+        "opening_hours": "Mo-Fr 15:00-20:00"
       }
     },
     {
@@ -4663,11 +4663,11 @@
         "@type": "node",
         "@id": 4523847591,
         "@url": "https://www.openstreetmap.org/node/4523847591",
-        "addr:housenumber": "129",
-        "addr:street": "Mlýnská",
         "name": "Nápoje Flop",
+        "shop": "alcohol",
         "name:cs": "Nápoje Flop",
-        "shop": "alcohol"
+        "addr:street": "Mlýnská",
+        "addr:housenumber": "129"
       }
     },
     {
@@ -4684,10 +4684,10 @@
         "@id": 4530727225,
         "@url": "https://www.openstreetmap.org/node/4530727225",
         "name": "Vinotéka Pampinus",
-        "opening_hours": "Mo-Su 15:00-22:00",
-        "phone": "+420 775 994 041",
         "shop": "alcohol",
-        "website": "http://vinotekaprosek.cz/"
+        "phone": "+420 775 994 041",
+        "website": "http://vinotekaprosek.cz/",
+        "opening_hours": "Mo-Su 15:00-22:00"
       }
     },
     {
@@ -4782,11 +4782,11 @@
         "@type": "node",
         "@id": 4586999291,
         "@url": "https://www.openstreetmap.org/node/4586999291",
-        "drink:wine": "yes",
         "name": "U Džonyho",
+        "shop": "alcohol",
         "name:cs": "U Džonyho",
         "name:en": "U Džonyho",
-        "shop": "alcohol"
+        "drink:wine": "yes"
       }
     },
     {
@@ -4802,12 +4802,12 @@
         "@type": "node",
         "@id": 4589618530,
         "@url": "https://www.openstreetmap.org/node/4589618530",
-        "email": "obchod@pivo-vinoteka.cz",
         "name": "VínoPivotéka u Čápa",
-        "opening_hours": "Mo-Th 07:30-16:30; Fr 07:30-17:00; Sa 07:30-12:00",
-        "phone": "+420595536556",
         "shop": "alcohol",
-        "website": "http://www.vino-pivoteka.cz"
+        "email": "obchod@pivo-vinoteka.cz",
+        "phone": "+420595536556",
+        "website": "http://www.vino-pivoteka.cz",
+        "opening_hours": "Mo-Th 07:30-16:30; Fr 07:30-17:00; Sa 07:30-12:00"
       }
     },
     {
@@ -4870,10 +4870,10 @@
         "@type": "node",
         "@id": 4610427889,
         "@url": "https://www.openstreetmap.org/node/4610427889",
-        "addr:housenumber": "121/8",
-        "addr:street": "J. Palacha",
         "name": "Frankies",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:street": "J. Palacha",
+        "addr:housenumber": "121/8"
       }
     },
     {
@@ -4889,11 +4889,11 @@
         "@type": "node",
         "@id": 4648226591,
         "@url": "https://www.openstreetmap.org/node/4648226591",
-        "addr:housenumber": "20",
-        "addr:street": "Palackého náměstí",
         "name": "Vinotéka Dary vinic",
+        "shop": "alcohol",
+        "addr:street": "Palackého náměstí",
         "opening_hours": "Mo-Sa 10:00-20:00; Su 14:00-20:00",
-        "shop": "alcohol"
+        "addr:housenumber": "20"
       }
     },
     {
@@ -4910,9 +4910,9 @@
         "@id": 4648369992,
         "@url": "https://www.openstreetmap.org/node/4648369992",
         "name": "Značkové nápoje",
+        "shop": "alcohol",
         "name:cs": "Značkové nápoje",
-        "opening_hours": "Mo-Fr 10:00-17:30; Sa 10:00-12:00",
-        "shop": "alcohol"
+        "opening_hours": "Mo-Fr 10:00-17:30; Sa 10:00-12:00"
       }
     },
     {
@@ -4945,12 +4945,12 @@
         "@type": "node",
         "@id": 4747882001,
         "@url": "https://www.openstreetmap.org/node/4747882001",
-        "addr:city": "Praha",
-        "addr:housenumber": "44",
-        "addr:postcode": "14000",
-        "addr:street": "Táborská",
         "name": "La Grapperia",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Praha",
+        "addr:street": "Táborská",
+        "addr:postcode": "14000",
+        "addr:housenumber": "44"
       }
     },
     {
@@ -4967,10 +4967,10 @@
         "@id": 4759531525,
         "@url": "https://www.openstreetmap.org/node/4759531525",
         "name": "Vinotéka Perkmistr",
-        "opening_hours": "Mo-Sa 09:00-19:00; Su 14:00-19:00",
-        "phone": "+420 515 532 508",
         "shop": "alcohol",
-        "website": "http://vinotekaperkmistr.cz/"
+        "phone": "+420 515 532 508",
+        "website": "http://vinotekaperkmistr.cz/",
+        "opening_hours": "Mo-Sa 09:00-19:00; Su 14:00-19:00"
       }
     },
     {
@@ -4986,14 +4986,14 @@
         "@type": "node",
         "@id": 4764197526,
         "@url": "https://www.openstreetmap.org/node/4764197526",
-        "addr:housenumber": "131",
-        "addr:street": "Revoluční",
-        "drink:wine": "yes",
         "name": "Hruška",
+        "shop": "alcohol",
         "name:cs": "Hruška",
         "name:en": "Pear",
-        "shop": "alcohol",
-        "website": "http://www.vinokterechutna.cz"
+        "website": "http://www.vinokterechutna.cz",
+        "drink:wine": "yes",
+        "addr:street": "Revoluční",
+        "addr:housenumber": "131"
       }
     },
     {
@@ -5009,9 +5009,9 @@
         "@type": "node",
         "@id": 4774552816,
         "@url": "https://www.openstreetmap.org/node/4774552816",
-        "drink:wine": "yes",
         "name": "BiBoVíno",
         "shop": "alcohol",
+        "drink:wine": "yes",
         "wheelchair": "limited"
       }
     },
@@ -5049,14 +5049,14 @@
         "@type": "node",
         "@id": 4801786246,
         "@url": "https://www.openstreetmap.org/node/4801786246",
-        "addr:city": "Praha 7",
-        "addr:housenumber": "21",
-        "addr:postcode": "17000",
-        "addr:street": "Korunovační",
-        "drink:wine": "yes",
         "name": "La Vineria",
         "shop": "alcohol",
-        "website": "http://www.valledongiulio.cz/shop.php?la-vineria,28"
+        "website": "http://www.valledongiulio.cz/shop.php?la-vineria,28",
+        "addr:city": "Praha 7",
+        "drink:wine": "yes",
+        "addr:street": "Korunovační",
+        "addr:postcode": "17000",
+        "addr:housenumber": "21"
       }
     },
     {
@@ -5128,9 +5128,9 @@
         "@id": 4843874357,
         "@url": "https://www.openstreetmap.org/node/4843874357",
         "name": "Máme žízeň.cz",
-        "opening_hours": "Mo-Su 16:00-04:00",
         "shop": "alcohol",
-        "website": "www.mamezizen.cz"
+        "website": "www.mamezizen.cz",
+        "opening_hours": "Mo-Su 16:00-04:00"
       }
     },
     {
@@ -5146,13 +5146,13 @@
         "@type": "node",
         "@id": 4881614524,
         "@url": "https://www.openstreetmap.org/node/4881614524",
-        "addr:housenumber": "4181/57",
-        "addr:postcode": "79601",
-        "addr:street": "Olomoucká",
-        "email": "pvpramen@seznam.cz",
         "name": "Prostějovský Pramen",
+        "shop": "alcohol",
+        "email": "pvpramen@seznam.cz",
         "phone": "+420602859593",
-        "shop": "alcohol"
+        "addr:street": "Olomoucká",
+        "addr:postcode": "79601",
+        "addr:housenumber": "4181/57"
       }
     },
     {
@@ -5348,12 +5348,12 @@
         "@type": "node",
         "@id": 5053279894,
         "@url": "https://www.openstreetmap.org/node/5053279894",
-        "drink:wine": "retail",
         "name": "Vino Markuzzi",
-        "opening_hours": "Mo-Fr 09:00-19:00",
         "shop": "alcohol",
         "website": "http://markuzzi.cz",
-        "wheelchair": "limited"
+        "drink:wine": "retail",
+        "wheelchair": "limited",
+        "opening_hours": "Mo-Fr 09:00-19:00"
       }
     },
     {
@@ -5369,10 +5369,10 @@
         "@type": "node",
         "@id": 5059813177,
         "@url": "https://www.openstreetmap.org/node/5059813177",
-        "drink:wine": "yes",
         "name": "Vinotéka U Sluníčka",
-        "opening_hours": "Mo-We 09:00-16:30; Th,Fr 9:00-17:00; Sa 09:00-11:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes",
+        "opening_hours": "Mo-We 09:00-16:30; Th,Fr 9:00-17:00; Sa 09:00-11:00"
       }
     },
     {
@@ -5388,10 +5388,10 @@
         "@type": "node",
         "@id": 5060485133,
         "@url": "https://www.openstreetmap.org/node/5060485133",
-        "drink:wine": "yes",
         "name": "Vinotéka Na náměstí",
-        "opening_hours": "Mo 16:00-19:00; Tu-Th 10:00-13:00,16:00-19:00; Fr 10:00-13:00,16:00-20:00; Sa 09:00-12:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "drink:wine": "yes",
+        "opening_hours": "Mo 16:00-19:00; Tu-Th 10:00-13:00,16:00-19:00; Fr 10:00-13:00,16:00-20:00; Sa 09:00-12:00"
       }
     },
     {
@@ -5408,8 +5408,8 @@
         "@id": 5086457379,
         "@url": "https://www.openstreetmap.org/node/5086457379",
         "name": "Lihoviny",
-        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00; PH closed",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00; PH closed"
       }
     },
     {
@@ -5466,8 +5466,8 @@
         "@id": 5114437779,
         "@url": "https://www.openstreetmap.org/node/5114437779",
         "name": "Víno Hruška",
-        "opening_hours": "Mo 10:00-19:00, Tu-Th 10:00-22:00, Fr 10:00-24:00, Sa 09:00-24:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo 10:00-19:00, Tu-Th 10:00-22:00, Fr 10:00-24:00, Sa 09:00-24:00"
       }
     },
     {
@@ -5484,8 +5484,8 @@
         "@id": 5114470957,
         "@url": "https://www.openstreetmap.org/node/5114470957",
         "name": "Víno Pod Věží",
-        "opening_hours": "Mo-Fr 10:00-14:00,14:30-18:00, Sa 09:00-11:00",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "opening_hours": "Mo-Fr 10:00-14:00,14:30-18:00, Sa 09:00-11:00"
       }
     },
     {
@@ -5615,9 +5615,9 @@
         "@id": 5186936189,
         "@url": "https://www.openstreetmap.org/node/5186936189",
         "name": "Kvalitnípití.cz",
-        "opening_hours": "Mo-Fr 11:00-21:00; Sa 10:00-14:00",
         "shop": "alcohol",
-        "wheelchair": "no"
+        "wheelchair": "no",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa 10:00-14:00"
       }
     },
     {
@@ -5633,17 +5633,17 @@
         "@type": "node",
         "@id": 5286287561,
         "@url": "https://www.openstreetmap.org/node/5286287561",
+        "name": "Vinotéka Na Palackého",
+        "shop": "alcohol",
+        "operator": "Pálavské vrchy s.r.o.",
+        "drink:wine": "yes",
+        "wheelchair": "no",
         "addr:street": "Palackého třída",
-        "addr:streetnumber": "47",
         "contact:email": "info@vinotekanapalackeho.cz",
         "contact:phone": "+420 731128580",
-        "contact:website": "https://vinotekanapalackeho.cz",
-        "drink:wine": "yes",
-        "name": "Vinotéka Na Palackého",
         "opening_hours": "Mo-Sa 10:00-19:00; Su 14:00-19:00",
-        "operator": "Pálavské vrchy s.r.o.",
-        "shop": "alcohol",
-        "wheelchair": "no"
+        "contact:website": "https://vinotekanapalackeho.cz",
+        "addr:streetnumber": "47"
       }
     },
     {
@@ -5695,11 +5695,11 @@
         "@type": "node",
         "@id": 5417347672,
         "@url": "https://www.openstreetmap.org/node/5417347672",
-        "drink:wine": "yes",
         "name": "Vinotéka",
-        "opening_hours": "Mo-Fr 08:00-18:00, Sa 08:00-13:00",
         "shop": "alcohol",
-        "source": "survey"
+        "source": "survey",
+        "drink:wine": "yes",
+        "opening_hours": "Mo-Fr 08:00-18:00, Sa 08:00-13:00"
       }
     },
     {
@@ -5715,12 +5715,12 @@
         "@type": "node",
         "@id": 5443361096,
         "@url": "https://www.openstreetmap.org/node/5443361096",
-        "drink:wine": "yes",
         "name": "Vinotéka ve Viničných Šumicích",
-        "opening_hours": "Mo-Fr 15:00-20:00; Sa 10:00-14:00; PH off",
         "shop": "alcohol",
         "website": "http://vinoteka.zerastav.cz/",
-        "wheelchair": "yes"
+        "drink:wine": "yes",
+        "wheelchair": "yes",
+        "opening_hours": "Mo-Fr 15:00-20:00; Sa 10:00-14:00; PH off"
       }
     },
     {
@@ -5736,13 +5736,13 @@
         "@type": "node",
         "@id": 5463915812,
         "@url": "https://www.openstreetmap.org/node/5463915812",
-        "addr:city": "Praha 6",
-        "addr:housenumber": "724/6",
-        "addr:postcode": "16900",
-        "addr:street": "Na Malovance",
         "name": "Glentyn(e)",
+        "shop": "alcohol",
         "operator": "www.glentyne.cz",
-        "shop": "alcohol"
+        "addr:city": "Praha 6",
+        "addr:street": "Na Malovance",
+        "addr:postcode": "16900",
+        "addr:housenumber": "724/6"
       }
     },
     {
@@ -5758,12 +5758,12 @@
         "@type": "node",
         "@id": 5509464889,
         "@url": "https://www.openstreetmap.org/node/5509464889",
-        "addr:city": "Brno",
-        "addr:housenumber": "92/21",
-        "addr:postcode": "60200",
-        "addr:street": "náměstí Svobody",
         "name": "Chcu pivo",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "addr:city": "Brno",
+        "addr:street": "náměstí Svobody",
+        "addr:postcode": "60200",
+        "addr:housenumber": "92/21"
       }
     },
     {
@@ -5779,11 +5779,11 @@
         "@type": "node",
         "@id": 5511701829,
         "@url": "https://www.openstreetmap.org/node/5511701829",
-        "addr:housenumber": "105",
-        "addr:street": "Korunní",
-        "operator": "Korunní 105",
         "shop": "alcohol",
-        "website": "http://www.vinoteka-korunni105.cz/"
+        "website": "http://www.vinoteka-korunni105.cz/",
+        "operator": "Korunní 105",
+        "addr:street": "Korunní",
+        "addr:housenumber": "105"
       }
     },
     {
@@ -5833,15 +5833,15 @@
         "@type": "node",
         "@id": 5740966739,
         "@url": "https://www.openstreetmap.org/node/5740966739",
-        "addr:city": "Hranice",
-        "addr:housenumber": "380",
-        "addr:postcode": "75301",
-        "addr:street": "Komenského",
-        "drink:beer": "yes",
-        "drink:wine": "yes",
         "name": "Pivotéka|Vinotéka",
         "shop": "alcohol",
-        "website": "http://pivoteka-hranice.cz/"
+        "website": "http://pivoteka-hranice.cz/",
+        "addr:city": "Hranice",
+        "drink:beer": "yes",
+        "drink:wine": "yes",
+        "addr:street": "Komenského",
+        "addr:postcode": "75301",
+        "addr:housenumber": "380"
       }
     },
     {
@@ -5857,20 +5857,20 @@
         "@type": "node",
         "@id": 5763271286,
         "@url": "https://www.openstreetmap.org/node/5763271286",
-        "addr:conscriptionnumber": "1111",
-        "addr:housenumber": "1111/29",
-        "addr:postcode": "18200",
-        "addr:street": "Třeboradická",
-        "addr:streetnumber": "29",
-        "drink:wine": "yes",
-        "indoor_seating": "yes",
         "name": "Víno Fermata",
+        "shop": "alcohol",
+        "drink:wine": "yes",
+        "addr:street": "Třeboradická",
+        "addr:postcode": "18200",
         "opening_hours": "Mo-Fr 16:00-21:00",
-        "outdoor_seating": "no",
         "payment:coins": "yes",
-        "payment:credit_cards": "yes",
         "payment:notes": "yes",
-        "shop": "alcohol"
+        "indoor_seating": "yes",
+        "outdoor_seating": "no",
+        "addr:housenumber": "1111/29",
+        "addr:streetnumber": "29",
+        "payment:credit_cards": "yes",
+        "addr:conscriptionnumber": "1111"
       }
     },
     {
@@ -5922,19 +5922,19 @@
         "@type": "node",
         "@id": 6185548780,
         "@url": "https://www.openstreetmap.org/node/6185548780",
+        "name": "Vinotéka PESO",
+        "shop": "alcohol",
+        "level": "0",
+        "phone": "+420 728 198 461",
         "addr:city": "Přerov",
-        "addr:housenumber": "322/29",
-        "addr:postcode": "75002",
+        "drink:wine": "yes",
+        "start_date": "2004",
         "addr:street": "Trávník",
         "description": "Široká nabídka sudových vín ve všech cenových relacích.",
-        "drink:wine": "yes",
+        "addr:postcode": "75002",
         "drive_through": "no",
-        "level": "0",
-        "name": "Vinotéka PESO",
         "opening_hours": "Mo-Su 09:00-21:00",
-        "phone": "+420 728 198 461",
-        "shop": "alcohol",
-        "start_date": "2004"
+        "addr:housenumber": "322/29"
       }
     },
     {
@@ -5950,11 +5950,11 @@
         "@type": "node",
         "@id": 6190999087,
         "@url": "https://www.openstreetmap.org/node/6190999087",
-        "addr:housenumber": "283/15",
-        "addr:street": "Lázeňská",
+        "shop": "alcohol",
         "name:en": "Czech Beer Shop",
+        "addr:street": "Lázeňská",
         "opening_hours": "Mo-Su 12:00-18:00",
-        "shop": "alcohol"
+        "addr:housenumber": "283/15"
       }
     },
     {
@@ -5971,9 +5971,9 @@
         "@id": 6204997142,
         "@url": "https://www.openstreetmap.org/node/6204997142",
         "name": "Global Wines & Spirits",
-        "opening_hours": "Mo-Fr 10:00-20:00, Sa 09:00-13:00",
         "shop": "alcohol",
-        "website": "https://www.global-wines.cz/"
+        "website": "https://www.global-wines.cz/",
+        "opening_hours": "Mo-Fr 10:00-20:00, Sa 09:00-13:00"
       }
     },
     {
@@ -6011,9 +6011,9 @@
         "@type": "node",
         "@id": 6359220152,
         "@url": "https://www.openstreetmap.org/node/6359220152",
-        "amenity": "cafe",
         "name": "Mandlárna",
         "shop": "alcohol",
+        "amenity": "cafe",
         "website": "https://www.mandlarna.cz/"
       }
     },
@@ -6056,9 +6056,9 @@
         "@type": "node",
         "@id": 6417444477,
         "@url": "https://www.openstreetmap.org/node/6417444477",
-        "alcohol": "wine",
         "name": "Vinotéka",
         "shop": "alcohol",
+        "alcohol": "wine",
         "wheelchair": "no"
       }
     },
@@ -6109,9 +6109,9 @@
         "@type": "node",
         "@id": 6449994651,
         "@url": "https://www.openstreetmap.org/node/6449994651",
-        "alcohol": "wine",
         "name": "Vinotéka",
         "shop": "alcohol",
+        "alcohol": "wine",
         "wheelchair": "no"
       }
     },
@@ -6129,9 +6129,9 @@
         "@id": 6466509813,
         "@url": "https://www.openstreetmap.org/node/6466509813",
         "name": "Stáčené vino",
-        "opening_hours": "Mo-Fr 15:00-20:00; Sa 16:00-20:00",
         "shop": "alcohol",
-        "website": "stacenevino.cz"
+        "website": "stacenevino.cz",
+        "opening_hours": "Mo-Fr 15:00-20:00; Sa 16:00-20:00"
       }
     },
     {
@@ -6243,15 +6243,15 @@
         "@type": "node",
         "@id": 7045103085,
         "@url": "https://www.openstreetmap.org/node/7045103085",
-        "addr:housenumber": "5",
-        "addr:postcode": "335 01",
-        "addr:street": "Prádlo",
-        "email": "info@jencikadcery.cz",
         "name": "Jenčík a dcery, s.r.o.",
-        "opening_hours": "Mo-Fr 07:30-16:00",
-        "phone": "+420 608 064 859",
         "shop": "alcohol",
-        "website": "https://www.jencikadcery.cz"
+        "email": "info@jencikadcery.cz",
+        "phone": "+420 608 064 859",
+        "website": "https://www.jencikadcery.cz",
+        "addr:street": "Prádlo",
+        "addr:postcode": "335 01",
+        "opening_hours": "Mo-Fr 07:30-16:00",
+        "addr:housenumber": "5"
       }
     },
     {
@@ -6267,12 +6267,12 @@
         "@type": "node",
         "@id": 7060176585,
         "@url": "https://www.openstreetmap.org/node/7060176585",
-        "addr:housenumber": "385/28",
-        "addr:street": "Wonkova",
         "name": "Pivotéka Pivoňka",
-        "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-12:00",
+        "shop": "alcohol",
         "phone": "+420774061520",
-        "shop": "alcohol"
+        "addr:street": "Wonkova",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-12:00",
+        "addr:housenumber": "385/28"
       }
     },
     {
@@ -6308,12 +6308,12 @@
         "@type": "node",
         "@id": 7117550286,
         "@url": "https://www.openstreetmap.org/node/7117550286",
-        "addr:housenumber": "241/4",
-        "addr:postcode": "16000",
-        "addr:street": "Muchova",
         "name": "Base Camp",
+        "shop": "alcohol",
+        "addr:street": "Muchova",
+        "addr:postcode": "16000",
         "opening_hours": "Mo-Su 11:00-23:00",
-        "shop": "alcohol"
+        "addr:housenumber": "241/4"
       }
     },
     {
@@ -6473,15 +6473,15 @@
         "@type": "node",
         "@id": 7294742485,
         "@url": "https://www.openstreetmap.org/node/7294742485",
-        "addr:housenumber": "1155",
-        "addr:postcode": "73581",
-        "addr:street": "tř. Dr. E. Beneše",
-        "email": "obchod@vinoteka-pivoteka.cz",
         "name": "Vinotéka & Pivotéka",
-        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
-        "phone": "+420732339300",
         "shop": "alcohol",
-        "website": "http://www.vinoteka-pivoteka.cz"
+        "email": "obchod@vinoteka-pivoteka.cz",
+        "phone": "+420732339300",
+        "website": "http://www.vinoteka-pivoteka.cz",
+        "addr:street": "tř. Dr. E. Beneše",
+        "addr:postcode": "73581",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+        "addr:housenumber": "1155"
       }
     },
     {
@@ -6599,13 +6599,13 @@
         "@type": "node",
         "@id": 7604347885,
         "@url": "https://www.openstreetmap.org/node/7604347885",
-        "addr:housenumber": "23",
-        "addr:postcode": "56944",
-        "email": "pivovichr@seznam.cz",
         "name": "Vichr Jaroměřický minipivovar",
-        "phone": "+420731498663",
         "shop": "alcohol",
-        "website": "http://www.pivovichr.cz"
+        "email": "pivovichr@seznam.cz",
+        "phone": "+420731498663",
+        "website": "http://www.pivovichr.cz",
+        "addr:postcode": "56944",
+        "addr:housenumber": "23"
       }
     },
     {
@@ -6656,12 +6656,12 @@
         "@type": "node",
         "@id": 7761506687,
         "@url": "https://www.openstreetmap.org/node/7761506687",
-        "addr:housenumber": "33",
-        "addr:postcode": "150 00",
-        "addr:street": "Lidická",
         "name": "Rumako",
         "shop": "alcohol",
-        "website": "http://www.rumako.cz"
+        "website": "http://www.rumako.cz",
+        "addr:street": "Lidická",
+        "addr:postcode": "150 00",
+        "addr:housenumber": "33"
       }
     },
     {
@@ -7196,6 +7196,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4746701,
+          48.9732522
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9423714777,
+        "@url": "https://www.openstreetmap.org/node/9423714777",
+        "name": "FARKAtéka",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:00",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3824891,
           48.7308766
         ]
@@ -7580,14 +7598,14 @@
         "@type": "way",
         "@id": 52046724,
         "@url": "https://www.openstreetmap.org/way/52046724",
+        "name": "Likérka",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
         "building": "house",
         "building:flats": "1",
         "building:levels": "1",
-        "building:ruian:type": "7",
-        "name": "Likérka",
         "ref:ruian:building": "4794443",
-        "shop": "alcohol",
-        "source": "cuzk:ruian"
+        "building:ruian:type": "7"
       }
     },
     {
@@ -7625,9 +7643,9 @@
         "@type": "way",
         "@id": 93259731,
         "@url": "https://www.openstreetmap.org/way/93259731",
-        "building": "yes",
         "shop": "alcohol",
-        "source": "uhul:ortofoto"
+        "source": "uhul:ortofoto",
+        "building": "yes"
       }
     },
     {
@@ -7701,14 +7719,14 @@
         "@type": "way",
         "@id": 96764662,
         "@url": "https://www.openstreetmap.org/way/96764662",
-        "addr:housename": "VinBox",
-        "building": "yes",
-        "building:levels": "1",
-        "building:ruian:type": "19",
-        "opening_hours": "Mo-Fr 11:00-18:00",
-        "ref:ruian:building": "3332594",
         "shop": "alcohol",
-        "source": "cuzk:ruian"
+        "source": "cuzk:ruian",
+        "building": "yes",
+        "opening_hours": "Mo-Fr 11:00-18:00",
+        "addr:housename": "VinBox",
+        "building:levels": "1",
+        "ref:ruian:building": "3332594",
+        "building:ruian:type": "19"
       }
     },
     {
@@ -7742,14 +7760,14 @@
         "@type": "way",
         "@id": 123492996,
         "@url": "https://www.openstreetmap.org/way/123492996",
+        "name": "Vinotéka Babulka",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
         "building": "house",
         "building:flats": "1",
         "building:levels": "1",
-        "building:ruian:type": "7",
-        "name": "Vinotéka Babulka",
         "ref:ruian:building": "8269891",
-        "shop": "alcohol",
-        "source": "cuzk:ruian"
+        "building:ruian:type": "7"
       }
     },
     {
@@ -7783,9 +7801,9 @@
         "@type": "way",
         "@id": 215192176,
         "@url": "https://www.openstreetmap.org/way/215192176",
-        "building": "yes",
         "name": "Pěstitelská pálenice",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "building": "yes"
       }
     },
     {
@@ -7831,13 +7849,13 @@
         "@type": "way",
         "@id": 350209753,
         "@url": "https://www.openstreetmap.org/way/350209753",
-        "building": "commercial",
-        "building:ruian:type": "10",
         "name": "Vinotéka Žerotín",
-        "ref:ruian:building": "27574041",
         "shop": "alcohol",
         "source": "cuzk:ruian",
-        "wheelchair": "no"
+        "building": "commercial",
+        "wheelchair": "no",
+        "ref:ruian:building": "27574041",
+        "building:ruian:type": "10"
       }
     },
     {
@@ -7879,14 +7897,14 @@
         "@type": "way",
         "@id": 486402753,
         "@url": "https://www.openstreetmap.org/way/486402753",
-        "addr:unit": "120",
-        "email": "winestoreflora@gmail.com",
-        "indoor": "room",
-        "level": "1",
         "name": "Wine store",
-        "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+        "shop": "alcohol",
+        "email": "winestoreflora@gmail.com",
+        "level": "1",
         "phone": "+420 731 803 379",
-        "shop": "alcohol"
+        "indoor": "room",
+        "addr:unit": "120",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00"
       }
     },
     {
@@ -7936,14 +7954,14 @@
         "@type": "way",
         "@id": 52046724,
         "@url": "https://www.openstreetmap.org/way/52046724",
+        "name": "Likérka",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
         "building": "house",
         "building:flats": "1",
         "building:levels": "1",
-        "building:ruian:type": "7",
-        "name": "Likérka",
         "ref:ruian:building": "4794443",
-        "shop": "alcohol",
-        "source": "cuzk:ruian"
+        "building:ruian:type": "7"
       }
     },
     {
@@ -7985,9 +8003,9 @@
         "@type": "way",
         "@id": 93259731,
         "@url": "https://www.openstreetmap.org/way/93259731",
-        "building": "yes",
         "shop": "alcohol",
-        "source": "uhul:ortofoto"
+        "source": "uhul:ortofoto",
+        "building": "yes"
       }
     },
     {
@@ -8065,14 +8083,14 @@
         "@type": "way",
         "@id": 96764662,
         "@url": "https://www.openstreetmap.org/way/96764662",
-        "addr:housename": "VinBox",
-        "building": "yes",
-        "building:levels": "1",
-        "building:ruian:type": "19",
-        "opening_hours": "Mo-Fr 11:00-18:00",
-        "ref:ruian:building": "3332594",
         "shop": "alcohol",
-        "source": "cuzk:ruian"
+        "source": "cuzk:ruian",
+        "building": "yes",
+        "opening_hours": "Mo-Fr 11:00-18:00",
+        "addr:housename": "VinBox",
+        "building:levels": "1",
+        "ref:ruian:building": "3332594",
+        "building:ruian:type": "19"
       }
     },
     {
@@ -8110,14 +8128,14 @@
         "@type": "way",
         "@id": 123492996,
         "@url": "https://www.openstreetmap.org/way/123492996",
+        "name": "Vinotéka Babulka",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
         "building": "house",
         "building:flats": "1",
         "building:levels": "1",
-        "building:ruian:type": "7",
-        "name": "Vinotéka Babulka",
         "ref:ruian:building": "8269891",
-        "shop": "alcohol",
-        "source": "cuzk:ruian"
+        "building:ruian:type": "7"
       }
     },
     {
@@ -8155,9 +8173,9 @@
         "@type": "way",
         "@id": 215192176,
         "@url": "https://www.openstreetmap.org/way/215192176",
-        "building": "yes",
         "name": "Pěstitelská pálenice",
-        "shop": "alcohol"
+        "shop": "alcohol",
+        "building": "yes"
       }
     },
     {
@@ -8207,13 +8225,13 @@
         "@type": "way",
         "@id": 350209753,
         "@url": "https://www.openstreetmap.org/way/350209753",
-        "building": "commercial",
-        "building:ruian:type": "10",
         "name": "Vinotéka Žerotín",
-        "ref:ruian:building": "27574041",
         "shop": "alcohol",
         "source": "cuzk:ruian",
-        "wheelchair": "no"
+        "building": "commercial",
+        "wheelchair": "no",
+        "ref:ruian:building": "27574041",
+        "building:ruian:type": "10"
       }
     },
     {
@@ -8259,14 +8277,14 @@
         "@type": "way",
         "@id": 486402753,
         "@url": "https://www.openstreetmap.org/way/486402753",
-        "addr:unit": "120",
-        "email": "winestoreflora@gmail.com",
-        "indoor": "room",
-        "level": "1",
         "name": "Wine store",
-        "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+        "shop": "alcohol",
+        "email": "winestoreflora@gmail.com",
+        "level": "1",
         "phone": "+420 731 803 379",
-        "shop": "alcohol"
+        "indoor": "room",
+        "addr:unit": "120",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00"
       }
     }
   ]

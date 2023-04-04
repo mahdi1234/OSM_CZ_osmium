@@ -8410,8 +8410,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8831449,
-          50.1238135
+          15.8832577,
+          50.1238098
         ]
       },
       "properties": {
@@ -8419,11 +8419,12 @@
         "@id": 5054438621,
         "@url": "https://www.openstreetmap.org/node/5054438621",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cans": "yes",
+        "recycling:electronics": "yes",
         "recycling:glass": "yes",
         "recycling:papers": "yes",
         "recycling:plastic": "yes",
-        "recycling:electronics": "yes"
+        "recycling_type": "container"
       }
     },
     {

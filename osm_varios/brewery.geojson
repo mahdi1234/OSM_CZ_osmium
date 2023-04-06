@@ -165,8 +165,8 @@
         "microbrewery": "yes",
         "name": "Minipivovar Krajinská 27",
         "outdoor_seating": "no",
-        "ref:ruian": "23342234",
-        "source:addr": "ruian"
+        "ref:ruian:addr": "23342234",
+        "source:addr": "cuzk:ruian"
       }
     },
     {
@@ -1210,20 +1210,20 @@
         "@type": "node",
         "@id": 2322843619,
         "@url": "https://www.openstreetmap.org/node/2322843619",
-        "name": "Poddžbánský pivovar",
-        "craft": "brewery",
-        "source": "www.lunchtime.cz",
-        "amenity": "restaurant",
-        "cuisine": "regional",
-        "website": "https://www.poddzbanskypivovar.cz/",
         "addr:city": "Mutějovice",
-        "ref:ruian": "8579865",
-        "addr:street": "Velká Strana",
-        "source:addr": "ruian",
+        "addr:conscriptionnumber": "2",
         "addr:country": "CZ",
-        "addr:postcode": "27007",
         "addr:housenumber": "2",
-        "addr:conscriptionnumber": "2"
+        "addr:postcode": "27007",
+        "addr:street": "Velká Strana",
+        "amenity": "restaurant",
+        "craft": "brewery",
+        "cuisine": "regional",
+        "name": "Poddžbánský pivovar",
+        "ref:ruian:addr": "8579865",
+        "source": "www.lunchtime.cz",
+        "source:addr": "cuzk:ruian",
+        "website": "https://www.poddzbanskypivovar.cz/"
       }
     },
     {
@@ -5485,7 +5485,7 @@
         "microbrewery": "yes",
         "name": "Pivovarský dvůr Lipan",
         "operator": "Jiří Papula",
-        "phone": "+420 605 871 136; +420 607 154 299",
+        "phone": "+420 605 871 136;+420 607 154 299",
         "product": "beer",
         "start_date": "1996-04-26",
         "website": "http://pivovar-lipan.cz/"
@@ -6970,6 +6970,49 @@
         "building": "yes",
         "ref:ruian:building": "13642821",
         "building:ruian:type": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.380759,
+            49.305843
+          ],
+          [
+            14.380846,
+            49.305834
+          ],
+          [
+            14.380776,
+            49.305541
+          ],
+          [
+            14.380694,
+            49.305549
+          ],
+          [
+            14.380759,
+            49.305843
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 53208929,
+        "@url": "https://www.openstreetmap.org/way/53208929",
+        "addr:conscriptionnumber": "50",
+        "addr:country": "CZ",
+        "addr:housenumber": "50",
+        "addr:place": "Dražíč",
+        "addr:postcode": "37501",
+        "building": "yes",
+        "microbrewery": "yes",
+        "name": "Pivovarský dvůr Lipan",
+        "ref:ruian:addr": "26817594",
+        "source": "cuzk:km"
       }
     },
     {
@@ -14460,6 +14503,53 @@
         "building": "yes",
         "ref:ruian:building": "13642821",
         "building:ruian:type": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.380694,
+                49.305549
+              ],
+              [
+                14.380776,
+                49.305541
+              ],
+              [
+                14.380846,
+                49.305834
+              ],
+              [
+                14.380759,
+                49.305843
+              ],
+              [
+                14.380694,
+                49.305549
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 53208929,
+        "@url": "https://www.openstreetmap.org/way/53208929",
+        "addr:conscriptionnumber": "50",
+        "addr:country": "CZ",
+        "addr:housenumber": "50",
+        "addr:place": "Dražíč",
+        "addr:postcode": "37501",
+        "building": "yes",
+        "microbrewery": "yes",
+        "name": "Pivovarský dvůr Lipan",
+        "ref:ruian:addr": "26817594",
+        "source": "cuzk:km"
       }
     },
     {

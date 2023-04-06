@@ -3448,8 +3448,8 @@
         "recycling:shoes": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
-        "ref:ruian": "26691001",
-        "source:addr": "ruian"
+        "ref:ruian:addr": "26691001",
+        "source:addr": "cuzk:ruian"
       }
     },
     {
@@ -4359,8 +4359,8 @@
         "recycling:iron": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
-        "ref:ruian": "27431029",
-        "source:addr": "ruian"
+        "ref:ruian:addr": "27431029",
+        "source:addr": "cuzk:ruian"
       }
     },
     {
@@ -11357,6 +11357,33 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2514578,
+          49.5789079
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5066178551,
+        "@url": "https://www.openstreetmap.org/node/5066178551",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -42397,6 +42424,27 @@
         "@url": "https://www.openstreetmap.org/node/10781933314",
         "amenity": "recycling",
         "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9092194,
+          50.34469
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10786873496,
+        "@url": "https://www.openstreetmap.org/node/10786873496",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",

@@ -42740,6 +42740,34 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0040022,
+          49.1500355
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10805307861,
+        "@url": "https://www.openstreetmap.org/node/10805307861",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -63988,6 +64016,92 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.0270382,
+                50.0926403
+              ],
+              [
+                15.0270776,
+                50.0919834
+              ],
+              [
+                15.0271495,
+                50.0919842
+              ],
+              [
+                15.0279865,
+                50.0920272
+              ],
+              [
+                15.0279855,
+                50.0920359
+              ],
+              [
+                15.0279941,
+                50.0920364
+              ],
+              [
+                15.0281552,
+                50.0920434
+              ],
+              [
+                15.0281526,
+                50.0920676
+              ],
+              [
+                15.0288431,
+                50.0921001
+              ],
+              [
+                15.0289016,
+                50.0921047
+              ],
+              [
+                15.0289046,
+                50.0921322
+              ],
+              [
+                15.0286998,
+                50.092359
+              ],
+              [
+                15.0278879,
+                50.0928817
+              ],
+              [
+                15.0277077,
+                50.0928321
+              ],
+              [
+                15.027229,
+                50.0927429
+              ],
+              [
+                15.0270382,
+                50.0926403
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "relation",
+        "@id": 15713154,
+        "@url": "https://www.openstreetmap.org/relation/15713154",
+        "amenity": "recycling",
+        "name": "SAKER Pečky",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.saker.cz"
       }
     }
   ]

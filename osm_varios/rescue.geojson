@@ -91,17 +91,17 @@
         "@type": "node",
         "@id": 255454686,
         "@url": "https://www.openstreetmap.org/node/255454686",
+        "bicycle": "yes",
         "ele": "930",
-        "ref": "SK104",
+        "highway": "emergency_access_point",
+        "hiking": "yes",
+        "information": "guidepost",
         "name": "Studenov",
         "note": "ref KRNAP: MT053",
-        "hiking": "yes",
-        "source": "survey",
-        "bicycle": "yes",
-        "highway": "emergency_access_point",
-        "tourism": "information",
         "operator": "cz:KČT",
-        "information": "guidepost"
+        "ref": "SK104",
+        "source": "survey",
+        "tourism": "information"
       }
     },
     {
@@ -117,11 +117,11 @@
         "@type": "node",
         "@id": 300139620,
         "@url": "https://www.openstreetmap.org/node/300139620",
-        "name": "Horská služba Špičák",
         "amenity": "mountain_rescue",
+        "emergency_telephone_code": "+420376397273",
         "highway": "emergency_access_point",
-        "source_ref": "http://jeseniky.org/attachments/442_CZ-Horska_sluzba.kml",
-        "emergency_telephone_code": "+420376397273"
+        "name": "Horská služba Špičák",
+        "source_ref": "http://jeseniky.org/attachments/442_CZ-Horska_sluzba.kml"
       }
     },
     {
@@ -204,9 +204,9 @@
         "@type": "node",
         "@id": 332743091,
         "@url": "https://www.openstreetmap.org/node/332743091",
-        "name": "Nemocnice Kroměříž budova A",
         "amenity": "hospital",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "name": "Nemocnice Kroměříž budova A"
       }
     },
     {
@@ -430,13 +430,13 @@
         "@type": "node",
         "@id": 664204646,
         "@url": "https://www.openstreetmap.org/node/664204646",
-        "ref": "SK100",
-        "name": "Pod Jakšínem (rozcestí)",
-        "hiking": "yes",
         "highway": "emergency_access_point",
-        "tourism": "information",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Pod Jakšínem (rozcestí)",
         "operator": "cz:KČT",
-        "information": "guidepost"
+        "ref": "SK100",
+        "tourism": "information"
       }
     },
     {
@@ -775,8 +775,8 @@
         "@type": "node",
         "@id": 1567923016,
         "@url": "https://www.openstreetmap.org/node/1567923016",
-        "ref": "SK889",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "SK889"
       }
     },
     {
@@ -931,14 +931,14 @@
         "@id": 1941712324,
         "@url": "https://www.openstreetmap.org/node/1941712324",
         "ele": "640",
-        "ref": "SE023",
-        "name": "Čeňkova pila",
-        "hiking": "yes",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "tourism": "information",
-        "operator": "cz:KČT",
+        "hiking": "yes",
         "information": "guidepost",
-        "emergency_telephone_code": "112"
+        "name": "Čeňkova pila",
+        "operator": "cz:KČT",
+        "ref": "SE023",
+        "tourism": "information"
       }
     },
     {
@@ -1089,14 +1089,14 @@
         "@id": 2091339347,
         "@url": "https://www.openstreetmap.org/node/2091339347",
         "ele": "1005",
-        "ref": "SK888;SK146",
-        "name": "Kamenice - most pod Jakšínem",
-        "hiking": "yes",
+        "emergency_telephone_code": "+420 602 448 338",
         "highway": "emergency_access_point",
-        "tourism": "information",
-        "operator": "cz:KČT",
+        "hiking": "yes",
         "information": "guidepost",
-        "emergency_telephone_code": "+420 602 448 338"
+        "name": "Kamenice - most pod Jakšínem",
+        "operator": "cz:KČT",
+        "ref": "SK888;SK146",
+        "tourism": "information"
       }
     },
     {
@@ -1112,9 +1112,9 @@
         "@type": "node",
         "@id": 2091339365,
         "@url": "https://www.openstreetmap.org/node/2091339365",
-        "ref": "SK145",
+        "emergency_telephone_code": "+420 602 448 338",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "+420 602 448 338"
+        "ref": "SK145"
       }
     },
     {
@@ -1449,12 +1449,12 @@
         "@type": "node",
         "@id": 2565610334,
         "@url": "https://www.openstreetmap.org/node/2565610334",
-        "ref": "2225",
-        "name": "Hermannseck (oben)",
         "highway": "emergency_access_point",
-        "tourism": "information",
+        "information": "guidepost",
+        "name": "Hermannseck (oben)",
         "operator": "Nationalparkverwaltung Sächsische Schweiz",
-        "information": "guidepost"
+        "ref": "2225",
+        "tourism": "information"
       }
     },
     {
@@ -1470,10 +1470,10 @@
         "@type": "node",
         "@id": 2577061262,
         "@url": "https://www.openstreetmap.org/node/2577061262",
-        "ref": "36",
+        "highway": "emergency_access_point",
         "name": "Pomoc v Nouzi",
         "note": "a sign with a ref number on a red cross with emergency numbers and coordinates of the location",
-        "highway": "emergency_access_point"
+        "ref": "36"
       }
     },
     {
@@ -1489,8 +1489,8 @@
         "@type": "node",
         "@id": 2577063918,
         "@url": "https://www.openstreetmap.org/node/2577063918",
-        "ref": "38",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "38"
       }
     },
     {
@@ -1672,9 +1672,9 @@
         "@type": "node",
         "@id": 3094196604,
         "@url": "https://www.openstreetmap.org/node/3094196604",
-        "name": "A12",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "emergency": "access_point"
+        "name": "A12"
       }
     },
     {
@@ -2798,9 +2798,9 @@
         "@type": "node",
         "@id": 4142510589,
         "@url": "https://www.openstreetmap.org/node/4142510589",
+        "highway": "emergency_access_point",
         "name": "12 + 127",
         "phone": "00420973450991",
-        "highway": "emergency_access_point",
         "website": "https://www.vls.cz/"
       }
     },
@@ -3187,9 +3187,9 @@
         "@type": "node",
         "@id": 4421234947,
         "@url": "https://www.openstreetmap.org/node/4421234947",
-        "ref": "A2",
+        "highway": "emergency_access_point",
         "name": "A2",
-        "highway": "emergency_access_point"
+        "ref": "A2"
       }
     },
     {
@@ -3225,10 +3225,10 @@
         "@type": "node",
         "@id": 4683054320,
         "@url": "https://www.openstreetmap.org/node/4683054320",
-        "ref": "FM012",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR",
-        "emergency_telephone_code": "112"
+        "ref": "FM012"
       }
     },
     {
@@ -3279,12 +3279,12 @@
         "@type": "node",
         "@id": 4763391353,
         "@url": "https://www.openstreetmap.org/node/4763391353",
-        "ref": "06",
-        "name": "Ešnerovka-Kaštánka",
-        "source": "survey",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "name": "Ešnerovka-Kaštánka",
         "operator": "Lesní správa Lány",
-        "emergency_telephone_code": "112"
+        "ref": "06",
+        "source": "survey"
       }
     },
     {
@@ -3338,10 +3338,10 @@
         "@type": "node",
         "@id": 4825552256,
         "@url": "https://www.openstreetmap.org/node/4825552256",
-        "ref": "ZN001",
-        "highway": "emergency_access_point",
         "emergency": "access_point",
-        "emergency_telephone_code": "112"
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "ZN001"
       }
     },
     {
@@ -3357,10 +3357,10 @@
         "@type": "node",
         "@id": 4825552257,
         "@url": "https://www.openstreetmap.org/node/4825552257",
-        "ref": "ZN002",
-        "highway": "emergency_access_point",
         "emergency": "access_point",
-        "emergency_telephone_code": "112"
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "ZN002"
       }
     },
     {
@@ -3400,8 +3400,8 @@
         "@type": "node",
         "@id": 4831591191,
         "@url": "https://www.openstreetmap.org/node/4831591191",
-        "name": "PDH 007",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "name": "PDH 007"
       }
     },
     {
@@ -3417,10 +3417,10 @@
         "@type": "node",
         "@id": 4846601263,
         "@url": "https://www.openstreetmap.org/node/4846601263",
-        "ref": "TR018",
-        "highway": "emergency_access_point",
         "emergency": "access_point",
-        "emergency_telephone_code": "112"
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "TR018"
       }
     },
     {
@@ -3474,8 +3474,8 @@
         "@type": "node",
         "@id": 4878780425,
         "@url": "https://www.openstreetmap.org/node/4878780425",
-        "ref": "BE008",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "BE008"
       }
     },
     {
@@ -3671,10 +3671,10 @@
         "@type": "node",
         "@id": 4961384225,
         "@url": "https://www.openstreetmap.org/node/4961384225",
-        "ref": "FM011",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR",
-        "emergency_telephone_code": "112"
+        "ref": "FM011"
       }
     },
     {
@@ -3991,10 +3991,10 @@
         "@type": "node",
         "@id": 5109678718,
         "@url": "https://www.openstreetmap.org/node/5109678718",
-        "ref": "BK003",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "BK003"
       }
     },
     {
@@ -4087,8 +4087,8 @@
         "@type": "node",
         "@id": 5167959136,
         "@url": "https://www.openstreetmap.org/node/5167959136",
-        "ref": "FM019",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "FM019"
       }
     },
     {
@@ -4221,10 +4221,10 @@
         "@type": "node",
         "@id": 5244982007,
         "@url": "https://www.openstreetmap.org/node/5244982007",
-        "ref": "A35",
-        "name": "A 35",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "emergency": "access_point"
+        "name": "A 35",
+        "ref": "A35"
       }
     },
     {
@@ -4258,9 +4258,9 @@
         "@type": "node",
         "@id": 5264394286,
         "@url": "https://www.openstreetmap.org/node/5264394286",
-        "ref": "29",
+        "emergency_telephone_code": "+420774454044",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "+420774454044"
+        "ref": "29"
       }
     },
     {
@@ -4390,8 +4390,8 @@
         "@type": "node",
         "@id": 5387726038,
         "@url": "https://www.openstreetmap.org/node/5387726038",
-        "ref": "BK015",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "BK015"
       }
     },
     {
@@ -4407,11 +4407,11 @@
         "@type": "node",
         "@id": 5408211413,
         "@url": "https://www.openstreetmap.org/node/5408211413",
-        "ref": "BO043",
-        "source": "survey;gps",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Mendlova univerzita v Brně",
-        "emergency_telephone_code": "112"
+        "ref": "BO043",
+        "source": "survey;gps"
       }
     },
     {
@@ -4465,9 +4465,9 @@
         "@type": "node",
         "@id": 5471533536,
         "@url": "https://www.openstreetmap.org/node/5471533536",
-        "ref": "BR072",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "emergency": "access_point"
+        "ref": "BR072"
       }
     },
     {
@@ -4504,8 +4504,8 @@
         "@type": "node",
         "@id": 5513798673,
         "@url": "https://www.openstreetmap.org/node/5513798673",
-        "name": "331",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "name": "331"
       }
     },
     {
@@ -4521,8 +4521,8 @@
         "@type": "node",
         "@id": 5513798936,
         "@url": "https://www.openstreetmap.org/node/5513798936",
-        "name": "332",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "name": "332"
       }
     },
     {
@@ -4538,11 +4538,11 @@
         "@type": "node",
         "@id": 5517058464,
         "@url": "https://www.openstreetmap.org/node/5517058464",
-        "ref": "CH002",
-        "source": "survey",
-        "highway": "emergency_access_point",
         "emergency": "access_point",
-        "emergency_telephone_code": "112"
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "CH002",
+        "source": "survey"
       }
     },
     {
@@ -4558,14 +4558,14 @@
         "@type": "node",
         "@id": 5517058465,
         "@url": "https://www.openstreetmap.org/node/5517058465",
-        "ref": "CH001",
-        "source": "local knowledge;survey",
         "amenity": "shelter",
-        "highway": "emergency_access_point",
         "emergency": "access_point",
+        "emergency_telephone_code": "112",
         "fireplace": "no",
+        "highway": "emergency_access_point",
+        "ref": "CH001",
         "shelter_type": "picnic_shelter",
-        "emergency_telephone_code": "112"
+        "source": "local knowledge;survey"
       }
     },
     {
@@ -4581,10 +4581,10 @@
         "@type": "node",
         "@id": 5538222921,
         "@url": "https://www.openstreetmap.org/node/5538222921",
-        "ref": "BO040",
-        "source": "survey",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "emergency": "access_point"
+        "ref": "BO040",
+        "source": "survey"
       }
     },
     {
@@ -4622,8 +4622,8 @@
         "@type": "node",
         "@id": 5546262582,
         "@url": "https://www.openstreetmap.org/node/5546262582",
-        "ref": "BK020",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "BK020"
       }
     },
     {
@@ -4657,8 +4657,8 @@
         "@type": "node",
         "@id": 5549992724,
         "@url": "https://www.openstreetmap.org/node/5549992724",
-        "name": "A 3",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "name": "A 3"
       }
     },
     {
@@ -6753,11 +6753,11 @@
         "@type": "node",
         "@id": 5610890402,
         "@url": "https://www.openstreetmap.org/node/5610890402",
-        "ref": "VY017",
+        "emergency": "access_point",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR",
-        "emergency": "access_point",
-        "emergency_telephone_code": "112"
+        "ref": "VY017"
       }
     },
     {
@@ -6832,8 +6832,8 @@
         "@type": "node",
         "@id": 5615871527,
         "@url": "https://www.openstreetmap.org/node/5615871527",
-        "ref": "OC011",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "OC011"
       }
     },
     {
@@ -6867,8 +6867,8 @@
         "@type": "node",
         "@id": 5639111785,
         "@url": "https://www.openstreetmap.org/node/5639111785",
-        "ref": "SU097",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "SU097"
       }
     },
     {
@@ -6884,9 +6884,9 @@
         "@type": "node",
         "@id": 5639111813,
         "@url": "https://www.openstreetmap.org/node/5639111813",
-        "ref": "SU099",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "ref": "SU099"
       }
     },
     {
@@ -6902,9 +6902,9 @@
         "@type": "node",
         "@id": 5647397757,
         "@url": "https://www.openstreetmap.org/node/5647397757",
-        "ref": "PT067",
+        "description": "PT 068",
         "highway": "emergency_access_point",
-        "description": "PT 068"
+        "ref": "PT067"
       }
     },
     {
@@ -6920,9 +6920,9 @@
         "@type": "node",
         "@id": 5647397796,
         "@url": "https://www.openstreetmap.org/node/5647397796",
-        "ref": "PT068",
+        "description": "PT 068",
         "highway": "emergency_access_point",
-        "description": "PT 068"
+        "ref": "PT068"
       }
     },
     {
@@ -7047,9 +7047,9 @@
         "@type": "node",
         "@id": 5680224115,
         "@url": "https://www.openstreetmap.org/node/5680224115",
-        "ref": "JH051",
+        "highway": "emergency_access_point",
         "name": "JH 051",
-        "highway": "emergency_access_point"
+        "ref": "JH051"
       }
     },
     {
@@ -7065,8 +7065,8 @@
         "@type": "node",
         "@id": 5696743485,
         "@url": "https://www.openstreetmap.org/node/5696743485",
-        "ref": "UH005",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "UH005"
       }
     },
     {
@@ -7136,8 +7136,8 @@
         "@type": "node",
         "@id": 5729152273,
         "@url": "https://www.openstreetmap.org/node/5729152273",
-        "ref": "PR003",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "PR003"
       }
     },
     {
@@ -7153,8 +7153,8 @@
         "@type": "node",
         "@id": 5730381688,
         "@url": "https://www.openstreetmap.org/node/5730381688",
-        "ref": "PR001",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "PR001"
       }
     },
     {
@@ -7263,10 +7263,10 @@
         "@type": "node",
         "@id": 5749417775,
         "@url": "https://www.openstreetmap.org/node/5749417775",
-        "ref": "BR074",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR a.s.",
-        "emergency_telephone_code": "112"
+        "ref": "BR074"
       }
     },
     {
@@ -7282,9 +7282,9 @@
         "@type": "node",
         "@id": 5754638893,
         "@url": "https://www.openstreetmap.org/node/5754638893",
-        "ref": "1",
+        "highway": "emergency_access_point",
         "name": "1",
-        "highway": "emergency_access_point"
+        "ref": "1"
       }
     },
     {
@@ -7300,9 +7300,9 @@
         "@type": "node",
         "@id": 5754638894,
         "@url": "https://www.openstreetmap.org/node/5754638894",
-        "ref": "2",
+        "highway": "emergency_access_point",
         "name": "2",
-        "highway": "emergency_access_point"
+        "ref": "2"
       }
     },
     {
@@ -7318,9 +7318,9 @@
         "@type": "node",
         "@id": 5754638895,
         "@url": "https://www.openstreetmap.org/node/5754638895",
-        "ref": "3",
+        "highway": "emergency_access_point",
         "name": "3",
-        "highway": "emergency_access_point"
+        "ref": "3"
       }
     },
     {
@@ -7336,9 +7336,9 @@
         "@type": "node",
         "@id": 5754638897,
         "@url": "https://www.openstreetmap.org/node/5754638897",
-        "ref": "5",
+        "highway": "emergency_access_point",
         "name": "5",
-        "highway": "emergency_access_point"
+        "ref": "5"
       }
     },
     {
@@ -7354,9 +7354,9 @@
         "@type": "node",
         "@id": 5754638898,
         "@url": "https://www.openstreetmap.org/node/5754638898",
-        "ref": "7",
+        "highway": "emergency_access_point",
         "name": "7",
-        "highway": "emergency_access_point"
+        "ref": "7"
       }
     },
     {
@@ -7372,9 +7372,9 @@
         "@type": "node",
         "@id": 5754638899,
         "@url": "https://www.openstreetmap.org/node/5754638899",
-        "ref": "8",
+        "highway": "emergency_access_point",
         "name": "8",
-        "highway": "emergency_access_point"
+        "ref": "8"
       }
     },
     {
@@ -7390,9 +7390,9 @@
         "@type": "node",
         "@id": 5754638900,
         "@url": "https://www.openstreetmap.org/node/5754638900",
-        "ref": "9",
+        "highway": "emergency_access_point",
         "name": "9",
-        "highway": "emergency_access_point"
+        "ref": "9"
       }
     },
     {
@@ -7408,9 +7408,9 @@
         "@type": "node",
         "@id": 5754638901,
         "@url": "https://www.openstreetmap.org/node/5754638901",
-        "ref": "10",
+        "highway": "emergency_access_point",
         "name": "10",
-        "highway": "emergency_access_point"
+        "ref": "10"
       }
     },
     {
@@ -7426,9 +7426,9 @@
         "@type": "node",
         "@id": 5754638902,
         "@url": "https://www.openstreetmap.org/node/5754638902",
-        "ref": "11",
+        "highway": "emergency_access_point",
         "name": "11",
-        "highway": "emergency_access_point"
+        "ref": "11"
       }
     },
     {
@@ -7444,9 +7444,9 @@
         "@type": "node",
         "@id": 5754655694,
         "@url": "https://www.openstreetmap.org/node/5754655694",
-        "ref": "12",
+        "highway": "emergency_access_point",
         "name": "12",
-        "highway": "emergency_access_point"
+        "ref": "12"
       }
     },
     {
@@ -7462,9 +7462,9 @@
         "@type": "node",
         "@id": 5754655695,
         "@url": "https://www.openstreetmap.org/node/5754655695",
-        "ref": "13",
+        "highway": "emergency_access_point",
         "name": "13",
-        "highway": "emergency_access_point"
+        "ref": "13"
       }
     },
     {
@@ -7480,9 +7480,9 @@
         "@type": "node",
         "@id": 5754655696,
         "@url": "https://www.openstreetmap.org/node/5754655696",
-        "ref": "14",
+        "highway": "emergency_access_point",
         "name": "14",
-        "highway": "emergency_access_point"
+        "ref": "14"
       }
     },
     {
@@ -7498,9 +7498,9 @@
         "@type": "node",
         "@id": 5754655697,
         "@url": "https://www.openstreetmap.org/node/5754655697",
-        "ref": "15",
+        "highway": "emergency_access_point",
         "name": "15",
-        "highway": "emergency_access_point"
+        "ref": "15"
       }
     },
     {
@@ -7516,9 +7516,9 @@
         "@type": "node",
         "@id": 5754655698,
         "@url": "https://www.openstreetmap.org/node/5754655698",
-        "ref": "16",
+        "highway": "emergency_access_point",
         "name": "16",
-        "highway": "emergency_access_point"
+        "ref": "16"
       }
     },
     {
@@ -7534,9 +7534,9 @@
         "@type": "node",
         "@id": 5754655699,
         "@url": "https://www.openstreetmap.org/node/5754655699",
-        "ref": "17",
+        "highway": "emergency_access_point",
         "name": "17",
-        "highway": "emergency_access_point"
+        "ref": "17"
       }
     },
     {
@@ -7552,9 +7552,9 @@
         "@type": "node",
         "@id": 5754655700,
         "@url": "https://www.openstreetmap.org/node/5754655700",
-        "ref": "18",
+        "highway": "emergency_access_point",
         "name": "18",
-        "highway": "emergency_access_point"
+        "ref": "18"
       }
     },
     {
@@ -7570,9 +7570,9 @@
         "@type": "node",
         "@id": 5754655701,
         "@url": "https://www.openstreetmap.org/node/5754655701",
-        "ref": "19",
+        "highway": "emergency_access_point",
         "name": "19",
-        "highway": "emergency_access_point"
+        "ref": "19"
       }
     },
     {
@@ -7588,9 +7588,9 @@
         "@type": "node",
         "@id": 5754655702,
         "@url": "https://www.openstreetmap.org/node/5754655702",
-        "ref": "20",
+        "highway": "emergency_access_point",
         "name": "20",
-        "highway": "emergency_access_point"
+        "ref": "20"
       }
     },
     {
@@ -7606,9 +7606,9 @@
         "@type": "node",
         "@id": 5754655703,
         "@url": "https://www.openstreetmap.org/node/5754655703",
-        "ref": "21",
+        "highway": "emergency_access_point",
         "name": "21",
-        "highway": "emergency_access_point"
+        "ref": "21"
       }
     },
     {
@@ -7624,9 +7624,9 @@
         "@type": "node",
         "@id": 5754655704,
         "@url": "https://www.openstreetmap.org/node/5754655704",
-        "ref": "22",
+        "highway": "emergency_access_point",
         "name": "22",
-        "highway": "emergency_access_point"
+        "ref": "22"
       }
     },
     {
@@ -7661,9 +7661,9 @@
         "@type": "node",
         "@id": 5754655706,
         "@url": "https://www.openstreetmap.org/node/5754655706",
-        "ref": "24",
+        "highway": "emergency_access_point",
         "name": "24",
-        "highway": "emergency_access_point"
+        "ref": "24"
       }
     },
     {
@@ -7679,9 +7679,9 @@
         "@type": "node",
         "@id": 5754676154,
         "@url": "https://www.openstreetmap.org/node/5754676154",
-        "ref": "25",
+        "highway": "emergency_access_point",
         "name": "25",
-        "highway": "emergency_access_point"
+        "ref": "25"
       }
     },
     {
@@ -7697,9 +7697,9 @@
         "@type": "node",
         "@id": 5754676155,
         "@url": "https://www.openstreetmap.org/node/5754676155",
-        "ref": "26",
+        "highway": "emergency_access_point",
         "name": "26",
-        "highway": "emergency_access_point"
+        "ref": "26"
       }
     },
     {
@@ -7715,9 +7715,9 @@
         "@type": "node",
         "@id": 5754676156,
         "@url": "https://www.openstreetmap.org/node/5754676156",
-        "ref": "27",
+        "highway": "emergency_access_point",
         "name": "27",
-        "highway": "emergency_access_point"
+        "ref": "27"
       }
     },
     {
@@ -7752,9 +7752,9 @@
         "@type": "node",
         "@id": 5754676158,
         "@url": "https://www.openstreetmap.org/node/5754676158",
-        "ref": "29",
+        "highway": "emergency_access_point",
         "name": "29",
-        "highway": "emergency_access_point"
+        "ref": "29"
       }
     },
     {
@@ -7770,9 +7770,9 @@
         "@type": "node",
         "@id": 5754676160,
         "@url": "https://www.openstreetmap.org/node/5754676160",
-        "ref": "31",
+        "highway": "emergency_access_point",
         "name": "31",
-        "highway": "emergency_access_point"
+        "ref": "31"
       }
     },
     {
@@ -7807,9 +7807,9 @@
         "@type": "node",
         "@id": 5754676162,
         "@url": "https://www.openstreetmap.org/node/5754676162",
-        "ref": "33",
+        "highway": "emergency_access_point",
         "name": "33",
-        "highway": "emergency_access_point"
+        "ref": "33"
       }
     },
     {
@@ -7825,9 +7825,9 @@
         "@type": "node",
         "@id": 5754676163,
         "@url": "https://www.openstreetmap.org/node/5754676163",
-        "ref": "34",
+        "highway": "emergency_access_point",
         "name": "34",
-        "highway": "emergency_access_point"
+        "ref": "34"
       }
     },
     {
@@ -7843,9 +7843,9 @@
         "@type": "node",
         "@id": 5754676164,
         "@url": "https://www.openstreetmap.org/node/5754676164",
-        "ref": "35",
+        "highway": "emergency_access_point",
         "name": "35",
-        "highway": "emergency_access_point"
+        "ref": "35"
       }
     },
     {
@@ -7861,9 +7861,9 @@
         "@type": "node",
         "@id": 5754676165,
         "@url": "https://www.openstreetmap.org/node/5754676165",
-        "ref": "36",
+        "highway": "emergency_access_point",
         "name": "36",
-        "highway": "emergency_access_point"
+        "ref": "36"
       }
     },
     {
@@ -7879,9 +7879,9 @@
         "@type": "node",
         "@id": 5754676166,
         "@url": "https://www.openstreetmap.org/node/5754676166",
-        "ref": "37",
+        "highway": "emergency_access_point",
         "name": "37",
-        "highway": "emergency_access_point"
+        "ref": "37"
       }
     },
     {
@@ -7897,9 +7897,9 @@
         "@type": "node",
         "@id": 5754676167,
         "@url": "https://www.openstreetmap.org/node/5754676167",
-        "ref": "38",
+        "highway": "emergency_access_point",
         "name": "38",
-        "highway": "emergency_access_point"
+        "ref": "38"
       }
     },
     {
@@ -7970,9 +7970,9 @@
         "@type": "node",
         "@id": 5754676172,
         "@url": "https://www.openstreetmap.org/node/5754676172",
-        "ref": "43",
+        "highway": "emergency_access_point",
         "name": "43",
-        "highway": "emergency_access_point"
+        "ref": "43"
       }
     },
     {
@@ -7988,9 +7988,9 @@
         "@type": "node",
         "@id": 5754676173,
         "@url": "https://www.openstreetmap.org/node/5754676173",
-        "ref": "44",
+        "highway": "emergency_access_point",
         "name": "44",
-        "highway": "emergency_access_point"
+        "ref": "44"
       }
     },
     {
@@ -8006,9 +8006,9 @@
         "@type": "node",
         "@id": 5754676174,
         "@url": "https://www.openstreetmap.org/node/5754676174",
-        "ref": "45",
+        "highway": "emergency_access_point",
         "name": "45",
-        "highway": "emergency_access_point"
+        "ref": "45"
       }
     },
     {
@@ -8024,9 +8024,9 @@
         "@type": "node",
         "@id": 5754676175,
         "@url": "https://www.openstreetmap.org/node/5754676175",
-        "ref": "46",
+        "highway": "emergency_access_point",
         "name": "46",
-        "highway": "emergency_access_point"
+        "ref": "46"
       }
     },
     {
@@ -8042,9 +8042,9 @@
         "@type": "node",
         "@id": 5754676176,
         "@url": "https://www.openstreetmap.org/node/5754676176",
-        "ref": "48",
+        "highway": "emergency_access_point",
         "name": "48",
-        "highway": "emergency_access_point"
+        "ref": "48"
       }
     },
     {
@@ -8060,10 +8060,10 @@
         "@type": "node",
         "@id": 5755817938,
         "@url": "https://www.openstreetmap.org/node/5755817938",
-        "ref": "61",
-        "name": "61",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "61",
+        "operator": "VLS ČR",
+        "ref": "61"
       }
     },
     {
@@ -8079,10 +8079,10 @@
         "@type": "node",
         "@id": 5755817939,
         "@url": "https://www.openstreetmap.org/node/5755817939",
-        "ref": "62",
-        "name": "62",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "62",
+        "operator": "VLS ČR",
+        "ref": "62"
       }
     },
     {
@@ -8098,10 +8098,10 @@
         "@type": "node",
         "@id": 5755817940,
         "@url": "https://www.openstreetmap.org/node/5755817940",
-        "ref": "59",
-        "name": "59",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "59",
+        "operator": "VLS ČR",
+        "ref": "59"
       }
     },
     {
@@ -8117,10 +8117,10 @@
         "@type": "node",
         "@id": 5755817941,
         "@url": "https://www.openstreetmap.org/node/5755817941",
-        "ref": "60",
-        "name": "60",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "60",
+        "operator": "VLS ČR",
+        "ref": "60"
       }
     },
     {
@@ -8136,10 +8136,10 @@
         "@type": "node",
         "@id": 5755817942,
         "@url": "https://www.openstreetmap.org/node/5755817942",
-        "ref": "63",
-        "name": "63",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "63",
+        "operator": "VLS ČR",
+        "ref": "63"
       }
     },
     {
@@ -8155,10 +8155,10 @@
         "@type": "node",
         "@id": 5755817943,
         "@url": "https://www.openstreetmap.org/node/5755817943",
-        "ref": "66",
-        "name": "66",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "66",
+        "operator": "VLS ČR",
+        "ref": "66"
       }
     },
     {
@@ -8174,10 +8174,10 @@
         "@type": "node",
         "@id": 5755817944,
         "@url": "https://www.openstreetmap.org/node/5755817944",
-        "ref": "64",
-        "name": "64",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "64",
+        "operator": "VLS ČR",
+        "ref": "64"
       }
     },
     {
@@ -8193,9 +8193,9 @@
         "@type": "node",
         "@id": 5755817945,
         "@url": "https://www.openstreetmap.org/node/5755817945",
-        "ref": "65",
+        "highway": "emergency_access_point",
         "name": "65",
-        "highway": "emergency_access_point"
+        "ref": "65"
       }
     },
     {
@@ -8211,9 +8211,9 @@
         "@type": "node",
         "@id": 5755817946,
         "@url": "https://www.openstreetmap.org/node/5755817946",
-        "ref": "67",
+        "highway": "emergency_access_point",
         "name": "67",
-        "highway": "emergency_access_point"
+        "ref": "67"
       }
     },
     {
@@ -8248,10 +8248,10 @@
         "@type": "node",
         "@id": 5755817948,
         "@url": "https://www.openstreetmap.org/node/5755817948",
-        "ref": "58",
-        "name": "58",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "58",
+        "operator": "VLS ČR",
+        "ref": "58"
       }
     },
     {
@@ -8267,10 +8267,10 @@
         "@type": "node",
         "@id": 5755817949,
         "@url": "https://www.openstreetmap.org/node/5755817949",
-        "ref": "57",
-        "name": "57",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "57",
+        "operator": "VLS ČR",
+        "ref": "57"
       }
     },
     {
@@ -8286,10 +8286,10 @@
         "@type": "node",
         "@id": 5755817950,
         "@url": "https://www.openstreetmap.org/node/5755817950",
-        "ref": "53",
-        "name": "53",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "53",
+        "operator": "VLS ČR",
+        "ref": "53"
       }
     },
     {
@@ -8305,10 +8305,10 @@
         "@type": "node",
         "@id": 5755817951,
         "@url": "https://www.openstreetmap.org/node/5755817951",
-        "ref": "47",
-        "name": "47",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "47",
+        "operator": "VLS ČR",
+        "ref": "47"
       }
     },
     {
@@ -8324,10 +8324,10 @@
         "@type": "node",
         "@id": 5755817952,
         "@url": "https://www.openstreetmap.org/node/5755817952",
-        "ref": "48",
-        "name": "48",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "48",
+        "operator": "VLS ČR",
+        "ref": "48"
       }
     },
     {
@@ -8343,10 +8343,10 @@
         "@type": "node",
         "@id": 5755817953,
         "@url": "https://www.openstreetmap.org/node/5755817953",
-        "ref": "54",
-        "name": "54",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "54",
+        "operator": "VLS ČR",
+        "ref": "54"
       }
     },
     {
@@ -8362,10 +8362,10 @@
         "@type": "node",
         "@id": 5755817954,
         "@url": "https://www.openstreetmap.org/node/5755817954",
-        "ref": "49",
-        "name": "49",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "49",
+        "operator": "VLS ČR",
+        "ref": "49"
       }
     },
     {
@@ -8381,10 +8381,10 @@
         "@type": "node",
         "@id": 5755817955,
         "@url": "https://www.openstreetmap.org/node/5755817955",
-        "ref": "50",
-        "name": "50",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "50",
+        "operator": "VLS ČR",
+        "ref": "50"
       }
     },
     {
@@ -8400,10 +8400,10 @@
         "@type": "node",
         "@id": 5755817956,
         "@url": "https://www.openstreetmap.org/node/5755817956",
-        "ref": "51",
-        "name": "51",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "51",
+        "operator": "VLS ČR",
+        "ref": "51"
       }
     },
     {
@@ -8457,10 +8457,10 @@
         "@type": "node",
         "@id": 5755962197,
         "@url": "https://www.openstreetmap.org/node/5755962197",
-        "ref": "326",
-        "name": "326",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "326",
+        "operator": "VLS ČR",
+        "ref": "326"
       }
     },
     {
@@ -8476,10 +8476,10 @@
         "@type": "node",
         "@id": 5755962198,
         "@url": "https://www.openstreetmap.org/node/5755962198",
-        "ref": "347",
-        "name": "347",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "347",
+        "operator": "VLS ČR",
+        "ref": "347"
       }
     },
     {
@@ -8495,10 +8495,10 @@
         "@type": "node",
         "@id": 5755962199,
         "@url": "https://www.openstreetmap.org/node/5755962199",
-        "ref": "334",
-        "name": "334",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "334",
+        "operator": "VLS ČR",
+        "ref": "334"
       }
     },
     {
@@ -8514,10 +8514,10 @@
         "@type": "node",
         "@id": 5755962200,
         "@url": "https://www.openstreetmap.org/node/5755962200",
-        "ref": "2",
-        "name": "2",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "2",
+        "operator": "VLS ČR",
+        "ref": "2"
       }
     },
     {
@@ -8533,10 +8533,10 @@
         "@type": "node",
         "@id": 5755962201,
         "@url": "https://www.openstreetmap.org/node/5755962201",
-        "ref": "333",
-        "name": "333",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "333",
+        "operator": "VLS ČR",
+        "ref": "333"
       }
     },
     {
@@ -8552,10 +8552,10 @@
         "@type": "node",
         "@id": 5755962202,
         "@url": "https://www.openstreetmap.org/node/5755962202",
-        "ref": "323",
-        "name": "323",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "323",
+        "operator": "VLS ČR",
+        "ref": "323"
       }
     },
     {
@@ -8571,10 +8571,10 @@
         "@type": "node",
         "@id": 5755962203,
         "@url": "https://www.openstreetmap.org/node/5755962203",
-        "ref": "345",
-        "name": "345",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "345",
+        "operator": "VLS ČR",
+        "ref": "345"
       }
     },
     {
@@ -8590,10 +8590,10 @@
         "@type": "node",
         "@id": 5755962204,
         "@url": "https://www.openstreetmap.org/node/5755962204",
-        "ref": "322",
-        "name": "322",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "322",
+        "operator": "VLS ČR",
+        "ref": "322"
       }
     },
     {
@@ -8609,10 +8609,10 @@
         "@type": "node",
         "@id": 5755962205,
         "@url": "https://www.openstreetmap.org/node/5755962205",
-        "ref": "324",
-        "name": "324",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "324",
+        "operator": "VLS ČR",
+        "ref": "324"
       }
     },
     {
@@ -8628,10 +8628,10 @@
         "@type": "node",
         "@id": 5755962206,
         "@url": "https://www.openstreetmap.org/node/5755962206",
-        "ref": "344",
-        "name": "344",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "344",
+        "operator": "VLS ČR",
+        "ref": "344"
       }
     },
     {
@@ -8647,10 +8647,10 @@
         "@type": "node",
         "@id": 5755962207,
         "@url": "https://www.openstreetmap.org/node/5755962207",
-        "ref": "325",
-        "name": "325",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "325",
+        "operator": "VLS ČR",
+        "ref": "325"
       }
     },
     {
@@ -8666,10 +8666,10 @@
         "@type": "node",
         "@id": 5756059428,
         "@url": "https://www.openstreetmap.org/node/5756059428",
-        "ref": "342",
-        "name": "342",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "342",
+        "operator": "VLS ČR",
+        "ref": "342"
       }
     },
     {
@@ -8685,10 +8685,10 @@
         "@type": "node",
         "@id": 5756059429,
         "@url": "https://www.openstreetmap.org/node/5756059429",
-        "ref": "343",
-        "name": "343",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "343",
+        "operator": "VLS ČR",
+        "ref": "343"
       }
     },
     {
@@ -8704,10 +8704,10 @@
         "@type": "node",
         "@id": 5756059430,
         "@url": "https://www.openstreetmap.org/node/5756059430",
-        "ref": "327",
-        "name": "327",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "327",
+        "operator": "VLS ČR",
+        "ref": "327"
       }
     },
     {
@@ -8723,10 +8723,10 @@
         "@type": "node",
         "@id": 5756059431,
         "@url": "https://www.openstreetmap.org/node/5756059431",
-        "ref": "6",
-        "name": "6",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "6",
+        "operator": "VLS ČR",
+        "ref": "6"
       }
     },
     {
@@ -8742,10 +8742,10 @@
         "@type": "node",
         "@id": 5756059432,
         "@url": "https://www.openstreetmap.org/node/5756059432",
-        "ref": "328",
-        "name": "328",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "328",
+        "operator": "VLS ČR",
+        "ref": "328"
       }
     },
     {
@@ -8761,10 +8761,10 @@
         "@type": "node",
         "@id": 5756059433,
         "@url": "https://www.openstreetmap.org/node/5756059433",
-        "ref": "329",
-        "name": "329",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "329",
+        "operator": "VLS ČR",
+        "ref": "329"
       }
     },
     {
@@ -8780,10 +8780,10 @@
         "@type": "node",
         "@id": 5756059434,
         "@url": "https://www.openstreetmap.org/node/5756059434",
-        "ref": "330",
-        "name": "330",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "330",
+        "operator": "VLS ČR",
+        "ref": "330"
       }
     },
     {
@@ -8799,10 +8799,10 @@
         "@type": "node",
         "@id": 5756059435,
         "@url": "https://www.openstreetmap.org/node/5756059435",
-        "ref": "331",
-        "name": "331",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "331",
+        "operator": "VLS ČR",
+        "ref": "331"
       }
     },
     {
@@ -8818,10 +8818,10 @@
         "@type": "node",
         "@id": 5756059436,
         "@url": "https://www.openstreetmap.org/node/5756059436",
-        "ref": "332",
-        "name": "332",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "332",
+        "operator": "VLS ČR",
+        "ref": "332"
       }
     },
     {
@@ -8837,10 +8837,10 @@
         "@type": "node",
         "@id": 5756059437,
         "@url": "https://www.openstreetmap.org/node/5756059437",
-        "ref": "335",
-        "name": "335",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "335",
+        "operator": "VLS ČR",
+        "ref": "335"
       }
     },
     {
@@ -8856,10 +8856,10 @@
         "@type": "node",
         "@id": 5756059438,
         "@url": "https://www.openstreetmap.org/node/5756059438",
-        "ref": "336",
-        "name": "336",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "336",
+        "operator": "VLS ČR",
+        "ref": "336"
       }
     },
     {
@@ -8875,10 +8875,10 @@
         "@type": "node",
         "@id": 5756059439,
         "@url": "https://www.openstreetmap.org/node/5756059439",
-        "ref": "321",
-        "name": "321",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "321",
+        "operator": "VLS ČR",
+        "ref": "321"
       }
     },
     {
@@ -8913,10 +8913,10 @@
         "@type": "node",
         "@id": 5756059441,
         "@url": "https://www.openstreetmap.org/node/5756059441",
-        "ref": "320",
-        "name": "320",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "320",
+        "operator": "VLS ČR",
+        "ref": "320"
       }
     },
     {
@@ -8932,10 +8932,10 @@
         "@type": "node",
         "@id": 5756059442,
         "@url": "https://www.openstreetmap.org/node/5756059442",
-        "ref": "337",
-        "name": "337",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "337",
+        "operator": "VLS ČR",
+        "ref": "337"
       }
     },
     {
@@ -8968,10 +8968,10 @@
         "@type": "node",
         "@id": 5756059444,
         "@url": "https://www.openstreetmap.org/node/5756059444",
-        "ref": "302",
-        "name": "302",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "302",
+        "operator": "VLS ČR",
+        "ref": "302"
       }
     },
     {
@@ -8987,10 +8987,10 @@
         "@type": "node",
         "@id": 5756059445,
         "@url": "https://www.openstreetmap.org/node/5756059445",
-        "ref": "303",
-        "name": "303",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "303",
+        "operator": "VLS ČR",
+        "ref": "303"
       }
     },
     {
@@ -9006,10 +9006,10 @@
         "@type": "node",
         "@id": 5756059446,
         "@url": "https://www.openstreetmap.org/node/5756059446",
-        "ref": "1",
-        "name": "1",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "1",
+        "operator": "VLS ČR",
+        "ref": "1"
       }
     },
     {
@@ -9025,10 +9025,10 @@
         "@type": "node",
         "@id": 5756059447,
         "@url": "https://www.openstreetmap.org/node/5756059447",
-        "ref": "304",
-        "name": "304",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "304",
+        "operator": "VLS ČR",
+        "ref": "304"
       }
     },
     {
@@ -9063,10 +9063,10 @@
         "@type": "node",
         "@id": 5756059449,
         "@url": "https://www.openstreetmap.org/node/5756059449",
-        "ref": "306",
-        "name": "306",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "306",
+        "operator": "VLS ČR",
+        "ref": "306"
       }
     },
     {
@@ -9082,10 +9082,10 @@
         "@type": "node",
         "@id": 5756059450,
         "@url": "https://www.openstreetmap.org/node/5756059450",
-        "ref": "307",
-        "name": "307",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "307",
+        "operator": "VLS ČR",
+        "ref": "307"
       }
     },
     {
@@ -9101,10 +9101,10 @@
         "@type": "node",
         "@id": 5756059451,
         "@url": "https://www.openstreetmap.org/node/5756059451",
-        "ref": "308",
-        "name": "308",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "308",
+        "operator": "VLS ČR",
+        "ref": "308"
       }
     },
     {
@@ -9120,10 +9120,10 @@
         "@type": "node",
         "@id": 5756059452,
         "@url": "https://www.openstreetmap.org/node/5756059452",
-        "ref": "311",
-        "name": "311",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "311",
+        "operator": "VLS ČR",
+        "ref": "311"
       }
     },
     {
@@ -9139,10 +9139,10 @@
         "@type": "node",
         "@id": 5756059453,
         "@url": "https://www.openstreetmap.org/node/5756059453",
-        "ref": "312",
-        "name": "312",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "312",
+        "operator": "VLS ČR",
+        "ref": "312"
       }
     },
     {
@@ -9158,10 +9158,10 @@
         "@type": "node",
         "@id": 5756059454,
         "@url": "https://www.openstreetmap.org/node/5756059454",
-        "ref": "5",
-        "name": "5",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "5",
+        "operator": "VLS ČR",
+        "ref": "5"
       }
     },
     {
@@ -9177,10 +9177,10 @@
         "@type": "node",
         "@id": 5756059455,
         "@url": "https://www.openstreetmap.org/node/5756059455",
-        "ref": "313",
-        "name": "313",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "313",
+        "operator": "VLS ČR",
+        "ref": "313"
       }
     },
     {
@@ -9196,10 +9196,10 @@
         "@type": "node",
         "@id": 5756059456,
         "@url": "https://www.openstreetmap.org/node/5756059456",
-        "ref": "314",
-        "name": "314",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "314",
+        "operator": "VLS ČR",
+        "ref": "314"
       }
     },
     {
@@ -9215,10 +9215,10 @@
         "@type": "node",
         "@id": 5756059457,
         "@url": "https://www.openstreetmap.org/node/5756059457",
-        "ref": "318",
-        "name": "318",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "318",
+        "operator": "VLS ČR",
+        "ref": "318"
       }
     },
     {
@@ -9234,10 +9234,10 @@
         "@type": "node",
         "@id": 5756059458,
         "@url": "https://www.openstreetmap.org/node/5756059458",
-        "ref": "340",
-        "name": "340",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "340",
+        "operator": "VLS ČR",
+        "ref": "340"
       }
     },
     {
@@ -9253,10 +9253,10 @@
         "@type": "node",
         "@id": 5756059459,
         "@url": "https://www.openstreetmap.org/node/5756059459",
-        "ref": "319",
-        "name": "319",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "319",
+        "operator": "VLS ČR",
+        "ref": "319"
       }
     },
     {
@@ -9272,10 +9272,10 @@
         "@type": "node",
         "@id": 5756059460,
         "@url": "https://www.openstreetmap.org/node/5756059460",
-        "ref": "317",
-        "name": "317",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "317",
+        "operator": "VLS ČR",
+        "ref": "317"
       }
     },
     {
@@ -9291,10 +9291,10 @@
         "@type": "node",
         "@id": 5756059461,
         "@url": "https://www.openstreetmap.org/node/5756059461",
-        "ref": "315",
-        "name": "315",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "315",
+        "operator": "VLS ČR",
+        "ref": "315"
       }
     },
     {
@@ -9310,10 +9310,10 @@
         "@type": "node",
         "@id": 5756059462,
         "@url": "https://www.openstreetmap.org/node/5756059462",
-        "ref": "316",
-        "name": "316",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "316",
+        "operator": "VLS ČR",
+        "ref": "316"
       }
     },
     {
@@ -9329,10 +9329,10 @@
         "@type": "node",
         "@id": 5756059463,
         "@url": "https://www.openstreetmap.org/node/5756059463",
-        "ref": "4",
-        "name": "4",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "4",
+        "operator": "VLS ČR",
+        "ref": "4"
       }
     },
     {
@@ -9367,10 +9367,10 @@
         "@type": "node",
         "@id": 5756059465,
         "@url": "https://www.openstreetmap.org/node/5756059465",
-        "ref": "310",
-        "name": "310",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "310",
+        "operator": "VLS ČR",
+        "ref": "310"
       }
     },
     {
@@ -9386,10 +9386,10 @@
         "@type": "node",
         "@id": 5756059466,
         "@url": "https://www.openstreetmap.org/node/5756059466",
-        "ref": "339",
-        "name": "339",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "339",
+        "operator": "VLS ČR",
+        "ref": "339"
       }
     },
     {
@@ -9405,10 +9405,10 @@
         "@type": "node",
         "@id": 5756059467,
         "@url": "https://www.openstreetmap.org/node/5756059467",
-        "ref": "309",
-        "name": "309",
         "highway": "emergency_access_point",
-        "operator": "VLS ČR"
+        "name": "309",
+        "operator": "VLS ČR",
+        "ref": "309"
       }
     },
     {
@@ -9424,8 +9424,8 @@
         "@type": "node",
         "@id": 5756059468,
         "@url": "https://www.openstreetmap.org/node/5756059468",
-        "name": "3",
         "highway": "emergency_access_point",
+        "name": "3",
         "operator": "VLS ČR"
       }
     },
@@ -9461,9 +9461,9 @@
         "@type": "node",
         "@id": 5775614968,
         "@url": "https://www.openstreetmap.org/node/5775614968",
-        "ref": "PT011",
+        "highway": "emergency_access_point",
         "name": "PT 011",
-        "highway": "emergency_access_point"
+        "ref": "PT011"
       }
     },
     {
@@ -9683,9 +9683,9 @@
         "@type": "node",
         "@id": 5810101842,
         "@url": "https://www.openstreetmap.org/node/5810101842",
+        "highway": "emergency_access_point",
         "ref": "BO010",
-        "source": "survey",
-        "highway": "emergency_access_point"
+        "source": "survey"
       }
     },
     {
@@ -9904,8 +9904,8 @@
         "@type": "node",
         "@id": 5873783112,
         "@url": "https://www.openstreetmap.org/node/5873783112",
-        "ref": "SU101",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "SU101"
       }
     },
     {
@@ -9995,8 +9995,8 @@
         "@type": "node",
         "@id": 5936611160,
         "@url": "https://www.openstreetmap.org/node/5936611160",
-        "ref": "PV002",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "PV002"
       }
     },
     {
@@ -10302,11 +10302,11 @@
         "@type": "node",
         "@id": 6039507128,
         "@url": "https://www.openstreetmap.org/node/6039507128",
-        "ref": "BR052",
-        "name": "Alfrédka",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "name": "Alfrédka",
         "operator": "Lesy ČR a.s.",
-        "emergency_telephone_code": "112"
+        "ref": "BR052"
       }
     },
     {
@@ -10322,10 +10322,10 @@
         "@type": "node",
         "@id": 6039540392,
         "@url": "https://www.openstreetmap.org/node/6039540392",
-        "ref": "BR055",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR a.s.",
-        "emergency_telephone_code": "112"
+        "ref": "BR055"
       }
     },
     {
@@ -10341,8 +10341,8 @@
         "@type": "node",
         "@id": 6126734517,
         "@url": "https://www.openstreetmap.org/node/6126734517",
-        "ref": "OC036",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "OC036"
       }
     },
     {
@@ -10433,11 +10433,11 @@
         "@type": "node",
         "@id": 6254393232,
         "@url": "https://www.openstreetmap.org/node/6254393232",
-        "ref": "PS024",
-        "name": "PS024",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "name": "PS024",
         "operator": "Lesy ČR",
-        "emergency_telephone_code": "112"
+        "ref": "PS024"
       }
     },
     {
@@ -10511,10 +10511,10 @@
         "@type": "node",
         "@id": 6286177384,
         "@url": "https://www.openstreetmap.org/node/6286177384",
-        "ref": "BM001",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Mendelova univerzita v Brně",
-        "emergency_telephone_code": "112"
+        "ref": "BM001"
       }
     },
     {
@@ -10530,9 +10530,9 @@
         "@type": "node",
         "@id": 6357130556,
         "@url": "https://www.openstreetmap.org/node/6357130556",
-        "ref": "AA001",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "ref": "AA001"
       }
     },
     {
@@ -10603,9 +10603,9 @@
         "@type": "node",
         "@id": 6420992988,
         "@url": "https://www.openstreetmap.org/node/6420992988",
-        "ref": "BO031",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "emergency": "access_point"
+        "ref": "BO031"
       }
     },
     {
@@ -11080,10 +11080,10 @@
         "@type": "node",
         "@id": 6699297057,
         "@url": "https://www.openstreetmap.org/node/6699297057",
-        "ref": "JH010",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "JH010"
       }
     },
     {
@@ -11247,9 +11247,9 @@
         "@type": "node",
         "@id": 6745524197,
         "@url": "https://www.openstreetmap.org/node/6745524197",
-        "ref": "0027",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "emergency": "access_point"
+        "ref": "0027"
       }
     },
     {
@@ -11341,9 +11341,9 @@
         "@type": "node",
         "@id": 6781170806,
         "@url": "https://www.openstreetmap.org/node/6781170806",
-        "ref": "013",
+        "highway": "emergency_access_point",
         "name": "CB 013",
-        "highway": "emergency_access_point"
+        "ref": "013"
       }
     },
     {
@@ -11379,11 +11379,11 @@
         "@type": "node",
         "@id": 6799093558,
         "@url": "https://www.openstreetmap.org/node/6799093558",
-        "ref": "JH079",
+        "emergency": "access_point",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency": "access_point",
-        "emergency_telephone_code": "112"
+        "ref": "JH079"
       }
     },
     {
@@ -11399,10 +11399,10 @@
         "@type": "node",
         "@id": 6810804785,
         "@url": "https://www.openstreetmap.org/node/6810804785",
-        "ref": "UO026",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR",
-        "emergency_telephone_code": "112"
+        "ref": "UO026"
       }
     },
     {
@@ -11418,10 +11418,10 @@
         "@type": "node",
         "@id": 6810804794,
         "@url": "https://www.openstreetmap.org/node/6810804794",
-        "ref": "UO008",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR",
-        "emergency_telephone_code": "112"
+        "ref": "UO008"
       }
     },
     {
@@ -11491,9 +11491,9 @@
         "@type": "node",
         "@id": 6817186171,
         "@url": "https://www.openstreetmap.org/node/6817186171",
-        "ref": "KO001",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
-        "emergency": "access_point"
+        "ref": "KO001"
       }
     },
     {
@@ -11733,8 +11733,8 @@
         "@type": "node",
         "@id": 7093856379,
         "@url": "https://www.openstreetmap.org/node/7093856379",
-        "ref": "131",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "131"
       }
     },
     {
@@ -11786,10 +11786,10 @@
         "@type": "node",
         "@id": 7116872715,
         "@url": "https://www.openstreetmap.org/node/7116872715",
-        "ref": "PA003",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "PA003"
       }
     },
     {
@@ -11881,10 +11881,10 @@
         "@type": "node",
         "@id": 7128489655,
         "@url": "https://www.openstreetmap.org/node/7128489655",
-        "ref": "JH044",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "JH044"
       }
     },
     {
@@ -11900,10 +11900,10 @@
         "@type": "node",
         "@id": 7132788222,
         "@url": "https://www.openstreetmap.org/node/7132788222",
-        "ref": "JE017",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "JE017"
       }
     },
     {
@@ -11919,8 +11919,8 @@
         "@type": "node",
         "@id": 7143433680,
         "@url": "https://www.openstreetmap.org/node/7143433680",
-        "ref": "BK001",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "BK001"
       }
     },
     {
@@ -11936,10 +11936,10 @@
         "@type": "node",
         "@id": 7150360757,
         "@url": "https://www.openstreetmap.org/node/7150360757",
-        "ref": "ST004",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "ST004"
       }
     },
     {
@@ -11955,10 +11955,10 @@
         "@type": "node",
         "@id": 7150360759,
         "@url": "https://www.openstreetmap.org/node/7150360759",
-        "ref": "PT027",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "PT027"
       }
     },
     {
@@ -11993,10 +11993,10 @@
         "@type": "node",
         "@id": 7156232710,
         "@url": "https://www.openstreetmap.org/node/7156232710",
-        "ref": "KT051",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "KT051"
       }
     },
     {
@@ -12012,9 +12012,9 @@
         "@type": "node",
         "@id": 7156232711,
         "@url": "https://www.openstreetmap.org/node/7156232711",
-        "ref": "A27",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "ref": "A27"
       }
     },
     {
@@ -12030,11 +12030,11 @@
         "@type": "node",
         "@id": 7183713597,
         "@url": "https://www.openstreetmap.org/node/7183713597",
-        "ref": "HK018",
-        "source": "survey",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "HK018",
+        "source": "survey"
       }
     },
     {
@@ -12050,10 +12050,10 @@
         "@type": "node",
         "@id": 7183713599,
         "@url": "https://www.openstreetmap.org/node/7183713599",
-        "ref": "RK016",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "RK016"
       }
     },
     {
@@ -12088,11 +12088,11 @@
         "@type": "node",
         "@id": 7210805643,
         "@url": "https://www.openstreetmap.org/node/7210805643",
-        "ref": "18",
-        "name": "Celnice",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "name": "Celnice",
         "operator": "NP Podýjí",
-        "emergency_telephone_code": "112"
+        "ref": "18"
       }
     },
     {
@@ -12130,10 +12130,10 @@
         "@type": "node",
         "@id": 7219106902,
         "@url": "https://www.openstreetmap.org/node/7219106902",
-        "ref": "KT004",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "KT004"
       }
     },
     {
@@ -12149,10 +12149,10 @@
         "@type": "node",
         "@id": 7219106904,
         "@url": "https://www.openstreetmap.org/node/7219106904",
-        "ref": "FM027",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "FM027"
       }
     },
     {
@@ -12187,10 +12187,10 @@
         "@type": "node",
         "@id": 7219106906,
         "@url": "https://www.openstreetmap.org/node/7219106906",
-        "ref": "NA053",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "NA053"
       }
     },
     {
@@ -12244,10 +12244,10 @@
         "@type": "node",
         "@id": 7237227137,
         "@url": "https://www.openstreetmap.org/node/7237227137",
-        "ref": "CV065",
-        "name": "CV065",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "name": "CV065",
+        "ref": "CV065"
       }
     },
     {
@@ -12359,10 +12359,10 @@
         "@type": "node",
         "@id": 7256175509,
         "@url": "https://www.openstreetmap.org/node/7256175509",
-        "ref": "MO002",
-        "name": "MO002",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "name": "MO002",
+        "ref": "MO002"
       }
     },
     {
@@ -12415,10 +12415,10 @@
         "@type": "node",
         "@id": 7277615485,
         "@url": "https://www.openstreetmap.org/node/7277615485",
-        "ref": "SO011",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "SO011"
       }
     },
     {
@@ -12434,8 +12434,8 @@
         "@type": "node",
         "@id": 7289516977,
         "@url": "https://www.openstreetmap.org/node/7289516977",
-        "ref": "OC039",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "OC039"
       }
     },
     {
@@ -12451,8 +12451,8 @@
         "@type": "node",
         "@id": 7289516983,
         "@url": "https://www.openstreetmap.org/node/7289516983",
-        "ref": "OC009",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "OC009"
       }
     },
     {
@@ -12468,11 +12468,11 @@
         "@type": "node",
         "@id": 7331318153,
         "@url": "https://www.openstreetmap.org/node/7331318153",
-        "ref": "17",
-        "name": "Hardeggská vyhlídka",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "name": "Hardeggská vyhlídka",
         "operator": "NP Podyjí",
-        "emergency_telephone_code": "112"
+        "ref": "17"
       }
     },
     {
@@ -12526,10 +12526,10 @@
         "@type": "node",
         "@id": 7357987508,
         "@url": "https://www.openstreetmap.org/node/7357987508",
-        "ref": "KV061",
-        "name": "KV061",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "name": "KV061",
+        "ref": "KV061"
       }
     },
     {
@@ -12545,10 +12545,10 @@
         "@type": "node",
         "@id": 7359319622,
         "@url": "https://www.openstreetmap.org/node/7359319622",
-        "ref": "SY032",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "SY032"
       }
     },
     {
@@ -12564,10 +12564,10 @@
         "@type": "node",
         "@id": 7359935196,
         "@url": "https://www.openstreetmap.org/node/7359935196",
-        "ref": "KV040",
-        "name": "KV040",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "name": "KV040",
+        "ref": "KV040"
       }
     },
     {
@@ -12621,8 +12621,8 @@
         "@type": "node",
         "@id": 7371739556,
         "@url": "https://www.openstreetmap.org/node/7371739556",
-        "ref": "VY016",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "VY016"
       }
     },
     {
@@ -12658,10 +12658,10 @@
         "@type": "node",
         "@id": 7385441475,
         "@url": "https://www.openstreetmap.org/node/7385441475",
-        "ref": "KV053",
-        "name": "KV053",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "name": "KV053",
+        "ref": "KV053"
       }
     },
     {
@@ -12677,10 +12677,10 @@
         "@type": "node",
         "@id": 7385441476,
         "@url": "https://www.openstreetmap.org/node/7385441476",
-        "ref": "KV059",
-        "name": "KV059",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "name": "KV059",
+        "ref": "KV059"
       }
     },
     {
@@ -12696,10 +12696,10 @@
         "@type": "node",
         "@id": 7385441477,
         "@url": "https://www.openstreetmap.org/node/7385441477",
-        "ref": "KV045",
-        "name": "KV045",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "emergency_telephone_code": "112"
+        "name": "KV045",
+        "ref": "KV045"
       }
     },
     {
@@ -12715,10 +12715,10 @@
         "@type": "node",
         "@id": 7397944396,
         "@url": "https://www.openstreetmap.org/node/7397944396",
-        "ref": "CR042",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Městské lesy Chrudim s.r.o.",
-        "emergency_telephone_code": "112"
+        "ref": "CR042"
       }
     },
     {
@@ -12734,10 +12734,10 @@
         "@type": "node",
         "@id": 7398077490,
         "@url": "https://www.openstreetmap.org/node/7398077490",
-        "ref": "JH077",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "JH077"
       }
     },
     {
@@ -12753,10 +12753,10 @@
         "@type": "node",
         "@id": 7398319884,
         "@url": "https://www.openstreetmap.org/node/7398319884",
-        "ref": "TA008",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "TA008"
       }
     },
     {
@@ -13890,10 +13890,10 @@
         "@type": "node",
         "@id": 7500159104,
         "@url": "https://www.openstreetmap.org/node/7500159104",
-        "ref": "BV006",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "BV006"
       }
     },
     {
@@ -13909,11 +13909,11 @@
         "@type": "node",
         "@id": 7501823633,
         "@url": "https://www.openstreetmap.org/node/7501823633",
-        "ref": "HK013",
-        "source": "survey",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "HK013",
+        "source": "survey"
       }
     },
     {
@@ -13929,10 +13929,10 @@
         "@type": "node",
         "@id": 7518221224,
         "@url": "https://www.openstreetmap.org/node/7518221224",
-        "ref": "PE012",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "PE012"
       }
     },
     {
@@ -13948,11 +13948,11 @@
         "@type": "node",
         "@id": 7518224384,
         "@url": "https://www.openstreetmap.org/node/7518224384",
-        "ref": "BV012",
-        "name": "BV 012",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "name": "BV 012",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "BV012"
       }
     },
     {
@@ -14635,10 +14635,10 @@
         "@type": "node",
         "@id": 7529083845,
         "@url": "https://www.openstreetmap.org/node/7529083845",
-        "ref": "KH013",
+        "emergency": "access_point",
         "highway": "emergency_access_point",
         "operator": "České Lesy a. s.",
-        "emergency": "access_point"
+        "ref": "KH013"
       }
     },
     {
@@ -14654,8 +14654,8 @@
         "@type": "node",
         "@id": 7533523753,
         "@url": "https://www.openstreetmap.org/node/7533523753",
-        "ref": "OL022",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "OL022"
       }
     },
     {
@@ -14671,10 +14671,10 @@
         "@type": "node",
         "@id": 7539812530,
         "@url": "https://www.openstreetmap.org/node/7539812530",
-        "ref": "BK025",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "BK025"
       }
     },
     {
@@ -14747,10 +14747,10 @@
         "@type": "node",
         "@id": 7555543396,
         "@url": "https://www.openstreetmap.org/node/7555543396",
-        "ref": "LN008",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, a.s.",
-        "emergency_telephone_code": "112"
+        "ref": "LN008"
       }
     },
     {
@@ -14785,10 +14785,10 @@
         "@type": "node",
         "@id": 7574291190,
         "@url": "https://www.openstreetmap.org/node/7574291190",
-        "ref": "KT016",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "KT016"
       }
     },
     {
@@ -14804,8 +14804,8 @@
         "@type": "node",
         "@id": 7580114437,
         "@url": "https://www.openstreetmap.org/node/7580114437",
-        "ref": "BN009",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "BN009"
       }
     },
     {
@@ -14821,10 +14821,10 @@
         "@type": "node",
         "@id": 7592363343,
         "@url": "https://www.openstreetmap.org/node/7592363343",
-        "ref": "JE006",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "JE006"
       }
     },
     {
@@ -14840,10 +14840,10 @@
         "@type": "node",
         "@id": 7608552094,
         "@url": "https://www.openstreetmap.org/node/7608552094",
-        "ref": "JE007",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "JE007"
       }
     },
     {
@@ -14859,10 +14859,10 @@
         "@type": "node",
         "@id": 7611198073,
         "@url": "https://www.openstreetmap.org/node/7611198073",
-        "ref": "JE012",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "JE012"
       }
     },
     {
@@ -14878,10 +14878,10 @@
         "@type": "node",
         "@id": 7625128642,
         "@url": "https://www.openstreetmap.org/node/7625128642",
-        "ref": "NY011",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "NY011"
       }
     },
     {
@@ -14897,8 +14897,8 @@
         "@type": "node",
         "@id": 7630439524,
         "@url": "https://www.openstreetmap.org/node/7630439524",
-        "ref": "KM025",
-        "highway": "emergency_access_point"
+        "highway": "emergency_access_point",
+        "ref": "KM025"
       }
     },
     {
@@ -14933,10 +14933,10 @@
         "@type": "node",
         "@id": 7642001266,
         "@url": "https://www.openstreetmap.org/node/7642001266",
-        "ref": "TC030",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "TC030"
       }
     },
     {
@@ -15086,9 +15086,9 @@
         "@type": "node",
         "@id": 7690696123,
         "@url": "https://www.openstreetmap.org/node/7690696123",
-        "ref": "VS041",
         "highway": "emergency_access_point",
-        "historic": "wayside_cross"
+        "historic": "wayside_cross",
+        "ref": "VS041"
       }
     },
     {
@@ -15104,9 +15104,9 @@
         "@type": "node",
         "@id": 7708053561,
         "@url": "https://www.openstreetmap.org/node/7708053561",
-        "ref": "JH066",
+        "highway": "emergency_access_point",
         "name": "JH 066",
-        "highway": "emergency_access_point"
+        "ref": "JH066"
       }
     },
     {
@@ -15178,10 +15178,10 @@
         "@type": "node",
         "@id": 7755540703,
         "@url": "https://www.openstreetmap.org/node/7755540703",
-        "ref": "SU004",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "SU004"
       }
     },
     {
@@ -15197,10 +15197,10 @@
         "@type": "node",
         "@id": 7755540704,
         "@url": "https://www.openstreetmap.org/node/7755540704",
-        "ref": "SU002",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "SU002"
       }
     },
     {
@@ -15216,9 +15216,9 @@
         "@type": "node",
         "@id": 7758138167,
         "@url": "https://www.openstreetmap.org/node/7758138167",
-        "ref": "PT 060",
+        "highway": "emergency_access_point",
         "name": "PT 060",
-        "highway": "emergency_access_point"
+        "ref": "PT 060"
       }
     },
     {
@@ -15343,10 +15343,10 @@
         "@type": "node",
         "@id": 7784250439,
         "@url": "https://www.openstreetmap.org/node/7784250439",
-        "ref": "FM034",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
-        "emergency_telephone_code": "112"
+        "ref": "FM034"
       }
     },
     {

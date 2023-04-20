@@ -114,9 +114,9 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:white_goods": "yes",
+        "recycling_type": "centre",
         "source:opening_hours": "http://www.bosonohy.cz/VismoOnline_ActionScripts/File.aspx?id_org=80924&id_dokumenty=64174"
       }
     },
@@ -630,13 +630,13 @@
         "@id": 1343799792,
         "@url": "https://www.openstreetmap.org/node/1343799792",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -906,15 +906,15 @@
         "@id": 1822620944,
         "@url": "https://www.openstreetmap.org/node/1822620944",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:green_waste": "yes",
-        "recycling:small_appliances": "yes"
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -985,15 +985,15 @@
         "@type": "node",
         "@id": 2131490968,
         "@url": "https://www.openstreetmap.org/node/2131490968",
-        "source": "survey",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
         "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:organic": "yes",
+        "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes"
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -1055,11 +1055,11 @@
         "@id": 2296437826,
         "@url": "https://www.openstreetmap.org/node/2296437826",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -1176,8 +1176,8 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "container",
-        "recycling:waste": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -1384,16 +1384,16 @@
         "@type": "node",
         "@id": 2499469937,
         "@url": "https://www.openstreetmap.org/node/2499469937",
-        "source": "survey",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:green_waste": "yes",
-        "recycling:small_appliances": "yes"
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -2217,18 +2217,18 @@
         "@type": "node",
         "@id": 3163644617,
         "@url": "https://www.openstreetmap.org/node/3163644617",
-        "source": "survey",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -2431,13 +2431,13 @@
         "@id": 3580390037,
         "@url": "https://www.openstreetmap.org/node/3580390037",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:clothes": "playground",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "playground",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_items": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -2505,13 +2505,13 @@
         "@id": 3686255028,
         "@url": "https://www.openstreetmap.org/node/3686255028",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -2528,14 +2528,14 @@
         "@id": 3686255029,
         "@url": "https://www.openstreetmap.org/node/3686255029",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -2622,14 +2622,14 @@
         "@id": 3967155812,
         "@url": "https://www.openstreetmap.org/node/3967155812",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "container",
-        "recycling:paper": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:beverage_cartons": "yes"
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -2753,8 +2753,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -2919,13 +2919,13 @@
         "@id": 4369771071,
         "@url": "https://www.openstreetmap.org/node/4369771071",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes"
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3204,14 +3204,14 @@
         "@id": 5146839939,
         "@url": "https://www.openstreetmap.org/node/5146839939",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:small_appliances": "yes"
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3396,14 +3396,14 @@
         "@id": 5436255708,
         "@url": "https://www.openstreetmap.org/node/5436255708",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3463,34 +3463,34 @@
         "@type": "node",
         "@id": 5760756031,
         "@url": "https://www.openstreetmap.org/node/5760756031",
-        "name": "Sběrný dvůr Rybník",
-        "phone": "+420 465 533 387",
         "amenity": "recycling",
-        "website": "http://www.rybnik.cz",
-        "operator": "Obec Rybník",
-        "wheelchair": "yes",
+        "name": "Sběrný dvůr Rybník",
         "opening_hours": "We 13:00-17:00; Sa 09:00-13:00; PH closed",
+        "operator": "Obec Rybník",
+        "phone": "+420 465 533 387",
         "recycling:PET": "yes",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:engine_oil": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:clothes": "yes",
         "recycling:coffee_capsules": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.rybnik.cz",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3600,15 +3600,15 @@
         "@type": "node",
         "@id": 5903816679,
         "@url": "https://www.openstreetmap.org/node/5903816679",
-        "source": "streetlevel imagery",
         "amenity": "recycling",
         "covered": "no",
-        "recycling_type": "container",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes"
+        "recycling_type": "container",
+        "source": "streetlevel imagery"
       }
     },
     {
@@ -3660,8 +3660,8 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "container",
-        "recycling:waste": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3880,15 +3880,15 @@
         "@id": 6470941356,
         "@url": "https://www.openstreetmap.org/node/6470941356",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4453,17 +4453,17 @@
         "@id": 7093890849,
         "@url": "https://www.openstreetmap.org/node/7093890849",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4480,17 +4480,17 @@
         "@id": 7093890851,
         "@url": "https://www.openstreetmap.org/node/7093890851",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4507,19 +4507,19 @@
         "@id": 7093890853,
         "@url": "https://www.openstreetmap.org/node/7093890853",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4536,18 +4536,18 @@
         "@id": 7093890855,
         "@url": "https://www.openstreetmap.org/node/7093890855",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4724,17 +4724,17 @@
         "@id": 7159452159,
         "@url": "https://www.openstreetmap.org/node/7159452159",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4751,16 +4751,16 @@
         "@id": 7182579187,
         "@url": "https://www.openstreetmap.org/node/7182579187",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4777,12 +4777,12 @@
         "@id": 7239219684,
         "@url": "https://www.openstreetmap.org/node/7239219684",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -4799,15 +4799,15 @@
         "@id": 7261843451,
         "@url": "https://www.openstreetmap.org/node/7261843451",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4850,16 +4850,16 @@
         "@id": 7275374142,
         "@url": "https://www.openstreetmap.org/node/7275374142",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4876,15 +4876,15 @@
         "@id": 7280466765,
         "@url": "https://www.openstreetmap.org/node/7280466765",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling:cardboard": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4931,10 +4931,10 @@
         "@id": 7301801681,
         "@url": "https://www.openstreetmap.org/node/7301801681",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -4951,14 +4951,14 @@
         "@id": 7301825486,
         "@url": "https://www.openstreetmap.org/node/7301825486",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
         "recycling:clothes": "yes",
-        "recycling:organic": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:electrical_items": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -5018,10 +5018,10 @@
         "@id": 7305912978,
         "@url": "https://www.openstreetmap.org/node/7305912978",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:cooking_oil": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -5038,11 +5038,11 @@
         "@id": 7305912979,
         "@url": "https://www.openstreetmap.org/node/7305912979",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_items": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -5059,11 +5059,11 @@
         "@id": 7305912981,
         "@url": "https://www.openstreetmap.org/node/7305912981",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -5697,16 +5697,16 @@
         "@url": "https://www.openstreetmap.org/node/7395589158",
         "amenity": "recycling",
         "operator": "SAKO",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:plastic_bottles": "yes"
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -5778,15 +5778,15 @@
         "@id": 7482888093,
         "@url": "https://www.openstreetmap.org/node/7482888093",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -5803,15 +5803,15 @@
         "@id": 7482888101,
         "@url": "https://www.openstreetmap.org/node/7482888101",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -5828,16 +5828,16 @@
         "@id": 7498890455,
         "@url": "https://www.openstreetmap.org/node/7498890455",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -5854,8 +5854,8 @@
         "@id": 7542286638,
         "@url": "https://www.openstreetmap.org/node/7542286638",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:cooking_oil": "yes"
+        "recycling:cooking_oil": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -5907,17 +5907,17 @@
         "@id": 7552495970,
         "@url": "https://www.openstreetmap.org/node/7552495970",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -5983,15 +5983,15 @@
         "@type": "node",
         "@id": 7619330536,
         "@url": "https://www.openstreetmap.org/node/7619330536",
-        "source": "survey",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes"
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -6231,11 +6231,11 @@
         "@id": 7788221884,
         "@url": "https://www.openstreetmap.org/node/7788221884",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -7221,8 +7221,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -7266,8 +7266,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -7653,8 +7653,8 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling_type": "container",
-        "recycling:waste": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17241,8 +17241,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "uhul:ortofoto"
       }
     },
@@ -17412,8 +17412,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "cuzk:km"
       }
     },
@@ -17895,8 +17895,8 @@
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "https://www.hrusovanyubrna.cz/odpadove-hospodarstvi/sberny-dvur-odpadu"
       }
     },
@@ -18101,8 +18101,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "survey;cuzk:km",
         "source:opening_hours": "http://www.novy-liskovec.cz/data/stranky/126_sberne_stredisko.pdf",
         "wheelchair": "yes"
@@ -18240,8 +18240,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -19029,9 +19029,9 @@
         "recycling:paper_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre",
         "website": "https://www.velkebilovice.cz/4-sberny-dvur/d-2854"
       }
     },
@@ -20203,8 +20203,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "uhul:ortofoto"
       }
     },
@@ -20382,8 +20382,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "cuzk:km"
       }
     },
@@ -20889,8 +20889,8 @@
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "https://www.hrusovanyubrna.cz/odpadove-hospodarstvi/sberny-dvur-odpadu"
       }
     },
@@ -21107,8 +21107,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "survey;cuzk:km",
         "source:opening_hours": "http://www.novy-liskovec.cz/data/stranky/126_sberne_stredisko.pdf",
         "wheelchair": "yes"
@@ -21254,8 +21254,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -22087,9 +22087,9 @@
         "recycling:paper_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre",
         "website": "https://www.velkebilovice.cz/4-sberny-dvur/d-2854"
       }
     },

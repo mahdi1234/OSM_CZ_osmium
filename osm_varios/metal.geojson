@@ -51,12 +51,12 @@
         "@id": 325129628,
         "@url": "https://www.openstreetmap.org/node/325129628",
         "amenity": "recycling",
-        "recycling_type": "centre",
+        "recycling:batteries": "no",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "no",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -383,9 +383,9 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:white_goods": "yes",
+        "recycling_type": "centre",
         "source:opening_hours": "http://www.bosonohy.cz/VismoOnline_ActionScripts/File.aspx?id_org=80924&id_dokumenty=64174"
       }
     },
@@ -511,11 +511,11 @@
         "@type": "node",
         "@id": 456416580,
         "@url": "https://www.openstreetmap.org/node/456416580",
-        "name": "Sběrné suroviny Zdeněk Bučko",
         "amenity": "recycling",
+        "name": "Sběrné suroviny Zdeněk Bučko",
         "opening_hours": "Mo-Fr 09:00-17:00; Sa-Su 09:00-12:00",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -531,17 +531,17 @@
         "@type": "node",
         "@id": 457064184,
         "@url": "https://www.openstreetmap.org/node/457064184",
-        "name": "Milan Ševčík, Kovový odpad",
         "amenity": "recycling",
-        "operator": "Milan Ševčík",
-        "wheelchair": "limited",
+        "name": "Milan Ševčík, Kovový odpad",
         "opening_hours": "Tu-Fr 08:00-16:00; Sa 08:00-12:00; PH closed",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "operator": "Milan Ševčík",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes"
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "wheelchair": "limited"
       }
     },
     {
@@ -1041,15 +1041,15 @@
         "@type": "node",
         "@id": 839211417,
         "@url": "https://www.openstreetmap.org/node/839211417",
-        "source": "knowledge",
         "amenity": "recycling",
         "location": "overground",
         "recycling:cans": "yes",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "source": "knowledge"
       }
     },
     {
@@ -1183,12 +1183,12 @@
         "@id": 956013257,
         "@url": "https://www.openstreetmap.org/node/956013257",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:electronics": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:electronics": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -1834,13 +1834,13 @@
         "@id": 1391551990,
         "@url": "https://www.openstreetmap.org/node/1391551990",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -1906,8 +1906,8 @@
         "@id": 1397720445,
         "@url": "https://www.openstreetmap.org/node/1397720445",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -1995,8 +1995,8 @@
         "@id": 1421310580,
         "@url": "https://www.openstreetmap.org/node/1421310580",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -2064,10 +2064,10 @@
         "@type": "node",
         "@id": 1470018901,
         "@url": "https://www.openstreetmap.org/node/1470018901",
-        "name": "HULMAN - kovošrot",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "name": "HULMAN - kovošrot",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -2159,10 +2159,10 @@
         "@id": 1505937454,
         "@url": "https://www.openstreetmap.org/node/1505937454",
         "amenity": "recycling",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -2178,11 +2178,11 @@
         "@type": "node",
         "@id": 1511965671,
         "@url": "https://www.openstreetmap.org/node/1511965671",
-        "name": "Výkupna surovin",
-        "source": "survey",
         "amenity": "recycling",
+        "name": "Výkupna surovin",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "source": "survey"
       }
     },
     {
@@ -2295,13 +2295,13 @@
         "@id": 1560622784,
         "@url": "https://www.openstreetmap.org/node/1560622784",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -2317,13 +2317,13 @@
         "@type": "node",
         "@id": 1567155739,
         "@url": "https://www.openstreetmap.org/node/1567155739",
-        "source": "survey",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -2339,13 +2339,13 @@
         "@type": "node",
         "@id": 1567155785,
         "@url": "https://www.openstreetmap.org/node/1567155785",
-        "source": "survey",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -2363,11 +2363,11 @@
         "@url": "https://www.openstreetmap.org/node/1567155822",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:clothes": "no",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "no",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -2958,10 +2958,10 @@
         "@id": 1737155565,
         "@url": "https://www.openstreetmap.org/node/1737155565",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3045,10 +3045,10 @@
         "@id": 1749822587,
         "@url": "https://www.openstreetmap.org/node/1749822587",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
         "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:cans": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -3064,18 +3064,18 @@
         "@type": "node",
         "@id": 1755405680,
         "@url": "https://www.openstreetmap.org/node/1755405680",
-        "name": "Sběrný dvůr Nehlsen",
         "amenity": "recycling",
-        "operator": "Nehlsen Třinec s.r.o.",
+        "name": "Sběrný dvůr Nehlsen",
         "opening_hours": "Mo,We 07:00-16:30; Tu,Th,Fr 07:00-14:30; Sa 07:00-12:00; PH closed",
-        "recycling_type": "centre",
+        "operator": "Nehlsen Třinec s.r.o.",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:green_waste": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -3113,30 +3113,30 @@
         "@type": "node",
         "@id": 1763552198,
         "@url": "https://www.openstreetmap.org/node/1763552198",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:books": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:cartons": "yes",
         "recycling:clothes": "no",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -3158,8 +3158,8 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "recycling:wood": "yes"
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -3176,13 +3176,13 @@
         "@id": 1777611967,
         "@url": "https://www.openstreetmap.org/node/1777611967",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -3248,15 +3248,15 @@
         "@type": "node",
         "@id": 1820540939,
         "@url": "https://www.openstreetmap.org/node/1820540939",
-        "name": "VTOS, s.r.o.",
         "amenity": "recycling",
-        "operator": "VTOS, s.r.o.",
+        "name": "VTOS, s.r.o.",
         "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-12:00",
-        "recycling_type": "centre",
+        "operator": "VTOS, s.r.o.",
+        "recycling:batteries": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -3352,13 +3352,13 @@
         "@id": 1849859964,
         "@url": "https://www.openstreetmap.org/node/1849859964",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -3448,8 +3448,8 @@
         "@url": "https://www.openstreetmap.org/node/1977116409",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -3509,14 +3509,14 @@
         "@type": "node",
         "@id": 1996986848,
         "@url": "https://www.openstreetmap.org/node/1996986848",
-        "source": "survey",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -3532,31 +3532,31 @@
         "@type": "node",
         "@id": 2022037078,
         "@url": "https://www.openstreetmap.org/node/2022037078",
-        "name": "Sběrný dvůr města Kutná Hora",
-        "source": "www.kutnahora.cz",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
+        "name": "Sběrný dvůr města Kutná Hora",
+        "recycling:batteries": "yes",
         "recycling:books": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:cartons": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "www.kutnahora.cz"
       }
     },
     {
@@ -3648,8 +3648,8 @@
         "@url": "https://www.openstreetmap.org/node/2104865775",
         "amenity": "recycling",
         "location": "overground",
-        "recycling_type": "container",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3788,11 +3788,11 @@
         "@url": "https://www.openstreetmap.org/node/2229552649",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -3897,13 +3897,13 @@
         "@id": 2290696998,
         "@url": "https://www.openstreetmap.org/node/2290696998",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3920,8 +3920,8 @@
         "@id": 2290697013,
         "@url": "https://www.openstreetmap.org/node/2290697013",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -4038,22 +4038,22 @@
         "@type": "node",
         "@id": 2314873262,
         "@url": "https://www.openstreetmap.org/node/2314873262",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "container",
-        "recycling:books": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cartons": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4091,25 +4091,25 @@
         "@type": "node",
         "@id": 2316766215,
         "@url": "https://www.openstreetmap.org/node/2316766215",
-        "name": "Technické služby Holešov s.r.o.",
         "amenity": "recycling",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
+        "name": "Technické služby Holešov s.r.o.",
+        "recycling:batteries": "yes",
         "recycling:cartons": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -4125,14 +4125,14 @@
         "@type": "node",
         "@id": 2351050275,
         "@url": "https://www.openstreetmap.org/node/2351050275",
-        "source": "CZ:IPRPraha:ortofoto;survey",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cartons": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:cartons": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "source": "CZ:IPRPraha:ortofoto;survey"
       }
     },
     {
@@ -4168,15 +4168,15 @@
         "@type": "node",
         "@id": 2382030923,
         "@url": "https://www.openstreetmap.org/node/2382030923",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -4245,8 +4245,8 @@
         "@id": 2431972731,
         "@url": "https://www.openstreetmap.org/node/2431972731",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -4357,10 +4357,10 @@
         "@id": 2518076255,
         "@url": "https://www.openstreetmap.org/node/2518076255",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -4544,9 +4544,9 @@
         "@id": 2583856077,
         "@url": "https://www.openstreetmap.org/node/2583856077",
         "amenity": "recycling",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -4634,30 +4634,30 @@
         "@type": "node",
         "@id": 2628396972,
         "@url": "https://www.openstreetmap.org/node/2628396972",
-        "name": "Sběrna surovin",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:wood": "no",
-        "recycling_type": "centre",
+        "name": "Sběrna surovin",
+        "recycling:batteries": "yes",
         "recycling:books": "yes",
-        "recycling:glass": "no",
-        "recycling:paper": "yes",
-        "recycling:waste": "no",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:cartons": "yes",
         "recycling:clothes": "no",
-        "recycling:plastic": "no",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "no",
+        "recycling:glass": "no",
+        "recycling:glass_bottles": "no",
+        "recycling:green_waste": "no",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:green_waste": "no",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "no",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "no",
         "recycling:plastic_bottles": "no",
-        "recycling:small_appliances": "no",
         "recycling:plastic_packaging": "no",
-        "recycling:electrical_appliances": "no"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "no",
+        "recycling:waste": "no",
+        "recycling:wood": "no",
+        "recycling_type": "centre"
       }
     },
     {
@@ -4896,9 +4896,9 @@
         "@id": 2679341876,
         "@url": "https://www.openstreetmap.org/node/2679341876",
         "amenity": "recycling",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -5151,12 +5151,12 @@
         "@id": 2815305294,
         "@url": "https://www.openstreetmap.org/node/2815305294",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cartons": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:cartons": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -6132,15 +6132,15 @@
         "@type": "node",
         "@id": 2914431129,
         "@url": "https://www.openstreetmap.org/node/2914431129",
-        "name": "Sběrový dvůr",
         "amenity": "recycling",
+        "name": "Sběrový dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -6203,11 +6203,11 @@
         "@id": 2934664939,
         "@url": "https://www.openstreetmap.org/node/2934664939",
         "amenity": "recycling",
-        "recycling:cans": "no",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
         "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:cans": "no",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -7518,24 +7518,24 @@
         "@type": "node",
         "@id": 3596663701,
         "@url": "https://www.openstreetmap.org/node/3596663701",
-        "name": "Sběrový dvůr",
         "amenity": "recycling",
-        "operator": "Technické služby m. Olomouce",
+        "name": "Sběrový dvůr",
         "opening_hours": "Mo-Sa 09:00-13:00, 13:30-17:00; Su 09:00-13:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
+        "operator": "Technické služby m. Olomouce",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -7552,13 +7552,13 @@
         "@id": 3686255028,
         "@url": "https://www.openstreetmap.org/node/3686255028",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -7655,12 +7655,12 @@
         "@type": "node",
         "@id": 3737675166,
         "@url": "https://www.openstreetmap.org/node/3737675166",
-        "name": "Barko",
-        "source": "survey",
         "amenity": "recycling",
-        "recycling_type": "centre",
+        "name": "Barko",
         "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source": "survey"
       }
     },
     {
@@ -7754,16 +7754,16 @@
         "@type": "node",
         "@id": 3785986096,
         "@url": "https://www.openstreetmap.org/node/3785986096",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "recycling_type": "centre",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -7779,27 +7779,27 @@
         "@type": "node",
         "@id": 3805894989,
         "@url": "https://www.openstreetmap.org/node/3805894989",
-        "name": "Sběrný dvůr odpadů",
         "amenity": "recycling",
-        "website": "https://www.stary-jicin.cz/obcan/sberny-dvur-odpadu-obce/",
-        "operator": "obec Starý Jičín",
-        "wheelchair": "yes",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
         "collection_times": "Apr-Oct Tu 15:00-17:00; Apr-Oct Sa 08:00-11:00; Nov-Mar Sa 09:00-11:00",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr odpadů",
+        "operator": "obec Starý Jičín",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.stary-jicin.cz/obcan/sberny-dvur-odpadu-obce/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -7815,17 +7815,17 @@
         "@type": "node",
         "@id": 3807999721,
         "@url": "https://www.openstreetmap.org/node/3807999721",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "operator": "Město Sezimovo Ústí",
-        "recycling_type": "centre",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -8217,33 +8217,33 @@
         "@type": "node",
         "@id": 3970050038,
         "@url": "https://www.openstreetmap.org/node/3970050038",
-        "name": "Sběrný dvůr Dobronická",
-        "source": "survey;website",
-        "amenity": "recycling",
-        "website": "https://www.vs-ekoprag.cz/sberny-dvur",
-        "operator": "VS-Ekoprag",
+        "addr:housenumber": "893",
         "addr:street": "Dobronická",
+        "amenity": "recycling",
         "contact:email": "vs-ekoprag@vs-ekoprag.cz",
         "contact:phone": "+420 605 079 049",
+        "name": "Sběrný dvůr Dobronická",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "no",
-        "recycling:waste": "yes",
-        "addr:housenumber": "893",
-        "recycling:clothes": "no",
-        "recycling:plastic": "yes",
+        "operator": "VS-Ekoprag",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "no",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "no",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "source": "survey;website",
+        "website": "https://www.vs-ekoprag.cz/sberny-dvur"
       }
     },
     {
@@ -8498,15 +8498,15 @@
         "@url": "https://www.openstreetmap.org/node/4002992399",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -9113,8 +9113,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -9346,13 +9346,13 @@
         "@id": 4343693472,
         "@url": "https://www.openstreetmap.org/node/4343693472",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
         "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
+        "recycling:glass": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -9368,15 +9368,15 @@
         "@type": "node",
         "@id": 4344085833,
         "@url": "https://www.openstreetmap.org/node/4344085833",
-        "source": "survey",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes"
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -9441,26 +9441,26 @@
         "@type": "node",
         "@id": 4358581194,
         "@url": "https://www.openstreetmap.org/node/4358581194",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "operator": "OZO",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:waste": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -9731,10 +9731,10 @@
         "@id": 4585528398,
         "@url": "https://www.openstreetmap.org/node/4585528398",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -9800,6 +9800,7 @@
         "amenity": "recycling",
         "name": "Sběrný dvůr",
         "opening_hours": "Mar-Nov: We 15:00-17:00; Sa 09:00-11:00",
+        "recycling:PET": "yes",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
@@ -9811,7 +9812,6 @@
         "recycling:green_waste": "yes",
         "recycling:iron": "yes",
         "recycling:paper": "yes",
-        "recycling:PET": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
@@ -10544,25 +10544,25 @@
         "@type": "node",
         "@id": 4743870617,
         "@url": "https://www.openstreetmap.org/node/4743870617",
-        "name": "Sběrný dvůr Buchlovice Křížné cesty",
         "amenity": "recycling",
-        "operator": "OTR Recycling",
+        "name": "Sběrný dvůr Buchlovice Křížné cesty",
         "opening_hours": "Mar-Oct Mo-Fr 06:00-17:00; Nov-Feb Mo-Fr 07:00-16:00; Sa 08:00-12:00; Su, PH off",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
+        "operator": "OTR Recycling",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -10990,11 +10990,11 @@
         "@id": 4859371348,
         "@url": "https://www.openstreetmap.org/node/4859371348",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -11011,20 +11011,20 @@
         "@id": 4869592613,
         "@url": "https://www.openstreetmap.org/node/4869592613",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "no",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -11264,16 +11264,16 @@
         "@type": "node",
         "@id": 4975768171,
         "@url": "https://www.openstreetmap.org/node/4975768171",
-        "name": "Sběrný dvůr TS Jablunkov",
         "amenity": "recycling",
-        "operator": "TS Jablunkov",
+        "name": "Sběrný dvůr TS Jablunkov",
         "opening_hours": "Tu,Th 08:00-16:00; Sa 07:00-13:00; PH closed",
-        "recycling_type": "centre",
+        "operator": "TS Jablunkov",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
-        "recycling:plastic": "yes",
         "recycling:green_waste": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -11314,12 +11314,12 @@
         "@id": 4988002425,
         "@url": "https://www.openstreetmap.org/node/4988002425",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:waste": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -11336,12 +11336,12 @@
         "@id": 4988002426,
         "@url": "https://www.openstreetmap.org/node/4988002426",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:waste": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -11358,12 +11358,12 @@
         "@id": 4988002427,
         "@url": "https://www.openstreetmap.org/node/4988002427",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:waste": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -11380,12 +11380,12 @@
         "@id": 4988002428,
         "@url": "https://www.openstreetmap.org/node/4988002428",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:waste": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -11426,10 +11426,10 @@
         "@type": "node",
         "@id": 4998818973,
         "@url": "https://www.openstreetmap.org/node/4998818973",
-        "name": "Výkup kovů",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "name": "Výkup kovů",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -11637,6 +11637,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.2293376,
+          49.5812993
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5106232589,
+        "@url": "https://www.openstreetmap.org/node/5106232589",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5918138,
           49.2332227
         ]
@@ -11695,12 +11717,12 @@
         "@url": "https://www.openstreetmap.org/node/5112116494",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -11735,18 +11757,18 @@
         "@type": "node",
         "@id": 5113529614,
         "@url": "https://www.openstreetmap.org/node/5113529614",
-        "source": "survey",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -11926,11 +11948,11 @@
         "@id": 5217376290,
         "@url": "https://www.openstreetmap.org/node/5217376290",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -12191,11 +12213,11 @@
         "@id": 5353093176,
         "@url": "https://www.openstreetmap.org/node/5353093176",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -12337,13 +12359,13 @@
         "@id": 5537749483,
         "@url": "https://www.openstreetmap.org/node/5537749483",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:waste": "yes",
         "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:green_waste": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -12444,15 +12466,15 @@
         "@url": "https://www.openstreetmap.org/node/5620601525",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -12518,11 +12540,11 @@
         "@id": 5633499264,
         "@url": "https://www.openstreetmap.org/node/5633499264",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -12538,12 +12560,12 @@
         "@type": "node",
         "@id": 5659275626,
         "@url": "https://www.openstreetmap.org/node/5659275626",
-        "name": "Kovošrot Kovalovice",
         "amenity": "recycling",
-        "wheelchair": "yes",
+        "name": "Kovošrot Kovalovice",
         "opening_hours": "Mo-Fr 09:00-16:00; Sa 09:00-13:00; PH off; Jun-Aug Mo-Fr 08:00-17:00",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "wheelchair": "yes"
       }
     },
     {
@@ -12739,34 +12761,34 @@
         "@type": "node",
         "@id": 5760756031,
         "@url": "https://www.openstreetmap.org/node/5760756031",
-        "name": "Sběrný dvůr Rybník",
-        "phone": "+420 465 533 387",
         "amenity": "recycling",
-        "website": "http://www.rybnik.cz",
-        "operator": "Obec Rybník",
-        "wheelchair": "yes",
+        "name": "Sběrný dvůr Rybník",
         "opening_hours": "We 13:00-17:00; Sa 09:00-13:00; PH closed",
+        "operator": "Obec Rybník",
+        "phone": "+420 465 533 387",
         "recycling:PET": "yes",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:engine_oil": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:clothes": "yes",
         "recycling:coffee_capsules": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.rybnik.cz",
+        "wheelchair": "yes"
       }
     },
     {
@@ -12833,8 +12855,8 @@
         "@id": 5775306595,
         "@url": "https://www.openstreetmap.org/node/5775306595",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -13027,11 +13049,11 @@
         "@id": 5834209382,
         "@url": "https://www.openstreetmap.org/node/5834209382",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -13276,9 +13298,9 @@
         "recycling:plastic": "yes",
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "http://www.tsmpr.cz/"
       }
     },
@@ -13345,13 +13367,13 @@
         "@url": "https://www.openstreetmap.org/node/6017210080",
         "amenity": "recycling",
         "opening_hours": "24/7",
+        "recycling:aluminium": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:aluminium": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -14319,18 +14341,18 @@
         "@id": 6419121656,
         "@url": "https://www.openstreetmap.org/node/6419121656",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
         "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -14364,8 +14386,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "https://www.ratiskovice.com/obec-2/sberny-dvur/"
       }
     },
@@ -14537,8 +14559,8 @@
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -14675,23 +14697,23 @@
         "@type": "node",
         "@id": 6496257658,
         "@url": "https://www.openstreetmap.org/node/6496257658",
-        "name": "Sběrný dvůr Čebín",
-        "email": "info@kts-ekologie.cz",
-        "phone": "+420 800 888 944",
         "amenity": "recycling",
-        "website": "https://www.kts-ekologie.cz/",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
         "collection_times": "Mo,We 15:00-17:00; Sa 09:00-11:00",
-        "recycling:plastic": "yes",
+        "email": "info@kts-ekologie.cz",
+        "name": "Sběrný dvůr Čebín",
+        "phone": "+420 800 888 944",
         "recycling:batteries": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre",
+        "website": "https://www.kts-ekologie.cz/"
       }
     },
     {
@@ -15073,10 +15095,10 @@
         "@id": 6528348075,
         "@url": "https://www.openstreetmap.org/node/6528348075",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
         "recycling:clothes": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:glass": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -15116,15 +15138,15 @@
         "@id": 6550843601,
         "@url": "https://www.openstreetmap.org/node/6550843601",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -15694,12 +15716,12 @@
         "@url": "https://www.openstreetmap.org/node/6737220581",
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -15974,18 +15996,18 @@
         "@id": 6786732405,
         "@url": "https://www.openstreetmap.org/node/6786732405",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -16298,14 +16320,14 @@
         "@id": 6876076640,
         "@url": "https://www.openstreetmap.org/node/6876076640",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -16560,17 +16582,17 @@
         "@url": "https://www.openstreetmap.org/node/6928674259",
         "amenity": "recycling",
         "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:aluminium": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -16589,15 +16611,15 @@
         "amenity": "recycling",
         "recycling:PET": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "container",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -16614,15 +16636,15 @@
         "@id": 6934703433,
         "@url": "https://www.openstreetmap.org/node/6934703433",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
+        "recycling:cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes"
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -16972,17 +16994,17 @@
         "@id": 7093890849,
         "@url": "https://www.openstreetmap.org/node/7093890849",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -16999,17 +17021,17 @@
         "@id": 7093890851,
         "@url": "https://www.openstreetmap.org/node/7093890851",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17026,19 +17048,19 @@
         "@id": 7093890853,
         "@url": "https://www.openstreetmap.org/node/7093890853",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17055,18 +17077,18 @@
         "@id": 7093890855,
         "@url": "https://www.openstreetmap.org/node/7093890855",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17083,18 +17105,18 @@
         "@id": 7098639407,
         "@url": "https://www.openstreetmap.org/node/7098639407",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17111,14 +17133,14 @@
         "@id": 7098639410,
         "@url": "https://www.openstreetmap.org/node/7098639410",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
         "recycling:clothes": "yes",
+        "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17231,12 +17253,12 @@
         "@id": 7132977270,
         "@url": "https://www.openstreetmap.org/node/7132977270",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "container",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -17307,8 +17329,8 @@
         "@id": 7182579189,
         "@url": "https://www.openstreetmap.org/node/7182579189",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17576,14 +17598,14 @@
         "@id": 7246103487,
         "@url": "https://www.openstreetmap.org/node/7246103487",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17794,14 +17816,14 @@
         "@id": 7301825486,
         "@url": "https://www.openstreetmap.org/node/7301825486",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
         "recycling:clothes": "yes",
-        "recycling:organic": "yes",
         "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:electrical_items": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -17841,10 +17863,10 @@
         "@id": 7305905265,
         "@url": "https://www.openstreetmap.org/node/7305905265",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -17908,11 +17930,11 @@
         "@type": "node",
         "@id": 7341693921,
         "@url": "https://www.openstreetmap.org/node/7341693921",
-        "name": "KOVO-Group",
         "amenity": "recycling",
-        "recycling_type": "centre",
+        "name": "KOVO-Group",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -18194,12 +18216,12 @@
         "@id": 7389986364,
         "@url": "https://www.openstreetmap.org/node/7389986364",
         "amenity": "recycling",
-        "recycling_type": "container",
+        "recycling:aluminium": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:aluminium": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -18217,16 +18239,16 @@
         "@url": "https://www.openstreetmap.org/node/7395589158",
         "amenity": "recycling",
         "operator": "SAKO",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:plastic_bottles": "yes"
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -18660,16 +18682,16 @@
         "@id": 7498890455,
         "@url": "https://www.openstreetmap.org/node/7498890455",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -18851,17 +18873,17 @@
         "@id": 7552495970,
         "@url": "https://www.openstreetmap.org/node/7552495970",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes"
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -18932,8 +18954,8 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container",
-        "recycling:wood": "yes"
+        "recycling:wood": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -19368,11 +19390,11 @@
         "@id": 7770970313,
         "@url": "https://www.openstreetmap.org/node/7770970313",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -19435,8 +19457,8 @@
         "@id": 7781898743,
         "@url": "https://www.openstreetmap.org/node/7781898743",
         "amenity": "recycling",
-        "recycling_type": "container",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -19485,11 +19507,11 @@
         "@id": 7788221884,
         "@url": "https://www.openstreetmap.org/node/7788221884",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "container"
       }
     },
     {
@@ -19506,11 +19528,11 @@
         "@id": 7788255200,
         "@url": "https://www.openstreetmap.org/node/7788255200",
         "amenity": "recycling",
-        "recycling_type": "container",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -20768,8 +20790,8 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container",
-        "recycling:waste": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -21509,8 +21531,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -21554,8 +21576,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -30980,8 +31002,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.2537232,
-          49.2390639
+          16.2537902,
+          49.2390673
         ]
       },
       "properties": {
@@ -43302,25 +43324,25 @@
         "@type": "way",
         "@id": 28092506,
         "@url": "https://www.openstreetmap.org/way/28092506",
-        "name": "Sběrný dvůr hlavního města Prahy",
-        "source": "https://www.sberne-dvory.cz/dvur/28763/",
         "amenity": "recycling",
-        "operator": "Pražské služby",
         "contact:phone": "+420731122891",
+        "name": "Sběrný dvůr hlavního města Prahy",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
-        "recycling:tyres": "yes",
-        "recycling:plastic": "yes",
+        "operator": "Pražské služby",
         "recycling:batteries": "yes",
-        "recycling:waste_oil": "yes",
+        "recycling:cans": "yes",
         "recycling:engine_oil": "yes",
+        "recycling:mobile_phones": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:sheet_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:waste_oil": "yes",
         "recycling:white_goods": "yes",
-        "recycling:mobile_phones": "yes"
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.sberne-dvory.cz/dvur/28763/"
       }
     },
     {
@@ -43603,8 +43625,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "uhul:ortofoto"
       }
     },
@@ -43786,10 +43808,10 @@
         "@id": 47701368,
         "@url": "https://www.openstreetmap.org/way/47701368",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
         "recycling:newspaper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -43885,20 +43907,20 @@
         "@type": "way",
         "@id": 51315555,
         "@url": "https://www.openstreetmap.org/way/51315555",
-        "name": "Sběrný dvůr Sídliště Nad Lužnicí Tábor",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "industrial",
-        "recycling_type": "centre",
         "building:levels": "1",
+        "building:ruian:type": "16",
+        "name": "Sběrný dvůr Sídliště Nad Lužnicí Tábor",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "ref:ruian:building": "47451149",
-        "building:ruian:type": "16",
-        "recycling:batteries": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre",
+        "ref:ruian:building": "47451149",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -44036,8 +44058,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "cuzk:km"
       }
     },
@@ -44080,18 +44102,18 @@
         "@type": "way",
         "@id": 53542849,
         "@url": "https://www.openstreetmap.org/way/53542849",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "civic",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
         "building:levels": "1",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "ref:ruian:building": "4416384",
         "building:ruian:type": "15",
         "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "4416384",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -44383,13 +44405,13 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "chain",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -44513,9 +44535,9 @@
         "@url": "https://www.openstreetmap.org/way/97301528",
         "amenity": "recycling",
         "operator": "Severočeské sběrné suroviny",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -44550,8 +44572,8 @@
         "@id": 97301544,
         "@url": "https://www.openstreetmap.org/way/97301544",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -44585,15 +44607,15 @@
         "@type": "way",
         "@id": 115108002,
         "@url": "https://www.openstreetmap.org/way/115108002",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "house",
         "building:flats": "1",
-        "recycling_type": "centre",
         "building:levels": "1",
-        "ref:ruian:building": "6275338",
         "building:ruian:type": "7",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "6275338",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -44683,21 +44705,21 @@
         "@type": "way",
         "@id": 119075349,
         "@url": "https://www.openstreetmap.org/way/119075349",
-        "name": "Technické služby",
-        "note": "Sběrné místo pouze pro občany města, zdarma",
         "amenity": "recycling",
         "barrier": "fence",
         "landuse": "service",
+        "name": "Technické služby",
+        "note": "Sběrné místo pouze pro občany města, zdarma",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:rubble": "yes",
-        "recycling:clothes": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
+        "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:electrical_items": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -44823,15 +44845,15 @@
         "@type": "way",
         "@id": 139999457,
         "@url": "https://www.openstreetmap.org/way/139999457",
-        "name": "Sběrný dvůr Šťáhlavy",
         "amenity": "recycling",
+        "name": "Sběrný dvůr Šťáhlavy",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -44974,22 +44996,22 @@
         "@type": "way",
         "@id": 153216385,
         "@url": "https://www.openstreetmap.org/way/153216385",
-        "name": "Kovošrot CELIA-CZ s.r.o.",
-        "source": "cuzk:ruian",
+        "addr:city": "Čkyně",
+        "addr:conscriptionnumber": "133",
+        "addr:country": "CZ",
+        "addr:housenumber": "133",
+        "addr:place": "Čkyně",
+        "addr:postcode": "38481",
         "amenity": "recycling",
         "building": "civic",
-        "addr:city": "Čkyně",
-        "addr:place": "Čkyně",
-        "addr:country": "CZ",
-        "addr:postcode": "38481",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "name": "Kovošrot CELIA-CZ s.r.o.",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "ref:ruian:addr": "804771",
-        "building:levels": "1",
-        "addr:housenumber": "133",
         "ref:ruian:building": "802662",
-        "building:ruian:type": "5",
-        "recycling:scrap_metal": "yes",
-        "addr:conscriptionnumber": "133"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -45281,21 +45303,21 @@
         "@type": "way",
         "@id": 199232321,
         "@url": "https://www.openstreetmap.org/way/199232321",
-        "name": "Sběrný dvůr Štěpánov",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr Štěpánov",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -45341,10 +45363,10 @@
         "@type": "way",
         "@id": 199356459,
         "@url": "https://www.openstreetmap.org/way/199356459",
-        "name": "Výkupna železného odpadu",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "name": "Výkupna železného odpadu",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -45378,10 +45400,10 @@
         "@type": "way",
         "@id": 199469516,
         "@url": "https://www.openstreetmap.org/way/199469516",
-        "name": "Výkup železa",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "name": "Výkup železa",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -45484,13 +45506,13 @@
         "@type": "way",
         "@id": 206860112,
         "@url": "https://www.openstreetmap.org/way/206860112",
-        "name": "P+P Pavel Plíštil Sběrné suroviny",
         "amenity": "recycling",
-        "website": "https://www.plistilsberna.cz/",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
+        "name": "P+P Pavel Plíštil Sběrné suroviny",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.plistilsberna.cz/"
       }
     },
     {
@@ -45659,11 +45681,11 @@
         "@type": "way",
         "@id": 217817548,
         "@url": "https://www.openstreetmap.org/way/217817548",
-        "source": "bing:ortofoto;survey",
         "amenity": "recycling",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source": "bing:ortofoto;survey"
       }
     },
     {
@@ -45728,8 +45750,8 @@
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "https://www.hrusovanyubrna.cz/odpadove-hospodarstvi/sberny-dvur-odpadu"
       }
     },
@@ -45769,8 +45791,8 @@
         "@id": 221045397,
         "@url": "https://www.openstreetmap.org/way/221045397",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -45933,16 +45955,16 @@
         "@type": "way",
         "@id": 273981931,
         "@url": "https://www.openstreetmap.org/way/273981931",
-        "name": "sběrný dvůr",
         "amenity": "recycling",
         "landuse": "industrial",
+        "name": "sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -46268,35 +46290,35 @@
         "@type": "way",
         "@id": 286323255,
         "@url": "https://www.openstreetmap.org/way/286323255",
-        "name": "Sběrný dvůr",
-        "type": "SV (stav)",
-        "source": "Územní plán",
         "amenity": "recycling",
-        "landuse": "industrial",
-        "opening_hours": "Mo,We 08:00-11:00,12:00-15:00; Tu-Fr 08:00-11:00",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:books": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
         "collection_times": "Mo,We 08:00-11:00,12:00-16:30; Sa 08:00-12:00",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Mo,We 08:00-11:00,12:00-15:00; Tu-Fr 08:00-11:00",
+        "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:cartons": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "Územní plán",
+        "type": "SV (stav)"
       }
     },
     {
@@ -46417,9 +46439,9 @@
         "@id": 287246187,
         "@url": "https://www.openstreetmap.org/way/287246187",
         "amenity": "recycling",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -46456,12 +46478,12 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "metal",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -46515,16 +46537,16 @@
         "@type": "way",
         "@id": 291672748,
         "@url": "https://www.openstreetmap.org/way/291672748",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "metal",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -46713,8 +46735,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "survey;cuzk:km",
         "source:opening_hours": "http://www.novy-liskovec.cz/data/stranky/126_sberne_stredisko.pdf",
         "wheelchair": "yes"
@@ -47053,13 +47075,13 @@
         "@url": "https://www.openstreetmap.org/way/346533381",
         "amenity": "recycling",
         "barrier": "wall",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -47249,16 +47271,16 @@
         "@type": "way",
         "@id": 361528882,
         "@url": "https://www.openstreetmap.org/way/361528882",
-        "name": "Kovodemont",
         "amenity": "recycling",
         "landuse": "industrial",
-        "operator": "VTOS, s.r.o.",
+        "name": "Kovodemont",
         "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
+        "operator": "VTOS, s.r.o.",
         "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -47332,26 +47354,26 @@
         "@type": "way",
         "@id": 364117845,
         "@url": "https://www.openstreetmap.org/way/364117845",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00; Tu,Th off; Sa 08:00-12:00; Apr-Nov,May-Sep Th 08:00-12:00,13:00-17:00; Apr-Nov Sa off; May-Sep Sa 13:00-16:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:waste": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -47486,8 +47508,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -47537,25 +47559,25 @@
         "@type": "way",
         "@id": 388083579,
         "@url": "https://www.openstreetmap.org/way/388083579",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "website": "https://www.obecprusanky.cz/novy/sberny-dvur/",
-        "operator": "obec Prušánky",
-        "wheelchair": "yes",
+        "name": "Sběrný dvůr",
         "opening_hours": "Apr-Oct Tu,Th 15:30-18:00; Apr-Oct,Nov-Mar Sa 08:00-12:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
+        "operator": "obec Prušánky",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obecprusanky.cz/novy/sberny-dvur/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -47604,10 +47626,10 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "chain_link",
-        "recycling_type": "centre",
+        "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -47641,17 +47663,17 @@
         "@type": "way",
         "@id": 395678283,
         "@url": "https://www.openstreetmap.org/way/395678283",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "operator": "Město Sezimovo Ústí",
-        "recycling_type": "centre",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -48391,14 +48413,14 @@
         "@type": "way",
         "@id": 464305088,
         "@url": "https://www.openstreetmap.org/way/464305088",
-        "name": "Kovošrot",
         "amenity": "recycling",
         "landuse": "industrial",
+        "name": "Kovošrot",
         "operator": "KOVOŠROT GROUP CZ a.s.",
         "recycling:cars": "yes",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -48468,16 +48490,16 @@
         "@type": "way",
         "@id": 467794542,
         "@url": "https://www.openstreetmap.org/way/467794542",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
         "landuse": "industrial",
-        "website": "http://www.vysnilhoty.cz/obecni-urad/ostatni-informace/sberny-dvur-a-trideny-odpad-12cz",
-        "recycling_type": "centre",
-        "recycling:waste": "yes",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.vysnilhoty.cz/obecni-urad/ostatni-informace/sberny-dvur-a-trideny-odpad-12cz"
       }
     },
     {
@@ -48626,18 +48648,18 @@
         "@type": "way",
         "@id": 484871980,
         "@url": "https://www.openstreetmap.org/way/484871980",
-        "name": "sběrné suroviny",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "yes",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:books": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "ref:ruian:building": "41376382",
         "building:ruian:type": "19",
-        "recycling:scrap_metal": "yes"
+        "name": "sběrné suroviny",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cartons": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "41376382",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -48819,14 +48841,14 @@
         "@type": "way",
         "@id": 513144683,
         "@url": "https://www.openstreetmap.org/way/513144683",
-        "name": "SD Kovo",
         "amenity": "recycling",
-        "operator": "SD Kovo",
-        "opening_hours": "Mo-Fr 6:30-14:30",
-        "recycling_type": "centre",
         "contact:website": "http://sdkovo.cz/",
+        "name": "SD Kovo",
+        "opening_hours": "Mo-Fr 6:30-14:30",
+        "operator": "SD Kovo",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -49025,23 +49047,23 @@
         "@type": "way",
         "@id": 544200827,
         "@url": "https://www.openstreetmap.org/way/544200827",
-        "name": "Sběrný dvůr Praha 5",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr Praha 5",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -49095,14 +49117,14 @@
         "@type": "way",
         "@id": 574879729,
         "@url": "https://www.openstreetmap.org/way/574879729",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -49178,9 +49200,9 @@
         "recycling:plastic": "yes",
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "http://www.tsmpr.cz/"
       }
     },
@@ -49384,13 +49406,13 @@
         "@type": "way",
         "@id": 658728808,
         "@url": "https://www.openstreetmap.org/way/658728808",
-        "name": "AVE CZ",
         "amenity": "recycling",
-        "landuse": "industrial",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
         "collection_times": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
-        "recycling:scrap_metal": "yes"
+        "landuse": "industrial",
+        "name": "AVE CZ",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -49565,20 +49587,20 @@
         "@type": "way",
         "@id": 703191345,
         "@url": "https://www.openstreetmap.org/way/703191345",
-        "name": "MS - ŠROT",
-        "phone": "+420 776 849 464",
-        "amenity": "recycling",
-        "website": "http://www.mssrot.cz/",
-        "operator": "MS - ŠROT, s.r.o.",
         "addr:city": "Rousínov",
-        "addr:street": "Zahradní",
-        "addr:postcode": "68301",
-        "opening_hours": "Mo-Fr 08:30-16:30; Sa 08:30-11:00",
-        "operator:type": "private",
-        "recycling_type": "centre",
         "addr:housenumber": "1",
+        "addr:postcode": "68301",
+        "addr:street": "Zahradní",
+        "amenity": "recycling",
+        "name": "MS - ŠROT",
+        "opening_hours": "Mo-Fr 08:30-16:30; Sa 08:30-11:00",
+        "operator": "MS - ŠROT, s.r.o.",
+        "operator:type": "private",
+        "phone": "+420 776 849 464",
         "recycling:aluminium": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.mssrot.cz/"
       }
     },
     {
@@ -49855,25 +49877,25 @@
         "@type": "way",
         "@id": 749181745,
         "@url": "https://www.openstreetmap.org/way/749181745",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:waste": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -50142,24 +50164,24 @@
         "@type": "way",
         "@id": 770634281,
         "@url": "https://www.openstreetmap.org/way/770634281",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -50217,28 +50239,28 @@
         "@type": "way",
         "@id": 775056971,
         "@url": "https://www.openstreetmap.org/way/775056971",
-        "name": "Sběrný dvůr hlavního města Prahy Podnikatelská",
+        "addr:street": "Podnikatelská",
         "amenity": "recycling",
         "barrier": "fence",
-        "operator": "MHMP",
-        "addr:street": "Podnikatelská",
+        "name": "Sběrný dvůr hlavního města Prahy Podnikatelská",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 8:30-15:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "operator": "MHMP",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -50392,8 +50414,8 @@
         "amenity": "recycling",
         "landuse": "industrial",
         "operator": "VTOS, s.r.o.",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -50520,24 +50542,24 @@
         "@type": "way",
         "@id": 804282368,
         "@url": "https://www.openstreetmap.org/way/804282368",
-        "name": "Sběrný dvůr Radotín",
         "amenity": "recycling",
-        "operator": "Prague city",
+        "name": "Sběrný dvůr Radotín",
         "opening_hours": "Apr-Oct Mo-Fr 08:30-18:00; Nov-Mar Mo-Fr 08:30-17:00",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:books": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
+        "operator": "Prague city",
         "recycling:batteries": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:books": "yes",
+        "recycling:cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -51290,8 +51312,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "source": "survey"
       }
     },
@@ -51342,9 +51364,9 @@
         "recycling:paper_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre",
         "website": "https://www.velkebilovice.cz/4-sberny-dvur/d-2854"
       }
     },
@@ -53609,25 +53631,25 @@
         "@type": "way",
         "@id": 28092506,
         "@url": "https://www.openstreetmap.org/way/28092506",
-        "name": "Sběrný dvůr hlavního města Prahy",
-        "source": "https://www.sberne-dvory.cz/dvur/28763/",
         "amenity": "recycling",
-        "operator": "Pražské služby",
         "contact:phone": "+420731122891",
+        "name": "Sběrný dvůr hlavního města Prahy",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
-        "recycling:tyres": "yes",
-        "recycling:plastic": "yes",
+        "operator": "Pražské služby",
         "recycling:batteries": "yes",
-        "recycling:waste_oil": "yes",
+        "recycling:cans": "yes",
         "recycling:engine_oil": "yes",
+        "recycling:mobile_phones": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:sheet_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:waste_oil": "yes",
         "recycling:white_goods": "yes",
-        "recycling:mobile_phones": "yes"
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.sberne-dvory.cz/dvur/28763/"
       }
     },
     {
@@ -53926,8 +53948,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "uhul:ortofoto"
       }
     },
@@ -54117,10 +54139,10 @@
         "@id": 47701368,
         "@url": "https://www.openstreetmap.org/way/47701368",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
         "recycling:newspaper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -54224,20 +54246,20 @@
         "@type": "way",
         "@id": 51315555,
         "@url": "https://www.openstreetmap.org/way/51315555",
-        "name": "Sběrný dvůr Sídliště Nad Lužnicí Tábor",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "industrial",
-        "recycling_type": "centre",
         "building:levels": "1",
+        "building:ruian:type": "16",
+        "name": "Sběrný dvůr Sídliště Nad Lužnicí Tábor",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "ref:ruian:building": "47451149",
-        "building:ruian:type": "16",
-        "recycling:batteries": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre",
+        "ref:ruian:building": "47451149",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -54383,8 +54405,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "cuzk:km"
       }
     },
@@ -54431,18 +54453,18 @@
         "@type": "way",
         "@id": 53542849,
         "@url": "https://www.openstreetmap.org/way/53542849",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "civic",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
         "building:levels": "1",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "ref:ruian:building": "4416384",
         "building:ruian:type": "15",
         "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "4416384",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -54754,13 +54776,13 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "chain",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -54892,9 +54914,9 @@
         "@url": "https://www.openstreetmap.org/way/97301528",
         "amenity": "recycling",
         "operator": "Severočeské sběrné suroviny",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -54933,8 +54955,8 @@
         "@id": 97301544,
         "@url": "https://www.openstreetmap.org/way/97301544",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -54972,15 +54994,15 @@
         "@type": "way",
         "@id": 115108002,
         "@url": "https://www.openstreetmap.org/way/115108002",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "house",
         "building:flats": "1",
-        "recycling_type": "centre",
         "building:levels": "1",
-        "ref:ruian:building": "6275338",
         "building:ruian:type": "7",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "6275338",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -55074,21 +55096,21 @@
         "@type": "way",
         "@id": 119075349,
         "@url": "https://www.openstreetmap.org/way/119075349",
-        "name": "Technické služby",
-        "note": "Sběrné místo pouze pro občany města, zdarma",
         "amenity": "recycling",
         "barrier": "fence",
         "landuse": "service",
+        "name": "Technické služby",
+        "note": "Sběrné místo pouze pro občany města, zdarma",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:rubble": "yes",
-        "recycling:clothes": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
+        "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:electrical_items": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -55222,15 +55244,15 @@
         "@type": "way",
         "@id": 139999457,
         "@url": "https://www.openstreetmap.org/way/139999457",
-        "name": "Sběrný dvůr Šťáhlavy",
         "amenity": "recycling",
+        "name": "Sběrný dvůr Šťáhlavy",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -55381,22 +55403,22 @@
         "@type": "way",
         "@id": 153216385,
         "@url": "https://www.openstreetmap.org/way/153216385",
-        "name": "Kovošrot CELIA-CZ s.r.o.",
-        "source": "cuzk:ruian",
+        "addr:city": "Čkyně",
+        "addr:conscriptionnumber": "133",
+        "addr:country": "CZ",
+        "addr:housenumber": "133",
+        "addr:place": "Čkyně",
+        "addr:postcode": "38481",
         "amenity": "recycling",
         "building": "civic",
-        "addr:city": "Čkyně",
-        "addr:place": "Čkyně",
-        "addr:country": "CZ",
-        "addr:postcode": "38481",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "name": "Kovošrot CELIA-CZ s.r.o.",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "ref:ruian:addr": "804771",
-        "building:levels": "1",
-        "addr:housenumber": "133",
         "ref:ruian:building": "802662",
-        "building:ruian:type": "5",
-        "recycling:scrap_metal": "yes",
-        "addr:conscriptionnumber": "133"
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -55704,21 +55726,21 @@
         "@type": "way",
         "@id": 199232321,
         "@url": "https://www.openstreetmap.org/way/199232321",
-        "name": "Sběrný dvůr Štěpánov",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr Štěpánov",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -55768,10 +55790,10 @@
         "@type": "way",
         "@id": 199356459,
         "@url": "https://www.openstreetmap.org/way/199356459",
-        "name": "Výkupna železného odpadu",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "name": "Výkupna železného odpadu",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -55809,10 +55831,10 @@
         "@type": "way",
         "@id": 199469516,
         "@url": "https://www.openstreetmap.org/way/199469516",
-        "name": "Výkup železa",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "name": "Výkup železa",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -55923,13 +55945,13 @@
         "@type": "way",
         "@id": 206860112,
         "@url": "https://www.openstreetmap.org/way/206860112",
-        "name": "P+P Pavel Plíštil Sběrné suroviny",
         "amenity": "recycling",
-        "website": "https://www.plistilsberna.cz/",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
+        "name": "P+P Pavel Plíštil Sběrné suroviny",
         "recycling:cardboard": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.plistilsberna.cz/"
       }
     },
     {
@@ -56110,11 +56132,11 @@
         "@type": "way",
         "@id": 217817548,
         "@url": "https://www.openstreetmap.org/way/217817548",
-        "source": "bing:ortofoto;survey",
         "amenity": "recycling",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source": "bing:ortofoto;survey"
       }
     },
     {
@@ -56183,8 +56205,8 @@
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "https://www.hrusovanyubrna.cz/odpadove-hospodarstvi/sberny-dvur-odpadu"
       }
     },
@@ -56228,8 +56250,8 @@
         "@id": 221045397,
         "@url": "https://www.openstreetmap.org/way/221045397",
         "amenity": "recycling",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -56313,18 +56335,18 @@
         "@type": "relation",
         "@id": 4120703,
         "@url": "https://www.openstreetmap.org/relation/4120703",
-        "name": "Kovošrot - Partr spol. s. r. o.",
         "amenity": "recycling",
+        "collection_times": "Mo-Fr 08:00-12:00,13:00-16:00",
+        "name": "Kovošrot - Partr spol. s. r. o.",
         "opening_hours": "Mo-Fr 08:00-12:00,13:00-16:00",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
-        "collection_times": "Mo-Fr 08:00-12:00,13:00-16:00",
         "recycling:cartons": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:paper_packaging": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -56499,16 +56521,16 @@
         "@type": "way",
         "@id": 273981931,
         "@url": "https://www.openstreetmap.org/way/273981931",
-        "name": "sběrný dvůr",
         "amenity": "recycling",
         "landuse": "industrial",
+        "name": "sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -56842,35 +56864,35 @@
         "@type": "way",
         "@id": 286323255,
         "@url": "https://www.openstreetmap.org/way/286323255",
-        "name": "Sběrný dvůr",
-        "type": "SV (stav)",
-        "source": "Územní plán",
         "amenity": "recycling",
-        "landuse": "industrial",
-        "opening_hours": "Mo,We 08:00-11:00,12:00-15:00; Tu-Fr 08:00-11:00",
-        "recycling:cans": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:books": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
         "collection_times": "Mo,We 08:00-11:00,12:00-16:30; Sa 08:00-12:00",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Mo,We 08:00-11:00,12:00-15:00; Tu-Fr 08:00-11:00",
+        "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:cartons": "yes",
         "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
-        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "Územní plán",
+        "type": "SV (stav)"
       }
     },
     {
@@ -56999,9 +57021,9 @@
         "@id": 287246187,
         "@url": "https://www.openstreetmap.org/way/287246187",
         "amenity": "recycling",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -57042,12 +57064,12 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "metal",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -57105,16 +57127,16 @@
         "@type": "way",
         "@id": 291672748,
         "@url": "https://www.openstreetmap.org/way/291672748",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "metal",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -57315,8 +57337,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
         "source": "survey;cuzk:km",
         "source:opening_hours": "http://www.novy-liskovec.cz/data/stranky/126_sberne_stredisko.pdf",
         "wheelchair": "yes"
@@ -57667,13 +57689,13 @@
         "@url": "https://www.openstreetmap.org/way/346533381",
         "amenity": "recycling",
         "barrier": "wall",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -57871,16 +57893,16 @@
         "@type": "way",
         "@id": 361528882,
         "@url": "https://www.openstreetmap.org/way/361528882",
-        "name": "Kovodemont",
         "amenity": "recycling",
         "landuse": "industrial",
-        "operator": "VTOS, s.r.o.",
+        "name": "Kovodemont",
         "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
+        "operator": "VTOS, s.r.o.",
         "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -57958,26 +57980,26 @@
         "@type": "way",
         "@id": 364117845,
         "@url": "https://www.openstreetmap.org/way/364117845",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00; Tu,Th off; Sa 08:00-12:00; Apr-Nov,May-Sep Th 08:00-12:00,13:00-17:00; Apr-Nov Sa off; May-Sep Sa 13:00-16:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:waste": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -58120,8 +58142,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "recycling:tyres": "yes"
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -58175,25 +58197,25 @@
         "@type": "way",
         "@id": 388083579,
         "@url": "https://www.openstreetmap.org/way/388083579",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "website": "https://www.obecprusanky.cz/novy/sberny-dvur/",
-        "operator": "obec Prušánky",
-        "wheelchair": "yes",
+        "name": "Sběrný dvůr",
         "opening_hours": "Apr-Oct Tu,Th 15:30-18:00; Apr-Oct,Nov-Mar Sa 08:00-12:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:waste": "yes",
-        "recycling:plastic": "yes",
+        "operator": "obec Prušánky",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obecprusanky.cz/novy/sberny-dvur/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -58246,10 +58268,10 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "chain_link",
-        "recycling_type": "centre",
+        "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -58287,17 +58309,17 @@
         "@type": "way",
         "@id": 395678283,
         "@url": "https://www.openstreetmap.org/way/395678283",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "operator": "Město Sezimovo Ústí",
-        "recycling_type": "centre",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:batteries": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling_type": "centre"
       }
     },
     {
@@ -59081,14 +59103,14 @@
         "@type": "way",
         "@id": 464305088,
         "@url": "https://www.openstreetmap.org/way/464305088",
-        "name": "Kovošrot",
         "amenity": "recycling",
         "landuse": "industrial",
+        "name": "Kovošrot",
         "operator": "KOVOŠROT GROUP CZ a.s.",
         "recycling:cars": "yes",
-        "recycling_type": "centre",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -59162,16 +59184,16 @@
         "@type": "way",
         "@id": 467794542,
         "@url": "https://www.openstreetmap.org/way/467794542",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
         "landuse": "industrial",
-        "website": "http://www.vysnilhoty.cz/obecni-urad/ostatni-informace/sberny-dvur-a-trideny-odpad-12cz",
-        "recycling_type": "centre",
-        "recycling:waste": "yes",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.vysnilhoty.cz/obecni-urad/ostatni-informace/sberny-dvur-a-trideny-odpad-12cz"
       }
     },
     {
@@ -59332,18 +59354,18 @@
         "@type": "way",
         "@id": 484871980,
         "@url": "https://www.openstreetmap.org/way/484871980",
-        "name": "sběrné suroviny",
-        "source": "cuzk:ruian",
         "amenity": "recycling",
         "building": "yes",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:books": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "ref:ruian:building": "41376382",
         "building:ruian:type": "19",
-        "recycling:scrap_metal": "yes"
+        "name": "sběrné suroviny",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cartons": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "41376382",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -59533,14 +59555,14 @@
         "@type": "way",
         "@id": 513144683,
         "@url": "https://www.openstreetmap.org/way/513144683",
-        "name": "SD Kovo",
         "amenity": "recycling",
-        "operator": "SD Kovo",
-        "opening_hours": "Mo-Fr 6:30-14:30",
-        "recycling_type": "centre",
         "contact:website": "http://sdkovo.cz/",
+        "name": "SD Kovo",
+        "opening_hours": "Mo-Fr 6:30-14:30",
+        "operator": "SD Kovo",
         "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -59751,23 +59773,23 @@
         "@type": "way",
         "@id": 544200827,
         "@url": "https://www.openstreetmap.org/way/544200827",
-        "name": "Sběrný dvůr Praha 5",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr Praha 5",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -59825,14 +59847,14 @@
         "@type": "way",
         "@id": 574879729,
         "@url": "https://www.openstreetmap.org/way/574879729",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling_type": "centre",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:batteries": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -59912,9 +59934,9 @@
         "recycling:plastic": "yes",
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "website": "http://www.tsmpr.cz/"
       }
     },
@@ -60130,13 +60152,13 @@
         "@type": "way",
         "@id": 658728808,
         "@url": "https://www.openstreetmap.org/way/658728808",
-        "name": "AVE CZ",
         "amenity": "recycling",
-        "landuse": "industrial",
-        "recycling_type": "centre",
-        "recycling:paper": "yes",
         "collection_times": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
-        "recycling:scrap_metal": "yes"
+        "landuse": "industrial",
+        "name": "AVE CZ",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -60323,20 +60345,20 @@
         "@type": "way",
         "@id": 703191345,
         "@url": "https://www.openstreetmap.org/way/703191345",
-        "name": "MS - ŠROT",
-        "phone": "+420 776 849 464",
-        "amenity": "recycling",
-        "website": "http://www.mssrot.cz/",
-        "operator": "MS - ŠROT, s.r.o.",
         "addr:city": "Rousínov",
-        "addr:street": "Zahradní",
-        "addr:postcode": "68301",
-        "opening_hours": "Mo-Fr 08:30-16:30; Sa 08:30-11:00",
-        "operator:type": "private",
-        "recycling_type": "centre",
         "addr:housenumber": "1",
+        "addr:postcode": "68301",
+        "addr:street": "Zahradní",
+        "amenity": "recycling",
+        "name": "MS - ŠROT",
+        "opening_hours": "Mo-Fr 08:30-16:30; Sa 08:30-11:00",
+        "operator": "MS - ŠROT, s.r.o.",
+        "operator:type": "private",
+        "phone": "+420 776 849 464",
         "recycling:aluminium": "yes",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.mssrot.cz/"
       }
     },
     {
@@ -60629,25 +60651,25 @@
         "@type": "way",
         "@id": 749181745,
         "@url": "https://www.openstreetmap.org/way/749181745",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "container",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:waste": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -60928,24 +60950,24 @@
         "@type": "way",
         "@id": 770634281,
         "@url": "https://www.openstreetmap.org/way/770634281",
-        "name": "Sběrný dvůr",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -61007,28 +61029,28 @@
         "@type": "way",
         "@id": 775056971,
         "@url": "https://www.openstreetmap.org/way/775056971",
-        "name": "Sběrný dvůr hlavního města Prahy Podnikatelská",
+        "addr:street": "Podnikatelská",
         "amenity": "recycling",
         "barrier": "fence",
-        "operator": "MHMP",
-        "addr:street": "Podnikatelská",
+        "name": "Sběrný dvůr hlavního města Prahy Podnikatelská",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 8:30-15:00",
-        "recycling:cans": "yes",
-        "recycling_type": "centre",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:shoes": "yes",
-        "recycling:clothes": "yes",
-        "recycling:plastic": "yes",
+        "operator": "MHMP",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -61190,8 +61212,8 @@
         "amenity": "recycling",
         "landuse": "industrial",
         "operator": "VTOS, s.r.o.",
-        "recycling_type": "centre",
-        "recycling:scrap_metal": "yes"
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -61326,24 +61348,24 @@
         "@type": "way",
         "@id": 804282368,
         "@url": "https://www.openstreetmap.org/way/804282368",
-        "name": "Sběrný dvůr Radotín",
         "amenity": "recycling",
-        "operator": "Prague city",
+        "name": "Sběrný dvůr Radotín",
         "opening_hours": "Apr-Oct Mo-Fr 08:30-18:00; Nov-Mar Mo-Fr 08:30-17:00",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "recycling:books": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:cartons": "yes",
-        "recycling:plastic": "yes",
+        "operator": "Prague city",
         "recycling:batteries": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:books": "yes",
+        "recycling:cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:electrical_appliances": "yes"
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -62136,8 +62158,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
         "recycling:wood": "yes",
+        "recycling_type": "centre",
         "source": "survey"
       }
     },
@@ -62192,9 +62214,9 @@
         "recycling:paper_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre",
         "website": "https://www.velkebilovice.cz/4-sberny-dvur/d-2854"
       }
     },

@@ -287,6 +287,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4155671,
+          50.0840736
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 435137714,
+        "@url": "https://www.openstreetmap.org/node/435137714",
+        "addr:city": "Praha",
+        "addr:housenumber": "3",
+        "addr:postcode": "11000",
+        "addr:street": "U Dobřenských",
+        "amenity": "restaurant",
+        "contact:email": "info@pivovarstaremesto.cz",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "Pivovar Staré Město",
+        "opening_hours": "Mo-Fr 16:30-22:30; Fr, Sa 16:30-23:00; Su 16:30-22:00",
+        "phone": "+420 777 090 146",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.pivovarstaremesto.cz/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4204345,
           50.0835635
         ]
@@ -2348,7 +2378,8 @@
         "name:de": "Schlossbrauerei Friedland",
         "opening_hours": "14:00-22:00",
         "operator": "Pivovar Frýdlant",
-        "wheelchair": "no"
+        "wheelchair": "no",
+        "wikidata": "Q15618229"
       }
     },
     {
@@ -11689,6 +11720,51 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.348255,
+            49.1377968
+          ],
+          [
+            16.3484344,
+            49.1379452
+          ],
+          [
+            16.3485422,
+            49.1378894
+          ],
+          [
+            16.3483623,
+            49.137741
+          ],
+          [
+            16.348255,
+            49.1377968
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 293458522,
+        "@url": "https://www.openstreetmap.org/way/293458522",
+        "building": "yes",
+        "building:flats": "1",
+        "building:levels": "2",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "email": "info@pivovarpadochov.cz",
+        "microbrewery": "yes",
+        "mobile": "+420 602 790 115",
+        "name": "Padochov",
+        "ref:ruian:building": "24207861",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivovarpadochov.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.5698336,
             49.9269385
           ],
@@ -12717,7 +12793,8 @@
         "@url": "https://www.openstreetmap.org/way/711617536",
         "craft": "brewery",
         "landuse": "industrial",
-        "name": "Pivovar Žatec"
+        "name": "Pivovar Žatec",
+        "wikidata": "Q12045455"
       }
     },
     {
@@ -19501,6 +19578,55 @@
           [
             [
               [
+                16.348255,
+                49.1377968
+              ],
+              [
+                16.3483623,
+                49.137741
+              ],
+              [
+                16.3485422,
+                49.1378894
+              ],
+              [
+                16.3484344,
+                49.1379452
+              ],
+              [
+                16.348255,
+                49.1377968
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 293458522,
+        "@url": "https://www.openstreetmap.org/way/293458522",
+        "building": "yes",
+        "building:flats": "1",
+        "building:levels": "2",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "email": "info@pivovarpadochov.cz",
+        "microbrewery": "yes",
+        "mobile": "+420 602 790 115",
+        "name": "Padochov",
+        "ref:ruian:building": "24207861",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivovarpadochov.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 14.5698336,
                 49.9269385
               ],
@@ -20781,7 +20907,8 @@
         "@url": "https://www.openstreetmap.org/way/711617536",
         "craft": "brewery",
         "landuse": "industrial",
-        "name": "Pivovar Žatec"
+        "name": "Pivovar Žatec",
+        "wikidata": "Q12045455"
       }
     },
     {

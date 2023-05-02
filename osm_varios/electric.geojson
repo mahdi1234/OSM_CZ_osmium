@@ -17211,13 +17211,12 @@
         "@url": "https://www.openstreetmap.org/node/8401080918",
         "amenity": "recycling",
         "recycling:batteries": "yes",
-        "recycling:cans": "yes",
         "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "no",
         "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -28259,6 +28258,99 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3543817,
+          49.1345184
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10856532786,
+        "@url": "https://www.openstreetmap.org/node/10856532786",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6224409,
+          49.1793302
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10857744605,
+        "@url": "https://www.openstreetmap.org/node/10857744605",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4670466,
+          49.8991111
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10858243941,
+        "@url": "https://www.openstreetmap.org/node/10858243941",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "operator": "Obec Dětmarovice",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3422123,
+          50.0585138
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10858749167,
+        "@url": "https://www.openstreetmap.org/node/10858749167",
+        "amenity": "recycling",
+        "recycling:electrical_items": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -34050,6 +34142,7 @@
         "addr:postcode": "61700",
         "addr:street": "bratří Žůrků",
         "amenity": "recycling",
+        "check_date:opening_hours": "2023-04-30",
         "mobile": "+420 607 807 683",
         "name": "SSO Bratří Žůrků",
         "opening_hours": "Mo 14:00-18:00; Tu-Fr 09:00-13:00,14:00-18:00; Sa 08:00-12:00",
@@ -42982,6 +43075,7 @@
         "addr:postcode": "61700",
         "addr:street": "bratří Žůrků",
         "amenity": "recycling",
+        "check_date:opening_hours": "2023-04-30",
         "mobile": "+420 607 807 683",
         "name": "SSO Bratří Žůrků",
         "opening_hours": "Mo 14:00-18:00; Tu-Fr 09:00-13:00,14:00-18:00; Sa 08:00-12:00",

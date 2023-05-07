@@ -4754,6 +4754,71 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4752425,
+            49.1369516
+          ],
+          [
+            16.475346,
+            49.1369266
+          ],
+          [
+            16.4755264,
+            49.1371225
+          ],
+          [
+            16.4754237,
+            49.137168
+          ],
+          [
+            16.4754902,
+            49.1372474
+          ],
+          [
+            16.4754312,
+            49.1372631
+          ],
+          [
+            16.4753446,
+            49.1371636
+          ],
+          [
+            16.4751853,
+            49.1369713
+          ],
+          [
+            16.4752425,
+            49.1369516
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1164968144,
+        "@url": "https://www.openstreetmap.org/way/1164968144",
+        "amenity": "recycling",
+        "building": "service",
+        "operator": "Obec Radostice",
+        "operator:type": "public",
+        "recycling:automotive_batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electronic_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paint": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tires": "yes",
+        "recycling:trash": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -7958,6 +8023,75 @@
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
         "website": "http://www.lazne-belohrad.cz/mesto/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4751853,
+                49.1369713
+              ],
+              [
+                16.4752425,
+                49.1369516
+              ],
+              [
+                16.475346,
+                49.1369266
+              ],
+              [
+                16.4755264,
+                49.1371225
+              ],
+              [
+                16.4754237,
+                49.137168
+              ],
+              [
+                16.4754902,
+                49.1372474
+              ],
+              [
+                16.4754312,
+                49.1372631
+              ],
+              [
+                16.4753446,
+                49.1371636
+              ],
+              [
+                16.4751853,
+                49.1369713
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1164968144,
+        "@url": "https://www.openstreetmap.org/way/1164968144",
+        "amenity": "recycling",
+        "building": "service",
+        "operator": "Obec Radostice",
+        "operator:type": "public",
+        "recycling:automotive_batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electronic_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paint": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tires": "yes",
+        "recycling:trash": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

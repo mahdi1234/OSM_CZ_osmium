@@ -3873,9 +3873,7 @@
         "@id": 2245320221,
         "@url": "https://www.openstreetmap.org/node/2245320221",
         "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:paper": "yes",
         "recycling:plastic": "no",
         "recycling:plastic_bottles": "no",
         "recycling:plastic_packaging": "no",
@@ -11799,6 +11797,29 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "container",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2469417,
+          49.5679453
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5115012283,
+        "@url": "https://www.openstreetmap.org/node/5115012283",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -22169,35 +22190,6 @@
         "recycling:cardboard": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.6287893,
-          49.2284714
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8458721376,
-        "@url": "https://www.openstreetmap.org/node/8458721376",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:books": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",

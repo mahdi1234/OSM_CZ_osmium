@@ -18631,6 +18631,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.9016679,
+          49.1104443
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7482888093,
+        "@url": "https://www.openstreetmap.org/node/7482888093",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.522641,
           49.1652262
         ]
@@ -22811,6 +22838,31 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4938696,
+          50.0586965
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8531647416,
+        "@url": "https://www.openstreetmap.org/node/8531647416",
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -43383,6 +43435,31 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9045268,
+          49.1079644
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10884524115,
+        "@url": "https://www.openstreetmap.org/node/10884524115",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -48816,6 +48893,7 @@
         "@url": "https://www.openstreetmap.org/way/473667360",
         "amenity": "recycling",
         "email": "cb@fcc-group.cz",
+        "name": "Sběrný dvůr FCC",
         "opening_hours": "Apr-Oct Mo-Fr 08:00-20:00,Sa 08:00-12:00,Su 08:00-11:00; Nov-Mar Mo-Fr 08:00-18:00,Sa 08:00-12:00,Su 08:00-11:00",
         "operator": "FCC",
         "phone": "+420 606 634 440",
@@ -48828,7 +48906,9 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "website": "https://www.fcc-group.eu/ceska-republika/sluzby/sberne-dvory/jizni-cechy/sd-ceske-budejovice-dolni",
+        "wheelchair": "yes"
       }
     },
     {
@@ -59504,6 +59584,7 @@
         "@url": "https://www.openstreetmap.org/way/473667360",
         "amenity": "recycling",
         "email": "cb@fcc-group.cz",
+        "name": "Sběrný dvůr FCC",
         "opening_hours": "Apr-Oct Mo-Fr 08:00-20:00,Sa 08:00-12:00,Su 08:00-11:00; Nov-Mar Mo-Fr 08:00-18:00,Sa 08:00-12:00,Su 08:00-11:00",
         "operator": "FCC",
         "phone": "+420 606 634 440",
@@ -59516,7 +59597,9 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "website": "https://www.fcc-group.eu/ceska-republika/sluzby/sberne-dvory/jizni-cechy/sd-ceske-budejovice-dolni",
+        "wheelchair": "yes"
       }
     },
     {

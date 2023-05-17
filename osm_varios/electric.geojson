@@ -7759,31 +7759,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5924306,
-          49.2123937
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4934661623,
-        "@url": "https://www.openstreetmap.org/node/4934661623",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4559378,
           50.1203959
         ]
@@ -28465,26 +28440,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.7468018,
-          50.2370466
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10886203816,
-        "@url": "https://www.openstreetmap.org/node/10886203816",
-        "amenity": "recycling",
-        "recycling:electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.7451433,
-          50.2426658
+          12.7451655,
+          50.2426777
         ]
       },
       "properties": {
@@ -28492,9 +28449,13 @@
         "@id": 10886226337,
         "@url": "https://www.openstreetmap.org/node/10886226337",
         "amenity": "recycling",
-        "recycling:clothes": "yes",
+        "colour": "oranžová",
+        "description": "Zpětný odběr baterií a drobného elektrozařízení",
+        "operator": "Asekol",
         "recycling:electrical_appliances": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:electronic_items": "yes",
+        "recycling:electronic_scrap": "yes",
         "recycling_type": "container"
       }
     },
@@ -28620,6 +28581,49 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5927008,
+          49.2125973
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10901575050,
+        "@url": "https://www.openstreetmap.org/node/10901575050",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7468219,
+          50.2370553
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10903353998,
+        "@url": "https://www.openstreetmap.org/node/10903353998",
+        "amenity": "recycling",
+        "colour": "oranžová",
+        "description": "Zpětný odběr baterií a drobného elektrozařízení",
+        "operator": "Asekol",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:electronic_items": "yes",
+        "recycling:electronic_scrap": "yes",
         "recycling_type": "container"
       }
     },

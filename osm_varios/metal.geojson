@@ -6122,6 +6122,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5406962,
+          49.5772269
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2855584139,
+        "@url": "https://www.openstreetmap.org/node/2855584139",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.2169214,
           49.5971298
         ]
@@ -13258,13 +13282,16 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -32075,8 +32102,11 @@
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -43657,6 +43687,28 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6466514,
+          49.2325642
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10916651593,
+        "@url": "https://www.openstreetmap.org/node/10916651593",
+        "amenity": "recycling",
+        "mobile": "+420 602 744 185",
+        "name": "MBBL",
+        "opening_hours": "Mo-Fr 07:30-16:30",
+        "phone": "+420 545 235 536",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {

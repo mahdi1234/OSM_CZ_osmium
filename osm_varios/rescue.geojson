@@ -422,21 +422,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4538204,
-          50.7866884
+          15.4534991,
+          50.7865918
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 664204646,
         "@url": "https://www.openstreetmap.org/node/664204646",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Pod Jakšínem (rozcestí)",
-        "operator": "cz:KČT",
-        "ref": "SK100",
-        "tourism": "information"
+        "operator": "KRNAP",
+        "ref": "SK100"
       }
     },
     {
@@ -1093,6 +1090,7 @@
         "highway": "emergency_access_point",
         "hiking": "yes",
         "information": "guidepost",
+        "mapillary": "646182527524834",
         "name": "Kamenice - most pod Jakšínem",
         "operator": "cz:KČT",
         "ref": "SK888;SK146",
@@ -21461,6 +21459,60 @@
         "operator": "Lesy ČR, s.p.",
         "ref": "NA137",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6726724,
+          50.231933
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10919556431,
+        "@url": "https://www.openstreetmap.org/node/10919556431",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "LN023"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6825346,
+          50.2257355
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10919556432,
+        "@url": "https://www.openstreetmap.org/node/10919556432",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "note": "tabulka je ukrytá uvnitř rozpadajícího se přístřešku",
+        "ref": "RA025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.111776,
+          50.5859332
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10922195807,
+        "@url": "https://www.openstreetmap.org/node/10922195807",
+        "highway": "emergency_access_point",
+        "ref": "TU 050"
       }
     },
     {

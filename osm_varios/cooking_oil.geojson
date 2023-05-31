@@ -508,6 +508,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.467181,
+          50.0701276
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1258661553,
+        "@url": "https://www.openstreetmap.org/node/1258661553",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5157764,
           50.1767016
         ]
@@ -4670,7 +4691,13 @@
         "@type": "node",
         "@id": 7093890853,
         "@url": "https://www.openstreetmap.org/node/7093890853",
+        "addr:housenumber": "968",
+        "addr:place": "Nové Město na Moravě",
+        "addr:postcode": "59231",
+        "addr:street": "Na Výsluní",
         "amenity": "recycling",
+        "check_date": "2023-05-30",
+        "opening_hours": "24/7",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:electrical_appliances": "yes",
@@ -17314,6 +17341,30 @@
         "recycling:cooking_oil": "yes",
         "recycling:green_waste": "yes",
         "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2878202,
+          50.0653288
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10940117934,
+        "@url": "https://www.openstreetmap.org/node/10940117934",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:sklo": "yes",
         "recycling_type": "container"
       }
     },

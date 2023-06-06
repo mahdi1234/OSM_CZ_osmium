@@ -24542,8 +24542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.1966977,
-          50.2225913
+          12.1967144,
+          50.2225905
         ]
       },
       "properties": {
@@ -37196,6 +37196,146 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4660769,
+            50.1023947
+          ],
+          [
+            14.4659091,
+            50.1024474
+          ],
+          [
+            14.4661887,
+            50.1028092
+          ],
+          [
+            14.4663577,
+            50.1027675
+          ],
+          [
+            14.4665758,
+            50.1026908
+          ],
+          [
+            14.4667243,
+            50.1026268
+          ],
+          [
+            14.4665224,
+            50.1023288
+          ],
+          [
+            14.4664225,
+            50.1022836
+          ],
+          [
+            14.466314,
+            50.1023195
+          ],
+          [
+            14.4660769,
+            50.1023947
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1179698396,
+        "@url": "https://www.openstreetmap.org/way/1179698396",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Voctářova",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
+        "operator": "hlavní město Praha",
+        "operator:type": "public",
+        "recycling:bio_waste": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:metal": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.8206604,
+            49.434765
+          ],
+          [
+            12.8205841,
+            49.4345786
+          ],
+          [
+            12.8210023,
+            49.4344565
+          ],
+          [
+            12.8210513,
+            49.4345607
+          ],
+          [
+            12.8210449,
+            49.4345871
+          ],
+          [
+            12.8211261,
+            49.4346955
+          ],
+          [
+            12.8211911,
+            49.4347347
+          ],
+          [
+            12.8213349,
+            49.4350607
+          ],
+          [
+            12.8212655,
+            49.4350923
+          ],
+          [
+            12.8210198,
+            49.4349534
+          ],
+          [
+            12.8210158,
+            49.4349161
+          ],
+          [
+            12.8209544,
+            49.4348817
+          ],
+          [
+            12.8207586,
+            49.4348226
+          ],
+          [
+            12.8206604,
+            49.434765
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1179761873,
+        "@url": "https://www.openstreetmap.org/way/1179761873",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -46204,6 +46344,154 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.4659091,
+                50.1024474
+              ],
+              [
+                14.4660769,
+                50.1023947
+              ],
+              [
+                14.466314,
+                50.1023195
+              ],
+              [
+                14.4664225,
+                50.1022836
+              ],
+              [
+                14.4665224,
+                50.1023288
+              ],
+              [
+                14.4667243,
+                50.1026268
+              ],
+              [
+                14.4665758,
+                50.1026908
+              ],
+              [
+                14.4663577,
+                50.1027675
+              ],
+              [
+                14.4661887,
+                50.1028092
+              ],
+              [
+                14.4659091,
+                50.1024474
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1179698396,
+        "@url": "https://www.openstreetmap.org/way/1179698396",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Voctářova",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
+        "operator": "hlavní město Praha",
+        "operator:type": "public",
+        "recycling:bio_waste": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:metal": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.8205841,
+                49.4345786
+              ],
+              [
+                12.8210023,
+                49.4344565
+              ],
+              [
+                12.8210513,
+                49.4345607
+              ],
+              [
+                12.8210449,
+                49.4345871
+              ],
+              [
+                12.8211261,
+                49.4346955
+              ],
+              [
+                12.8211911,
+                49.4347347
+              ],
+              [
+                12.8213349,
+                49.4350607
+              ],
+              [
+                12.8212655,
+                49.4350923
+              ],
+              [
+                12.8210198,
+                49.4349534
+              ],
+              [
+                12.8210158,
+                49.4349161
+              ],
+              [
+                12.8209544,
+                49.4348817
+              ],
+              [
+                12.8207586,
+                49.4348226
+              ],
+              [
+                12.8206604,
+                49.434765
+              ],
+              [
+                12.8205841,
+                49.4345786
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1179761873,
+        "@url": "https://www.openstreetmap.org/way/1179761873",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "centre"
       }
     }

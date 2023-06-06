@@ -15337,6 +15337,32 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5642369,
+            49.1700121
+          ],
+          [
+            16.5642334,
+            49.1699956
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1179835551,
+        "@url": "https://www.openstreetmap.org/way/1179835551",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "step_count": "6",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.6004232,
             49.2238927
           ],
@@ -32290,7 +32316,8 @@
         "lit": "no",
         "ramp": "no",
         "step_count": "16",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {

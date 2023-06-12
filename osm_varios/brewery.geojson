@@ -599,19 +599,21 @@
         "addr:postcode": "40001",
         "addr:street": "Klášterní",
         "amenity": "restaurant",
+        "capacity": "27",
         "cuisine": "regional",
-        "email": "restaurace@pivovarnarychte.cz",
+        "email": "info@pivovarnarychte.cz",
         "fax": "+420 475 212945",
         "microbrewery": "yes",
-        "name": "Na Rychtě",
+        "name": "Pivovar Hotel Na Rychtě",
         "opening_hours": "Mo-Sa 10:30-24:00; Su 11:00-22:00",
         "outdoor_seating": "no",
         "payment:coins": "yes",
         "payment:mastercard": "yes",
         "payment:notes": "yes",
-        "phone": "+420 475 213138",
+        "phone": "+420 475 213 138",
+        "ref:nap": "18161",
         "tourism": "hotel",
-        "website": "http://www.pivovarnarychte.cz"
+        "website": "https://www.pivovarnarychte.cz/"
       }
     },
     {
@@ -6384,6 +6386,34 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2638197,
+          49.026473
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10969523813,
+        "@url": "https://www.openstreetmap.org/node/10969523813",
+        "craft": "brewery",
+        "email": "vojtech10@gmail.com",
+        "microbrewery": "yes",
+        "mobile": "+420 702 536 362",
+        "name": "Syrovar",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-16:00",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "website": "https://www.syrovar.cz/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -7300,11 +7330,16 @@
         "@url": "https://www.openstreetmap.org/way/59111648",
         "building": "yes",
         "building:ruian:type": "5",
+        "capacity": "50",
         "craft": "brewery",
-        "name": "Koliba",
+        "email": "koliba@post.cz",
+        "name": "Hotel Koliba",
+        "phone": "+420 416 732 861",
+        "ref:nap": "19762",
         "ref:ruian:building": "24584045",
         "source": "cuzk:ruian",
-        "tourism": "hotel"
+        "tourism": "hotel",
+        "website": "https://www.kolibahotel.cz/"
       }
     },
     {
@@ -14964,11 +14999,16 @@
         "@url": "https://www.openstreetmap.org/way/59111648",
         "building": "yes",
         "building:ruian:type": "5",
+        "capacity": "50",
         "craft": "brewery",
-        "name": "Koliba",
+        "email": "koliba@post.cz",
+        "name": "Hotel Koliba",
+        "phone": "+420 416 732 861",
+        "ref:nap": "19762",
         "ref:ruian:building": "24584045",
         "source": "cuzk:ruian",
-        "tourism": "hotel"
+        "tourism": "hotel",
+        "website": "https://www.kolibahotel.cz/"
       }
     },
     {

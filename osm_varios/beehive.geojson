@@ -4041,6 +4041,38 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2990889,
+          50.0867675
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10991973937,
+        "@url": "https://www.openstreetmap.org/node/10991973937",
+        "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.299058,
+          50.0867629
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10991973938,
+        "@url": "https://www.openstreetmap.org/node/10991973938",
+        "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -4995,6 +5027,43 @@
         "@id": 1169717065,
         "@url": "https://www.openstreetmap.org/way/1169717065",
         "landuse": "apiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2025251,
+            50.2220107
+          ],
+          [
+            12.2025857,
+            50.2220267
+          ],
+          [
+            12.2025677,
+            50.2220546
+          ],
+          [
+            12.2025071,
+            50.2220385
+          ],
+          [
+            12.2025251,
+            50.2220107
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1177226891,
+        "@url": "https://www.openstreetmap.org/way/1177226891",
+        "building": "farm_auxiliary",
+        "craft": "beekeeper",
+        "landuse": "apiary",
+        "source": "microsoft/BuildingFootprints"
       }
     },
     {
@@ -6008,6 +6077,47 @@
         "@id": 1169717065,
         "@url": "https://www.openstreetmap.org/way/1169717065",
         "landuse": "apiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.2025071,
+                50.2220385
+              ],
+              [
+                12.2025251,
+                50.2220107
+              ],
+              [
+                12.2025857,
+                50.2220267
+              ],
+              [
+                12.2025677,
+                50.2220546
+              ],
+              [
+                12.2025071,
+                50.2220385
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1177226891,
+        "@url": "https://www.openstreetmap.org/way/1177226891",
+        "building": "farm_auxiliary",
+        "craft": "beekeeper",
+        "landuse": "apiary",
+        "source": "microsoft/BuildingFootprints"
       }
     }
   ]

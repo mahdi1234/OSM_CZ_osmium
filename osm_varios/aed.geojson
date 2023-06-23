@@ -1786,6 +1786,7 @@
         "emergency": "defibrillator",
         "indoor": "yes",
         "level": "0",
+        "opening_hours": "06:00-22:00",
         "operator": "Česká spořitelna"
       }
     },
@@ -2295,6 +2296,46 @@
         "@id": 10980152689,
         "@url": "https://www.openstreetmap.org/node/10980152689",
         "emergency": "defibrillator"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4333367,
+          50.0564738
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10995789997,
+        "@url": "https://www.openstreetmap.org/node/10995789997",
+        "defibrillator:location": "V ordinaci praktického lékaře",
+        "emergency": "defibrillator",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4479614,
+          50.0434622
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10996899597,
+        "@url": "https://www.openstreetmap.org/node/10996899597",
+        "access": "yes",
+        "defibrillator:location": "Recepce.",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "opening_hours": "06:00-22:00",
+        "operator": "Česká spořitelna"
       }
     }
   ]

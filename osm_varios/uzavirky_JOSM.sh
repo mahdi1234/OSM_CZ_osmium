@@ -1,5 +1,4 @@
 #!/bin/bash
-curl "http://localhost:8111/load_object?new_layer=false&objects=w4648741"
 curl "http://localhost:8111/load_object?new_layer=false&objects=w9581865"
 curl "http://localhost:8111/load_object?new_layer=false&objects=w9584407"
 curl "http://localhost:8111/load_object?new_layer=false&objects=w10866662"
@@ -19,3 +18,7 @@ curl "http://localhost:8111/load_object?new_layer=false&objects=w728853344"
 curl "http://localhost:8111/load_object?new_layer=false&objects=w1021072515"
 curl "http://localhost:8111/load_object?new_layer=false&objects=w1173127418"
 curl "http://localhost:8111/load_object?new_layer=false&objects=w1176543455"
+curl "http://localhost:8111/load_object?new_layer=false&objects=w1187434912"
+curl "http://localhost:8111/load_object?new_layer=false&objects=w1187434913"
+curl "http://localhost:8111/load_object?new_layer=false&objects=w1187434917"
+curl "http://localhost:8111/load_object?new_layer=false&objects=w1187434918"

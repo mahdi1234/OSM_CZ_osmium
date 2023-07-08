@@ -22353,6 +22353,52 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.3621571,
+            49.2868423
+          ],
+          [
+            16.3623092,
+            49.2864232
+          ],
+          [
+            16.3623601,
+            49.286285
+          ],
+          [
+            16.3624218,
+            49.2863847
+          ],
+          [
+            16.3624111,
+            49.2866769
+          ],
+          [
+            16.3623323,
+            49.2868672
+          ],
+          [
+            16.3621571,
+            49.2868423
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1187801335,
+        "@url": "https://www.openstreetmap.org/way/1187801335",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -30996,6 +31042,56 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.mokrylom.cz/sberny-dvur-mokry-lom/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.3621571,
+                49.2868423
+              ],
+              [
+                16.3623092,
+                49.2864232
+              ],
+              [
+                16.3623601,
+                49.286285
+              ],
+              [
+                16.3624218,
+                49.2863847
+              ],
+              [
+                16.3624111,
+                49.2866769
+              ],
+              [
+                16.3623323,
+                49.2868672
+              ],
+              [
+                16.3621571,
+                49.2868423
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1187801335,
+        "@url": "https://www.openstreetmap.org/way/1187801335",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

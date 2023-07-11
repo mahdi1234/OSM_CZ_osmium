@@ -12489,6 +12489,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.290155,
+          49.189865
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5363206753,
+        "@url": "https://www.openstreetmap.org/node/5363206753",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6808755,
           49.1807233
         ]
@@ -18620,6 +18646,34 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.286083,
+          49.1882523
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7367080234,
+        "@url": "https://www.openstreetmap.org/node/7367080234",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -26766,6 +26820,32 @@
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2829935,
+          49.1879154
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9205434774,
+        "@url": "https://www.openstreetmap.org/node/9205434774",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
@@ -44858,6 +44938,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6837085,
+          49.3904959
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11035192636,
+        "@url": "https://www.openstreetmap.org/node/11035192636",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -52893,6 +52997,7 @@
         "@url": "https://www.openstreetmap.org/way/869079911",
         "amenity": "recycling",
         "name": "Sběrný dvůr Kaznějov",
+        "opening_hours": "Tu 14:00-18:00; Th 14:00-18:00; Sa: 8:00-12:00",
         "recycling:beverage_cartons": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
@@ -52909,7 +53014,9 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
       }
     },
     {
@@ -63853,6 +63960,7 @@
         "@url": "https://www.openstreetmap.org/way/869079911",
         "amenity": "recycling",
         "name": "Sběrný dvůr Kaznějov",
+        "opening_hours": "Tu 14:00-18:00; Th 14:00-18:00; Sa: 8:00-12:00",
         "recycling:beverage_cartons": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
@@ -63869,7 +63977,9 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
       }
     },
     {

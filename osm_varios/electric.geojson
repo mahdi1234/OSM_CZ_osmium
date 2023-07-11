@@ -29106,6 +29106,28 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3982528,
+          49.6690694
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11037451897,
+        "@url": "https://www.openstreetmap.org/node/11037451897",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -35221,6 +35243,7 @@
         "@url": "https://www.openstreetmap.org/way/869079911",
         "amenity": "recycling",
         "name": "Sběrný dvůr Kaznějov",
+        "opening_hours": "Tu 14:00-18:00; Th 14:00-18:00; Sa: 8:00-12:00",
         "recycling:beverage_cartons": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
@@ -35237,7 +35260,9 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
       }
     },
     {
@@ -44347,6 +44372,7 @@
         "@url": "https://www.openstreetmap.org/way/869079911",
         "amenity": "recycling",
         "name": "Sběrný dvůr Kaznějov",
+        "opening_hours": "Tu 14:00-18:00; Th 14:00-18:00; Sa: 8:00-12:00",
         "recycling:beverage_cartons": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
@@ -44363,7 +44389,9 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
       }
     },
     {

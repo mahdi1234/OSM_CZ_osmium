@@ -6459,6 +6459,54 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1562389,
+          50.5918265
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11041495974,
+        "@url": "https://www.openstreetmap.org/node/11041495974",
+        "amenity": "pub",
+        "check_date": "2023-07-12",
+        "currency:XBT": "yes",
+        "description": "3rd party app Qerko required for bitcoin payment",
+        "microbrewery": "yes",
+        "name": "Turnovská pivnice Na lukách - Bistro u pivovaru",
+        "payment:qerko:lightning": "yes",
+        "website": "https://turnovskapivnice.cz/nase-podniky/bistro-u-pivovaru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1167614,
+          49.5910508
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11042242091,
+        "@url": "https://www.openstreetmap.org/node/11042242091",
+        "amenity": "pub",
+        "check_date": "2023-07,12",
+        "currency:XBT": "yes",
+        "description": "3rd party app Qerko required for bitcoin payment",
+        "microbrewery": "yes",
+        "name": "Městský pivovar",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:qerko:lightning": "yes",
+        "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -6577,51 +6625,6 @@
         "website": "https://lucnibouda.cz",
         "wikidata": "Q132423",
         "wikipedia": "cs:Luční bouda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            18.116937,
-            49.5910831
-          ],
-          [
-            18.1167848,
-            49.5909349
-          ],
-          [
-            18.1166595,
-            49.5909894
-          ],
-          [
-            18.1168125,
-            49.5911381
-          ],
-          [
-            18.116937,
-            49.5910831
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 37790997,
-        "@url": "https://www.openstreetmap.org/way/37790997",
-        "amenity": "pub",
-        "building": "house",
-        "building:levels": "1",
-        "building:ruian:type": "7",
-        "microbrewery": "yes",
-        "name": "Městský pivovar",
-        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
-        "outdoor_seating": "yes",
-        "ref:ruian:building": "8267995",
-        "source": "cuzk:ruian",
-        "source:position": "cuzk:km",
-        "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk"
       }
     },
     {
@@ -9478,45 +9481,6 @@
         "ref:ruian:building": "18791301",
         "source": "cuzk:ruian",
         "website": "https://pivovareknakopecku.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            15.156355,
-            50.591841
-          ],
-          [
-            15.156243,
-            50.591746
-          ],
-          [
-            15.156125,
-            50.591804
-          ],
-          [
-            15.156236,
-            50.591896
-          ],
-          [
-            15.156355,
-            50.591841
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 95153144,
-        "@url": "https://www.openstreetmap.org/way/95153144",
-        "amenity": "biergarten",
-        "building": "yes",
-        "microbrewery": "yes",
-        "name": "Bistro u pivovaru",
-        "source": "cuzk:km",
-        "website": "https://turnovskapivnice.cz/nase-podniky/bistro-u-pivovaru"
       }
     },
     {
@@ -13756,55 +13720,6 @@
           [
             [
               [
-                18.1166595,
-                49.5909894
-              ],
-              [
-                18.1167848,
-                49.5909349
-              ],
-              [
-                18.116937,
-                49.5910831
-              ],
-              [
-                18.1168125,
-                49.5911381
-              ],
-              [
-                18.1166595,
-                49.5909894
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 37790997,
-        "@url": "https://www.openstreetmap.org/way/37790997",
-        "amenity": "pub",
-        "building": "house",
-        "building:levels": "1",
-        "building:ruian:type": "7",
-        "microbrewery": "yes",
-        "name": "Městský pivovar",
-        "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
-        "outdoor_seating": "yes",
-        "ref:ruian:building": "8267995",
-        "source": "cuzk:ruian",
-        "source:position": "cuzk:km",
-        "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
                 18.147881,
                 49.602433
               ],
@@ -17247,49 +17162,6 @@
         "ref:ruian:building": "18791301",
         "source": "cuzk:ruian",
         "website": "https://pivovareknakopecku.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                15.156125,
-                50.591804
-              ],
-              [
-                15.156243,
-                50.591746
-              ],
-              [
-                15.156355,
-                50.591841
-              ],
-              [
-                15.156236,
-                50.591896
-              ],
-              [
-                15.156125,
-                50.591804
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 95153144,
-        "@url": "https://www.openstreetmap.org/way/95153144",
-        "amenity": "biergarten",
-        "building": "yes",
-        "microbrewery": "yes",
-        "name": "Bistro u pivovaru",
-        "source": "cuzk:km",
-        "website": "https://turnovskapivnice.cz/nase-podniky/bistro-u-pivovaru"
       }
     },
     {

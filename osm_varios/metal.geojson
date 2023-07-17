@@ -8229,8 +8229,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7276236,
-          49.1646208
+          16.727629,
+          49.1646353
         ]
       },
       "properties": {
@@ -15513,10 +15513,15 @@
         "@id": 6560350151,
         "@url": "https://www.openstreetmap.org/node/6560350151",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling_type": "container"
@@ -24083,6 +24088,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.4812464,
+          49.8039365
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8695218606,
+        "@url": "https://www.openstreetmap.org/node/8695218606",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.8041233,
           48.8004332
         ]
@@ -25968,8 +25994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6533187,
-          49.2201001
+          16.6532817,
+          49.2201011
         ]
       },
       "properties": {
@@ -45302,6 +45328,33 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7387696,
+          49.4159782
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11049804024,
+        "@url": "https://www.openstreetmap.org/node/11049804024",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -55544,6 +55597,8 @@
         "@url": "https://www.openstreetmap.org/way/1164968144",
         "amenity": "recycling",
         "building": "service",
+        "name": "Sběrné místo",
+        "opening_hours": "Tu,Th 17:00-18:00; Sa 10:00-12:00",
         "operator": "Obec Radostice",
         "operator:type": "public",
         "recycling:automotive_batteries": "yes",
@@ -66717,6 +66772,8 @@
         "@url": "https://www.openstreetmap.org/way/1164968144",
         "amenity": "recycling",
         "building": "service",
+        "name": "Sběrné místo",
+        "opening_hours": "Tu,Th 17:00-18:00; Sa 10:00-12:00",
         "operator": "Obec Radostice",
         "operator:type": "public",
         "recycling:automotive_batteries": "yes",

@@ -8659,7 +8659,8 @@
         "ramp": "no",
         "source": "survey;cuzk:km",
         "step_count": "5",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -8688,7 +8689,8 @@
         "ramp": "no",
         "source": "survey;cuzk:km",
         "step_count": "4",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -14711,7 +14713,8 @@
         "ramp": "no",
         "source": "uhul:ortofoto;local_knowledge",
         "step_count": "18",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -34847,6 +34850,35 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.6000985,
+            49.1912135
+          ],
+          [
+            16.6001047,
+            49.1912917
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 890843177,
+        "@url": "https://www.openstreetmap.org/way/890843177",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "18",
+        "surface": "metal",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.6011421,
             49.1909617
           ],
@@ -34867,7 +34899,8 @@
         "material": "steel",
         "ramp": "no",
         "step_count": "16",
-        "surface": "metal"
+        "surface": "metal",
+        "tactile_paving": "no"
       }
     },
     {
@@ -35394,7 +35427,8 @@
         "lit": "no",
         "ramp": "no",
         "step_count": "13",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -43105,7 +43139,8 @@
         "ramp": "no",
         "source": "uhul:ortofoto;local_knowledge",
         "step_count": "6",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {

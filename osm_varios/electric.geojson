@@ -10371,6 +10371,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.6464716,
+          49.8030453
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6109159573,
+        "@url": "https://www.openstreetmap.org/node/6109159573",
+        "addr:conscriptionnumber": "2257",
+        "addr:housenumber": "2257",
+        "addr:place": "Tachov",
+        "addr:postcode": "34701",
+        "addr:street": "Vilémovská",
+        "amenity": "recycling",
+        "opening_hours": "Mo-Fr 10:00-17:00;Sa 9:00-16:00",
+        "operator": "FCC",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:addr": "78880874",
+        "website": "https://www.tachov-mesto.cz/sberny-dvur-odpadu.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4244453,
           50.1417205
         ]
@@ -28206,6 +28237,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.1979811,
+          49.0516576
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10693922059,
+        "@url": "https://www.openstreetmap.org/node/10693922059",
+        "amenity": "recycling",
+        "operator": "Město Netolice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.netolice.cz/mesto/sberny-dvur-netolice/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.2979791,
           50.7172189
         ]
@@ -28778,6 +28844,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.8875956,
+          49.4283816
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10891933337,
+        "@url": "https://www.openstreetmap.org/node/10891933337",
+        "amenity": "recycling",
+        "operator": "Technické služby města Blatné s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.tsblatna.cz/stredisko-odpady/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.7290409,
           50.0449017
         ]
@@ -28879,6 +28978,43 @@
         "recycling:electronic_items": "yes",
         "recycling:electronic_scrap": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7491485,
+          50.2341982
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10926729566,
+        "@url": "https://www.openstreetmap.org/node/10926729566",
+        "amenity": "recycling",
+        "email": "sberny.dvur@chotes.cz",
+        "name": "Sběrný dvůr CHOTES",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su 07:00-11:00",
+        "operator": "Chodovské technicko-ekologické služby s. r. o.",
+        "phone": "+420 352 352 415",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.chotes.cz/sberny-dvur"
       }
     },
     {
@@ -29116,8 +29252,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.9955381,
-          50.2741833
+          12.9956271,
+          50.2743335
         ]
       },
       "properties": {
@@ -29195,6 +29331,32 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3676273,
+          49.6770226
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11055563411,
+        "@url": "https://www.openstreetmap.org/node/11055563411",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -37705,6 +37867,104 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.5642033,
+            50.3049918
+          ],
+          [
+            12.5643512,
+            50.304978
+          ],
+          [
+            12.564419,
+            50.305104
+          ],
+          [
+            12.5645115,
+            50.3051414
+          ],
+          [
+            12.564721,
+            50.3051099
+          ],
+          [
+            12.5648627,
+            50.3050449
+          ],
+          [
+            12.5649397,
+            50.3049288
+          ],
+          [
+            12.5650568,
+            50.3048344
+          ],
+          [
+            12.564952,
+            50.3047379
+          ],
+          [
+            12.5648319,
+            50.3047498
+          ],
+          [
+            12.5647918,
+            50.3047439
+          ],
+          [
+            12.5647826,
+            50.3046671
+          ],
+          [
+            12.5647271,
+            50.3046769
+          ],
+          [
+            12.5642557,
+            50.3047242
+          ],
+          [
+            12.563923,
+            50.3047694
+          ],
+          [
+            12.5639476,
+            50.3048206
+          ],
+          [
+            12.5641356,
+            50.3048009
+          ],
+          [
+            12.5642033,
+            50.3049918
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1175817070,
+        "@url": "https://www.openstreetmap.org/way/1175817070",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.rotava.cz/mestsky-urad/sberne-misto/"
       }
     },
     {
@@ -46966,6 +47226,108 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.563923,
+                50.3047694
+              ],
+              [
+                12.5642557,
+                50.3047242
+              ],
+              [
+                12.5647271,
+                50.3046769
+              ],
+              [
+                12.5647826,
+                50.3046671
+              ],
+              [
+                12.5647918,
+                50.3047439
+              ],
+              [
+                12.5648319,
+                50.3047498
+              ],
+              [
+                12.564952,
+                50.3047379
+              ],
+              [
+                12.5650568,
+                50.3048344
+              ],
+              [
+                12.5649397,
+                50.3049288
+              ],
+              [
+                12.5648627,
+                50.3050449
+              ],
+              [
+                12.564721,
+                50.3051099
+              ],
+              [
+                12.5645115,
+                50.3051414
+              ],
+              [
+                12.564419,
+                50.305104
+              ],
+              [
+                12.5643512,
+                50.304978
+              ],
+              [
+                12.5642033,
+                50.3049918
+              ],
+              [
+                12.5641356,
+                50.3048009
+              ],
+              [
+                12.5639476,
+                50.3048206
+              ],
+              [
+                12.563923,
+                50.3047694
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1175817070,
+        "@url": "https://www.openstreetmap.org/way/1175817070",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.rotava.cz/mestsky-urad/sberne-misto/"
       }
     },
     {

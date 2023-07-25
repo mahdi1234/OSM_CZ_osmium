@@ -1964,8 +1964,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4245848,
-          50.0773771
+          14.4244623,
+          50.0773969
         ]
       },
       "properties": {
@@ -1973,12 +1973,11 @@
         "@id": 1778925545,
         "@url": "https://www.openstreetmap.org/node/1778925545",
         "amenity": "recycling",
-        "check_date": "2022-08-28",
+        "check_date": "2023-07-24",
         "recycling:batteries": "yes",
-        "recycling:cans": "no",
+        "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:cartons": "yes",
-        "recycling:clothes": "no",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
@@ -1990,10 +1989,7 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "no",
         "recycling:small_appliances": "yes",
-        "recycling:waste": "no",
-        "recycling:wood": "no",
         "recycling_type": "container"
       }
     },
@@ -3563,6 +3559,27 @@
         "recycling:paper": "yes",
         "recycling:plastic": "no",
         "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.521025,
+          49.2380307
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2671666064,
+        "@url": "https://www.openstreetmap.org/node/2671666064",
+        "amenity": "recycling",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -25855,6 +25872,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.5484862,
+          49.5779744
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10016760802,
+        "@url": "https://www.openstreetmap.org/node/10016760802",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.16163,
           49.9457672
         ]
@@ -29418,6 +29467,56 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7941772,
+          50.0363772
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11065046877,
+        "@url": "https://www.openstreetmap.org/node/11065046877",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5403164,
+          49.5896148
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11065717322,
+        "@url": "https://www.openstreetmap.org/node/11065717322",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -37929,6 +38028,55 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.7195772,
+            48.9063792
+          ],
+          [
+            13.7201002,
+            48.9062369
+          ],
+          [
+            13.719815,
+            48.905888
+          ],
+          [
+            13.7192835,
+            48.906082
+          ],
+          [
+            13.7195772,
+            48.9063792
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1169679721,
+        "@url": "https://www.openstreetmap.org/way/1169679721",
+        "addr:city": "Strážný",
+        "addr:housenumber": "23",
+        "addr:postcode": "384 43",
+        "addr:street": "Strážný",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Strážný",
+        "opening_hours": "Tu 07:30-10:30; Th 14:00-17:00; Sa 10:00-13:00; PH off",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.strazny.cz/mestys/odpadove-hospodarstvi/"
       }
     },
     {
@@ -47288,6 +47436,59 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.7192835,
+                48.906082
+              ],
+              [
+                13.719815,
+                48.905888
+              ],
+              [
+                13.7201002,
+                48.9062369
+              ],
+              [
+                13.7195772,
+                48.9063792
+              ],
+              [
+                13.7192835,
+                48.906082
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1169679721,
+        "@url": "https://www.openstreetmap.org/way/1169679721",
+        "addr:city": "Strážný",
+        "addr:housenumber": "23",
+        "addr:postcode": "384 43",
+        "addr:street": "Strážný",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Strážný",
+        "opening_hours": "Tu 07:30-10:30; Th 14:00-17:00; Sa 10:00-13:00; PH off",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.strazny.cz/mestys/odpadove-hospodarstvi/"
       }
     },
     {

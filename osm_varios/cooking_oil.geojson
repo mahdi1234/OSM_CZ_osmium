@@ -5278,6 +5278,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.5318859,
+          49.6006851
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7217156339,
+        "@url": "https://www.openstreetmap.org/node/7217156339",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4697681,
           48.9905922
         ]
@@ -12856,6 +12883,7 @@
         "@id": 10016760802,
         "@url": "https://www.openstreetmap.org/node/10016760802",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
@@ -12869,6 +12897,7 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -21230,55 +21259,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5484294,
-            49.5780122
-          ],
-          [
-            16.5485677,
-            49.5779661
-          ],
-          [
-            16.5485402,
-            49.5779257
-          ],
-          [
-            16.5483999,
-            49.5779535
-          ],
-          [
-            16.5484294,
-            49.5780122
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1132490785,
-        "@url": "https://www.openstreetmap.org/way/1132490785",
-        "amenity": "recycling",
-        "covered": "no",
-        "image": "https://www.obec-skrchov.eu/evt_image.php?img=13164",
-        "opening_hours": "24/7",
-        "recycling:bio": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:metal": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:shoes": "yes",
-        "recycling:textile": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             14.5117432,
             48.8452909
           ],
@@ -24301,59 +24281,6 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10553"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                16.5483999,
-                49.5779535
-              ],
-              [
-                16.5485402,
-                49.5779257
-              ],
-              [
-                16.5485677,
-                49.5779661
-              ],
-              [
-                16.5484294,
-                49.5780122
-              ],
-              [
-                16.5483999,
-                49.5779535
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1132490785,
-        "@url": "https://www.openstreetmap.org/way/1132490785",
-        "amenity": "recycling",
-        "covered": "no",
-        "image": "https://www.obec-skrchov.eu/evt_image.php?img=13164",
-        "opening_hours": "24/7",
-        "recycling:bio": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:metal": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:shoes": "yes",
-        "recycling:textile": "yes",
-        "recycling_type": "container"
       }
     },
     {

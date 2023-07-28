@@ -832,8 +832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6480465,
-          49.759861
+          16.6479929,
+          49.7598593
         ]
       },
       "properties": {
@@ -7387,6 +7387,28 @@
         "@id": 8206789601,
         "@url": "https://www.openstreetmap.org/node/8206789601",
         "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7158717,
+          50.0764843
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8219648923,
+        "@url": "https://www.openstreetmap.org/node/8219648923",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",

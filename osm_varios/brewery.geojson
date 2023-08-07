@@ -20,7 +20,6 @@
         "addr:street": "Ječná",
         "amenity": "restaurant",
         "check_date:opening_hours": "2022-11-10",
-        "currency:XBT": "yes",
         "email": "pivodum@iol.cz",
         "facebook": "https://www.facebook.com/Pivovarskydum/",
         "microbrewery": "yes",
@@ -29,8 +28,6 @@
         "name:ru": "Пивоварский дом",
         "name:zh": "啤酒作坊餐厅",
         "opening_hours": "Mo-Su 11:00-23:30",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420 296 216 666",
         "smoking": "no",
         "toilets:wheelchair": "yes",
@@ -2245,8 +2242,7 @@
         "microbrewery": "yes",
         "name": "Pivovar Cvikov",
         "outdoor_seating": "yes",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
+        "payment:qerko:lightning": "yes",
         "toilets": "yes",
         "toilets:wheelchair": "yes"
       }
@@ -4075,13 +4071,10 @@
         "@id": 6045919586,
         "@url": "https://www.openstreetmap.org/node/6045919586",
         "amenity": "pub",
-        "currency:XBT": "yes",
         "email": "info@pivokarlin.cz",
         "microbrewery": "yes",
         "name": "Pivo Karlín",
         "opening_hours": "Mo-Sa 11:00-24:00; Su 11:00-23:00",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420602211525",
         "website": "https://www.pivokarlin.cz/",
         "wheelchair": "yes"
@@ -4343,13 +4336,10 @@
         "addr:street": "Hanychovská",
         "addr:streetnumber": "10",
         "amenity": "restaurant",
-        "currency:XBT": "yes",
         "internet_access": "wlan",
         "microbrewery": "yes",
         "name": "Beer warehouse restaurant",
         "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420 482 710 066",
         "website": "http://www.beerwarehouse.cz"
       }
@@ -4499,11 +4489,8 @@
         "@id": 6443915049,
         "@url": "https://www.openstreetmap.org/node/6443915049",
         "craft": "brewery",
-        "currency:XBT": "yes",
         "email": "info@pivovarsokolnice.cz",
         "name": "Panský pivovar Sokolnice",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420 602 818 126",
         "website": "http://pivovarsokolnice.cz/"
       }
@@ -4614,11 +4601,8 @@
         "addr:postcode": "18000",
         "addr:street": "Nad Kolčavkou",
         "craft": "brewery",
-        "currency:XBT": "yes",
         "name": "Pivovar Kilián",
         "opening_hours": "Mo-Su 11:00-23:00",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420 739 623 633",
         "product": "beer",
         "website": "http://www.pivovarkilian.cz/"
@@ -4924,15 +4908,12 @@
         "brewery": "various",
         "check_date": "2022-11-27",
         "craft": "brewery",
-        "currency:XBT": "yes",
         "internet_access": "wlan",
         "internet_access:fee": "customers",
         "microbrewery": "yes",
         "name": "Pivovar Řevnice",
         "opening_hours": "11:00-22:00",
         "operator": "Corso Gastro s.r.o.",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "payment:mastercard": "yes",
         "payment:visa": "yes",
         "website": "https://www.pivovar-revnice.cz/"
@@ -5889,14 +5870,11 @@
         "addr:street": "Pivovarská",
         "amenity": "restaurant",
         "cuisine": "regional",
-        "currency:XBT": "yes",
         "diet:gluten_free": "yes",
         "microbrewery": "yes",
         "name": "Restaurace Pivovar Domažlice",
         "opening_hours": "10:00-22:00",
         "outdoor_seating": "yes",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420777 999 219",
         "source": "survey",
         "website": "https://www.facebook.com/restauracepivovardmz"
@@ -5938,12 +5916,9 @@
         "addr:postcode": "50321",
         "addr:street": "Zámecká",
         "craft": "brewery",
-        "currency:XBT": "yes",
         "email": "info@pivovarberanek.cz",
         "name": "Pivovar Beránek",
         "opening_hours": "Mo 11:00-16:00; Tu-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420  778 466 226",
         "website": "http://www.pivovarberanek.cz/"
       }
@@ -6466,10 +6441,7 @@
         "addr:postcode": "29443",
         "addr:street": "Hlavní",
         "craft": "brewery",
-        "currency:XBT": "yes",
-        "name": "Pivovar Tahoun",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes"
+        "name": "Pivovar Tahoun"
       }
     },
     {
@@ -6486,10 +6458,7 @@
         "@id": 11037897245,
         "@url": "https://www.openstreetmap.org/node/11037897245",
         "craft": "brewery",
-        "currency:XBT": "yes",
-        "name": "eMBe",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes"
+        "name": "eMBe"
       }
     },
     {
@@ -6511,8 +6480,7 @@
         "description": "3rd party app Qerko required for bitcoin payment",
         "microbrewery": "yes",
         "name": "Turnovská pivnice Na lukách - Bistro u pivovaru",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
+        "payment:qerko:lightning": "yes",
         "website": "https://turnovskapivnice.cz/nase-podniky/bistro-u-pivovaru"
       }
     },
@@ -6538,8 +6506,7 @@
         "name": "Městský pivovar",
         "opening_hours": "Mo-Th 12:00-22:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-22:00",
         "outdoor_seating": "yes",
-        "payment:lightning:companion_app_url": "https://www.qerko.com",
-        "payment:lightning:requires_companion_app": "yes",
+        "payment:qerko:lightning": "yes",
         "website": "http://www.relaxvpodhuri.cz/cs/gastronomie/mestsky-pivovar-stramberk"
       }
     },
@@ -12370,7 +12337,8 @@
         "microbrewery": "yes",
         "name": "Loď Pivovar",
         "opening_hours": "Su-Th 11:30-23:00; Fr-Sa 11:30-00:00",
-        "wikidata": "Q28949044"
+        "wikidata": "Q28949044",
+        "wikimedia_commons": "Category:Loď Pivovar"
       }
     },
     {
@@ -20220,7 +20188,8 @@
         "microbrewery": "yes",
         "name": "Loď Pivovar",
         "opening_hours": "Su-Th 11:30-23:00; Fr-Sa 11:30-00:00",
-        "wikidata": "Q28949044"
+        "wikidata": "Q28949044",
+        "wikimedia_commons": "Category:Loď Pivovar"
       }
     },
     {

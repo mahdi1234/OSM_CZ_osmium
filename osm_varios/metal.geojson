@@ -46390,6 +46390,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.151645,
+          50.5113281
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11097056498,
+        "@url": "https://www.openstreetmap.org/node/11097056498",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -55178,7 +55199,7 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "container",
+        "recycling_type": "centre",
         "source": "opendata.ostrava"
       }
     },
@@ -66233,7 +66254,7 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "container",
+        "recycling_type": "centre",
         "source": "opendata.ostrava"
       }
     },

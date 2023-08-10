@@ -14734,6 +14734,7 @@
         "@id": 6511976851,
         "@url": "https://www.openstreetmap.org/node/6511976851",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -29894,6 +29895,73 @@
         "couplings": "2",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4929467,
+          50.5461283
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11100039806,
+        "@url": "https://www.openstreetmap.org/node/11100039806",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "80",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground",
+        "source": "GPS(APK:StrazakOSM)",
+        "strazakosm:send_date": "2023-08-07_13-52-28",
+        "strazakosm:sender_id": "2324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.49298,
+          50.5460633
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11100064705,
+        "@url": "https://www.openstreetmap.org/node/11100064705",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "80",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground",
+        "source": "GPS(APK:StrazakOSM)",
+        "strazakosm:send_date": "2023-08-07_13-53-26",
+        "strazakosm:sender_id": "2324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8885029,
+          49.0965385
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11102873866,
+        "@url": "https://www.openstreetmap.org/node/11102873866",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
       }

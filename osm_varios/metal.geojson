@@ -2068,6 +2068,7 @@
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "no",
@@ -8106,6 +8107,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.888555,
+          49.0959312
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3834764422,
+        "@url": "https://www.openstreetmap.org/node/3834764422",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6181768,
           49.2175418
         ]
@@ -12857,6 +12886,7 @@
         "@id": 5620601525,
         "@url": "https://www.openstreetmap.org/node/5620601525",
         "amenity": "recycling",
+        "check_date": "2023-08-08",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:glass": "yes",
@@ -46411,6 +46441,55 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2336467,
+          49.2921744
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11101268533,
+        "@url": "https://www.openstreetmap.org/node/11101268533",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8933403,
+          49.0914259
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11102873865,
+        "@url": "https://www.openstreetmap.org/node/11102873865",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -55847,6 +55926,7 @@
         "amenity": "recycling",
         "mobile": "+420 602 173 308",
         "name": "SSO Líšeňská",
+        "note": "provoz ukončen 30.7.2023",
         "opening_hours": "Mo-Fr 08:00-12:30,13:00-16:00; Sa 09:00-12:00,14:00-17:00; Su 14:00-17:00",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
@@ -66934,6 +67014,7 @@
         "amenity": "recycling",
         "mobile": "+420 602 173 308",
         "name": "SSO Líšeňská",
+        "note": "provoz ukončen 30.7.2023",
         "opening_hours": "Mo-Fr 08:00-12:30,13:00-16:00; Sa 09:00-12:00,14:00-17:00; Su 14:00-17:00",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",

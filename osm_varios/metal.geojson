@@ -37219,9 +37219,14 @@
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -44623,6 +44628,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6477464,
+          49.1997008
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10860428406,
+        "@url": "https://www.openstreetmap.org/node/10860428406",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3039643,
           49.1636993
         ]
@@ -45195,6 +45229,31 @@
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6433108,
+          49.198958
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10980207905,
+        "@url": "https://www.openstreetmap.org/node/10980207905",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -46787,6 +46846,56 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6455426,
+          49.198614
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11112528640,
+        "@url": "https://www.openstreetmap.org/node/11112528640",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.643766,
+          49.2017594
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11112528641,
+        "@url": "https://www.openstreetmap.org/node/11112528641",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -47347,6 +47456,7 @@
         "@id": 32735504,
         "@url": "https://www.openstreetmap.org/way/32735504",
         "amenity": "recycling",
+        "check_date:opening_hours": "2023-08-13",
         "fence": "wire",
         "mobile": "+420 606 914 901",
         "name": "SSO J.Faimonové",
@@ -57848,6 +57958,7 @@
         "@id": 32735504,
         "@url": "https://www.openstreetmap.org/way/32735504",
         "amenity": "recycling",
+        "check_date:opening_hours": "2023-08-13",
         "fence": "wire",
         "mobile": "+420 606 914 901",
         "name": "SSO J.Faimonové",

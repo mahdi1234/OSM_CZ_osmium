@@ -22818,16 +22818,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8373113,
-          50.0583533
+          16.8372138,
+          50.0583751
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 10989436780,
         "@url": "https://www.openstreetmap.org/node/10989436780",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "ref": "SU071"
+        "operator": "Lesy ČR s.p.",
+        "ref": "SU071",
+        "source": "survey"
       }
     },
     {
@@ -23817,6 +23820,24 @@
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "ref": "HK008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6695742,
+          49.1880028
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11165579823,
+        "@url": "https://www.openstreetmap.org/node/11165579823",
+        "highway": "emergency_access_point",
+        "name": "KT 032",
+        "ref": "KT 032"
       }
     },
     {

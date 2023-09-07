@@ -22917,12 +22917,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5985434,
-            49.2102249
+            16.5985374,
+            49.2102323
           ],
           [
-            16.5985805,
-            49.2101661
+            16.5985533,
+            49.2102082
           ]
         ]
       },
@@ -27375,6 +27375,37 @@
         "source": "survey",
         "step_count": "11",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6002192,
+            49.1937661
+          ],
+          [
+            16.6001395,
+            49.1937836
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 421120799,
+        "@url": "https://www.openstreetmap.org/way/421120799",
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "layer": "1",
+        "lit": "no",
+        "ramp": "no",
+        "source": "survey",
+        "step_count": "11",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -36900,7 +36931,8 @@
         "ramp": "no",
         "source": "survey",
         "step_count": "18",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -38791,7 +38823,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "21",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -48325,6 +48358,7 @@
         "source": "uhul:ortofoto;survey",
         "step_count": "62",
         "surface": "concrete",
+        "tactile_paving": "no",
         "tunnel": "yes"
       }
     },

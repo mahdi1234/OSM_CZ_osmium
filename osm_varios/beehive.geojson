@@ -5373,6 +5373,48 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.6773957,
+            49.9196387
+          ],
+          [
+            15.6774781,
+            49.9196058
+          ],
+          [
+            15.6775183,
+            49.9195926
+          ],
+          [
+            15.6775577,
+            49.9196426
+          ],
+          [
+            15.6774158,
+            49.9197284
+          ],
+          [
+            15.6774008,
+            49.9196616
+          ],
+          [
+            15.6773957,
+            49.9196387
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1205953109,
+        "@url": "https://www.openstreetmap.org/way/1205953109",
+        "landuse": "apiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -6422,6 +6464,52 @@
         "craft": "beekeeper",
         "landuse": "apiary",
         "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.6773957,
+                49.9196387
+              ],
+              [
+                15.6774781,
+                49.9196058
+              ],
+              [
+                15.6775183,
+                49.9195926
+              ],
+              [
+                15.6775577,
+                49.9196426
+              ],
+              [
+                15.6774158,
+                49.9197284
+              ],
+              [
+                15.6774008,
+                49.9196616
+              ],
+              [
+                15.6773957,
+                49.9196387
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1205953109,
+        "@url": "https://www.openstreetmap.org/way/1205953109",
+        "landuse": "apiary"
       }
     }
   ]

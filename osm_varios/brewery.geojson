@@ -4752,6 +4752,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.6272268,
+          49.5147403
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7130351756,
+        "@url": "https://www.openstreetmap.org/node/7130351756",
+        "amenity": "restaurant",
+        "microbrewery": "yes",
+        "name": "Pod Kyčmolem",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "operator": "Hotel pod Kyčmolem",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.6031771,
           49.9956667
         ]
@@ -6536,6 +6557,25 @@
         "mobile": "+420 606 184 138",
         "name": "Revolta",
         "website": "https://www.revolta.beer/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.627219,
+          49.5146678
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11183192498,
+        "@url": "https://www.openstreetmap.org/node/11183192498",
+        "amenity": "biergarten",
+        "microbrewery": "yes",
+        "name": "Minipivovar v Lomné",
+        "outdoor_seating": "yes"
       }
     },
     {
@@ -13681,6 +13721,52 @@
         "product": "beer",
         "ref:ruian:building": "1866737",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.627341,
+            49.5146605
+          ],
+          [
+            18.6273803,
+            49.5146287
+          ],
+          [
+            18.6273885,
+            49.514622
+          ],
+          [
+            18.627286,
+            49.5145687
+          ],
+          [
+            18.6272385,
+            49.5146072
+          ],
+          [
+            18.6272657,
+            49.5146213
+          ],
+          [
+            18.627341,
+            49.5146605
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1206782614,
+        "@url": "https://www.openstreetmap.org/way/1206782614",
+        "barrier": "handrail",
+        "colour": "brown",
+        "leisure": "outdoor_seating",
+        "material": "wood",
+        "microbrewery": "yes"
       }
     },
     {
@@ -21974,6 +22060,56 @@
         "ref:ruian:building": "6016359",
         "source": "cuzk:ruian",
         "website": "www.pivovarkostelec.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.6272385,
+                49.5146072
+              ],
+              [
+                18.627286,
+                49.5145687
+              ],
+              [
+                18.6273885,
+                49.514622
+              ],
+              [
+                18.6273803,
+                49.5146287
+              ],
+              [
+                18.627341,
+                49.5146605
+              ],
+              [
+                18.6272657,
+                49.5146213
+              ],
+              [
+                18.6272385,
+                49.5146072
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1206782614,
+        "@url": "https://www.openstreetmap.org/way/1206782614",
+        "barrier": "handrail",
+        "colour": "brown",
+        "leisure": "outdoor_seating",
+        "material": "wood",
+        "microbrewery": "yes"
       }
     }
   ]

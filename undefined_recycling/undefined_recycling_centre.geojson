@@ -2436,6 +2436,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5145312,
+          49.9421694
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11196486805,
+        "@url": "https://www.openstreetmap.org/node/11196486805",
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -11373,6 +11390,53 @@
         "name": "Sběrný dvůr města Rakovnik",
         "operator": "Město Rakovník",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.5056301,
+                50.0264787
+              ],
+              [
+                14.5057072,
+                50.0263737
+              ],
+              [
+                14.5057585,
+                50.0262979
+              ],
+              [
+                14.506125,
+                50.0263968
+              ],
+              [
+                14.5060191,
+                50.0265562
+              ],
+              [
+                14.5056301,
+                50.0264787
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1208294207,
+        "@url": "https://www.openstreetmap.org/way/1208294207",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběr druhotných surovin",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "recycling_type": "centre",
+        "website": "https://sber-suroviny.cz"
       }
     }
   ]

@@ -1079,23 +1079,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7023133,
-          48.8533236
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5405237387,
-        "@url": "https://www.openstreetmap.org/node/5405237387",
-        "amenity": "recycling",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.6466918,
           48.929893
         ]
@@ -11437,6 +11420,69 @@
         "opening_hours": "Mo-Fr 08:00-16:00",
         "recycling_type": "centre",
         "website": "https://sber-suroviny.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.5836118,
+                49.1215004
+              ],
+              [
+                17.58379,
+                49.1212817
+              ],
+              [
+                17.5838285,
+                49.1212955
+              ],
+              [
+                17.5838944,
+                49.1212244
+              ],
+              [
+                17.5843749,
+                49.1214144
+              ],
+              [
+                17.5843943,
+                49.1213942
+              ],
+              [
+                17.5845987,
+                49.121475
+              ],
+              [
+                17.5848003,
+                49.1215515
+              ],
+              [
+                17.5846814,
+                49.1216803
+              ],
+              [
+                17.5840166,
+                49.1216852
+              ],
+              [
+                17.5836118,
+                49.1215004
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1208710547,
+        "@url": "https://www.openstreetmap.org/way/1208710547",
+        "amenity": "recycling",
+        "recycling_type": "centre"
       }
     }
   ]

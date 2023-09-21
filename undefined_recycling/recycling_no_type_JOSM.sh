@@ -2,5 +2,3 @@
 curl "http://localhost:8111/load_object?new_layer=false&objects=n11160487165"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n11160514262"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n11160514701"
-curl "http://localhost:8111/load_object?new_layer=false&objects=n11178736165"
-curl "http://localhost:8111/load_object?new_layer=false&objects=n11178750694"

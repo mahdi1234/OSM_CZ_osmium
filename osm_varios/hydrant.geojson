@@ -2242,8 +2242,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6420884,
-          49.758184
+          16.6419771,
+          49.7581488
         ]
       },
       "properties": {
@@ -11422,9 +11422,14 @@
         "@type": "node",
         "@id": 5809870153,
         "@url": "https://www.openstreetmap.org/node/5809870153",
+        "bonnet:colour": "silver",
+        "cap:colour": "red",
+        "colour": "white",
+        "couplings": "2",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
-        "fire_hydrant:type": "pillar"
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
       }
     },
     {
@@ -30405,6 +30410,52 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7267706,
+          49.190838
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11198379278,
+        "@url": "https://www.openstreetmap.org/node/11198379278",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "silver",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7036457,
+          48.8525115
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11203457404,
+        "@url": "https://www.openstreetmap.org/node/11203457404",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
       }
     }
   ]

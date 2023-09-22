@@ -388,8 +388,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4975987,
-          50.0332902
+          14.4978676,
+          50.0332924
         ]
       },
       "properties": {
@@ -5388,12 +5388,13 @@
         "@id": 7109016079,
         "@url": "https://www.openstreetmap.org/node/7109016079",
         "amenity": "recycling",
+        "operator": "Služby města Český Krumlov s.r.o.",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -10469,6 +10470,29 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/severni-cechy/sd-bohusovice-nad-ohri.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3242123,
+          50.0588341
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8993643703,
+        "@url": "https://www.openstreetmap.org/node/8993643703",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -19359,6 +19383,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5357732,
+          50.1088338
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11167059240,
+        "@url": "https://www.openstreetmap.org/node/11167059240",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.812573,
           50.3146348
         ]
@@ -19443,6 +19490,28 @@
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0436783,
+          50.1708396
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11204453236,
+        "@url": "https://www.openstreetmap.org/node/11204453236",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:kov": "yes",
+        "recycling:paper": "yes",
         "recycling_type": "container"
       }
     },

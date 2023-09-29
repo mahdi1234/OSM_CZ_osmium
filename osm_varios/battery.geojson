@@ -10837,6 +10837,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.6820204,
+          49.209363
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8791647498,
+        "@url": "https://www.openstreetmap.org/node/8791647498",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5549106,
           49.1687401
         ]
@@ -14784,11 +14807,33 @@
         "@url": "https://www.openstreetmap.org/node/11223291792",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
-        "recycling:textile": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6703594,
+          49.2000939
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11224675367,
+        "@url": "https://www.openstreetmap.org/node/11224675367",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -15873,6 +15918,7 @@
         "@url": "https://www.openstreetmap.org/way/57357889",
         "amenity": "recycling",
         "barrier": "fence",
+        "name": "sběrný dvůr Zálešná",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
@@ -18337,6 +18383,83 @@
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5469703,
+            49.0783456
+          ],
+          [
+            16.5468884,
+            49.0783021
+          ],
+          [
+            16.5468151,
+            49.0782609
+          ],
+          [
+            16.5468908,
+            49.0782185
+          ],
+          [
+            16.547511,
+            49.078206
+          ],
+          [
+            16.54767,
+            49.078205
+          ],
+          [
+            16.547723,
+            49.078205
+          ],
+          [
+            16.5477345,
+            49.0783885
+          ],
+          [
+            16.5469703,
+            49.0783456
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 370043034,
+        "@url": "https://www.openstreetmap.org/way/370043034",
+        "amenity": "recycling",
+        "barrier": "wall",
+        "mobile": "+420 724 186 570",
+        "name": "SSO Syrovice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
         "recycling_type": "centre"
       }
     },
@@ -24461,6 +24584,7 @@
         "@url": "https://www.openstreetmap.org/way/57357889",
         "amenity": "recycling",
         "barrier": "fence",
+        "name": "sběrný dvůr Zálešná",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
@@ -27057,6 +27181,87 @@
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5468151,
+                49.0782609
+              ],
+              [
+                16.5468908,
+                49.0782185
+              ],
+              [
+                16.547511,
+                49.078206
+              ],
+              [
+                16.54767,
+                49.078205
+              ],
+              [
+                16.547723,
+                49.078205
+              ],
+              [
+                16.5477345,
+                49.0783885
+              ],
+              [
+                16.5469703,
+                49.0783456
+              ],
+              [
+                16.5468884,
+                49.0783021
+              ],
+              [
+                16.5468151,
+                49.0782609
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 370043034,
+        "@url": "https://www.openstreetmap.org/way/370043034",
+        "amenity": "recycling",
+        "barrier": "wall",
+        "mobile": "+420 724 186 570",
+        "name": "SSO Syrovice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
         "recycling_type": "centre"
       }
     },

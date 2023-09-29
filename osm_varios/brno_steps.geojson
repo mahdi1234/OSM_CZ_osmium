@@ -10701,7 +10701,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "5",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -27940,7 +27941,8 @@
         "ramp:wheelchair": "yes",
         "source": "cuzk:km",
         "step_count": "26",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -27974,7 +27976,8 @@
         "ramp": "yes",
         "ramp:wheelchair": "yes",
         "step_count": "27",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -30894,7 +30897,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "2",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "tactile_paving": "no"
       }
     },
     {
@@ -30922,7 +30926,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "8",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "tactile_paving": "no"
       }
     },
     {
@@ -30980,7 +30985,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "2",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "tactile_paving": "no"
       }
     },
     {
@@ -31008,7 +31014,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "3",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "tactile_paving": "no"
       }
     },
     {
@@ -33137,7 +33144,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "6",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -33166,7 +33174,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "6",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -34269,7 +34278,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "13",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -34297,7 +34307,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "10",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -40836,7 +40847,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "8",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -40864,7 +40876,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "9",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -49764,6 +49777,56 @@
         "step_count": "7",
         "surface": "paving_stones",
         "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5021501,
+            49.228451
+          ],
+          [
+            16.5021042,
+            49.2284674
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1211649951,
+        "@url": "https://www.openstreetmap.org/way/1211649951",
+        "highway": "steps",
+        "incline": "up",
+        "step_count": "10",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5023019,
+            49.2284562
+          ],
+          [
+            16.5022829,
+            49.2284661
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1211649954,
+        "@url": "https://www.openstreetmap.org/way/1211649954",
+        "highway": "steps",
+        "incline": "down",
+        "step_count": "5",
+        "surface": "concrete"
       }
     }
   ]

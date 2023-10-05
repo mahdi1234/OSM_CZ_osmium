@@ -572,8 +572,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5977245,
-            49.21066
+            16.5977239,
+            49.2106581
           ],
           [
             16.5977855,
@@ -8511,8 +8511,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5978212,
-            49.2104989
+            16.597812,
+            49.2104975
           ],
           [
             16.5978754,
@@ -13306,7 +13306,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "13",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -50229,6 +50230,61 @@
         "smoothness": "excellent",
         "step_count": "9",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6508545,
+            49.143175
+          ],
+          [
+            16.6508431,
+            49.1431855
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1213131864,
+        "@url": "https://www.openstreetmap.org/way/1213131864",
+        "handrail": "yes",
+        "handrail:left": "yes",
+        "handrail:right": "yes",
+        "highway": "steps",
+        "ramp:stroller": "yes",
+        "step_count": "5",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6489451,
+            49.1446826
+          ],
+          [
+            16.6489397,
+            49.1446866
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1213136631,
+        "@url": "https://www.openstreetmap.org/way/1213136631",
+        "handrail": "no",
+        "highway": "steps",
+        "ramp": "no",
+        "ramp:stroller": "no",
+        "step_count": "2",
+        "surface": "sett"
       }
     }
   ]

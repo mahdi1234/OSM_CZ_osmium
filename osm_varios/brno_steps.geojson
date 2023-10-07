@@ -9209,8 +9209,8 @@
             49.21035
           ],
           [
-            16.5932033,
-            49.2103885
+            16.5931107,
+            49.2103642
           ]
         ]
       },
@@ -9221,7 +9221,7 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",
-        "layer": "2",
+        "layer": "1",
         "lit": "yes",
         "ramp": "no",
         "source": "cuzk:km",
@@ -18734,6 +18734,69 @@
         "source": "cuzk:km",
         "step_count": "5",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6024441,
+            49.1428362
+          ],
+          [
+            16.60246,
+            49.1427269
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 328354412,
+        "@url": "https://www.openstreetmap.org/way/328354412",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "layer": "-1",
+        "lit": "yes",
+        "ramp": "no",
+        "source": "cuzk:km",
+        "step_count": "29",
+        "surface": "concrete",
+        "tactile_paving": "no",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6026171,
+            49.1426483
+          ],
+          [
+            16.6026033,
+            49.1427365
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 328354414,
+        "@url": "https://www.openstreetmap.org/way/328354414",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "no",
+        "source": "cuzk:km",
+        "step_count": "29",
+        "surface": "concrete",
+        "tactile_paving": "no",
+        "tunnel": "yes"
       }
     },
     {
@@ -50404,8 +50467,72 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",
+        "ramp": "no",
         "step_count": "6",
         "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6032656,
+            49.1426173
+          ],
+          [
+            16.6031867,
+            49.1426376
+          ],
+          [
+            16.6031131,
+            49.1426348
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1213407010,
+        "@url": "https://www.openstreetmap.org/way/1213407010",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "no",
+        "step_count": "18",
+        "surface": "concrete",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5931415,
+            49.2103723
+          ],
+          [
+            16.5932033,
+            49.2103885
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1213673286,
+        "@url": "https://www.openstreetmap.org/way/1213673286",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "no",
+        "source": "cuzk:km",
+        "step_count": "30",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     }
   ]

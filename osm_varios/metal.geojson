@@ -48786,6 +48786,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0132575,
+          49.1464522
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11251156231,
+        "@url": "https://www.openstreetmap.org/node/11251156231",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -58940,6 +58961,54 @@
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.6420293,
+            49.2166463
+          ],
+          [
+            17.6420427,
+            49.2166028
+          ],
+          [
+            17.6421691,
+            49.216618
+          ],
+          [
+            17.6423679,
+            49.2166418
+          ],
+          [
+            17.6423525,
+            49.21669
+          ],
+          [
+            17.6420293,
+            49.2166463
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1117077928,
+        "@url": "https://www.openstreetmap.org/way/1117077928",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -70659,6 +70728,58 @@
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.6420293,
+                49.2166463
+              ],
+              [
+                17.6420427,
+                49.2166028
+              ],
+              [
+                17.6421691,
+                49.216618
+              ],
+              [
+                17.6423679,
+                49.2166418
+              ],
+              [
+                17.6423525,
+                49.21669
+              ],
+              [
+                17.6420293,
+                49.2166463
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1117077928,
+        "@url": "https://www.openstreetmap.org/way/1117077928",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {

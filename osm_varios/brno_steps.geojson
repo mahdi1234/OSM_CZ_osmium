@@ -8803,8 +8803,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.573543,
-            49.2466561
+            16.5735584,
+            49.2466653
           ],
           [
             16.5735898,
@@ -12507,8 +12507,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5732542,
-            49.2476853
+            16.5732857,
+            49.2476897
           ],
           [
             16.5732538,
@@ -20925,7 +20925,8 @@
         "ramp:stroller": "yes",
         "source": "survey",
         "step_count": "11",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -41781,7 +41782,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "4",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -47260,9 +47262,11 @@
         "handrail:left": "yes",
         "highway": "steps",
         "incline": "down",
+        "lit": "no",
         "ramp": "no",
         "step_count": "31",
         "surface": "concrete",
+        "tactile_paving": "no",
         "width": "1.5"
       }
     },
@@ -50436,8 +50440,10 @@
         "@id": 1213407006,
         "@url": "https://www.openstreetmap.org/way/1213407006",
         "access": "yes",
+        "handrail": "yes",
         "highway": "steps",
         "incline": "down",
+        "ramp": "no",
         "step_count": "9",
         "surface": "paving_stones"
       }
@@ -50467,7 +50473,8 @@
         "incline": "down",
         "ramp": "no",
         "step_count": "6",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -50557,6 +50564,7 @@
         "incline": "down",
         "layer": "-1",
         "lit": "yes",
+        "ramp": "yes",
         "ramp:bicycle": "yes",
         "source": "cuzk:km",
         "step_count": "27",
@@ -50589,6 +50597,7 @@
         "incline": "up",
         "layer": "-1",
         "lit": "yes",
+        "ramp": "yes",
         "ramp:bicycle": "yes",
         "source": "cuzk:km",
         "step_count": "27",

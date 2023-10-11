@@ -4563,6 +4563,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.443908,
+          50.047224
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2571913498,
+        "@url": "https://www.openstreetmap.org/node/2571913498",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.3903673,
           50.0413015
         ]
@@ -48807,6 +48830,28 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5774319,
+          49.9636892
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11252388969,
+        "@url": "https://www.openstreetmap.org/node/11252388969",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -49831,6 +49876,49 @@
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "source": "cuzk:km"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.517188,
+            48.976599
+          ],
+          [
+            16.517205,
+            48.976438
+          ],
+          [
+            16.516368,
+            48.976323
+          ],
+          [
+            16.515966,
+            48.977506
+          ],
+          [
+            16.517339,
+            48.977084
+          ],
+          [
+            16.517188,
+            48.976599
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 52248521,
+        "@url": "https://www.openstreetmap.org/way/52248521",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Kovošrot",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "source": "cuzk:km"
       }
@@ -60995,6 +61083,53 @@
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "source": "cuzk:km"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.515966,
+                48.977506
+              ],
+              [
+                16.516368,
+                48.976323
+              ],
+              [
+                16.517205,
+                48.976438
+              ],
+              [
+                16.517188,
+                48.976599
+              ],
+              [
+                16.517339,
+                48.977084
+              ],
+              [
+                16.515966,
+                48.977506
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 52248521,
+        "@url": "https://www.openstreetmap.org/way/52248521",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Kovošrot",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "source": "cuzk:km"
       }

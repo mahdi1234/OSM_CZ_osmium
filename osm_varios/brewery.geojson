@@ -5940,11 +5940,14 @@
         "addr:street": "Pivovarská",
         "amenity": "restaurant",
         "cuisine": "regional",
+        "currency:XBT": "yes",
         "diet:gluten_free": "yes",
         "microbrewery": "yes",
         "name": "Restaurace Pivovar Domažlice",
         "opening_hours": "10:00-22:00",
         "outdoor_seating": "yes",
+        "payment:lightning:companion_app_url": "https://www.qerko.com",
+        "payment:lightning:requires_companion_app": "yes",
         "phone": "+420777 999 219",
         "source": "survey",
         "website": "https://www.facebook.com/restauracepivovardmz"
@@ -13361,42 +13364,6 @@
         "building:part": "retail",
         "craft": "brewery",
         "name": "Cobolis"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.0417886,
-            50.6597783
-          ],
-          [
-            14.0419736,
-            50.6597996
-          ],
-          [
-            14.0420115,
-            50.65966
-          ],
-          [
-            14.04183,
-            50.6596349
-          ],
-          [
-            14.0417886,
-            50.6597783
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 740682447,
-        "@url": "https://www.openstreetmap.org/way/740682447",
-        "building": "yes",
-        "craft": "brewery",
-        "name": "Na Rychtě"
       }
     },
     {
@@ -21621,46 +21588,6 @@
         "building:part": "retail",
         "craft": "brewery",
         "name": "Cobolis"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                14.0417886,
-                50.6597783
-              ],
-              [
-                14.04183,
-                50.6596349
-              ],
-              [
-                14.0420115,
-                50.65966
-              ],
-              [
-                14.0419736,
-                50.6597996
-              ],
-              [
-                14.0417886,
-                50.6597783
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 740682447,
-        "@url": "https://www.openstreetmap.org/way/740682447",
-        "building": "yes",
-        "craft": "brewery",
-        "name": "Na Rychtě"
       }
     },
     {

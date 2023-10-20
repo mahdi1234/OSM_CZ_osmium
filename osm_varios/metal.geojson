@@ -49240,6 +49240,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1556786,
+          49.9489711
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11274077186,
+        "@url": "https://www.openstreetmap.org/node/11274077186",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -58048,7 +58069,7 @@
         "recycling:waste": "yes",
         "recycling_type": "centre",
         "source": "mapbox;survey",
-        "website": "www.kts-ekologie.cz",
+        "website": "https://kts-ekologie.cz/",
         "wheelchair": "yes"
       }
     },
@@ -69717,7 +69738,7 @@
         "recycling:waste": "yes",
         "recycling_type": "centre",
         "source": "mapbox;survey",
-        "website": "www.kts-ekologie.cz",
+        "website": "https://kts-ekologie.cz/",
         "wheelchair": "yes"
       }
     },

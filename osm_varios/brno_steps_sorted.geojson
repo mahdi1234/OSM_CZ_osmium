@@ -270,7 +270,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "2",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -8656,7 +8657,7 @@
         "coordinates": [
           [
             16.5720094,
-            49.2197705
+            49.2198039
           ],
           [
             16.5720093,
@@ -20835,7 +20836,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "8",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -24333,6 +24335,35 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5527023,
+            49.1746382
+          ],
+          [
+            16.5527809,
+            49.1746534
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 950132728,
+        "@url": "https://www.openstreetmap.org/way/950132728",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "9",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5260161,
             49.2196769
           ],
@@ -24931,6 +24962,10 @@
             49.2208744
           ],
           [
+            16.5697264,
+            49.2209034
+          ],
+          [
             16.5696486,
             49.2209468
           ],
@@ -25246,8 +25281,8 @@
             49.2180055
           ],
           [
-            16.5665828,
-            49.2179323
+            16.5666363,
+            49.217893
           ]
         ]
       },
@@ -36968,6 +37003,7 @@
         "ramp:wheelchair": "no",
         "step_count": "18",
         "surface": "concrete",
+        "tactile_paving": "partial",
         "width": "3"
       }
     },
@@ -40962,6 +40998,7 @@
         "source": "uhul:ortofoto",
         "step_count": "22",
         "surface": "paving_stones",
+        "tactile_paving": "no",
         "tunnel": "yes"
       }
     },
@@ -41296,12 +41333,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6809318,
-            49.2105792
+            16.6809309,
+            49.2105844
           ],
           [
-            16.6809318,
-            49.210627
+            16.68093,
+            49.2106611
           ]
         ]
       },
@@ -48972,7 +49009,8 @@
         "ramp": "no",
         "ramp:wheelchair": "no",
         "step_count": "42",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {

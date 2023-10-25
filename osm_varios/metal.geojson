@@ -1887,7 +1887,7 @@
         "recycling:batteries": "no",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:clothes": "no",
+        "recycling:clothes": "yes",
         "recycling:glass": "no",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
@@ -2241,8 +2241,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5755663,
-          49.2013939
+          16.5752867,
+          49.2013858
         ]
       },
       "properties": {
@@ -24882,6 +24882,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.1272367,
+          50.1442405
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8671224141,
+        "@url": "https://www.openstreetmap.org/node/8671224141",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.0940311,
           49.4477759
         ]
@@ -44496,6 +44518,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.3876292,
+          49.2781953
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10690103840,
+        "@url": "https://www.openstreetmap.org/node/10690103840",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "source": "ortofoto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.9906584,
           49.503614
         ]
@@ -49350,6 +49407,32 @@
         "name": "Lutoma",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3900967,
+          49.2811844
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11287053325,
+        "@url": "https://www.openstreetmap.org/node/11287053325",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {

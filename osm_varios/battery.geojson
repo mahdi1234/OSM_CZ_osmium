@@ -5910,27 +5910,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2562276,
-          48.6201443
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5310653835,
-        "@url": "https://www.openstreetmap.org/node/5310653835",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.loucovice.info/spolky-a-organizace/technicke-sluzby-obce/odpadove-hospodarstvi/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.2798097,
           49.775674
         ]
@@ -11453,6 +11432,47 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/jizni-morava/sd-kostelec-na-hane.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9919502,
+          48.988208
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8983825972,
+        "@url": "https://www.openstreetmap.org/node/8983825972",
+        "amenity": "recycling",
+        "email": "tomas.navratil@fcc-group.cz",
+        "name": "Sběrný dvůr Jevišovice",
+        "opening_hours": "Tu,Fr 14:00-18:00; Sa 08:00-13:00",
+        "operator": "FCC Znojmo, s.r.o.",
+        "phone": "+420 515 242 652",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.jevisovice.cz/sberny-dvur-odpadu"
       }
     },
     {
@@ -23403,6 +23423,73 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.2560639,
+            48.6200487
+          ],
+          [
+            14.2562317,
+            48.6200527
+          ],
+          [
+            14.2566643,
+            48.6201516
+          ],
+          [
+            14.256733,
+            48.6202371
+          ],
+          [
+            14.2570596,
+            48.6203205
+          ],
+          [
+            14.2569215,
+            48.6204452
+          ],
+          [
+            14.2564854,
+            48.620375
+          ],
+          [
+            14.2565086,
+            48.6203231
+          ],
+          [
+            14.2561539,
+            48.6202539
+          ],
+          [
+            14.2560734,
+            48.6202334
+          ],
+          [
+            14.2559871,
+            48.6202131
+          ],
+          [
+            14.2560639,
+            48.6200487
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1128224130,
+        "@url": "https://www.openstreetmap.org/way/1128224130",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.loucovice.info/spolky-a-organizace/technicke-sluzby-obce/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.5117432,
             48.8452909
           ],
@@ -32721,6 +32808,77 @@
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.2559871,
+                48.6202131
+              ],
+              [
+                14.2560639,
+                48.6200487
+              ],
+              [
+                14.2562317,
+                48.6200527
+              ],
+              [
+                14.2566643,
+                48.6201516
+              ],
+              [
+                14.256733,
+                48.6202371
+              ],
+              [
+                14.2570596,
+                48.6203205
+              ],
+              [
+                14.2569215,
+                48.6204452
+              ],
+              [
+                14.2564854,
+                48.620375
+              ],
+              [
+                14.2565086,
+                48.6203231
+              ],
+              [
+                14.2561539,
+                48.6202539
+              ],
+              [
+                14.2560734,
+                48.6202334
+              ],
+              [
+                14.2559871,
+                48.6202131
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1128224130,
+        "@url": "https://www.openstreetmap.org/way/1128224130",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.loucovice.info/spolky-a-organizace/technicke-sluzby-obce/odpadove-hospodarstvi/"
       }
     },
     {

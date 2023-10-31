@@ -3867,7 +3867,8 @@
         "ramp": "no",
         "source": "bing:orto",
         "step_count": "3",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -6039,7 +6040,8 @@
         "ramp:wheelchair": "yes",
         "source": "survey",
         "step_count": "4",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -7296,7 +7298,8 @@
         "ramp:wheelchair": "separate",
         "source": "cuzk:km",
         "step_count": "4",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -7330,7 +7333,8 @@
         "ramp:wheelchair": "separate",
         "source": "cuzk:km",
         "step_count": "4",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -7360,7 +7364,8 @@
         "ramp:wheelchair": "separate",
         "source": "cuzk:km",
         "step_count": "4",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -8117,6 +8122,55 @@
         "step_count": "5",
         "surface": "paving_stones",
         "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4654693,
+            49.2626427
+          ],
+          [
+            16.4655658,
+            49.2626322
+          ],
+          [
+            16.4656677,
+            49.2626182
+          ],
+          [
+            16.4657213,
+            49.2625465
+          ],
+          [
+            16.4657695,
+            49.26248
+          ],
+          [
+            16.4658044,
+            49.2623995
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 60108932,
+        "@url": "https://www.openstreetmap.org/way/60108932",
+        "class:bicycle:mtb:technical": "2",
+        "foot": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "mtb:scale": "2",
+        "ramp": "no",
+        "step_count": "5",
+        "surface": "ground",
+        "ticks": "1.2",
+        "width": "0.5"
       }
     },
     {
@@ -9413,6 +9467,37 @@
         "step_count": "5",
         "surface": "paving_stones",
         "tunnel": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6029816,
+            49.1777681
+          ],
+          [
+            16.6030221,
+            49.1777673
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 669139437,
+        "@url": "https://www.openstreetmap.org/way/669139437",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
+        "source": "uhul:ortofoto;survey",
+        "step_count": "5",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -17176,7 +17261,8 @@
         "ramp:wheelchair": "separate",
         "source": "uhul:ortofoto;cuzk:km",
         "step_count": "7",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -18142,7 +18228,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "7",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -24583,7 +24670,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "9",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -31737,6 +31825,59 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.4649574,
+            49.2626671
+          ],
+          [
+            16.4650565,
+            49.2627021
+          ],
+          [
+            16.4651075,
+            49.2627004
+          ],
+          [
+            16.465145,
+            49.2626584
+          ],
+          [
+            16.4651664,
+            49.2626339
+          ],
+          [
+            16.4652603,
+            49.2626252
+          ],
+          [
+            16.4654693,
+            49.2626427
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 186907794,
+        "@url": "https://www.openstreetmap.org/way/186907794",
+        "class:bicycle:mtb:technical": "2",
+        "foot": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "mtb:scale": "3",
+        "mtb:scale:uphill": "4",
+        "ramp": "no",
+        "step_count": "13",
+        "surface": "ground",
+        "width": "0.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5530698,
             49.1768531
           ],
@@ -31812,7 +31953,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "13",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -35332,6 +35474,36 @@
         "source": "uhul:ortofoto;cuzk:km",
         "step_count": "16",
         "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5129148,
+            49.2419192
+          ],
+          [
+            16.5128833,
+            49.2418513
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 352476838,
+        "@url": "https://www.openstreetmap.org/way/352476838",
+        "check_date:surface": "2023-10-29",
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "ramp": "no",
+        "source": "survey",
+        "step_count": "16",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -40481,7 +40653,8 @@
         "lit": "no",
         "ramp": "no",
         "step_count": "21",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -47769,7 +47942,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "33",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {

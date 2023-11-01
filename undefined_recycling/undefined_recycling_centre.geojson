@@ -2333,6 +2333,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3436728,
+          48.831908
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11300937379,
+        "@url": "https://www.openstreetmap.org/node/11300937379",
+        "addr:city": "Přísečná",
+        "addr:housenumber": "14",
+        "addr:postcode": "38101",
+        "amenity": "recycling",
+        "description": "KOVOŠROT, ŠROT, VÝKUP ŽELEZA BAREVNÝCH KOVŮ PAPÍRU SBĚRNÉ SUROVINY",
+        "name": "CELIA CZ s.r.o.",
+        "phone": "+420 603 140 697",
+        "recycling_type": "centre",
+        "website": "http://www.vykupkovu.eu/kontakt/provozovna/prisecna-u-ck"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -11323,6 +11347,99 @@
         "name": "Výkup palet",
         "operator": "BOGACH PLUS s.r.o.",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.2312456,
+                49.9447405
+              ],
+              [
+                18.2313148,
+                49.944669
+              ],
+              [
+                18.2314249,
+                49.9446712
+              ],
+              [
+                18.231653,
+                49.9447033
+              ],
+              [
+                18.231782,
+                49.9447483
+              ],
+              [
+                18.2320906,
+                49.9448333
+              ],
+              [
+                18.2322082,
+                49.9448748
+              ],
+              [
+                18.2322139,
+                49.9449633
+              ],
+              [
+                18.2321569,
+                49.9449783
+              ],
+              [
+                18.2320314,
+                49.9450498
+              ],
+              [
+                18.2318051,
+                49.9451304
+              ],
+              [
+                18.2316909,
+                49.945139
+              ],
+              [
+                18.2315628,
+                49.945111
+              ],
+              [
+                18.2314609,
+                49.9450644
+              ],
+              [
+                18.2314391,
+                49.9450375
+              ],
+              [
+                18.2313563,
+                49.9449858
+              ],
+              [
+                18.2312634,
+                49.9448923
+              ],
+              [
+                18.2312456,
+                49.9447405
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1219549285,
+        "@url": "https://www.openstreetmap.org/way/1219549285",
+        "amenity": "recycling",
+        "opening_hours": "Tu 16:00-18:00; Sa 08:00-10:00",
+        "recycling_type": "centre",
+        "start_date": "2023-04-01"
       }
     }
   ]

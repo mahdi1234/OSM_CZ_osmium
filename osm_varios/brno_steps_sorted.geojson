@@ -212,7 +212,8 @@
         "ramp:stroller": "yes",
         "source": "uhul:ortofoto",
         "step_count": "1",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -242,7 +243,8 @@
         "ramp:stroller": "yes",
         "source": "uhul:ortofoto",
         "step_count": "1",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -7704,9 +7706,11 @@
         "highway": "steps",
         "incline": "up",
         "lit": "no",
+        "ramp": "no",
         "smoothness": "intermediate",
         "step_count": "4",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "tactile_paving": "no"
       }
     },
     {
@@ -10892,7 +10896,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "5",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -11323,11 +11328,13 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "lit": "yes",
         "ramp": "separate",
         "ramp:wheelchair": "separate",
         "source": "cuzk:km",
         "step_count": "5",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -15204,7 +15211,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "6",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -32732,7 +32740,8 @@
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "14",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -32964,7 +32973,8 @@
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "14",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -45401,7 +45411,8 @@
         "source": "uhul:ortofoto;cuzk:km",
         "step_count": "27",
         "stroller": "yes",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {

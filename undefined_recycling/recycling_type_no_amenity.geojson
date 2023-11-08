@@ -34,6 +34,46 @@
         "shop": "computer",
         "website": "https://www.spoje.net/"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8049918,
+          49.1677255
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7707846665,
+        "@url": "https://www.openstreetmap.org/node/7707846665",
+        "amenity": "waste_disposal",
+        "recycling:paper": "yes",
+        "waste": "paper"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8510048,
+          49.1157308
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10262359471,
+        "@url": "https://www.openstreetmap.org/node/10262359471",
+        "amenity": "waste_disposal",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "waste": "paper;plastic"
+      }
     }
   ]
 }

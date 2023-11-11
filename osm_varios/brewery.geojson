@@ -1200,7 +1200,7 @@
         "ref:ruian:addr": "6397905",
         "smoking": "no",
         "source:addr": "cuzk:ruian",
-        "website": "http://www.unetickypivovar.cz/",
+        "website": "https://www.unetickypivovar.cz/",
         "wheelchair": "yes"
       }
     },
@@ -1928,7 +1928,7 @@
         "name": "Burgr's Fresh Burger Bistro",
         "name:cs": "Burgr's Fresh Burger Bistro",
         "name:en": "Burgr's Fresh Burger Bistro",
-        "website": "http://burgrs.eu/"
+        "website": "https://burgrs.eu/"
       }
     },
     {
@@ -4669,7 +4669,8 @@
         "opening_hours": "Mo-Su 11:00-23:00",
         "phone": "+420 739 623 633",
         "product": "beer",
-        "website": "https://www.pivovarkilian.cz/"
+        "website": "https://www.pivovarkilian.cz/",
+        "wheelchair": "no"
       }
     },
     {
@@ -6956,6 +6957,70 @@
         "source": "cuzk:ruian",
         "start_date": "2003-01-01",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.5991291,
+            49.4262291
+          ],
+          [
+            15.5989207,
+            49.4262842
+          ],
+          [
+            15.59893,
+            49.4262987
+          ],
+          [
+            15.5989076,
+            49.4263035
+          ],
+          [
+            15.5989387,
+            49.426353
+          ],
+          [
+            15.5989614,
+            49.4263477
+          ],
+          [
+            15.5989903,
+            49.4263929
+          ],
+          [
+            15.5991989,
+            49.4263393
+          ],
+          [
+            15.5991633,
+            49.4262784
+          ],
+          [
+            15.5991608,
+            49.4262791
+          ],
+          [
+            15.5991291,
+            49.4262291
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 42923666,
+        "@url": "https://www.openstreetmap.org/way/42923666",
+        "building": "house",
+        "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Pivoar Horác",
+        "ref:ruian:building": "12291226",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -9309,7 +9374,7 @@
         "name": "Únětický pivovar",
         "ref:ruian:building": "6359981",
         "source": "cuzk:ruian",
-        "website": "http://www.unetickypivovar.cz/",
+        "website": "https://www.unetickypivovar.cz/",
         "wikidata": "Q11086998",
         "wikimedia_commons": "Category:Únětický pivovar",
         "wikipedia": "cs:Únětický pivovar"
@@ -14196,6 +14261,74 @@
           [
             [
               [
+                15.5989076,
+                49.4263035
+              ],
+              [
+                15.59893,
+                49.4262987
+              ],
+              [
+                15.5989207,
+                49.4262842
+              ],
+              [
+                15.5991291,
+                49.4262291
+              ],
+              [
+                15.5991608,
+                49.4262791
+              ],
+              [
+                15.5991633,
+                49.4262784
+              ],
+              [
+                15.5991989,
+                49.4263393
+              ],
+              [
+                15.5989903,
+                49.4263929
+              ],
+              [
+                15.5989614,
+                49.4263477
+              ],
+              [
+                15.5989387,
+                49.426353
+              ],
+              [
+                15.5989076,
+                49.4263035
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 42923666,
+        "@url": "https://www.openstreetmap.org/way/42923666",
+        "building": "house",
+        "building:levels": "1",
+        "building:ruian:type": "7",
+        "craft": "brewery",
+        "name": "Pivoar Horác",
+        "ref:ruian:building": "12291226",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 13.8961507,
                 49.2593617
               ],
@@ -17111,7 +17244,7 @@
         "name": "Únětický pivovar",
         "ref:ruian:building": "6359981",
         "source": "cuzk:ruian",
-        "website": "http://www.unetickypivovar.cz/",
+        "website": "https://www.unetickypivovar.cz/",
         "wikidata": "Q11086998",
         "wikimedia_commons": "Category:Únětický pivovar",
         "wikipedia": "cs:Únětický pivovar"

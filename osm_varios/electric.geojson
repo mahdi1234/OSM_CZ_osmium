@@ -1959,29 +1959,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3933508,
-          49.2162727
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1773160416,
-        "@url": "https://www.openstreetmap.org/node/1773160416",
-        "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.5493929,
           50.7656809
         ]
@@ -2261,6 +2238,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.2612265,
+          49.8657454
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1959432234,
+        "@url": "https://www.openstreetmap.org/node/1959432234",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4864506,
           50.1236774
         ]
@@ -2490,6 +2494,34 @@
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0347376,
+          49.9787265
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2117771893,
+        "@url": "https://www.openstreetmap.org/node/2117771893",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -28661,6 +28693,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.3400146,
+          49.0330964
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10630226193,
+        "@url": "https://www.openstreetmap.org/node/10630226193",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.582014,
           50.4308202
         ]
@@ -30891,6 +30945,31 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.084252,
+          50.15746
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11344935412,
+        "@url": "https://www.openstreetmap.org/node/11344935412",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:kov": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -32354,6 +32433,65 @@
         "recycling_type": "centre",
         "source": "cuzk:km",
         "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/jizni-morava/sd-anenska.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.3931895,
+            49.2164637
+          ],
+          [
+            16.3929346,
+            49.2161571
+          ],
+          [
+            16.3939808,
+            49.2160422
+          ],
+          [
+            16.3939989,
+            49.2160822
+          ],
+          [
+            16.394041,
+            49.2161712
+          ],
+          [
+            16.393498,
+            49.2163291
+          ],
+          [
+            16.3933207,
+            49.2164585
+          ],
+          [
+            16.3932339,
+            49.2164556
+          ],
+          [
+            16.3931895,
+            49.2164637
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 147435642,
+        "@url": "https://www.openstreetmap.org/way/147435642",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -42142,6 +42280,69 @@
         "recycling_type": "centre",
         "source": "cuzk:km",
         "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/jizni-morava/sd-anenska.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.3929346,
+                49.2161571
+              ],
+              [
+                16.3939808,
+                49.2160422
+              ],
+              [
+                16.3939989,
+                49.2160822
+              ],
+              [
+                16.394041,
+                49.2161712
+              ],
+              [
+                16.393498,
+                49.2163291
+              ],
+              [
+                16.3933207,
+                49.2164585
+              ],
+              [
+                16.3932339,
+                49.2164556
+              ],
+              [
+                16.3931895,
+                49.2164637
+              ],
+              [
+                16.3929346,
+                49.2161571
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 147435642,
+        "@url": "https://www.openstreetmap.org/way/147435642",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {

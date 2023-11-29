@@ -14690,13 +14690,14 @@
         "@id": 10068304075,
         "@url": "https://www.openstreetmap.org/node/10068304075",
         "amenity": "recycling",
+        "location": "underground",
         "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:waste": "yes",
-        "recycling_type": "underfloor-container"
+        "recycling_type": "container"
       }
     },
     {
@@ -21653,6 +21654,27 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4455292,
+          49.0811983
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11381004945,
+        "@url": "https://www.openstreetmap.org/node/11381004945",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

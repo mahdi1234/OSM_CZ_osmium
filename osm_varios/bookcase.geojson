@@ -736,7 +736,6 @@
         "@id": 4878427986,
         "@url": "https://www.openstreetmap.org/node/4878427986",
         "amenity": "public_bookcase",
-        "brand": "Knihobudka",
         "capacity": "200",
         "check_date": "2023-06-26",
         "opening_hours": "08:00-20:00",
@@ -3184,6 +3183,7 @@
         "@id": 7552275450,
         "@url": "https://www.openstreetmap.org/node/7552275450",
         "amenity": "public_bookcase",
+        "indoor": "no",
         "name": "Khihobudka Bazén Lochotín",
         "opening_hours": "Mo-Fr 06:00-21:00; Sa-Su 09:00-20:00",
         "opening_hours:covid19": "off",
@@ -11579,6 +11579,22 @@
         "@type": "node",
         "@id": 11379081760,
         "@url": "https://www.openstreetmap.org/node/11379081760",
+        "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3781165,
+          49.9712977
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11385752491,
+        "@url": "https://www.openstreetmap.org/node/11385752491",
         "amenity": "public_bookcase"
       }
     },

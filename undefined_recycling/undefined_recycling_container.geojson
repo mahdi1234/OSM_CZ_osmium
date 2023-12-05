@@ -52513,6 +52513,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2507929,
+          49.5382487
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11393970531,
+        "@url": "https://www.openstreetmap.org/node/11393970531",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -55158,6 +55175,46 @@
         "@id": 1216620805,
         "@url": "https://www.openstreetmap.org/way/1216620805",
         "amenity": "recycling",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.1144164,
+                49.3998932
+              ],
+              [
+                17.11443,
+                49.3998625
+              ],
+              [
+                17.1145239,
+                49.39988
+              ],
+              [
+                17.1145103,
+                49.3999107
+              ],
+              [
+                17.1144164,
+                49.3998932
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1228707336,
+        "@url": "https://www.openstreetmap.org/way/1228707336",
+        "amenity": "recycling",
+        "location": "underground",
         "recycling_type": "container"
       }
     }

@@ -3177,16 +3177,15 @@
         "@type": "node",
         "@id": 4243300486,
         "@url": "https://www.openstreetmap.org/node/4243300486",
+        "contact:facebook": "Brevnovskypivovar",
+        "contact:mobile": "+420 607 038 304",
+        "contact:website": "https://brevnovskypivovar.cz/",
         "craft": "brewery",
         "description": "Lahvová piva lze koupit i v infocentru, točená i v Břevnovském výčepu v areálu kláštera",
-        "facebook": "https://www.facebook.com/Brevnovskypivovar/",
         "name": "Břevnovský klášterní pivovar svatého Vojtěcha",
         "opening_hours": "Mo-We,Fr 09:00-17:00; Th 09:00-19:00",
-        "phone": "+420 607 038 304",
-        "shop": "alcohol",
         "short_name": "Břevnovský klášterní pivovar sv. Vojtěcha",
         "source": "survey",
-        "website": "https://brevnovskypivovar.cz/",
         "wikidata": "Q11706909",
         "wikipedia": "cs:Břevnovský klášterní pivovar"
       }
@@ -7980,7 +7979,7 @@
         "addr:city": "Český Krumlov",
         "addr:postcode": "381 01",
         "addr:street": "Pivovarská",
-        "building": "yes",
+        "building": "industrial",
         "craft": "brewery",
         "name": "Pivovar Eggenberg",
         "operator": "Pivovar Eggenberg",
@@ -9852,6 +9851,93 @@
         "ref:ruian:building": "18791301",
         "source": "cuzk:ruian",
         "website": "https://pivovareknakopecku.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.3050227,
+            48.620641
+          ],
+          [
+            14.3050324,
+            48.620643
+          ],
+          [
+            14.3050113,
+            48.6206837
+          ],
+          [
+            14.3050154,
+            48.6206987
+          ],
+          [
+            14.3050377,
+            48.6207106
+          ],
+          [
+            14.3051733,
+            48.6207399
+          ],
+          [
+            14.3051605,
+            48.6207735
+          ],
+          [
+            14.3054561,
+            48.6208399
+          ],
+          [
+            14.3056537,
+            48.6204181
+          ],
+          [
+            14.3054457,
+            48.6203751
+          ],
+          [
+            14.3054668,
+            48.62033
+          ],
+          [
+            14.3053262,
+            48.620303
+          ],
+          [
+            14.3052095,
+            48.6205572
+          ],
+          [
+            14.305244,
+            48.6205646
+          ],
+          [
+            14.3052339,
+            48.6205832
+          ],
+          [
+            14.3050738,
+            48.6205469
+          ],
+          [
+            14.3050227,
+            48.620641
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 97701581,
+        "@url": "https://www.openstreetmap.org/way/97701581",
+        "building": "civic",
+        "building:ruian:type": "15",
+        "craft": "brewery",
+        "name": "Pivovar",
+        "ref:ruian:building": "8702594",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -15837,7 +15923,7 @@
         "addr:city": "Český Krumlov",
         "addr:postcode": "381 01",
         "addr:street": "Pivovarská",
-        "building": "yes",
+        "building": "industrial",
         "craft": "brewery",
         "name": "Pivovar Eggenberg",
         "operator": "Pivovar Eggenberg",
@@ -17797,6 +17883,97 @@
         "ref:ruian:building": "18791301",
         "source": "cuzk:ruian",
         "website": "https://pivovareknakopecku.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.3050113,
+                48.6206837
+              ],
+              [
+                14.3050324,
+                48.620643
+              ],
+              [
+                14.3050227,
+                48.620641
+              ],
+              [
+                14.3050738,
+                48.6205469
+              ],
+              [
+                14.3052339,
+                48.6205832
+              ],
+              [
+                14.305244,
+                48.6205646
+              ],
+              [
+                14.3052095,
+                48.6205572
+              ],
+              [
+                14.3053262,
+                48.620303
+              ],
+              [
+                14.3054668,
+                48.62033
+              ],
+              [
+                14.3054457,
+                48.6203751
+              ],
+              [
+                14.3056537,
+                48.6204181
+              ],
+              [
+                14.3054561,
+                48.6208399
+              ],
+              [
+                14.3051605,
+                48.6207735
+              ],
+              [
+                14.3051733,
+                48.6207399
+              ],
+              [
+                14.3050377,
+                48.6207106
+              ],
+              [
+                14.3050154,
+                48.6206987
+              ],
+              [
+                14.3050113,
+                48.6206837
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 97701581,
+        "@url": "https://www.openstreetmap.org/way/97701581",
+        "building": "civic",
+        "building:ruian:type": "15",
+        "craft": "brewery",
+        "name": "Pivovar",
+        "ref:ruian:building": "8702594",
+        "source": "cuzk:ruian"
       }
     },
     {

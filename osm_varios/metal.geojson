@@ -21613,13 +21613,12 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:clothes": "no",
-        "recycling:glass_bottles": "no",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container",
-        "survey:date": "2020-10-04"
+        "recycling_type": "container"
       }
     },
     {
@@ -37266,6 +37265,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6408526,
+          49.1876027
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10217324817,
+        "@url": "https://www.openstreetmap.org/node/10217324817",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5971675,
           49.1709043
         ]
@@ -50577,6 +50603,31 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6408008,
+          49.1886253
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11421030992,
+        "@url": "https://www.openstreetmap.org/node/11421030992",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -52075,6 +52126,10 @@
             48.8508162
           ],
           [
+            16.0748329,
+            48.8508685
+          ],
+          [
             16.0748047,
             48.8509199
           ],
@@ -52121,6 +52176,10 @@
           [
             16.0738231,
             48.8506066
+          ],
+          [
+            16.0740346,
+            48.850596
           ],
           [
             16.0741398,
@@ -63705,12 +63764,20 @@
                 48.8506066
               ],
               [
+                16.0740346,
+                48.850596
+              ],
+              [
                 16.0741398,
                 48.8505954
               ],
               [
                 16.0748628,
                 48.8508162
+              ],
+              [
+                16.0748329,
+                48.8508685
               ],
               [
                 16.0748047,

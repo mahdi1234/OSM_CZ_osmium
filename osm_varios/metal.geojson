@@ -561,6 +561,7 @@
         "@id": 472861926,
         "@url": "https://www.openstreetmap.org/node/472861926",
         "amenity": "recycling",
+        "check_date:recycling": "2023-12-24",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -38266,6 +38267,9 @@
         "@url": "https://www.openstreetmap.org/node/10282109084",
         "amenity": "recycling",
         "operator": "Marius Pedersen a.s.",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -50741,6 +50745,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5807921,
+          49.5896372
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11447431274,
+        "@url": "https://www.openstreetmap.org/node/11447431274",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -53847,6 +53875,86 @@
         "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.0374535,
+            49.4897822
+          ],
+          [
+            15.0374981,
+            49.489696
+          ],
+          [
+            15.0392831,
+            49.4900796
+          ],
+          [
+            15.0396667,
+            49.4907492
+          ],
+          [
+            15.0393311,
+            49.4912164
+          ],
+          [
+            15.0390601,
+            49.491387
+          ],
+          [
+            15.0382695,
+            49.49133
+          ],
+          [
+            15.0370395,
+            49.4914704
+          ],
+          [
+            15.0367949,
+            49.4914837
+          ],
+          [
+            15.0374535,
+            49.4897822
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 280974731,
+        "@url": "https://www.openstreetmap.org/way/280974731",
+        "amenity": "recycling",
+        "name": "Sběrna Hrádek",
+        "operator": "Sompo",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.sompo.cz/userfiles/files/Seznam%20odpad%C5%AF%20p%C5%99ij%C3%ADman%C3%BDch%20do%20za%C5%99%C3%ADzen%C3%AD%20CZJ00297%20Sb%C4%9Brna%20odpad%C5%AF%20Hr%C3%A1dek%20u%20Pacova.pdf",
+        "website": "https://www.sompo.cz/provozy/sberna-hradek/"
       }
     },
     {
@@ -59516,12 +59624,28 @@
             49.4384653
           ],
           [
-            12.9395815,
-            49.4385151
+            12.9401003,
+            49.4384604
           ],
           [
-            12.9396762,
-            49.4380602
+            12.9400661,
+            49.4386206
+          ],
+          [
+            12.9399686,
+            49.4387633
+          ],
+          [
+            12.9396156,
+            49.4387467
+          ],
+          [
+            12.9396003,
+            49.4381892
+          ],
+          [
+            12.939764,
+            49.4379999
           ],
           [
             12.9402482,
@@ -65668,6 +65792,90 @@
           [
             [
               [
+                15.0367949,
+                49.4914837
+              ],
+              [
+                15.0374535,
+                49.4897822
+              ],
+              [
+                15.0374981,
+                49.489696
+              ],
+              [
+                15.0392831,
+                49.4900796
+              ],
+              [
+                15.0396667,
+                49.4907492
+              ],
+              [
+                15.0393311,
+                49.4912164
+              ],
+              [
+                15.0390601,
+                49.491387
+              ],
+              [
+                15.0382695,
+                49.49133
+              ],
+              [
+                15.0370395,
+                49.4914704
+              ],
+              [
+                15.0367949,
+                49.4914837
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 280974731,
+        "@url": "https://www.openstreetmap.org/way/280974731",
+        "amenity": "recycling",
+        "name": "Sběrna Hrádek",
+        "operator": "Sompo",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.sompo.cz/userfiles/files/Seznam%20odpad%C5%AF%20p%C5%99ij%C3%ADman%C3%BDch%20do%20za%C5%99%C3%ADzen%C3%AD%20CZJ00297%20Sb%C4%9Brna%20odpad%C5%AF%20Hr%C3%A1dek%20u%20Pacova.pdf",
+        "website": "https://www.sompo.cz/provozy/sberna-hradek/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 18.140159,
                 49.6340645
               ],
@@ -71617,12 +71825,12 @@
           [
             [
               [
-                12.9395815,
-                49.4385151
+                12.9396003,
+                49.4381892
               ],
               [
-                12.9396762,
-                49.4380602
+                12.939764,
+                49.4379999
               ],
               [
                 12.9402482,
@@ -71633,8 +71841,24 @@
                 49.4384653
               ],
               [
-                12.9395815,
-                49.4385151
+                12.9401003,
+                49.4384604
+              ],
+              [
+                12.9400661,
+                49.4386206
+              ],
+              [
+                12.9399686,
+                49.4387633
+              ],
+              [
+                12.9396156,
+                49.4387467
+              ],
+              [
+                12.9396003,
+                49.4381892
               ]
             ]
           ]

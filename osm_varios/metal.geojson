@@ -2131,6 +2131,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.014421,
+          49.4666548
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1436481305,
+        "@url": "https://www.openstreetmap.org/node/1436481305",
+        "addr:conscriptionnumber": "915",
+        "addr:country": "CZ",
+        "addr:housenumber": "915",
+        "addr:place": "Pacov",
+        "addr:postcode": "39501",
+        "addr:street": "Nádražní",
+        "amenity": "recycling",
+        "operator": "Lesotech s.r.o",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:addr": "26830639",
+        "source": "cuzk:km",
+        "website": "https://www.mestopacov.cz/lesotech-s-r-o/os-1004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5047955,
           50.0368908
         ]
@@ -54482,6 +54530,66 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.9615403,
+            49.3751133
+          ],
+          [
+            14.9615439,
+            49.3753379
+          ],
+          [
+            14.9624174,
+            49.3754062
+          ],
+          [
+            14.9625257,
+            49.3753776
+          ],
+          [
+            14.9627107,
+            49.3751667
+          ],
+          [
+            14.9626449,
+            49.3751403
+          ],
+          [
+            14.9615403,
+            49.3751133
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 297639425,
+        "@url": "https://www.openstreetmap.org/way/297639425",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "operator": "MěÚ Černovice",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestocernovice.cz/rozvoj-a-sluzby/nakladani-s-odpady/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5326977,
             49.1965738
           ],
@@ -66405,6 +66513,70 @@
         "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.9615403,
+                49.3751133
+              ],
+              [
+                14.9626449,
+                49.3751403
+              ],
+              [
+                14.9627107,
+                49.3751667
+              ],
+              [
+                14.9625257,
+                49.3753776
+              ],
+              [
+                14.9624174,
+                49.3754062
+              ],
+              [
+                14.9615439,
+                49.3753379
+              ],
+              [
+                14.9615403,
+                49.3751133
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 297639425,
+        "@url": "https://www.openstreetmap.org/way/297639425",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "operator": "MěÚ Černovice",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestocernovice.cz/rozvoj-a-sluzby/nakladani-s-odpady/"
       }
     },
     {

@@ -4085,7 +4085,8 @@
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "25",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -51749,6 +51750,8 @@
         "@id": 1222724553,
         "@url": "https://www.openstreetmap.org/way/1222724553",
         "handrail": "yes",
+        "handrail:left": "yes",
+        "handrail:right": "yes",
         "highway": "steps",
         "incline": "down",
         "ramp": "no",

@@ -1223,6 +1223,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.8747486,
+          49.2284963
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 982073293,
+        "@url": "https://www.openstreetmap.org/node/982073293",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Třebíč – D2 Na Klinkách",
+        "operator": "ESKO-T s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.esko-t.cz/sluzby/sberne-dvory/sberny-dvur-trebic-d2-na-klinkach/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5198461,
           50.04816
         ]
@@ -9162,6 +9201,7 @@
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
+        "recycling:organic": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -10780,6 +10820,38 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6948811,
+          49.5396955
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4660362759,
+        "@url": "https://www.openstreetmap.org/node/4660362759",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -26796,8 +26868,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6451166,
-          50.1753316
+          12.6451461,
+          50.1753307
         ]
       },
       "properties": {
@@ -26820,8 +26892,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6493713,
-          50.1741538
+          12.6494021,
+          50.1741632
         ]
       },
       "properties": {
@@ -26841,8 +26913,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6480299,
-          50.1747907
+          12.6480902,
+          50.1747881
         ]
       },
       "properties": {
@@ -51348,6 +51420,50 @@
         "@url": "https://www.openstreetmap.org/node/11499518165",
         "amenity": "recycling",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8693658,
+          49.227047
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11505389248,
+        "@url": "https://www.openstreetmap.org/node/11505389248",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8459755,
+          49.2062553
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11505428697,
+        "@url": "https://www.openstreetmap.org/node/11505428697",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",

@@ -12928,7 +12928,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2018-10-28",
+        "survey:date": "2018-10-28",
         "water_source": "main"
       }
     },
@@ -13600,6 +13600,7 @@
         "@id": 6271069929,
         "@url": "https://www.openstreetmap.org/node/6271069929",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -13617,6 +13618,7 @@
         "@id": 6271069930,
         "@url": "https://www.openstreetmap.org/node/6271069930",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -13900,7 +13902,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-03-15",
+        "survey:date": "2019-03-15",
         "water_source": "main"
       }
     },
@@ -31483,6 +31485,29 @@
         "cap:colour": "silver",
         "colour": "blue",
         "couplings": "3",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6944756,
+          49.5397892
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11506809952,
+        "@url": "https://www.openstreetmap.org/node/11506809952",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",

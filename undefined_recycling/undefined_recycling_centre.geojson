@@ -221,24 +221,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8754607,
-          49.2279016
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 982073293,
-        "@url": "https://www.openstreetmap.org/node/982073293",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.5896687,
           50.2316991
         ]
@@ -11628,6 +11610,46 @@
         "amenity": "recycling",
         "operator": "Raspenava",
         "operator:type": "government",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.022231,
+                50.5130957
+              ],
+              [
+                14.0230152,
+                50.5128915
+              ],
+              [
+                14.0231869,
+                50.5131047
+              ],
+              [
+                14.0224439,
+                50.5134782
+              ],
+              [
+                14.022231,
+                50.5130957
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1238685883,
+        "@url": "https://www.openstreetmap.org/way/1238685883",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "recycling_type": "centre"
       }
     }

@@ -3309,51 +3309,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5637245,
-          49.2129275
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3457044493,
-        "@url": "https://www.openstreetmap.org/node/3457044493",
-        "amenity": "recycling",
-        "mobile": "+420 722 568 962",
-        "name": "SSO Sochorova",
-        "opening_hours": "Mo 14:00-18:00; Tu-Fr 09:00-13:00,14:00-18:00; Sa 08:00-12:00",
-        "phone": "+420 542 174 574",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:fluorescent_tubes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:metal": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "ref:ekokom": "10569"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.559974,
           49.2204771
         ]
@@ -18977,6 +18932,61 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.6817024,
+            49.3117369
+          ],
+          [
+            15.6819802,
+            49.3114536
+          ],
+          [
+            15.6814881,
+            49.3112311
+          ],
+          [
+            15.6815337,
+            49.3115894
+          ],
+          [
+            15.6817024,
+            49.3117369
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 337883838,
+        "@url": "https://www.openstreetmap.org/way/337883838",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "survey; Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.0285585,
             50.1810095
           ],
@@ -20911,6 +20921,69 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "website": "https://www.lhotarapotina.eu/odpadove-hospodarstvi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.8984337,
+            49.2022327
+          ],
+          [
+            15.8987518,
+            49.2023399
+          ],
+          [
+            15.8991067,
+            49.2019264
+          ],
+          [
+            15.8987652,
+            49.2018082
+          ],
+          [
+            15.8984881,
+            49.2021631
+          ],
+          [
+            15.8984337,
+            49.2022327
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 633497458,
+        "@url": "https://www.openstreetmap.org/way/633497458",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "fence_type": "metal",
+        "name": "Sběrný dvůr Třebíč – D1 Hrotovická",
+        "operator": "ESKO-T s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.esko-t.cz/sluzby/sberne-dvory/sberny-dvur-trebic-d1-hrotovicka/"
       }
     },
     {
@@ -24507,8 +24580,8 @@
             50.1068518
           ],
           [
-            13.7106293,
-            50.1072399
+            13.7106244,
+            50.1072417
           ],
           [
             13.7098997,
@@ -24777,6 +24850,73 @@
         "ref:ekokom": "10528",
         "source": "cuzk:km;bing",
         "website": "https://www.kts-ekologie.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5641102,
+            49.2131412
+          ],
+          [
+            16.5639302,
+            49.2126616
+          ],
+          [
+            16.5632331,
+            49.212775
+          ],
+          [
+            16.5633334,
+            49.2130357
+          ],
+          [
+            16.5639018,
+            49.2131735
+          ],
+          [
+            16.5641102,
+            49.2131412
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1239126829,
+        "@url": "https://www.openstreetmap.org/way/1239126829",
+        "amenity": "recycling",
+        "mobile": "+420 722 568 962",
+        "name": "SSO Sochorova",
+        "opening_hours": "Mo 14:00-18:00; Tu-Fr 09:00-13:00,14:00-18:00; Sa 08:00-12:00",
+        "phone": "+420 542 174 574",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10569"
       }
     },
     {
@@ -28432,6 +28572,65 @@
           [
             [
               [
+                15.6814881,
+                49.3112311
+              ],
+              [
+                15.6819802,
+                49.3114536
+              ],
+              [
+                15.6817024,
+                49.3117369
+              ],
+              [
+                15.6815337,
+                49.3115894
+              ],
+              [
+                15.6814881,
+                49.3112311
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 337883838,
+        "@url": "https://www.openstreetmap.org/way/337883838",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "survey; Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 15.0285585,
                 50.1810095
               ],
@@ -30476,6 +30675,73 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "website": "https://www.lhotarapotina.eu/odpadove-hospodarstvi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.8984337,
+                49.2022327
+              ],
+              [
+                15.8984881,
+                49.2021631
+              ],
+              [
+                15.8987652,
+                49.2018082
+              ],
+              [
+                15.8991067,
+                49.2019264
+              ],
+              [
+                15.8987518,
+                49.2023399
+              ],
+              [
+                15.8984337,
+                49.2022327
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 633497458,
+        "@url": "https://www.openstreetmap.org/way/633497458",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "fence_type": "metal",
+        "name": "Sběrný dvůr Třebíč – D1 Hrotovická",
+        "operator": "ESKO-T s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.esko-t.cz/sluzby/sberne-dvory/sberny-dvur-trebic-d1-hrotovicka/"
       }
     },
     {
@@ -34290,8 +34556,8 @@
                 50.1068518
               ],
               [
-                13.7106293,
-                50.1072399
+                13.7106244,
+                50.1072417
               ],
               [
                 13.7098997,
@@ -34546,6 +34812,77 @@
         "ref:ekokom": "10528",
         "source": "cuzk:km;bing",
         "website": "https://www.kts-ekologie.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5632331,
+                49.212775
+              ],
+              [
+                16.5639302,
+                49.2126616
+              ],
+              [
+                16.5641102,
+                49.2131412
+              ],
+              [
+                16.5639018,
+                49.2131735
+              ],
+              [
+                16.5633334,
+                49.2130357
+              ],
+              [
+                16.5632331,
+                49.212775
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1239126829,
+        "@url": "https://www.openstreetmap.org/way/1239126829",
+        "amenity": "recycling",
+        "mobile": "+420 722 568 962",
+        "name": "SSO Sochorova",
+        "opening_hours": "Mo 14:00-18:00; Tu-Fr 09:00-13:00,14:00-18:00; Sa 08:00-12:00",
+        "phone": "+420 542 174 574",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10569"
       }
     }
   ]

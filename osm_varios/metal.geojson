@@ -17551,12 +17551,18 @@
         "@id": 6847560105,
         "@url": "https://www.openstreetmap.org/node/6847560105",
         "amenity": "recycling",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -45409,8 +45415,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6799342,
-          50.1926677
+          12.6799516,
+          50.1926986
         ]
       },
       "properties": {
@@ -45431,8 +45437,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6797175,
-          50.1948557
+          12.6797296,
+          50.1948609
         ]
       },
       "properties": {
@@ -51512,6 +51518,29 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4995958,
+          50.0558742
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11521235532,
+        "@url": "https://www.openstreetmap.org/node/11521235532",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }

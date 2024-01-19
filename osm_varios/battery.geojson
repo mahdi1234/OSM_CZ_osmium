@@ -24960,6 +24960,63 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.8114319,
+            50.2476303
+          ],
+          [
+            12.8110464,
+            50.2468001
+          ],
+          [
+            12.8118566,
+            50.2466664
+          ],
+          [
+            12.8128902,
+            50.2466566
+          ],
+          [
+            12.8130006,
+            50.2466556
+          ],
+          [
+            12.8131056,
+            50.2472598
+          ],
+          [
+            12.8125292,
+            50.2474525
+          ],
+          [
+            12.8120064,
+            50.247557
+          ],
+          [
+            12.8114319,
+            50.2476303
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1240785201,
+        "@url": "https://www.openstreetmap.org/way/1240785201",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -34921,6 +34978,67 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.8110464,
+                50.2468001
+              ],
+              [
+                12.8118566,
+                50.2466664
+              ],
+              [
+                12.8128902,
+                50.2466566
+              ],
+              [
+                12.8130006,
+                50.2466556
+              ],
+              [
+                12.8131056,
+                50.2472598
+              ],
+              [
+                12.8125292,
+                50.2474525
+              ],
+              [
+                12.8120064,
+                50.247557
+              ],
+              [
+                12.8114319,
+                50.2476303
+              ],
+              [
+                12.8110464,
+                50.2468001
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1240785201,
+        "@url": "https://www.openstreetmap.org/way/1240785201",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

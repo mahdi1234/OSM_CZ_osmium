@@ -5931,6 +5931,7 @@
         "addr:housenumber": "504",
         "addr:postcode": "66407",
         "addr:street": "Sivice",
+        "check_date": "2024-01-21",
         "craft": "brewery",
         "microbrewery": "yes",
         "name": "Rodinný řemeslný pivovar BEER DADDY",
@@ -6842,6 +6843,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.311017,
+          49.256482
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11540042332,
+        "@url": "https://www.openstreetmap.org/node/11540042332",
+        "contact:facebook": "https://www.facebook.com/pivovarkozlicek/",
+        "craft": "brewery",
+        "email": "milan.kozlicek@pivovar-kozlicek.cz",
+        "microbrewery": "yes",
+        "name": "Kozlíček",
+        "operator": "Milan Kozlíček",
+        "phone": "+420 603 170 012",
+        "website": "http://www.pivovar-kozlicek.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -7531,46 +7555,6 @@
         "ref:ruian:building": "24140783",
         "source": "cuzk:ruian",
         "website": "https://www.pivovarproud.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            15.3109564,
-            49.2564997
-          ],
-          [
-            15.3110317,
-            49.2565285
-          ],
-          [
-            15.3110874,
-            49.2564662
-          ],
-          [
-            15.3110122,
-            49.2564375
-          ],
-          [
-            15.3109564,
-            49.2564997
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 51419390,
-        "@url": "https://www.openstreetmap.org/way/51419390",
-        "building": "yes",
-        "building:ruian:type": "18",
-        "craft": "brewery",
-        "name": "Kozlíček",
-        "ref:ruian:building": "13642821",
-        "source": "cuzk:ruian",
-        "website": "www.pivovar-kozlicek.cz"
       }
     },
     {
@@ -15439,50 +15423,6 @@
         "ref:ruian:building": "24140783",
         "source": "cuzk:ruian",
         "website": "https://www.pivovarproud.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                15.3109564,
-                49.2564997
-              ],
-              [
-                15.3110122,
-                49.2564375
-              ],
-              [
-                15.3110874,
-                49.2564662
-              ],
-              [
-                15.3110317,
-                49.2565285
-              ],
-              [
-                15.3109564,
-                49.2564997
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 51419390,
-        "@url": "https://www.openstreetmap.org/way/51419390",
-        "building": "yes",
-        "building:ruian:type": "18",
-        "craft": "brewery",
-        "name": "Kozlíček",
-        "ref:ruian:building": "13642821",
-        "source": "cuzk:ruian",
-        "website": "www.pivovar-kozlicek.cz"
       }
     },
     {

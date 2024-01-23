@@ -305,26 +305,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4727792,
-          50.0871546
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 390583899,
-        "@url": "https://www.openstreetmap.org/node/390583899",
-        "amenity": "recycling",
-        "name": "Wega recycling",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.6291711,
           49.1898753
         ]
@@ -5335,6 +5315,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.3859212,
+          49.2874564
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2705385315,
+        "@url": "https://www.openstreetmap.org/node/2705385315",
+        "amenity": "recycling",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.586247,
           49.2142763
         ]
@@ -5503,8 +5503,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4046235,
-          50.0234233
+          14.4045837,
+          50.0234077
         ]
       },
       "properties": {
@@ -12841,12 +12841,14 @@
         "@id": 5115012283,
         "@url": "https://www.openstreetmap.org/node/5115012283",
         "amenity": "recycling",
+        "recycling:bio_waste": "yes",
         "recycling:cans": "yes",
+        "recycling:cartons": "yes",
+        "recycling:electronics": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -51549,6 +51551,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5922544,
+          49.5195956
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11536379292,
+        "@url": "https://www.openstreetmap.org/node/11536379292",
+        "amenity": "recycling",
+        "recycling:bio_waste": "yes",
+        "recycling:cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -63474,6 +63500,76 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.0661714,
+            48.8478819
+          ],
+          [
+            16.067207,
+            48.84752
+          ],
+          [
+            16.0666,
+            48.8467754
+          ],
+          [
+            16.0663471,
+            48.8465962
+          ],
+          [
+            16.0656429,
+            48.8469347
+          ],
+          [
+            16.0649972,
+            48.8472423
+          ],
+          [
+            16.0651536,
+            48.8474343
+          ],
+          [
+            16.065233,
+            48.84744
+          ],
+          [
+            16.065713,
+            48.847269
+          ],
+          [
+            16.0658023,
+            48.8473767
+          ],
+          [
+            16.0657998,
+            48.8473776
+          ],
+          [
+            16.0659038,
+            48.8475241
+          ],
+          [
+            16.0661714,
+            48.8478819
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1241996957,
+        "@url": "https://www.openstreetmap.org/way/1241996957",
+        "amenity": "recycling",
+        "name": "ZN metal",
+        "opening_hours": "Mo-Fr 06:30-16:00; Sa 08:00-12:00",
+        "recycling:scrap_metal": "yes",
+        "website": "https://www.znmetal.cz/"
       }
     },
     {
@@ -76245,6 +76341,80 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.0649972,
+                48.8472423
+              ],
+              [
+                16.0656429,
+                48.8469347
+              ],
+              [
+                16.0663471,
+                48.8465962
+              ],
+              [
+                16.0666,
+                48.8467754
+              ],
+              [
+                16.067207,
+                48.84752
+              ],
+              [
+                16.0661714,
+                48.8478819
+              ],
+              [
+                16.0659038,
+                48.8475241
+              ],
+              [
+                16.0657998,
+                48.8473776
+              ],
+              [
+                16.0658023,
+                48.8473767
+              ],
+              [
+                16.065713,
+                48.847269
+              ],
+              [
+                16.065233,
+                48.84744
+              ],
+              [
+                16.0651536,
+                48.8474343
+              ],
+              [
+                16.0649972,
+                48.8472423
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1241996957,
+        "@url": "https://www.openstreetmap.org/way/1241996957",
+        "amenity": "recycling",
+        "name": "ZN metal",
+        "opening_hours": "Mo-Fr 06:30-16:00; Sa 08:00-12:00",
+        "recycling:scrap_metal": "yes",
+        "website": "https://www.znmetal.cz/"
       }
     }
   ]

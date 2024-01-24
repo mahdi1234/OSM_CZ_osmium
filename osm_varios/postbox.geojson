@@ -39,22 +39,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3886039,
-          50.0580767
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11143250941,
-        "@url": "https://www.openstreetmap.org/node/11143250941",
-        "amenity": "post_box"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.9881317,
           49.5985528
         ]
@@ -63,7 +47,9 @@
         "@type": "node",
         "@id": 11266569447,
         "@url": "https://www.openstreetmap.org/node/11266569447",
-        "amenity": "post_box"
+        "amenity": "post_box",
+        "fixme": "precise position + ref + existing?",
+        "note": "Není v databázi České Pošty. Existuje na místě?"
       }
     },
     {
@@ -80,6 +66,8 @@
         "@id": 11283907725,
         "@url": "https://www.openstreetmap.org/node/11283907725",
         "amenity": "post_box",
+        "fixme": "ref + existing?",
+        "note": "Není v databázi České Pošty. Existuje na místě?",
         "operator": "Česká pošta, s.p.",
         "operator:wikidata": "Q341090"
       }

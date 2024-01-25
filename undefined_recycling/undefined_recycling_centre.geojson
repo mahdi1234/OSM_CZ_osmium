@@ -468,24 +468,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9121318,
-          49.9441393
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2307588993,
-        "@url": "https://www.openstreetmap.org/node/2307588993",
-        "amenity": "recycling",
-        "opening_hours": "Mar 15-Nov 15: Mo-Fr 11:00-17:30; Sa 8:00-11:00 || Nov 16-Mar 14: We 11:00-17:30; Sa 8:00-11:00",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.8536689,
           50.0703894
         ]
@@ -11590,6 +11572,69 @@
         "@id": 1241021328,
         "@url": "https://www.openstreetmap.org/way/1241021328",
         "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4618333,
+                49.6887757
+              ],
+              [
+                16.4618509,
+                49.6887256
+              ],
+              [
+                16.4619076,
+                49.6885645
+              ],
+              [
+                16.462304,
+                49.6886195
+              ],
+              [
+                16.4627986,
+                49.6887311
+              ],
+              [
+                16.462795,
+                49.688761
+              ],
+              [
+                16.4627924,
+                49.6887878
+              ],
+              [
+                16.4625889,
+                49.6887763
+              ],
+              [
+                16.4624164,
+                49.6887815
+              ],
+              [
+                16.4618333,
+                49.6887757
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1242462490,
+        "@url": "https://www.openstreetmap.org/way/1242462490",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr RADIMĚŘ",
+        "opening_hours": "Sa 09:00-13:00",
+        "operator": "LIKO SVITAVY a.s.",
+        "operator:type": "private",
         "recycling_type": "centre"
       }
     }

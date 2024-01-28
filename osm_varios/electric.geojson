@@ -2718,6 +2718,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3726933,
+          49.7255789
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2131490940,
+        "@url": "https://www.openstreetmap.org/node/2131490940",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.27063,
           49.75403
         ]
@@ -16004,21 +16033,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6850662,
-          49.9518239
+          12.6850553,
+          49.9517965
         ]
       },
       "properties": {
         "@type": "node",
-        "@id": 7508602392,
-        "@url": "https://www.openstreetmap.org/node/7508602392",
+        "@id": 7508602391,
+        "@url": "https://www.openstreetmap.org/node/7508602391",
+        "access": "yes",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -27053,6 +27089,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.8541717,
+          49.8099428
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9775926663,
+        "@url": "https://www.openstreetmap.org/node/9775926663",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.9959209,
           49.1488862
         ]
@@ -30916,8 +30980,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.7451655,
-          50.2426777
+          12.7451646,
+          50.2426589
         ]
       },
       "properties": {
@@ -30925,7 +30989,7 @@
         "@id": 10886226337,
         "@url": "https://www.openstreetmap.org/node/10886226337",
         "amenity": "recycling",
-        "colour": "červená",
+        "colour": "red",
         "description": "Zpětný odběr baterií a drobného elektrozařízení",
         "operator": "Asekol",
         "recycling:electrical_appliances": "yes",
@@ -31129,13 +31193,13 @@
         "@id": 10903353998,
         "@url": "https://www.openstreetmap.org/node/10903353998",
         "amenity": "recycling",
-        "colour": "červená",
+        "colour": "red",
         "description": "Zpětný odběr baterií a drobného elektrozařízení",
         "operator": "Asekol",
-        "recycling:electrical_appliances": "yes",
         "recycling:electrical_items": "yes",
         "recycling:electronic_items": "yes",
         "recycling:electronic_scrap": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -31144,8 +31208,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.745172,
-          50.2413331
+          12.7451483,
+          50.2413388
         ]
       },
       "properties": {
@@ -31153,13 +31217,13 @@
         "@id": 10925279177,
         "@url": "https://www.openstreetmap.org/node/10925279177",
         "amenity": "recycling",
-        "colour": "červená",
+        "colour": "red",
         "description": "Zpětný odběr baterií a drobného elektrozařízení",
         "operator": "Asekol",
-        "recycling:electrical_appliances": "yes",
         "recycling:electrical_items": "yes",
         "recycling:electronic_items": "yes",
         "recycling:electronic_scrap": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -31324,8 +31388,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.741321,
-          50.2445496
+          12.7413029,
+          50.2445504
         ]
       },
       "properties": {
@@ -31333,13 +31397,13 @@
         "@id": 10985317150,
         "@url": "https://www.openstreetmap.org/node/10985317150",
         "amenity": "recycling",
-        "colour": "červená",
+        "colour": "red",
         "description": "Zpětný odběr baterií a drobného elektrozařízení",
         "operator": "Asekol",
-        "recycling:electrical_appliances": "yes",
         "recycling:electrical_items": "yes",
         "recycling:electronic_items": "yes",
         "recycling:electronic_scrap": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -32217,8 +32281,7 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "container",
-        "waste": "trash"
+        "recycling_type": "container"
       }
     },
     {
@@ -34424,6 +34487,53 @@
         "recycling:plastic_packaging": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7462541,
+          50.0657957
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11557040467,
+        "@url": "https://www.openstreetmap.org/node/11557040467",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4937254,
+          49.2311005
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11557169936,
+        "@url": "https://www.openstreetmap.org/node/11557169936",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {

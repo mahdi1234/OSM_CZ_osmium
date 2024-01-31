@@ -3466,6 +3466,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.7573093,
+          49.0168546
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3634917341,
+        "@url": "https://www.openstreetmap.org/node/3634917341",
+        "amenity": "recycling",
+        "name": "Technické služby Třeboň",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "source": "http://www.ts-trebon.cz/uploads/file/dokumenty/sberovy%20dvur%20rybarska/schvaleny_provozni_rad_2022.pdf",
+        "website": "http://www.ts-trebon.cz/provoz-sberoveho-dvora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.6625794,
           50.1889035
         ]
@@ -3561,8 +3600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6859273,
-          49.3887053
+          14.6858965,
+          49.388721
         ]
       },
       "properties": {
@@ -6080,6 +6119,31 @@
         "recycling:plastic_packaging": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6466862,
+          48.9298779
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5414518243,
+        "@url": "https://www.openstreetmap.org/node/5414518243",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Korolupy",
+        "operator": "Obec Korolupy",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.obec-korolupy.cz/attachments/article/238/Informace%2099_107_2012.pdf"
       }
     },
     {
@@ -9974,6 +10038,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.6350448,
+          49.0195371
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8290353441,
+        "@url": "https://www.openstreetmap.org/node/8290353441",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Lišov",
+        "operator": "FCC",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.0426194,
           49.3917002
         ]
@@ -11625,6 +11717,43 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevisovice.cz/sberny-dvur-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0399442,
+          48.8862928
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8983825973,
+        "@url": "https://www.openstreetmap.org/node/8983825973",
+        "amenity": "recycling",
+        "email": "tomas.navratil@fcc-group.cz",
+        "name": "Sběrný dvůr Přímětice",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-14:00",
+        "phone": "+420 515 242 652",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/jizni-morava/sd-primetice.html"
       }
     },
     {
@@ -14464,6 +14593,35 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7589839,
+          49.1694231
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10875494706,
+        "@url": "https://www.openstreetmap.org/node/10875494706",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "http://jirikovice.cz/odpady%2Da%2Dsberny%2Ddvur/ds-1073"
       }
     },
     {
@@ -22241,6 +22399,77 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.4415701,
+            49.4089148
+          ],
+          [
+            15.441412,
+            49.4086951
+          ],
+          [
+            15.4411904,
+            49.4087637
+          ],
+          [
+            15.4411004,
+            49.4087916
+          ],
+          [
+            15.4411647,
+            49.4088801
+          ],
+          [
+            15.4411707,
+            49.4088883
+          ],
+          [
+            15.44126,
+            49.4090111
+          ],
+          [
+            15.4413748,
+            49.4089758
+          ],
+          [
+            15.4415701,
+            49.4089148
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 810142955,
+        "@url": "https://www.openstreetmap.org/way/810142955",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Dušejov",
+        "operator": "FCC Dačice, s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.6289729,
             49.1756628
           ],
@@ -23033,6 +23262,91 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.5679682,
+            49.8731759
+          ],
+          [
+            15.5675273,
+            49.8732949
+          ],
+          [
+            15.5679218,
+            49.8735962
+          ],
+          [
+            15.5681407,
+            49.8737761
+          ],
+          [
+            15.5681792,
+            49.8737859
+          ],
+          [
+            15.5682247,
+            49.8737836
+          ],
+          [
+            15.5682659,
+            49.8737688
+          ],
+          [
+            15.5683041,
+            49.873755
+          ],
+          [
+            15.5685073,
+            49.8736339
+          ],
+          [
+            15.5684903,
+            49.8736089
+          ],
+          [
+            15.5683089,
+            49.8736616
+          ],
+          [
+            15.5679682,
+            49.8731759
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 944911417,
+        "@url": "https://www.openstreetmap.org/way/944911417",
+        "addr:city": "Třemošnice",
+        "addr:postcode": "53843",
+        "addr:street": "U Vápenky",
+        "amenity": "recycling",
+        "name": "Recycling - kovové odpady a. s.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.0080314,
             49.7033376
           ],
@@ -23763,6 +24077,101 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.3231603,
+            49.0755496
+          ],
+          [
+            15.3231281,
+            49.0755348
+          ],
+          [
+            15.3231082,
+            49.0755191
+          ],
+          [
+            15.3230937,
+            49.075499
+          ],
+          [
+            15.3230877,
+            49.0754772
+          ],
+          [
+            15.3231032,
+            49.0754322
+          ],
+          [
+            15.3232813,
+            49.0750985
+          ],
+          [
+            15.3233393,
+            49.0750648
+          ],
+          [
+            15.3238061,
+            49.0750603
+          ],
+          [
+            15.3243472,
+            49.0751119
+          ],
+          [
+            15.3245071,
+            49.075124
+          ],
+          [
+            15.3241715,
+            49.0755914
+          ],
+          [
+            15.3240404,
+            49.0756042
+          ],
+          [
+            15.3231603,
+            49.0755496
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1031299516,
+        "@url": "https://www.openstreetmap.org/way/1031299516",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.6381456,
             49.2034789
           ],
@@ -24431,6 +24840,156 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.2020437,
+            49.1613013
+          ],
+          [
+            15.2019988,
+            49.161176
+          ],
+          [
+            15.2019498,
+            49.1611781
+          ],
+          [
+            15.2019347,
+            49.1610489
+          ],
+          [
+            15.2018377,
+            49.1610522
+          ],
+          [
+            15.2017496,
+            49.1610575
+          ],
+          [
+            15.2017459,
+            49.1610223
+          ],
+          [
+            15.2016553,
+            49.1610249
+          ],
+          [
+            15.20165,
+            49.1609679
+          ],
+          [
+            15.2016514,
+            49.1609053
+          ],
+          [
+            15.2016632,
+            49.1608958
+          ],
+          [
+            15.2016739,
+            49.1608358
+          ],
+          [
+            15.2016322,
+            49.1608355
+          ],
+          [
+            15.2015201,
+            49.1608347
+          ],
+          [
+            15.2014168,
+            49.1608339
+          ],
+          [
+            15.2014263,
+            49.1610055
+          ],
+          [
+            15.2014601,
+            49.1610066
+          ],
+          [
+            15.2014597,
+            49.1610393
+          ],
+          [
+            15.2014803,
+            49.1610395
+          ],
+          [
+            15.2014803,
+            49.1610586
+          ],
+          [
+            15.2014594,
+            49.1610585
+          ],
+          [
+            15.2014579,
+            49.1611747
+          ],
+          [
+            15.2014578,
+            49.1611775
+          ],
+          [
+            15.2014462,
+            49.1611783
+          ],
+          [
+            15.2014696,
+            49.1612684
+          ],
+          [
+            15.2014859,
+            49.1613302
+          ],
+          [
+            15.2020437,
+            49.1613013
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1160667845,
+        "@url": "https://www.openstreetmap.org/way/1160667845",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Th 13:00-17:00; Sa 09:00-11:00",
+        "operator": "Město Strmilov",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             12.5641822,
             50.3050349
           ],
@@ -24673,6 +25232,95 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevicko.cz/sberny-dvur-likvidace-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.027182,
+            49.1429009
+          ],
+          [
+            15.0270715,
+            49.1428737
+          ],
+          [
+            15.0260046,
+            49.1427023
+          ],
+          [
+            15.0261335,
+            49.1423223
+          ],
+          [
+            15.0273001,
+            49.1424411
+          ],
+          [
+            15.0273529,
+            49.1424252
+          ],
+          [
+            15.0273171,
+            49.1425254
+          ],
+          [
+            15.0273094,
+            49.1425468
+          ],
+          [
+            15.0272978,
+            49.1425792
+          ],
+          [
+            15.0272776,
+            49.1426358
+          ],
+          [
+            15.0272633,
+            49.1426761
+          ],
+          [
+            15.0272524,
+            49.1427062
+          ],
+          [
+            15.027182,
+            49.1429009
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1203169805,
+        "@url": "https://www.openstreetmap.org/way/1203169805",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.smjh.cz/cs/sberny-dvur-odpadu.html"
       }
     },
     {
@@ -32207,6 +32855,81 @@
           [
             [
               [
+                15.4411004,
+                49.4087916
+              ],
+              [
+                15.4411904,
+                49.4087637
+              ],
+              [
+                15.441412,
+                49.4086951
+              ],
+              [
+                15.4415701,
+                49.4089148
+              ],
+              [
+                15.4413748,
+                49.4089758
+              ],
+              [
+                15.44126,
+                49.4090111
+              ],
+              [
+                15.4411707,
+                49.4088883
+              ],
+              [
+                15.4411647,
+                49.4088801
+              ],
+              [
+                15.4411004,
+                49.4087916
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 810142955,
+        "@url": "https://www.openstreetmap.org/way/810142955",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Dušejov",
+        "operator": "FCC Dačice, s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 16.6289729,
                 49.1756628
               ],
@@ -33043,6 +33766,95 @@
           [
             [
               [
+                15.5675273,
+                49.8732949
+              ],
+              [
+                15.5679682,
+                49.8731759
+              ],
+              [
+                15.5683089,
+                49.8736616
+              ],
+              [
+                15.5684903,
+                49.8736089
+              ],
+              [
+                15.5685073,
+                49.8736339
+              ],
+              [
+                15.5683041,
+                49.873755
+              ],
+              [
+                15.5682659,
+                49.8737688
+              ],
+              [
+                15.5682247,
+                49.8737836
+              ],
+              [
+                15.5681792,
+                49.8737859
+              ],
+              [
+                15.5681407,
+                49.8737761
+              ],
+              [
+                15.5679218,
+                49.8735962
+              ],
+              [
+                15.5675273,
+                49.8732949
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 944911417,
+        "@url": "https://www.openstreetmap.org/way/944911417",
+        "addr:city": "Třemošnice",
+        "addr:postcode": "53843",
+        "addr:street": "U Vápenky",
+        "amenity": "recycling",
+        "name": "Recycling - kovové odpady a. s.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 14.0070876,
                 49.7039738
               ],
@@ -33813,6 +34625,105 @@
           [
             [
               [
+                15.3230877,
+                49.0754772
+              ],
+              [
+                15.3231032,
+                49.0754322
+              ],
+              [
+                15.3232813,
+                49.0750985
+              ],
+              [
+                15.3233393,
+                49.0750648
+              ],
+              [
+                15.3238061,
+                49.0750603
+              ],
+              [
+                15.3243472,
+                49.0751119
+              ],
+              [
+                15.3245071,
+                49.075124
+              ],
+              [
+                15.3241715,
+                49.0755914
+              ],
+              [
+                15.3240404,
+                49.0756042
+              ],
+              [
+                15.3231603,
+                49.0755496
+              ],
+              [
+                15.3231281,
+                49.0755348
+              ],
+              [
+                15.3231082,
+                49.0755191
+              ],
+              [
+                15.3230937,
+                49.075499
+              ],
+              [
+                15.3230877,
+                49.0754772
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1031299516,
+        "@url": "https://www.openstreetmap.org/way/1031299516",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 16.6376246,
                 49.2033813
               ],
@@ -34517,6 +35428,160 @@
           [
             [
               [
+                15.2014168,
+                49.1608339
+              ],
+              [
+                15.2015201,
+                49.1608347
+              ],
+              [
+                15.2016322,
+                49.1608355
+              ],
+              [
+                15.2016739,
+                49.1608358
+              ],
+              [
+                15.2016632,
+                49.1608958
+              ],
+              [
+                15.2016514,
+                49.1609053
+              ],
+              [
+                15.20165,
+                49.1609679
+              ],
+              [
+                15.2016553,
+                49.1610249
+              ],
+              [
+                15.2017459,
+                49.1610223
+              ],
+              [
+                15.2017496,
+                49.1610575
+              ],
+              [
+                15.2018377,
+                49.1610522
+              ],
+              [
+                15.2019347,
+                49.1610489
+              ],
+              [
+                15.2019498,
+                49.1611781
+              ],
+              [
+                15.2019988,
+                49.161176
+              ],
+              [
+                15.2020437,
+                49.1613013
+              ],
+              [
+                15.2014859,
+                49.1613302
+              ],
+              [
+                15.2014696,
+                49.1612684
+              ],
+              [
+                15.2014462,
+                49.1611783
+              ],
+              [
+                15.2014578,
+                49.1611775
+              ],
+              [
+                15.2014579,
+                49.1611747
+              ],
+              [
+                15.2014594,
+                49.1610585
+              ],
+              [
+                15.2014803,
+                49.1610586
+              ],
+              [
+                15.2014803,
+                49.1610395
+              ],
+              [
+                15.2014597,
+                49.1610393
+              ],
+              [
+                15.2014601,
+                49.1610066
+              ],
+              [
+                15.2014263,
+                49.1610055
+              ],
+              [
+                15.2014168,
+                49.1608339
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1160667845,
+        "@url": "https://www.openstreetmap.org/way/1160667845",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Th 13:00-17:00; Sa 09:00-11:00",
+        "operator": "Město Strmilov",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 12.5638635,
                 50.3047694
               ],
@@ -34769,6 +35834,99 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevicko.cz/sberny-dvur-likvidace-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.0260046,
+                49.1427023
+              ],
+              [
+                15.0261335,
+                49.1423223
+              ],
+              [
+                15.0273001,
+                49.1424411
+              ],
+              [
+                15.0273529,
+                49.1424252
+              ],
+              [
+                15.0273171,
+                49.1425254
+              ],
+              [
+                15.0273094,
+                49.1425468
+              ],
+              [
+                15.0272978,
+                49.1425792
+              ],
+              [
+                15.0272776,
+                49.1426358
+              ],
+              [
+                15.0272633,
+                49.1426761
+              ],
+              [
+                15.0272524,
+                49.1427062
+              ],
+              [
+                15.027182,
+                49.1429009
+              ],
+              [
+                15.0270715,
+                49.1428737
+              ],
+              [
+                15.0260046,
+                49.1427023
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1203169805,
+        "@url": "https://www.openstreetmap.org/way/1203169805",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.smjh.cz/cs/sberny-dvur-odpadu.html"
       }
     },
     {

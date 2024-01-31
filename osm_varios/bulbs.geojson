@@ -423,6 +423,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.6466862,
+          48.9298779
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5414518243,
+        "@url": "https://www.openstreetmap.org/node/5414518243",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Korolupy",
+        "operator": "Obec Korolupy",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.obec-korolupy.cz/attachments/article/238/Informace%2099_107_2012.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.4393504,
           49.4590452
         ]
@@ -1762,6 +1787,35 @@
         "recycling:low_energy_bulbs": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7589839,
+          49.1694231
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10875494706,
+        "@url": "https://www.openstreetmap.org/node/10875494706",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "http://jirikovice.cz/odpady%2Da%2Dsberny%2Ddvur/ds-1073"
       }
     },
     {
@@ -5010,6 +5064,156 @@
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
         "website": "http://www.lazne-belohrad.cz/mesto/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.2020437,
+            49.1613013
+          ],
+          [
+            15.2019988,
+            49.161176
+          ],
+          [
+            15.2019498,
+            49.1611781
+          ],
+          [
+            15.2019347,
+            49.1610489
+          ],
+          [
+            15.2018377,
+            49.1610522
+          ],
+          [
+            15.2017496,
+            49.1610575
+          ],
+          [
+            15.2017459,
+            49.1610223
+          ],
+          [
+            15.2016553,
+            49.1610249
+          ],
+          [
+            15.20165,
+            49.1609679
+          ],
+          [
+            15.2016514,
+            49.1609053
+          ],
+          [
+            15.2016632,
+            49.1608958
+          ],
+          [
+            15.2016739,
+            49.1608358
+          ],
+          [
+            15.2016322,
+            49.1608355
+          ],
+          [
+            15.2015201,
+            49.1608347
+          ],
+          [
+            15.2014168,
+            49.1608339
+          ],
+          [
+            15.2014263,
+            49.1610055
+          ],
+          [
+            15.2014601,
+            49.1610066
+          ],
+          [
+            15.2014597,
+            49.1610393
+          ],
+          [
+            15.2014803,
+            49.1610395
+          ],
+          [
+            15.2014803,
+            49.1610586
+          ],
+          [
+            15.2014594,
+            49.1610585
+          ],
+          [
+            15.2014579,
+            49.1611747
+          ],
+          [
+            15.2014578,
+            49.1611775
+          ],
+          [
+            15.2014462,
+            49.1611783
+          ],
+          [
+            15.2014696,
+            49.1612684
+          ],
+          [
+            15.2014859,
+            49.1613302
+          ],
+          [
+            15.2020437,
+            49.1613013
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1160667845,
+        "@url": "https://www.openstreetmap.org/way/1160667845",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Th 13:00-17:00; Sa 09:00-11:00",
+        "operator": "Město Strmilov",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
       }
     },
     {
@@ -8704,6 +8908,160 @@
         "recycling:white_goods": "yes",
         "recycling_type": "centre",
         "website": "http://www.lazne-belohrad.cz/mesto/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.2014168,
+                49.1608339
+              ],
+              [
+                15.2015201,
+                49.1608347
+              ],
+              [
+                15.2016322,
+                49.1608355
+              ],
+              [
+                15.2016739,
+                49.1608358
+              ],
+              [
+                15.2016632,
+                49.1608958
+              ],
+              [
+                15.2016514,
+                49.1609053
+              ],
+              [
+                15.20165,
+                49.1609679
+              ],
+              [
+                15.2016553,
+                49.1610249
+              ],
+              [
+                15.2017459,
+                49.1610223
+              ],
+              [
+                15.2017496,
+                49.1610575
+              ],
+              [
+                15.2018377,
+                49.1610522
+              ],
+              [
+                15.2019347,
+                49.1610489
+              ],
+              [
+                15.2019498,
+                49.1611781
+              ],
+              [
+                15.2019988,
+                49.161176
+              ],
+              [
+                15.2020437,
+                49.1613013
+              ],
+              [
+                15.2014859,
+                49.1613302
+              ],
+              [
+                15.2014696,
+                49.1612684
+              ],
+              [
+                15.2014462,
+                49.1611783
+              ],
+              [
+                15.2014578,
+                49.1611775
+              ],
+              [
+                15.2014579,
+                49.1611747
+              ],
+              [
+                15.2014594,
+                49.1610585
+              ],
+              [
+                15.2014803,
+                49.1610586
+              ],
+              [
+                15.2014803,
+                49.1610395
+              ],
+              [
+                15.2014597,
+                49.1610393
+              ],
+              [
+                15.2014601,
+                49.1610066
+              ],
+              [
+                15.2014263,
+                49.1610055
+              ],
+              [
+                15.2014168,
+                49.1608339
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1160667845,
+        "@url": "https://www.openstreetmap.org/way/1160667845",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Th 13:00-17:00; Sa 09:00-11:00",
+        "operator": "Město Strmilov",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
       }
     },
     {

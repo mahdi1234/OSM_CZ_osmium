@@ -2327,6 +2327,7 @@
         "@id": 1897795332,
         "@url": "https://www.openstreetmap.org/node/1897795332",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling_type": "centre"
@@ -21738,6 +21739,26 @@
         "amenity": "recycling",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1230683,
+          50.5445462
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8779523941,
+        "@url": "https://www.openstreetmap.org/node/8779523941",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

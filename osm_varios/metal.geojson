@@ -29508,11 +29508,16 @@
         "@url": "https://www.openstreetmap.org/node/8963176407",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:cans": "yes",
         "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
-        "recycling:metal": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -55243,6 +55248,86 @@
         "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6134667,
+          49.1713861
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11597789331,
+        "@url": "https://www.openstreetmap.org/node/11597789331",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2760043,
+          50.3739195
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11598016306,
+        "@url": "https://www.openstreetmap.org/node/11598016306",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7808251,
+          49.0381963
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11598107825,
+        "@url": "https://www.openstreetmap.org/node/11598107825",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",

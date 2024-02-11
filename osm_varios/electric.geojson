@@ -4798,6 +4798,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.7078827,
+          49.6313524
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2954646994,
+        "@url": "https://www.openstreetmap.org/node/2954646994",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.2944045,
           49.8365744
         ]
@@ -9406,6 +9428,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.9460538,
+          50.3055605
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4974190725,
+        "@url": "https://www.openstreetmap.org/node/4974190725",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.3441318,
           49.672582
         ]
@@ -12495,6 +12545,45 @@
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5853887,
+          50.1227692
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6184110288,
+        "@url": "https://www.openstreetmap.org/node/6184110288",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Satalice",
+        "opening_hours": "Mar 31-Oct 23 Mo-Fr 08:30-18:30; Mar 31-Oct 23,Oct 24-Mar 31 Sa 08:30-15:00; Oct 24-Mar 31 Mo-Fr 08:30-17:00; PH off",
+        "operator": "IPODEC a.s.",
+        "phone": "+420 736661560",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.satalice-sd.cz/"
       }
     },
     {
@@ -48590,12 +48679,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.7122549,
-            49.6386078
+            16.7122553,
+            49.6386074
           ],
           [
-            16.7125003,
-            49.6385837
+            16.7123299,
+            49.6386007
+          ],
+          [
+            16.7123296,
+            49.6385993
+          ],
+          [
+            16.7125007,
+            49.6385839
           ],
           [
             16.7127221,
@@ -48610,20 +48707,20 @@
             49.638394
           ],
           [
-            16.7120049,
+            16.7120046,
             49.6383863
           ],
           [
-            16.7119921,
-            49.6383328
+            16.7119923,
+            49.6383326
           ],
           [
-            16.7117123,
-            49.6383582
+            16.7117121,
+            49.6383584
           ],
           [
             16.7117125,
-            49.6383603
+            49.6383601
           ],
           [
             16.7116867,
@@ -48634,8 +48731,20 @@
             49.6386474
           ],
           [
-            16.7122549,
-            49.6386078
+            16.7118395,
+            49.6386403
+          ],
+          [
+            16.712191,
+            49.6386125
+          ],
+          [
+            16.7122226,
+            49.63861
+          ],
+          [
+            16.7122553,
+            49.6386074
           ]
         ]
       },
@@ -48648,6 +48757,7 @@
         "addr:postcode": "56943",
         "addr:street": "Třebovská",
         "amenity": "recycling",
+        "barrier": "fence",
         "mobile": "+420 733 539 809",
         "opening_hours": "Mo,Sa 07:00-12:00; We 07:00-11:30,12:00-17:00; Fr 12:00-17:00",
         "operator": "Město Jevíčko",
@@ -61178,18 +61288,18 @@
               ],
               [
                 16.7117125,
-                49.6383603
+                49.6383601
               ],
               [
-                16.7117123,
-                49.6383582
+                16.7117121,
+                49.6383584
               ],
               [
-                16.7119921,
-                49.6383328
+                16.7119923,
+                49.6383326
               ],
               [
-                16.7120049,
+                16.7120046,
                 49.6383863
               ],
               [
@@ -61205,12 +61315,32 @@
                 49.6385614
               ],
               [
-                16.7125003,
-                49.6385837
+                16.7125007,
+                49.6385839
               ],
               [
-                16.7122549,
-                49.6386078
+                16.7123296,
+                49.6385993
+              ],
+              [
+                16.7123299,
+                49.6386007
+              ],
+              [
+                16.7122553,
+                49.6386074
+              ],
+              [
+                16.7122226,
+                49.63861
+              ],
+              [
+                16.712191,
+                49.6386125
+              ],
+              [
+                16.7118395,
+                49.6386403
               ],
               [
                 16.7117492,
@@ -61233,6 +61363,7 @@
         "addr:postcode": "56943",
         "addr:street": "Třebovská",
         "amenity": "recycling",
+        "barrier": "fence",
         "mobile": "+420 733 539 809",
         "opening_hours": "Mo,Sa 07:00-12:00; We 07:00-11:30,12:00-17:00; Fr 12:00-17:00",
         "operator": "Město Jevíčko",

@@ -892,6 +892,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.2551441,
+          49.5103417
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1073787369,
+        "@url": "https://www.openstreetmap.org/node/1073787369",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Bystřice nad Pernštejnem",
+        "operator": "TS města a.s.",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.ts-bystrice.cz/wp-content/uploads/2022/03/cenik_sb_dvur.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.330755,
           50.0442722
         ]
@@ -24477,6 +24512,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.2852397,
+          50.2007921
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9044731067,
+        "@url": "https://www.openstreetmap.org/node/9044731067",
+        "amenity": "recycling",
+        "name": "Technický dvůr \"Na větráku\"",
+        "operator": "Město Městec Králové",
+        "recycling:electrical_appliances": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mesteckralove.cz/sluzby/technicky-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.6154479,
           49.7483126
         ]
@@ -37514,6 +37573,75 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9475927,
+          50.3129055
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11608774574,
+        "@url": "https://www.openstreetmap.org/node/11608774574",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1784093,
+          50.3884447
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11608889959,
+        "@url": "https://www.openstreetmap.org/node/11608889959",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0958312,
+          50.1961406
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11611594070,
+        "@url": "https://www.openstreetmap.org/node/11611594070",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -41642,6 +41770,81 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.mesto-horazdovice.cz/muhd/fr.asp?tab=muhd&id=5059&burl=&pt=ZZZ3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.3756808,
+            49.9366455
+          ],
+          [
+            14.3757446,
+            49.9366042
+          ],
+          [
+            14.3757974,
+            49.93657
+          ],
+          [
+            14.3759564,
+            49.9364669
+          ],
+          [
+            14.3754401,
+            49.936043
+          ],
+          [
+            14.3753361,
+            49.935949
+          ],
+          [
+            14.3752175,
+            49.9359724
+          ],
+          [
+            14.3751765,
+            49.9359805
+          ],
+          [
+            14.3753086,
+            49.9362342
+          ],
+          [
+            14.37542,
+            49.9363542
+          ],
+          [
+            14.3756808,
+            49.9366455
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 417565679,
+        "@url": "https://www.openstreetmap.org/way/417565679",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "fence_type": "wire",
+        "name": "Odpadový dvůr",
+        "opening_hours": "Mo-Fr 15:00-18:00; Sa-Su 10:00-12:00,14:00-17:00; PH off",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "website": "https://vranenadvltavou.cz/odpadovy-dvur/"
       }
     },
     {
@@ -48255,6 +48458,59 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.2165709,
+            50.1232896
+          ],
+          [
+            15.2167474,
+            50.1230107
+          ],
+          [
+            15.2175501,
+            50.123216
+          ],
+          [
+            15.2174459,
+            50.123343
+          ],
+          [
+            15.2173375,
+            50.1234752
+          ],
+          [
+            15.2165709,
+            50.1232896
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1164729700,
+        "@url": "https://www.openstreetmap.org/way/1164729700",
+        "amenity": "recycling",
+        "name": "Sběrné místo Opolany",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "website": "https://www.opolany.cz/sberny-dvur-opolany/d-2337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             13.7195772,
             48.9063792
           ],
@@ -53856,6 +54112,85 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.mesto-horazdovice.cz/muhd/fr.asp?tab=muhd&id=5059&burl=&pt=ZZZ3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.3751765,
+                49.9359805
+              ],
+              [
+                14.3752175,
+                49.9359724
+              ],
+              [
+                14.3753361,
+                49.935949
+              ],
+              [
+                14.3754401,
+                49.936043
+              ],
+              [
+                14.3759564,
+                49.9364669
+              ],
+              [
+                14.3757974,
+                49.93657
+              ],
+              [
+                14.3757446,
+                49.9366042
+              ],
+              [
+                14.3756808,
+                49.9366455
+              ],
+              [
+                14.37542,
+                49.9363542
+              ],
+              [
+                14.3753086,
+                49.9362342
+              ],
+              [
+                14.3751765,
+                49.9359805
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 417565679,
+        "@url": "https://www.openstreetmap.org/way/417565679",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "fence_type": "wire",
+        "name": "Odpadový dvůr",
+        "opening_hours": "Mo-Fr 15:00-18:00; Sa-Su 10:00-12:00,14:00-17:00; PH off",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "website": "https://vranenadvltavou.cz/odpadovy-dvur/"
       }
     },
     {
@@ -60825,6 +61160,63 @@
         "recycling:wood": "yes",
         "recycling_type": "container",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.2165709,
+                50.1232896
+              ],
+              [
+                15.2167474,
+                50.1230107
+              ],
+              [
+                15.2175501,
+                50.123216
+              ],
+              [
+                15.2174459,
+                50.123343
+              ],
+              [
+                15.2173375,
+                50.1234752
+              ],
+              [
+                15.2165709,
+                50.1232896
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1164729700,
+        "@url": "https://www.openstreetmap.org/way/1164729700",
+        "amenity": "recycling",
+        "name": "Sběrné místo Opolany",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "website": "https://www.opolany.cz/sberny-dvur-opolany/d-2337"
       }
     },
     {

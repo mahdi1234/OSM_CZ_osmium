@@ -5278,8 +5278,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5258221,
-          50.0345983
+          14.525757,
+          50.0346163
         ]
       },
       "properties": {
@@ -7575,8 +7575,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6353827,
-          50.3696708
+          15.6353893,
+          50.3696456
         ]
       },
       "properties": {
@@ -20992,6 +20992,36 @@
         "recycling:organic": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0015225,
+          49.2767092
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8191844747,
+        "@url": "https://www.openstreetmap.org/node/8191844747",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -54880,6 +54910,81 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.7834523,
+            48.7850567
+          ],
+          [
+            14.7831289,
+            48.7852504
+          ],
+          [
+            14.7833717,
+            48.7854476
+          ],
+          [
+            14.7836069,
+            48.7853267
+          ],
+          [
+            14.7837059,
+            48.7852758
+          ],
+          [
+            14.7835251,
+            48.7851781
+          ],
+          [
+            14.7834931,
+            48.7851313
+          ],
+          [
+            14.7835203,
+            48.7850989
+          ],
+          [
+            14.7834892,
+            48.7850796
+          ],
+          [
+            14.7834523,
+            48.7850567
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1255668293,
+        "@url": "https://www.openstreetmap.org/way/1255668293",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "building": "yes",
+        "name": "Sběrný dvůr Jižní město Nové Hrady",
+        "opening_hours": "We, Su 14:00-17:00",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.novehrady.cz/sberny-dvur/ms-6862/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -70275,6 +70380,85 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.7831289,
+                48.7852504
+              ],
+              [
+                14.7834523,
+                48.7850567
+              ],
+              [
+                14.7834892,
+                48.7850796
+              ],
+              [
+                14.7835203,
+                48.7850989
+              ],
+              [
+                14.7834931,
+                48.7851313
+              ],
+              [
+                14.7835251,
+                48.7851781
+              ],
+              [
+                14.7837059,
+                48.7852758
+              ],
+              [
+                14.7836069,
+                48.7853267
+              ],
+              [
+                14.7833717,
+                48.7854476
+              ],
+              [
+                14.7831289,
+                48.7852504
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1255668293,
+        "@url": "https://www.openstreetmap.org/way/1255668293",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "building": "yes",
+        "name": "Sběrný dvůr Jižní město Nové Hrady",
+        "opening_hours": "We, Su 14:00-17:00",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.novehrady.cz/sberny-dvur/ms-6862/"
       }
     }
   ]

@@ -1452,7 +1452,7 @@
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
+        "recycling:plastic": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
@@ -2451,6 +2451,7 @@
         "@id": 2222917813,
         "@url": "https://www.openstreetmap.org/node/2222917813",
         "amenity": "recycling",
+        "check_date": "2024-03-01",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
@@ -3549,6 +3550,30 @@
         "@url": "https://www.openstreetmap.org/node/2852261372",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4273538,
+          50.0083233
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2852511314,
+        "@url": "https://www.openstreetmap.org/node/2852511314",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -4785,20 +4810,24 @@
         "@id": 4097096789,
         "@url": "https://www.openstreetmap.org/node/4097096789",
         "amenity": "recycling",
-        "email": "kosek@veltrusy.cz",
         "name": "Sběrné místo Veltrusy",
+        "opening_hours": "Sa 8:00-12:00",
         "operator": "Město Veltrusy",
         "operator:type": "public",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
         "recycling:organic": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.veltrusy.cz/sluzby/odpady"
@@ -13060,6 +13089,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.7426682,
+          50.1584352
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9038856195,
+        "@url": "https://www.openstreetmap.org/node/9038856195",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.1524208,
           50.4372437
         ]
@@ -14513,6 +14567,32 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5319998,
+          49.3073858
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9947710704,
+        "@url": "https://www.openstreetmap.org/node/9947710704",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
         "recycling_type": "container"
       }
     },
@@ -16294,6 +16374,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6101961,
+          49.963145
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11209895155,
+        "@url": "https://www.openstreetmap.org/node/11209895155",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6594193,
           48.9059785
         ]
@@ -17284,6 +17386,50 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5320262,
+          49.3042048
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11685080854,
+        "@url": "https://www.openstreetmap.org/node/11685080854",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5470983,
+          49.2960506
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11685175847,
+        "@url": "https://www.openstreetmap.org/node/11685175847",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:textiles": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -17845,8 +17991,9 @@
         "@id": 32735504,
         "@url": "https://www.openstreetmap.org/way/32735504",
         "amenity": "recycling",
+        "barrier": "fence",
         "check_date:opening_hours": "2023-08-13",
-        "fence": "wire",
+        "fence_type": "wire",
         "mobile": "+420 606 914 901",
         "name": "SSO J.Faimonové",
         "opening_hours": "Mo 13:00-18:00; Tu-Fr 09:00-13:00,14:00-18:00; Sa,Su 09:00-12:00,13:00-17:00",
@@ -17864,7 +18011,6 @@
         "recycling:green_waste": "yes",
         "recycling:hazardous_waste": "yes",
         "recycling:low_energy_bulbs": "yes",
-        "recycling:metal": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
@@ -20849,6 +20995,100 @@
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.406088,
+            49.9943182
+          ],
+          [
+            14.4060638,
+            49.994423
+          ],
+          [
+            14.4055513,
+            49.9946859
+          ],
+          [
+            14.405531,
+            49.9947696
+          ],
+          [
+            14.4056001,
+            49.9948558
+          ],
+          [
+            14.4057586,
+            49.9949081
+          ],
+          [
+            14.4059715,
+            49.9948767
+          ],
+          [
+            14.4060635,
+            49.9948009
+          ],
+          [
+            14.4061164,
+            49.9947774
+          ],
+          [
+            14.4061977,
+            49.9946572
+          ],
+          [
+            14.4062953,
+            49.9944847
+          ],
+          [
+            14.4063197,
+            49.9944298
+          ],
+          [
+            14.4061855,
+            49.9944272
+          ],
+          [
+            14.4061814,
+            49.9943279
+          ],
+          [
+            14.4061386,
+            49.9943264
+          ],
+          [
+            14.406088,
+            49.9943182
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 310648895,
+        "@url": "https://www.openstreetmap.org/way/310648895",
+        "amenity": "recycling",
+        "name": "Výkupna surovin Modřany",
+        "name:en": "Scrap yard",
+        "opening_hours": "Mo-Th 08:00-16:30; Fr 08:00-14:00; Sa 09:00-12:00",
+        "operator": "KOVO-GROUP ODPADY s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:pallets": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://kovo-group.cz/"
       }
     },
     {
@@ -29939,8 +30179,9 @@
         "@id": 32735504,
         "@url": "https://www.openstreetmap.org/way/32735504",
         "amenity": "recycling",
+        "barrier": "fence",
         "check_date:opening_hours": "2023-08-13",
-        "fence": "wire",
+        "fence_type": "wire",
         "mobile": "+420 606 914 901",
         "name": "SSO J.Faimonové",
         "opening_hours": "Mo 13:00-18:00; Tu-Fr 09:00-13:00,14:00-18:00; Sa,Su 09:00-12:00,13:00-17:00",
@@ -29958,7 +30199,6 @@
         "recycling:green_waste": "yes",
         "recycling:hazardous_waste": "yes",
         "recycling:low_energy_bulbs": "yes",
-        "recycling:metal": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
@@ -33107,6 +33347,104 @@
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.405531,
+                49.9947696
+              ],
+              [
+                14.4055513,
+                49.9946859
+              ],
+              [
+                14.4060638,
+                49.994423
+              ],
+              [
+                14.406088,
+                49.9943182
+              ],
+              [
+                14.4061386,
+                49.9943264
+              ],
+              [
+                14.4061814,
+                49.9943279
+              ],
+              [
+                14.4061855,
+                49.9944272
+              ],
+              [
+                14.4063197,
+                49.9944298
+              ],
+              [
+                14.4062953,
+                49.9944847
+              ],
+              [
+                14.4061977,
+                49.9946572
+              ],
+              [
+                14.4061164,
+                49.9947774
+              ],
+              [
+                14.4060635,
+                49.9948009
+              ],
+              [
+                14.4059715,
+                49.9948767
+              ],
+              [
+                14.4057586,
+                49.9949081
+              ],
+              [
+                14.4056001,
+                49.9948558
+              ],
+              [
+                14.405531,
+                49.9947696
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 310648895,
+        "@url": "https://www.openstreetmap.org/way/310648895",
+        "amenity": "recycling",
+        "name": "Výkupna surovin Modřany",
+        "name:en": "Scrap yard",
+        "opening_hours": "Mo-Th 08:00-16:30; Fr 08:00-14:00; Sa 09:00-12:00",
+        "operator": "KOVO-GROUP ODPADY s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:pallets": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://kovo-group.cz/"
       }
     },
     {

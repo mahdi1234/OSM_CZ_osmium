@@ -58549,35 +58549,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1089688,
-          50.1462227
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10941937963,
-        "@url": "https://www.openstreetmap.org/node/10941937963",
-        "amenity": "recycling",
-        "location": "underground",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.9370321,
           49.1408989
         ]
@@ -62673,8 +62644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.7336318,
-          50.1044952
+          13.7336946,
+          50.1043071
         ]
       },
       "properties": {
@@ -62683,7 +62654,9 @@
         "@url": "https://www.openstreetmap.org/node/11368181098",
         "amenity": "recycling",
         "operator": "Marius Pedersen a.s.",
+        "recycling:beverage_cartons": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -67156,6 +67129,33 @@
         "recycling:metal": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2115124,
+          49.1541147
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11691805178,
+        "@url": "https://www.openstreetmap.org/node/11691805178",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -84690,6 +84690,157 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.1089553,
+            50.1462733
+          ],
+          [
+            15.1089305,
+            50.1462646
+          ],
+          [
+            15.1090046,
+            50.1461872
+          ],
+          [
+            15.1090305,
+            50.1461964
+          ],
+          [
+            15.1089553,
+            50.1462733
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1257430414,
+        "@url": "https://www.openstreetmap.org/way/1257430414",
+        "amenity": "recycling",
+        "location": "partially_underground",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.7067662,
+            50.1090904
+          ],
+          [
+            13.706751,
+            50.1090753
+          ],
+          [
+            13.706724,
+            50.1090486
+          ],
+          [
+            13.7063514,
+            50.1090724
+          ],
+          [
+            13.7058731,
+            50.1090491
+          ],
+          [
+            13.7058806,
+            50.1090085
+          ],
+          [
+            13.7054174,
+            50.1089917
+          ],
+          [
+            13.7050251,
+            50.1091103
+          ],
+          [
+            13.7049737,
+            50.1089977
+          ],
+          [
+            13.7048495,
+            50.1090247
+          ],
+          [
+            13.7045747,
+            50.1092031
+          ],
+          [
+            13.7044248,
+            50.1092994
+          ],
+          [
+            13.7043433,
+            50.1093433
+          ],
+          [
+            13.7042555,
+            50.1093823
+          ],
+          [
+            13.7044283,
+            50.1094733
+          ],
+          [
+            13.7045131,
+            50.1095417
+          ],
+          [
+            13.7055278,
+            50.1094117
+          ],
+          [
+            13.7055604,
+            50.1095253
+          ],
+          [
+            13.7056688,
+            50.109576
+          ],
+          [
+            13.7063555,
+            50.109427
+          ],
+          [
+            13.7068296,
+            50.1092714
+          ],
+          [
+            13.7067662,
+            50.1090904
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1257572475,
+        "@url": "https://www.openstreetmap.org/way/1257572475",
+        "amenity": "recycling",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -103372,6 +103523,165 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.1089305,
+                50.1462646
+              ],
+              [
+                15.1090046,
+                50.1461872
+              ],
+              [
+                15.1090305,
+                50.1461964
+              ],
+              [
+                15.1089553,
+                50.1462733
+              ],
+              [
+                15.1089305,
+                50.1462646
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1257430414,
+        "@url": "https://www.openstreetmap.org/way/1257430414",
+        "amenity": "recycling",
+        "location": "partially_underground",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.7042555,
+                50.1093823
+              ],
+              [
+                13.7043433,
+                50.1093433
+              ],
+              [
+                13.7044248,
+                50.1092994
+              ],
+              [
+                13.7045747,
+                50.1092031
+              ],
+              [
+                13.7048495,
+                50.1090247
+              ],
+              [
+                13.7049737,
+                50.1089977
+              ],
+              [
+                13.7050251,
+                50.1091103
+              ],
+              [
+                13.7054174,
+                50.1089917
+              ],
+              [
+                13.7058806,
+                50.1090085
+              ],
+              [
+                13.7058731,
+                50.1090491
+              ],
+              [
+                13.7063514,
+                50.1090724
+              ],
+              [
+                13.706724,
+                50.1090486
+              ],
+              [
+                13.706751,
+                50.1090753
+              ],
+              [
+                13.7067662,
+                50.1090904
+              ],
+              [
+                13.7068296,
+                50.1092714
+              ],
+              [
+                13.7063555,
+                50.109427
+              ],
+              [
+                13.7056688,
+                50.109576
+              ],
+              [
+                13.7055604,
+                50.1095253
+              ],
+              [
+                13.7055278,
+                50.1094117
+              ],
+              [
+                13.7045131,
+                50.1095417
+              ],
+              [
+                13.7044283,
+                50.1094733
+              ],
+              [
+                13.7042555,
+                50.1093823
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1257572475,
+        "@url": "https://www.openstreetmap.org/way/1257572475",
+        "amenity": "recycling",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

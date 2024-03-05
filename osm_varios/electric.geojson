@@ -36002,35 +36002,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1089688,
-          50.1462227
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10941937963,
-        "@url": "https://www.openstreetmap.org/node/10941937963",
-        "amenity": "recycling",
-        "location": "underground",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.5058521,
           49.1703266
         ]
@@ -55721,6 +55692,53 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.1089553,
+            50.1462733
+          ],
+          [
+            15.1089305,
+            50.1462646
+          ],
+          [
+            15.1090046,
+            50.1461872
+          ],
+          [
+            15.1090305,
+            50.1461964
+          ],
+          [
+            15.1089553,
+            50.1462733
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1257430414,
+        "@url": "https://www.openstreetmap.org/way/1257430414",
+        "amenity": "recycling",
+        "location": "partially_underground",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -71369,6 +71387,57 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.novehrady.cz/sberny-dvur/ms-6862/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.1089305,
+                50.1462646
+              ],
+              [
+                15.1090046,
+                50.1461872
+              ],
+              [
+                15.1090305,
+                50.1461964
+              ],
+              [
+                15.1089553,
+                50.1462733
+              ],
+              [
+                15.1089305,
+                50.1462646
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1257430414,
+        "@url": "https://www.openstreetmap.org/way/1257430414",
+        "amenity": "recycling",
+        "location": "partially_underground",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     }
   ]

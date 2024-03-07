@@ -1780,6 +1780,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4578507,
+          50.1859386
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1397601976,
+        "@url": "https://www.openstreetmap.org/node/1397601976",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4811688,
           50.0409841
         ]
@@ -15190,6 +15223,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.0303698,
+          48.7677282
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6552493100,
+        "@url": "https://www.openstreetmap.org/node/6552493100",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.491585,
           49.0077656
         ]
@@ -22380,8 +22444,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.535301,
-          48.9921764
+          14.5353225,
+          48.9921614
         ]
       },
       "properties": {
@@ -22389,11 +22453,16 @@
         "@id": 8384924458,
         "@url": "https://www.openstreetmap.org/node/8384924458",
         "amenity": "recycling",
+        "recycling:cans": "yes",
         "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
-        "recycling:metal": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -25523,8 +25592,10 @@
         "amenity": "recycling",
         "opening_hours": "24/7",
         "operator": "Město Sokolov",
+        "recycling:cans": "yes",
         "recycling:electronics": "yes",
-        "recycling:metal": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -26421,8 +26492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.7426682,
-          50.1584352
+          14.7426309,
+          50.1585149
         ]
       },
       "properties": {
@@ -26431,12 +26502,14 @@
         "@url": "https://www.openstreetmap.org/node/9038856195",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:electrical_items": "yes",
         "recycling:food_waste": "yes",
         "recycling:glass": "yes",
-        "recycling:metal": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -35853,11 +35926,13 @@
         "opening_hours": "24/7",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
-        "recycling:metal": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }

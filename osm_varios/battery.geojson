@@ -1214,11 +1214,21 @@
         "@url": "https://www.openstreetmap.org/node/1397601976",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
-        "recycling:metal": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -13089,8 +13099,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.7426682,
-          50.1584352
+          14.7426309,
+          50.1585149
         ]
       },
       "properties": {
@@ -13099,12 +13109,14 @@
         "@url": "https://www.openstreetmap.org/node/9038856195",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:electrical_items": "yes",
         "recycling:food_waste": "yes",
         "recycling:glass": "yes",
-        "recycling:metal": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -15880,11 +15892,13 @@
         "opening_hours": "24/7",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
-        "recycling:metal": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }

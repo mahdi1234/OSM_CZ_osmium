@@ -4750,13 +4750,18 @@
         "@url": "https://www.openstreetmap.org/node/3980544579",
         "amenity": "recycling",
         "opening_hours": "24/7",
-        "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container",
         "wheelchair": "yes"
       }
@@ -7603,13 +7608,13 @@
         "recycling:electrical_items": "yes",
         "recycling:furniture": "yes",
         "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:oil": "yes",
         "recycling:oil_filters": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:toxic_materials": "yes",
         "recycling:windows": "yes",
         "recycling_type": "centre",
         "website": "https://www.asskesluzby.cz/stredisko/sberny-dvur"
@@ -15847,6 +15852,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.7451646,
+          50.2426589
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10886226337,
+        "@url": "https://www.openstreetmap.org/node/10886226337",
+        "amenity": "recycling",
+        "colour": "red",
+        "description": "Zpětný odběr baterií a drobného elektrozařízení",
+        "operator": "Asekol",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.8875956,
           49.4283816
         ]
@@ -15927,6 +15954,50 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.7468219,
+          50.2370553
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10903353998,
+        "@url": "https://www.openstreetmap.org/node/10903353998",
+        "amenity": "recycling",
+        "colour": "red",
+        "description": "Zpětný odběr baterií a drobného elektrozařízení",
+        "operator": "Asekol",
+        "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7451483,
+          50.2413388
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10925279177,
+        "@url": "https://www.openstreetmap.org/node/10925279177",
+        "amenity": "recycling",
+        "colour": "red",
+        "description": "Zpětný odběr baterií a drobného elektrozařízení",
+        "operator": "Asekol",
+        "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.7490922,
           50.2342162
         ]
@@ -15983,6 +16054,28 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7413029,
+          50.2445504
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10985317150,
+        "@url": "https://www.openstreetmap.org/node/10985317150",
+        "amenity": "recycling",
+        "colour": "red",
+        "description": "Zpětný odběr baterií a drobného elektrozařízení",
+        "operator": "Asekol",
+        "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -17186,11 +17279,11 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
-        "recycling:kov": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -17281,11 +17374,11 @@
         "recycling:beverage_cartons": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:kov": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -17307,11 +17400,11 @@
         "recycling:beverage_cartons": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
-        "recycling:kov": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -17386,14 +17479,14 @@
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:kov": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -19627,59 +19720,6 @@
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
         "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.799643,
-            49.053391
-          ],
-          [
-            13.7989808,
-            49.0535378
-          ],
-          [
-            13.7990363,
-            49.0536477
-          ],
-          [
-            13.7996983,
-            49.0535014
-          ],
-          [
-            13.799643,
-            49.053391
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 201011153,
-        "@url": "https://www.openstreetmap.org/way/201011153",
-        "addr:city": "Vimperk",
-        "addr:postcode": "38501",
-        "addr:street": "Špidrova",
-        "amenity": "recycling",
-        "building": "yes",
-        "building:ruian:type": "19",
-        "contact:phone": "+420 730 963 344",
-        "contact:website": "https://www.sbernesuroviny.cz/",
-        "name": "Sběrné suroviny",
-        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
-        "operator": "Sběrné suroviny, a.s.",
-        "operator:type": "private",
-        "recycling:batteries": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:building": "47491698",
-        "source": "cuzk:ruian"
       }
     },
     {
@@ -29664,6 +29704,52 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.7989661,
+            49.05369
+          ],
+          [
+            13.7997128,
+            49.0535261
+          ],
+          [
+            13.7998052,
+            49.0537386
+          ],
+          [
+            13.7991856,
+            49.0538857
+          ],
+          [
+            13.7989661,
+            49.05369
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258666657,
+        "@url": "https://www.openstreetmap.org/way/1258666657",
+        "amenity": "recycling",
+        "contact:phone": "+420 730 963 344",
+        "contact:website": "https://www.sbernesuroviny.cz/",
+        "name": "Sběrné suroviny",
+        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
+        "operator": "Sběrné suroviny, a.s.",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -31967,63 +32053,6 @@
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
         "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                13.7989808,
-                49.0535378
-              ],
-              [
-                13.799643,
-                49.053391
-              ],
-              [
-                13.7996983,
-                49.0535014
-              ],
-              [
-                13.7990363,
-                49.0536477
-              ],
-              [
-                13.7989808,
-                49.0535378
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 201011153,
-        "@url": "https://www.openstreetmap.org/way/201011153",
-        "addr:city": "Vimperk",
-        "addr:postcode": "38501",
-        "addr:street": "Špidrova",
-        "amenity": "recycling",
-        "building": "yes",
-        "building:ruian:type": "19",
-        "contact:phone": "+420 730 963 344",
-        "contact:website": "https://www.sbernesuroviny.cz/",
-        "name": "Sběrné suroviny",
-        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
-        "operator": "Sběrné suroviny, a.s.",
-        "operator:type": "private",
-        "recycling:batteries": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:building": "47491698",
-        "source": "cuzk:ruian"
       }
     },
     {
@@ -42543,6 +42572,56 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://dolni-bousov.cz/sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.7989661,
+                49.05369
+              ],
+              [
+                13.7997128,
+                49.0535261
+              ],
+              [
+                13.7998052,
+                49.0537386
+              ],
+              [
+                13.7991856,
+                49.0538857
+              ],
+              [
+                13.7989661,
+                49.05369
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258666657,
+        "@url": "https://www.openstreetmap.org/way/1258666657",
+        "amenity": "recycling",
+        "contact:phone": "+420 730 963 344",
+        "contact:website": "https://www.sbernesuroviny.cz/",
+        "name": "Sběrné suroviny",
+        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
+        "operator": "Sběrné suroviny, a.s.",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

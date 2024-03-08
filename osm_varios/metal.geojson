@@ -932,12 +932,12 @@
         "@url": "https://www.openstreetmap.org/node/557009313",
         "amenity": "recycling",
         "location": "underground",
+        "recycling:PET": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:pet": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
@@ -5910,6 +5910,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3241831,
+          49.7611138
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2121785421,
+        "@url": "https://www.openstreetmap.org/node/2121785421",
+        "amenity": "recycling",
+        "operator": "Čistá Plzeň s.r.o.",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4044394,
           50.171482
         ]
@@ -7040,11 +7071,9 @@
         "name": "Sběrna kovového šrotu",
         "opening_hours": "Mo-Fr 09:00-17:00, Sa 13:00-17:00",
         "phone": "+420 606 274 696",
-        "recycling:iron": "yes",
+        "recycling:car_batteries": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:addr": "27431029",
-        "source:addr": "cuzk:ruian"
+        "recycling_type": "centre"
       }
     },
     {
@@ -7572,6 +7601,40 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "container",
         "source": "uhul:ortofoto;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.361187,
+          49.7792766
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2660003748,
+        "@url": "https://www.openstreetmap.org/node/2660003748",
+        "amenity": "recycling",
+        "operator": "Čistá Plzeň s.r.o.",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -13659,13 +13722,18 @@
         "@url": "https://www.openstreetmap.org/node/3980544579",
         "amenity": "recycling",
         "opening_hours": "24/7",
-        "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container",
         "wheelchair": "yes"
       }
@@ -13911,34 +13979,6 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "container",
         "ref:ekokom": "34205"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.1009686,
-          50.1643645
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4040620569,
-        "@url": "https://www.openstreetmap.org/node/4040620569",
-        "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
       }
     },
     {
@@ -21903,13 +21943,13 @@
         "recycling:electrical_items": "yes",
         "recycling:furniture": "yes",
         "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:oil": "yes",
         "recycling:oil_filters": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:toxic_materials": "yes",
         "recycling:windows": "yes",
         "recycling_type": "centre",
         "website": "https://www.asskesluzby.cz/stredisko/sberny-dvur"
@@ -24456,6 +24496,157 @@
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3216473,
+          49.6918302
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6743925624,
+        "@url": "https://www.openstreetmap.org/node/6743925624",
+        "amenity": "recycling",
+        "operator": "Čistá Plzeň s.r.o.",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3019363,
+          49.7763249
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6743926548,
+        "@url": "https://www.openstreetmap.org/node/6743926548",
+        "amenity": "recycling",
+        "name": "Sběrné místo Malesice",
+        "operator": "Čistá Plzeň, s.r.o.",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.cistaplzen.cz/o-odpadu-v-plzni/sberna-sit/sberna-mista/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4569848,
+          49.7560478
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6743932544,
+        "@url": "https://www.openstreetmap.org/node/6743932544",
+        "amenity": "recycling",
+        "operator": "Čistá Plzeň s.r.o.",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3682673,
+          49.7724913
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6743959217,
+        "@url": "https://www.openstreetmap.org/node/6743959217",
+        "amenity": "recycling",
+        "operator": "Čistá Plzeň s.r.o.",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3828486,
+          49.7820371
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6743971052,
+        "@url": "https://www.openstreetmap.org/node/6743971052",
+        "amenity": "recycling",
+        "operator": "Čistá Plzeň s.r.o",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
@@ -33946,6 +34137,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.0812239,
+          50.1297239
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8516070448,
+        "@url": "https://www.openstreetmap.org/node/8516070448",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5913604,
           49.1784291
         ]
@@ -34206,6 +34418,34 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "container",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2243454,
+          50.1975809
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8571318074,
+        "@url": "https://www.openstreetmap.org/node/8571318074",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -36956,8 +37196,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6470413,
-          50.1740036
+          12.6469217,
+          50.1738874
         ]
       },
       "properties": {
@@ -36966,12 +37206,16 @@
         "@url": "https://www.openstreetmap.org/node/8963176392",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -36991,8 +37235,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176393",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37016,8 +37260,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176394",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37041,8 +37285,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176395",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37066,8 +37310,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176396",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37091,8 +37335,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176398",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37116,8 +37360,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176399",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37141,8 +37385,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176400",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37166,8 +37410,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176401",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37191,8 +37435,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176402",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -37215,8 +37459,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176403",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37230,8 +37474,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.6703593,
-          50.1749311
+          12.6702308,
+          50.1749071
         ]
       },
       "properties": {
@@ -37240,8 +37484,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176404",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37267,7 +37511,6 @@
         "operator": "Město Sokolov",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
@@ -37295,8 +37538,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176406",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37320,8 +37563,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176407",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
@@ -37348,8 +37591,8 @@
         "@url": "https://www.openstreetmap.org/node/8963176408",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:drink_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
@@ -37966,13 +38209,13 @@
         "@id": 9027148839,
         "@url": "https://www.openstreetmap.org/node/9027148839",
         "amenity": "recycling",
-        "recycling:bio": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
         "recycling:metal_packaging": "yes",
+        "recycling:organic": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
@@ -38000,10 +38243,10 @@
         "opening_hours": "24/7",
         "operator": "FCC BEC, s.r.o.",
         "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
-        "recycling:oils": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
@@ -43494,36 +43737,6 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.0979629,
-          50.1623359
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9651617437,
-        "@url": "https://www.openstreetmap.org/node/9651617437",
-        "amenity": "recycling",
-        "location": "partially_underground",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -59822,6 +60035,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.2334407,
+          50.284739
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11047726830,
+        "@url": "https://www.openstreetmap.org/node/11047726830",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:aluminium": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.7387696,
           49.4159782
         ]
@@ -60435,6 +60671,38 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1791421,
+          49.5118327
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11101521940,
+        "@url": "https://www.openstreetmap.org/node/11101521940",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -61484,6 +61752,50 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0384865,
+          50.1728217
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11204453227,
+        "@url": "https://www.openstreetmap.org/node/11204453227",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0436783,
+          50.1708396
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11204453236,
+        "@url": "https://www.openstreetmap.org/node/11204453236",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -62672,6 +62984,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.0790467,
+          50.1511438
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11344935296,
+        "@url": "https://www.openstreetmap.org/node/11344935296",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.084252,
+          50.15746
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11344935412,
+        "@url": "https://www.openstreetmap.org/node/11344935412",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.6397711,
           49.1372297
         ]
@@ -62770,6 +63129,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.0827568,
+          50.1457067
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11358222552,
+        "@url": "https://www.openstreetmap.org/node/11358222552",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.2412679,
           49.9396215
         ]
@@ -62790,6 +63170,29 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0865035,
+          50.0970467
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11360240778,
+        "@url": "https://www.openstreetmap.org/node/11360240778",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -66623,6 +67026,117 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5317895,
+          50.0585694
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11650023818,
+        "@url": "https://www.openstreetmap.org/node/11650023818",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5296534,
+          50.0548261
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11650023820,
+        "@url": "https://www.openstreetmap.org/node/11650023820",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6490698,
+          50.1732362
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11650026916,
+        "@url": "https://www.openstreetmap.org/node/11650026916",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5886811,
+          50.2224098
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11650026917,
+        "@url": "https://www.openstreetmap.org/node/11650026917",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5793096,
+          50.2269166
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11650026919,
+        "@url": "https://www.openstreetmap.org/node/11650026919",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.0256738,
           50.1783604
         ]
@@ -66711,6 +67225,285 @@
         "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6020933,
+          50.1600901
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11657228130,
+        "@url": "https://www.openstreetmap.org/node/11657228130",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6802758,
+          50.1645508
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658229630,
+        "@url": "https://www.openstreetmap.org/node/11658229630",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5549764,
+          50.1306777
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658229631,
+        "@url": "https://www.openstreetmap.org/node/11658229631",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5589825,
+          50.1279856
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658229632,
+        "@url": "https://www.openstreetmap.org/node/11658229632",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5532856,
+          50.1292718
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658229633,
+        "@url": "https://www.openstreetmap.org/node/11658229633",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.550737,
+          50.1291757
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658229635,
+        "@url": "https://www.openstreetmap.org/node/11658229635",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5464723,
+          50.1333337
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658229637,
+        "@url": "https://www.openstreetmap.org/node/11658229637",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5482603,
+          50.1402631
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658229638,
+        "@url": "https://www.openstreetmap.org/node/11658229638",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5490464,
+          50.1387928
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658242514,
+        "@url": "https://www.openstreetmap.org/node/11658242514",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5525936,
+          50.1353952
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658242515,
+        "@url": "https://www.openstreetmap.org/node/11658242515",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5788052,
+          50.1454362
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658323362,
+        "@url": "https://www.openstreetmap.org/node/11658323362",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5755391,
+          50.1429968
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11658323365,
+        "@url": "https://www.openstreetmap.org/node/11658323365",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -66933,6 +67726,59 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5773064,
+          50.1235324
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11674029782,
+        "@url": "https://www.openstreetmap.org/node/11674029782",
+        "amenity": "recycling",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5776354,
+          50.1249356
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11674029785,
+        "@url": "https://www.openstreetmap.org/node/11674029785",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -67522,6 +68368,36 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5519832,
+          50.1845449
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11698727535,
+        "@url": "https://www.openstreetmap.org/node/11698727535",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -69843,63 +70719,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.8253711,
-            49.1113107
-          ],
-          [
-            13.8253776,
-            49.111209
-          ],
-          [
-            13.8251295,
-            49.1111923
-          ],
-          [
-            13.8251285,
-            49.1111988
-          ],
-          [
-            13.8248958,
-            49.1111827
-          ],
-          [
-            13.824881,
-            49.1112741
-          ],
-          [
-            13.8253711,
-            49.1113107
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 153216385,
-        "@url": "https://www.openstreetmap.org/way/153216385",
-        "addr:city": "Čkyně",
-        "addr:conscriptionnumber": "133",
-        "addr:country": "CZ",
-        "addr:housenumber": "133",
-        "addr:place": "Čkyně",
-        "addr:postcode": "38481",
-        "amenity": "recycling",
-        "building": "civic",
-        "building:levels": "1",
-        "building:ruian:type": "5",
-        "name": "Kovošrot CELIA-CZ s.r.o.",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:addr": "804771",
-        "ref:ruian:building": "802662",
-        "source": "cuzk:ruian"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             16.8836788,
             49.1939585
           ],
@@ -70284,59 +71103,6 @@
         "name": "Výkup železa",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.799643,
-            49.053391
-          ],
-          [
-            13.7989808,
-            49.0535378
-          ],
-          [
-            13.7990363,
-            49.0536477
-          ],
-          [
-            13.7996983,
-            49.0535014
-          ],
-          [
-            13.799643,
-            49.053391
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 201011153,
-        "@url": "https://www.openstreetmap.org/way/201011153",
-        "addr:city": "Vimperk",
-        "addr:postcode": "38501",
-        "addr:street": "Špidrova",
-        "amenity": "recycling",
-        "building": "yes",
-        "building:ruian:type": "19",
-        "contact:phone": "+420 730 963 344",
-        "contact:website": "https://www.sbernesuroviny.cz/",
-        "name": "Sběrné suroviny",
-        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
-        "operator": "Sběrné suroviny, a.s.",
-        "operator:type": "private",
-        "recycling:batteries": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:building": "47491698",
-        "source": "cuzk:ruian"
       }
     },
     {
@@ -74677,207 +75443,6 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "source": "local_knowledge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.4291128,
-            49.6664946
-          ],
-          [
-            14.4289239,
-            49.6664883
-          ],
-          [
-            14.4289174,
-            49.666541
-          ],
-          [
-            14.4289549,
-            49.6665905
-          ],
-          [
-            14.4289578,
-            49.6665865
-          ],
-          [
-            14.4289829,
-            49.6666021
-          ],
-          [
-            14.4290315,
-            49.6666468
-          ],
-          [
-            14.4291363,
-            49.666776
-          ],
-          [
-            14.4292243,
-            49.6668374
-          ],
-          [
-            14.4292786,
-            49.6668682
-          ],
-          [
-            14.4294942,
-            49.6668886
-          ],
-          [
-            14.4297779,
-            49.6668854
-          ],
-          [
-            14.4298243,
-            49.6666922
-          ],
-          [
-            14.4298688,
-            49.6664734
-          ],
-          [
-            14.4299113,
-            49.6662642
-          ],
-          [
-            14.4300705,
-            49.6659282
-          ],
-          [
-            14.4301407,
-            49.6658483
-          ],
-          [
-            14.4301822,
-            49.6657811
-          ],
-          [
-            14.4303829,
-            49.6655219
-          ],
-          [
-            14.4303819,
-            49.6654669
-          ],
-          [
-            14.4303987,
-            49.6654419
-          ],
-          [
-            14.430375,
-            49.6653748
-          ],
-          [
-            14.4303651,
-            49.6651342
-          ],
-          [
-            14.4303295,
-            49.6649499
-          ],
-          [
-            14.4304096,
-            49.6646613
-          ],
-          [
-            14.4303918,
-            49.6646274
-          ],
-          [
-            14.4303977,
-            49.6646037
-          ],
-          [
-            14.4303483,
-            49.6645513
-          ],
-          [
-            14.4302969,
-            49.6644476
-          ],
-          [
-            14.4302168,
-            49.6644105
-          ],
-          [
-            14.4299192,
-            49.6642416
-          ],
-          [
-            14.4295129,
-            49.6640822
-          ],
-          [
-            14.429336,
-            49.6639415
-          ],
-          [
-            14.4290691,
-            49.6639587
-          ],
-          [
-            14.429075,
-            49.6643823
-          ],
-          [
-            14.4290651,
-            49.6644374
-          ],
-          [
-            14.4289247,
-            49.6648309
-          ],
-          [
-            14.4289119,
-            49.6648469
-          ],
-          [
-            14.4289267,
-            49.6648949
-          ],
-          [
-            14.4288506,
-            49.6650107
-          ],
-          [
-            14.4287942,
-            49.6651387
-          ],
-          [
-            14.4293627,
-            49.6652084
-          ],
-          [
-            14.4292658,
-            49.665703
-          ],
-          [
-            14.4291393,
-            49.666364
-          ],
-          [
-            14.4291128,
-            49.6664946
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 464305088,
-        "@url": "https://www.openstreetmap.org/way/464305088",
-        "amenity": "recycling",
-        "landuse": "industrial",
-        "name": "Kovošrot",
-        "operator": "KOVOŠROT GROUP CZ a.s.",
-        "recycling:cars": "yes",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
       }
     },
     {
@@ -85318,6 +85883,182 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.7989661,
+            49.05369
+          ],
+          [
+            13.7997128,
+            49.0535261
+          ],
+          [
+            13.7998052,
+            49.0537386
+          ],
+          [
+            13.7991856,
+            49.0538857
+          ],
+          [
+            13.7989661,
+            49.05369
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258666657,
+        "@url": "https://www.openstreetmap.org/way/1258666657",
+        "amenity": "recycling",
+        "contact:phone": "+420 730 963 344",
+        "contact:website": "https://www.sbernesuroviny.cz/",
+        "name": "Sběrné suroviny",
+        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
+        "operator": "Sběrné suroviny, a.s.",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.8223086,
+            49.1103871
+          ],
+          [
+            13.8223695,
+            49.110322
+          ],
+          [
+            13.8236542,
+            49.1106387
+          ],
+          [
+            13.8235256,
+            49.1108319
+          ],
+          [
+            13.8227196,
+            49.110513
+          ],
+          [
+            13.8223086,
+            49.1103871
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258670279,
+        "@url": "https://www.openstreetmap.org/way/1258670279",
+        "amenity": "recycling",
+        "name": "Kovošrot Čkyně",
+        "opening_hours": "Mo-Sa 09:00-16:00",
+        "operator": "CELIA-CZ s.r.o.",
+        "recycling:car_batteries": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.vykupkovu.eu/kontakt/provozovna/ckyne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.1009514,
+            50.1643187
+          ],
+          [
+            15.1010296,
+            50.1643869
+          ],
+          [
+            15.1010137,
+            50.1643944
+          ],
+          [
+            15.1009354,
+            50.1643262
+          ],
+          [
+            15.1009514,
+            50.1643187
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258686160,
+        "@url": "https://www.openstreetmap.org/way/1258686160",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.0979231,
+            50.1623463
+          ],
+          [
+            15.0979315,
+            50.1623255
+          ],
+          [
+            15.0980596,
+            50.1623468
+          ],
+          [
+            15.0980512,
+            50.1623676
+          ],
+          [
+            15.0979231,
+            50.1623463
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258686167,
+        "@url": "https://www.openstreetmap.org/way/1258686167",
+        "amenity": "recycling",
+        "location": "partially_underground",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -87771,67 +88512,6 @@
           [
             [
               [
-                13.824881,
-                49.1112741
-              ],
-              [
-                13.8248958,
-                49.1111827
-              ],
-              [
-                13.8251285,
-                49.1111988
-              ],
-              [
-                13.8251295,
-                49.1111923
-              ],
-              [
-                13.8253776,
-                49.111209
-              ],
-              [
-                13.8253711,
-                49.1113107
-              ],
-              [
-                13.824881,
-                49.1112741
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 153216385,
-        "@url": "https://www.openstreetmap.org/way/153216385",
-        "addr:city": "Čkyně",
-        "addr:conscriptionnumber": "133",
-        "addr:country": "CZ",
-        "addr:housenumber": "133",
-        "addr:place": "Čkyně",
-        "addr:postcode": "38481",
-        "amenity": "recycling",
-        "building": "civic",
-        "building:levels": "1",
-        "building:ruian:type": "5",
-        "name": "Kovošrot CELIA-CZ s.r.o.",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:addr": "804771",
-        "ref:ruian:building": "802662",
-        "source": "cuzk:ruian"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
                 16.8836788,
                 49.1939585
               ],
@@ -88238,63 +88918,6 @@
         "name": "Výkup železa",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                13.7989808,
-                49.0535378
-              ],
-              [
-                13.799643,
-                49.053391
-              ],
-              [
-                13.7996983,
-                49.0535014
-              ],
-              [
-                13.7990363,
-                49.0536477
-              ],
-              [
-                13.7989808,
-                49.0535378
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 201011153,
-        "@url": "https://www.openstreetmap.org/way/201011153",
-        "addr:city": "Vimperk",
-        "addr:postcode": "38501",
-        "addr:street": "Špidrova",
-        "amenity": "recycling",
-        "building": "yes",
-        "building:ruian:type": "19",
-        "contact:phone": "+420 730 963 344",
-        "contact:website": "https://www.sbernesuroviny.cz/",
-        "name": "Sběrné suroviny",
-        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
-        "operator": "Sběrné suroviny, a.s.",
-        "operator:type": "private",
-        "recycling:batteries": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "ref:ruian:building": "47491698",
-        "source": "cuzk:ruian"
       }
     },
     {
@@ -92974,211 +93597,6 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "source": "local_knowledge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                14.4287942,
-                49.6651387
-              ],
-              [
-                14.4288506,
-                49.6650107
-              ],
-              [
-                14.4289267,
-                49.6648949
-              ],
-              [
-                14.4289119,
-                49.6648469
-              ],
-              [
-                14.4289247,
-                49.6648309
-              ],
-              [
-                14.4290651,
-                49.6644374
-              ],
-              [
-                14.429075,
-                49.6643823
-              ],
-              [
-                14.4290691,
-                49.6639587
-              ],
-              [
-                14.429336,
-                49.6639415
-              ],
-              [
-                14.4295129,
-                49.6640822
-              ],
-              [
-                14.4299192,
-                49.6642416
-              ],
-              [
-                14.4302168,
-                49.6644105
-              ],
-              [
-                14.4302969,
-                49.6644476
-              ],
-              [
-                14.4303483,
-                49.6645513
-              ],
-              [
-                14.4303977,
-                49.6646037
-              ],
-              [
-                14.4303918,
-                49.6646274
-              ],
-              [
-                14.4304096,
-                49.6646613
-              ],
-              [
-                14.4303295,
-                49.6649499
-              ],
-              [
-                14.4303651,
-                49.6651342
-              ],
-              [
-                14.430375,
-                49.6653748
-              ],
-              [
-                14.4303987,
-                49.6654419
-              ],
-              [
-                14.4303819,
-                49.6654669
-              ],
-              [
-                14.4303829,
-                49.6655219
-              ],
-              [
-                14.4301822,
-                49.6657811
-              ],
-              [
-                14.4301407,
-                49.6658483
-              ],
-              [
-                14.4300705,
-                49.6659282
-              ],
-              [
-                14.4299113,
-                49.6662642
-              ],
-              [
-                14.4298688,
-                49.6664734
-              ],
-              [
-                14.4298243,
-                49.6666922
-              ],
-              [
-                14.4297779,
-                49.6668854
-              ],
-              [
-                14.4294942,
-                49.6668886
-              ],
-              [
-                14.4292786,
-                49.6668682
-              ],
-              [
-                14.4292243,
-                49.6668374
-              ],
-              [
-                14.4291363,
-                49.666776
-              ],
-              [
-                14.4290315,
-                49.6666468
-              ],
-              [
-                14.4289829,
-                49.6666021
-              ],
-              [
-                14.4289578,
-                49.6665865
-              ],
-              [
-                14.4289549,
-                49.6665905
-              ],
-              [
-                14.4289174,
-                49.666541
-              ],
-              [
-                14.4289239,
-                49.6664883
-              ],
-              [
-                14.4291128,
-                49.6664946
-              ],
-              [
-                14.4291393,
-                49.666364
-              ],
-              [
-                14.4292658,
-                49.665703
-              ],
-              [
-                14.4293627,
-                49.6652084
-              ],
-              [
-                14.4287942,
-                49.6651387
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 464305088,
-        "@url": "https://www.openstreetmap.org/way/464305088",
-        "amenity": "recycling",
-        "landuse": "industrial",
-        "name": "Kovošrot",
-        "operator": "KOVOŠROT GROUP CZ a.s.",
-        "recycling:cars": "yes",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
       }
     },
     {
@@ -104259,6 +104677,198 @@
         "@type": "way",
         "@id": 1258183108,
         "@url": "https://www.openstreetmap.org/way/1258183108",
+        "amenity": "recycling",
+        "location": "partially_underground",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.7989661,
+                49.05369
+              ],
+              [
+                13.7997128,
+                49.0535261
+              ],
+              [
+                13.7998052,
+                49.0537386
+              ],
+              [
+                13.7991856,
+                49.0538857
+              ],
+              [
+                13.7989661,
+                49.05369
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258666657,
+        "@url": "https://www.openstreetmap.org/way/1258666657",
+        "amenity": "recycling",
+        "contact:phone": "+420 730 963 344",
+        "contact:website": "https://www.sbernesuroviny.cz/",
+        "name": "Sběrné suroviny",
+        "opening_hours": "Mo-Fr 07:30-11:30, 12:00-16:00; PH off",
+        "operator": "Sběrné suroviny, a.s.",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.8223086,
+                49.1103871
+              ],
+              [
+                13.8223695,
+                49.110322
+              ],
+              [
+                13.8236542,
+                49.1106387
+              ],
+              [
+                13.8235256,
+                49.1108319
+              ],
+              [
+                13.8227196,
+                49.110513
+              ],
+              [
+                13.8223086,
+                49.1103871
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258670279,
+        "@url": "https://www.openstreetmap.org/way/1258670279",
+        "amenity": "recycling",
+        "name": "Kovošrot Čkyně",
+        "opening_hours": "Mo-Sa 09:00-16:00",
+        "operator": "CELIA-CZ s.r.o.",
+        "recycling:car_batteries": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.vykupkovu.eu/kontakt/provozovna/ckyne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.1009354,
+                50.1643262
+              ],
+              [
+                15.1009514,
+                50.1643187
+              ],
+              [
+                15.1010296,
+                50.1643869
+              ],
+              [
+                15.1010137,
+                50.1643944
+              ],
+              [
+                15.1009354,
+                50.1643262
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258686160,
+        "@url": "https://www.openstreetmap.org/way/1258686160",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.0979231,
+                50.1623463
+              ],
+              [
+                15.0979315,
+                50.1623255
+              ],
+              [
+                15.0980596,
+                50.1623468
+              ],
+              [
+                15.0980512,
+                50.1623676
+              ],
+              [
+                15.0979231,
+                50.1623463
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1258686167,
+        "@url": "https://www.openstreetmap.org/way/1258686167",
         "amenity": "recycling",
         "location": "partially_underground",
         "recycling:cans": "yes",

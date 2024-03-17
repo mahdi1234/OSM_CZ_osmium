@@ -11715,8 +11715,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6243621,
-          49.2236525
+          16.6243876,
+          49.2236474
         ]
       },
       "properties": {
@@ -11726,9 +11726,13 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -15136,8 +15140,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6376453,
-          49.2144666
+          16.6373785,
+          49.2146111
         ]
       },
       "properties": {
@@ -15147,6 +15151,7 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -20784,6 +20789,7 @@
         "location": "overground",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -35704,8 +35710,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6346063,
-          49.2183958
+          16.6344579,
+          49.2185218
         ]
       },
       "properties": {
@@ -35717,6 +35723,7 @@
         "recycling:books": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
+        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",
@@ -36151,8 +36158,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6256914,
-          49.2250355
+          16.6256974,
+          49.225007
         ]
       },
       "properties": {
@@ -36162,6 +36169,7 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -47033,8 +47041,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6361439,
-          49.21776
+          16.6361062,
+          49.2177559
         ]
       },
       "properties": {
@@ -52463,6 +52471,32 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6255391,
+          49.2260065
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10308157010,
+        "@url": "https://www.openstreetmap.org/node/10308157010",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }

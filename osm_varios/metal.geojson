@@ -48,6 +48,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.503905,
+          50.0976655
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 310623060,
+        "@url": "https://www.openstreetmap.org/node/310623060",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr hlavního města Prahy",
+        "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-15:00",
+        "operator": "Pražské služby",
+        "phone": "+420 739 682 180",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.psas.cz/sberne-dvory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.2911045,
           50.2338206
         ]
@@ -33616,6 +33656,7 @@
         "@id": 8270693071,
         "@url": "https://www.openstreetmap.org/node/8270693071",
         "amenity": "recycling",
+        "check_date:recycling": "2024-03-20",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -70531,8 +70572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.8868128,
-          50.2328857
+          12.8867699,
+          50.2329234
         ]
       },
       "properties": {
@@ -71141,6 +71182,38 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8936411,
+          50.2324914
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11746793071,
+        "@url": "https://www.openstreetmap.org/node/11746793071",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -83482,6 +83555,51 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.5355337,
+            50.07679
+          ],
+          [
+            14.5369272,
+            50.0767765
+          ],
+          [
+            14.5368639,
+            50.0757738
+          ],
+          [
+            14.5351688,
+            50.0761628
+          ],
+          [
+            14.5355337,
+            50.07679
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 937099198,
+        "@url": "https://www.openstreetmap.org/way/937099198",
+        "amenity": "recycling",
+        "contact:facebook": "https://www.facebook.com/cajdasrot/",
+        "name": "Cajdašrot Průmyslová",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "phone": "+420 702 058 781",
+        "recycling:car_batteries": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.cajdasrot.cz/"
       }
     },
     {
@@ -102082,6 +102200,55 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.5351688,
+                50.0761628
+              ],
+              [
+                14.5368639,
+                50.0757738
+              ],
+              [
+                14.5369272,
+                50.0767765
+              ],
+              [
+                14.5355337,
+                50.07679
+              ],
+              [
+                14.5351688,
+                50.0761628
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 937099198,
+        "@url": "https://www.openstreetmap.org/way/937099198",
+        "amenity": "recycling",
+        "contact:facebook": "https://www.facebook.com/cajdasrot/",
+        "name": "Cajdašrot Průmyslová",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "phone": "+420 702 058 781",
+        "recycling:car_batteries": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.cajdasrot.cz/"
       }
     },
     {

@@ -1,7 +1,6 @@
 #!/bin/bash
 curl "http://localhost:8111/load_object?new_layer=false&objects=n705502175"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n705502283"
-curl "http://localhost:8111/load_object?new_layer=false&objects=n705502345"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n1390744629"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n1395393461"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n1418101206"

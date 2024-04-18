@@ -8567,6 +8567,35 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5978125,
+            49.2040099
+          ],
+          [
+            16.5978635,
+            49.204035
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1223207820,
+        "@url": "https://www.openstreetmap.org/way/1223207820",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "ramp": "yes",
+        "ramp:wheelchair": "yes",
+        "step_count": "4",
+        "surface": "concrete",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5709808,
             49.23092
           ],
@@ -18087,6 +18116,34 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5981369,
+            49.204203
+          ],
+          [
+            16.5981038,
+            49.2041861
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1223207816,
+        "@url": "https://www.openstreetmap.org/way/1223207816",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "step_count": "6",
+        "surface": "concrete",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5957935,
             49.207768
           ],
@@ -20921,6 +20978,7 @@
         "handrail:right": "yes",
         "highway": "steps",
         "incline": "up",
+        "lit": "yes",
         "ramp": "no",
         "step_count": "7",
         "surface": "paving_stones",
@@ -45409,7 +45467,8 @@
         "lit": "no",
         "ramp": "no",
         "step_count": "24",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "yes"
       }
     },
     {

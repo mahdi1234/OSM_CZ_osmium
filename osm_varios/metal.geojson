@@ -6331,6 +6331,7 @@
         "@id": 1621865063,
         "@url": "https://www.openstreetmap.org/node/1621865063",
         "amenity": "recycling",
+        "check_date:recycling": "2024-04-23",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -36917,6 +36918,35 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5467986,
+          50.0508866
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7462236094,
+        "@url": "https://www.openstreetmap.org/node/7462236094",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:aluminium": "yes",
+        "recycling:cans": "yes",
+        "recycling:cartons": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
       }
     },
     {
@@ -84824,6 +84854,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5760474,
+          49.2316028
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11841888152,
+        "@url": "https://www.openstreetmap.org/node/11841888152",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -103504,6 +103557,103 @@
         "recycling_type": "centre",
         "source": "https://www.posumavskaodpadova.cz/posumavskaodpadova/user/Su%C5%A1ice%20CZP01056.pdf",
         "website": "https://www.posumavskaodpadova.cz/posumavskaodpadova/susice-sbernydvur.asp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.640107,
+            50.1650585
+          ],
+          [
+            12.6401489,
+            50.1650504
+          ],
+          [
+            12.6401932,
+            50.1650378
+          ],
+          [
+            12.6402161,
+            50.1650943
+          ],
+          [
+            12.6402714,
+            50.1651345
+          ],
+          [
+            12.6413725,
+            50.1656924
+          ],
+          [
+            12.6413556,
+            50.1658591
+          ],
+          [
+            12.6409313,
+            50.1659846
+          ],
+          [
+            12.6408793,
+            50.1661681
+          ],
+          [
+            12.6411148,
+            50.1662933
+          ],
+          [
+            12.6410621,
+            50.1664302
+          ],
+          [
+            12.6402525,
+            50.1667153
+          ],
+          [
+            12.6401983,
+            50.1669282
+          ],
+          [
+            12.6386131,
+            50.1660691
+          ],
+          [
+            12.6396766,
+            50.1655391
+          ],
+          [
+            12.6397761,
+            50.1654028
+          ],
+          [
+            12.6399232,
+            50.1651868
+          ],
+          [
+            12.6399965,
+            50.1650739
+          ],
+          [
+            12.640041,
+            50.1650685
+          ],
+          [
+            12.640107,
+            50.1650585
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1275140198,
+        "@url": "https://www.openstreetmap.org/way/1275140198",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -123406,6 +123556,107 @@
         "recycling_type": "centre",
         "source": "https://www.posumavskaodpadova.cz/posumavskaodpadova/user/Su%C5%A1ice%20CZP01056.pdf",
         "website": "https://www.posumavskaodpadova.cz/posumavskaodpadova/susice-sbernydvur.asp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.6386131,
+                50.1660691
+              ],
+              [
+                12.6396766,
+                50.1655391
+              ],
+              [
+                12.6397761,
+                50.1654028
+              ],
+              [
+                12.6399232,
+                50.1651868
+              ],
+              [
+                12.6399965,
+                50.1650739
+              ],
+              [
+                12.640041,
+                50.1650685
+              ],
+              [
+                12.640107,
+                50.1650585
+              ],
+              [
+                12.6401489,
+                50.1650504
+              ],
+              [
+                12.6401932,
+                50.1650378
+              ],
+              [
+                12.6402161,
+                50.1650943
+              ],
+              [
+                12.6402714,
+                50.1651345
+              ],
+              [
+                12.6413725,
+                50.1656924
+              ],
+              [
+                12.6413556,
+                50.1658591
+              ],
+              [
+                12.6409313,
+                50.1659846
+              ],
+              [
+                12.6408793,
+                50.1661681
+              ],
+              [
+                12.6411148,
+                50.1662933
+              ],
+              [
+                12.6410621,
+                50.1664302
+              ],
+              [
+                12.6402525,
+                50.1667153
+              ],
+              [
+                12.6401983,
+                50.1669282
+              ],
+              [
+                12.6386131,
+                50.1660691
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1275140198,
+        "@url": "https://www.openstreetmap.org/way/1275140198",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

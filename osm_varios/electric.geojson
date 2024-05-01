@@ -44266,6 +44266,77 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3283833,
+          49.9191592
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11868610335,
+        "@url": "https://www.openstreetmap.org/node/11868610335",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3380127,
+          49.9153047
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11868623678,
+        "@url": "https://www.openstreetmap.org/node/11868623678",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1366762,
+          49.6049583
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11868969755,
+        "@url": "https://www.openstreetmap.org/node/11868969755",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -57795,6 +57866,72 @@
         "recycling:shoes": "yes",
         "recycling_type": "centre",
         "website": "https://www.opolany.cz/sberny-dvur-opolany/d-2337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4752425,
+            49.1369516
+          ],
+          [
+            16.475346,
+            49.1369266
+          ],
+          [
+            16.4755264,
+            49.1371225
+          ],
+          [
+            16.4754237,
+            49.137168
+          ],
+          [
+            16.4754902,
+            49.1372474
+          ],
+          [
+            16.4754312,
+            49.1372631
+          ],
+          [
+            16.4753446,
+            49.1371636
+          ],
+          [
+            16.4751853,
+            49.1369713
+          ],
+          [
+            16.4752425,
+            49.1369516
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1164968144,
+        "@url": "https://www.openstreetmap.org/way/1164968144",
+        "amenity": "recycling",
+        "building": "service",
+        "name": "Sběrné místo",
+        "opening_hours": "Tu,Th 17:00-18:00; Sa 10:00-12:00",
+        "operator": "Obec Radostice",
+        "operator:type": "public",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paint": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -74196,6 +74333,76 @@
         "recycling:shoes": "yes",
         "recycling_type": "centre",
         "website": "https://www.opolany.cz/sberny-dvur-opolany/d-2337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4751853,
+                49.1369713
+              ],
+              [
+                16.4752425,
+                49.1369516
+              ],
+              [
+                16.475346,
+                49.1369266
+              ],
+              [
+                16.4755264,
+                49.1371225
+              ],
+              [
+                16.4754237,
+                49.137168
+              ],
+              [
+                16.4754902,
+                49.1372474
+              ],
+              [
+                16.4754312,
+                49.1372631
+              ],
+              [
+                16.4753446,
+                49.1371636
+              ],
+              [
+                16.4751853,
+                49.1369713
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1164968144,
+        "@url": "https://www.openstreetmap.org/way/1164968144",
+        "amenity": "recycling",
+        "building": "service",
+        "name": "Sběrné místo",
+        "opening_hours": "Tu,Th 17:00-18:00; Sa 10:00-12:00",
+        "operator": "Obec Radostice",
+        "operator:type": "public",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paint": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {

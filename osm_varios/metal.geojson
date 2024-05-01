@@ -464,8 +464,7 @@
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container",
         "source": "norc.cz"
@@ -21389,32 +21388,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.3284176,
-          49.9189664
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4002992399,
-        "@url": "https://www.openstreetmap.org/node/4002992399",
-        "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.0897929,
           49.4718817
         ]
@@ -28749,8 +28722,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6793893,
-          49.1783935
+          16.6791808,
+          49.1785649
         ]
       },
       "properties": {
@@ -28763,7 +28736,7 @@
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:magazines": "yes",
-        "recycling:newspapers": "yes",
+        "recycling:newspaper": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
@@ -86204,6 +86177,32 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1366762,
+          49.6049583
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11868969755,
+        "@url": "https://www.openstreetmap.org/node/11868969755",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -102238,17 +102237,16 @@
         "opening_hours": "Tu,Th 17:00-18:00; Sa 10:00-12:00",
         "operator": "Obec Radostice",
         "operator:type": "public",
-        "recycling:automotive_batteries": "yes",
         "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:electronic_items": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:engine_oil": "yes",
         "recycling:fluorescent_tubes": "yes",
         "recycling:green_waste": "yes",
         "recycling:paint": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:tires": "yes",
-        "recycling:trash": "yes",
+        "recycling:tyres": "yes",
         "recycling_type": "centre"
       }
     },
@@ -122100,17 +122098,16 @@
         "opening_hours": "Tu,Th 17:00-18:00; Sa 10:00-12:00",
         "operator": "Obec Radostice",
         "operator:type": "public",
-        "recycling:automotive_batteries": "yes",
         "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:electronic_items": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling:engine_oil": "yes",
         "recycling:fluorescent_tubes": "yes",
         "recycling:green_waste": "yes",
         "recycling:paint": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:tires": "yes",
-        "recycling:trash": "yes",
+        "recycling:tyres": "yes",
         "recycling_type": "centre"
       }
     },

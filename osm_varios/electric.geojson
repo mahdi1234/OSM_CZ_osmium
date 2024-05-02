@@ -60064,6 +60064,54 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.3776494,
+            49.8942801
+          ],
+          [
+            13.3776526,
+            49.8942583
+          ],
+          [
+            13.3779427,
+            49.8942758
+          ],
+          [
+            13.3779395,
+            49.8942976
+          ],
+          [
+            13.3776494,
+            49.8942801
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1278530892,
+        "@url": "https://www.openstreetmap.org/way/1278530892",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -76650,6 +76698,58 @@
         "recycling_type": "centre",
         "source": "https://www.posumavskaodpadova.cz/posumavskaodpadova/user/Su%C5%A1ice%20CZP01056.pdf",
         "website": "https://www.posumavskaodpadova.cz/posumavskaodpadova/susice-sbernydvur.asp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.3776494,
+                49.8942801
+              ],
+              [
+                13.3776526,
+                49.8942583
+              ],
+              [
+                13.3779427,
+                49.8942758
+              ],
+              [
+                13.3779395,
+                49.8942976
+              ],
+              [
+                13.3776494,
+                49.8942801
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1278530892,
+        "@url": "https://www.openstreetmap.org/way/1278530892",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     }
   ]

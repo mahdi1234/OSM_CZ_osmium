@@ -23196,6 +23196,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.4243057,
+          49.3534299
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8286849854,
+        "@url": "https://www.openstreetmap.org/node/8286849854",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "ref:ekokom": "2963"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.6350448,
           49.0195371
         ]
@@ -23554,6 +23581,7 @@
         "@id": 8362552199,
         "@url": "https://www.openstreetmap.org/node/8362552199",
         "amenity": "recycling",
+        "check_date:opening_hours": "2024-05-04",
         "mobile": "+420 602 943 715",
         "name": "SSO Atriová",
         "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",

@@ -18226,17 +18226,12 @@
         "@id": 8286849853,
         "@url": "https://www.openstreetmap.org/node/8286849853",
         "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling_type": "container",
         "ref:ekokom": "2964"
       }
@@ -18595,6 +18590,7 @@
         "@id": 8362552199,
         "@url": "https://www.openstreetmap.org/node/8362552199",
         "amenity": "recycling",
+        "check_date:opening_hours": "2024-05-04",
         "mobile": "+420 602 943 715",
         "name": "SSO Atriová",
         "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
@@ -21181,6 +21177,30 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2613211,
+          50.0729782
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8812049987,
+        "@url": "https://www.openstreetmap.org/node/8812049987",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -24989,8 +25009,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2942731,
-          49.6658097
+          14.2943807,
+          49.6658556
         ]
       },
       "properties": {

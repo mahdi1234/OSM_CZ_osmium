@@ -8144,7 +8144,9 @@
         "highway": "steps",
         "incline": "up",
         "ramp": "no",
-        "step_count": "4"
+        "step_count": "4",
+        "surface": "sett",
+        "tactile_paving": "no"
       }
     },
     {
@@ -10198,7 +10200,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "5",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "yes"
       }
     },
     {
@@ -10287,6 +10290,7 @@
         "ramp:stroller": "yes",
         "step_count": "5",
         "surface": "paving_stones",
+        "tactile_paving": "no",
         "tunnel": "yes"
       }
     },
@@ -25136,6 +25140,7 @@
         "ramp:stroller": "yes",
         "step_count": "9",
         "surface": "paving_stones",
+        "tactile_paving": "no",
         "tunnel": "yes"
       }
     },
@@ -25825,7 +25830,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "9",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -27130,8 +27136,8 @@
             49.198559
           ],
           [
-            16.603071,
-            49.1985382
+            16.6030774,
+            49.1985347
           ]
         ]
       },
@@ -27728,7 +27734,8 @@
         "motorcar": "no",
         "ramp": "no",
         "step_count": "10",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -37634,9 +37641,12 @@
         "@url": "https://www.openstreetmap.org/way/1273956390",
         "handrail": "yes",
         "highway": "steps",
+        "incline": "up",
         "lit": "yes",
+        "ramp": "no",
         "step_count": "15",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -49209,6 +49219,7 @@
         "source": "survey",
         "step_count": "29",
         "surface": "concrete",
+        "tactile_paving": "no",
         "width": "2"
       }
     },

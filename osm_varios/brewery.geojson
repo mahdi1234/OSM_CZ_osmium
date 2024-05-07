@@ -19,7 +19,7 @@
         "addr:postcode": "12000",
         "addr:street": "Ječná",
         "amenity": "restaurant",
-        "check_date:opening_hours": "2022-11-10",
+        "check_date:opening_hours": "2024-05-06",
         "contact:facebook": "Pivovarskydum",
         "email": "pivodum@iol.cz",
         "facebook": "https://www.facebook.com/Pivovarskydum/",
@@ -10498,6 +10498,66 @@
         "type": "LineString",
         "coordinates": [
           [
+            18.1361912,
+            49.4568526
+          ],
+          [
+            18.136958,
+            49.4568635
+          ],
+          [
+            18.136959,
+            49.4567686
+          ],
+          [
+            18.1370512,
+            49.4567739
+          ],
+          [
+            18.1371682,
+            49.4565329
+          ],
+          [
+            18.1369233,
+            49.4565145
+          ],
+          [
+            18.1367499,
+            49.4565129
+          ],
+          [
+            18.13675,
+            49.4566668
+          ],
+          [
+            18.1361979,
+            49.4566599
+          ],
+          [
+            18.1361912,
+            49.4568526
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 129731827,
+        "@url": "https://www.openstreetmap.org/way/129731827",
+        "building": "civic",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "craft": "brewery",
+        "name": "Rožnovský pivovar",
+        "ref:ruian:building": "17078211",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             18.2563752,
             49.5925443
           ],
@@ -18046,6 +18106,70 @@
         "layer": "1",
         "name": "Nomád",
         "source": "cuzk:km"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1361912,
+                49.4568526
+              ],
+              [
+                18.1361979,
+                49.4566599
+              ],
+              [
+                18.13675,
+                49.4566668
+              ],
+              [
+                18.1367499,
+                49.4565129
+              ],
+              [
+                18.1369233,
+                49.4565145
+              ],
+              [
+                18.1371682,
+                49.4565329
+              ],
+              [
+                18.1370512,
+                49.4567739
+              ],
+              [
+                18.136959,
+                49.4567686
+              ],
+              [
+                18.136958,
+                49.4568635
+              ],
+              [
+                18.1361912,
+                49.4568526
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 129731827,
+        "@url": "https://www.openstreetmap.org/way/129731827",
+        "building": "civic",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "craft": "brewery",
+        "name": "Rožnovský pivovar",
+        "ref:ruian:building": "17078211",
+        "source": "cuzk:ruian"
       }
     },
     {

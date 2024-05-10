@@ -15572,8 +15572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4323671,
-          49.3410919
+          16.432402,
+          49.3410604
         ]
       },
       "properties": {
@@ -18428,10 +18428,34 @@
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5644285,
+          49.2824622
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11890952497,
+        "@url": "https://www.openstreetmap.org/node/11890952497",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -31409,6 +31433,80 @@
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.222106,
+            48.9749771
+          ],
+          [
+            17.2220299,
+            48.9748458
+          ],
+          [
+            17.222103,
+            48.9748286
+          ],
+          [
+            17.2220705,
+            48.9747599
+          ],
+          [
+            17.2223675,
+            48.9744954
+          ],
+          [
+            17.2231138,
+            48.9743722
+          ],
+          [
+            17.2231836,
+            48.9745988
+          ],
+          [
+            17.223199,
+            48.9747027
+          ],
+          [
+            17.2231092,
+            48.9748017
+          ],
+          [
+            17.222106,
+            48.9749771
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1281259116,
+        "@url": "https://www.openstreetmap.org/way/1281259116",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Vracov",
+        "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
+        "operator": "EKOR, s.r.o.",
+        "phone": "+420 518 611 688",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestovracov.cz/156-sberny-dvur-odpadu-a-stanoviste-kontejneru"
       }
     },
     {
@@ -45077,6 +45175,84 @@
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.2220299,
+                48.9748458
+              ],
+              [
+                17.222103,
+                48.9748286
+              ],
+              [
+                17.2220705,
+                48.9747599
+              ],
+              [
+                17.2223675,
+                48.9744954
+              ],
+              [
+                17.2231138,
+                48.9743722
+              ],
+              [
+                17.2231836,
+                48.9745988
+              ],
+              [
+                17.223199,
+                48.9747027
+              ],
+              [
+                17.2231092,
+                48.9748017
+              ],
+              [
+                17.222106,
+                48.9749771
+              ],
+              [
+                17.2220299,
+                48.9748458
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1281259116,
+        "@url": "https://www.openstreetmap.org/way/1281259116",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Vracov",
+        "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
+        "operator": "EKOR, s.r.o.",
+        "phone": "+420 518 611 688",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestovracov.cz/156-sberny-dvur-odpadu-a-stanoviste-kontejneru"
       }
     }
   ]

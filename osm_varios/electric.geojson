@@ -44710,6 +44710,173 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5217646,
+          50.2520516
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11896675867,
+        "@url": "https://www.openstreetmap.org/node/11896675867",
+        "amenity": "recycling",
+        "name": "Sběrné místo Jindřichov",
+        "operator": "Obec Jindřichov",
+        "phone": "+420 730 516 389",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obecjindrichov.cz/sberne-misto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7369534,
+          48.939826
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11897434467,
+        "@url": "https://www.openstreetmap.org/node/11897434467",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1979636,
+          50.0997154
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11898425596,
+        "@url": "https://www.openstreetmap.org/node/11898425596",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1911011,
+          50.0956393
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11898425659,
+        "@url": "https://www.openstreetmap.org/node/11898425659",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1854457,
+          50.099155
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11898425726,
+        "@url": "https://www.openstreetmap.org/node/11898425726",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1939872,
+          50.0980383
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11898425756,
+        "@url": "https://www.openstreetmap.org/node/11898425756",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -47768,8 +47935,7 @@
         "recycling:waste": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
-        "source": "Územní plán",
-        "type": "SV (stav)"
+        "source": "Územní plán"
       }
     },
     {
@@ -48150,9 +48316,6 @@
         "@id": 308608058,
         "@url": "https://www.openstreetmap.org/way/308608058",
         "amenity": "recycling",
-        "barrier": "fence",
-        "fence_type": "chain_link",
-        "height": "1.5",
         "name": "Sběrný dvůr Příbor",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
@@ -63894,8 +64057,7 @@
         "recycling:waste": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
-        "source": "Územní plán",
-        "type": "SV (stav)"
+        "source": "Územní plán"
       }
     },
     {
@@ -64296,9 +64458,6 @@
         "@id": 308608058,
         "@url": "https://www.openstreetmap.org/way/308608058",
         "amenity": "recycling",
-        "barrier": "fence",
-        "fence_type": "chain_link",
-        "height": "1.5",
         "name": "Sběrný dvůr Příbor",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",

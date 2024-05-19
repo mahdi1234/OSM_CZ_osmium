@@ -14779,7 +14779,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "30",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -32679,7 +32680,8 @@
         "ramp": "no",
         "source": "uhul:ortofoto;cuzk:km",
         "step_count": "7",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -49454,6 +49456,7 @@
         "source": "uhul:ortofoto",
         "step_count": "16",
         "surface": "concrete",
+        "tactile_paving": "no",
         "width": "2"
       }
     },
@@ -53299,10 +53302,12 @@
         "@type": "way",
         "@id": 1249020880,
         "@url": "https://www.openstreetmap.org/way/1249020880",
+        "handrail": "no",
         "highway": "steps",
         "incline": "down",
         "material": "granite",
-        "step_count": "6"
+        "step_count": "6",
+        "surface": "stone"
       }
     },
     {
@@ -53426,7 +53431,8 @@
         "handrail:right": "yes",
         "highway": "steps",
         "incline": "down",
-        "step_count": "6"
+        "step_count": "6",
+        "surface": "paving_stones"
       }
     },
     {

@@ -15954,6 +15954,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.7254607,
+          50.0864949
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10704552434,
+        "@url": "https://www.openstreetmap.org/node/10704552434",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Opavská",
+        "opening_hours": "Mo-Su 08:30-17:00",
+        "operator": "Technické služby Krnov s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://tskrnov.cz/sluzby/svoz-a-likvidace-odpadu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5013273,
           49.2186881
         ]
@@ -18634,6 +18674,35 @@
         "@url": "https://www.openstreetmap.org/node/11903748815",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2094596,
+          49.9793354
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11920106666,
+        "@url": "https://www.openstreetmap.org/node/11920106666",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_appliances": "no",
+        "recycling:waste": "yes",
         "recycling_type": "container"
       }
     },
@@ -24298,6 +24367,52 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.7621004,
+            50.0813945
+          ],
+          [
+            16.7626302,
+            50.0815279
+          ],
+          [
+            16.7626758,
+            50.0816044
+          ],
+          [
+            16.7620964,
+            50.0817223
+          ],
+          [
+            16.7621004,
+            50.0813945
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 431692192,
+        "@url": "https://www.openstreetmap.org/way/431692192",
+        "amenity": "recycling",
+        "contact:website": "http://www.smkraliky.cz/dvur.html",
+        "description": "Příchod do areálu sběrných dvorů hlaste v kanceláři!",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Mo-Th 06:00-14:30; Apr-Oct Fr 06:00-17:00; Nov-Mar Fr 06:00-16:00; Apr-Oct Sa 08:00-12:00; Nov-Mar Sa off; Su,PH off",
+        "operator": "Služby města Králíky",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -37798,6 +37913,56 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.7620964,
+                50.0817223
+              ],
+              [
+                16.7621004,
+                50.0813945
+              ],
+              [
+                16.7626302,
+                50.0815279
+              ],
+              [
+                16.7626758,
+                50.0816044
+              ],
+              [
+                16.7620964,
+                50.0817223
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 431692192,
+        "@url": "https://www.openstreetmap.org/way/431692192",
+        "amenity": "recycling",
+        "contact:website": "http://www.smkraliky.cz/dvur.html",
+        "description": "Příchod do areálu sběrných dvorů hlaste v kanceláři!",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Mo-Th 06:00-14:30; Apr-Oct Fr 06:00-17:00; Nov-Mar Fr 06:00-16:00; Apr-Oct Sa 08:00-12:00; Nov-Mar Sa off; Su,PH off",
+        "operator": "Služby města Králíky",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {

@@ -1588,7 +1588,8 @@
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "22",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -4237,6 +4238,41 @@
         "step_count": "8",
         "surface": "concrete",
         "width": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6497375,
+            49.2303619
+          ],
+          [
+            16.6495618,
+            49.2302934
+          ],
+          [
+            16.6494712,
+            49.2302631
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 45348759,
+        "@url": "https://www.openstreetmap.org/way/45348759",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "name": "Kmochova",
+        "ramp": "no",
+        "source": "survey",
+        "step_count": "39",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -16486,10 +16522,15 @@
         "@type": "way",
         "@id": 220528005,
         "@url": "https://www.openstreetmap.org/way/220528005",
+        "handrail": "no",
         "highway": "steps",
         "incline": "down",
+        "lit": "no",
+        "ramp": "no",
         "source": "survey",
-        "step_count": "3"
+        "step_count": "3",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -21709,7 +21750,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "73",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "tactile_paving": "no"
       }
     },
     {
@@ -25464,8 +25506,8 @@
             49.2264043
           ],
           [
-            16.5959236,
-            49.2265117
+            16.5958948,
+            49.2265069
           ]
         ]
       },
@@ -25490,8 +25532,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5959236,
-            49.2265117
+            16.5958948,
+            49.2265069
           ],
           [
             16.5959537,
@@ -48661,6 +48703,36 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.6397785,
+            49.2122341
+          ],
+          [
+            16.6396843,
+            49.2122694
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1109106293,
+        "@url": "https://www.openstreetmap.org/way/1109106293",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "yes",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
+        "step_count": "11",
+        "surface": "concrete",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5867882,
             49.2367677
           ],
@@ -49845,14 +49917,16 @@
         "@type": "way",
         "@id": 1136528389,
         "@url": "https://www.openstreetmap.org/way/1136528389",
+        "handrail": "no",
         "highway": "steps",
         "incline": "10°",
         "lit": "yes",
-        "ramp:stroller": "yes",
+        "ramp": "no",
         "smoothness": "good",
         "source": "cuzk:km",
         "step_count": "5",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -49881,7 +49955,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "10",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {

@@ -18943,6 +18943,7 @@
         "@id": 3250140616,
         "@url": "https://www.openstreetmap.org/node/3250140616",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
@@ -18950,7 +18951,8 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "wheelchair": "yes"
       }
     },
     {
@@ -36255,29 +36257,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5820655,
-          49.2301181
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7103216260,
-        "@url": "https://www.openstreetmap.org/node/7103216260",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.644438,
           49.2364186
         ]
@@ -38928,6 +38907,30 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3654173,
+          49.7322243
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7619330536,
+        "@url": "https://www.openstreetmap.org/node/7619330536",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {
@@ -52248,64 +52251,6 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "container",
         "ref:ekokom": "34503"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.587327,
-          49.246647
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9356657421,
-        "@url": "https://www.openstreetmap.org/node/9356657421",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling_type": "container",
-        "ref:ekokom": "34731"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.5875329,
-          49.2452637
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9356657422,
-        "@url": "https://www.openstreetmap.org/node/9356657422",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container",
-        "ref:ekokom": "35022"
       }
     },
     {

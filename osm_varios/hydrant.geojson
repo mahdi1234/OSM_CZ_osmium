@@ -32843,10 +32843,11 @@
         "@type": "node",
         "@id": 11802667279,
         "@url": "https://www.openstreetmap.org/node/11802667279",
-        "colour": "red",
+        "cap:colour": "red",
+        "colour": "gray",
         "couplings": "2",
         "emergency": "fire_hydrant",
-        "fire_hydrant:position": "lane",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "pillar:type": "wet_barrel"
       }
@@ -33418,6 +33419,23 @@
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5876221,
+          49.242767
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11929543738,
+        "@url": "https://www.openstreetmap.org/node/11929543738",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar"
       }
     }
   ]

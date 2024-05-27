@@ -19,6 +19,17 @@ cat ./osm_varios/all_osm_varios.json | ./urlize.sh | grep -e '"recycling:metal":
 echo "electric"
 cat ./osm_varios/all_osm_varios.json | ./urlize.sh | grep -e '"recycling:electrical_appliances":"yes"' -e '"recycling:electrical_items":"yes"' -e '"recycling:electronics":"yes"' -e '"recycling:mobile_phones":"yes"' -e '"recycling:small_appliances":"yes"' -e '"recycling:small_electrical_appliances":"yes"' -e '"recycling:white_goods":"yes"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/electric.geojson
 
+echo "Czech recycling clothes without shoes"
+cat ./osm_varios/all_osm_varios.json | ./urlize.sh | grep -e '"recycling:clothes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:shoes":"yes"' | ./sanitize_json_jq.sh > ./osm_varios/czech_container_no_shoes.geojson
+echo '#!/bin/bash' > ./osm_varios/czech_container_no_shoes_JOSM.sh
+cat ./osm_varios/all_osm_varios.json | ./urlize.sh | grep -e '"recycling:clothes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:shoes":"yes"' | ./josmize.sh >> ./osm_varios/czech_container_no_shoes_JOSM.sh
+
+echo "Czech recycling shoes without clothes"
+cat ./osm_varios/all_osm_varios.json | ./urlize.sh | grep -e '"recycling:shoes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:clothes":"yes"' | ./sanitize_json_jq.sh > ./osm_varios/czech_container_no_clothes.geojson
+echo '#!/bin/bash' > ./osm_varios/czech_container_no_clothes_JOSM.sh
+cat ./osm_varios/all_osm_varios.json | ./urlize.sh | grep -e '"recycling:shoes":"yes"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"recycling:clothes":"yes"' | ./josmize.sh >> ./osm_varios/czech_container_no_clothes_JOSM.sh
+
+
 echo "bezobalace"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/bulk_purchase=* --overwrite -o ./osm_varios/bulk.pbf
 osmium export ./osm_varios/bulk.pbf --overwrite -o ./osm_varios/bulk.json -c ./osmium_options.json

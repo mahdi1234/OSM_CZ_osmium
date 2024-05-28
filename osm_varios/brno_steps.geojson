@@ -114,20 +114,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5371217,
-            49.1906305
+            16.5370901,
+            49.1906113
           ],
           [
-            16.5371844,
-            49.1906442
+            16.5372053,
+            49.1906255
           ],
           [
-            16.5372348,
-            49.1906187
-          ],
-          [
-            16.5374948,
-            49.1903905
+            16.5374834,
+            49.1904216
           ]
         ]
       },
@@ -3114,35 +3110,6 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "26",
-        "surface": "concrete",
-        "tactile_paving": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            16.5345565,
-            49.188907
-          ],
-          [
-            16.5345349,
-            49.1888321
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 43328423,
-        "@url": "https://www.openstreetmap.org/way/43328423",
-        "handrail": "yes",
-        "highway": "steps",
-        "incline": "up",
-        "lit": "yes",
-        "ramp": "no",
-        "step_count": "8",
         "surface": "concrete",
         "tactile_paving": "no"
       }
@@ -47032,6 +46999,7 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
+        "lit": "yes",
         "ramp": "separate",
         "ramp:wheelchair": "separate",
         "step_count": "6",
@@ -55263,6 +55231,115 @@
         "incline": "down",
         "step_count": "5",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5518298,
+            49.1772803
+          ],
+          [
+            16.5518171,
+            49.1772802
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1287007402,
+        "@url": "https://www.openstreetmap.org/way/1287007402",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "yes",
+        "step_count": "3",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5305982,
+            49.1893983
+          ],
+          [
+            16.5305984,
+            49.189386
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1287033791,
+        "@url": "https://www.openstreetmap.org/way/1287033791",
+        "handrail:left": "yes",
+        "highway": "steps",
+        "lit": "no",
+        "smoothness": "excellent",
+        "step_count": "2",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5308475,
+            49.1894
+          ],
+          [
+            16.5308479,
+            49.189392
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1287033793,
+        "@url": "https://www.openstreetmap.org/way/1287033793",
+        "handrail:left": "yes",
+        "highway": "steps",
+        "lit": "yes",
+        "smoothness": "excellent",
+        "step_count": "2",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5658466,
+            49.2679724
+          ],
+          [
+            16.5658373,
+            49.2679937
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1287069766,
+        "@url": "https://www.openstreetmap.org/way/1287069766",
+        "access": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "step_count": "7",
+        "surface": "concrete",
+        "tactile_paving": "no",
+        "width": "2"
       }
     }
   ]

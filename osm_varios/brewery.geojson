@@ -4446,13 +4446,19 @@
         "addr:housenumber": "337/30",
         "addr:postcode": "15000",
         "addr:street": "Lidická",
+        "air_conditioning": "yes",
         "amenity": "restaurant",
         "check_date:opening_hours": "2023-06-12",
+        "indoor_seating": "yes",
         "internet_access": "wlan",
         "microbrewery": "yes",
         "name": "Andělský Pivovar",
         "opening_hours": "Mo-Su 11:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "shop": "beverages",
+        "smoking": "outside",
         "website": "https://www.andelskypivovar.cz/"
       }
     },
@@ -6612,6 +6618,30 @@
         "payment:visa_debit": "yes",
         "payment:visa_electron": "yes",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.365196,
+          49.5978112
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10946194304,
+        "@url": "https://www.openstreetmap.org/node/10946194304",
+        "addr:street": "Loučná",
+        "amenity": "pub",
+        "craft": "brewery",
+        "description": "Naše pivo vás zničí",
+        "email": "info@pivovarnicitel.cz",
+        "microbrewery": "yes",
+        "name": "Minipivovar Ničitel",
+        "phone": "+420 739 159 486",
+        "website": "http://pivovarnicitel.cz/"
       }
     },
     {

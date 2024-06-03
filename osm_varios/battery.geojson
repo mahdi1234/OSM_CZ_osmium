@@ -5149,9 +5149,31 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.313904,
+          48.8919295
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4056679752,
+        "@url": "https://www.openstreetmap.org/node/4056679752",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -5346,6 +5368,7 @@
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -5721,6 +5744,7 @@
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -6124,6 +6148,7 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "no",
+        "recycling:shoes": "yes",
         "recycling:tetrapak": "yes",
         "recycling_type": "container"
       }
@@ -6322,6 +6347,7 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -6691,6 +6717,7 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -6736,6 +6763,7 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -6804,6 +6832,7 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling:waste": "no",
         "recycling_type": "container"
@@ -7092,6 +7121,7 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -7138,6 +7168,7 @@
         "recycling:glass": "no",
         "recycling:paper": "no",
         "recycling:plastic": "no",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -7631,6 +7662,7 @@
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -7974,6 +8006,7 @@
         "recycling:glass_bottles": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -8002,6 +8035,34 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3469588,
+          50.0965341
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6175918902,
+        "@url": "https://www.openstreetmap.org/node/6175918902",
+        "amenity": "recycling",
+        "charity": "yes",
+        "contact:phone": "+420 800839845",
+        "contact:website": "www.textileco.cz",
+        "operator": "Textileco",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -8397,6 +8458,7 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -8454,6 +8516,7 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container",
         "source": "survey"
@@ -27902,6 +27965,88 @@
         "type": "LineString",
         "coordinates": [
           [
+            17.0712171,
+            49.4320563
+          ],
+          [
+            17.0712463,
+            49.431911
+          ],
+          [
+            17.0712679,
+            49.431914
+          ],
+          [
+            17.071633,
+            49.4318739
+          ],
+          [
+            17.0716099,
+            49.4315904
+          ],
+          [
+            17.0708997,
+            49.4315593
+          ],
+          [
+            17.070883,
+            49.431763
+          ],
+          [
+            17.070824,
+            49.432026
+          ],
+          [
+            17.071064,
+            49.432041
+          ],
+          [
+            17.0710922,
+            49.4320444
+          ],
+          [
+            17.0712171,
+            49.4320563
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 862781060,
+        "@url": "https://www.openstreetmap.org/way/862781060",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Určice",
+        "opening_hours": "We 16:00-18:00; Sa 09:00-11:00",
+        "operator": "Obec Určice",
+        "phone": "+420 724 961 523",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.urcice.cz/odpady"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.5384634,
             50.6642525
           ],
@@ -41911,6 +42056,92 @@
         "recycling:waste": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.070824,
+                49.432026
+              ],
+              [
+                17.070883,
+                49.431763
+              ],
+              [
+                17.0708997,
+                49.4315593
+              ],
+              [
+                17.0716099,
+                49.4315904
+              ],
+              [
+                17.071633,
+                49.4318739
+              ],
+              [
+                17.0712679,
+                49.431914
+              ],
+              [
+                17.0712463,
+                49.431911
+              ],
+              [
+                17.0712171,
+                49.4320563
+              ],
+              [
+                17.0710922,
+                49.4320444
+              ],
+              [
+                17.071064,
+                49.432041
+              ],
+              [
+                17.070824,
+                49.432026
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 862781060,
+        "@url": "https://www.openstreetmap.org/way/862781060",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Určice",
+        "opening_hours": "We 16:00-18:00; Sa 09:00-11:00",
+        "operator": "Obec Určice",
+        "phone": "+420 724 961 523",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.urcice.cz/odpady"
       }
     },
     {

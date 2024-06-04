@@ -329,7 +329,8 @@
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "2",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -25364,12 +25365,16 @@
         "@type": "way",
         "@id": 1270742959,
         "@url": "https://www.openstreetmap.org/way/1270742959",
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
         "lit": "yes",
+        "ramp": "no",
         "smoothness": "good",
         "source": "cuzk:km",
         "step_count": "8",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "tactile_paving": "no"
       }
     },
     {
@@ -25424,6 +25429,35 @@
         "source": "uhul:ortofoto",
         "step_count": "8",
         "surface": "asphalt",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5765499,
+            49.2391646
+          ],
+          [
+            16.5765224,
+            49.2391471
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1279440374,
+        "@url": "https://www.openstreetmap.org/way/1279440374",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "8",
+        "surface": "concrete",
         "tactile_paving": "no"
       }
     },
@@ -38686,6 +38720,35 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5868835,
+            49.235816
+          ],
+          [
+            16.5868041,
+            49.2357913
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1270741292,
+        "@url": "https://www.openstreetmap.org/way/1270741292",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "yes",
+        "ramp": "no",
+        "step_count": "15",
+        "surface": "concrete",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5829946,
             49.2075528
           ],
@@ -43048,6 +43111,39 @@
         "step_count": "19",
         "surface": "concrete",
         "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5733295,
+            49.1982005
+          ],
+          [
+            16.5730216,
+            49.1981698
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 8423671,
+        "@url": "https://www.openstreetmap.org/way/8423671",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "name": "Marie Pujmanové",
+        "name:etymology:wikidata": "Q988857",
+        "ramp": "yes",
+        "ramp:stroller": "yes",
+        "step_count": "20",
+        "surface": "concrete",
+        "tactile_paving": "no",
+        "width": "2"
       }
     },
     {
@@ -48230,43 +48326,6 @@
         "step_count": "25",
         "surface": "concrete",
         "tactile_paving": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            16.5734659,
-            49.1982117
-          ],
-          [
-            16.5733295,
-            49.1982005
-          ],
-          [
-            16.5728687,
-            49.1981579
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 8423671,
-        "@url": "https://www.openstreetmap.org/way/8423671",
-        "handrail": "yes",
-        "highway": "steps",
-        "incline": "down",
-        "lit": "yes",
-        "name": "Marie Pujmanové",
-        "name:etymology:wikidata": "Q988857",
-        "ramp": "yes",
-        "ramp:stroller": "yes",
-        "step_count": "26",
-        "surface": "concrete",
-        "tactile_paving": "no",
-        "width": "2"
       }
     },
     {

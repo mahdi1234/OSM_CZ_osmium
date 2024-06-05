@@ -4083,8 +4083,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6111836,
-          49.1323086
+          16.6110103,
+          49.1322385
         ]
       },
       "properties": {
@@ -4094,9 +4094,17 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "container"
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "ref": "12"
       }
     },
     {
@@ -14584,16 +14592,22 @@
         "@url": "https://www.openstreetmap.org/node/9492268973",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref": "1"
       }
     },
     {
@@ -32694,8 +32708,8 @@
             50.3785148
           ],
           [
-            13.7606457,
-            50.3784209
+            13.760649,
+            50.3784199
           ],
           [
             13.7607597,
@@ -32708,6 +32722,10 @@
           [
             13.761176,
             50.3783085
+          ],
+          [
+            13.7609643,
+            50.3784499
           ],
           [
             13.7608671,
@@ -47152,8 +47170,8 @@
           [
             [
               [
-                13.7606457,
-                50.3784209
+                13.760649,
+                50.3784199
               ],
               [
                 13.7607597,
@@ -47168,12 +47186,16 @@
                 50.3783085
               ],
               [
+                13.7609643,
+                50.3784499
+              ],
+              [
                 13.7608671,
                 50.3785148
               ],
               [
-                13.7606457,
-                50.3784209
+                13.760649,
+                50.3784199
               ]
             ]
           ]

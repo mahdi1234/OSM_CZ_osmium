@@ -7150,6 +7150,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6110103,
+          49.1322385
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3243585537,
+        "@url": "https://www.openstreetmap.org/node/3243585537",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "ref": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.83964,
           50.195036
         ]
@@ -27319,6 +27348,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.4991839,
+          49.3248819
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8747144538,
+        "@url": "https://www.openstreetmap.org/node/8747144538",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.4872035,
           49.4634397
         ]
@@ -33154,16 +33210,22 @@
         "@url": "https://www.openstreetmap.org/node/9492268973",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref": "1"
       }
     },
     {
@@ -33183,6 +33245,31 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6155193,
+          49.1345747
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9492316494,
+        "@url": "https://www.openstreetmap.org/node/9492316494",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -64160,8 +64247,8 @@
             50.3785148
           ],
           [
-            13.7606457,
-            50.3784209
+            13.760649,
+            50.3784199
           ],
           [
             13.7607597,
@@ -64174,6 +64261,10 @@
           [
             13.761176,
             50.3783085
+          ],
+          [
+            13.7609643,
+            50.3784499
           ],
           [
             13.7608671,
@@ -64206,6 +64297,50 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.ou-lenesice.cz/obec-7/dokumenty-a-informace/odpady-1/sberny-dvur-1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.7625641,
+            49.1393099
+          ],
+          [
+            16.7626949,
+            49.1392504
+          ],
+          [
+            16.7626382,
+            49.1391688
+          ],
+          [
+            16.7624545,
+            49.1392085
+          ],
+          [
+            16.762471,
+            49.1392259
+          ],
+          [
+            16.7625424,
+            49.1392919
+          ],
+          [
+            16.7625641,
+            49.1393099
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1289354817,
+        "@url": "https://www.openstreetmap.org/way/1289354817",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -82431,8 +82566,8 @@
           [
             [
               [
-                13.7606457,
-                50.3784209
+                13.760649,
+                50.3784199
               ],
               [
                 13.7607597,
@@ -82447,12 +82582,16 @@
                 50.3783085
               ],
               [
+                13.7609643,
+                50.3784499
+              ],
+              [
                 13.7608671,
                 50.3785148
               ],
               [
-                13.7606457,
-                50.3784209
+                13.760649,
+                50.3784199
               ]
             ]
           ]
@@ -82483,6 +82622,54 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.ou-lenesice.cz/obec-7/dokumenty-a-informace/odpady-1/sberny-dvur-1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.7624545,
+                49.1392085
+              ],
+              [
+                16.7626382,
+                49.1391688
+              ],
+              [
+                16.7626949,
+                49.1392504
+              ],
+              [
+                16.7625641,
+                49.1393099
+              ],
+              [
+                16.7625424,
+                49.1392919
+              ],
+              [
+                16.762471,
+                49.1392259
+              ],
+              [
+                16.7624545,
+                49.1392085
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1289354817,
+        "@url": "https://www.openstreetmap.org/way/1289354817",
+        "amenity": "recycling",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

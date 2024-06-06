@@ -25,8 +25,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5566437,
-          49.2095708
+          16.5566712,
+          49.2095423
         ]
       },
       "properties": {
@@ -43,7 +43,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2020-09-12"
+        "survey:date": "2020-09-12"
       }
     },
     {
@@ -33548,6 +33548,24 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4902104,
+          50.1175625
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11958752153,
+        "@url": "https://www.openstreetmap.org/node/11958752153",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     }
   ]

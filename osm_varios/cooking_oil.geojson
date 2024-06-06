@@ -16478,6 +16478,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.2146691,
+          50.0039943
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7235661027,
+        "@url": "https://www.openstreetmap.org/node/7235661027",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4697681,
           48.9905922
         ]
@@ -19763,6 +19785,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.7919004,
+          48.9884352
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8191674114,
+        "@url": "https://www.openstreetmap.org/node/8191674114",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Diváky",
+        "phone": "+420 608 623018",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source": "https://sbirkapp.gov.cz/detail/SPP6GYG5CRZLE5XG/text"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.9930447,
           49.2767101
         ]
@@ -20264,6 +20320,34 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7340446,
+          49.0898363
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8286483626,
+        "@url": "https://www.openstreetmap.org/node/8286483626",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -31775,8 +31859,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8696976,
-          49.0304762
+          16.8696882,
+          49.0304031
         ]
       },
       "properties": {
@@ -49167,6 +49251,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2184711,
+          50.0053399
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11957857673,
+        "@url": "https://www.openstreetmap.org/node/11957857673",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -52121,6 +52228,55 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.7025484,
+            48.8539411
+          ],
+          [
+            16.7027382,
+            48.8538067
+          ],
+          [
+            16.7031519,
+            48.8540569
+          ],
+          [
+            16.7029618,
+            48.8541935
+          ],
+          [
+            16.7025484,
+            48.8539411
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 541907333,
+        "@url": "https://www.openstreetmap.org/way/541907333",
+        "amenity": "recycling",
+        "name": "Sběrné místo Milovice",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.obec-milovice.cz/e_download.php?file=data/editor/mini28cs_4.png&original=Mapa-%20Stanovi%C5%A1t%C4%9B%20pro%20slo%C5%BEky%20odpadu.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.2950651,
             50.8451139
           ],
@@ -53828,6 +53984,67 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.7776012,
+            48.8521041
+          ],
+          [
+            16.7780125,
+            48.8521448
+          ],
+          [
+            16.7781272,
+            48.8521463
+          ],
+          [
+            16.7782664,
+            48.85211
+          ],
+          [
+            16.7785267,
+            48.8521079
+          ],
+          [
+            16.7785119,
+            48.8519567
+          ],
+          [
+            16.7781004,
+            48.8519673
+          ],
+          [
+            16.7775843,
+            48.852022
+          ],
+          [
+            16.7776012,
+            48.8521041
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 998098712,
+        "@url": "https://www.openstreetmap.org/way/998098712",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "centre",
+        "source": "https://sbirkapp.gov.cz/detail/SPPI6PFW3IDKRSC4/text"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.7110401,
             49.1908965
           ],
@@ -54785,8 +55002,8 @@
             49.6386474
           ],
           [
-            16.7118395,
-            49.6386403
+            16.7119146,
+            49.638636
           ],
           [
             16.712191,
@@ -59087,6 +59304,59 @@
           [
             [
               [
+                16.7025484,
+                48.8539411
+              ],
+              [
+                16.7027382,
+                48.8538067
+              ],
+              [
+                16.7031519,
+                48.8540569
+              ],
+              [
+                16.7029618,
+                48.8541935
+              ],
+              [
+                16.7025484,
+                48.8539411
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 541907333,
+        "@url": "https://www.openstreetmap.org/way/541907333",
+        "amenity": "recycling",
+        "name": "Sběrné místo Milovice",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source": "https://www.obec-milovice.cz/e_download.php?file=data/editor/mini28cs_4.png&original=Mapa-%20Stanovi%C5%A1t%C4%9B%20pro%20slo%C5%BEky%20odpadu.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 14.2950651,
                 50.8451139
               ],
@@ -60890,6 +61160,71 @@
           [
             [
               [
+                16.7775843,
+                48.852022
+              ],
+              [
+                16.7781004,
+                48.8519673
+              ],
+              [
+                16.7785119,
+                48.8519567
+              ],
+              [
+                16.7785267,
+                48.8521079
+              ],
+              [
+                16.7782664,
+                48.85211
+              ],
+              [
+                16.7781272,
+                48.8521463
+              ],
+              [
+                16.7780125,
+                48.8521448
+              ],
+              [
+                16.7776012,
+                48.8521041
+              ],
+              [
+                16.7775843,
+                48.852022
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 998098712,
+        "@url": "https://www.openstreetmap.org/way/998098712",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "centre",
+        "source": "https://sbirkapp.gov.cz/detail/SPPI6PFW3IDKRSC4/text"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 14.7110031,
                 49.19024
               ],
@@ -61895,8 +62230,8 @@
                 49.6386125
               ],
               [
-                16.7118395,
-                49.6386403
+                16.7119146,
+                49.638636
               ],
               [
                 16.7117492,

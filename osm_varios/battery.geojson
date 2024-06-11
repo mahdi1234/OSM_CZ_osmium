@@ -7662,24 +7662,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.6688082,
-          49.3034349
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5775656939,
-        "@url": "https://www.openstreetmap.org/node/5775656939",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.5723799,
           49.1687255
         ]
@@ -9412,16 +9394,49 @@
         "@url": "https://www.openstreetmap.org/node/7180677149",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container",
         "source": "uhul:ortofoto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5236498,
+          49.1107926
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7180703096,
+        "@url": "https://www.openstreetmap.org/node/7180703096",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {

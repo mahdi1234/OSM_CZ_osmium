@@ -20891,6 +20891,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.9287072,
+          49.5215842
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8363794324,
+        "@url": "https://www.openstreetmap.org/node/8363794324",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.4971847,
           49.2063288
         ]
@@ -28093,18 +28123,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5663199,
-          49.2726215
+          16.5664861,
+          49.2720667
         ]
       },
       "properties": {
         "@type": "node",
-        "@id": 9672157628,
-        "@url": "https://www.openstreetmap.org/node/9672157628",
+        "@id": 9672157627,
+        "@url": "https://www.openstreetmap.org/node/9672157627",
         "amenity": "recycling",
+        "check_date": "2024-06-12",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:green_waste": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.565805,
+          49.2748513
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9672157631,
+        "@url": "https://www.openstreetmap.org/node/9672157631",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -54149,6 +54204,91 @@
         "type": "LineString",
         "coordinates": [
           [
+            17.9617394,
+            49.4182123
+          ],
+          [
+            17.9618198,
+            49.418321
+          ],
+          [
+            17.9617816,
+            49.4183927
+          ],
+          [
+            17.9614904,
+            49.4183222
+          ],
+          [
+            17.96117,
+            49.4182233
+          ],
+          [
+            17.961152,
+            49.4182436
+          ],
+          [
+            17.9606454,
+            49.4181294
+          ],
+          [
+            17.9606777,
+            49.4180637
+          ],
+          [
+            17.9605656,
+            49.4180359
+          ],
+          [
+            17.9605788,
+            49.4179196
+          ],
+          [
+            17.9611159,
+            49.418055
+          ],
+          [
+            17.9617394,
+            49.4182123
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 923288560,
+        "@url": "https://www.openstreetmap.org/way/923288560",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Bystřička",
+        "operator": "Obec Bystřička",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.bystricka.cz/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.6616967,
             49.8465977
           ],
@@ -55573,6 +55713,69 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevicko.cz/sberny-dvur-likvidace-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.1814339,
+            49.4448861
+          ],
+          [
+            18.181476,
+            49.4451616
+          ],
+          [
+            18.1816791,
+            49.4451271
+          ],
+          [
+            18.181687,
+            49.4450188
+          ],
+          [
+            18.1818699,
+            49.4449363
+          ],
+          [
+            18.1818367,
+            49.4448405
+          ],
+          [
+            18.1814339,
+            49.4448861
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1189333074,
+        "@url": "https://www.openstreetmap.org/way/1189333074",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Vigantice",
+        "operator": "Obec Vigantice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.vigantice.cz/obec-191/obec-provozuje/sberny-dvur/"
       }
     },
     {
@@ -61329,6 +61532,95 @@
           [
             [
               [
+                17.9605656,
+                49.4180359
+              ],
+              [
+                17.9605788,
+                49.4179196
+              ],
+              [
+                17.9611159,
+                49.418055
+              ],
+              [
+                17.9617394,
+                49.4182123
+              ],
+              [
+                17.9618198,
+                49.418321
+              ],
+              [
+                17.9617816,
+                49.4183927
+              ],
+              [
+                17.9614904,
+                49.4183222
+              ],
+              [
+                17.96117,
+                49.4182233
+              ],
+              [
+                17.961152,
+                49.4182436
+              ],
+              [
+                17.9606454,
+                49.4181294
+              ],
+              [
+                17.9606777,
+                49.4180637
+              ],
+              [
+                17.9605656,
+                49.4180359
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 923288560,
+        "@url": "https://www.openstreetmap.org/way/923288560",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Bystřička",
+        "operator": "Obec Bystřička",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.bystricka.cz/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 15.6608795,
                 49.8467905
               ],
@@ -62819,6 +63111,73 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevicko.cz/sberny-dvur-likvidace-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1814339,
+                49.4448861
+              ],
+              [
+                18.1818367,
+                49.4448405
+              ],
+              [
+                18.1818699,
+                49.4449363
+              ],
+              [
+                18.181687,
+                49.4450188
+              ],
+              [
+                18.1816791,
+                49.4451271
+              ],
+              [
+                18.181476,
+                49.4451616
+              ],
+              [
+                18.1814339,
+                49.4448861
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1189333074,
+        "@url": "https://www.openstreetmap.org/way/1189333074",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Vigantice",
+        "operator": "Obec Vigantice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.vigantice.cz/obec-191/obec-provozuje/sberny-dvur/"
       }
     },
     {

@@ -17690,6 +17690,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5275387,
+          48.9771279
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11980848478,
+        "@url": "https://www.openstreetmap.org/node/11980848478",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -19964,6 +19987,73 @@
         "recycling_type": "centre",
         "source": "survey",
         "website": "https://www.cistaplzen.cz/o-odpadu-v-plzni/sberne-dvory/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.4899042,
+            49.7986418
+          ],
+          [
+            18.4898745,
+            49.7985953
+          ],
+          [
+            18.4897231,
+            49.7983592
+          ],
+          [
+            18.4896801,
+            49.7982921
+          ],
+          [
+            18.4899416,
+            49.7982258
+          ],
+          [
+            18.4901518,
+            49.7985755
+          ],
+          [
+            18.4899042,
+            49.7986418
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 541930858,
+        "@url": "https://www.openstreetmap.org/way/541930858",
+        "addr:city": "Horní Suchá",
+        "addr:postcode": "73535",
+        "addr:street": "Chrost",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Horní Suchá",
+        "operator": "Depos Horní Suchá, a.s.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.depos.cz/dvur-detail/horni-sucha/all"
       }
     },
     {
@@ -23978,6 +24068,77 @@
         "recycling_type": "centre",
         "source": "survey",
         "website": "https://www.cistaplzen.cz/o-odpadu-v-plzni/sberne-dvory/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.4896801,
+                49.7982921
+              ],
+              [
+                18.4899416,
+                49.7982258
+              ],
+              [
+                18.4901518,
+                49.7985755
+              ],
+              [
+                18.4899042,
+                49.7986418
+              ],
+              [
+                18.4898745,
+                49.7985953
+              ],
+              [
+                18.4897231,
+                49.7983592
+              ],
+              [
+                18.4896801,
+                49.7982921
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 541930858,
+        "@url": "https://www.openstreetmap.org/way/541930858",
+        "addr:city": "Horní Suchá",
+        "addr:postcode": "73535",
+        "addr:street": "Chrost",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Horní Suchá",
+        "operator": "Depos Horní Suchá, a.s.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.depos.cz/dvur-detail/horni-sucha/all"
       }
     },
     {

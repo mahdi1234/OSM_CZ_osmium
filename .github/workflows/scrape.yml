@@ -22,6 +22,7 @@ jobs:
         ./phone_booths.sh
         ./osm_varios.sh
         ./ekokom.sh
+        ./peaks.sh
         ./remove.sh
       shell: bash 
     - name: Commit and push if it changed

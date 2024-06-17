@@ -39444,6 +39444,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.5771492,
+          49.328754
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10748180331,
+        "@url": "https://www.openstreetmap.org/node/10748180331",
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.6878478,
           49.8369947
         ]
@@ -48178,6 +48201,35 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5887979,
+          49.5009072
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11985342567,
+        "@url": "https://www.openstreetmap.org/node/11985342567",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -66626,6 +66678,94 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.valtice.eu/mesto/instituce/instituce-mesta/sprava-majetku/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.5853667,
+            49.5055807
+          ],
+          [
+            15.5859196,
+            49.5054022
+          ],
+          [
+            15.5860148,
+            49.5054708
+          ],
+          [
+            15.5860584,
+            49.5057405
+          ],
+          [
+            15.5860584,
+            49.5058078
+          ],
+          [
+            15.5860443,
+            49.5058646
+          ],
+          [
+            15.5860152,
+            49.5058914
+          ],
+          [
+            15.5859837,
+            49.5059099
+          ],
+          [
+            15.5858998,
+            49.5059275
+          ],
+          [
+            15.5858546,
+            49.5059269
+          ],
+          [
+            15.5855102,
+            49.5057061
+          ],
+          [
+            15.5854613,
+            49.5056743
+          ],
+          [
+            15.5853667,
+            49.5055807
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1292854491,
+        "@url": "https://www.openstreetmap.org/way/1292854491",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Štoky",
+        "phone": "+420 601 394 472",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.stoky.cz/sberny-dvur/ds-5145"
       }
     },
     {
@@ -86096,6 +86236,98 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.valtice.eu/mesto/instituce/instituce-mesta/sprava-majetku/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.5853667,
+                49.5055807
+              ],
+              [
+                15.5859196,
+                49.5054022
+              ],
+              [
+                15.5860148,
+                49.5054708
+              ],
+              [
+                15.5860584,
+                49.5057405
+              ],
+              [
+                15.5860584,
+                49.5058078
+              ],
+              [
+                15.5860443,
+                49.5058646
+              ],
+              [
+                15.5860152,
+                49.5058914
+              ],
+              [
+                15.5859837,
+                49.5059099
+              ],
+              [
+                15.5858998,
+                49.5059275
+              ],
+              [
+                15.5858546,
+                49.5059269
+              ],
+              [
+                15.5855102,
+                49.5057061
+              ],
+              [
+                15.5854613,
+                49.5056743
+              ],
+              [
+                15.5853667,
+                49.5055807
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1292854491,
+        "@url": "https://www.openstreetmap.org/way/1292854491",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Štoky",
+        "phone": "+420 601 394 472",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.stoky.cz/sberny-dvur/ds-5145"
       }
     }
   ]

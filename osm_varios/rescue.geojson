@@ -3190,10 +3190,12 @@
         "@type": "node",
         "@id": 4407766958,
         "@url": "https://www.openstreetmap.org/node/4407766958",
-        "emergency": "access_point",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "ref": "47"
+        "name": "Bílý Křížek",
+        "operator": "Vojenské lesy a statky",
+        "ref": "47",
+        "source:name": "Fody imagery"
       }
     },
     {
@@ -26559,6 +26561,59 @@
         "@url": "https://www.openstreetmap.org/node/11985969638",
         "highway": "emergency_access_point",
         "ref": "OP 027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8426592,
+          50.1315123
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11986387901,
+        "@url": "https://www.openstreetmap.org/node/11986387901",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "ref": "RA031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4819812,
+          50.1983339
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11987101916,
+        "@url": "https://www.openstreetmap.org/node/11987101916",
+        "highway": "emergency_access_point",
+        "ref": "RK008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7551714,
+          49.9027973
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11987104030,
+        "@url": "https://www.openstreetmap.org/node/11987104030",
+        "highway": "emergency_access_point",
+        "ref": "UO017"
       }
     },
     {

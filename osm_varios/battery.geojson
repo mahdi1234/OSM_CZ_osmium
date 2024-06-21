@@ -20971,6 +20971,59 @@
         "type": "LineString",
         "coordinates": [
           [
+            17.4829048,
+            49.2013443
+          ],
+          [
+            17.4827843,
+            49.2012738
+          ],
+          [
+            17.4828315,
+            49.2011552
+          ],
+          [
+            17.4829661,
+            49.2012165
+          ],
+          [
+            17.4829048,
+            49.2013443
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 106493144,
+        "@url": "https://www.openstreetmap.org/way/106493144",
+        "amenity": "recycling",
+        "description": "Sběrný dvůr v horní části obce",
+        "operator": "Sběrný dvůr Žlutava",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.zlutava.cz/obec-608/odpad-centrum/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             18.2289142,
             49.54367
           ],
@@ -29081,6 +29134,7 @@
         "@id": 905014461,
         "@url": "https://www.openstreetmap.org/way/905014461",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
@@ -29646,12 +29700,12 @@
             49.141946
           ],
           [
-            17.2281618,
-            49.1418527
+            17.2282327,
+            49.1418206
           ],
           [
-            17.2282679,
-            49.1419296
+            17.2283257,
+            49.1418895
           ],
           [
             17.2279922,
@@ -29664,7 +29718,7 @@
         "@id": 951700885,
         "@url": "https://www.openstreetmap.org/way/951700885",
         "amenity": "recycling",
-        "area:highway": "yes",
+        "landuse": "industrial",
         "mobile": "+420 778 082 908",
         "opening_hours": "Sa 08:00-12:00",
         "recycling:batteries": "yes",
@@ -35683,6 +35737,63 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.4827843,
+                49.2012738
+              ],
+              [
+                17.4828315,
+                49.2011552
+              ],
+              [
+                17.4829661,
+                49.2012165
+              ],
+              [
+                17.4829048,
+                49.2013443
+              ],
+              [
+                17.4827843,
+                49.2012738
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 106493144,
+        "@url": "https://www.openstreetmap.org/way/106493144",
+        "amenity": "recycling",
+        "description": "Sběrný dvůr v horní části obce",
+        "operator": "Sběrný dvůr Žlutava",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.zlutava.cz/obec-608/odpad-centrum/"
       }
     },
     {
@@ -44245,6 +44356,7 @@
         "@id": 905014461,
         "@url": "https://www.openstreetmap.org/way/905014461",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "recycling:batteries": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
@@ -44832,12 +44944,12 @@
                 49.141946
               ],
               [
-                17.2281618,
-                49.1418527
+                17.2282327,
+                49.1418206
               ],
               [
-                17.2282679,
-                49.1419296
+                17.2283257,
+                49.1418895
               ],
               [
                 17.2279922,
@@ -44856,7 +44968,7 @@
         "@id": 951700885,
         "@url": "https://www.openstreetmap.org/way/951700885",
         "amenity": "recycling",
-        "area:highway": "yes",
+        "landuse": "industrial",
         "mobile": "+420 778 082 908",
         "opening_hours": "Sa 08:00-12:00",
         "recycling:batteries": "yes",

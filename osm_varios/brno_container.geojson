@@ -3457,6 +3457,88 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5864181,
+            49.2210514
+          ],
+          [
+            16.5863139,
+            49.2210222
+          ],
+          [
+            16.5863406,
+            49.2209814
+          ],
+          [
+            16.5864448,
+            49.2210105
+          ],
+          [
+            16.5864181,
+            49.2210514
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1293846124,
+        "@url": "https://www.openstreetmap.org/way/1293846124",
+        "amenity": "recycling",
+        "covered": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5861859,
+            49.2209865
+          ],
+          [
+            16.5860669,
+            49.2209532
+          ],
+          [
+            16.5860937,
+            49.2209124
+          ],
+          [
+            16.5862127,
+            49.2209456
+          ],
+          [
+            16.5861859,
+            49.2209865
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1293846140,
+        "@url": "https://www.openstreetmap.org/way/1293846140",
+        "amenity": "recycling",
+        "covered": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -3494,6 +3576,96 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5863139,
+                49.2210222
+              ],
+              [
+                16.5863406,
+                49.2209814
+              ],
+              [
+                16.5864448,
+                49.2210105
+              ],
+              [
+                16.5864181,
+                49.2210514
+              ],
+              [
+                16.5863139,
+                49.2210222
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1293846124,
+        "@url": "https://www.openstreetmap.org/way/1293846124",
+        "amenity": "recycling",
+        "covered": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5860669,
+                49.2209532
+              ],
+              [
+                16.5860937,
+                49.2209124
+              ],
+              [
+                16.5862127,
+                49.2209456
+              ],
+              [
+                16.5861859,
+                49.2209865
+              ],
+              [
+                16.5860669,
+                49.2209532
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1293846140,
+        "@url": "https://www.openstreetmap.org/way/1293846140",
+        "amenity": "recycling",
+        "covered": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     }

@@ -1775,11 +1775,14 @@
         "@id": 9557637842,
         "@url": "https://www.openstreetmap.org/node/9557637842",
         "access": "yes",
+        "check_date": "2024-06-19",
         "defibrillator:location": "AED umístěn na vrátnici",
         "emergency": "defibrillator",
         "indoor": "yes",
         "level": "0",
-        "operator": "DJKT Plzeň"
+        "opening_hours": "24/7",
+        "operator": "DJKT Plzeň",
+        "phone": "+420 378 038 059"
       }
     },
     {
@@ -3515,12 +3518,36 @@
         "@type": "node",
         "@id": 11976258954,
         "@url": "https://www.openstreetmap.org/node/11976258954",
+        "access": "private",
+        "check_date": "2024-06-11",
         "defibrillator:location": "AED na služebně MP",
+        "defibrillator:location:cs": "umístěn na dozorčí službě na služebně městské policie",
         "emergency": "defibrillator",
         "indoor": "yes",
         "level": "0",
         "opening_hours": "24/7",
-        "operator": "MP Plzeň"
+        "operator": "MP Plzeň",
+        "phone": "+420 378 036 918"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3526363,
+          49.3815849
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11997565506,
+        "@url": "https://www.openstreetmap.org/node/11997565506",
+        "access": "yes",
+        "defibrillator:location": "on the building wall",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "opening_hours": "24/7"
       }
     }
   ]

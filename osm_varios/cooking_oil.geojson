@@ -6293,6 +6293,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6193812,
+          49.4399317
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2752715294,
+        "@url": "https://www.openstreetmap.org/node/2752715294",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5327861,
           50.2631916
         ]
@@ -19695,13 +19725,15 @@
         "@id": 7903914551,
         "@url": "https://www.openstreetmap.org/node/7903914551",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "wheelchair": "yes"
       }
     },
     {
@@ -20068,6 +20100,27 @@
         "recycling:plastic": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.292305,
+          49.3982566
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8138426693,
+        "@url": "https://www.openstreetmap.org/node/8138426693",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -25151,7 +25204,7 @@
         "type": "Point",
         "coordinates": [
           14.2931345,
-          48.9038111
+          48.9038116
         ]
       },
       "properties": {
@@ -55334,6 +55387,107 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.7719385,
+            48.9111426
+          ],
+          [
+            16.7717946,
+            48.9110921
+          ],
+          [
+            16.7716216,
+            48.9110321
+          ],
+          [
+            16.7714976,
+            48.9109541
+          ],
+          [
+            16.7714439,
+            48.9109135
+          ],
+          [
+            16.7714087,
+            48.910834
+          ],
+          [
+            16.7713894,
+            48.9107661
+          ],
+          [
+            16.7715197,
+            48.9107693
+          ],
+          [
+            16.771515,
+            48.9108349
+          ],
+          [
+            16.771519,
+            48.9108827
+          ],
+          [
+            16.7718015,
+            48.9108928
+          ],
+          [
+            16.7718062,
+            48.9107598
+          ],
+          [
+            16.7722201,
+            48.9107874
+          ],
+          [
+            16.7722597,
+            48.9108111
+          ],
+          [
+            16.7719807,
+            48.911099
+          ],
+          [
+            16.7719385,
+            48.9111426
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 845383235,
+        "@url": "https://www.openstreetmap.org/way/845383235",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Starovičky",
+        "opening_hours": "Th 15:00-17:00; Sa 09:00-11:00",
+        "phone": "+420 724 749 654",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.starovicky.cz/obec/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             17.0712171,
             49.4320563
           ],
@@ -55984,15 +56138,18 @@
         "@id": 951944277,
         "@url": "https://www.openstreetmap.org/way/951944277",
         "amenity": "recycling",
+        "mobile": "+420 602 618 002",
         "name": "Sběrný dvůr města Chropyně",
+        "opening_hours": "Mo,We 12:00-18:00; Sa 08:00-14:00",
         "operator": "Správa majetku města Chropyně p.o.",
-        "recycling:batteries": "no",
+        "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -56003,8 +56160,10 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.smmchropyne.cz/smm/odpadove-hospodarstvi/sberny-dvur/"
@@ -57591,6 +57750,50 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.vigantice.cz/obec-191/obec-provozuje/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.5474494,
+            49.0845185
+          ],
+          [
+            17.5475185,
+            49.0841657
+          ],
+          [
+            17.5480219,
+            49.0841904
+          ],
+          [
+            17.547966,
+            49.0844456
+          ],
+          [
+            17.5474494,
+            49.0845185
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1198142170,
+        "@url": "https://www.openstreetmap.org/way/1198142170",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Mistřice",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "centre",
+        "website": "https://mistrice.cz/p/sberny-dvur"
       }
     },
     {
@@ -63555,6 +63758,111 @@
           [
             [
               [
+                16.7713894,
+                48.9107661
+              ],
+              [
+                16.7715197,
+                48.9107693
+              ],
+              [
+                16.771515,
+                48.9108349
+              ],
+              [
+                16.771519,
+                48.9108827
+              ],
+              [
+                16.7718015,
+                48.9108928
+              ],
+              [
+                16.7718062,
+                48.9107598
+              ],
+              [
+                16.7722201,
+                48.9107874
+              ],
+              [
+                16.7722597,
+                48.9108111
+              ],
+              [
+                16.7719807,
+                48.911099
+              ],
+              [
+                16.7719385,
+                48.9111426
+              ],
+              [
+                16.7717946,
+                48.9110921
+              ],
+              [
+                16.7716216,
+                48.9110321
+              ],
+              [
+                16.7714976,
+                48.9109541
+              ],
+              [
+                16.7714439,
+                48.9109135
+              ],
+              [
+                16.7714087,
+                48.910834
+              ],
+              [
+                16.7713894,
+                48.9107661
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 845383235,
+        "@url": "https://www.openstreetmap.org/way/845383235",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Starovičky",
+        "opening_hours": "Th 15:00-17:00; Sa 09:00-11:00",
+        "phone": "+420 724 749 654",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.starovicky.cz/obec/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 17.070824,
                 49.432026
               ],
@@ -64235,15 +64543,18 @@
         "@id": 951944277,
         "@url": "https://www.openstreetmap.org/way/951944277",
         "amenity": "recycling",
+        "mobile": "+420 602 618 002",
         "name": "Sběrný dvůr města Chropyně",
+        "opening_hours": "Mo,We 12:00-18:00; Sa 08:00-14:00",
         "operator": "Správa majetku města Chropyně p.o.",
-        "recycling:batteries": "no",
+        "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -64254,8 +64565,10 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.smmchropyne.cz/smm/odpadove-hospodarstvi/sberny-dvur/"
@@ -65922,6 +66235,54 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.vigantice.cz/obec-191/obec-provozuje/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.5474494,
+                49.0845185
+              ],
+              [
+                17.5475185,
+                49.0841657
+              ],
+              [
+                17.5480219,
+                49.0841904
+              ],
+              [
+                17.547966,
+                49.0844456
+              ],
+              [
+                17.5474494,
+                49.0845185
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1198142170,
+        "@url": "https://www.openstreetmap.org/way/1198142170",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Mistřice",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "centre",
+        "website": "https://mistrice.cz/p/sberny-dvur"
       }
     },
     {

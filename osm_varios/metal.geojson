@@ -24163,32 +24163,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5954835,
-          49.2041326
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4180713909,
-        "@url": "https://www.openstreetmap.org/node/4180713909",
-        "amenity": "recycling",
-        "check_date:recycling": "2023-09-19",
-        "location": "overground",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.1272714,
           49.4664387
         ]
@@ -33492,30 +33466,6 @@
         "recycling:scrap_metal": "yes",
         "recycling:waste": "yes",
         "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.5931946,
-          49.2032144
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6166146409,
-        "@url": "https://www.openstreetmap.org/node/6166146409",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container",
-        "wheelchair": "yes"
       }
     },
     {
@@ -44228,13 +44178,15 @@
         "@id": 7903914551,
         "@url": "https://www.openstreetmap.org/node/7903914551",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "wheelchair": "yes"
       }
     },
     {
@@ -100034,6 +99986,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3680222,
+          49.3570217
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11999672726,
+        "@url": "https://www.openstreetmap.org/node/11999672726",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -106456,6 +106432,78 @@
         "type": "LineString",
         "coordinates": [
           [
+            17.4971767,
+            49.1377895
+          ],
+          [
+            17.4973386,
+            49.137682
+          ],
+          [
+            17.4976376,
+            49.1374814
+          ],
+          [
+            17.4974763,
+            49.1373769
+          ],
+          [
+            17.4969837,
+            49.1370602
+          ],
+          [
+            17.4968635,
+            49.1370812
+          ],
+          [
+            17.496529,
+            49.1373727
+          ],
+          [
+            17.4969111,
+            49.1376186
+          ],
+          [
+            17.4971767,
+            49.1377895
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 367426126,
+        "@url": "https://www.openstreetmap.org/way/367426126",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "email": "kucera.petr@spytihnev.cz",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Tu,Th 14:00-16:00; Sa 09:00-14:00",
+        "phone": "+420 724 022 892",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.spytihnev.cz/sluzby-obce/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.6366309,
             49.9221445
           ],
@@ -112757,6 +112805,107 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.7719385,
+            48.9111426
+          ],
+          [
+            16.7717946,
+            48.9110921
+          ],
+          [
+            16.7716216,
+            48.9110321
+          ],
+          [
+            16.7714976,
+            48.9109541
+          ],
+          [
+            16.7714439,
+            48.9109135
+          ],
+          [
+            16.7714087,
+            48.910834
+          ],
+          [
+            16.7713894,
+            48.9107661
+          ],
+          [
+            16.7715197,
+            48.9107693
+          ],
+          [
+            16.771515,
+            48.9108349
+          ],
+          [
+            16.771519,
+            48.9108827
+          ],
+          [
+            16.7718015,
+            48.9108928
+          ],
+          [
+            16.7718062,
+            48.9107598
+          ],
+          [
+            16.7722201,
+            48.9107874
+          ],
+          [
+            16.7722597,
+            48.9108111
+          ],
+          [
+            16.7719807,
+            48.911099
+          ],
+          [
+            16.7719385,
+            48.9111426
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 845383235,
+        "@url": "https://www.openstreetmap.org/way/845383235",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Starovičky",
+        "opening_hours": "Th 15:00-17:00; Sa 09:00-11:00",
+        "phone": "+420 724 749 654",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.starovicky.cz/obec/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.9027575,
             50.4264829
           ],
@@ -114679,15 +114828,18 @@
         "@id": 951944277,
         "@url": "https://www.openstreetmap.org/way/951944277",
         "amenity": "recycling",
+        "mobile": "+420 602 618 002",
         "name": "Sběrný dvůr města Chropyně",
+        "opening_hours": "Mo,We 12:00-18:00; Sa 08:00-14:00",
         "operator": "Správa majetku města Chropyně p.o.",
-        "recycling:batteries": "no",
+        "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -114698,8 +114850,10 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.smmchropyne.cz/smm/odpadove-hospodarstvi/sberny-dvur/"
@@ -118233,6 +118387,88 @@
         "recycling:wood": "yes",
         "recycling_type": "container",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.0279855,
+            50.0920359
+          ],
+          [
+            15.0279865,
+            50.0920272
+          ],
+          [
+            15.0271495,
+            50.0919842
+          ],
+          [
+            15.0270776,
+            50.0919834
+          ],
+          [
+            15.0270167,
+            50.0926351
+          ],
+          [
+            15.0271995,
+            50.0927217
+          ],
+          [
+            15.0276934,
+            50.0928241
+          ],
+          [
+            15.0281221,
+            50.0927372
+          ],
+          [
+            15.0286998,
+            50.092359
+          ],
+          [
+            15.0289046,
+            50.0921322
+          ],
+          [
+            15.0289016,
+            50.0921047
+          ],
+          [
+            15.0288431,
+            50.0921001
+          ],
+          [
+            15.0281526,
+            50.0920676
+          ],
+          [
+            15.0281552,
+            50.0920434
+          ],
+          [
+            15.0279941,
+            50.0920364
+          ],
+          [
+            15.0279855,
+            50.0920359
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1161732170,
+        "@url": "https://www.openstreetmap.org/way/1161732170",
+        "amenity": "recycling",
+        "name": "SAKER Pečky",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.saker.cz"
       }
     },
     {
@@ -122241,6 +122477,72 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.stoky.cz/sberny-dvur/ds-5145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5929116,
+            49.1430542
+          ],
+          [
+            16.5933253,
+            49.1429971
+          ],
+          [
+            16.5933439,
+            49.1430521
+          ],
+          [
+            16.5933585,
+            49.1430951
+          ],
+          [
+            16.5933179,
+            49.143101
+          ],
+          [
+            16.592943,
+            49.1431553
+          ],
+          [
+            16.5929267,
+            49.1431071
+          ],
+          [
+            16.5929116,
+            49.1430542
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1294836838,
+        "@url": "https://www.openstreetmap.org/way/1294836838",
+        "addr:city": "Moravany",
+        "addr:postcode": "66448",
+        "addr:street": "U Čističky",
+        "amenity": "recycling",
+        "contact:phone": "+420 603 939 114",
+        "contact:website": "https://www.moravanyubrna.cz/kontakty/sberne-misto-u-cov",
+        "nohousenumber": "yes",
+        "opening_hours": "We 14:00-18:00; Sa 08:00-12:00",
+        "operator:wikidata": "Q1809680",
+        "recycling:compost": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electronics": "yes",
+        "recycling:glass": "yes",
+        "recycling:low_energy_bulbs": "private",
+        "recycling:paper": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "private",
+        "recycling:tv_monitors": "yes",
+        "recycling_type": "centre",
+        "surface": "paving_stones"
       }
     },
     {
@@ -129022,6 +129324,82 @@
           [
             [
               [
+                17.496529,
+                49.1373727
+              ],
+              [
+                17.4968635,
+                49.1370812
+              ],
+              [
+                17.4969837,
+                49.1370602
+              ],
+              [
+                17.4974763,
+                49.1373769
+              ],
+              [
+                17.4976376,
+                49.1374814
+              ],
+              [
+                17.4973386,
+                49.137682
+              ],
+              [
+                17.4971767,
+                49.1377895
+              ],
+              [
+                17.4969111,
+                49.1376186
+              ],
+              [
+                17.496529,
+                49.1373727
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 367426126,
+        "@url": "https://www.openstreetmap.org/way/367426126",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "email": "kucera.petr@spytihnev.cz",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Tu,Th 14:00-16:00; Sa 09:00-14:00",
+        "phone": "+420 724 022 892",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.spytihnev.cz/sluzby-obce/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 14.6366309,
                 49.9221445
               ],
@@ -135699,6 +136077,111 @@
           [
             [
               [
+                16.7713894,
+                48.9107661
+              ],
+              [
+                16.7715197,
+                48.9107693
+              ],
+              [
+                16.771515,
+                48.9108349
+              ],
+              [
+                16.771519,
+                48.9108827
+              ],
+              [
+                16.7718015,
+                48.9108928
+              ],
+              [
+                16.7718062,
+                48.9107598
+              ],
+              [
+                16.7722201,
+                48.9107874
+              ],
+              [
+                16.7722597,
+                48.9108111
+              ],
+              [
+                16.7719807,
+                48.911099
+              ],
+              [
+                16.7719385,
+                48.9111426
+              ],
+              [
+                16.7717946,
+                48.9110921
+              ],
+              [
+                16.7716216,
+                48.9110321
+              ],
+              [
+                16.7714976,
+                48.9109541
+              ],
+              [
+                16.7714439,
+                48.9109135
+              ],
+              [
+                16.7714087,
+                48.910834
+              ],
+              [
+                16.7713894,
+                48.9107661
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 845383235,
+        "@url": "https://www.openstreetmap.org/way/845383235",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Starovičky",
+        "opening_hours": "Th 15:00-17:00; Sa 09:00-11:00",
+        "phone": "+420 724 749 654",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.starovicky.cz/obec/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 14.902708,
                 50.4264995
               ],
@@ -137723,15 +138206,18 @@
         "@id": 951944277,
         "@url": "https://www.openstreetmap.org/way/951944277",
         "amenity": "recycling",
+        "mobile": "+420 602 618 002",
         "name": "Sběrný dvůr města Chropyně",
+        "opening_hours": "Mo,We 12:00-18:00; Sa 08:00-14:00",
         "operator": "Správa majetku města Chropyně p.o.",
-        "recycling:batteries": "no",
+        "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -137742,8 +138228,10 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.smmchropyne.cz/smm/odpadove-hospodarstvi/sberny-dvur/"
@@ -141483,8 +141971,8 @@
           [
             [
               [
-                15.0270382,
-                50.0926403
+                15.0270167,
+                50.0926351
               ],
               [
                 15.0270776,
@@ -141531,29 +142019,29 @@
                 50.092359
               ],
               [
-                15.0278879,
-                50.0928817
+                15.0281221,
+                50.0927372
               ],
               [
-                15.0277077,
-                50.0928321
+                15.0276934,
+                50.0928241
               ],
               [
-                15.027229,
-                50.0927429
+                15.0271995,
+                50.0927217
               ],
               [
-                15.0270382,
-                50.0926403
+                15.0270167,
+                50.0926351
               ]
             ]
           ]
         ]
       },
       "properties": {
-        "@type": "relation",
-        "@id": 15713154,
-        "@url": "https://www.openstreetmap.org/relation/15713154",
+        "@type": "way",
+        "@id": 1161732170,
+        "@url": "https://www.openstreetmap.org/way/1161732170",
         "amenity": "recycling",
         "name": "SAKER Pečky",
         "recycling:scrap_metal": "yes",
@@ -145783,6 +146271,76 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.stoky.cz/sberny-dvur/ds-5145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5929116,
+                49.1430542
+              ],
+              [
+                16.5933253,
+                49.1429971
+              ],
+              [
+                16.5933439,
+                49.1430521
+              ],
+              [
+                16.5933585,
+                49.1430951
+              ],
+              [
+                16.5933179,
+                49.143101
+              ],
+              [
+                16.592943,
+                49.1431553
+              ],
+              [
+                16.5929267,
+                49.1431071
+              ],
+              [
+                16.5929116,
+                49.1430542
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1294836838,
+        "@url": "https://www.openstreetmap.org/way/1294836838",
+        "addr:city": "Moravany",
+        "addr:postcode": "66448",
+        "addr:street": "U Čističky",
+        "amenity": "recycling",
+        "contact:phone": "+420 603 939 114",
+        "contact:website": "https://www.moravanyubrna.cz/kontakty/sberne-misto-u-cov",
+        "nohousenumber": "yes",
+        "opening_hours": "We 14:00-18:00; Sa 08:00-12:00",
+        "operator:wikidata": "Q1809680",
+        "recycling:compost": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electronics": "yes",
+        "recycling:glass": "yes",
+        "recycling:low_energy_bulbs": "private",
+        "recycling:paper": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "private",
+        "recycling:tv_monitors": "yes",
+        "recycling_type": "centre",
+        "surface": "paving_stones"
       }
     }
   ]

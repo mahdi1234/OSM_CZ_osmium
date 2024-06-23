@@ -80,7 +80,10 @@
         "@id": 2558870259,
         "@url": "https://www.openstreetmap.org/node/2558870259",
         "amenity": "recycling",
-        "recycling_type": "centre"
+        "name": "Sběrný dvůr Strážnice",
+        "phone": "+420 518 333 164",
+        "recycling_type": "centre",
+        "website": "https://straznice-mesto.cz/vismo/o_utvar.asp?id_org=15665&id_u=1122&n=sberny%2Ddvur%2Dstraznice&p1=28917"
       }
     },
     {
@@ -121,25 +124,6 @@
         "name": "Sběrný dvůr Milotice",
         "recycling_type": "centre",
         "ref:ruian:addr": "73373656"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.3955856,
-          49.0431231
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5340893321,
-        "@url": "https://www.openstreetmap.org/node/5340893321",
-        "amenity": "recycling",
-        "name": "PURUPLAST",
-        "name:cs": "PURUPLAST",
-        "recycling_type": "centre"
       }
     },
     {
@@ -466,63 +450,6 @@
           [
             [
               [
-                17.496529,
-                49.1373727
-              ],
-              [
-                17.4968635,
-                49.1370812
-              ],
-              [
-                17.4969837,
-                49.1370602
-              ],
-              [
-                17.4974763,
-                49.1373769
-              ],
-              [
-                17.4976376,
-                49.1374814
-              ],
-              [
-                17.4973386,
-                49.137682
-              ],
-              [
-                17.4971767,
-                49.1377895
-              ],
-              [
-                17.4969111,
-                49.1376186
-              ],
-              [
-                17.496529,
-                49.1373727
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 367426126,
-        "@url": "https://www.openstreetmap.org/way/367426126",
-        "amenity": "recycling",
-        "barrier": "fence",
-        "name": "Sběrný dvůr",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
                 17.0370741,
                 48.859053
               ],
@@ -651,53 +578,6 @@
         "@type": "way",
         "@id": 792680946,
         "@url": "https://www.openstreetmap.org/way/792680946",
-        "amenity": "recycling",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                16.7717946,
-                48.9110921
-              ],
-              [
-                16.7718008,
-                48.9107964
-              ],
-              [
-                16.7721705,
-                48.9108086
-              ],
-              [
-                16.7722303,
-                48.9108415
-              ],
-              [
-                16.7719807,
-                48.911099
-              ],
-              [
-                16.7719385,
-                48.9111426
-              ],
-              [
-                16.7717946,
-                48.9110921
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 845383235,
-        "@url": "https://www.openstreetmap.org/way/845383235",
         "amenity": "recycling",
         "recycling_type": "centre"
       }
@@ -897,45 +777,6 @@
           [
             [
               [
-                17.4694295,
-                49.1020838
-              ],
-              [
-                17.4696387,
-                49.1019752
-              ],
-              [
-                17.469782,
-                49.1020949
-              ],
-              [
-                17.4695697,
-                49.1022053
-              ],
-              [
-                17.4694295,
-                49.1020838
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1189302654,
-        "@url": "https://www.openstreetmap.org/way/1189302654",
-        "amenity": "recycling",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
                 16.669098,
                 49.1935248
               ],
@@ -984,46 +825,6 @@
         "operator": "SAKO Brno, a.s.",
         "recycling_type": "centre",
         "start_date": "2023-08-01"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                17.5476321,
-                49.0844834
-              ],
-              [
-                17.547667,
-                49.0842307
-              ],
-              [
-                17.5480286,
-                49.0842457
-              ],
-              [
-                17.5480056,
-                49.0844364
-              ],
-              [
-                17.5476321,
-                49.0844834
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1198142170,
-        "@url": "https://www.openstreetmap.org/way/1198142170",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Mistřice",
-        "recycling_type": "centre"
       }
     },
     {
@@ -1142,6 +943,45 @@
         "@type": "way",
         "@id": 1280797492,
         "@url": "https://www.openstreetmap.org/way/1280797492",
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.7667984,
+                49.1079852
+              ],
+              [
+                16.7668605,
+                49.1078463
+              ],
+              [
+                16.7674421,
+                49.1079521
+              ],
+              [
+                16.7673673,
+                49.1080971
+              ],
+              [
+                16.7667984,
+                49.1079852
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1294947593,
+        "@url": "https://www.openstreetmap.org/way/1294947593",
         "amenity": "recycling",
         "recycling_type": "centre"
       }

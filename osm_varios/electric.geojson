@@ -6391,14 +6391,14 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
+        "recycling:cans": "no",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:scrap_metal": "no",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container",
@@ -65202,6 +65202,80 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.669098,
+            49.1935248
+          ],
+          [
+            16.670314,
+            49.1938286
+          ],
+          [
+            16.6706239,
+            49.193295
+          ],
+          [
+            16.6706716,
+            49.1929678
+          ],
+          [
+            16.6706001,
+            49.1928275
+          ],
+          [
+            16.6694854,
+            49.192995
+          ],
+          [
+            16.6693186,
+            49.1931119
+          ],
+          [
+            16.669098,
+            49.1935248
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1196137793,
+        "@url": "https://www.openstreetmap.org/way/1196137793",
+        "addr:city": "Brno",
+        "addr:housenumber": "4",
+        "addr:street": "Jedovnická",
+        "amenity": "recycling",
+        "mobile": "+420 736 784 599",
+        "name": "SSO Jedovnická",
+        "operator": "SAKO Brno, a.s.",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "start_date": "2023-08-01",
+        "website": "https://www.sbernydvurbrno.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             17.5474494,
             49.0845185
           ],
@@ -85762,6 +85836,84 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.vigantice.cz/obec-191/obec-provozuje/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.669098,
+                49.1935248
+              ],
+              [
+                16.6693186,
+                49.1931119
+              ],
+              [
+                16.6694854,
+                49.192995
+              ],
+              [
+                16.6706001,
+                49.1928275
+              ],
+              [
+                16.6706716,
+                49.1929678
+              ],
+              [
+                16.6706239,
+                49.193295
+              ],
+              [
+                16.670314,
+                49.1938286
+              ],
+              [
+                16.669098,
+                49.1935248
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1196137793,
+        "@url": "https://www.openstreetmap.org/way/1196137793",
+        "addr:city": "Brno",
+        "addr:housenumber": "4",
+        "addr:street": "Jedovnická",
+        "amenity": "recycling",
+        "mobile": "+420 736 784 599",
+        "name": "SSO Jedovnická",
+        "operator": "SAKO Brno, a.s.",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "start_date": "2023-08-01",
+        "website": "https://www.sbernydvurbrno.cz/"
       }
     },
     {

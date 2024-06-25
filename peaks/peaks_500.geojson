@@ -14572,6 +14572,7 @@
         "foot": "yes",
         "hiking": "yes",
         "information": "guidepost",
+        "inscription": "Horská ves, barokní kostel z roku 1689, rokoková socha panny Marie z roku 1771",
         "name": "Malá Morava (přejezd, bus)",
         "operator": "cz:KČT",
         "ref": "SU465",
@@ -14583,17 +14584,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8476162,
-          50.0888531
+          16.8476216,
+          50.0885046
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 1819294917,
         "@url": "https://www.openstreetmap.org/node/1819294917",
+        "bicycle": "yes",
         "ele": "505",
         "hiking": "yes",
         "information": "guidepost",
+        "inscription": "Moravská pohraniční dráha (MGB) Hanušovice - Dolní Lipka v provozu od 15.10.1873",
         "name": "Podlesí (u žst)",
         "operator": "cz:KČT",
         "ref": "SU463",
@@ -91275,6 +91278,27 @@
         "@url": "https://www.openstreetmap.org/node/12001302321",
         "ele": "564",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.144651,
+          49.5792814
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12006318897,
+        "@url": "https://www.openstreetmap.org/node/12006318897",
+        "board_type": "nature",
+        "ele": "505",
+        "hiking": "yes",
+        "information": "board",
+        "name": "Okružní cesta",
+        "tourism": "information"
       }
     },
     {

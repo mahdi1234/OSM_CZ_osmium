@@ -8856,7 +8856,8 @@
         "name": "Sběrné místo Zdiby",
         "opening_hours": "Mo,Th 15:00-18:00; Sa 09:00-12:00",
         "operator": "Obec Zdiby",
-        "phone": "+420 607 164 050; +420 774 986 023",
+        "operator:type": "council",
+        "phone": "+420 607 164 050;+420 774 986 023",
         "recycling:cans": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:green_waste": "yes",
@@ -19935,8 +19936,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8450856,
-          50.18379
+          15.8449853,
+          50.1838277
         ]
       },
       "properties": {
@@ -19946,6 +19947,7 @@
         "amenity": "recycling",
         "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
+        "recycling:organic": "yes",
         "recycling_type": "container"
       }
     },

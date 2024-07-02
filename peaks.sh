@@ -8,7 +8,7 @@ osmium export ./peaks/peaks.pbf --overwrite -o ./peaks/peaks.json -c ./osmium_op
 cat ./peaks/peaks.json | ./urlize.sh | grep -e '"ele":' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./peaks/peaks.geojson
 
 echo "over 1000m"
-cat ./peaks/peaks.json | ./urlize.sh |  grep -e '"ele":"1[[:digit:]][[:digit:]][[:digit:]]"' -e '"ele":"9[[:digit:]][[:digit:]][[:digit:]]\.[[:digit:]]' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./peaks/peaks_1000.geojson
+cat ./peaks/peaks.json | ./urlize.sh |  grep -e '"ele":"1[[:digit:]][[:digit:]][[:digit:]]"' -e '"ele":"1[[:digit:]][[:digit:]][[:digit:]]\.[[:digit:]]' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./peaks/peaks_1000.geojson
 
 echo "over 900m"
 cat ./peaks/peaks.json | ./urlize.sh |  grep -e '"ele":"9[[:digit:]][[:digit:]]"' -e '"ele":"9[[:digit:]][[:digit:]]\.[[:digit:]]' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./peaks/peaks_900.geojson

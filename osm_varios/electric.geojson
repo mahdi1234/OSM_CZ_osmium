@@ -68689,6 +68689,59 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.231976,
+            48.6404067
+          ],
+          [
+            14.231964,
+            48.6403477
+          ],
+          [
+            14.2323308,
+            48.6403012
+          ],
+          [
+            14.2323663,
+            48.6404293
+          ],
+          [
+            14.232196,
+            48.6404494
+          ],
+          [
+            14.231976,
+            48.6404067
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1298961729,
+        "@url": "https://www.openstreetmap.org/way/1298961729",
+        "amenity": "recycling",
+        "name": "Sběrné místo",
+        "opening_hours": "Mo,We 13:00-17:30; Sa 08:00-12:00",
+        "operator": "Obec Lipno nad Vltavou",
+        "recycling:beverage_cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.lipnonadvltavou.cz/obec-1/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -89506,6 +89559,63 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://ujezdubrna.cz/sberny-dvur-cenik-a-informace/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.231964,
+                48.6403477
+              ],
+              [
+                14.2323308,
+                48.6403012
+              ],
+              [
+                14.2323663,
+                48.6404293
+              ],
+              [
+                14.232196,
+                48.6404494
+              ],
+              [
+                14.231976,
+                48.6404067
+              ],
+              [
+                14.231964,
+                48.6403477
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1298961729,
+        "@url": "https://www.openstreetmap.org/way/1298961729",
+        "amenity": "recycling",
+        "name": "Sběrné místo",
+        "opening_hours": "Mo,We 13:00-17:30; Sa 08:00-12:00",
+        "operator": "Obec Lipno nad Vltavou",
+        "recycling:beverage_cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.lipnonadvltavou.cz/obec-1/odpadove-hospodarstvi/"
       }
     }
   ]

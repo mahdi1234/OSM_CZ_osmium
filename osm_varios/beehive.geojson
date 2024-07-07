@@ -7991,6 +7991,41 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.8182136,
+            50.1913578
+          ],
+          [
+            15.8182213,
+            50.1913464
+          ],
+          [
+            15.8182618,
+            50.1913576
+          ],
+          [
+            15.8182541,
+            50.191369
+          ],
+          [
+            15.8182136,
+            50.1913578
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1299527800,
+        "@url": "https://www.openstreetmap.org/way/1299527800",
+        "building": "cabin",
+        "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -9420,6 +9455,45 @@
         "@type": "way",
         "@id": 1284221564,
         "@url": "https://www.openstreetmap.org/way/1284221564",
+        "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.8182136,
+                50.1913578
+              ],
+              [
+                15.8182213,
+                50.1913464
+              ],
+              [
+                15.8182618,
+                50.1913576
+              ],
+              [
+                15.8182541,
+                50.191369
+              ],
+              [
+                15.8182136,
+                50.1913578
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1299527800,
+        "@url": "https://www.openstreetmap.org/way/1299527800",
+        "building": "cabin",
         "man_made": "beehive"
       }
     }

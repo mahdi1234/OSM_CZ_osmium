@@ -16660,8 +16660,8 @@
         "@id": 6410456107,
         "@url": "https://www.openstreetmap.org/node/6410456107",
         "amenity": "recycling",
-        "recycling:batteries": "yes",
         "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -26763,9 +26763,9 @@
         "addr:postcode": "66451",
         "addr:street": "Dlouhá",
         "amenity": "recycling",
-        "check_date:opening_hours": "2022-08-03",
+        "check_date:opening_hours": "2024-07-06",
         "name": "Středisko sběrného odpadu Dlouhá",
-        "opening_hours": "Sa 09:00-12:00",
+        "opening_hours": "We,Fr 13:00-18:00",
         "operator": "KTS Ekologie, s.r.o.",
         "phone": "604524789",
         "recycling:batteries": "yes",
@@ -48967,6 +48967,37 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7057226,
+          49.3945788
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12036594602,
+        "@url": "https://www.openstreetmap.org/node/12036594602",
+        "amenity": "recycling",
+        "opening_hours": "Mo,We 14:00-17:00; Sa 09:00-12:00",
+        "phone": "+420 573 379 750",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -63746,12 +63777,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.2560639,
-            48.6200487
+            14.256038,
+            48.6200331
           ],
           [
-            14.2562317,
-            48.6200527
+            14.2562258,
+            48.6200488
           ],
           [
             14.2566643,
@@ -63782,16 +63813,16 @@
             48.6202539
           ],
           [
-            14.2560734,
-            48.6202334
+            14.2560793,
+            48.6202451
           ],
           [
-            14.2559871,
-            48.6202131
+            14.2559665,
+            48.6202274
           ],
           [
-            14.2560639,
-            48.6200487
+            14.256038,
+            48.6200331
           ]
         ]
       },
@@ -68769,6 +68800,109 @@
         "recycling:plastic_packaging": "yes",
         "recycling_type": "centre",
         "website": "https://www.lipnonadvltavou.cz/obec-1/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.2866245,
+            50.4202853
+          ],
+          [
+            14.2869309,
+            50.4204217
+          ],
+          [
+            14.2862932,
+            50.4209438
+          ],
+          [
+            14.2859749,
+            50.4214121
+          ],
+          [
+            14.2858484,
+            50.421538
+          ],
+          [
+            14.2857192,
+            50.4215975
+          ],
+          [
+            14.2856021,
+            50.4214974
+          ],
+          [
+            14.2855694,
+            50.4215122
+          ],
+          [
+            14.2852597,
+            50.4212462
+          ],
+          [
+            14.2853391,
+            50.4212039
+          ],
+          [
+            14.2853124,
+            50.4211728
+          ],
+          [
+            14.2853277,
+            50.4211548
+          ],
+          [
+            14.2856154,
+            50.4210011
+          ],
+          [
+            14.2857925,
+            50.4210342
+          ],
+          [
+            14.2860505,
+            50.4207862
+          ],
+          [
+            14.2861512,
+            50.4207006
+          ],
+          [
+            14.2862901,
+            50.4206101
+          ],
+          [
+            14.2862947,
+            50.4205547
+          ],
+          [
+            14.2866245,
+            50.4202853
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1299514544,
+        "@url": "https://www.openstreetmap.org/way/1299514544",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Roudnice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -84371,16 +84505,16 @@
           [
             [
               [
-                14.2559871,
-                48.6202131
+                14.2559665,
+                48.6202274
               ],
               [
-                14.2560639,
-                48.6200487
+                14.256038,
+                48.6200331
               ],
               [
-                14.2562317,
-                48.6200527
+                14.2562258,
+                48.6200488
               ],
               [
                 14.2566643,
@@ -84411,12 +84545,12 @@
                 48.6202539
               ],
               [
-                14.2560734,
-                48.6202334
+                14.2560793,
+                48.6202451
               ],
               [
-                14.2559871,
-                48.6202131
+                14.2559665,
+                48.6202274
               ]
             ]
           ]
@@ -89680,6 +89814,113 @@
         "recycling:plastic_packaging": "yes",
         "recycling_type": "centre",
         "website": "https://www.lipnonadvltavou.cz/obec-1/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.2852597,
+                50.4212462
+              ],
+              [
+                14.2853391,
+                50.4212039
+              ],
+              [
+                14.2853124,
+                50.4211728
+              ],
+              [
+                14.2853277,
+                50.4211548
+              ],
+              [
+                14.2856154,
+                50.4210011
+              ],
+              [
+                14.2857925,
+                50.4210342
+              ],
+              [
+                14.2860505,
+                50.4207862
+              ],
+              [
+                14.2861512,
+                50.4207006
+              ],
+              [
+                14.2862901,
+                50.4206101
+              ],
+              [
+                14.2862947,
+                50.4205547
+              ],
+              [
+                14.2866245,
+                50.4202853
+              ],
+              [
+                14.2869309,
+                50.4204217
+              ],
+              [
+                14.2862932,
+                50.4209438
+              ],
+              [
+                14.2859749,
+                50.4214121
+              ],
+              [
+                14.2858484,
+                50.421538
+              ],
+              [
+                14.2857192,
+                50.4215975
+              ],
+              [
+                14.2856021,
+                50.4214974
+              ],
+              [
+                14.2855694,
+                50.4215122
+              ],
+              [
+                14.2852597,
+                50.4212462
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1299514544,
+        "@url": "https://www.openstreetmap.org/way/1299514544",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Roudnice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

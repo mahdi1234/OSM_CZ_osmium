@@ -34718,60 +34718,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7566904,
-          49.2817589
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6468624210,
-        "@url": "https://www.openstreetmap.org/node/6468624210",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.750689,
-          49.2819547
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6468624211,
-        "@url": "https://www.openstreetmap.org/node/6468624211",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.7578867,
           49.2825251
         ]
@@ -88396,8 +88342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.8867699,
-          50.2329234
+          12.8867936,
+          50.2328891
         ]
       },
       "properties": {
@@ -100982,31 +100928,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.211586,
-          49.8461991
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12022506248,
-        "@url": "https://www.openstreetmap.org/node/12022506248",
-        "addr:city": "Ostrava",
-        "addr:street": "Prudká",
-        "amenity": "recycling",
-        "building": "yes",
-        "name": "Sběrna odpadů",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.8560926,
           50.1954709
         ]
@@ -101481,6 +101402,34 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8866756,
+          50.2415781
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12049027614,
+        "@url": "https://www.openstreetmap.org/node/12049027614",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -124218,6 +124167,52 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://ujezdubrna.cz/sberny-dvur-cenik-a-informace/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.2115837,
+            49.8461618
+          ],
+          [
+            18.2114512,
+            49.8463602
+          ],
+          [
+            18.2118561,
+            49.8464856
+          ],
+          [
+            18.2118524,
+            49.8464378
+          ],
+          [
+            18.2117599,
+            49.8463003
+          ],
+          [
+            18.2115837,
+            49.8461618
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1300901295,
+        "@url": "https://www.openstreetmap.org/way/1300901295",
+        "addr:street": "Výhledy",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -148226,6 +148221,56 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://ujezdubrna.cz/sberny-dvur-cenik-a-informace/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.2114512,
+                49.8463602
+              ],
+              [
+                18.2115837,
+                49.8461618
+              ],
+              [
+                18.2117599,
+                49.8463003
+              ],
+              [
+                18.2118524,
+                49.8464378
+              ],
+              [
+                18.2118561,
+                49.8464856
+              ],
+              [
+                18.2114512,
+                49.8463602
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1300901295,
+        "@url": "https://www.openstreetmap.org/way/1300901295",
+        "addr:street": "Výhledy",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

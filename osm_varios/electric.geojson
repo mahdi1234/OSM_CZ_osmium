@@ -49278,12 +49278,21 @@
         "@id": 12055892113,
         "@url": "https://www.openstreetmap.org/node/12055892113",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:metal": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -69195,6 +69204,128 @@
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.5786655,
+            49.5285593
+          ],
+          [
+            17.5786779,
+            49.5285612
+          ],
+          [
+            17.5787723,
+            49.5285755
+          ],
+          [
+            17.5790452,
+            49.5286177
+          ],
+          [
+            17.5790298,
+            49.528666
+          ],
+          [
+            17.5790948,
+            49.5286747
+          ],
+          [
+            17.5790291,
+            49.5288697
+          ],
+          [
+            17.5790594,
+            49.5288733
+          ],
+          [
+            17.579144,
+            49.528885
+          ],
+          [
+            17.5791023,
+            49.5290033
+          ],
+          [
+            17.57911,
+            49.5290044
+          ],
+          [
+            17.5790941,
+            49.5290495
+          ],
+          [
+            17.5790121,
+            49.5292303
+          ],
+          [
+            17.5790044,
+            49.5292524
+          ],
+          [
+            17.5790113,
+            49.5292536
+          ],
+          [
+            17.5789805,
+            49.5293339
+          ],
+          [
+            17.5788444,
+            49.5293079
+          ],
+          [
+            17.5788485,
+            49.5292975
+          ],
+          [
+            17.5787108,
+            49.5292796
+          ],
+          [
+            17.5787068,
+            49.5292893
+          ],
+          [
+            17.5786717,
+            49.529299
+          ],
+          [
+            17.5786437,
+            49.5293164
+          ],
+          [
+            17.5784313,
+            49.5292916
+          ],
+          [
+            17.5786655,
+            49.5285593
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1301376600,
+        "@url": "https://www.openstreetmap.org/way/1301376600",
+        "addr:city": "Lipník nad Bečvou",
+        "addr:housenumber": "1422",
+        "addr:postcode": "75131",
+        "addr:street": "Svat. Čecha",
+        "amenity": "recycling",
+        "mobile": "+420 603 509 313",
+        "name": "Sběrný Dvůr Lipník nad Bečvou",
+        "opening_hours": "Mo-Fr 09:00-11:30, 12:00-17:00; Sa[2] 08:00-12:00",
+        "operator": "Technické služby Lipník nad Bečvou",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ts-lipnik.cz/povinne-zverejnovane-informace/sberny-dvur"
       }
     },
     {
@@ -90213,6 +90344,132 @@
         "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.5784313,
+                49.5292916
+              ],
+              [
+                17.5786655,
+                49.5285593
+              ],
+              [
+                17.5786779,
+                49.5285612
+              ],
+              [
+                17.5787723,
+                49.5285755
+              ],
+              [
+                17.5790452,
+                49.5286177
+              ],
+              [
+                17.5790298,
+                49.528666
+              ],
+              [
+                17.5790948,
+                49.5286747
+              ],
+              [
+                17.5790291,
+                49.5288697
+              ],
+              [
+                17.5790594,
+                49.5288733
+              ],
+              [
+                17.579144,
+                49.528885
+              ],
+              [
+                17.5791023,
+                49.5290033
+              ],
+              [
+                17.57911,
+                49.5290044
+              ],
+              [
+                17.5790941,
+                49.5290495
+              ],
+              [
+                17.5790121,
+                49.5292303
+              ],
+              [
+                17.5790044,
+                49.5292524
+              ],
+              [
+                17.5790113,
+                49.5292536
+              ],
+              [
+                17.5789805,
+                49.5293339
+              ],
+              [
+                17.5788444,
+                49.5293079
+              ],
+              [
+                17.5788485,
+                49.5292975
+              ],
+              [
+                17.5787108,
+                49.5292796
+              ],
+              [
+                17.5787068,
+                49.5292893
+              ],
+              [
+                17.5786717,
+                49.529299
+              ],
+              [
+                17.5786437,
+                49.5293164
+              ],
+              [
+                17.5784313,
+                49.5292916
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1301376600,
+        "@url": "https://www.openstreetmap.org/way/1301376600",
+        "addr:city": "Lipník nad Bečvou",
+        "addr:housenumber": "1422",
+        "addr:postcode": "75131",
+        "addr:street": "Svat. Čecha",
+        "amenity": "recycling",
+        "mobile": "+420 603 509 313",
+        "name": "Sběrný Dvůr Lipník nad Bečvou",
+        "opening_hours": "Mo-Fr 09:00-11:30, 12:00-17:00; Sa[2] 08:00-12:00",
+        "operator": "Technické služby Lipník nad Bečvou",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ts-lipnik.cz/povinne-zverejnovane-informace/sberny-dvur"
       }
     }
   ]

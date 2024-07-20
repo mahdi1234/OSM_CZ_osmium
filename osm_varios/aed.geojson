@@ -104,7 +104,9 @@
         "@type": "node",
         "@id": 3145362838,
         "@url": "https://www.openstreetmap.org/node/3145362838",
+        "defibrillator:location": "Přístroj umístěn v pracovně všeobecných sester.",
         "emergency": "defibrillator",
+        "indoor": "yes",
         "phone": "+420 272 916 454"
       }
     },
@@ -3617,18 +3619,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7608398,
-          50.0844863
+          16.7608095,
+          50.0845057
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 12061796348,
         "@url": "https://www.openstreetmap.org/node/12061796348",
-        "description": "Znajduje się wewnątrz budynku, na lewo od wejścia",
+        "description": "PL: Defibrylator znajduje się wewnątrz budynku, tuż za wejściem, po prawej stronie. Naprzeciwko bankomatu. Defibrylator wisi na ścianie.\nDostępny jest chyba całą dobę, bo wejście było nadal otwarte ok 23:30 w ciągu tygodnia.",
         "emergency": "defibrillator",
         "indoor": "yes",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5776577,
+          50.7146355
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12063716183,
+        "@url": "https://www.openstreetmap.org/node/12063716183",
+        "emergency": "defibrillator",
+        "indoor": "yes"
       }
     }
   ]

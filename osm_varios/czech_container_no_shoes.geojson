@@ -640,7 +640,6 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.zbiroh.cz/mesto/odpadove-hospodarstvi/skladka-chotetin-sberny-dvur"
@@ -664,6 +663,28 @@
         "recycling:glass": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2753046,
+          49.9634356
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8194379605,
+        "@url": "https://www.openstreetmap.org/node/8194379605",
+        "amenity": "recycling",
+        "check_date:recycling": "2024-07-19",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -3025,6 +3046,7 @@
         "@id": 9071039772,
         "@url": "https://www.openstreetmap.org/node/9071039772",
         "amenity": "recycling",
+        "check_date:recycling": "2024-07-19",
         "covered": "no",
         "indoor": "no",
         "operator": "Linka bezpečí",
@@ -6171,7 +6193,7 @@
         "@url": "https://www.openstreetmap.org/node/9590184154",
         "amenity": "recycling",
         "recycling:clothes": "yes",
-        "recycling:electrical_items": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -6279,7 +6301,7 @@
         "@url": "https://www.openstreetmap.org/node/9601782176",
         "amenity": "recycling",
         "recycling:clothes": "yes",
-        "recycling:electrical_items": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -7281,7 +7303,7 @@
         "@url": "https://www.openstreetmap.org/node/9909944981",
         "amenity": "recycling",
         "recycling:clothes": "yes",
-        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

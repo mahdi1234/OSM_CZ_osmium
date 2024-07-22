@@ -6689,6 +6689,22 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1272067,
+          49.5744255
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12066831111,
+        "@url": "https://www.openstreetmap.org/node/12066831111",
+        "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -8021,6 +8037,43 @@
         "@url": "https://www.openstreetmap.org/way/1299527800",
         "building": "cabin",
         "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.2618324,
+            50.3060294
+          ],
+          [
+            13.2618351,
+            50.3060003
+          ],
+          [
+            13.2619679,
+            50.306002
+          ],
+          [
+            13.2619659,
+            50.3060307
+          ],
+          [
+            13.2618324,
+            50.3060294
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1302869910,
+        "@url": "https://www.openstreetmap.org/way/1302869910",
+        "building": "static_caravan",
+        "description": "linkový autobus upravený na včelín",
+        "description:en": "bus converted to an apiary",
+        "landuse": "apiary"
       }
     },
     {
@@ -9495,6 +9548,47 @@
         "@url": "https://www.openstreetmap.org/way/1299527800",
         "building": "cabin",
         "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.2618324,
+                50.3060294
+              ],
+              [
+                13.2618351,
+                50.3060003
+              ],
+              [
+                13.2619679,
+                50.306002
+              ],
+              [
+                13.2619659,
+                50.3060307
+              ],
+              [
+                13.2618324,
+                50.3060294
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1302869910,
+        "@url": "https://www.openstreetmap.org/way/1302869910",
+        "building": "static_caravan",
+        "description": "linkový autobus upravený na včelín",
+        "description:en": "bus converted to an apiary",
+        "landuse": "apiary"
       }
     }
   ]

@@ -635,8 +635,8 @@
         "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
         "recycling:oil": "yes",
-        "recycling:paint": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -17903,6 +17903,24 @@
         "operator": "Textileco",
         "recycling:clothes": "yes",
         "recycling:textiles": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6857806,
+          49.39656
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12068105514,
+        "@url": "https://www.openstreetmap.org/node/12068105514",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
         "recycling_type": "container"
       }
     },

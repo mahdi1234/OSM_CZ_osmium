@@ -18994,8 +18994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3143793,
-          48.8199467
+          14.314383,
+          48.8199681
         ]
       },
       "properties": {
@@ -19004,12 +19004,18 @@
         "@url": "https://www.openstreetmap.org/node/6959205506",
         "amenity": "recycling",
         "operator": "Služby města Český Krumlov s.r.o.",
-        "recycling:electrical_appliances": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -19681,24 +19687,6 @@
         "recycling:clothes": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.5479699,
-          49.1246632
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7148695764,
-        "@url": "https://www.openstreetmap.org/node/7148695764",
-        "amenity": "recycling",
-        "recycling:electrical_items": "yes",
         "recycling_type": "container"
       }
     },
@@ -22207,24 +22195,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3270045,
-          48.8219018
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7608130305,
-        "@url": "https://www.openstreetmap.org/node/7608130305",
-        "amenity": "recycling",
-        "recycling:electrical_items": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.5114388,
           50.9071582
         ]
@@ -22284,24 +22254,6 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.3143626,
-          48.8199142
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7626053600,
-        "@url": "https://www.openstreetmap.org/node/7626053600",
-        "amenity": "recycling",
-        "recycling:electrical_items": "yes",
         "recycling_type": "container"
       }
     },
@@ -44562,8 +44514,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6928741,
-          49.3833838
+          14.6929079,
+          49.3833793
         ]
       },
       "properties": {
@@ -58596,7 +58548,6 @@
         "operator:type": "public",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -60815,7 +60766,6 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "source": "survey"
@@ -79160,7 +79110,6 @@
         "operator:type": "public",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
         "recycling:glass": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -81499,7 +81448,6 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "source": "survey"

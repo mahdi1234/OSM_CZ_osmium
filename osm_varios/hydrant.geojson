@@ -15250,6 +15250,7 @@
         "@id": 6726164442,
         "@url": "https://www.openstreetmap.org/node/6726164442",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "underground"
       }
     },
@@ -34344,6 +34345,49 @@
         "colour": "red",
         "emergency": "fire_hydrant",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4717309,
+          49.3284748
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12074179236,
+        "@url": "https://www.openstreetmap.org/node/12074179236",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "3",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5958558,
+          49.5309215
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12075912354,
+        "@url": "https://www.openstreetmap.org/node/12075912354",
+        "colour": "red",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar",
+        "name": "DN80 PN16"
       }
     }
   ]

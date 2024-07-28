@@ -6084,6 +6084,48 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4716347,
+            49.3283252
+          ],
+          [
+            16.4717196,
+            49.3282053
+          ],
+          [
+            16.4714106,
+            49.3281123
+          ],
+          [
+            16.4713267,
+            49.3282306
+          ],
+          [
+            16.4716347,
+            49.3283252
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1304141190,
+        "@url": "https://www.openstreetmap.org/way/1304141190",
+        "amenity": "recycling",
+        "opening_hours": "We,Sa 15:00-17:00",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -10192,6 +10234,52 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4713267,
+                49.3282306
+              ],
+              [
+                16.4714106,
+                49.3281123
+              ],
+              [
+                16.4717196,
+                49.3282053
+              ],
+              [
+                16.4716347,
+                49.3283252
+              ],
+              [
+                16.4713267,
+                49.3282306
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1304141190,
+        "@url": "https://www.openstreetmap.org/way/1304141190",
+        "amenity": "recycling",
+        "opening_hours": "We,Sa 15:00-17:00",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

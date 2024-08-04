@@ -9791,6 +9791,7 @@
         "@id": 3735365650,
         "@url": "https://www.openstreetmap.org/node/3735365650",
         "amenity": "recycling",
+        "check_date:recycling": "2024-08-03",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
@@ -49775,6 +49776,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6176689,
+          49.0402878
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11913341482,
+        "@url": "https://www.openstreetmap.org/node/11913341482",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5894276,
           49.4195532
         ]
@@ -52267,6 +52293,30 @@
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0780494,
+          50.5937231
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12089795220,
+        "@url": "https://www.openstreetmap.org/node/12089795220",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },

@@ -49328,6 +49328,31 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6541013,
+          49.0139028
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12090876206,
+        "@url": "https://www.openstreetmap.org/node/12090876206",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -68782,6 +68807,7 @@
         "@id": 1289354817,
         "@url": "https://www.openstreetmap.org/way/1289354817",
         "amenity": "recycling",
+        "name": "Místo zpětného odběru použitých elektrozařízení",
         "recycling:electrical_appliances": "yes",
         "recycling_type": "centre"
       }
@@ -90011,6 +90037,7 @@
         "@id": 1289354817,
         "@url": "https://www.openstreetmap.org/way/1289354817",
         "amenity": "recycling",
+        "name": "Místo zpětného odběru použitých elektrozařízení",
         "recycling:electrical_appliances": "yes",
         "recycling_type": "centre"
       }

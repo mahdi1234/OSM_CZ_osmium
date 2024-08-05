@@ -49305,6 +49305,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.3496451,
+          49.1573669
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12078399785,
+        "@url": "https://www.openstreetmap.org/node/12078399785",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.8173081,
           50.2071586
         ]
@@ -49330,6 +49362,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.4273331,
+          49.1212148
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12086827353,
+        "@url": "https://www.openstreetmap.org/node/12086827353",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6541013,
           49.0139028
         ]
@@ -49347,6 +49407,32 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2771898,
+          49.3757025
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12092396742,
+        "@url": "https://www.openstreetmap.org/node/12092396742",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -50501,8 +50587,10 @@
         "@type": "way",
         "@id": 55663113,
         "@url": "https://www.openstreetmap.org/way/55663113",
+        "addr:postcode": "664 34",
         "amenity": "recycling",
         "building": "yes",
+        "check_date": "2024-08-04",
         "name": "Sběrné středisko Havlíčkova",
         "name:cs": "Sběrný dvůr",
         "opening_hours": "Mo-Fr 07:00-17:00; Sa 07:00-12:00",
@@ -69499,6 +69587,75 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.0142748,
+            49.1730763
+          ],
+          [
+            18.0139369,
+            49.1733945
+          ],
+          [
+            18.0133617,
+            49.173258
+          ],
+          [
+            18.0136502,
+            49.1731619
+          ],
+          [
+            18.0136997,
+            49.1730613
+          ],
+          [
+            18.0140483,
+            49.173037
+          ],
+          [
+            18.0141422,
+            49.1730533
+          ],
+          [
+            18.0142748,
+            49.1730763
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1304798450,
+        "@url": "https://www.openstreetmap.org/way/1304798450",
+        "amenity": "recycling",
+        "name": "Odpadové centrum Lačnov",
+        "phone": "+420 739 087 727",
+        "recording:hazardous_waste": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.lacnov.eu/obec-1/odpadove-centrum/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -70707,8 +70864,10 @@
         "@type": "way",
         "@id": 55663113,
         "@url": "https://www.openstreetmap.org/way/55663113",
+        "addr:postcode": "664 34",
         "amenity": "recycling",
         "building": "yes",
+        "check_date": "2024-08-04",
         "name": "Sběrné středisko Havlíčkova",
         "name:cs": "Sběrný dvůr",
         "opening_hours": "Mo-Fr 07:00-17:00; Sa 07:00-12:00",
@@ -90760,6 +90919,79 @@
         "recycling:low_energy_bulbs": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.0133617,
+                49.173258
+              ],
+              [
+                18.0136502,
+                49.1731619
+              ],
+              [
+                18.0136997,
+                49.1730613
+              ],
+              [
+                18.0140483,
+                49.173037
+              ],
+              [
+                18.0141422,
+                49.1730533
+              ],
+              [
+                18.0142748,
+                49.1730763
+              ],
+              [
+                18.0139369,
+                49.1733945
+              ],
+              [
+                18.0133617,
+                49.173258
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1304798450,
+        "@url": "https://www.openstreetmap.org/way/1304798450",
+        "amenity": "recycling",
+        "name": "Odpadové centrum Lačnov",
+        "phone": "+420 739 087 727",
+        "recording:hazardous_waste": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.lacnov.eu/obec-1/odpadove-centrum/"
       }
     }
   ]

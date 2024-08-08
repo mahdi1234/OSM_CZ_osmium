@@ -3194,7 +3194,7 @@
         "@id": 2516002212,
         "@url": "https://www.openstreetmap.org/node/2516002212",
         "amenity": "recycling",
-        "check_date": "2021-07-19",
+        "check_date": "2024-08-07",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass_bottles": "yes",
@@ -12071,7 +12071,9 @@
         "@url": "https://www.openstreetmap.org/node/8401080918",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
         "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "no",
@@ -19648,6 +19650,51 @@
         "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.633277,
+          50.5906939
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12096859708,
+        "@url": "https://www.openstreetmap.org/node/12096859708",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6624777,
+          50.5693677
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12097020520,
+        "@url": "https://www.openstreetmap.org/node/12097020520",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

@@ -1516,7 +1516,6 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
-        "ref:ruian:addr": "26830639",
         "source": "cuzk:km",
         "website": "https://www.mestopacov.cz/lesotech-s-r-o/os-1004"
       }
@@ -19695,6 +19694,32 @@
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5858807,
+          49.5261174
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12099009993,
+        "@url": "https://www.openstreetmap.org/node/12099009993",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },

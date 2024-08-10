@@ -858,6 +858,9 @@
         "addr:housenumber": "95",
         "addr:street": "Harrachov",
         "amenity": "restaurant",
+        "brewery": "yes",
+        "changing_table": "yes",
+        "check_date": "2024-08-09",
         "internet_access": "wlan",
         "language:menu:cs": "yes",
         "language:menu:de": "yes",
@@ -874,6 +877,8 @@
         "payment:notes": "yes",
         "payment:visa": "yes",
         "phone": "+420 605 096 631",
+        "reservation": "yes",
+        "toilets": "yes",
         "website": "https://www.pivovarharrachov.cz",
         "wheelchair": "no"
       }
@@ -7310,6 +7315,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9429847,
+          50.4695473
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12101220931,
+        "@url": "https://www.openstreetmap.org/node/12101220931",
+        "craft": "brewery",
+        "name": "Garp",
+        "website": "https://www.pivogarp.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -12019,6 +12042,7 @@
         "@url": "https://www.openstreetmap.org/way/209405482",
         "building": "hotel",
         "building:levels": "3",
+        "check_date": "2024-08-09",
         "craft": "brewery",
         "internet_access": "yes",
         "microbrewery": "yes",
@@ -19723,6 +19747,7 @@
         "@url": "https://www.openstreetmap.org/way/209405482",
         "building": "hotel",
         "building:levels": "3",
+        "check_date": "2024-08-09",
         "craft": "brewery",
         "internet_access": "yes",
         "microbrewery": "yes",

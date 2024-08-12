@@ -16,6 +16,7 @@
         "@url": "https://www.openstreetmap.org/node/117460318",
         "amenity": "recycling",
         "name": "Sběrný dvůr hl.m. Prahy",
+        "opening_hours": "Apr-Nov: Tu,Th,Fr 09:00-15:00; Apr-Nov: Mo,We 12:00-19:00; Apr-Nov: Sa 09:00-12:00; Dec-Mar: Mo,We 10:30-16:30; Dec-Mar: Tu,Th,Fr 09:00-15:00; Dec-Mar: Sa 09:00-12:00",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
@@ -36666,10 +36667,11 @@
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -69917,6 +69919,80 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.1168944,
+            49.0672479
+          ],
+          [
+            16.1168743,
+            49.0669456
+          ],
+          [
+            16.1169007,
+            49.0669473
+          ],
+          [
+            16.1172304,
+            49.0669206
+          ],
+          [
+            16.1174657,
+            49.0669026
+          ],
+          [
+            16.1175194,
+            49.067207
+          ],
+          [
+            16.117345,
+            49.0672176
+          ],
+          [
+            16.117343,
+            49.0672136
+          ],
+          [
+            16.1172058,
+            49.0672226
+          ],
+          [
+            16.1172052,
+            49.0672259
+          ],
+          [
+            16.1168944,
+            49.0672479
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1307110667,
+        "@url": "https://www.openstreetmap.org/way/1307110667",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Rouchovany",
+        "phone": "+420 568 848 066; +420 605 255 394",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.rouchovany.cz/informace-obcanum/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -91260,6 +91336,84 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.lacnov.eu/obec-1/odpadove-centrum/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.1168743,
+                49.0669456
+              ],
+              [
+                16.1169007,
+                49.0669473
+              ],
+              [
+                16.1172304,
+                49.0669206
+              ],
+              [
+                16.1174657,
+                49.0669026
+              ],
+              [
+                16.1175194,
+                49.067207
+              ],
+              [
+                16.117345,
+                49.0672176
+              ],
+              [
+                16.117343,
+                49.0672136
+              ],
+              [
+                16.1172058,
+                49.0672226
+              ],
+              [
+                16.1172052,
+                49.0672259
+              ],
+              [
+                16.1168944,
+                49.0672479
+              ],
+              [
+                16.1168743,
+                49.0669456
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1307110667,
+        "@url": "https://www.openstreetmap.org/way/1307110667",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Rouchovany",
+        "phone": "+420 568 848 066; +420 605 255 394",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.rouchovany.cz/informace-obcanum/odpadove-hospodarstvi/"
       }
     }
   ]

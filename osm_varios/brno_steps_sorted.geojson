@@ -13204,7 +13204,8 @@
         "ramp:stroller": "no",
         "source": "uhul:ortofoto",
         "step_count": "5",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -26157,13 +26158,15 @@
         "handrail:left": "yes",
         "handrail:right": "yes",
         "highway": "steps",
+        "incline": "down",
         "lit": "yes",
         "ramp": "no",
         "ramp:bicycle": "no",
         "ramp:stroller": "no",
         "source": "uhul:ortofoto",
         "step_count": "8",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -31085,7 +31088,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "10",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -31113,7 +31117,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "10",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -38632,6 +38637,7 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "lit": "no",
         "ramp": "no",
         "step_count": "14",
         "surface": "paving_stones",
@@ -44893,6 +44899,35 @@
         "step_count": "19",
         "surface": "concrete",
         "tactile_paving": "partial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.653839,
+            49.1864738
+          ],
+          [
+            16.6538044,
+            49.1864007
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 925833236,
+        "@url": "https://www.openstreetmap.org/way/925833236",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "no",
+        "step_count": "19",
+        "surface": "metal",
+        "tactile_paving": "no"
       }
     },
     {

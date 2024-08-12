@@ -16,6 +16,7 @@
         "@url": "https://www.openstreetmap.org/node/117460318",
         "amenity": "recycling",
         "name": "Sběrný dvůr hl.m. Prahy",
+        "opening_hours": "Apr-Nov: Tu,Th,Fr 09:00-15:00; Apr-Nov: Mo,We 12:00-19:00; Apr-Nov: Sa 09:00-12:00; Dec-Mar: Mo,We 10:30-16:30; Dec-Mar: Tu,Th,Fr 09:00-15:00; Dec-Mar: Sa 09:00-12:00",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
@@ -358,6 +359,28 @@
         "@id": 346741208,
         "@url": "https://www.openstreetmap.org/node/346741208",
         "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4174014,
+          50.0750522
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 355003189,
+        "@url": "https://www.openstreetmap.org/node/355003189",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -8675,6 +8698,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4952566,
+          50.1191841
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3157609362,
+        "@url": "https://www.openstreetmap.org/node/3157609362",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3114594,
           49.3927613
         ]
@@ -11375,7 +11421,7 @@
         "@id": 4768030223,
         "@url": "https://www.openstreetmap.org/node/4768030223",
         "amenity": "recycling",
-        "check_date:recycling": "2023-08-11",
+        "check_date:recycling": "2024-08-11",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
@@ -29231,8 +29277,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.565805,
-          49.2748513
+          16.5657916,
+          49.2747703
         ]
       },
       "properties": {
@@ -29240,13 +29286,10 @@
         "@id": 9672157631,
         "@url": "https://www.openstreetmap.org/node/9672157631",
         "amenity": "recycling",
-        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },

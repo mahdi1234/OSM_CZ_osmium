@@ -5567,8 +5567,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.2362762,
-          50.7769009
+          15.2362564,
+          50.7768144
         ]
       },
       "properties": {
@@ -5578,6 +5578,7 @@
         "ele": "624",
         "hiking": "yes",
         "information": "guidepost",
+        "inscription": "Založen koncem 17. století Albrechtem Maxmiliánem Desfoursem",
         "name": "Dolní Maxov",
         "operator": "cz:KČT",
         "ref": "LB525",
@@ -12631,6 +12632,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.1735498,
+          49.6409163
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1842941790,
+        "@url": "https://www.openstreetmap.org/node/1842941790",
+        "ele": "660",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Pod Štarkovem",
+        "operator": "cz:KČT",
+        "ref": "ZD557",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.1707436,
           49.6389619
         ]
@@ -16753,8 +16776,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.2084493,
-          50.7062974
+          15.2084495,
+          50.7063091
         ]
       },
       "properties": {
@@ -16764,6 +16787,7 @@
         "ele": "685",
         "hiking": "yes",
         "information": "guidepost",
+        "inscription": "V okolí nalezeny pozůstatky těžby a zpracování kamene z 6. tisíciletí před n.l.",
         "name": "Dolní Černá Studnice",
         "operator": "cz:KČT",
         "ref": "LB523",
@@ -31037,6 +31061,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.2721476,
+          50.488558
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3973118896,
+        "@url": "https://www.openstreetmap.org/node/3973118896",
+        "ele": "622",
+        "name": "Bukovina",
+        "natural": "peak",
+        "source": "ČÚZK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.1910968,
           50.5739086
         ]
@@ -31056,19 +31099,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.2500019,
-          50.5516481
+          16.2501032,
+          50.551723
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 3973118915,
         "@url": "https://www.openstreetmap.org/node/3973118915",
-        "ele": "613.6",
-        "name": "Klůček",
+        "ele": "614",
+        "name": "Kluček",
         "name:de": "Kloucek",
         "natural": "peak",
-        "source": "cuzk:km;srtm"
+        "old_name": "Klůček",
+        "source": "ČÚZK"
       }
     },
     {
@@ -33781,7 +33825,7 @@
         "horse": "yes",
         "information": "guidepost",
         "mtb": "no",
-        "name": "Javorek",
+        "name": "Javorek (stanice)",
         "note": "koncový bod trasy",
         "ref": "CO117",
         "ski": "no",
@@ -55772,11 +55816,12 @@
         "@type": "node",
         "@id": 7417854660,
         "@url": "https://www.openstreetmap.org/node/7417854660",
-        "ele": "685.7",
+        "ele": "686",
         "name": "Panna",
         "name:etymology:wikidata": "Q32859833",
         "name:etymology:wikipedia": "cs:Panna",
-        "natural": "peak"
+        "natural": "peak",
+        "source": "ČÚZK"
       }
     },
     {
@@ -57669,17 +57714,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.259602,
-          50.5761281
+          16.2594558,
+          50.5760332
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 7846578944,
         "@url": "https://www.openstreetmap.org/node/7846578944",
-        "ele": "688.4",
+        "ele": "692",
         "name": "Strážná hora",
-        "natural": "peak"
+        "natural": "peak",
+        "source": "ČÚZK"
       }
     },
     {
@@ -64743,17 +64789,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.2686346,
-          50.5167016
+          16.2686011,
+          50.5160737
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 10956759523,
         "@url": "https://www.openstreetmap.org/node/10956759523",
-        "ele": "604.6",
+        "ele": "606",
         "name": "Chlum",
-        "natural": "peak"
+        "natural": "peak",
+        "source": "ČÚZK"
       }
     },
     {
@@ -72336,23 +72383,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.2676257,
-          50.5160965
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11711812121,
-        "@url": "https://www.openstreetmap.org/node/11711812121",
-        "ele": "605.9",
-        "natural": "peak"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.277328,
           50.5626311
         ]
@@ -74340,6 +74370,52 @@
         "@url": "https://www.openstreetmap.org/node/12077078548",
         "ele": "647",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2382034,
+          50.7754204
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12107070139,
+        "@url": "https://www.openstreetmap.org/node/12107070139",
+        "description": "imitace pěšího rozcestníku KČT",
+        "ele": "624",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Zemní plyn",
+        "operator": "local",
+        "ref": "none",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3051332,
+          50.7303546
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12107070141,
+        "@url": "https://www.openstreetmap.org/node/12107070141",
+        "ele": "608",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Terezínka",
+        "operator": "cz:KČT",
+        "ref": "LB312",
+        "start_date": "2023",
+        "tourism": "information"
       }
     },
     {

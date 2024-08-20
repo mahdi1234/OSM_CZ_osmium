@@ -11796,6 +11796,7 @@
         "@id": 4717918150,
         "@url": "https://www.openstreetmap.org/node/4717918150",
         "amenity": "recycling",
+        "check_date": "2024-08-19",
         "recycling:batteries": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -49860,8 +49861,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0336744,
-          49.7185901
+          16.0335611,
+          49.7185077
         ]
       },
       "properties": {
@@ -49904,6 +49905,27 @@
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.587565,
+          49.7976442
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12120151194,
+        "@url": "https://www.openstreetmap.org/node/12120151194",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:electronics": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

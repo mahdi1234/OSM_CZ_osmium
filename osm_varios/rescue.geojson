@@ -10866,9 +10866,10 @@
         "@type": "node",
         "@id": 5918865600,
         "@url": "https://www.openstreetmap.org/node/5918865600",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "operator": "Lesy ČR",
-        "ref": "JN0001"
+        "operator": "Lesy ČR, s.p.",
+        "ref": "JN001"
       }
     },
     {
@@ -11438,6 +11439,7 @@
         "@type": "node",
         "@id": 6286177384,
         "@url": "https://www.openstreetmap.org/node/6286177384",
+        "check_date": "2024-08-24",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Mendelova univerzita v Brně",
@@ -16833,6 +16835,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.3013133,
+          50.6337239
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7881533362,
+        "@url": "https://www.openstreetmap.org/node/7881533362",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "name": "Podspálov",
+        "ref": "RS15",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.2328161,
           49.1252576
         ]
@@ -16984,6 +17006,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.2125659,
+          50.5618187
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7948810537,
+        "@url": "https://www.openstreetmap.org/node/7948810537",
+        "emergency": "access_point",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "ref": "NA108",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2144353,
+          50.5619949
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7948810540,
+        "@url": "https://www.openstreetmap.org/node/7948810540",
+        "emergency": "access_point",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "ref": "NA109",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2116407,
+          50.5633065
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7948810547,
+        "@url": "https://www.openstreetmap.org/node/7948810547",
+        "emergency": "access_point",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "ref": "NA110",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2114889,
+          50.5649235
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7948810552,
+        "@url": "https://www.openstreetmap.org/node/7948810552",
+        "emergency": "access_point",
+        "emergency_telephone_code": "111",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "ref": "NA111",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.2072707,
           50.5585354
         ]
@@ -17016,6 +17122,27 @@
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
         "ref": "NA105",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2056966,
+          50.5609589
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7948810589,
+        "@url": "https://www.openstreetmap.org/node/7948810589",
+        "emergency": "access_point",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "ref": "NA106",
         "source": "survey"
       }
     },
@@ -28037,91 +28164,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.2056966,
-          50.5609589
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12062823663,
-        "@url": "https://www.openstreetmap.org/node/12062823663",
-        "highway": "emergency_access_point",
-        "ref": "NA 106"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.2125659,
-          50.5618187
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12062861915,
-        "@url": "https://www.openstreetmap.org/node/12062861915",
-        "highway": "emergency_access_point",
-        "ref": "NA 108"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.2116407,
-          50.5633065
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12062871424,
-        "@url": "https://www.openstreetmap.org/node/12062871424",
-        "highway": "emergency_access_point",
-        "ref": "NA 110"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.2114572,
-          50.5649498
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12062887860,
-        "@url": "https://www.openstreetmap.org/node/12062887860",
-        "highway": "emergency_access_point",
-        "ref": "NA 111"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.2144353,
-          50.5619949
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12062971015,
-        "@url": "https://www.openstreetmap.org/node/12062971015",
-        "highway": "emergency_access_point",
-        "ref": "NA 109"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.2295665,
           50.3093884
         ]
@@ -28834,7 +28876,9 @@
         "@type": "node",
         "@id": 12116990903,
         "@url": "https://www.openstreetmap.org/node/12116990903",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
         "ref": "NA002"
       }
     },

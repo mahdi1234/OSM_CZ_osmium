@@ -4863,7 +4863,6 @@
         "@url": "https://www.openstreetmap.org/node/2188649200",
         "amenity": "recycling",
         "name": "Separační dvůr",
-        "note": "Sberny dvur. Vsechny druhy odpadu.",
         "operator": "SmP - Odpady a.s",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
@@ -53515,6 +53514,30 @@
         "recycling:cooking_oil": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4038336,
+          49.9784292
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12143911081,
+        "@url": "https://www.openstreetmap.org/node/12143911081",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",

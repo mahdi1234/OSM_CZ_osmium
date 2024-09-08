@@ -6545,14 +6545,13 @@
         "@url": "https://www.openstreetmap.org/node/2852244185",
         "amenity": "recycling",
         "location": "overground",
-        "recycling:beverage_cartons": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:food_waste": "yes",
         "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -17815,6 +17814,33 @@
         "recycling:waste": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10690"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5848411,
+          50.0347361
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6646154923,
+        "@url": "https://www.openstreetmap.org/node/6646154923",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -35948,6 +35974,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5889684,
+          50.0619711
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9748240217,
+        "@url": "https://www.openstreetmap.org/node/9748240217",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "survey:date": "2022-05-17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.8809556,
           49.3746243
         ]
@@ -50413,7 +50465,7 @@
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

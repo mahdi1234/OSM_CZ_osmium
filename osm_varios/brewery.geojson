@@ -1002,13 +1002,13 @@
         "@id": 1725973748,
         "@url": "https://www.openstreetmap.org/node/1725973748",
         "amenity": "pub",
-        "check_date:opening_hours": "2022-11-23",
+        "check_date:opening_hours": "2024-09-05",
         "contact:email": "lisenskypivovar@seznam.cz",
         "contact:website": "http://www.lisenskypivovar.cz/",
         "internet_access": "wlan",
         "microbrewery": "yes",
         "name": "Líšeňský pivovar",
-        "opening_hours": "Mo-Fr 11:00-24:00; Sa 11:30-24:00; Su 11:30-22:30"
+        "opening_hours": "Mo-Th 11:00-23:00, Fr 11:00-24:00, Sa 11:30-24:00, Su 11:30-22:00"
       }
     },
     {
@@ -7031,6 +7031,8 @@
         "name": "Automat Matuška",
         "opening_hours": "Mo-Fr 11:00-24:00; Sa 12:00-24:00; Su 12:00-22:00",
         "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+420 608 265 343",
         "reservation": "no",
         "takeaway": "yes",
@@ -7346,17 +7348,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0736113,
-          50.3628201
+          15.3684575,
+          49.8864061
         ]
       },
       "properties": {
         "@type": "node",
-        "@id": 12158352400,
-        "@url": "https://www.openstreetmap.org/node/12158352400",
+        "@id": 12161503450,
+        "@url": "https://www.openstreetmap.org/node/12161503450",
+        "contact:facebook": "https://www.facebook.com/Pivovar-Auersperg-269011974044559/",
+        "contact:instagram": "https://www.instagram.com/pivovarauersperg/",
         "craft": "brewery",
-        "name": "Pivovar Albert Michler",
-        "website": "https://albertmichlerpivovar.cz"
+        "email": "info@pivovarauersperg.cz",
+        "name": "Žácký pivovar Auersperg",
+        "phone": "+420 737 537 445",
+        "website": "https://www.pivovarauersperg.cz/"
       }
     },
     {
@@ -12246,6 +12252,12 @@
         "@type": "way",
         "@id": 215235490,
         "@url": "https://www.openstreetmap.org/way/215235490",
+        "addr:city": "Lipník nad Bečvou",
+        "addr:conscriptionnumber": "164",
+        "addr:housenumber": "164",
+        "addr:place": "Lipník nad Bečvou I-Město",
+        "addr:postcode": "75131",
+        "addr:street": "Novosady",
         "building": "house",
         "building:flats": "1",
         "building:levels": "2",
@@ -12253,6 +12265,8 @@
         "check_date": "2024-04-14",
         "craft": "brewery",
         "name": "Minipivovar Svatovar",
+        "opening_hours": "Mo-Th 10:30-22:00 Fr-Sa 10:30 23:30 Su 10:30 22:00",
+        "operator": "Stanislava Seidlová",
         "ref:ruian:building": "79556078",
         "source": "cuzk:ruian",
         "start_date": "2015-04-03"
@@ -13140,6 +13154,61 @@
         "name": "Pivovar Mlýn - Střížovice",
         "ref:ruian:building": "16663276",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.0734742,
+            50.362902
+          ],
+          [
+            17.0736531,
+            50.3629378
+          ],
+          [
+            17.0737608,
+            50.3627187
+          ],
+          [
+            17.0735113,
+            50.3626688
+          ],
+          [
+            17.0734862,
+            50.3627198
+          ],
+          [
+            17.0735161,
+            50.3627258
+          ],
+          [
+            17.0734885,
+            50.3627821
+          ],
+          [
+            17.0735291,
+            50.3627902
+          ],
+          [
+            17.0734742,
+            50.362902
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 315076208,
+        "@url": "https://www.openstreetmap.org/way/315076208",
+        "building": "brewery",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar Albert Michler",
+        "ref:ruian:building": "38542048",
+        "website": "https://albertmichlerpivovar.cz"
       }
     },
     {
@@ -19994,6 +20063,12 @@
         "@type": "way",
         "@id": 215235490,
         "@url": "https://www.openstreetmap.org/way/215235490",
+        "addr:city": "Lipník nad Bečvou",
+        "addr:conscriptionnumber": "164",
+        "addr:housenumber": "164",
+        "addr:place": "Lipník nad Bečvou I-Město",
+        "addr:postcode": "75131",
+        "addr:street": "Novosady",
         "building": "house",
         "building:flats": "1",
         "building:levels": "2",
@@ -20001,6 +20076,8 @@
         "check_date": "2024-04-14",
         "craft": "brewery",
         "name": "Minipivovar Svatovar",
+        "opening_hours": "Mo-Th 10:30-22:00 Fr-Sa 10:30 23:30 Su 10:30 22:00",
+        "operator": "Stanislava Seidlová",
         "ref:ruian:building": "79556078",
         "source": "cuzk:ruian",
         "start_date": "2015-04-03"
@@ -20944,6 +21021,65 @@
         "name": "Pivovar Mlýn - Střížovice",
         "ref:ruian:building": "16663276",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.0734742,
+                50.362902
+              ],
+              [
+                17.0735291,
+                50.3627902
+              ],
+              [
+                17.0734885,
+                50.3627821
+              ],
+              [
+                17.0735161,
+                50.3627258
+              ],
+              [
+                17.0734862,
+                50.3627198
+              ],
+              [
+                17.0735113,
+                50.3626688
+              ],
+              [
+                17.0737608,
+                50.3627187
+              ],
+              [
+                17.0736531,
+                50.3629378
+              ],
+              [
+                17.0734742,
+                50.362902
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 315076208,
+        "@url": "https://www.openstreetmap.org/way/315076208",
+        "building": "brewery",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar Albert Michler",
+        "ref:ruian:building": "38542048",
+        "website": "https://albertmichlerpivovar.cz"
       }
     },
     {

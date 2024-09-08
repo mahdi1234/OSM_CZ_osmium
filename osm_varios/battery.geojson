@@ -3854,6 +3854,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5333875,
+          50.0346654
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2852244185,
+        "@url": "https://www.openstreetmap.org/node/2852244185",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5146769,
           50.0313276
         ]
@@ -8684,9 +8710,15 @@
         "@url": "https://www.openstreetmap.org/node/6646154923",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -15362,6 +15394,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5889684,
+          50.0619711
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9748240217,
+        "@url": "https://www.openstreetmap.org/node/9748240217",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "survey:date": "2022-05-17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.8809556,
           49.3746243
         ]
@@ -20148,7 +20206,7 @@
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

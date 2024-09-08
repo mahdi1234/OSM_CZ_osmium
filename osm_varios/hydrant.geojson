@@ -12990,7 +12990,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2018-11-09",
+        "survey:date": "2018-11-09",
         "water_source": "main"
       }
     },
@@ -14717,7 +14717,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-05-15",
+        "survey:date": "2019-05-15",
         "water_source": "main"
       }
     },
@@ -15763,7 +15763,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-11-22",
+        "survey:date": "2019-11-22",
         "water_source": "main"
       }
     },
@@ -15817,7 +15817,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-11-22",
+        "survey:date": "2019-11-22",
         "water_source": "main"
       }
     },
@@ -25819,8 +25819,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.7881547,
-          49.0568733
+          13.7881796,
+          49.0568874
         ]
       },
       "properties": {
@@ -35363,7 +35363,9 @@
         "@type": "node",
         "@id": 12146310687,
         "@url": "https://www.openstreetmap.org/node/12146310687",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     },
     {
@@ -35482,6 +35484,24 @@
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8101229,
+          49.9480441
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12161735069,
+        "@url": "https://www.openstreetmap.org/node/12161735069",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     }
   ]

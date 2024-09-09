@@ -27685,29 +27685,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.2530888,
-          49.6684715
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8660305827,
-        "@url": "https://www.openstreetmap.org/node/8660305827",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.6018206,
           49.2156309
         ]
@@ -50472,6 +50449,61 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4428609,
+          49.7920923
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12163381795,
+        "@url": "https://www.openstreetmap.org/node/12163381795",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2467126,
+          49.6709227
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12164220334,
+        "@url": "https://www.openstreetmap.org/node/12164220334",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -70784,6 +70816,72 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "https://www.rouchovany.cz/informace-obcanum/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.569293,
+            50.027354
+          ],
+          [
+            13.5693336,
+            50.0274132
+          ],
+          [
+            13.5696816,
+            50.0273167
+          ],
+          [
+            13.5693587,
+            50.0270002
+          ],
+          [
+            13.569078,
+            50.027101
+          ],
+          [
+            13.5691486,
+            50.0271758
+          ],
+          [
+            13.569164,
+            50.027168
+          ],
+          [
+            13.569273,
+            50.027136
+          ],
+          [
+            13.569356,
+            50.027266
+          ],
+          [
+            13.569253,
+            50.027296
+          ],
+          [
+            13.569293,
+            50.027354
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1314128452,
+        "@url": "https://www.openstreetmap.org/way/1314128452",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr obce Čistá",
+        "phone": "+420 313 549 454; +420 702 015 836",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:rubble": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.cista-obec.cz/obec-e989/odpadove-hospodarstvi/sberny-dvur-/"
       }
     },
     {
@@ -92229,6 +92327,76 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "https://www.rouchovany.cz/informace-obcanum/odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.569078,
+                50.027101
+              ],
+              [
+                13.5693587,
+                50.0270002
+              ],
+              [
+                13.5696816,
+                50.0273167
+              ],
+              [
+                13.5693336,
+                50.0274132
+              ],
+              [
+                13.569293,
+                50.027354
+              ],
+              [
+                13.569253,
+                50.027296
+              ],
+              [
+                13.569356,
+                50.027266
+              ],
+              [
+                13.569273,
+                50.027136
+              ],
+              [
+                13.569164,
+                50.027168
+              ],
+              [
+                13.5691486,
+                50.0271758
+              ],
+              [
+                13.569078,
+                50.027101
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1314128452,
+        "@url": "https://www.openstreetmap.org/way/1314128452",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr obce Čistá",
+        "phone": "+420 313 549 454; +420 702 015 836",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:rubble": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.cista-obec.cz/obec-e989/odpadove-hospodarstvi/sberny-dvur-/"
       }
     }
   ]

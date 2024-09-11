@@ -14685,7 +14685,8 @@
         "contact:phone": "+420 288409188",
         "contact:website": "www.psas.cz",
         "ipr:name": "Na Petřinách 392/72",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "recycling:PET": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
@@ -29042,9 +29043,11 @@
         "@id": 9588823922,
         "@url": "https://www.openstreetmap.org/node/9588823922",
         "amenity": "recycling",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -54025,6 +54028,29 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5815124,
+          49.5203105
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12164391235,
+        "@url": "https://www.openstreetmap.org/node/12164391235",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",

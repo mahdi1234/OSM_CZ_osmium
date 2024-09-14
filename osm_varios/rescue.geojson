@@ -3113,8 +3113,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.7339204,
-          50.7130452
+          13.7338889,
+          50.7130271
         ]
       },
       "properties": {
@@ -3123,6 +3123,7 @@
         "@url": "https://www.openstreetmap.org/node/4292726774",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR s.p.",
         "ref": "TP012"
       }
     },
@@ -10751,8 +10752,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.8163927,
-          50.7132634
+          13.8164201,
+          50.7132777
         ]
       },
       "properties": {
@@ -10761,8 +10762,9 @@
         "@url": "https://www.openstreetmap.org/node/5847884837",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "operator": "Lesy ČR, s.p.",
-        "ref": "TP023"
+        "operator": "Lesy ČR s.p.",
+        "ref": "TP023",
+        "source": "survey"
       }
     },
     {
@@ -13225,8 +13227,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3879193,
-          50.5834082
+          13.3879185,
+          50.5834144
         ]
       },
       "properties": {
@@ -13235,8 +13237,9 @@
         "@url": "https://www.openstreetmap.org/node/7237227137",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "name": "CV065",
-        "ref": "CV065"
+        "operator": "Lesy ČR s.p.",
+        "ref": "CV065",
+        "source": "survey"
       }
     },
     {
@@ -15850,8 +15853,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.8032155,
-          50.7279854
+          13.8032489,
+          50.7279168
         ]
       },
       "properties": {
@@ -15860,7 +15863,7 @@
         "@url": "https://www.openstreetmap.org/node/7556969672",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "operator": "Lesy ČR, s.p.",
+        "operator": "Lesy ČR s.p.",
         "ref": "TP022"
       }
     },
@@ -17357,7 +17360,9 @@
         "@id": 8050597762,
         "@url": "https://www.openstreetmap.org/node/8050597762",
         "emergency_telephone_code": "112",
+        "fixme": "coordinates",
         "highway": "emergency_access_point",
+        "note": "9.9.2024 nenalezeno.",
         "operator": "Lesy ČR, s.p.",
         "ref": "CV067"
       }
@@ -18667,6 +18672,44 @@
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "ref": "DO016"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2881548,
+          50.5443368
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8900998834,
+        "@url": "https://www.openstreetmap.org/node/8900998834",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "126",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2846051,
+          50.5334196
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8900998835,
+        "@url": "https://www.openstreetmap.org/node/8900998835",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "125",
+        "source": "survey"
       }
     },
     {
@@ -29274,6 +29317,105 @@
         "@url": "https://www.openstreetmap.org/node/12172370378",
         "highway": "emergency_access_point",
         "ref": "CK 003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3217027,
+          50.5925635
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12174403628,
+        "@url": "https://www.openstreetmap.org/node/12174403628",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR s.p.",
+        "ref": "CV062",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5598282,
+          50.6854796
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12174682798,
+        "@url": "https://www.openstreetmap.org/node/12174682798",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR s.p.",
+        "ref": "MO018",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5937976,
+          50.7097662
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12174684739,
+        "@url": "https://www.openstreetmap.org/node/12174684739",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR s.p.",
+        "ref": "MO019",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6013464,
+          50.7100637
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12174684741,
+        "@url": "https://www.openstreetmap.org/node/12174684741",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "ref": "147",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9356422,
+          50.7272028
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12175525807,
+        "@url": "https://www.openstreetmap.org/node/12175525807",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR s.p.",
+        "ref": "UL011",
+        "source": "survey"
       }
     },
     {

@@ -2683,8 +2683,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.6482623,
-          49.9713279
+          13.6482064,
+          49.9713097
         ]
       },
       "properties": {
@@ -2701,7 +2701,7 @@
         "email": "info@pivovarchric.cz",
         "microbrewery": "yes",
         "name": "pCh! - Pivovar Chříč",
-        "opening_hours": "Mo-Su 10:00-18:00; Fr 10:00-20:00; Sa 10:00-22:00",
+        "opening_hours": "Fr 17:00-21:00; Sa 11:00-22:00; Su 11:00-19:00",
         "operator": "Pivovar Chříč s.r.o.",
         "phone": "+420 603 216 581",
         "website": "https://www.pivovarchric.cz/"
@@ -13457,6 +13457,49 @@
         "type": "LineString",
         "coordinates": [
           [
+            13.6480946,
+            49.9715704
+          ],
+          [
+            13.6482514,
+            49.9714209
+          ],
+          [
+            13.6481226,
+            49.9713344
+          ],
+          [
+            13.6479422,
+            49.9715039
+          ],
+          [
+            13.6480946,
+            49.9715704
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 449711663,
+        "@url": "https://www.openstreetmap.org/way/449711663",
+        "building": "yes",
+        "building:colour": "#cecac7",
+        "building:levels": "2",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Pivovar Chříč",
+        "ref:ruian:building": "43545599",
+        "roof:colour": "#744742",
+        "roof:shape": "gabled",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.426278,
             50.0935047
           ],
@@ -21340,6 +21383,53 @@
         "ref:ruian:building": "2069083",
         "source": "cuzk:ruian",
         "website": "https://www.pivovar-neumann.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.6479422,
+                49.9715039
+              ],
+              [
+                13.6481226,
+                49.9713344
+              ],
+              [
+                13.6482514,
+                49.9714209
+              ],
+              [
+                13.6480946,
+                49.9715704
+              ],
+              [
+                13.6479422,
+                49.9715039
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 449711663,
+        "@url": "https://www.openstreetmap.org/way/449711663",
+        "building": "yes",
+        "building:colour": "#cecac7",
+        "building:levels": "2",
+        "building:ruian:type": "19",
+        "craft": "brewery",
+        "name": "Pivovar Chříč",
+        "ref:ruian:building": "43545599",
+        "roof:colour": "#744742",
+        "roof:shape": "gabled",
+        "source": "cuzk:ruian"
       }
     },
     {

@@ -50819,6 +50819,35 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3848532,
+          49.6538057
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12181920791,
+        "@url": "https://www.openstreetmap.org/node/12181920791",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -71261,6 +71290,97 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.kostelecno.cz/vismo/dokumenty2.asp?id_org=7019&id=17108&n=sberny%2Ddvur%2Dv%2Darealu%2Dtechnickych%2Dsluzeb&p1=1037"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4752124,
+            49.0632343
+          ],
+          [
+            16.4760156,
+            49.0631142
+          ],
+          [
+            16.4759098,
+            49.0633476
+          ],
+          [
+            16.4757131,
+            49.0636707
+          ],
+          [
+            16.4756163,
+            49.0636512
+          ],
+          [
+            16.4755939,
+            49.0637078
+          ],
+          [
+            16.4750768,
+            49.0636102
+          ],
+          [
+            16.4750452,
+            49.0636547
+          ],
+          [
+            16.4750515,
+            49.063662
+          ],
+          [
+            16.4749278,
+            49.0636288
+          ],
+          [
+            16.4747639,
+            49.0637137
+          ],
+          [
+            16.4747431,
+            49.0636454
+          ],
+          [
+            16.4750053,
+            49.0634286
+          ],
+          [
+            16.4752124,
+            49.0632343
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1316210227,
+        "@url": "https://www.openstreetmap.org/way/1316210227",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Dolní Kounice",
+        "opening_hours": "Mo, We 13:00-17:00; Sa 09:00-13:00",
+        "operator": "KTS Ekologie s.r.o.",
+        "phone": "+420 734 254 241",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.dolnikounice.cz/sberny%2Ddvur/ds-4594/p1=14524"
       }
     },
     {
@@ -92844,6 +92964,101 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.kostelecno.cz/vismo/dokumenty2.asp?id_org=7019&id=17108&n=sberny%2Ddvur%2Dv%2Darealu%2Dtechnickych%2Dsluzeb&p1=1037"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4747431,
+                49.0636454
+              ],
+              [
+                16.4750053,
+                49.0634286
+              ],
+              [
+                16.4752124,
+                49.0632343
+              ],
+              [
+                16.4760156,
+                49.0631142
+              ],
+              [
+                16.4759098,
+                49.0633476
+              ],
+              [
+                16.4757131,
+                49.0636707
+              ],
+              [
+                16.4756163,
+                49.0636512
+              ],
+              [
+                16.4755939,
+                49.0637078
+              ],
+              [
+                16.4750768,
+                49.0636102
+              ],
+              [
+                16.4750452,
+                49.0636547
+              ],
+              [
+                16.4750515,
+                49.063662
+              ],
+              [
+                16.4749278,
+                49.0636288
+              ],
+              [
+                16.4747639,
+                49.0637137
+              ],
+              [
+                16.4747431,
+                49.0636454
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1316210227,
+        "@url": "https://www.openstreetmap.org/way/1316210227",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Dolní Kounice",
+        "opening_hours": "Mo, We 13:00-17:00; Sa 09:00-13:00",
+        "operator": "KTS Ekologie s.r.o.",
+        "phone": "+420 734 254 241",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.dolnikounice.cz/sberny%2Ddvur/ds-4594/p1=14524"
       }
     }
   ]

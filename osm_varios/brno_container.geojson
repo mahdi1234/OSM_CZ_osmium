@@ -70,6 +70,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.5950452,
+          49.1827803
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1207597146,
+        "@url": "https://www.openstreetmap.org/node/1207597146",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:food_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container",
+        "source": "gps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.653787,
           49.153877
         ]
@@ -533,6 +557,26 @@
         "amenity": "recycling",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5947766,
+          49.1834202
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6735519250,
+        "@url": "https://www.openstreetmap.org/node/6735519250",
+        "amenity": "recycling",
+        "location": "overground",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -3906,6 +3950,35 @@
         "amenity": "recycling",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6475176,
+          49.2305992
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12197336106,
+        "@url": "https://www.openstreetmap.org/node/12197336106",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },

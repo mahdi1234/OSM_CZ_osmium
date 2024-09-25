@@ -16679,6 +16679,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.6059412,
+          49.2113207
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6286393020,
+        "@url": "https://www.openstreetmap.org/node/6286393020",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.8793667,
           49.1511031
         ]
@@ -36805,6 +36836,9 @@
         "@id": 9930396733,
         "@url": "https://www.openstreetmap.org/node/9930396733",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -40057,6 +40091,28 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8029875,
+          50.0406886
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10690581249,
+        "@url": "https://www.openstreetmap.org/node/10690581249",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -49143,8 +49199,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.813364,
-          50.0338099
+          15.8134442,
+          50.0339197
         ]
       },
       "properties": {
@@ -60131,8 +60187,8 @@
             48.810213
           ],
           [
-            14.3329892,
-            48.8102349
+            14.3329999,
+            48.8102274
           ],
           [
             14.3329402,
@@ -66365,78 +66421,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            18.115613,
-            49.4098163
-          ],
-          [
-            18.115569,
-            49.4098268
-          ],
-          [
-            18.115535,
-            49.4097867
-          ],
-          [
-            18.1154826,
-            49.409725
-          ],
-          [
-            18.1158748,
-            49.4093923
-          ],
-          [
-            18.1160897,
-            49.4094986
-          ],
-          [
-            18.1162298,
-            49.409646
-          ],
-          [
-            18.1161936,
-            49.4096667
-          ],
-          [
-            18.1161422,
-            49.4096108
-          ],
-          [
-            18.115613,
-            49.4098163
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1150496190,
-        "@url": "https://www.openstreetmap.org/way/1150496190",
-        "amenity": "recycling",
-        "name": "Sběrmý dvůr Valašská Bystřice",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "website": "https://valasskabystrice.cz/sberny-dvur-odpadove-hospodarstvi/ds-1016"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             14.2132494,
             48.8566087
           ],
@@ -71478,6 +71462,80 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "https://www.dolnikounice.cz/sberny%2Ddvur/ds-4594/p1=14524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.1154826,
+            49.409725
+          ],
+          [
+            18.1158748,
+            49.4093923
+          ],
+          [
+            18.1160897,
+            49.4094986
+          ],
+          [
+            18.1162385,
+            49.4096503
+          ],
+          [
+            18.1161927,
+            49.4096685
+          ],
+          [
+            18.1156613,
+            49.409879
+          ],
+          [
+            18.1156273,
+            49.4098921
+          ],
+          [
+            18.1155699,
+            49.4098266
+          ],
+          [
+            18.115535,
+            49.4097867
+          ],
+          [
+            18.1154826,
+            49.409725
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1317961043,
+        "@url": "https://www.openstreetmap.org/way/1317961043",
+        "amenity": "recycling",
+        "name": "Sběrmý dvůr Valašská Bystřice",
+        "opening_hours": "Mo 08:00-11:00; We 13:00-17:00; Fr 13:00-15:00; Sa 08:00-10:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://valasskabystrice.cz/sberny-dvur-odpadove-hospodarstvi/ds-1016"
       }
     },
     {
@@ -81171,8 +81229,8 @@
                 48.8102613
               ],
               [
-                14.3329892,
-                48.8102349
+                14.3329999,
+                48.8102274
               ],
               [
                 14.333024,
@@ -87761,82 +87819,6 @@
           [
             [
               [
-                18.1154826,
-                49.409725
-              ],
-              [
-                18.1158748,
-                49.4093923
-              ],
-              [
-                18.1160897,
-                49.4094986
-              ],
-              [
-                18.1162298,
-                49.409646
-              ],
-              [
-                18.1161936,
-                49.4096667
-              ],
-              [
-                18.1161422,
-                49.4096108
-              ],
-              [
-                18.115613,
-                49.4098163
-              ],
-              [
-                18.115569,
-                49.4098268
-              ],
-              [
-                18.115535,
-                49.4097867
-              ],
-              [
-                18.1154826,
-                49.409725
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1150496190,
-        "@url": "https://www.openstreetmap.org/way/1150496190",
-        "amenity": "recycling",
-        "name": "Sběrmý dvůr Valašská Bystřice",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "website": "https://valasskabystrice.cz/sberny-dvur-odpadove-hospodarstvi/ds-1016"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
                 14.2129633,
                 48.8562227
               ],
@@ -93156,6 +93138,84 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "https://www.dolnikounice.cz/sberny%2Ddvur/ds-4594/p1=14524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1154826,
+                49.409725
+              ],
+              [
+                18.1158748,
+                49.4093923
+              ],
+              [
+                18.1160897,
+                49.4094986
+              ],
+              [
+                18.1162385,
+                49.4096503
+              ],
+              [
+                18.1161927,
+                49.4096685
+              ],
+              [
+                18.1156613,
+                49.409879
+              ],
+              [
+                18.1156273,
+                49.4098921
+              ],
+              [
+                18.1155699,
+                49.4098266
+              ],
+              [
+                18.115535,
+                49.4097867
+              ],
+              [
+                18.1154826,
+                49.409725
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1317961043,
+        "@url": "https://www.openstreetmap.org/way/1317961043",
+        "amenity": "recycling",
+        "name": "Sběrmý dvůr Valašská Bystřice",
+        "opening_hours": "Mo 08:00-11:00; We 13:00-17:00; Fr 13:00-15:00; Sa 08:00-10:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://valasskabystrice.cz/sberny-dvur-odpadove-hospodarstvi/ds-1016"
       }
     }
   ]

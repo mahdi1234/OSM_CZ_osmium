@@ -5661,6 +5661,7 @@
         "@id": 9527200102,
         "@url": "https://www.openstreetmap.org/node/9527200102",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:aluminium": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
@@ -5670,7 +5671,8 @@
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "wheelchair": "limited"
       }
     },
     {
@@ -18289,6 +18291,28 @@
         "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:paper": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2237675,
+          49.8070403
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12212536335,
+        "@url": "https://www.openstreetmap.org/node/12212536335",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },

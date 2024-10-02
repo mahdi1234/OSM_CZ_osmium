@@ -65304,6 +65304,49 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.8481606,
+            50.1998962
+          ],
+          [
+            15.8481814,
+            50.1998962
+          ],
+          [
+            15.8481834,
+            50.1998191
+          ],
+          [
+            15.8481603,
+            50.1998194
+          ],
+          [
+            15.8481606,
+            50.1998962
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1319724111,
+        "@url": "https://www.openstreetmap.org/way/1319724111",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -74290,6 +74333,53 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "https://www.dolnikounice.cz/sberny%2Ddvur/ds-4594/p1=14524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.8481603,
+                50.1998194
+              ],
+              [
+                15.8481834,
+                50.1998191
+              ],
+              [
+                15.8481814,
+                50.1998962
+              ],
+              [
+                15.8481606,
+                50.1998962
+              ],
+              [
+                15.8481603,
+                50.1998194
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1319724111,
+        "@url": "https://www.openstreetmap.org/way/1319724111",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     }
   ]

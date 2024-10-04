@@ -31138,7 +31138,9 @@
         "@type": "node",
         "@id": 11377303948,
         "@url": "https://www.openstreetmap.org/node/11377303948",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     },
     {
@@ -31154,7 +31156,9 @@
         "@type": "node",
         "@id": 11377303951,
         "@url": "https://www.openstreetmap.org/node/11377303951",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     },
     {
@@ -36140,6 +36144,75 @@
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4140777,
+          49.3067295
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12219336641,
+        "@url": "https://www.openstreetmap.org/node/12219336641",
+        "bonnet:colour": "blue",
+        "cap:colour": "blue",
+        "colour": "blue",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4217133,
+          49.2994178
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12219336642,
+        "@url": "https://www.openstreetmap.org/node/12219336642",
+        "bonnet:colour": "blue",
+        "cap:colour": "blue",
+        "colour": "blue",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5189592,
+          49.2347893
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12219336651,
+        "@url": "https://www.openstreetmap.org/node/12219336651",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "na"
       }
     }
   ]

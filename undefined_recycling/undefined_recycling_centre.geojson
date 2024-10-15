@@ -320,6 +320,25 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8494913,
+          50.0708623
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12248293344,
+        "@url": "https://www.openstreetmap.org/node/12248293344",
+        "addr:street": "Dukelská",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - Sezemice",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -862,6 +881,46 @@
         "@id": 1280797492,
         "@url": "https://www.openstreetmap.org/way/1280797492",
         "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.409269,
+                49.6547079
+              ],
+              [
+                17.4092801,
+                49.6541823
+              ],
+              [
+                17.4095967,
+                49.6541851
+              ],
+              [
+                17.4095855,
+                49.6547107
+              ],
+              [
+                17.409269,
+                49.6547079
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1323669289,
+        "@url": "https://www.openstreetmap.org/way/1323669289",
+        "amenity": "recycling",
+        "opening_hours": "Wd 12-17 Sa 7-12",
         "recycling_type": "centre"
       }
     }

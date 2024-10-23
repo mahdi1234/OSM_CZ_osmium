@@ -7705,6 +7705,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3095718,
+          50.0900576
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12277588704,
+        "@url": "https://www.openstreetmap.org/node/12277588704",
+        "addr:city": "Praha 6",
+        "addr:housenumber": "888/2",
+        "addr:postcode": "16100",
+        "addr:street": "Žukovského",
+        "name": "Don Pealo",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "operator": "PEAL a.s.",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -7816,6 +7839,46 @@
         "tourism": "hotel",
         "website": "https://www.urausu.cz/",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.5971571,
+            49.2053708
+          ],
+          [
+            17.5970842,
+            49.2053299
+          ],
+          [
+            17.5969254,
+            49.2054507
+          ],
+          [
+            17.5969983,
+            49.2054916
+          ],
+          [
+            17.5971571,
+            49.2053708
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 62106827,
+        "@url": "https://www.openstreetmap.org/way/62106827",
+        "building": "yes",
+        "drive_through": "no",
+        "name": "Pivotéka",
+        "operator": "Pivovar Malenovice, s.r.o.",
+        "shop": "alcohol",
+        "source": "cuzk:km",
+        "website": "https://www.zlinskysvec.cz/zlinska-pivoteka-e-shop/"
       }
     },
     {
@@ -8063,50 +8126,39 @@
         "type": "LineString",
         "coordinates": [
           [
-            17.1161722,
-            48.8598428
+            17.5969916,
+            49.2054972
           ],
           [
-            17.1161338,
-            48.8598304
+            17.5969051,
+            49.2054679
           ],
           [
-            17.1161409,
-            48.8598208
+            17.5967642,
+            49.2056451
           ],
           [
-            17.1161109,
-            48.859811
+            17.5968508,
+            49.2056745
           ],
           [
-            17.1160584,
-            48.859877
-          ],
-          [
-            17.1161799,
-            48.8599166
-          ],
-          [
-            17.116194,
-            48.8599011
-          ],
-          [
-            17.1161722,
-            48.8598428
+            17.5969916,
+            49.2054972
           ]
         ]
       },
       "properties": {
         "@type": "way",
-        "@id": 350209753,
-        "@url": "https://www.openstreetmap.org/way/350209753",
-        "building": "commercial",
-        "building:ruian:type": "10",
-        "name": "Vinotéka Žerotín",
-        "ref:ruian:building": "27574041",
+        "@id": 244173825,
+        "@url": "https://www.openstreetmap.org/way/244173825",
+        "building": "yes",
+        "drive_through": "no",
+        "name": "Prodejna piva",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "Pivovar Malenovice s.r.o.",
         "shop": "alcohol",
-        "source": "cuzk:ruian",
-        "wheelchair": "no"
+        "source": "cuzk:km",
+        "website": "https://www.zlinskysvec.cz/prodejna-piva/"
       }
     },
     {
@@ -8280,6 +8332,50 @@
         "tourism": "hotel",
         "website": "https://www.urausu.cz/",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.5969254,
+                49.2054507
+              ],
+              [
+                17.5970842,
+                49.2053299
+              ],
+              [
+                17.5971571,
+                49.2053708
+              ],
+              [
+                17.5969983,
+                49.2054916
+              ],
+              [
+                17.5969254,
+                49.2054507
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 62106827,
+        "@url": "https://www.openstreetmap.org/way/62106827",
+        "building": "yes",
+        "drive_through": "no",
+        "name": "Pivotéka",
+        "operator": "Pivovar Malenovice, s.r.o.",
+        "shop": "alcohol",
+        "source": "cuzk:km",
+        "website": "https://www.zlinskysvec.cz/zlinska-pivoteka-e-shop/"
       }
     },
     {
@@ -8549,36 +8645,24 @@
           [
             [
               [
-                17.1160584,
-                48.859877
+                17.5967642,
+                49.2056451
               ],
               [
-                17.1161109,
-                48.859811
+                17.5969051,
+                49.2054679
               ],
               [
-                17.1161409,
-                48.8598208
+                17.5969916,
+                49.2054972
               ],
               [
-                17.1161338,
-                48.8598304
+                17.5968508,
+                49.2056745
               ],
               [
-                17.1161722,
-                48.8598428
-              ],
-              [
-                17.116194,
-                48.8599011
-              ],
-              [
-                17.1161799,
-                48.8599166
-              ],
-              [
-                17.1160584,
-                48.859877
+                17.5967642,
+                49.2056451
               ]
             ]
           ]
@@ -8586,15 +8670,16 @@
       },
       "properties": {
         "@type": "way",
-        "@id": 350209753,
-        "@url": "https://www.openstreetmap.org/way/350209753",
-        "building": "commercial",
-        "building:ruian:type": "10",
-        "name": "Vinotéka Žerotín",
-        "ref:ruian:building": "27574041",
+        "@id": 244173825,
+        "@url": "https://www.openstreetmap.org/way/244173825",
+        "building": "yes",
+        "drive_through": "no",
+        "name": "Prodejna piva",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "Pivovar Malenovice s.r.o.",
         "shop": "alcohol",
-        "source": "cuzk:ruian",
-        "wheelchair": "no"
+        "source": "cuzk:km",
+        "website": "https://www.zlinskysvec.cz/prodejna-piva/"
       }
     },
     {

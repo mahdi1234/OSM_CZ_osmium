@@ -411,6 +411,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4241595,
+          50.1002022
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3359423264,
+        "@url": "https://www.openstreetmap.org/node/3359423264",
+        "amenity": "recycling",
+        "check_date:recycling": "2024-10-28",
+        "recycling:cans": "no",
+        "recycling:clothes": "yes",
+        "recycling:glass": "no",
+        "recycling:paper": "no",
+        "recycling_type": "container",
+        "source": "CZ:IPRPraha:ortofoto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.0035347,
           49.1346275
         ]
@@ -7204,26 +7227,6 @@
         "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.7865575,
-          49.1657758
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9952563317,
-        "@url": "https://www.openstreetmap.org/node/9952563317",
-        "amenity": "recycling",
-        "recycling:clothes": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -18440,6 +18443,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5830681,
+          50.1598284
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12292547390,
+        "@url": "https://www.openstreetmap.org/node/12292547390",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -20497,47 +20518,6 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "website": "http://www.dobra.cz/obec-dobra/sluzby-pro-obcany/sberny-dvur/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.3875279,
-            49.7387818
-          ],
-          [
-            13.3875875,
-            49.7387412
-          ],
-          [
-            13.3875688,
-            49.7387297
-          ],
-          [
-            13.3875071,
-            49.738769
-          ],
-          [
-            13.3875279,
-            49.7387818
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 450363648,
-        "@url": "https://www.openstreetmap.org/way/450363648",
-        "amenity": "recycling",
-        "location": "underground",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling_type": "container",
-        "source": "survey"
       }
     },
     {
@@ -24614,51 +24594,6 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "website": "http://www.dobra.cz/obec-dobra/sluzby-pro-obcany/sberny-dvur/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                13.3875071,
-                49.738769
-              ],
-              [
-                13.3875688,
-                49.7387297
-              ],
-              [
-                13.3875875,
-                49.7387412
-              ],
-              [
-                13.3875279,
-                49.7387818
-              ],
-              [
-                13.3875071,
-                49.738769
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 450363648,
-        "@url": "https://www.openstreetmap.org/way/450363648",
-        "amenity": "recycling",
-        "location": "underground",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling_type": "container",
-        "source": "survey"
       }
     },
     {

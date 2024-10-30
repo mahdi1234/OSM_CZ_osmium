@@ -995,8 +995,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8129213,
-          50.7552296
+          15.8129113,
+          50.7552318
         ]
       },
       "properties": {
@@ -1108,8 +1108,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5098668,
-          50.75394
+          15.509748,
+          50.7538804
         ]
       },
       "properties": {
@@ -1121,6 +1121,7 @@
         "name:cs": "Lysá hora",
         "name:de": "Kahler Berg",
         "natural": "peak",
+        "source": "ČÚZK",
         "wikidata": "Q1879015",
         "wikipedia": "cs:Lysá hora (Krkonoše)"
       }
@@ -1272,8 +1273,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6895421,
-          50.7421853
+          15.6896567,
+          50.7421543
         ]
       },
       "properties": {
@@ -1926,8 +1927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.529804,
-          50.7523081
+          15.5294755,
+          50.7525108
         ]
       },
       "properties": {
@@ -1939,6 +1940,7 @@
         "name:de": "Kesselkoppe",
         "name:pl": "Kocioł (Kotel)",
         "natural": "peak",
+        "source": "ČÚZK",
         "wikidata": "Q938859",
         "wikipedia": "cs:Kotel (Krkonoše)"
       }
@@ -1948,21 +1950,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4796233,
-          50.7609194
+          15.4795151,
+          50.760884
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 343644216,
         "@url": "https://www.openstreetmap.org/node/343644216",
-        "ele": "1210",
+        "ele": "1209",
         "name": "Plešivec",
         "name:cs": "Plešivec",
         "name:de": "Plechkamm",
         "natural": "peak",
-        "source": "cuzk:km",
-        "source:ele": "cs.wikipedia.org",
+        "source": "ČÚZK",
         "wikidata": "Q12045606",
         "wikipedia": "cs:Plešivec (Krkonoše)"
       }
@@ -1972,8 +1973,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7418928,
-          50.6526669
+          15.7418438,
+          50.6528305
         ]
       },
       "properties": {
@@ -2208,8 +2209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5382123,
-          50.7542728
+          15.5383282,
+          50.7544691
         ]
       },
       "properties": {
@@ -2220,8 +2221,35 @@
         "name": "Harrachovy kameny",
         "name:de": "Harrachsteine",
         "natural": "peak",
+        "source": "ČÚZK",
         "wikidata": "Q1586085",
         "wikipedia": "cs:Harrachovy kameny"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4905241,
+          50.7888898
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 347062364,
+        "@url": "https://www.openstreetmap.org/node/347062364",
+        "ele": "1296",
+        "name": "Kamiennik / Luboch",
+        "name:cs": "Luboch",
+        "name:de": "Wasserkoppe",
+        "name:pl": "Kamiennik",
+        "natural": "peak",
+        "ref:prng": "49330",
+        "source": "ČÚZK",
+        "source:name": "cuzk:km",
+        "wikidata": "Q11028951",
+        "wikipedia": "pl:Kamiennik (Karkonosze)"
       }
     },
     {
@@ -2442,19 +2470,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.688877,
-          50.69321
+          15.6885435,
+          50.6930664
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 366812568,
         "@url": "https://www.openstreetmap.org/node/366812568",
-        "ele": "1362.6",
+        "ele": "1363",
         "name": "Liščí hora",
         "name:de": "Fuchsberg",
         "natural": "peak",
-        "source": "cuzk:km",
+        "source": "ČÚZK",
         "wikidata": "Q11757848",
         "wikipedia": "cs:Liščí hora (Krkonoše)"
       }
@@ -2464,8 +2492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6535719,
-          50.7344081
+          15.6536137,
+          50.7343933
         ]
       },
       "properties": {
@@ -2473,11 +2501,9 @@
         "@id": 366815273,
         "@url": "https://www.openstreetmap.org/node/366815273",
         "ele": "1387",
-        "name": "Kozí hřbety",
-        "name:cs": "Kozí hřbety",
         "name:de": "Ziegenrücken",
         "natural": "peak",
-        "source": "cuzk:km",
+        "source": "ČÚZK",
         "wikidata": "Q573238",
         "wikipedia": "cs:Kozí hřbety (Krkonoše)"
       }
@@ -2487,8 +2513,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.739404,
-          50.721098
+          15.7389438,
+          50.7209817
         ]
       },
       "properties": {
@@ -2510,8 +2536,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7722204,
-          50.6582348
+          15.7722005,
+          50.6582778
         ]
       },
       "properties": {
@@ -2523,8 +2549,7 @@
         "name:cs": "Světlá",
         "name:de": "Lichte Höhe",
         "natural": "peak",
-        "source": "ČÚZK",
-        "source:ele": "tisicovky.cz"
+        "source": "ČÚZK"
       }
     },
     {
@@ -2552,8 +2577,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7611736,
-          50.6812375
+          15.7611977,
+          50.6812469
         ]
       },
       "properties": {
@@ -2574,19 +2599,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6274661,
-          50.7380851
+          15.6274665,
+          50.7380831
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 366820981,
         "@url": "https://www.openstreetmap.org/node/366820981",
-        "ele": "1320.9",
+        "ele": "1321",
         "name": "Železný vrch",
         "name:cs": "Železný vrch",
         "name:de": "Eisenberg",
         "natural": "peak",
+        "source": "ČÚZK",
         "wikidata": "Q10280423",
         "wikipedia": "cs:Železný vrch (Krkonoše)"
       }
@@ -2596,8 +2622,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.769795,
-          50.7426524
+          15.7697382,
+          50.742519
         ]
       },
       "properties": {
@@ -2616,7 +2642,6 @@
         "prominence": "50",
         "ref:prng": "18876",
         "source": "ČÚZK",
-        "source:ele": "cs.wikipedia.org",
         "tourism": "viewpoint;information",
         "wikidata": "Q5201559",
         "wikipedia": "cs:Svorová hora"
@@ -2627,8 +2652,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6687538,
-          50.7119545
+          15.6678849,
+          50.7119327
         ]
       },
       "properties": {
@@ -2639,7 +2664,7 @@
         "name": "Zadní Planina",
         "name:de": "Plattenberg",
         "natural": "peak",
-        "source": "uhul:vrstevnice;ČÚZK",
+        "source": "ČÚZK",
         "wikidata": "Q10857103",
         "wikipedia": "cs:Zadní Planina"
       }
@@ -2649,8 +2674,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7851804,
-          50.7013375
+          15.7843574,
+          50.7013617
         ]
       },
       "properties": {
@@ -2662,9 +2687,7 @@
         "name:cs": "Pěnkavčí vrch",
         "name:de": "Finken Berg",
         "natural": "peak",
-        "source": "uhul:vrstevnice",
-        "source:ele": "tisicovky.cz",
-        "source:name": "tisicovky.cz",
+        "source": "ČÚZK",
         "wikidata": "Q12047849",
         "wikipedia": "cs:Pěnkavčí vrch (Krkonoše)"
       }
@@ -2674,8 +2697,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8046035,
-          50.7185586
+          15.804611,
+          50.7184675
         ]
       },
       "properties": {
@@ -2697,21 +2720,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8155135,
-          50.6988163
+          15.8153293,
+          50.6988873
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 366824549,
         "@url": "https://www.openstreetmap.org/node/366824549",
-        "ele": "1084.8",
+        "ele": "1085",
         "name": "Dlouhý hřeben",
         "name:de": "Langer Berg",
         "natural": "peak",
-        "source": "uhul:vrstevnice",
-        "source:ele": "tisicovky.cz",
-        "source:name": "tisicovky.cz"
+        "source": "ČÚZK"
       }
     },
     {
@@ -2719,8 +2740,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5698699,
-          50.7274662
+          15.5701233,
+          50.7275783
         ]
       },
       "properties": {
@@ -2732,9 +2753,7 @@
         "name:cs": "Mechovinec",
         "name:de": "Preiselberg",
         "natural": "peak",
-        "source": "uhul:vrstevnice",
-        "source:ele": "tisicovky.cz",
-        "source:name": "cuzk:km",
+        "source": "ČÚZK",
         "wikidata": "Q12036265",
         "wikipedia": "cs:Mechovinec"
       }
@@ -2810,8 +2829,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7350628,
-          50.6723117
+          15.7347434,
+          50.6722995
         ]
       },
       "properties": {
@@ -2913,15 +2932,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.649597,
-          50.7178491
+          15.6496176,
+          50.7180033
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 455897334,
         "@url": "https://www.openstreetmap.org/node/455897334",
-        "ele": "1319.5",
+        "ele": "1319",
         "name": "Stoh",
         "name:de": "Heuschober Berg",
         "natural": "peak",
@@ -2935,8 +2954,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7120146,
-          50.7077427
+          15.7120518,
+          50.7075285
         ]
       },
       "properties": {
@@ -3001,8 +3020,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6606962,
-          50.7021438
+          15.66053,
+          50.702171
         ]
       },
       "properties": {
@@ -3632,8 +3651,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5151396,
-          50.713465
+          15.5148318,
+          50.7132978
         ]
       },
       "properties": {
@@ -3643,8 +3662,7 @@
         "ele": "1035",
         "name": "Preislerův kopec",
         "natural": "peak",
-        "source:ele": "tisicovky.cz",
-        "source:name": "tisicovky.cz"
+        "source": "ČÚZK"
       }
     },
     {
@@ -3652,8 +3670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5066539,
-          50.7231631
+          15.5069448,
+          50.7238838
         ]
       },
       "properties": {
@@ -3661,7 +3679,7 @@
         "@id": 565690350,
         "@url": "https://www.openstreetmap.org/node/565690350",
         "description": "Jižní vrchol",
-        "ele": "1117.7",
+        "ele": "1119",
         "name": "Vlčí hřeben",
         "name:cs": "Vlčí hřeben",
         "name:de": "Wolfskamm",
@@ -3677,8 +3695,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5096871,
-          50.732648
+          15.5096774,
+          50.7326521
         ]
       },
       "properties": {
@@ -3722,8 +3740,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5655371,
-          50.7090741
+          15.5657676,
+          50.7088047
         ]
       },
       "properties": {
@@ -3768,8 +3786,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4400689,
-          50.8025528
+          15.4400587,
+          50.8026226
         ]
       },
       "properties": {
@@ -3782,7 +3800,6 @@
         "name:de": "Weifserberg",
         "natural": "peak",
         "source": "ČÚZK",
-        "source:ele": "tisicovky.cz",
         "wikidata": "Q12038896",
         "wikipedia": "cs:Mrtvý vrch"
       }
@@ -3792,8 +3809,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4755276,
-          50.7864624
+          15.4754963,
+          50.7865211
         ]
       },
       "properties": {
@@ -4518,8 +4535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.783131,
-          50.7198052
+          15.780842,
+          50.7203914
         ]
       },
       "properties": {
@@ -4586,8 +4603,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8301639,
-          50.7252894
+          15.8301489,
+          50.7253243
         ]
       },
       "properties": {
@@ -4637,8 +4654,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5067369,
-          50.7273682
+          15.5064808,
+          50.7272509
         ]
       },
       "properties": {
@@ -4661,8 +4678,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.554166,
-          50.7504087
+          15.554212,
+          50.7503065
         ]
       },
       "properties": {
@@ -4675,8 +4692,7 @@
         "name:cs": "Zlaté návrší",
         "name:de": "Goldhöhe",
         "natural": "peak",
-        "source:ele": "tisicovky.cz",
-        "source:name": "tisicovky.cz",
+        "source": "ČÚZK",
         "wikidata": "Q1535786"
       }
     },
@@ -7314,8 +7330,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5820099,
-          50.7415832
+          15.5819096,
+          50.7416621
         ]
       },
       "properties": {
@@ -7323,7 +7339,7 @@
         "@id": 596600129,
         "@url": "https://www.openstreetmap.org/node/596600129",
         "alt_name:de": "Bärenberg",
-        "ele": "1234.7",
+        "ele": "1234.8",
         "name": "Medvědín",
         "name:cs": "Medvědín",
         "name:de": "Schüsselberg",
@@ -13395,28 +13411,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5547207,
-          50.7786117
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2438937748,
-        "@url": "https://www.openstreetmap.org/node/2438937748",
-        "ele": "1490",
-        "name": "Vysoká pláň",
-        "name:cs": "Vysoká pláň",
-        "natural": "peak",
-        "prominence": "13",
-        "wikidata": "Q11947073",
-        "wikipedia": "cs:Vysoká pláň"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.6963087,
           50.6690336
         ]
@@ -17953,8 +17947,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5476712,
-          50.7523822
+          15.5475944,
+          50.7525063
         ]
       },
       "properties": {
@@ -22175,8 +22169,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.6654463,
-          50.7340095
+          15.6654555,
+          50.7340107
         ]
       },
       "properties": {
@@ -23433,8 +23427,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8148749,
-          50.6898757
+          15.8148829,
+          50.6898894
         ]
       },
       "properties": {
@@ -23451,8 +23445,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8196749,
-          50.7067131
+          15.8198847,
+          50.7068018
         ]
       },
       "properties": {
@@ -23460,7 +23454,8 @@
         "@id": 10204706004,
         "@url": "https://www.openstreetmap.org/node/10204706004",
         "ele": "1031",
-        "natural": "peak"
+        "natural": "peak",
+        "source": "ČÚZK"
       }
     },
     {
@@ -23468,16 +23463,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5106359,
-          50.7383501
+          15.5104744,
+          50.7380539
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 10302820899,
         "@url": "https://www.openstreetmap.org/node/10302820899",
-        "ele": "1047.2",
-        "natural": "peak"
+        "ele": "1048",
+        "natural": "peak",
+        "source": "ČÚZK"
       }
     },
     {
@@ -24071,6 +24067,62 @@
         "@id": 12190062958,
         "@url": "https://www.openstreetmap.org/node/12190062958",
         "ele": "1051",
+        "natural": "peak",
+        "source": "ČÚZK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6415863,
+          50.7351476
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12294837936,
+        "@url": "https://www.openstreetmap.org/node/12294837936",
+        "ele": "1318",
+        "name": "Kozí hřbety",
+        "natural": "peak",
+        "wikidata": "Q573238",
+        "wikipedia": "cs:Kozí hřbety (Krkonoše)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.48484,
+          50.7589825
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12294837937,
+        "@url": "https://www.openstreetmap.org/node/12294837937",
+        "ele": "1196",
+        "natural": "peak",
+        "source": "ČÚZK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7785536,
+          50.6635017
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12294837938,
+        "@url": "https://www.openstreetmap.org/node/12294837938",
+        "ele": "1170",
         "natural": "peak",
         "source": "ČÚZK"
       }

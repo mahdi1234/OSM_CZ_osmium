@@ -4833,46 +4833,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7999026,
-          50.0261992
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2188649200,
-        "@url": "https://www.openstreetmap.org/node/2188649200",
-        "amenity": "recycling",
-        "check_date:website": "2024-09-15",
-        "name": "Separační dvůr",
-        "operator": "SmP - Odpady a.s",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:tyres": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.3149693,
           50.2464982
         ]
@@ -41836,8 +41796,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.3562863,
-          49.54239
+          15.35629,
+          49.542389
         ]
       },
       "properties": {
@@ -56744,6 +56704,28 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3535685,
+          49.5404364
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12299946038,
+        "@url": "https://www.openstreetmap.org/node/12299946038",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -65321,6 +65303,72 @@
         "recycling:glass_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.7998304,
+            50.0262548
+          ],
+          [
+            15.7998234,
+            50.0262289
+          ],
+          [
+            15.7998056,
+            50.0261544
+          ],
+          [
+            15.8006553,
+            50.0259998
+          ],
+          [
+            15.8007602,
+            50.0261819
+          ],
+          [
+            15.8007726,
+            50.0262035
+          ],
+          [
+            15.7998304,
+            50.0262548
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1329290242,
+        "@url": "https://www.openstreetmap.org/way/1329290242",
+        "amenity": "recycling",
+        "check_date:website": "2024-09-15",
+        "name": "Separační dvůr",
+        "operator": "SmP - Odpady a.s",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
       }
     },
     {
@@ -74363,6 +74411,76 @@
         "recycling:glass_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.7998056,
+                50.0261544
+              ],
+              [
+                15.8006553,
+                50.0259998
+              ],
+              [
+                15.8007602,
+                50.0261819
+              ],
+              [
+                15.8007726,
+                50.0262035
+              ],
+              [
+                15.7998304,
+                50.0262548
+              ],
+              [
+                15.7998234,
+                50.0262289
+              ],
+              [
+                15.7998056,
+                50.0261544
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1329290242,
+        "@url": "https://www.openstreetmap.org/way/1329290242",
+        "amenity": "recycling",
+        "check_date:website": "2024-09-15",
+        "name": "Separační dvůr",
+        "operator": "SmP - Odpady a.s",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
       }
     }
   ]

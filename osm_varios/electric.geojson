@@ -4435,46 +4435,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7999026,
-          50.0261992
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2188649200,
-        "@url": "https://www.openstreetmap.org/node/2188649200",
-        "amenity": "recycling",
-        "check_date:website": "2024-09-15",
-        "name": "Separační dvůr",
-        "operator": "SmP - Odpady a.s",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:tyres": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.5075417,
           50.1173307
         ]
@@ -15943,6 +15903,7 @@
         "@id": 5964531927,
         "@url": "https://www.openstreetmap.org/node/5964531927",
         "amenity": "recycling",
+        "check_date": "2024-10-30",
         "operator": "asekol",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
@@ -34731,6 +34692,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3968596,
+          49.7384287
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9486181592,
+        "@url": "https://www.openstreetmap.org/node/9486181592",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.3648703,
           50.0808053
         ]
@@ -44023,8 +44005,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.3562863,
-          49.54239
+          15.35629,
+          49.542389
         ]
       },
       "properties": {
@@ -50717,6 +50699,36 @@
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5748525,
+          49.5289114
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12160335667,
+        "@url": "https://www.openstreetmap.org/node/12160335667",
+        "addr:city": "Lipník nad Bečvou",
+        "addr:housenumber": "488/8",
+        "addr:postcode": "75131",
+        "addr:street": "Nádražní",
+        "amenity": "recycling",
+        "email": "lipnik@pmmetal.cz",
+        "fee": "no",
+        "mobile": "+420 581 771 052",
+        "name": "Pragometal Sběrna Lipník",
+        "opening_hours": "Mo-Fr 07:00-11:30 12:00-15:30 Sa 08:00-12:00",
+        "recycling:electrical_appliances": "yes",
+        "recycling:kov": "yes",
+        "recycling:paper": "yes",
+        "recycling_type": "centre",
+        "waste": "paper"
       }
     },
     {
@@ -72069,6 +72081,72 @@
         "recycling:glass_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.7998304,
+            50.0262548
+          ],
+          [
+            15.7998234,
+            50.0262289
+          ],
+          [
+            15.7998056,
+            50.0261544
+          ],
+          [
+            15.8006553,
+            50.0259998
+          ],
+          [
+            15.8007602,
+            50.0261819
+          ],
+          [
+            15.8007726,
+            50.0262035
+          ],
+          [
+            15.7998304,
+            50.0262548
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1329290242,
+        "@url": "https://www.openstreetmap.org/way/1329290242",
+        "amenity": "recycling",
+        "check_date:website": "2024-09-15",
+        "name": "Separační dvůr",
+        "operator": "SmP - Odpady a.s",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
       }
     },
     {
@@ -93812,6 +93890,76 @@
         "recycling:glass_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.7998056,
+                50.0261544
+              ],
+              [
+                15.8006553,
+                50.0259998
+              ],
+              [
+                15.8007602,
+                50.0261819
+              ],
+              [
+                15.8007726,
+                50.0262035
+              ],
+              [
+                15.7998304,
+                50.0262548
+              ],
+              [
+                15.7998234,
+                50.0262289
+              ],
+              [
+                15.7998056,
+                50.0261544
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1329290242,
+        "@url": "https://www.openstreetmap.org/way/1329290242",
+        "amenity": "recycling",
+        "check_date:website": "2024-09-15",
+        "name": "Separační dvůr",
+        "operator": "SmP - Odpady a.s",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
       }
     }
   ]

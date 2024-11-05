@@ -25620,51 +25620,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6454391,
-          49.1320964
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8368010980,
-        "@url": "https://www.openstreetmap.org/node/8368010980",
-        "amenity": "recycling",
-        "mobile": "+420 728 864 460",
-        "name": "SSO Zámecká",
-        "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:fluorescent_tubes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:rubble": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:tyres": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.6108074,
           49.1687583
         ]
@@ -51537,6 +51492,34 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3618335,
+          49.5862218
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12308378403,
+        "@url": "https://www.openstreetmap.org/node/12308378403",
+        "amenity": "recycling",
+        "recycling:PET": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -72197,6 +72180,105 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6454367,
+            49.1323147
+          ],
+          [
+            16.6454593,
+            49.1322794
+          ],
+          [
+            16.6454797,
+            49.1322509
+          ],
+          [
+            16.6455,
+            49.1322224
+          ],
+          [
+            16.6455203,
+            49.1321939
+          ],
+          [
+            16.6455407,
+            49.1321654
+          ],
+          [
+            16.6455611,
+            49.1321369
+          ],
+          [
+            16.6456173,
+            49.1320534
+          ],
+          [
+            16.6454802,
+            49.1320217
+          ],
+          [
+            16.645364,
+            49.1320068
+          ],
+          [
+            16.6453167,
+            49.1321149
+          ],
+          [
+            16.645315,
+            49.1322111
+          ],
+          [
+            16.6453447,
+            49.1322883
+          ],
+          [
+            16.6454367,
+            49.1323147
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1330290718,
+        "@url": "https://www.openstreetmap.org/way/1330290718",
+        "amenity": "recycling",
+        "mobile": "+420 728 864 460",
+        "name": "SSO Zámecká",
+        "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -94010,6 +94092,109 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.smp-pce.cz/data/files/provoz-separacnich-dvoru-1665473357.pdf?v1707247039"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.645315,
+                49.1322111
+              ],
+              [
+                16.6453167,
+                49.1321149
+              ],
+              [
+                16.645364,
+                49.1320068
+              ],
+              [
+                16.6454802,
+                49.1320217
+              ],
+              [
+                16.6456173,
+                49.1320534
+              ],
+              [
+                16.6455611,
+                49.1321369
+              ],
+              [
+                16.6455407,
+                49.1321654
+              ],
+              [
+                16.6455203,
+                49.1321939
+              ],
+              [
+                16.6455,
+                49.1322224
+              ],
+              [
+                16.6454797,
+                49.1322509
+              ],
+              [
+                16.6454593,
+                49.1322794
+              ],
+              [
+                16.6454367,
+                49.1323147
+              ],
+              [
+                16.6453447,
+                49.1322883
+              ],
+              [
+                16.645315,
+                49.1322111
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1330290718,
+        "@url": "https://www.openstreetmap.org/way/1330290718",
+        "amenity": "recycling",
+        "mobile": "+420 728 864 460",
+        "name": "SSO Zámecká",
+        "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

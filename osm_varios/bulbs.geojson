@@ -1172,47 +1172,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.9919502,
-          48.988208
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8983825972,
-        "@url": "https://www.openstreetmap.org/node/8983825972",
-        "amenity": "recycling",
-        "email": "tomas.navratil@fcc-group.cz",
-        "name": "Sběrný dvůr Jevišovice",
-        "opening_hours": "Tu,Fr 14:00-18:00; Sa 08:00-13:00",
-        "operator": "FCC Znojmo, s.r.o.",
-        "phone": "+420 515 242 652",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:fluorescent_tubes": "yes",
-        "recycling:glass": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:rubble": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:tyres": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.jevisovice.cz/sberny-dvur-odpadu"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.296846,
           49.7744312
         ]
@@ -6237,6 +6196,101 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.991943,
+            48.9882385
+          ],
+          [
+            15.9919251,
+            48.9882408
+          ],
+          [
+            15.9918781,
+            48.9880632
+          ],
+          [
+            15.9919722,
+            48.9880444
+          ],
+          [
+            15.9919893,
+            48.9881015
+          ],
+          [
+            15.9921062,
+            48.9880837
+          ],
+          [
+            15.9920891,
+            48.9880332
+          ],
+          [
+            15.9923485,
+            48.9879509
+          ],
+          [
+            15.9923884,
+            48.9881408
+          ],
+          [
+            15.9923742,
+            48.9881417
+          ],
+          [
+            15.9924269,
+            48.9883382
+          ],
+          [
+            15.992116,
+            48.9883826
+          ],
+          [
+            15.9920742,
+            48.9882213
+          ],
+          [
+            15.991943,
+            48.9882385
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1331414451,
+        "@url": "https://www.openstreetmap.org/way/1331414451",
+        "amenity": "recycling",
+        "email": "tomas.navratil@fcc-group.cz",
+        "name": "Sběrný dvůr Jevišovice",
+        "opening_hours": "Tu,Fr 14:00-18:00; Sa 08:00-13:00",
+        "operator": "FCC Znojmo, s.r.o.",
+        "phone": "+420 515 242 652",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.jevisovice.cz/sberny-dvur-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -10496,6 +10550,105 @@
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.9918781,
+                48.9880632
+              ],
+              [
+                15.9919722,
+                48.9880444
+              ],
+              [
+                15.9919893,
+                48.9881015
+              ],
+              [
+                15.9921062,
+                48.9880837
+              ],
+              [
+                15.9920891,
+                48.9880332
+              ],
+              [
+                15.9923485,
+                48.9879509
+              ],
+              [
+                15.9923884,
+                48.9881408
+              ],
+              [
+                15.9923742,
+                48.9881417
+              ],
+              [
+                15.9924269,
+                48.9883382
+              ],
+              [
+                15.992116,
+                48.9883826
+              ],
+              [
+                15.9920742,
+                48.9882213
+              ],
+              [
+                15.991943,
+                48.9882385
+              ],
+              [
+                15.9919251,
+                48.9882408
+              ],
+              [
+                15.9918781,
+                48.9880632
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1331414451,
+        "@url": "https://www.openstreetmap.org/way/1331414451",
+        "amenity": "recycling",
+        "email": "tomas.navratil@fcc-group.cz",
+        "name": "Sběrný dvůr Jevišovice",
+        "opening_hours": "Tu,Fr 14:00-18:00; Sa 08:00-13:00",
+        "operator": "FCC Znojmo, s.r.o.",
+        "phone": "+420 515 242 652",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.jevisovice.cz/sberny-dvur-odpadu"
       }
     }
   ]

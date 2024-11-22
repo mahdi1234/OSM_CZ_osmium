@@ -7335,7 +7335,7 @@
         "@url": "https://www.openstreetmap.org/node/9490248883",
         "access": "permissive",
         "amenity": "public_bookcase",
-        "opening_hours": "24/7",
+        "opening_hours": "Mo-Fr 07:00-15:00",
         "public_bookcase:type": "wooden_cabinet",
         "wheelchair": "limited"
       }
@@ -11071,7 +11071,9 @@
         "@type": "node",
         "@id": 11209621935,
         "@url": "https://www.openstreetmap.org/node/11209621935",
-        "amenity": "public_bookcase"
+        "amenity": "public_bookcase",
+        "location": "indoor",
+        "opening_hours": "Mo-Fr 08:00-17:30"
       }
     },
     {
@@ -11442,22 +11444,6 @@
         "@type": "node",
         "@id": 11401027137,
         "@url": "https://www.openstreetmap.org/node/11401027137",
-        "amenity": "public_bookcase"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.7540619,
-          50.1581467
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11416424740,
-        "@url": "https://www.openstreetmap.org/node/11416424740",
         "amenity": "public_bookcase"
       }
     },
@@ -14375,6 +14361,59 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7194672,
+          49.8684704
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12359341317,
+        "@url": "https://www.openstreetmap.org/node/12359341317",
+        "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.7156719,
+            50.244165
+          ],
+          [
+            15.7155147,
+            50.2442177
+          ],
+          [
+            15.7155683,
+            50.244284
+          ],
+          [
+            15.715726,
+            50.2442314
+          ],
+          [
+            15.7156719,
+            50.244165
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 44023953,
+        "@url": "https://www.openstreetmap.org/way/44023953",
+        "amenity": "public_bookcase",
+        "building:ruian:type": "5",
+        "ref:ruian:building": "20088931",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -14483,6 +14522,47 @@
         "@id": 1190699161,
         "@url": "https://www.openstreetmap.org/way/1190699161",
         "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.7155147,
+                50.2442177
+              ],
+              [
+                15.7156719,
+                50.244165
+              ],
+              [
+                15.715726,
+                50.2442314
+              ],
+              [
+                15.7155683,
+                50.244284
+              ],
+              [
+                15.7155147,
+                50.2442177
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 44023953,
+        "@url": "https://www.openstreetmap.org/way/44023953",
+        "amenity": "public_bookcase",
+        "building:ruian:type": "5",
+        "ref:ruian:building": "20088931",
+        "source": "cuzk:ruian"
       }
     },
     {

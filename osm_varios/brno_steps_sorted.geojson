@@ -8286,12 +8286,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5301528,
-            49.2233869
+            16.530156,
+            49.2233853
           ],
           [
-            16.5301638,
-            49.223396
+            16.530167,
+            49.2233943
           ]
         ]
       },
@@ -8306,7 +8306,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "4",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -20271,6 +20272,35 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5282348,
+            49.2215009
+          ],
+          [
+            16.5282851,
+            49.2215435
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 44679239,
+        "@url": "https://www.openstreetmap.org/way/44679239",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "ramp": "no",
+        "source": "uhul:ortofoto",
+        "step_count": "7",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5738831,
             49.2312422
           ],
@@ -27115,6 +27145,33 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5306911,
+            49.2238741
+          ],
+          [
+            16.5306671,
+            49.2238507
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1336874120,
+        "@url": "https://www.openstreetmap.org/way/1336874120",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "yes",
+        "source": "cuzk:km",
+        "step_count": "8",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5569855,
             49.1689586
           ],
@@ -27735,12 +27792,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5300724,
-            49.2233208
+            16.5300505,
+            49.2232981
           ],
           [
-            16.5300482,
-            49.2232989
+            16.5300215,
+            49.2232741
           ]
         ]
       },
@@ -27755,7 +27812,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "9",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {

@@ -36402,6 +36402,84 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.1515944,
+            50.2904049
+          ],
+          [
+            16.1514492,
+            50.2905367
+          ],
+          [
+            16.1513576,
+            50.2906169
+          ],
+          [
+            16.1512421,
+            50.2907086
+          ],
+          [
+            16.1509756,
+            50.2908679
+          ],
+          [
+            16.1509033,
+            50.2908305
+          ],
+          [
+            16.1508656,
+            50.2908102
+          ],
+          [
+            16.1509766,
+            50.2907241
+          ],
+          [
+            16.1511184,
+            50.2906167
+          ],
+          [
+            16.1512427,
+            50.2905207
+          ],
+          [
+            16.1514255,
+            50.2903419
+          ],
+          [
+            16.1515305,
+            50.2903811
+          ],
+          [
+            16.1515944,
+            50.2904049
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1337789672,
+        "@url": "https://www.openstreetmap.org/way/1337789672",
+        "amenity": "recycling",
+        "email": "obchod.bajer@seznam.cz",
+        "name": "Výkup druhotných surovin",
+        "opening_hours": "Mo 09:00-12:00,13:00-16:00; Tu-Fr 08:00-12:00,13:00-16:00; Sa 08:00-12:00; PH closed",
+        "operator": "Petr Bajer",
+        "phone": "+420 730 893 223",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "surovinybajer.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -52788,6 +52866,88 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevisovice.cz/sberny-dvur-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.1508656,
+                50.2908102
+              ],
+              [
+                16.1509766,
+                50.2907241
+              ],
+              [
+                16.1511184,
+                50.2906167
+              ],
+              [
+                16.1512427,
+                50.2905207
+              ],
+              [
+                16.1514255,
+                50.2903419
+              ],
+              [
+                16.1515305,
+                50.2903811
+              ],
+              [
+                16.1515944,
+                50.2904049
+              ],
+              [
+                16.1514492,
+                50.2905367
+              ],
+              [
+                16.1513576,
+                50.2906169
+              ],
+              [
+                16.1512421,
+                50.2907086
+              ],
+              [
+                16.1509756,
+                50.2908679
+              ],
+              [
+                16.1509033,
+                50.2908305
+              ],
+              [
+                16.1508656,
+                50.2908102
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1337789672,
+        "@url": "https://www.openstreetmap.org/way/1337789672",
+        "amenity": "recycling",
+        "email": "obchod.bajer@seznam.cz",
+        "name": "Výkup druhotných surovin",
+        "opening_hours": "Mo 09:00-12:00,13:00-16:00; Tu-Fr 08:00-12:00,13:00-16:00; Sa 08:00-12:00; PH closed",
+        "operator": "Petr Bajer",
+        "phone": "+420 730 893 223",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "surovinybajer.cz"
       }
     }
   ]

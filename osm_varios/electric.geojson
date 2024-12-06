@@ -12873,12 +12873,14 @@
         "@id": 4975693800,
         "@url": "https://www.openstreetmap.org/node/4975693800",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -25720,8 +25722,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.8480789,
-          49.2078622
+          17.8481086,
+          49.2078373
         ]
       },
       "properties": {
@@ -25729,9 +25731,13 @@
         "@id": 8371360342,
         "@url": "https://www.openstreetmap.org/node/8371360342",
         "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -51810,6 +51816,28 @@
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3470996,
+          49.6717029
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12398327564,
+        "@url": "https://www.openstreetmap.org/node/12398327564",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },

@@ -3220,30 +3220,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4527329,
-          50.10217
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3642976742,
-        "@url": "https://www.openstreetmap.org/node/3642976742",
-        "alcohol": "wine",
-        "capacity": "25",
-        "contact:email": "udolejsku@gmail.com",
-        "contact:phone": "+420 774 593 699",
-        "contact:website": "http://www.udolejsku.cz",
-        "name": "Vinný club U Dolejšků",
-        "opening_hours": "Mo-Fr 14:00-24:00; Sa-Su 18:00-24:00",
-        "operator": "Pavel Michalský",
-        "shop": "alcohol"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.541636,
           50.5399975
         ]
@@ -4501,31 +4477,6 @@
         "name": "Nápoje Flop",
         "name:cs": "Nápoje Flop",
         "shop": "alcohol"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.5757903,
-          49.2531136
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4534544391,
-        "@url": "https://www.openstreetmap.org/node/4534544391",
-        "addr:housenumber": "1990/2",
-        "addr:street": "Žilkova",
-        "drink:beer": "yes",
-        "drive_through": "no",
-        "name": "Maneo",
-        "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-13:00",
-        "payment:cash": "only",
-        "phone": "+420603829272",
-        "shop": "alcohol",
-        "website": "https://www.maneo.cz/"
       }
     },
     {
@@ -8065,6 +8016,107 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5756255,
+            49.2533049
+          ],
+          [
+            16.5755573,
+            49.2533952
+          ],
+          [
+            16.5756611,
+            49.2534286
+          ],
+          [
+            16.5759063,
+            49.253511
+          ],
+          [
+            16.5758799,
+            49.2535467
+          ],
+          [
+            16.5761009,
+            49.2536206
+          ],
+          [
+            16.5763328,
+            49.2533253
+          ],
+          [
+            16.5766069,
+            49.2531417
+          ],
+          [
+            16.5764136,
+            49.2530175
+          ],
+          [
+            16.5763014,
+            49.2530938
+          ],
+          [
+            16.5762625,
+            49.2530965
+          ],
+          [
+            16.5762309,
+            49.2530987
+          ],
+          [
+            16.5757947,
+            49.2529537
+          ],
+          [
+            16.5756942,
+            49.2530827
+          ],
+          [
+            16.5757779,
+            49.25311
+          ],
+          [
+            16.5756584,
+            49.2532629
+          ],
+          [
+            16.5756255,
+            49.2533049
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 107911029,
+        "@url": "https://www.openstreetmap.org/way/107911029",
+        "addr:city": "Brno",
+        "addr:housenumber": "2",
+        "addr:postcode": "621 00",
+        "addr:street": "Žilkova",
+        "building": "commercial",
+        "building:levels": "1",
+        "building:ruian:type": "10",
+        "check_date": "2024-12-06",
+        "drive_through": "no",
+        "email": "objednavky@maneo.cz",
+        "name": "Maneo",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-13:00",
+        "operator": "Maneo, s.r.o.",
+        "payment:cash": "yes",
+        "phone": "+420 541 226 794",
+        "ref:ruian:building": "24634468",
+        "roof:shape": "flat",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
+        "website": "https://www.maneo.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             18.119503,
             49.5901425
           ],
@@ -8562,6 +8614,111 @@
         "ref:ruian:building": "3332594",
         "shop": "alcohol",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5755573,
+                49.2533952
+              ],
+              [
+                16.5756255,
+                49.2533049
+              ],
+              [
+                16.5756584,
+                49.2532629
+              ],
+              [
+                16.5757779,
+                49.25311
+              ],
+              [
+                16.5756942,
+                49.2530827
+              ],
+              [
+                16.5757947,
+                49.2529537
+              ],
+              [
+                16.5762309,
+                49.2530987
+              ],
+              [
+                16.5762625,
+                49.2530965
+              ],
+              [
+                16.5763014,
+                49.2530938
+              ],
+              [
+                16.5764136,
+                49.2530175
+              ],
+              [
+                16.5766069,
+                49.2531417
+              ],
+              [
+                16.5763328,
+                49.2533253
+              ],
+              [
+                16.5761009,
+                49.2536206
+              ],
+              [
+                16.5758799,
+                49.2535467
+              ],
+              [
+                16.5759063,
+                49.253511
+              ],
+              [
+                16.5756611,
+                49.2534286
+              ],
+              [
+                16.5755573,
+                49.2533952
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 107911029,
+        "@url": "https://www.openstreetmap.org/way/107911029",
+        "addr:city": "Brno",
+        "addr:housenumber": "2",
+        "addr:postcode": "621 00",
+        "addr:street": "Žilkova",
+        "building": "commercial",
+        "building:levels": "1",
+        "building:ruian:type": "10",
+        "check_date": "2024-12-06",
+        "drive_through": "no",
+        "email": "objednavky@maneo.cz",
+        "name": "Maneo",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-13:00",
+        "operator": "Maneo, s.r.o.",
+        "payment:cash": "yes",
+        "phone": "+420 541 226 794",
+        "ref:ruian:building": "24634468",
+        "roof:shape": "flat",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
+        "website": "https://www.maneo.cz/"
       }
     },
     {

@@ -51874,6 +51874,45 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4806966,
+          49.2949349
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12406398710,
+        "@url": "https://www.openstreetmap.org/node/12406398710",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Třešť",
+        "recycling:batteries": "no",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -56915,7 +56954,8 @@
         "amenity": "recycling",
         "name": "Sběrný dvůr Hlavního města Prahy",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "phone": "+420 736 518 204",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
@@ -63955,6 +63995,10 @@
           [
             17.2283257,
             49.1418895
+          ],
+          [
+            17.2282996,
+            49.1419073
           ],
           [
             17.2279922,
@@ -78078,7 +78122,8 @@
         "amenity": "recycling",
         "name": "Sběrný dvůr Hlavního města Prahy",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "phone": "+420 736 518 204",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
@@ -85516,6 +85561,10 @@
               [
                 17.2283257,
                 49.1418895
+              ],
+              [
+                17.2282996,
+                49.1419073
               ],
               [
                 17.2279922,

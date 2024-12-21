@@ -36633,6 +36633,71 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.1867102,
+            49.724272
+          ],
+          [
+            18.1867786,
+            49.7242598
+          ],
+          [
+            18.1868302,
+            49.7242391
+          ],
+          [
+            18.1874779,
+            49.7237861
+          ],
+          [
+            18.1872104,
+            49.7235975
+          ],
+          [
+            18.1864444,
+            49.7239659
+          ],
+          [
+            18.1865814,
+            49.7241037
+          ],
+          [
+            18.1866699,
+            49.7241922
+          ],
+          [
+            18.1866968,
+            49.7242191
+          ],
+          [
+            18.1867102,
+            49.724272
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1343876577,
+        "@url": "https://www.openstreetmap.org/way/1343876577",
+        "amenity": "recycling",
+        "landuse": "farmyard",
+        "name": "Sběrný dvůr Obec Stará Ves nad Ondřejnicí",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "source": "cuzk:km;uhul:ortofoto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -53024,6 +53089,75 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.jevisovice.cz/sberny-dvur-odpadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1864444,
+                49.7239659
+              ],
+              [
+                18.1872104,
+                49.7235975
+              ],
+              [
+                18.1874779,
+                49.7237861
+              ],
+              [
+                18.1868302,
+                49.7242391
+              ],
+              [
+                18.1867786,
+                49.7242598
+              ],
+              [
+                18.1867102,
+                49.724272
+              ],
+              [
+                18.1866968,
+                49.7242191
+              ],
+              [
+                18.1866699,
+                49.7241922
+              ],
+              [
+                18.1865814,
+                49.7241037
+              ],
+              [
+                18.1864444,
+                49.7239659
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1343876577,
+        "@url": "https://www.openstreetmap.org/way/1343876577",
+        "amenity": "recycling",
+        "landuse": "farmyard",
+        "name": "Sběrný dvůr Obec Stará Ves nad Ondřejnicí",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "source": "cuzk:km;uhul:ortofoto"
       }
     }
   ]

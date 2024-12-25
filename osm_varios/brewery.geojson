@@ -597,42 +597,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.0418503,
-          50.6597024
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1234616066,
-        "@url": "https://www.openstreetmap.org/node/1234616066",
-        "addr:city": "Ústí nad Labem",
-        "addr:country": "CZ",
-        "addr:housenumber": "75/9",
-        "addr:postcode": "40001",
-        "addr:street": "Klášterní",
-        "amenity": "restaurant",
-        "capacity": "27",
-        "cuisine": "regional",
-        "email": "info@pivovarnarychte.cz",
-        "fax": "+420 475 212945",
-        "microbrewery": "yes",
-        "name": "Pivovar Hotel Na Rychtě",
-        "opening_hours": "Mo-Sa 10:30-24:00; Su 11:00-22:00",
-        "outdoor_seating": "no",
-        "payment:coins": "yes",
-        "payment:mastercard": "yes",
-        "payment:notes": "yes",
-        "phone": "+420 475 213 138",
-        "ref:nap": "18161",
-        "tourism": "hotel",
-        "website": "https://www.pivovarnarychte.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.080035,
           49.1308588
         ]
@@ -7727,6 +7691,110 @@
         "name": "Pivovar Horác",
         "ref:ruian:building": "12291226",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.0422699,
+            50.6596466
+          ],
+          [
+            14.0422312,
+            50.6598433
+          ],
+          [
+            14.042231,
+            50.6598443
+          ],
+          [
+            14.0422159,
+            50.6598419
+          ],
+          [
+            14.0421446,
+            50.6598334
+          ],
+          [
+            14.0419698,
+            50.6598207
+          ],
+          [
+            14.0419736,
+            50.6597996
+          ],
+          [
+            14.0417886,
+            50.6597783
+          ],
+          [
+            14.04183,
+            50.6596349
+          ],
+          [
+            14.0418842,
+            50.6596354
+          ],
+          [
+            14.0419746,
+            50.6596494
+          ],
+          [
+            14.0419743,
+            50.659645
+          ],
+          [
+            14.0420216,
+            50.6596438
+          ],
+          [
+            14.042084,
+            50.6596472
+          ],
+          [
+            14.0421338,
+            50.659647
+          ],
+          [
+            14.0421774,
+            50.6596483
+          ],
+          [
+            14.0422699,
+            50.6596466
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 43529967,
+        "@url": "https://www.openstreetmap.org/way/43529967",
+        "addr:conscriptionnumber": "75",
+        "addr:housenumber": "75/9",
+        "addr:street": "Klášterní",
+        "addr:streetnumber": "9",
+        "building": "civic",
+        "building:levels": "2",
+        "building:ruian:type": "5",
+        "capacity": "27",
+        "contact:phone": "+420 475 213 138",
+        "contact:website": "https://www.pivovarnarychte.cz/hotel/",
+        "email": "info@pivovarnarychte.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar & Hotel Na Rychtě",
+        "opening_hours": "Mo-Sa 10:30-24:00; Su 11:00-22:00",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "ref:nap": "18161",
+        "ref:ruian:addr": "17824192",
+        "ref:ruian:building": "17695686",
+        "source": "cuzk:ruian",
+        "source:addr": "cuzk:ruian",
+        "tourism": "hotel"
       }
     },
     {
@@ -15445,6 +15513,114 @@
         "name": "Pivovar Horác",
         "ref:ruian:building": "12291226",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.0417886,
+                50.6597783
+              ],
+              [
+                14.04183,
+                50.6596349
+              ],
+              [
+                14.0418842,
+                50.6596354
+              ],
+              [
+                14.0419746,
+                50.6596494
+              ],
+              [
+                14.0419743,
+                50.659645
+              ],
+              [
+                14.0420216,
+                50.6596438
+              ],
+              [
+                14.042084,
+                50.6596472
+              ],
+              [
+                14.0421338,
+                50.659647
+              ],
+              [
+                14.0421774,
+                50.6596483
+              ],
+              [
+                14.0422699,
+                50.6596466
+              ],
+              [
+                14.0422312,
+                50.6598433
+              ],
+              [
+                14.042231,
+                50.6598443
+              ],
+              [
+                14.0422159,
+                50.6598419
+              ],
+              [
+                14.0421446,
+                50.6598334
+              ],
+              [
+                14.0419698,
+                50.6598207
+              ],
+              [
+                14.0419736,
+                50.6597996
+              ],
+              [
+                14.0417886,
+                50.6597783
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 43529967,
+        "@url": "https://www.openstreetmap.org/way/43529967",
+        "addr:conscriptionnumber": "75",
+        "addr:housenumber": "75/9",
+        "addr:street": "Klášterní",
+        "addr:streetnumber": "9",
+        "building": "civic",
+        "building:levels": "2",
+        "building:ruian:type": "5",
+        "capacity": "27",
+        "contact:phone": "+420 475 213 138",
+        "contact:website": "https://www.pivovarnarychte.cz/hotel/",
+        "email": "info@pivovarnarychte.cz",
+        "microbrewery": "yes",
+        "name": "Pivovar & Hotel Na Rychtě",
+        "opening_hours": "Mo-Sa 10:30-24:00; Su 11:00-22:00",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "ref:nap": "18161",
+        "ref:ruian:addr": "17824192",
+        "ref:ruian:building": "17695686",
+        "source": "cuzk:ruian",
+        "source:addr": "cuzk:ruian",
+        "tourism": "hotel"
       }
     },
     {

@@ -40,6 +40,9 @@ osmium tags-filter ./czech-republic-latest.osm.pbf nwr/amenity=vending_machine -
 osmium export ./osm_varios/vending.pbf --overwrite -o ./osm_varios/vending.json -c ./osmium_options.json
 cat ./osm_varios/vending.json | ./urlize.sh | grep -e '"milk"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/mlekomaty.geojson
 
+echo "pivomaty"
+cat ./osm_varios/vending.json | ./urlize.sh | grep -e '"beer"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/pivomaty.geojson
+
 echo "Fire hydrant"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/emergency=fire_hydrant --overwrite -o ./osm_varios/hydrant.pbf
 osmium export ./osm_varios/hydrant.pbf --overwrite -o ./osm_varios/hydrant.json -c ./osmium_options.json

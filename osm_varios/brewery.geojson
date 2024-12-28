@@ -483,6 +483,7 @@
         "microbrewery": "yes",
         "name": "U Richarda",
         "opening_hours": "Su-Th 11:00-22:00; PH,Fr,Sa 11:00-23:00",
+        "outdoor_seating": "yes",
         "smoking": "separated",
         "website": "http://www.uricharda.eu/",
         "wheelchair": "yes"
@@ -613,36 +614,6 @@
         "phone": "+420 568 860 942",
         "source": "uhul:ortofoto;cuzk:km",
         "website": "https://www.pivovar-dalesice.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.7274486,
-          49.1190497
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1348030649,
-        "@url": "https://www.openstreetmap.org/node/1348030649",
-        "amenity": "restaurant",
-        "cuisine": "regional",
-        "email": "info@pivovarsokolnice.cz",
-        "microbrewery": "yes",
-        "name": "Panský pivovar",
-        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-24:00; Su 11:00-22:00",
-        "outdoor_seating": "yes",
-        "payment:maestro": "yes",
-        "payment:mastercard": "yes",
-        "payment:visa": "yes",
-        "payment:visa_debit": "yes",
-        "payment:visa_electron": "yes",
-        "phone": "+420 602 818 126",
-        "website": "https://pivovarsokolnice.cz/restaurace/",
-        "wheelchair": "yes"
       }
     },
     {
@@ -3354,42 +3325,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6093599,
-          49.192094
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4354548484,
-        "@url": "https://www.openstreetmap.org/node/4354548484",
-        "addr:city": "Brno",
-        "addr:housenumber": "4",
-        "addr:postcode": "60200",
-        "addr:street": "Zelný trh",
-        "amenity": "restaurant",
-        "contact:website": "https://efihostinec.cz/zelnak/",
-        "cuisine": "regional",
-        "diet:vegetarian": "yes",
-        "indoor_seating": "yes",
-        "level": "0",
-        "microbrewery": "yes",
-        "name": "Efi pivovar",
-        "opening_hours": "Mo-Fr 11:00-24:00, Sa-Su 10:00-24:00",
-        "operator": "EFI Hostinec",
-        "outdoor_seating": "yes",
-        "phone": "+420 601 150 000",
-        "smoking": "outside",
-        "toilets": "yes",
-        "toilets:access": "yes",
-        "toilets:wheelchair": "limited",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.0681585,
           49.6012452
         ]
@@ -4688,23 +4623,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7274072,
-          49.1189702
+          16.7274062,
+          49.1190271
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 6443915049,
         "@url": "https://www.openstreetmap.org/node/6443915049",
+        "amenity": "restaurant",
         "check_date:currency:XBT": "2024-06-06",
         "craft": "brewery",
+        "cuisine": "regional",
         "currency:XBT": "yes",
         "email": "info@pivovarsokolnice.cz",
+        "microbrewery": "yes",
         "name": "Panský pivovar Sokolnice",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-24:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
         "payment:lightning:companion_app_url": "https://www.qerko.com",
         "payment:lightning:requires_companion_app": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
         "phone": "+420 602 818 126",
-        "website": "https://pivovarsokolnice.cz/"
+        "website": "https://pivovarsokolnice.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5998,25 +5944,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6139594,
-          49.2019029
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9006948398,
-        "@url": "https://www.openstreetmap.org/node/9006948398",
-        "craft": "brewery",
-        "name": "EFI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.6139741,
-          49.201782
+          16.6139836,
+          49.2018185
         ]
       },
       "properties": {
@@ -6024,10 +5953,17 @@
         "@id": 9006948400,
         "@url": "https://www.openstreetmap.org/node/9006948400",
         "amenity": "restaurant",
+        "craft": "brewery",
         "indoor_seating": "yes",
         "microbrewery": "yes",
         "name": "EFI",
-        "outdoor_seating": "yes"
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 07:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes"
       }
     },
     {
@@ -6461,33 +6397,6 @@
         "name": "Lázeňský pivovar Luhačovice",
         "ref:ruian:addr": "83142924",
         "website": "https://www.pivovarluhacovice.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.1596889,
-          49.2058944
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10032182991,
-        "@url": "https://www.openstreetmap.org/node/10032182991",
-        "addr:housenumber": "24",
-        "amenity": "pub",
-        "dog": "yes",
-        "email": "namestskapivnice@gmail.com",
-        "food": "yes",
-        "internet_access": "wlan",
-        "microbrewery": "yes",
-        "name": "Náměšťská Pivnice",
-        "opening_hours": "Mo-Th, Su 17:00-22:00; Fr, Sa 17:00-00:00",
-        "phone": "+420777057900",
-        "smoking": "no",
-        "website": "https://namestskapivnice.eatbu.com/"
       }
     },
     {

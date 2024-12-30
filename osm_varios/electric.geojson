@@ -3131,10 +3131,11 @@
         "amenity": "recycling",
         "location": "overground",
         "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -4654,6 +4655,36 @@
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5961374,
+          49.2694999
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2242760759,
+        "@url": "https://www.openstreetmap.org/node/2242760759",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cartons": "no",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container",
+        "source": "local knowledge"
       }
     },
     {
@@ -10571,8 +10602,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5570242,
-          49.3051127
+          16.5570261,
+          49.305085
         ]
       },
       "properties": {
@@ -10582,9 +10613,14 @@
         "amenity": "recycling",
         "check_date": "2022-12-11",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"

@@ -19893,10 +19893,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5959822,
-            49.2694288
-          ],
-          [
             16.5958513,
             49.2694139
           ],
@@ -19914,14 +19910,16 @@
         "@type": "way",
         "@id": 307889612,
         "@url": "https://www.openstreetmap.org/way/307889612",
-        "handrail": "yes",
+        "handrail:left": "no",
+        "handrail:right": "yes",
         "highway": "steps",
         "incline": "up",
         "lit": "yes",
         "ramp": "no",
         "step_count": "9",
         "surface": "paving_stones",
-        "tactile_paving": "no"
+        "tactile_paving": "no",
+        "width": "1.5"
       }
     },
     {

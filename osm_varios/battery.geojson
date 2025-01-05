@@ -11359,6 +11359,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.2209931,
+          48.9694492
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7685878371,
+        "@url": "https://www.openstreetmap.org/node/7685878371",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "EKOR",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "source": "https://www.mestovracov.cz/156-sberny-dvur-odpadu-a-stanoviste-kontejneru",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6614244,
           49.2059262
         ]
@@ -11814,6 +11847,31 @@
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2244296,
+          48.980192
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8269623126,
+        "@url": "https://www.openstreetmap.org/node/8269623126",
+        "amenity": "recycling",
+        "operator": "EKOR",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container",
+        "source": "https://www.mestovracov.cz/156-sberny-dvur-odpadu-a-stanoviste-kontejneru"
       }
     },
     {
@@ -15804,8 +15862,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.211516,
-          48.9793474
+          17.2115207,
+          48.9793426
         ]
       },
       "properties": {
@@ -15815,13 +15873,18 @@
         "amenity": "recycling",
         "operator": "EKOR",
         "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bags": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling_type": "container"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container",
+        "source": "https://www.mestovracov.cz/156-sberny-dvur-odpadu-a-stanoviste-kontejneru"
       }
     },
     {
@@ -35721,6 +35784,10 @@
             48.9749771
           ],
           [
+            17.2220882,
+            48.9749464
+          ],
+          [
             17.2220299,
             48.9748458
           ],
@@ -52266,6 +52333,10 @@
               [
                 17.222106,
                 48.9749771
+              ],
+              [
+                17.2220882,
+                48.9749464
               ],
               [
                 17.2220299,

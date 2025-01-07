@@ -445,6 +445,26 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7160711,
+          50.2496534
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12475515793,
+        "@url": "https://www.openstreetmap.org/node/12475515793",
+        "amenity": "recycling",
+        "name": "Skládka bioodpadu",
+        "opening_hours": "24/7",
+        "recycling_type": "centre",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -735,7 +755,7 @@
                 49.4729334
               ],
               [
-                17.0459619,
+                17.045961900000003,
                 49.4728617
               ],
               [
@@ -1685,6 +1705,73 @@
         "operator": "Hradecké služby a. s.",
         "recycling_type": "centre",
         "website": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/hradecke-sluzby-a-s/provozovny-k-dispozici/63-sberny-dvur-u-labe.shtml"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.3906957,
+                48.7507272
+              ],
+              [
+                16.3908755,
+                48.7502846
+              ],
+              [
+                16.3909631,
+                48.7503061
+              ],
+              [
+                16.3910039,
+                48.75037
+              ],
+              [
+                16.3910004,
+                48.7503846
+              ],
+              [
+                16.3910226,
+                48.7503916
+              ],
+              [
+                16.3909245,
+                48.750641
+              ],
+              [
+                16.3912561,
+                48.7506594
+              ],
+              [
+                16.3912524,
+                48.7506823
+              ],
+              [
+                16.3912398,
+                48.7507611
+              ],
+              [
+                16.390816,
+                48.7507303
+              ],
+              [
+                16.3906957,
+                48.7507272
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1348771217,
+        "@url": "https://www.openstreetmap.org/way/1348771217",
+        "amenity": "recycling",
+        "recycling_type": "centre"
       }
     }
   ]

@@ -1025,6 +1025,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4627949,
+          50.048718
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1269668547,
+        "@url": "https://www.openstreetmap.org/node/1269668547",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.6254199,
           50.0145941
         ]
@@ -17278,13 +17300,10 @@
         "amenity": "recycling",
         "opening_hours": "24/7",
         "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
@@ -35968,6 +35987,8 @@
         "@id": 1281259116,
         "@url": "https://www.openstreetmap.org/way/1281259116",
         "amenity": "recycling",
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
         "name": "Sběrný dvůr Vracov",
         "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
         "operator": "EKOR, s.r.o.",
@@ -52485,6 +52506,8 @@
         "@id": 1281259116,
         "@url": "https://www.openstreetmap.org/way/1281259116",
         "amenity": "recycling",
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
         "name": "Sběrný dvůr Vracov",
         "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
         "operator": "EKOR, s.r.o.",

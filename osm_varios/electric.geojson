@@ -46282,8 +46282,11 @@
         "@url": "https://www.openstreetmap.org/node/11685080854",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
@@ -51300,6 +51303,35 @@
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8093895,
+          50.0482466
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12242228260,
+        "@url": "https://www.openstreetmap.org/node/12242228260",
+        "addr:city": "Pardubice",
+        "addr:housenumber": "1803",
+        "addr:postcode": "53012",
+        "addr:street": "Hůrka",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - Hůrka",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.smp-pce.cz/odpady/separacni-dvory"
       }
     },
     {

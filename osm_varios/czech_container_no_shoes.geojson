@@ -454,29 +454,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4241595,
-          50.1002022
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3359423264,
-        "@url": "https://www.openstreetmap.org/node/3359423264",
-        "amenity": "recycling",
-        "check_date:recycling": "2024-10-28",
-        "recycling:cans": "no",
-        "recycling:clothes": "yes",
-        "recycling:glass": "no",
-        "recycling:paper": "no",
-        "recycling_type": "container",
-        "source": "CZ:IPRPraha:ortofoto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.0035347,
           49.1346275
         ]
@@ -19251,6 +19228,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6143378,
+          50.0812589
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12517977890,
+        "@url": "https://www.openstreetmap.org/node/12517977890",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -22317,6 +22317,10 @@
             49.7960438
           ],
           [
+            18.2291587,
+            49.7960276
+          ],
+          [
             18.2291267,
             49.7960147
           ],
@@ -22344,7 +22348,8 @@
         "@url": "https://www.openstreetmap.org/way/1017142182",
         "addr:street": "U Výtopny (areál garáží)",
         "amenity": "recycling",
-        "name": "Sběrna surovin",
+        "name": "Sběrný dvůr",
+        "operator": "OZO Ostrava",
         "recycling:batteries": "yes",
         "recycling:books": "yes",
         "recycling:cans": "yes",
@@ -22354,7 +22359,6 @@
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",
@@ -22366,7 +22370,7 @@
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "container",
+        "recycling_type": "centre",
         "source": "opendata.ostrava"
       }
     },
@@ -23262,6 +23266,106 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.2878156,
+            49.785142
+          ],
+          [
+            18.2878187,
+            49.7848141
+          ],
+          [
+            18.2878638,
+            49.7848163
+          ],
+          [
+            18.2878904,
+            49.7846461
+          ],
+          [
+            18.2878948,
+            49.7846101
+          ],
+          [
+            18.2879266,
+            49.7845838
+          ],
+          [
+            18.2879877,
+            49.784581
+          ],
+          [
+            18.2881503,
+            49.7845927
+          ],
+          [
+            18.2880837,
+            49.7851542
+          ],
+          [
+            18.2879428,
+            49.7851478
+          ],
+          [
+            18.2878156,
+            49.785142
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1334485176,
+        "@url": "https://www.openstreetmap.org/way/1334485176",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "operator": "OZO Ostrava",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:christmas_trees": "yes",
+        "recycling:clothes": "yes",
+        "recycling:computers": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:drugs": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hardcore": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal": "yes",
+        "recycling:mobile_phones": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:polystyrene_foam": "yes",
+        "recycling:printer_cartridges": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tv_monitor": "yes",
+        "recycling:tyres": "no",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ozoostrava.cz/"
       }
     },
     {
@@ -26515,6 +26619,10 @@
                 49.7960147
               ],
               [
+                18.2291587,
+                49.7960276
+              ],
+              [
                 18.2291991,
                 49.7960438
               ],
@@ -26540,7 +26648,8 @@
         "@url": "https://www.openstreetmap.org/way/1017142182",
         "addr:street": "U Výtopny (areál garáží)",
         "amenity": "recycling",
-        "name": "Sběrna surovin",
+        "name": "Sběrný dvůr",
+        "operator": "OZO Ostrava",
         "recycling:batteries": "yes",
         "recycling:books": "yes",
         "recycling:cans": "yes",
@@ -26550,7 +26659,6 @@
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
         "recycling:magazines": "yes",
         "recycling:newspaper": "yes",
         "recycling:paper": "yes",
@@ -26562,7 +26670,7 @@
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "container",
+        "recycling_type": "centre",
         "source": "opendata.ostrava"
       }
     },
@@ -27522,6 +27630,110 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.2878156,
+                49.785142
+              ],
+              [
+                18.2878187,
+                49.7848141
+              ],
+              [
+                18.2878638,
+                49.7848163
+              ],
+              [
+                18.2878904,
+                49.7846461
+              ],
+              [
+                18.2878948,
+                49.7846101
+              ],
+              [
+                18.2879266,
+                49.7845838
+              ],
+              [
+                18.2879877,
+                49.784581
+              ],
+              [
+                18.2881503,
+                49.7845927
+              ],
+              [
+                18.2880837,
+                49.7851542
+              ],
+              [
+                18.2879428,
+                49.7851478
+              ],
+              [
+                18.2878156,
+                49.785142
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1334485176,
+        "@url": "https://www.openstreetmap.org/way/1334485176",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "operator": "OZO Ostrava",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:christmas_trees": "yes",
+        "recycling:clothes": "yes",
+        "recycling:computers": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:drugs": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hardcore": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal": "yes",
+        "recycling:mobile_phones": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:polystyrene_foam": "yes",
+        "recycling:printer_cartridges": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tv_monitor": "yes",
+        "recycling:tyres": "no",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ozoostrava.cz/"
       }
     }
   ]

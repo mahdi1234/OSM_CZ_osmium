@@ -23829,30 +23829,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8240133,
-          50.2091601
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7970207903,
-        "@url": "https://www.openstreetmap.org/node/7970207903",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:shoes": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.8221793,
           50.2041856
         ]
@@ -26352,8 +26328,8 @@
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
@@ -52294,6 +52270,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.840893,
+          50.196786
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12521014662,
+        "@url": "https://www.openstreetmap.org/node/12521014662",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -53351,6 +53350,7 @@
         "building:levels": "1",
         "building:ruian:type": "16",
         "name": "Sběrný dvůr Sídliště Nad Lužnicí Tábor",
+        "opening_hours": "Mo-Fr 15:00-18:00; Sa 08:00-12:00",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
@@ -74636,6 +74636,7 @@
         "building:levels": "1",
         "building:ruian:type": "16",
         "name": "Sběrný dvůr Sídliště Nad Lužnicí Tábor",
+        "opening_hours": "Mo-Fr 15:00-18:00; Sa 08:00-12:00",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",

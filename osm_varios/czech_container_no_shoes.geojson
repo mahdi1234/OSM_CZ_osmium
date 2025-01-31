@@ -5483,8 +5483,9 @@
         "@id": 9492621618,
         "@url": "https://www.openstreetmap.org/node/9492621618",
         "amenity": "recycling",
-        "operator": "Kloktex",
+        "operator": "KlokTex",
         "operator:website": "https://www.kloktex.cz/",
+        "operator:wikidata": "Q131441348",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -19544,6 +19545,43 @@
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7554077,
+          50.0470786
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12541061292,
+        "@url": "https://www.openstreetmap.org/node/12541061292",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7644107,
+          50.0477318
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12542158221,
+        "@url": "https://www.openstreetmap.org/node/12542158221",
+        "amenity": "recycling",
+        "operator": "Klokánek FOD",
+        "recycling:clothes": "yes",
         "recycling_type": "container"
       }
     },

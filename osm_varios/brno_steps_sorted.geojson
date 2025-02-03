@@ -31575,7 +31575,8 @@
         "lit": "no",
         "ramp": "no",
         "step_count": "10",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -32967,6 +32968,35 @@
         "source": "uhul:ortofoto;cuzk:km",
         "step_count": "10",
         "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.574123,
+            49.1982358
+          ],
+          [
+            16.5741993,
+            49.1982133
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1288877454,
+        "@url": "https://www.openstreetmap.org/way/1288877454",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "10",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {

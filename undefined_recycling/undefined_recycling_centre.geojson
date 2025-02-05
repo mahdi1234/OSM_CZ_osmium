@@ -280,26 +280,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7957341,
-          50.0088508
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12236528794,
-        "@url": "https://www.openstreetmap.org/node/12236528794",
-        "addr:city": "Nemošice-Pardubice",
-        "addr:street": "Ostřešanská",
-        "amenity": "recycling",
-        "name": "Separační dvůr - Nemošice",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.8494913,
           50.0708623
         ]
@@ -1870,6 +1850,64 @@
         "@id": 1355666254,
         "@url": "https://www.openstreetmap.org/way/1355666254",
         "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.7956649,
+                50.0090506
+              ],
+              [
+                15.7956666,
+                50.0090262
+              ],
+              [
+                15.7956658,
+                50.0086596
+              ],
+              [
+                15.7957353,
+                50.0086582
+              ],
+              [
+                15.7966752,
+                50.0087002
+              ],
+              [
+                15.7966131,
+                50.0090378
+              ],
+              [
+                15.7960667,
+                50.0090134
+              ],
+              [
+                15.7960616,
+                50.0090418
+              ],
+              [
+                15.7956649,
+                50.0090506
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1356402272,
+        "@url": "https://www.openstreetmap.org/way/1356402272",
+        "addr:city": "Nemošice-Pardubice",
+        "addr:street": "Ostřešanská",
+        "amenity": "recycling",
+        "name": "Separační dvůr - Nemošice",
         "recycling_type": "centre"
       }
     }

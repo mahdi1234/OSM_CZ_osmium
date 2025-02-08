@@ -70,6 +70,9 @@ cat ./osm_varios/alcohol.json | ./urlize.sh | grep -e '"alcohol"' -e 'FeatureCol
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/drink:beer=* --overwrite -o ./osm_varios/beershop.pbf
 osmium export ./osm_varios/beershop.pbf --overwrite -o ./osm_varios/beershop.json -c ./osmium_options.json
 cat ./osm_varios/beershop.json | ./urlize.sh | grep -e '"shop"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/beershop.geojson
+osmium tags-filter ./czech-republic-latest.osm.pbf nwr/shop=beverages --overwrite -o ./osm_varios/beverages.pbf
+osmium export ./osm_varios/beverages.pbf --overwrite -o ./osm_varios/beverages.json -c ./osmium_options.json
+cat ./osm_varios/beverages.json | ./urlize.sh | grep -e '"beverages"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./osm_varios/beverages.geojson
 
 echo "Uzavirky"
 osmium tags-filter ./czech-republic-latest.osm.pbf nwr/vehicle:conditional=* --overwrite -o ./osm_varios/uzavirky.pbf

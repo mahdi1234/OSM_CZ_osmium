@@ -24203,6 +24203,42 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.2001128,
+            50.032541
+          ],
+          [
+            15.2001076,
+            50.0325321
+          ],
+          [
+            15.2001162,
+            50.0325298
+          ],
+          [
+            15.2001231,
+            50.0325388
+          ],
+          [
+            15.2001128,
+            50.032541
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1359278443,
+        "@url": "https://www.openstreetmap.org/way/1359278443",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -28566,6 +28602,46 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.ozoostrava.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.2001076,
+                50.0325321
+              ],
+              [
+                15.2001162,
+                50.0325298
+              ],
+              [
+                15.2001231,
+                50.0325388
+              ],
+              [
+                15.2001128,
+                50.032541
+              ],
+              [
+                15.2001076,
+                50.0325321
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1359278443,
+        "@url": "https://www.openstreetmap.org/way/1359278443",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
       }
     }
   ]

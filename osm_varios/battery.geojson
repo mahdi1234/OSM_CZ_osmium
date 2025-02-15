@@ -21803,6 +21803,49 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6510111,
+          50.6862421
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12584515174,
+        "@url": "https://www.openstreetmap.org/node/12584515174",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:textile": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5095841,
+          50.1422076
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12584611403,
+        "@url": "https://www.openstreetmap.org/node/12584611403",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -26648,7 +26691,8 @@
         "amenity": "recycling",
         "landuse": "industrial",
         "name": "Sběrný dvůr hlavního města Prahy",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "phone": "+420 731 663 582",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
@@ -37693,6 +37737,50 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.2154627,
+            50.0329522
+          ],
+          [
+            15.2155471,
+            50.0329473
+          ],
+          [
+            15.2155482,
+            50.0329583
+          ],
+          [
+            15.2154642,
+            50.0329626
+          ],
+          [
+            15.2154627,
+            50.0329522
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1359625323,
+        "@url": "https://www.openstreetmap.org/way/1359625323",
+        "amenity": "recycling",
+        "covered": "no",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "no",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -42798,7 +42886,8 @@
         "amenity": "recycling",
         "landuse": "industrial",
         "name": "Sběrný dvůr hlavního města Prahy",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "phone": "+420 731 663 582",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
@@ -54425,6 +54514,54 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "no",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.2154627,
+                50.0329522
+              ],
+              [
+                15.2155471,
+                50.0329473
+              ],
+              [
+                15.2155482,
+                50.0329583
+              ],
+              [
+                15.2154642,
+                50.0329626
+              ],
+              [
+                15.2154627,
+                50.0329522
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1359625323,
+        "@url": "https://www.openstreetmap.org/way/1359625323",
+        "amenity": "recycling",
+        "covered": "no",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "no",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     }

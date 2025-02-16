@@ -67913,6 +67913,47 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5284836,
+            49.5083992
+          ],
+          [
+            16.5283963,
+            49.5083632
+          ],
+          [
+            16.5284236,
+            49.5083319
+          ],
+          [
+            16.5285173,
+            49.5083712
+          ],
+          [
+            16.5284836,
+            49.5083992
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1359858253,
+        "@url": "https://www.openstreetmap.org/way/1359858253",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -77391,6 +77432,51 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/severni-morava/logisticke-centrum-odpadu-ostrava-hrabova.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5283963,
+                49.5083632
+              ],
+              [
+                16.5284236,
+                49.5083319
+              ],
+              [
+                16.5285173,
+                49.5083712
+              ],
+              [
+                16.5284836,
+                49.5083992
+              ],
+              [
+                16.5283963,
+                49.5083632
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1359858253,
+        "@url": "https://www.openstreetmap.org/way/1359858253",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
       }
     }
   ]

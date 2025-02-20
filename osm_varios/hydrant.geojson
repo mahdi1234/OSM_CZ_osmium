@@ -34244,6 +34244,8 @@
         "colour": "grey",
         "couplings": "2",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
         "ref": "RD. 1.25 DN 80 PN16 GGG"
       }
     },
@@ -40581,6 +40583,24 @@
         "@url": "https://www.openstreetmap.org/node/12593370969",
         "colour": "blue",
         "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2801585,
+          50.0604274
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12599321129,
+        "@url": "https://www.openstreetmap.org/node/12599321129",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       }
     }

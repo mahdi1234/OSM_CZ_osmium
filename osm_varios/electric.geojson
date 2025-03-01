@@ -36622,15 +36622,18 @@
         "@url": "https://www.openstreetmap.org/node/9911444454",
         "amenity": "recycling",
         "name": "Sběrný dvůr Čeladná",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
         "recycling:glass": "yes",
-        "recycling:green_waste": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:tyres": "yes",
         "recycling_type": "container",
         "source": "https://www.celadna.cz/uploads/Harmonogram_sberu_nebezpecneho_a_velkoobjemoveho_odpadu_2024_d4f0e7badb.pdf"
       }
@@ -52411,6 +52414,120 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7672061,
+          49.5768431
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12620192161,
+        "@url": "https://www.openstreetmap.org/node/12620192161",
+        "amenity": "recycling",
+        "operator": "ASEKOL a.s.",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.766832,
+          49.5755513
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12620192165,
+        "@url": "https://www.openstreetmap.org/node/12620192165",
+        "amenity": "recycling",
+        "operator": "ASEKOL a.s.",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7661384,
+          49.5739247
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12620192169,
+        "@url": "https://www.openstreetmap.org/node/12620192169",
+        "amenity": "recycling",
+        "operator": "ASEKOL a.s.",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7785857,
+          49.5850829
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12620193210,
+        "@url": "https://www.openstreetmap.org/node/12620193210",
+        "amenity": "recycling",
+        "operator": "ASEKOL a.s.",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7650158,
+          49.5798518
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12620193217,
+        "@url": "https://www.openstreetmap.org/node/12620193217",
+        "amenity": "recycling",
+        "operator": "ASEKOL a.s.",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7591238,
+          49.5716902
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12620193222,
+        "@url": "https://www.openstreetmap.org/node/12620193222",
+        "amenity": "recycling",
+        "operator": "ASEKOL a.s.",
+        "recycling:electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

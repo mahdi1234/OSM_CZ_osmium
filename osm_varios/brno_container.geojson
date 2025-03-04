@@ -1276,7 +1276,8 @@
         "@id": 6900678756,
         "@url": "https://www.openstreetmap.org/node/6900678756",
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -1488,6 +1489,27 @@
         "amenity": "recycling",
         "location": "underground",
         "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6664311,
+          49.1870571
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8038093756,
+        "@url": "https://www.openstreetmap.org/node/8038093756",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"

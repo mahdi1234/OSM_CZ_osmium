@@ -7703,7 +7703,7 @@
         "@type": "node",
         "@id": 3457044494,
         "@url": "https://www.openstreetmap.org/node/3457044494",
-        "amenity": "recycling",
+        "disused:amenity": "recycling",
         "mobile": "+420 607 807 362",
         "name": "SSO Pastviny",
         "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
@@ -52603,6 +52603,97 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.519824,
+          49.8585063
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12640540138,
+        "@url": "https://www.openstreetmap.org/node/12640540138",
+        "amenity": "recycling",
+        "name": "Stanoviště č. 12 - KÚ u hasičského hřiště",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:electrical_appliances": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5170078,
+          49.8648662
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12640540144,
+        "@url": "https://www.openstreetmap.org/node/12640540144",
+        "amenity": "recycling",
+        "name": "Kontejnerové stanoviště č. 11 - KP u Prefy",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:beverage_cartons": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5035449,
+          49.8606829
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12640660409,
+        "@url": "https://www.openstreetmap.org/node/12640660409",
+        "amenity": "recycling",
+        "name": "Stanoviště č. 1 - KP OÚ",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4895843,
+          49.8628304
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12640660415,
+        "@url": "https://www.openstreetmap.org/node/12640660415",
+        "amenity": "recycling",
+        "name": "Shromaždiště odpadů Hostěradice",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:electrical_appliances": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -53473,9 +53564,9 @@
         "@type": "way",
         "@id": 44328449,
         "@url": "https://www.openstreetmap.org/way/44328449",
-        "amenity": "recycling",
         "barrier": "fence",
         "check_date:opening_hours": "2023-04-09",
+        "disused:amenity": "recycling",
         "mobile": "+420 606 914 795",
         "name": "SSO Bieblova",
         "opening_hours": "closed",
@@ -74803,9 +74894,9 @@
         "@type": "way",
         "@id": 44328449,
         "@url": "https://www.openstreetmap.org/way/44328449",
-        "amenity": "recycling",
         "barrier": "fence",
         "check_date:opening_hours": "2023-04-09",
+        "disused:amenity": "recycling",
         "mobile": "+420 606 914 795",
         "name": "SSO Bieblova",
         "opening_hours": "closed",

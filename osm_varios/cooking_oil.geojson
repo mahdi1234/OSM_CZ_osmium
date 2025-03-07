@@ -311,9 +311,14 @@
         "@id": 333120259,
         "@url": "https://www.openstreetmap.org/node/333120259",
         "amenity": "recycling",
+        "name": "Kontejnerové stánoviště č. 8 - KP u obchodu",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -9388,7 +9393,7 @@
         "@type": "node",
         "@id": 3457044494,
         "@url": "https://www.openstreetmap.org/node/3457044494",
-        "amenity": "recycling",
+        "disused:amenity": "recycling",
         "mobile": "+420 607 807 362",
         "name": "SSO Pastviny",
         "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
@@ -59558,6 +59563,88 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5143122,
+          49.8595011
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12640540141,
+        "@url": "https://www.openstreetmap.org/node/12640540141",
+        "amenity": "recycling",
+        "name": "Kontejnerové stanoviště č. 14 - KÚ na Drahách",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5037948,
+          49.8606483
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12640660408,
+        "@url": "https://www.openstreetmap.org/node/12640660408",
+        "amenity": "recycling",
+        "name": "Kontejnerové stání č. 1 - KP OÚ",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4897891,
+          49.8620865
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12640660412,
+        "@url": "https://www.openstreetmap.org/node/12640660412",
+        "amenity": "recycling",
+        "name": "Kontejnerové stanoviště č. 18 - H u statku",
+        "operator": "Obec Kamenný Přívoz",
+        "operator:type": "public",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -60149,9 +60236,9 @@
         "@type": "way",
         "@id": 44328449,
         "@url": "https://www.openstreetmap.org/way/44328449",
-        "amenity": "recycling",
         "barrier": "fence",
         "check_date:opening_hours": "2023-04-09",
+        "disused:amenity": "recycling",
         "mobile": "+420 606 914 795",
         "name": "SSO Bieblova",
         "opening_hours": "closed",
@@ -69265,9 +69352,9 @@
         "@type": "way",
         "@id": 44328449,
         "@url": "https://www.openstreetmap.org/way/44328449",
-        "amenity": "recycling",
         "barrier": "fence",
         "check_date:opening_hours": "2023-04-09",
+        "disused:amenity": "recycling",
         "mobile": "+420 606 914 795",
         "name": "SSO Bieblova",
         "opening_hours": "closed",

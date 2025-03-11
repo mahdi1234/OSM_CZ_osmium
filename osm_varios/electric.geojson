@@ -3385,16 +3385,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3314662,
-          49.9421511
+          14.33118,
+          49.9421077
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 1763552198,
         "@url": "https://www.openstreetmap.org/node/1763552198",
+        "addr:city": "Černošice",
+        "addr:housenumber": "660",
+        "addr:postcode": "25228",
+        "addr:street": "Topolská",
         "amenity": "recycling",
-        "name": "Sběrný dvůr",
+        "opening_hours": "Mo,We 07:00-11:00,11:30-17:00; Sa 08:00-12:00",
+        "operator": "Město Černošice",
         "recycling:batteries": "yes",
         "recycling:books": "yes",
         "recycling:cans": "yes",
@@ -52688,6 +52693,53 @@
         "operator:type": "public",
         "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3261145,
+          49.9454645
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12647006138,
+        "@url": "https://www.openstreetmap.org/node/12647006138",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2891988,
+          48.9722739
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12647690903,
+        "@url": "https://www.openstreetmap.org/node/12647690903",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },

@@ -7547,6 +7547,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4828595,
+          48.9792693
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5405976953,
+        "@url": "https://www.openstreetmap.org/node/5405976953",
+        "amenity": "recycling",
+        "note": "Měl by tu být kontejner na elektroodpad. Nutné ověřit. (2022-01)",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.6466862,
           48.9298779
         ]
@@ -18018,30 +18040,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6280107,
-          49.1578382
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11279160169,
-        "@url": "https://www.openstreetmap.org/node/11279160169",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.3699415,
           50.0546357
         ]
@@ -22039,6 +22037,27 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6280027,
+          49.1578276
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12663195534,
+        "@url": "https://www.openstreetmap.org/node/12663195534",
+        "amenity": "recycling",
+        "operator": "Asekol",
+        "operator:wikidata": "Q36877392",
+        "recycling:batteries": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },

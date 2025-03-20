@@ -6578,6 +6578,7 @@
         "@id": 2802056988,
         "@url": "https://www.openstreetmap.org/node/2802056988",
         "amenity": "recycling",
+        "check_date:recycling": "2025-03-18",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
@@ -59829,6 +59830,33 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0706839,
+          49.3874304
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12677378753,
+        "@url": "https://www.openstreetmap.org/node/12677378753",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -69013,6 +69041,63 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.8388726,
+            49.7673752
+          ],
+          [
+            13.8388926,
+            49.7672318
+          ],
+          [
+            13.8394882,
+            49.7672472
+          ],
+          [
+            13.839482,
+            49.7674221
+          ],
+          [
+            13.8394468,
+            49.7674208
+          ],
+          [
+            13.8392638,
+            49.7674088
+          ],
+          [
+            13.839094,
+            49.767395
+          ],
+          [
+            13.8390268,
+            49.767389
+          ],
+          [
+            13.8388726,
+            49.7673752
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1367431616,
+        "@url": "https://www.openstreetmap.org/way/1367431616",
+        "amenity": "recycling",
+        "name": "Sběrné místo Zaječov",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://zajecov.cz/odpady-v-obci/"
       }
     },
     {
@@ -78694,6 +78779,67 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.8388726,
+                49.7673752
+              ],
+              [
+                13.8388926,
+                49.7672318
+              ],
+              [
+                13.8394882,
+                49.7672472
+              ],
+              [
+                13.839482,
+                49.7674221
+              ],
+              [
+                13.8394468,
+                49.7674208
+              ],
+              [
+                13.8392638,
+                49.7674088
+              ],
+              [
+                13.839094,
+                49.767395
+              ],
+              [
+                13.8390268,
+                49.767389
+              ],
+              [
+                13.8388726,
+                49.7673752
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1367431616,
+        "@url": "https://www.openstreetmap.org/way/1367431616",
+        "amenity": "recycling",
+        "name": "Sběrné místo Zaječov",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://zajecov.cz/odpady-v-obci/"
       }
     }
   ]

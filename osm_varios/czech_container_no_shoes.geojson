@@ -4871,7 +4871,8 @@
         "@id": 9425176164,
         "@url": "https://www.openstreetmap.org/node/9425176164",
         "amenity": "recycling",
-        "operator": "KLOK.TEX",
+        "operator": "KlokTex",
+        "operator:wikidata": "Q131441348",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -21251,6 +21252,28 @@
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4635596,
+          50.094439
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12685417992,
+        "@url": "https://www.openstreetmap.org/node/12685417992",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

@@ -4035,8 +4035,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6828765,
-          49.1807446
+          16.682825,
+          49.1807422
         ]
       },
       "properties": {
@@ -5792,6 +5792,26 @@
         "@id": 12681362176,
         "@url": "https://www.openstreetmap.org/node/12681362176",
         "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6452086,
+          49.2055201
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12688342188,
+        "@url": "https://www.openstreetmap.org/node/12688342188",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"

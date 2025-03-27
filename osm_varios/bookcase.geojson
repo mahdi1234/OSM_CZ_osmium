@@ -1964,8 +1964,12 @@
         "@type": "node",
         "@id": 7405720597,
         "@url": "https://www.openstreetmap.org/node/7405720597",
+        "access": "permissive",
         "amenity": "public_bookcase",
-        "check_date": "2024-10-12"
+        "check_date": "2025-03-24",
+        "opening_hours": "24/7",
+        "public_bookcase:type": "wooden_cabinet",
+        "wheelchair": "limited"
       }
     },
     {
@@ -15704,6 +15708,22 @@
         "@url": "https://www.openstreetmap.org/node/12687044577",
         "amenity": "public_bookcase",
         "name": "Obecní knihovna Hněvčeves"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1337341,
+          50.634003
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12699364046,
+        "@url": "https://www.openstreetmap.org/node/12699364046",
+        "amenity": "public_bookcase"
       }
     },
     {

@@ -897,22 +897,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8262889,
-          50.0303735
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7149167926,
-        "@url": "https://www.openstreetmap.org/node/7149167926",
-        "man_made": "beehive"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.8243921,
           50.1141646
         ]
@@ -10124,6 +10108,41 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.8260753,
+            50.0303755
+          ],
+          [
+            15.8260952,
+            50.0303575
+          ],
+          [
+            15.8260441,
+            50.0303342
+          ],
+          [
+            15.8260242,
+            50.0303521
+          ],
+          [
+            15.8260753,
+            50.0303755
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1372639117,
+        "@url": "https://www.openstreetmap.org/way/1372639117",
+        "building": "yes",
+        "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -12750,6 +12769,45 @@
         "@url": "https://www.openstreetmap.org/way/1326889873",
         "man_made": "beehive",
         "seasonal": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.8260242,
+                50.0303521
+              ],
+              [
+                15.8260441,
+                50.0303342
+              ],
+              [
+                15.8260952,
+                50.0303575
+              ],
+              [
+                15.8260753,
+                50.0303755
+              ],
+              [
+                15.8260242,
+                50.0303521
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1372639117,
+        "@url": "https://www.openstreetmap.org/way/1372639117",
+        "building": "yes",
+        "man_made": "beehive"
       }
     }
   ]

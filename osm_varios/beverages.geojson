@@ -2583,6 +2583,69 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.6379305,
+            50.178841
+          ],
+          [
+            12.6379081,
+            50.1788246
+          ],
+          [
+            12.6377699,
+            50.1787113
+          ],
+          [
+            12.6377358,
+            50.1787288
+          ],
+          [
+            12.6378275,
+            50.1788027
+          ],
+          [
+            12.6376913,
+            50.1788726
+          ],
+          [
+            12.6377583,
+            50.1789269
+          ],
+          [
+            12.6379305,
+            50.178841
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 661479582,
+        "@url": "https://www.openstreetmap.org/way/661479582",
+        "addr:city": "Sokolov",
+        "addr:housenumber": "77",
+        "addr:postcode": "35601",
+        "addr:street": "Komenského",
+        "brewery": "yes",
+        "building": "brewery",
+        "building:levels": "1",
+        "building:ruian:type": "15",
+        "craft": "brewery",
+        "name": "Pivovar PERMON",
+        "opening_hours": "Mo-Th 13:00-22:00; Fri 10:00-23:00; Sat 14:00-23:00",
+        "operator": "Pivovar PERMON s.r.o.",
+        "phone": "+420 602 610 813",
+        "product": "beer",
+        "ref:ruian:building": "78388627",
+        "shop": "beverages",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivopermon.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -3175,6 +3238,73 @@
         "phone": "+420 605 331 810",
         "shop": "beverages",
         "website": "http://www.bubbleology.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.6376913,
+                50.1788726
+              ],
+              [
+                12.6378275,
+                50.1788027
+              ],
+              [
+                12.6377358,
+                50.1787288
+              ],
+              [
+                12.6377699,
+                50.1787113
+              ],
+              [
+                12.6379081,
+                50.1788246
+              ],
+              [
+                12.6379305,
+                50.178841
+              ],
+              [
+                12.6377583,
+                50.1789269
+              ],
+              [
+                12.6376913,
+                50.1788726
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 661479582,
+        "@url": "https://www.openstreetmap.org/way/661479582",
+        "addr:city": "Sokolov",
+        "addr:housenumber": "77",
+        "addr:postcode": "35601",
+        "addr:street": "Komenského",
+        "brewery": "yes",
+        "building": "brewery",
+        "building:levels": "1",
+        "building:ruian:type": "15",
+        "craft": "brewery",
+        "name": "Pivovar PERMON",
+        "opening_hours": "Mo-Th 13:00-22:00; Fri 10:00-23:00; Sat 14:00-23:00",
+        "operator": "Pivovar PERMON s.r.o.",
+        "phone": "+420 602 610 813",
+        "product": "beer",
+        "ref:ruian:building": "78388627",
+        "shop": "beverages",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivopermon.cz/"
       }
     }
   ]

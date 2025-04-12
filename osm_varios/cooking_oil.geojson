@@ -217,7 +217,6 @@
         "@id": 330195405,
         "@url": "https://www.openstreetmap.org/node/330195405",
         "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -22700,6 +22699,30 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8838413,
+          49.6372647
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8449126666,
+        "@url": "https://www.openstreetmap.org/node/8449126666",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -69562,6 +69585,80 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.3970011,
+            49.5305718
+          ],
+          [
+            18.3970606,
+            49.5304135
+          ],
+          [
+            18.3976297,
+            49.5305771
+          ],
+          [
+            18.3975713,
+            49.5306672
+          ],
+          [
+            18.39746,
+            49.5306325
+          ],
+          [
+            18.3974476,
+            49.5306501
+          ],
+          [
+            18.397399,
+            49.5307186
+          ],
+          [
+            18.3970704,
+            49.5305974
+          ],
+          [
+            18.3970011,
+            49.5305718
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1376326929,
+        "@url": "https://www.openstreetmap.org/way/1376326929",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Ostravice",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:drugs": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hardcore": "no",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:mobile_phones": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tv_monitor": "yes",
+        "recycling:white_goods": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -79286,6 +79383,84 @@
         "recycling:shoes": "yes",
         "recycling_type": "centre",
         "website": "https://zajecov.cz/odpady-v-obci/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.3970011,
+                49.5305718
+              ],
+              [
+                18.3970606,
+                49.5304135
+              ],
+              [
+                18.3976297,
+                49.5305771
+              ],
+              [
+                18.3975713,
+                49.5306672
+              ],
+              [
+                18.39746,
+                49.5306325
+              ],
+              [
+                18.3974476,
+                49.5306501
+              ],
+              [
+                18.397399,
+                49.5307186
+              ],
+              [
+                18.3970704,
+                49.5305974
+              ],
+              [
+                18.3970011,
+                49.5305718
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1376326929,
+        "@url": "https://www.openstreetmap.org/way/1376326929",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Ostravice",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:drugs": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hardcore": "no",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:mobile_phones": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tv_monitor": "yes",
+        "recycling:white_goods": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

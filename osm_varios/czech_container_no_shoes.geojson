@@ -5124,8 +5124,9 @@
         "@id": 9492567867,
         "@url": "https://www.openstreetmap.org/node/9492567867",
         "amenity": "recycling",
-        "operator": "Kloktex",
+        "operator": "KlokTex",
         "operator:website": "https://www.kloktex.cz/",
+        "operator:wikidata": "Q131441348",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -21801,6 +21802,34 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2309197,
+          49.5797679
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12748328246,
+        "@url": "https://www.openstreetmap.org/node/12748328246",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "TSMO",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:waste": "yes",
         "recycling_type": "container"
       }
     },

@@ -6524,31 +6524,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4942148,
-          50.0423448
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2845610194,
-        "@url": "https://www.openstreetmap.org/node/2845610194",
-        "amenity": "recycling",
-        "location": "overground",
-        "recycling:cans": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.5977028,
           49.2101109
         ]
@@ -19952,28 +19927,6 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "website": "https://www.sbernesuroviny.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.6609403,
-          50.0772788
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7132977270,
-        "@url": "https://www.openstreetmap.org/node/7132977270",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling_type": "container"
       }
     },
     {
@@ -33717,6 +33670,7 @@
         "addr:housenumber": "3",
         "addr:street": "Francouzská",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -41326,6 +41280,38 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6627656,
+          50.0769231
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10962870480,
+        "@url": "https://www.openstreetmap.org/node/10962870480",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
       }
     },
     {

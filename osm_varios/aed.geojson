@@ -2123,7 +2123,8 @@
         "@id": 10271767720,
         "@url": "https://www.openstreetmap.org/node/10271767720",
         "defibrillator:location": "indoor",
-        "emergency": "defibrillator"
+        "emergency": "defibrillator",
+        "indoor": "yes"
       }
     },
     {
@@ -4100,6 +4101,42 @@
         "@url": "https://www.openstreetmap.org/node/12741992430",
         "defibrillator:location": "indoor",
         "emergency": "defibrillator"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4498965,
+          49.0038511
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12766521856,
+        "@url": "https://www.openstreetmap.org/node/12766521856",
+        "emergency": "defibrillator",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5983822,
+          49.5023848
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12766704916,
+        "@url": "https://www.openstreetmap.org/node/12766704916",
+        "access": "yes",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "opening_hours": "24/7"
       }
     }
   ]

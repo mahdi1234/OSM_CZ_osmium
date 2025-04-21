@@ -74822,6 +74822,62 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.400379,
+            48.9215008
+          ],
+          [
+            17.4000062,
+            48.9215775
+          ],
+          [
+            17.3998882,
+            48.9213123
+          ],
+          [
+            17.4002489,
+            48.9212294
+          ],
+          [
+            17.4003294,
+            48.9213792
+          ],
+          [
+            17.400379,
+            48.9215008
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1378837438,
+        "@url": "https://www.openstreetmap.org/way/1378837438",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kozojídky",
+        "opening_hours": "Sa 09:00-12:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "no",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "no",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -97649,6 +97705,66 @@
         "recycling:tv_monitor": "yes",
         "recycling:white_goods": "yes",
         "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.3998882,
+                48.9213123
+              ],
+              [
+                17.4002489,
+                48.9212294
+              ],
+              [
+                17.4003294,
+                48.9213792
+              ],
+              [
+                17.400379,
+                48.9215008
+              ],
+              [
+                17.4000062,
+                48.9215775
+              ],
+              [
+                17.3998882,
+                48.9213123
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1378837438,
+        "@url": "https://www.openstreetmap.org/way/1378837438",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kozojídky",
+        "opening_hours": "Sa 09:00-12:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "no",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "no",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
         "recycling_type": "centre"
       }
     }

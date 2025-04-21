@@ -4949,7 +4949,9 @@
         "@id": 8240170921,
         "@url": "https://www.openstreetmap.org/node/8240170921",
         "amenity": "public_bookcase",
+        "check_date": "2025-04-19",
         "description": "spodní terasa Sibiřského srubu",
+        "indoor": "no",
         "name": "Knihobudka"
       }
     },
@@ -15109,7 +15111,8 @@
         "@type": "node",
         "@id": 12536060071,
         "@url": "https://www.openstreetmap.org/node/12536060071",
-        "amenity": "public_bookcase"
+        "amenity": "public_bookcase",
+        "indoor": "yes"
       }
     },
     {
@@ -15836,6 +15839,24 @@
         "opening_hours": "24/7",
         "public_bookcase:type": "wooden_cabinet",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.73909,
+          50.4455128
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12768309501,
+        "@url": "https://www.openstreetmap.org/node/12768309501",
+        "amenity": "public_bookcase",
+        "name": "Knihovnička U zajíců",
+        "public_bookcase:type": "wooden_cabinet"
       }
     },
     {

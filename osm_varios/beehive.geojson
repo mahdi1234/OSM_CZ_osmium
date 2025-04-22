@@ -7877,6 +7877,22 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0713474,
+          49.0432564
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12770915042,
+        "@url": "https://www.openstreetmap.org/node/12770915042",
+        "man_made": "beehive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -8071,6 +8087,43 @@
         "description": "bee hive",
         "man_made": "beehive",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.2278679,
+            49.0296079
+          ],
+          [
+            16.2279192,
+            49.0296061
+          ],
+          [
+            16.2279054,
+            49.0294379
+          ],
+          [
+            16.2278543,
+            49.0294397
+          ],
+          [
+            16.2278679,
+            49.0296079
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 388178836,
+        "@url": "https://www.openstreetmap.org/way/388178836",
+        "building:ruian:type": "19",
+        "man_made": "beehive",
+        "ref:ruian:building": "52119866",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -10504,6 +10557,47 @@
         "description": "bee hive",
         "man_made": "beehive",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.2278543,
+                49.0294397
+              ],
+              [
+                16.2279054,
+                49.0294379
+              ],
+              [
+                16.2279192,
+                49.0296061
+              ],
+              [
+                16.2278679,
+                49.0296079
+              ],
+              [
+                16.2278543,
+                49.0294397
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 388178836,
+        "@url": "https://www.openstreetmap.org/way/388178836",
+        "building:ruian:type": "19",
+        "man_made": "beehive",
+        "ref:ruian:building": "52119866",
+        "source": "cuzk:ruian"
       }
     },
     {

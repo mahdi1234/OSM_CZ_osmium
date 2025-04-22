@@ -12769,15 +12769,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6365721,
-          48.807064
+          16.6366257,
+          48.8070799
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 6000295281,
         "@url": "https://www.openstreetmap.org/node/6000295281",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground"
       }
     },
     {
@@ -12829,7 +12831,9 @@
         "@type": "node",
         "@id": 6000433999,
         "@url": "https://www.openstreetmap.org/node/6000433999",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground"
       }
     },
     {
@@ -12855,38 +12859,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6356773,
-          48.8037732
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6000577185,
-        "@url": "https://www.openstreetmap.org/node/6000577185",
-        "emergency": "fire_hydrant"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.6364137,
-          48.804614
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6000577186,
-        "@url": "https://www.openstreetmap.org/node/6000577186",
-        "emergency": "fire_hydrant"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.637422,
           48.8053367
         ]
@@ -12895,23 +12867,9 @@
         "@type": "node",
         "@id": 6000577187,
         "@url": "https://www.openstreetmap.org/node/6000577187",
-        "emergency": "fire_hydrant"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.6345622,
-          48.8029842
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6000597413,
-        "@url": "https://www.openstreetmap.org/node/6000597413",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "lane",
+        "fire_hydrant:type": "underground"
       }
     },
     {
@@ -44760,6 +44718,76 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8583978,
+          50.4530413
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12769688887,
+        "@url": "https://www.openstreetmap.org/node/12769688887",
+        "emergency": "fire_hydrant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.638196,
+          48.8074536
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12770200710,
+        "@url": "https://www.openstreetmap.org/node/12770200710",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7147141,
+          49.2710367
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12770287284,
+        "@url": "https://www.openstreetmap.org/node/12770287284",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6362842,
+          48.8064056
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12770321332,
+        "@url": "https://www.openstreetmap.org/node/12770321332",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground"
       }
     }
   ]

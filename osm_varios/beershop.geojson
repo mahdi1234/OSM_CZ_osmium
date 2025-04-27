@@ -1921,6 +1921,51 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6845106,
+          49.7872567
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12786914764,
+        "@url": "https://www.openstreetmap.org/node/12786914764",
+        "drink:beer": "yes",
+        "email": "mares@odmax.cz",
+        "mobile": "+420 731 179 453",
+        "name": "OD Max Pivotéka",
+        "opening_hours": "Mo-Su 08:00-19:00",
+        "phone": "+420 317 721 241",
+        "shop": "alcohol",
+        "website": "https://odmax.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1117708,
+          49.4691693
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12786914765,
+        "@url": "https://www.openstreetmap.org/node/12786914765",
+        "drink:beer": "yes",
+        "email": "pivni.nebe@gmail.com",
+        "mobile": "+420 739 622 208",
+        "name": "Pivní nebe",
+        "opening_hours": "Mo-Fr 10:00-17:00; Sa 09:00-12:00",
+        "shop": "alcohol",
+        "website": "https://www.prodejpivaprostejov.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -2018,6 +2063,58 @@
         "shop": "alcohol",
         "source": "cuzk:ruian",
         "website": "https://www.maneo.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4566994,
+            48.9898029
+          ],
+          [
+            14.4570424,
+            48.9897992
+          ],
+          [
+            14.457033,
+            48.989422
+          ],
+          [
+            14.4566902,
+            48.9894257
+          ],
+          [
+            14.4566994,
+            48.9898029
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 471789149,
+        "@url": "https://www.openstreetmap.org/way/471789149",
+        "building": "commercial",
+        "building:levels": "2",
+        "building:ruian:type": "10",
+        "drink:beer": "yes",
+        "email": "prodejna@alkodrink.cz",
+        "mobile": "+420 702 020 236",
+        "name": "AlkoDrink Cash & Carry",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-14:00",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "ref:ruian:building": "87632543",
+        "roof:shape": "flat",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
+        "start_date": "2016-11-30",
+        "website": "https://www.alkodrink.cz/"
       }
     },
     {
@@ -2179,6 +2276,62 @@
         "shop": "alcohol",
         "source": "cuzk:ruian",
         "website": "https://www.maneo.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.4566902,
+                48.9894257
+              ],
+              [
+                14.457033,
+                48.989422
+              ],
+              [
+                14.4570424,
+                48.9897992
+              ],
+              [
+                14.4566994,
+                48.9898029
+              ],
+              [
+                14.4566902,
+                48.9894257
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 471789149,
+        "@url": "https://www.openstreetmap.org/way/471789149",
+        "building": "commercial",
+        "building:levels": "2",
+        "building:ruian:type": "10",
+        "drink:beer": "yes",
+        "email": "prodejna@alkodrink.cz",
+        "mobile": "+420 702 020 236",
+        "name": "AlkoDrink Cash & Carry",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-14:00",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "ref:ruian:building": "87632543",
+        "roof:shape": "flat",
+        "shop": "alcohol",
+        "source": "cuzk:ruian",
+        "start_date": "2016-11-30",
+        "website": "https://www.alkodrink.cz/"
       }
     },
     {

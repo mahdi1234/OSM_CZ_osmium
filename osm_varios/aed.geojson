@@ -2163,7 +2163,8 @@
         "defibrillator:location": "indoor",
         "emergency": "defibrillator",
         "indoor": "yes",
-        "level": "0"
+        "level": "0",
+        "opening_hours": "Mo-Su 09:00-21:00"
       }
     },
     {
@@ -4189,6 +4190,23 @@
         "@id": 12778277994,
         "@url": "https://www.openstreetmap.org/node/12778277994",
         "emergency": "defibrillator"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7820186,
+          50.0387937
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12799808834,
+        "@url": "https://www.openstreetmap.org/node/12799808834",
+        "emergency": "defibrillator",
+        "indoor": "yes"
       }
     }
   ]

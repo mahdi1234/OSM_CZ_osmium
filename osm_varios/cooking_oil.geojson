@@ -2730,7 +2730,8 @@
         "contact:phone": "+420 288409188",
         "contact:website": "www.psas.cz",
         "ipr:name": "Kladenská 560/28",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "recycling:PET": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
@@ -15068,7 +15069,8 @@
         "contact:phone": "+420 288409188",
         "contact:website": "www.psas.cz",
         "ipr:name": "Arabská 676/19",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "recycling:PET": "yes",
         "recycling:cans": "yes",
         "recycling:cartons": "yes",
@@ -38820,25 +38822,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.7031891,
-          49.1361612
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11012860274,
-        "@url": "https://www.openstreetmap.org/node/11012860274",
-        "amenity": "recycling",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.3935447,
           49.1753497
         ]
@@ -55103,8 +55086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5815124,
-          49.5203105
+          17.5815165,
+          49.5203111
         ]
       },
       "properties": {
@@ -58321,6 +58304,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.7731896,
+          49.9809684
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12346609552,
+        "@url": "https://www.openstreetmap.org/node/12346609552",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.4026485,
           49.3515501
         ]
@@ -61020,6 +61027,24 @@
         "recycling:plastic_packaging": "yes",
         "recycling_type": "container",
         "ref": "0009/028"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7031429,
+          49.1361504
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12800609362,
+        "@url": "https://www.openstreetmap.org/node/12800609362",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling_type": "container"
       }
     },
     {

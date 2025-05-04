@@ -387,6 +387,7 @@
         "@type": "node",
         "@id": 5753191198,
         "@url": "https://www.openstreetmap.org/node/5753191198",
+        "access": "yes",
         "defibrillator:location": "zelený sloup trčící ze země",
         "emergency": "defibrillator",
         "indoor": "no",
@@ -4270,6 +4271,29 @@
         "@id": 12802543802,
         "@url": "https://www.openstreetmap.org/node/12802543802",
         "emergency": "defibrillator"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7459006,
+          50.7176555
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12803645967,
+        "@url": "https://www.openstreetmap.org/node/12803645967",
+        "access": "customers",
+        "defibrillator:location": "on first floor on wall near ticket office",
+        "emergency": "defibrillator",
+        "image": "https://openaedmap.org/api/v1/photos/view/T4YldMVEKnOS3IsmmSRjwg.webp",
+        "image:license": "CC0",
+        "indoor": "yes",
+        "level": "1",
+        "manufacturer": "Aivia"
       }
     }
   ]

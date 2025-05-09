@@ -9541,6 +9541,35 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.6426854,
+            49.2019937
+          ],
+          [
+            16.6426416,
+            49.2020066
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1328895695,
+        "@url": "https://www.openstreetmap.org/way/1328895695",
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "4",
+        "surface": "concrete",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.584378,
             49.227021
           ],
@@ -38559,10 +38588,12 @@
         "highway": "steps",
         "incline": "up",
         "layer": "-1",
+        "lit": "yes",
         "ramp": "no",
         "source": "bing:orto",
         "step_count": "12",
-        "surface": "paved",
+        "surface": "paving_stones",
+        "tactile_paving": "no",
         "tunnel": "yes",
         "width": "4"
       }
@@ -39454,7 +39485,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "13",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -43874,10 +43906,11 @@
         "handrail:right": "yes",
         "highway": "steps",
         "incline": "up",
+        "lit": "yes",
         "ramp": "no",
         "source": "bing:orto",
         "step_count": "16",
-        "surface": "paved",
+        "surface": "concrete",
         "tactile_paving": "no",
         "width": "4"
       }
@@ -48081,8 +48114,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.598827,
-            49.2041593
+            16.5988231,
+            49.2041575
           ],
           [
             16.5987457,
@@ -49032,7 +49065,7 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "20",
-        "surface": "tile",
+        "surface": "tiles",
         "tactile_paving": "no"
       }
     },
@@ -49062,7 +49095,7 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "20",
-        "surface": "tile",
+        "surface": "tiles",
         "tactile_paving": "no"
       }
     },

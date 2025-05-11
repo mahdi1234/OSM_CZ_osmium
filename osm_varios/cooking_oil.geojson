@@ -6233,6 +6233,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5722479,
+          50.1257353
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2632236016,
+        "@url": "https://www.openstreetmap.org/node/2632236016",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4659278,
           50.1220336
         ]
@@ -11369,7 +11390,8 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref": "0010/053"
       }
     },
     {
@@ -30647,8 +30669,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7554497,
-          50.0472348
+          15.7554245,
+          50.0472315
         ]
       },
       "properties": {
@@ -61075,6 +61097,32 @@
         "@url": "https://www.openstreetmap.org/node/12800609362",
         "amenity": "recycling",
         "recycling:cooking_oil": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3556628,
+          49.0942613
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12824204879,
+        "@url": "https://www.openstreetmap.org/node/12824204879",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },

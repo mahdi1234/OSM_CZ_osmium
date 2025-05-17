@@ -102,8 +102,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3146007,
-          49.9361098
+          14.3146857,
+          49.9361787
         ]
       },
       "properties": {
@@ -116,7 +116,9 @@
         "addr:place": "Všenory",
         "addr:postcode": "25231",
         "addr:street": "Na Benátkách",
+        "colour": "Red",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "ref:ruian:addr": "6589251",
         "water_source": "main"
@@ -7147,14 +7149,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.2592384,
-          49.8260672
+          18.2591914,
+          49.8260573
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 4330396066,
         "@url": "https://www.openstreetmap.org/node/4330396066",
+        "colour": "grey",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -7300,6 +7303,7 @@
         "@type": "node",
         "@id": 4336498860,
         "@url": "https://www.openstreetmap.org/node/4336498860",
+        "colour": "grey",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
@@ -45457,8 +45461,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4473643,
-          50.0273401
+          15.4473531,
+          50.0273422
         ]
       },
       "properties": {
@@ -45673,7 +45677,9 @@
         "@type": "node",
         "@id": 12836993085,
         "@url": "https://www.openstreetmap.org/node/12836993085",
-        "emergency": "fire_hydrant"
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     },
     {
@@ -45743,6 +45749,41 @@
         "@url": "https://www.openstreetmap.org/node/12837492506",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4656242,
+          50.0940505
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12840510104,
+        "@url": "https://www.openstreetmap.org/node/12840510104",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1808488,
+          49.8319886
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12840673322,
+        "@url": "https://www.openstreetmap.org/node/12840673322",
+        "colour": "red",
+        "emergency": "fire_hydrant",
         "fire_hydrant:type": "pillar"
       }
     }

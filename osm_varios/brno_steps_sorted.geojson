@@ -297,7 +297,11 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
-        "step_count": "1"
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
+        "step_count": "1",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -51117,12 +51121,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5873075,
-            49.2154507
+            16.5872986,
+            49.2154568
           ],
           [
-            16.5872056,
-            49.2154206
+            16.587202,
+            49.2154274
           ]
         ]
       },

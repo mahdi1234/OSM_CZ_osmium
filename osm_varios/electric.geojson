@@ -6166,7 +6166,7 @@
         "check_date:opening_hours": "2023-10-08",
         "mobile": "+420 721 880 286",
         "name": "SSO Korejská",
-        "opening_hours": "Tu-Fr 09:00-13:00, Mo-Fr 14:00-18:00; Sa 08:00-12:00",
+        "opening_hours": "Tu-Fr 09:00-13:00, Mo-Fr 14:00-18:00; Sa 08:00-12:00; PH off",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
@@ -53744,6 +53744,30 @@
         "recycling:organic": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3459963,
+          49.6869456
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12862516018,
+        "@url": "https://www.openstreetmap.org/node/12862516018",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },

@@ -14487,8 +14487,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4563212,
-          49.344567
+          15.4563073,
+          49.3445634
         ]
       },
       "properties": {
@@ -19773,28 +19773,6 @@
         "operator": "cz:KČT",
         "ref": "6157/4,5;BE131",
         "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.6310069,
-          50.0969542
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2261614247,
-        "@url": "https://www.openstreetmap.org/node/2261614247",
-        "access": "yes",
-        "ele": "553",
-        "height": "17.5",
-        "man_made": "tower",
-        "name": "Rozhledna Ježník",
-        "tourism": "viewpoint",
-        "tower:type": "observation"
       }
     },
     {
@@ -45492,8 +45470,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1882693,
-          50.7344425
+          15.189127,
+          50.7343573
         ]
       },
       "properties": {
@@ -45503,7 +45481,7 @@
         "ele": "518",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Jablonecké Paseky (bus)",
+        "name": "Jablonecké Paseky",
         "operator": "cz:KČT",
         "ref": "LB560",
         "tourism": "information"
@@ -83867,11 +83845,12 @@
         "name": "Jedlová",
         "name:de": "Tannenberg",
         "opening_hours": "Mo-Fr 05:15-21:25; Sa,Su 06:20-21:25",
-        "operator": "cz:SŽDC",
+        "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "567594",
         "start_date": "1869",
+        "website": "https://www.cd.cz/stanice/5456759",
         "wheelchair": "limited",
         "wikidata": "Q800967",
         "wikipedia": "cs:Jedlová (nádraží)"
@@ -117246,6 +117225,51 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.631047,
+            50.0969322
+          ],
+          [
+            17.6309494,
+            50.0969355
+          ],
+          [
+            17.6309541,
+            50.0969978
+          ],
+          [
+            17.6310519,
+            50.0969953
+          ],
+          [
+            17.631047,
+            50.0969322
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1389620189,
+        "@url": "https://www.openstreetmap.org/way/1389620189",
+        "access": "yes",
+        "building": "civic",
+        "building:ruian:type": "15",
+        "ele": "553",
+        "fee": "no",
+        "height": "17.5",
+        "man_made": "tower",
+        "name": "Rozhledna Ježník",
+        "ref:ruian:building": "47948540",
+        "source": "cuzk:ruian",
+        "tourism": "viewpoint",
+        "tower:type": "observation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -117288,6 +117312,55 @@
         "operator:website": "https://www.pvl.cz/portal/SaP/cz/pc/Mereni.aspx?id=MZLC&oid=3",
         "ref": "161",
         "website": "https://mapy.chmi.cz/ords/chmi_app/r/fewshlprf/hlprf-item?p1001_seq=11022782"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.6309494,
+                50.0969355
+              ],
+              [
+                17.631047,
+                50.0969322
+              ],
+              [
+                17.6310519,
+                50.0969953
+              ],
+              [
+                17.6309541,
+                50.0969978
+              ],
+              [
+                17.6309494,
+                50.0969355
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1389620189,
+        "@url": "https://www.openstreetmap.org/way/1389620189",
+        "access": "yes",
+        "building": "civic",
+        "building:ruian:type": "15",
+        "ele": "553",
+        "fee": "no",
+        "height": "17.5",
+        "man_made": "tower",
+        "name": "Rozhledna Ježník",
+        "ref:ruian:building": "47948540",
+        "source": "cuzk:ruian",
+        "tourism": "viewpoint",
+        "tower:type": "observation"
       }
     }
   ]

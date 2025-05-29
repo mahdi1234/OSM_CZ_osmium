@@ -6600,7 +6600,7 @@
         "@type": "way",
         "@id": 397497226,
         "@url": "https://www.openstreetmap.org/way/397497226",
-        "check_date:ramp": "2021-04-03",
+        "check_date:ramp": "2025-05-27",
         "handrail": "left",
         "highway": "steps",
         "incline": "up",
@@ -23078,6 +23078,37 @@
         "source": "cuzk:km",
         "step_count": "7",
         "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6118733,
+            49.1884431
+          ],
+          [
+            16.6118969,
+            49.1885167
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 813631435,
+        "@url": "https://www.openstreetmap.org/way/813631435",
+        "check_date:surface": "2021-06-24",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "no",
+        "source": "survey",
+        "step_count": "7",
+        "surface": "concrete",
         "tactile_paving": "no"
       }
     },
@@ -53029,8 +53060,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.5557334,
-            49.1777634
+            16.5557324,
+            49.1777601
+          ],
+          [
+            16.5557326,
+            49.1777665
+          ],
+          [
+            16.5557232,
+            49.1777726
+          ],
+          [
+            16.5557239,
+            49.1777829
           ],
           [
             16.5557854,

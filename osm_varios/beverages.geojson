@@ -2700,6 +2700,42 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5880011,
+            49.2183184
+          ],
+          [
+            16.5880078,
+            49.2183071
+          ],
+          [
+            16.587994,
+            49.2183035
+          ],
+          [
+            16.587987,
+            49.2183148
+          ],
+          [
+            16.5880011,
+            49.2183184
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1392836498,
+        "@url": "https://www.openstreetmap.org/way/1392836498",
+        "building": "kiosk",
+        "name": "Kombucha",
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -3359,6 +3395,46 @@
         "shop": "beverages",
         "source": "cuzk:ruian",
         "website": "https://www.pivopermon.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.587987,
+                49.2183148
+              ],
+              [
+                16.587994,
+                49.2183035
+              ],
+              [
+                16.5880078,
+                49.2183071
+              ],
+              [
+                16.5880011,
+                49.2183184
+              ],
+              [
+                16.587987,
+                49.2183148
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1392836498,
+        "@url": "https://www.openstreetmap.org/way/1392836498",
+        "building": "kiosk",
+        "name": "Kombucha",
+        "shop": "beverages"
       }
     }
   ]

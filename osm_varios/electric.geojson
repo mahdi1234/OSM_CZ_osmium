@@ -399,6 +399,7 @@
         "@id": 413548794,
         "@url": "https://www.openstreetmap.org/node/413548794",
         "amenity": "recycling",
+        "check_date:opening_hours": "2025-06-09",
         "mobile": "+420 721 375 261",
         "name": "SSO Pražská",
         "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
@@ -53921,8 +53922,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7986786,
-          50.0082995
+          15.7986467,
+          50.0082781
         ]
       },
       "properties": {
@@ -53935,6 +53936,27 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9397934,
+          49.4880457
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12898665826,
+        "@url": "https://www.openstreetmap.org/node/12898665826",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },

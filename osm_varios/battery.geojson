@@ -4043,14 +4043,18 @@
         "@id": 2914431129,
         "@url": "https://www.openstreetmap.org/node/2914431129",
         "amenity": "recycling",
-        "name": "Sběrový dvůr",
+        "name": "Sběrný dvůr Neředín",
+        "opening_hours": "Mo-Sa 09:00-13:00,13:30-17:00, Su 09:00-13:00",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electronics": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "website": "https://www.tsmo.cz/sluzby/sberna-mista/"
       }
     },
     {
@@ -20597,6 +20601,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.7852235,
+          50.0363282
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12199438868,
+        "@url": "https://www.openstreetmap.org/node/12199438868",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.1557804,
           49.4768789
         ]
@@ -23569,6 +23596,34 @@
         "amenity": "recycling",
         "operator": "REMA",
         "recycling:batteries": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8763525,
+          49.7131633
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12901550697,
+        "@url": "https://www.openstreetmap.org/node/12901550697",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },

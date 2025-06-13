@@ -63565,6 +63565,65 @@
         "type": "LineString",
         "coordinates": [
           [
+            18.1324993,
+            49.8421534
+          ],
+          [
+            18.1324285,
+            49.8420278
+          ],
+          [
+            18.1327295,
+            49.8419706
+          ],
+          [
+            18.1327602,
+            49.8420137
+          ],
+          [
+            18.1328039,
+            49.8420757
+          ],
+          [
+            18.1324993,
+            49.8421534
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 266890774,
+        "@url": "https://www.openstreetmap.org/way/266890774",
+        "addr:street": "Krásnopolská SD (u benzinky)",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Krásné Pole",
+        "operator": "OZO Ostrava",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.0374535,
             49.4897822
           ],
@@ -73026,6 +73085,69 @@
         "recycling_type": "centre",
         "source": "survey",
         "website": "https://www.mestokladno.cz/sberne-dvory-a-mobilni-sberne-dvory/ds-200618"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1324285,
+                49.8420278
+              ],
+              [
+                18.1327295,
+                49.8419706
+              ],
+              [
+                18.1327602,
+                49.8420137
+              ],
+              [
+                18.1328039,
+                49.8420757
+              ],
+              [
+                18.1324993,
+                49.8421534
+              ],
+              [
+                18.1324285,
+                49.8420278
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 266890774,
+        "@url": "https://www.openstreetmap.org/way/266890774",
+        "addr:street": "Krásnopolská SD (u benzinky)",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Krásné Pole",
+        "operator": "OZO Ostrava",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {

@@ -13554,8 +13554,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4840813,
-          50.0901667
+          14.4840655,
+          50.0901794
         ]
       },
       "properties": {
@@ -16865,7 +16865,8 @@
         "recycling:plastic": "no",
         "recycling:plastic_packaging": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref": "0009/123"
       }
     },
     {
@@ -30854,7 +30855,9 @@
         "@type": "node",
         "@id": 9729749918,
         "@url": "https://www.openstreetmap.org/node/9729749918",
+        "access": "permit",
         "amenity": "recycling",
+        "note": "označeno vývěskou \"výhradně pro občany Dobročovic\"",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -61939,6 +61942,38 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3810603,
+          50.0635693
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12866449373,
+        "@url": "https://www.openstreetmap.org/node/12866449373",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container",
+        "ref": "0005/108",
+        "wheelchair": "limited"
       }
     },
     {

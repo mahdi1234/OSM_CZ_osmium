@@ -12518,7 +12518,7 @@
         "@id": 5876450381,
         "@url": "https://www.openstreetmap.org/node/5876450381",
         "couplings": "3",
-        "couplings:diameters": "75 mm;75 mm; 110 mm",
+        "couplings:diameters": "75 mm;75 mm;110 mm",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
         "fire_hydrant:diameter": "100 mm",
@@ -12527,7 +12527,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2018-09-02",
+        "survey:date": "2018-09-02",
         "water_source": "main"
       }
     },
@@ -14400,7 +14400,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-05-06",
+        "survey:date": "2019-05-06",
         "water_source": "main"
       }
     },
@@ -47275,6 +47275,42 @@
         "@type": "node",
         "@id": 12921762409,
         "@url": "https://www.openstreetmap.org/node/12921762409",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8616549,
+          50.0363303
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12923799373,
+        "@url": "https://www.openstreetmap.org/node/12923799373",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8671746,
+          50.029245
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12923819249,
+        "@url": "https://www.openstreetmap.org/node/12923819249",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"

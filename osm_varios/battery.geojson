@@ -23683,6 +23683,26 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8117388,
+          50.634281
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12923099836,
+        "@url": "https://www.openstreetmap.org/node/12923099836",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -24556,6 +24576,7 @@
         "barrier": "fence",
         "check_date:opening_hours": "2023-04-09",
         "disused:amenity": "recycling",
+        "landuse": "industrial",
         "mobile": "+420 606 914 795",
         "name": "SSO Bieblova",
         "opening_hours": "closed",
@@ -40893,6 +40914,7 @@
         "barrier": "fence",
         "check_date:opening_hours": "2023-04-09",
         "disused:amenity": "recycling",
+        "landuse": "industrial",
         "mobile": "+420 606 914 795",
         "name": "SSO Bieblova",
         "opening_hours": "closed",

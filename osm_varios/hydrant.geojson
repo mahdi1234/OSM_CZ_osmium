@@ -44142,6 +44142,7 @@
         "@id": 12728593948,
         "@url": "https://www.openstreetmap.org/node/12728593948",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
       }
@@ -48145,6 +48146,42 @@
         "@id": 12959781588,
         "@url": "https://www.openstreetmap.org/node/12959781588",
         "emergency": "fire_hydrant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5202268,
+          50.485038
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12961532374,
+        "@url": "https://www.openstreetmap.org/node/12961532374",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "lane",
+        "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6622561,
+          50.156346
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12961845140,
+        "@url": "https://www.openstreetmap.org/node/12961845140",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     }
   ]

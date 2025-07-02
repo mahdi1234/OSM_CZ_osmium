@@ -36033,6 +36033,7 @@
         "colour": "blue",
         "couplings": "1",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "underground",
         "water_source": "groundwater"
       }
@@ -37331,6 +37332,7 @@
         "@url": "https://www.openstreetmap.org/node/12401889685",
         "colour": "red",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -48182,6 +48184,42 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5193846,
+          50.4844343
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12962171791,
+        "@url": "https://www.openstreetmap.org/node/12962171791",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7845014,
+          50.032798
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12962320246,
+        "@url": "https://www.openstreetmap.org/node/12962320246",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "lane",
+        "fire_hydrant:type": "underground"
       }
     }
   ]

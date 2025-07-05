@@ -5852,7 +5852,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2018-09-02",
+        "survey:date": "2018-09-02",
         "water_source": "main"
       }
     },
@@ -10938,6 +10938,7 @@
         "@id": 5669887985,
         "@url": "https://www.openstreetmap.org/node/5669887985",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -13222,7 +13223,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2018-11-28",
+        "survey:date": "2018-11-28",
         "water_source": "main"
       }
     },
@@ -37757,6 +37758,7 @@
         "@url": "https://www.openstreetmap.org/node/12439463122",
         "colour": "black",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -48347,6 +48349,40 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8172395,
+          50.0189806
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12973020361,
+        "@url": "https://www.openstreetmap.org/node/12973020361",
+        "emergency": "fire_hydrant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7741915,
+          49.9845508
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12974240756,
+        "@url": "https://www.openstreetmap.org/node/12974240756",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground"
       }
     }
   ]

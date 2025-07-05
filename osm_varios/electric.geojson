@@ -6474,7 +6474,8 @@
         "amenity": "recycling",
         "description": "https://www.mestokladno.cz/sberne-dvory-a-mobilni-sberne-dvory/ds-200618",
         "name": "AVE Kladno - Sběrný dvůr Smečenská",
-        "operator": "AVE CZ odpadové hospodářství s.r.o.",
+        "operator": "AVE",
+        "operator:wikidata": "Q67808199",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:electrical_appliances": "yes",
@@ -54234,6 +54235,73 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7154186,
+          50.0020335
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12971993827,
+        "@url": "https://www.openstreetmap.org/node/12971993827",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2576369,
+          49.9450467
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12972877261,
+        "@url": "https://www.openstreetmap.org/node/12972877261",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2558392,
+          49.9545399
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12972892879,
+        "@url": "https://www.openstreetmap.org/node/12972892879",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }

@@ -2,6 +2,8 @@
 curl "http://localhost:8111/load_object?new_layer=false&objects=n1488890387"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n3236559612"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n5618279099"
+curl "http://localhost:8111/load_object?new_layer=false&objects=n9409774649"
+curl "http://localhost:8111/load_object?new_layer=false&objects=n10196812617"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n11951528486"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n11952306202"
 curl "http://localhost:8111/load_object?new_layer=false&objects=n12396569541"

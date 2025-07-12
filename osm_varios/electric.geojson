@@ -40638,29 +40638,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5771492,
-          49.328754
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10748180331,
-        "@url": "https://www.openstreetmap.org/node/10748180331",
-        "amenity": "recycling",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.6878478,
           49.8369947
         ]
@@ -76306,6 +76283,87 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1151873,
+            50.3755101
+          ],
+          [
+            13.1151671,
+            50.3751948
+          ],
+          [
+            13.1159267,
+            50.375181
+          ],
+          [
+            13.1159317,
+            50.3753615
+          ],
+          [
+            13.1159169,
+            50.3753609
+          ],
+          [
+            13.1159167,
+            50.3753881
+          ],
+          [
+            13.1158738,
+            50.3753879
+          ],
+          [
+            13.1158734,
+            50.3754151
+          ],
+          [
+            13.1158311,
+            50.375415
+          ],
+          [
+            13.1158161,
+            50.3754371
+          ],
+          [
+            13.1157884,
+            50.3754658
+          ],
+          [
+            13.1157102,
+            50.375524
+          ],
+          [
+            13.1151873,
+            50.3755101
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1413454149,
+        "@url": "https://www.openstreetmap.org/way/1413454149",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Perštejn",
+        "opening_hours": "Tu 13:00-17:00; Th, Sa 09:00-14:00; Su 13:00-17:00",
+        "operator": "Obec Perštejn",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obec-perstejn.cz/urad-223/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -99466,6 +99524,91 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.ozoostrava.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.1151671,
+                50.3751948
+              ],
+              [
+                13.1159267,
+                50.375181
+              ],
+              [
+                13.1159317,
+                50.3753615
+              ],
+              [
+                13.1159169,
+                50.3753609
+              ],
+              [
+                13.1159167,
+                50.3753881
+              ],
+              [
+                13.1158738,
+                50.3753879
+              ],
+              [
+                13.1158734,
+                50.3754151
+              ],
+              [
+                13.1158311,
+                50.375415
+              ],
+              [
+                13.1158161,
+                50.3754371
+              ],
+              [
+                13.1157884,
+                50.3754658
+              ],
+              [
+                13.1157102,
+                50.375524
+              ],
+              [
+                13.1151873,
+                50.3755101
+              ],
+              [
+                13.1151671,
+                50.3751948
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1413454149,
+        "@url": "https://www.openstreetmap.org/way/1413454149",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Perštejn",
+        "opening_hours": "Tu 13:00-17:00; Th, Sa 09:00-14:00; Su 13:00-17:00",
+        "operator": "Obec Perštejn",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obec-perstejn.cz/urad-223/sberny-dvur/"
       }
     }
   ]

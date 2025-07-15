@@ -24174,6 +24174,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6720498,
+          49.9876243
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12996442934,
+        "@url": "https://www.openstreetmap.org/node/12996442934",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -28086,108 +28109,6 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "source": "knowledge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            18.1339491,
-            49.6269954
-          ],
-          [
-            18.1331598,
-            49.6267093
-          ],
-          [
-            18.1329677,
-            49.6266543
-          ],
-          [
-            18.1327444,
-            49.6265795
-          ],
-          [
-            18.1330677,
-            49.6259376
-          ],
-          [
-            18.1330849,
-            49.6259187
-          ],
-          [
-            18.133612,
-            49.6255273
-          ],
-          [
-            18.1338784,
-            49.6257693
-          ],
-          [
-            18.1338493,
-            49.6258154
-          ],
-          [
-            18.1338786,
-            49.6258425
-          ],
-          [
-            18.1339072,
-            49.6258689
-          ],
-          [
-            18.1340036,
-            49.6258832
-          ],
-          [
-            18.1345164,
-            49.6263501
-          ],
-          [
-            18.1345376,
-            49.6263693
-          ],
-          [
-            18.1343854,
-            49.6264968
-          ],
-          [
-            18.1341287,
-            49.6267739
-          ],
-          [
-            18.1339491,
-            49.6269954
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 308608058,
-        "@url": "https://www.openstreetmap.org/way/308608058",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Příbor",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:books": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:waste": "yes",
-        "recycling_type": "centre"
       }
     },
     {
@@ -40573,6 +40494,99 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.1334926,
+            49.6267747
+          ],
+          [
+            18.1338803,
+            49.6269142
+          ],
+          [
+            18.1338987,
+            49.6268942
+          ],
+          [
+            18.1340058,
+            49.6269351
+          ],
+          [
+            18.1341287,
+            49.6267739
+          ],
+          [
+            18.1343854,
+            49.6264968
+          ],
+          [
+            18.1345321,
+            49.6263742
+          ],
+          [
+            18.1343757,
+            49.6262291
+          ],
+          [
+            18.1342577,
+            49.6261194
+          ],
+          [
+            18.1340666,
+            49.6262712
+          ],
+          [
+            18.1336209,
+            49.6266252
+          ],
+          [
+            18.133598,
+            49.6266518
+          ],
+          [
+            18.1334926,
+            49.6267747
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1414332829,
+        "@url": "https://www.openstreetmap.org/way/1414332829",
+        "addr:city": "Příbor",
+        "addr:housenumber": "1688",
+        "addr:postcode": "74258",
+        "addr:street": "Štramberská",
+        "amenity": "recycling",
+        "email": "sbernydvur@tspribor.cz",
+        "name": "Sběrný dvůr Příbor",
+        "opening_hours": "Mo-Fr 08:00-11:00,12:00-17:00; Tu,Th off; Sa 08:00-12:00",
+        "phone": "+420 736 135 129",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -44701,112 +44715,6 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "source": "knowledge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                18.1327444,
-                49.6265795
-              ],
-              [
-                18.1330677,
-                49.6259376
-              ],
-              [
-                18.1330849,
-                49.6259187
-              ],
-              [
-                18.133612,
-                49.6255273
-              ],
-              [
-                18.1338784,
-                49.6257693
-              ],
-              [
-                18.1338493,
-                49.6258154
-              ],
-              [
-                18.1338786,
-                49.6258425
-              ],
-              [
-                18.1339072,
-                49.6258689
-              ],
-              [
-                18.1340036,
-                49.6258832
-              ],
-              [
-                18.1345164,
-                49.6263501
-              ],
-              [
-                18.1345376,
-                49.6263693
-              ],
-              [
-                18.1343854,
-                49.6264968
-              ],
-              [
-                18.1341287,
-                49.6267739
-              ],
-              [
-                18.1339491,
-                49.6269954
-              ],
-              [
-                18.1331598,
-                49.6267093
-              ],
-              [
-                18.1329677,
-                49.6266543
-              ],
-              [
-                18.1327444,
-                49.6265795
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 308608058,
-        "@url": "https://www.openstreetmap.org/way/308608058",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Příbor",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:books": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:waste": "yes",
-        "recycling_type": "centre"
       }
     },
     {
@@ -57843,6 +57751,103 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.ozoostrava.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.1334926,
+                49.6267747
+              ],
+              [
+                18.133598,
+                49.6266518
+              ],
+              [
+                18.1336209,
+                49.6266252
+              ],
+              [
+                18.1340666,
+                49.6262712
+              ],
+              [
+                18.1342577,
+                49.6261194
+              ],
+              [
+                18.1343757,
+                49.6262291
+              ],
+              [
+                18.1345321,
+                49.6263742
+              ],
+              [
+                18.1343854,
+                49.6264968
+              ],
+              [
+                18.1341287,
+                49.6267739
+              ],
+              [
+                18.1340058,
+                49.6269351
+              ],
+              [
+                18.1338987,
+                49.6268942
+              ],
+              [
+                18.1338803,
+                49.6269142
+              ],
+              [
+                18.1334926,
+                49.6267747
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1414332829,
+        "@url": "https://www.openstreetmap.org/way/1414332829",
+        "addr:city": "Příbor",
+        "addr:housenumber": "1688",
+        "addr:postcode": "74258",
+        "addr:street": "Štramberská",
+        "amenity": "recycling",
+        "email": "sbernydvur@tspribor.cz",
+        "name": "Sběrný dvůr Příbor",
+        "opening_hours": "Mo-Fr 08:00-11:00,12:00-17:00; Tu,Th off; Sa 08:00-12:00",
+        "phone": "+420 736 135 129",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

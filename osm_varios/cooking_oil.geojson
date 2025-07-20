@@ -62945,6 +62945,54 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.241168,
+          49.5867605
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13011937300,
+        "@url": "https://www.openstreetmap.org/node/13011937300",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2428826,
+          49.5879671
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13011971953,
+        "@url": "https://www.openstreetmap.org/node/13011971953",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -72497,6 +72545,65 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.ozoostrava.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.7310084,
+            49.0852217
+          ],
+          [
+            17.7308741,
+            49.0850336
+          ],
+          [
+            17.7315055,
+            49.0848339
+          ],
+          [
+            17.7316719,
+            49.0850715
+          ],
+          [
+            17.7314476,
+            49.0851412
+          ],
+          [
+            17.7314073,
+            49.0850911
+          ],
+          [
+            17.7310084,
+            49.0852217
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1415929748,
+        "@url": "https://www.openstreetmap.org/way/1415929748",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Luhačovice",
+        "opening_hours": "Tu 13:00-17:00; Th 13:00-17:00; Sa 09:00-15:00",
+        "operator": "Technické služby Luhačovice",
+        "operator:type": "public",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -82570,6 +82677,69 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.ozoostrava.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.7308741,
+                49.0850336
+              ],
+              [
+                17.7315055,
+                49.0848339
+              ],
+              [
+                17.7316719,
+                49.0850715
+              ],
+              [
+                17.7314476,
+                49.0851412
+              ],
+              [
+                17.7314073,
+                49.0850911
+              ],
+              [
+                17.7310084,
+                49.0852217
+              ],
+              [
+                17.7308741,
+                49.0850336
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1415929748,
+        "@url": "https://www.openstreetmap.org/way/1415929748",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Luhačovice",
+        "opening_hours": "Tu 13:00-17:00; Th 13:00-17:00; Sa 09:00-15:00",
+        "operator": "Technické služby Luhačovice",
+        "operator:type": "public",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

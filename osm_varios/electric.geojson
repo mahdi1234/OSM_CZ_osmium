@@ -54498,6 +54498,36 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1210551,
+          49.5915494
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13012193193,
+        "@url": "https://www.openstreetmap.org/node/13012193193",
+        "amenity": "recycling",
+        "email": "info@sberna-tesetice.cz",
+        "opening_hours": "Mo-Fr 09:00-15:00; Sa 09:00-12:00",
+        "phone": "+420 585 508 406",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.sberna-tesetice.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -76517,6 +76547,65 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.7310084,
+            49.0852217
+          ],
+          [
+            17.7308741,
+            49.0850336
+          ],
+          [
+            17.7315055,
+            49.0848339
+          ],
+          [
+            17.7316719,
+            49.0850715
+          ],
+          [
+            17.7314476,
+            49.0851412
+          ],
+          [
+            17.7314073,
+            49.0850911
+          ],
+          [
+            17.7310084,
+            49.0852217
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1415929748,
+        "@url": "https://www.openstreetmap.org/way/1415929748",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Luhačovice",
+        "opening_hours": "Tu 13:00-17:00; Th 13:00-17:00; Sa 09:00-15:00",
+        "operator": "Technické služby Luhačovice",
+        "operator:type": "public",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
       }
     },
@@ -99762,6 +99851,69 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.7308741,
+                49.0850336
+              ],
+              [
+                17.7315055,
+                49.0848339
+              ],
+              [
+                17.7316719,
+                49.0850715
+              ],
+              [
+                17.7314476,
+                49.0851412
+              ],
+              [
+                17.7314073,
+                49.0850911
+              ],
+              [
+                17.7310084,
+                49.0852217
+              ],
+              [
+                17.7308741,
+                49.0850336
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1415929748,
+        "@url": "https://www.openstreetmap.org/way/1415929748",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Luhačovice",
+        "opening_hours": "Tu 13:00-17:00; Th 13:00-17:00; Sa 09:00-15:00",
+        "operator": "Technické služby Luhačovice",
+        "operator:type": "public",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
       }
     }

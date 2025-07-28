@@ -26689,8 +26689,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.9997354,
-          49.8454535
+          15.9997059,
+          49.845463
         ]
       },
       "properties": {
@@ -54537,6 +54537,60 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1943785,
+          49.1707991
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13030230840,
+        "@url": "https://www.openstreetmap.org/node/13030230840",
+        "amenity": "recycling",
+        "opening_hours": "Sa 08:00-10:00",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:rubble": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1944014,
+          49.1708805
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13030230841,
+        "@url": "https://www.openstreetmap.org/node/13030230841",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -71212,36 +71266,64 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.669098,
-            49.1935248
+            16.6691741,
+            49.1934864
           ],
           [
-            16.670314,
-            49.1938286
+            16.6694969,
+            49.1935725
           ],
           [
-            16.6706239,
-            49.193295
+            16.669545,
+            49.1935437
           ],
           [
-            16.6706716,
-            49.1929678
+            16.6695741,
+            49.1935586
           ],
           [
-            16.6706001,
-            49.1928275
+            16.6697066,
+            49.1936267
           ],
           [
-            16.6694854,
-            49.192995
+            16.6699016,
+            49.1936755
           ],
           [
-            16.6693186,
-            49.1931119
+            16.6699551,
+            49.1936476
           ],
           [
-            16.669098,
-            49.1935248
+            16.6700079,
+            49.1936742
+          ],
+          [
+            16.6701114,
+            49.1937262
+          ],
+          [
+            16.6702966,
+            49.1937771
+          ],
+          [
+            16.6706666,
+            49.1931527
+          ],
+          [
+            16.6706248,
+            49.1930839
+          ],
+          [
+            16.6696837,
+            49.1928446
+          ],
+          [
+            16.6694867,
+            49.19294
+          ],
+          [
+            16.6691741,
+            49.1934864
           ]
         ]
       },
@@ -71253,6 +71335,7 @@
         "addr:housenumber": "4",
         "addr:street": "Jedovnická",
         "amenity": "recycling",
+        "barrier": "fence",
         "mobile": "+420 736 784 599",
         "name": "SSO Jedovnická",
         "opening_hours": "Mo-Fr 07:00-18:00; Sa,Su 09:00-17:00",
@@ -94222,36 +94305,64 @@
           [
             [
               [
-                16.669098,
-                49.1935248
+                16.6691741,
+                49.1934864
               ],
               [
-                16.6693186,
-                49.1931119
+                16.6694867,
+                49.19294
               ],
               [
-                16.6694854,
-                49.192995
+                16.6696837,
+                49.1928446
               ],
               [
-                16.6706001,
-                49.1928275
+                16.6706248,
+                49.1930839
               ],
               [
-                16.6706716,
-                49.1929678
+                16.6706666,
+                49.1931527
               ],
               [
-                16.6706239,
-                49.193295
+                16.6702966,
+                49.1937771
               ],
               [
-                16.670314,
-                49.1938286
+                16.6701114,
+                49.1937262
               ],
               [
-                16.669098,
-                49.1935248
+                16.6700079,
+                49.1936742
+              ],
+              [
+                16.6699551,
+                49.1936476
+              ],
+              [
+                16.6699016,
+                49.1936755
+              ],
+              [
+                16.6697066,
+                49.1936267
+              ],
+              [
+                16.6695741,
+                49.1935586
+              ],
+              [
+                16.669545,
+                49.1935437
+              ],
+              [
+                16.6694969,
+                49.1935725
+              ],
+              [
+                16.6691741,
+                49.1934864
               ]
             ]
           ]
@@ -94265,6 +94376,7 @@
         "addr:housenumber": "4",
         "addr:street": "Jedovnická",
         "amenity": "recycling",
+        "barrier": "fence",
         "mobile": "+420 736 784 599",
         "name": "SSO Jedovnická",
         "opening_hours": "Mo-Fr 07:00-18:00; Sa,Su 09:00-17:00",

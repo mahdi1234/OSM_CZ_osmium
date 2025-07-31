@@ -4610,16 +4610,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1845058,
-          50.8659941
+          15.1845702,
+          50.8660381
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 712757615,
         "@url": "https://www.openstreetmap.org/node/712757615",
-        "ele": "580",
-        "natural": "peak"
+        "ele": "588.6",
+        "natural": "peak",
+        "source": "cuzk:ztm5"
       }
     },
     {
@@ -8668,8 +8669,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.8561395,
-          49.5487683
+          18.8562159,
+          49.5487727
         ]
       },
       "properties": {
@@ -75949,8 +75950,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4572887,
-          50.5962394
+          14.4573075,
+          50.5962311
         ]
       },
       "properties": {
@@ -75958,12 +75959,12 @@
         "@id": 6074061891,
         "@url": "https://www.openstreetmap.org/node/6074061891",
         "ele": "554",
-        "fixme": "exact position",
         "hiking": "yes",
         "information": "guidepost",
         "name": "Pod Vlhoštěm",
         "operator": "cz:KČT",
         "ref": "CL107",
+        "source": "survey,gps",
         "tourism": "information"
       }
     },
@@ -84838,7 +84839,7 @@
         "ele": "538",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Vlhošť - západní úbočí (vyhl.)",
+        "name": "Vlhošť - západní úbočí (vyhlídka)",
         "operator": "cz:KČT",
         "ref": "CL236",
         "source": "survey,gps",
@@ -106330,6 +106331,8 @@
         "@url": "https://www.openstreetmap.org/node/12522287041",
         "amenity": "shelter",
         "ele": "530",
+        "lit": "no",
+        "name": "Hraběcí stolek",
         "shelter_type": "picnic_shelter"
       }
     },
@@ -110050,6 +110053,60 @@
         "@url": "https://www.openstreetmap.org/node/13014313800",
         "ele": "507.8",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9399636,
+          49.1585606
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13037116757,
+        "@url": "https://www.openstreetmap.org/node/13037116757",
+        "ele": "554",
+        "name": "Rýdův kopec",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1831511,
+          50.8654902
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13037468829,
+        "@url": "https://www.openstreetmap.org/node/13037468829",
+        "ele": "566.6",
+        "natural": "peak",
+        "source": "survey,gps,cuzk:ztm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1805761,
+          50.8652143
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13037468830,
+        "@url": "https://www.openstreetmap.org/node/13037468830",
+        "ele": "531.2",
+        "natural": "peak",
+        "source": "survey,gps,cuzk:ztm5"
       }
     },
     {

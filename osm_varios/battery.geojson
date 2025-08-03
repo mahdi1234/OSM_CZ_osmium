@@ -3439,8 +3439,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8281224,
-          49.5093728
+          16.8281209,
+          49.5093696
         ]
       },
       "properties": {
@@ -15319,27 +15319,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3968596,
-          49.7384287
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9486181592,
-        "@url": "https://www.openstreetmap.org/node/9486181592",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.3648703,
           50.0808053
         ]
@@ -24570,6 +24549,27 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3962933,
+          49.7391892
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13041293042,
+        "@url": "https://www.openstreetmap.org/node/13041293042",
+        "amenity": "recycling",
+        "operator": "Asekol",
+        "operator:wikidata": "Q36877392",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

@@ -3832,6 +3832,7 @@
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "no",
         "recycling:plastic_packaging": "yes",
@@ -7079,6 +7080,7 @@
         "@id": 4992466849,
         "@url": "https://www.openstreetmap.org/node/4992466849",
         "amenity": "recycling",
+        "check_date": "2025-08-03",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
@@ -7184,8 +7186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.9535846,
-          49.5641932
+          15.9536971,
+          49.5644646
         ]
       },
       "properties": {
@@ -18857,6 +18859,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.8890313,
+          48.8514462
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11591143615,
+        "@url": "https://www.openstreetmap.org/node/11591143615",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.3392016,
           49.4847958
         ]
@@ -20170,6 +20197,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.9401187,
+          48.903018
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11959035682,
+        "@url": "https://www.openstreetmap.org/node/11959035682",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.9437459,
           50.2419137
         ]
@@ -20389,8 +20444,10 @@
         "@id": 12056765909,
         "@url": "https://www.openstreetmap.org/node/12056765909",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
+        "recycling:clothes": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -24570,6 +24627,46 @@
         "operator:wikidata": "Q36877392",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4026569,
+          49.2930313
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13042738314,
+        "@url": "https://www.openstreetmap.org/node/13042738314",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8973326,
+          48.9148344
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13043451677,
+        "@url": "https://www.openstreetmap.org/node/13043451677",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -29725,24 +29822,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.3740051,
-            50.0977046
-          ],
-          [
-            14.3740158,
-            50.0977065
-          ],
-          [
-            14.3740753,
-            50.0977172
-          ],
-          [
-            14.3742854,
-            50.097749
-          ],
-          [
-            14.3743254,
-            50.0976605
+            14.3741539,
+            50.0976312
           ],
           [
             14.3746935,
@@ -29777,20 +29858,16 @@
             50.0977562
           ],
           [
+            14.3755241,
+            50.0975163
+          ],
+          [
             14.3755714,
             50.0974573
           ],
           [
-            14.3754875,
-            50.0974289
-          ],
-          [
-            14.3755108,
-            50.0974056
-          ],
-          [
-            14.3755287,
-            50.0973877
+            14.3755892,
+            50.0974348
           ],
           [
             14.375605,
@@ -29845,12 +29922,56 @@
             50.0973522
           ],
           [
+            14.3741466,
+            50.0973633
+          ],
+          [
             14.3741626,
             50.0973673
           ],
           [
-            14.3740051,
-            50.0977046
+            14.374195,
+            50.0973755
+          ],
+          [
+            14.3742848,
+            50.0973983
+          ],
+          [
+            14.374267,
+            50.0974247
+          ],
+          [
+            14.3742493,
+            50.0974511
+          ],
+          [
+            14.3742314,
+            50.0974766
+          ],
+          [
+            14.3742184,
+            50.0975024
+          ],
+          [
+            14.3742056,
+            50.097528
+          ],
+          [
+            14.3741927,
+            50.0975539
+          ],
+          [
+            14.3741797,
+            50.0975797
+          ],
+          [
+            14.3741668,
+            50.0976054
+          ],
+          [
+            14.3741539,
+            50.0976312
           ]
         ]
       },
@@ -29859,6 +29980,7 @@
         "@id": 371733342,
         "@url": "https://www.openstreetmap.org/way/371733342",
         "amenity": "recycling",
+        "landuse": "industrial",
         "name": "Sběrný dvůr Hlavního města Prahy",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
         "operator": "Pražské služby",
@@ -46436,14 +46558,6 @@
           [
             [
               [
-                14.3740051,
-                50.0977046
-              ],
-              [
-                14.3741626,
-                50.0973673
-              ],
-              [
                 14.3741028,
                 50.0973522
               ],
@@ -46496,20 +46610,16 @@
                 50.097415
               ],
               [
-                14.3755287,
-                50.0973877
-              ],
-              [
-                14.3755108,
-                50.0974056
-              ],
-              [
-                14.3754875,
-                50.0974289
+                14.3755892,
+                50.0974348
               ],
               [
                 14.3755714,
                 50.0974573
+              ],
+              [
+                14.3755241,
+                50.0975163
               ],
               [
                 14.3753319,
@@ -46544,24 +46654,60 @@
                 50.0977265
               ],
               [
-                14.3743254,
-                50.0976605
+                14.3741539,
+                50.0976312
               ],
               [
-                14.3742854,
-                50.097749
+                14.3741668,
+                50.0976054
               ],
               [
-                14.3740753,
-                50.0977172
+                14.3741797,
+                50.0975797
               ],
               [
-                14.3740158,
-                50.0977065
+                14.3741927,
+                50.0975539
               ],
               [
-                14.3740051,
-                50.0977046
+                14.3742056,
+                50.097528
+              ],
+              [
+                14.3742184,
+                50.0975024
+              ],
+              [
+                14.3742314,
+                50.0974766
+              ],
+              [
+                14.3742493,
+                50.0974511
+              ],
+              [
+                14.374267,
+                50.0974247
+              ],
+              [
+                14.3742848,
+                50.0973983
+              ],
+              [
+                14.374195,
+                50.0973755
+              ],
+              [
+                14.3741626,
+                50.0973673
+              ],
+              [
+                14.3741466,
+                50.0973633
+              ],
+              [
+                14.3741028,
+                50.0973522
               ]
             ]
           ]
@@ -46572,6 +46718,7 @@
         "@id": 371733342,
         "@url": "https://www.openstreetmap.org/way/371733342",
         "amenity": "recycling",
+        "landuse": "industrial",
         "name": "Sběrný dvůr Hlavního města Prahy",
         "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-15:00",
         "operator": "Pražské služby",

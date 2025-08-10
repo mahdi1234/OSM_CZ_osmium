@@ -1171,7 +1171,8 @@
         "contact:phone": "+420 288409188",
         "contact:website": "www.psas.cz",
         "ipr:name": "náměstí Bořislavka 1878/1",
-        "operator": "Pražské služby a.s.",
+        "operator": "Pražské služby",
+        "operator:wikidata": "Q12046936",
         "recycling:PET": "yes",
         "recycling:cartons": "yes",
         "recycling:cooking_oil": "yes",
@@ -18238,6 +18239,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4725336,
+          50.1063552
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7211206506,
+        "@url": "https://www.openstreetmap.org/node/7211206506",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5318859,
           49.6006851
         ]
@@ -24193,8 +24214,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4880942,
-          48.7348036
+          14.4881291,
+          48.734801
         ]
       },
       "properties": {

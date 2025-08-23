@@ -7799,7 +7799,8 @@
         "highway": "steps",
         "incline": "down",
         "lit": "yes",
-        "ramp": "no",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
         "step_count": "14",
         "surface": "paving_stones"
       }
@@ -7867,7 +7868,8 @@
         "highway": "steps",
         "incline": "up",
         "lit": "yes",
-        "ramp": "no",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
         "source": "uhul:ortofoto",
         "step_count": "49",
         "surface": "paving_stones"
@@ -13160,8 +13162,8 @@
             49.2309485
           ],
           [
-            16.5967499,
-            49.2308217
+            16.5967673,
+            49.2308045
           ]
         ]
       },
@@ -13287,7 +13289,8 @@
         "ramp": "no",
         "source": "uhul:ortofoto",
         "step_count": "6",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -57863,7 +57866,9 @@
         "@type": "way",
         "@id": 1270740751,
         "@url": "https://www.openstreetmap.org/way/1270740751",
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "up",
         "step_count": "5"
       }
     },
@@ -63731,8 +63736,8 @@
             49.2310173
           ],
           [
-            16.5964609,
-            49.2311196
+            16.5964875,
+            49.231092
           ]
         ]
       },

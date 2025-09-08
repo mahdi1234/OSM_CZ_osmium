@@ -209,7 +209,8 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "highway": "emergency_access_point",
-        "name": "Nemocnice Kroměříž budova A"
+        "name": "Nemocnice Kroměříž budova A",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4968,8 +4969,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.4085275,
-          49.5595152
+          18.4084792,
+          49.5594391
         ]
       },
       "properties": {
@@ -4979,6 +4980,7 @@
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
+        "operator:wikidata": "Q12033072",
         "ref": "FM008"
       }
     },
@@ -7217,8 +7219,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.9295822,
-          48.7790772
+          13.9295087,
+          48.7785256
         ]
       },
       "properties": {
@@ -21372,6 +21374,7 @@
         "highway": "emergency_access_point",
         "name": "FM021",
         "operator": "Lesy ČR, s.p.",
+        "operator:wikidata": "Q12033072",
         "ref": "FM021"
       }
     },
@@ -25136,8 +25139,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.4776942,
-          49.4858275
+          18.4776929,
+          49.4858593
         ]
       },
       "properties": {
@@ -32001,6 +32004,26 @@
         "@url": "https://www.openstreetmap.org/node/13123309509",
         "highway": "emergency_access_point",
         "ref": "CK 036"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4200319,
+          49.5449105
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13124178878,
+        "@url": "https://www.openstreetmap.org/node/13124178878",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "operator:wikidata": "Q12033072",
+        "ref": "FM009"
       }
     },
     {

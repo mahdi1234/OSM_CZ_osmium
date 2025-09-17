@@ -16583,6 +16583,7 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:shoes": "yes",
@@ -25082,6 +25083,25 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6520481,
+          49.2288403
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13146702766,
+        "@url": "https://www.openstreetmap.org/node/13146702766",
+        "amenity": "recycling",
+        "operator": "Červené kontejnery",
+        "recycling:batteries": "yes",
         "recycling_type": "container"
       }
     },

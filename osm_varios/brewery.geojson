@@ -174,6 +174,7 @@
         "indoor_seating": "yes",
         "microbrewery": "yes",
         "name": "Minipivovar Krajinská 27",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su off",
         "outdoor_seating": "yes",
         "ref:ruian:addr": "23342234",
         "source:addr": "cuzk:ruian"
@@ -11100,6 +11101,75 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.9430466,
+            50.4695618
+          ],
+          [
+            14.9430422,
+            50.4694313
+          ],
+          [
+            14.9429931,
+            50.469432
+          ],
+          [
+            14.9429942,
+            50.4694639
+          ],
+          [
+            14.9429323,
+            50.4694648
+          ],
+          [
+            14.9429158,
+            50.469465
+          ],
+          [
+            14.9429154,
+            50.4694532
+          ],
+          [
+            14.9426659,
+            50.4694566
+          ],
+          [
+            14.9426696,
+            50.4695669
+          ],
+          [
+            14.9430466,
+            50.4695618
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 95970103,
+        "@url": "https://www.openstreetmap.org/way/95970103",
+        "addr:city": "Bakov nad Jizerou",
+        "addr:housenumber": "734",
+        "addr:postcode": "29401",
+        "addr:street": "Brigádnická",
+        "amenity": "restaurant",
+        "building": "residential",
+        "building:flats": "1",
+        "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar GARP",
+        "phone": "+420724049837",
+        "ref:ruian:building": "21034567",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivogarp.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             14.3050227,
             48.620641
           ],
@@ -18823,6 +18893,79 @@
         "source": "cuzk:ruian",
         "start_date": "2011",
         "website": "https://pivovareknakopecku.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.9426659,
+                50.4694566
+              ],
+              [
+                14.9429154,
+                50.4694532
+              ],
+              [
+                14.9429158,
+                50.469465
+              ],
+              [
+                14.9429323,
+                50.4694648
+              ],
+              [
+                14.9429942,
+                50.4694639
+              ],
+              [
+                14.9429931,
+                50.469432
+              ],
+              [
+                14.9430422,
+                50.4694313
+              ],
+              [
+                14.9430466,
+                50.4695618
+              ],
+              [
+                14.9426696,
+                50.4695669
+              ],
+              [
+                14.9426659,
+                50.4694566
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 95970103,
+        "@url": "https://www.openstreetmap.org/way/95970103",
+        "addr:city": "Bakov nad Jizerou",
+        "addr:housenumber": "734",
+        "addr:postcode": "29401",
+        "addr:street": "Brigádnická",
+        "amenity": "restaurant",
+        "building": "residential",
+        "building:flats": "1",
+        "building:levels": "1",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Pivovar GARP",
+        "phone": "+420724049837",
+        "ref:ruian:building": "21034567",
+        "source": "cuzk:ruian",
+        "website": "https://www.pivogarp.cz/"
       }
     },
     {

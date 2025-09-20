@@ -5346,7 +5346,8 @@
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -17843,11 +17844,11 @@
         "@id": 7040956656,
         "@url": "https://www.openstreetmap.org/node/7040956656",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -32144,6 +32145,34 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9683961,
+          49.1460287
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9799599208,
+        "@url": "https://www.openstreetmap.org/node/9799599208",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },

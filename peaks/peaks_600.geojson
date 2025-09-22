@@ -28547,7 +28547,8 @@
         "ele": "670",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Šulíkova skála (odb.)",
+        "name": "Šulíkova skála (odbočka)",
+        "official_name": "Šulíkova skála (odb.)",
         "operator": "cz:KČT",
         "ref": "LB674",
         "tourism": "information"
@@ -32024,9 +32025,11 @@
         "@type": "node",
         "@id": 4016875090,
         "@url": "https://www.openstreetmap.org/node/4016875090",
+        "check_date": "2025-09-20",
         "ele": "624",
         "name": "Pohoří",
-        "natural": "peak"
+        "natural": "peak",
+        "summit:cross": "yes"
       }
     },
     {
@@ -41050,7 +41053,7 @@
         "@url": "https://www.openstreetmap.org/node/4885134894",
         "ele": "624",
         "name": "Bernard",
-        "natural": "peak"
+        "place": "locality"
       }
     },
     {
@@ -43457,10 +43460,12 @@
         "@type": "node",
         "@id": 5076005720,
         "@url": "https://www.openstreetmap.org/node/5076005720",
+        "check_date": "2025-09-20",
         "ele": "658",
         "name": "Kulatý vrch",
         "natural": "peak",
-        "source": "ČÚZK"
+        "source": "ČÚZK",
+        "summit:cross": "no"
       }
     },
     {
@@ -80726,6 +80731,64 @@
         "ele": "641.6",
         "name": "Pahorek",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.330989,
+          50.0533526
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13157086285,
+        "@url": "https://www.openstreetmap.org/node/13157086285",
+        "ele": "604",
+        "name": "Nad Myslivnou",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1487644,
+          49.3503713
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13159497530,
+        "@url": "https://www.openstreetmap.org/node/13159497530",
+        "check_date": "2025-09-20",
+        "ele": "624",
+        "inscription": "IN \nRI",
+        "man_made": "cross",
+        "material": "metal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1487515,
+          49.35034
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13159497532,
+        "@url": "https://www.openstreetmap.org/node/13159497532",
+        "check_date": "2025-09-20",
+        "direction": "S",
+        "ele": "624",
+        "name": "Vyhlídka Pohoří",
+        "tourism": "viewpoint"
       }
     },
     {

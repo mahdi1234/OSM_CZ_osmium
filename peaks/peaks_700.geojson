@@ -297,6 +297,7 @@
         "name": "Koráb",
         "natural": "peak",
         "source": "ČÚZK",
+        "summit:cross": "no",
         "wikidata": "Q23824260"
       }
     },
@@ -9611,31 +9612,6 @@
         "name": "U Tří kamenů",
         "operator": "cz:KČT",
         "ref": "KR904",
-        "ski": "yes",
-        "source": "survey",
-        "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.1524532,
-          50.4557488
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1853397232,
-        "@url": "https://www.openstreetmap.org/node/1853397232",
-        "description": "Bývalá obec z roku 1347. Zanikla v roce 1974 z důvodů výstavby Přísečnické přehrady.",
-        "ele": "755",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Rusová (zaniklá obec)",
-        "operator": "cz:KČT",
-        "ref": "CV004",
         "ski": "yes",
         "source": "survey",
         "tourism": "information"
@@ -21730,10 +21706,11 @@
         "@type": "node",
         "@id": 4294807996,
         "@url": "https://www.openstreetmap.org/node/4294807996",
-        "ele": "750",
+        "ele": "753",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Výsluní",
+        "inscription": "Město Výsluní (Sonnenberg) bylo založeno v letech 1543 až 1547.",
+        "name": "Výsluní (nám.)",
         "operator": "cz:KČT",
         "ref": "CV089",
         "tourism": "information"
@@ -25223,8 +25200,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3468035,
-          50.5425749
+          13.3467854,
+          50.542587
         ]
       },
       "properties": {
@@ -44862,6 +44839,31 @@
         "@url": "https://www.openstreetmap.org/node/13149033524",
         "ele": "777",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1518961,
+          50.4547378
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13160914012,
+        "@url": "https://www.openstreetmap.org/node/13160914012",
+        "ele": "765",
+        "hiking": "yes",
+        "information": "guidepost",
+        "inscription": "První písemná zmínka o Rusové (Reischdorf) je z r. 1367. Obec zanikla v r. 1974 s výstavbou přísečnické přehrady.",
+        "name": "Rusová (zaniklá obec)",
+        "operator": "cz:KČT",
+        "ref": "CV004",
+        "ski": "yes",
+        "source": "survey",
+        "tourism": "information"
       }
     },
     {

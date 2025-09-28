@@ -35367,6 +35367,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.5258186,
+          49.1111434
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9577717914,
+        "@url": "https://www.openstreetmap.org/node/9577717914",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4861026,
           49.0652779
         ]
@@ -77160,6 +77189,74 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.2822894,
+            49.4320157
+          ],
+          [
+            18.2824932,
+            49.4319939
+          ],
+          [
+            18.2826367,
+            49.4319442
+          ],
+          [
+            18.2827842,
+            49.4318614
+          ],
+          [
+            18.2829344,
+            49.4317323
+          ],
+          [
+            18.2831611,
+            49.4316259
+          ],
+          [
+            18.2831289,
+            49.4314994
+          ],
+          [
+            18.2829814,
+            49.4314471
+          ],
+          [
+            18.2824342,
+            49.4313764
+          ],
+          [
+            18.2822867,
+            49.431366
+          ],
+          [
+            18.2822894,
+            49.4320157
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1433507729,
+        "@url": "https://www.openstreetmap.org/way/1433507729",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -100530,6 +100627,78 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.2822867,
+                49.431366
+              ],
+              [
+                18.2824342,
+                49.4313764
+              ],
+              [
+                18.2829814,
+                49.4314471
+              ],
+              [
+                18.2831289,
+                49.4314994
+              ],
+              [
+                18.2831611,
+                49.4316259
+              ],
+              [
+                18.2829344,
+                49.4317323
+              ],
+              [
+                18.2827842,
+                49.4318614
+              ],
+              [
+                18.2826367,
+                49.4319442
+              ],
+              [
+                18.2824932,
+                49.4319939
+              ],
+              [
+                18.2822894,
+                49.4320157
+              ],
+              [
+                18.2822867,
+                49.431366
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1433507729,
+        "@url": "https://www.openstreetmap.org/way/1433507729",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
         "recycling_type": "centre"
       }
     }

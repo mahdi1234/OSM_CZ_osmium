@@ -723,8 +723,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7924489,
-          50.1445661
+          16.7921719,
+          50.1445309
         ]
       },
       "properties": {
@@ -38039,28 +38039,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            12.4093125,
-            49.7431279
+            12.4093307,
+            49.7431373
           ],
           [
-            12.4091395,
-            49.7430631
+            12.4092061,
+            49.7430846
           ],
           [
-            12.4090531,
-            49.7431594
+            12.4091154,
+            49.7431742
           ],
           [
-            12.4092262,
-            49.7432242
+            12.40924,
+            49.7432269
           ],
           [
-            12.4092569,
-            49.7431899
-          ],
-          [
-            12.4093125,
-            49.7431279
+            12.4093307,
+            49.7431373
           ]
         ]
       },
@@ -38068,10 +38064,10 @@
         "@type": "way",
         "@id": 123008339,
         "@url": "https://www.openstreetmap.org/way/123008339",
-        "building": "yes",
         "building:material": "metal",
         "building:ruian:type": "19",
         "ele": "895.3",
+        "fee": "no",
         "height": "24.4",
         "man_made": "tower",
         "name": "Rozhledna Havran",
@@ -38081,11 +38077,12 @@
         "ref:ruian:building": "38280175",
         "roof:shape": "flat",
         "source": "cuzk:ruian",
+        "step_count": "127",
         "tourism": "viewpoint",
+        "tower:construction": "lattice",
         "tower:type": "observation",
         "website": "http://www.rozhlednahavran.cz/web/",
-        "wheelchair": "no",
-        "wikipedia": "en:Havran (Český les)"
+        "wheelchair": "no"
       }
     },
     {
@@ -39126,28 +39123,24 @@
           [
             [
               [
-                12.4090531,
-                49.7431594
+                12.4091154,
+                49.7431742
               ],
               [
-                12.4091395,
-                49.7430631
+                12.4092061,
+                49.7430846
               ],
               [
-                12.4093125,
-                49.7431279
+                12.4093307,
+                49.7431373
               ],
               [
-                12.4092569,
-                49.7431899
+                12.40924,
+                49.7432269
               ],
               [
-                12.4092262,
-                49.7432242
-              ],
-              [
-                12.4090531,
-                49.7431594
+                12.4091154,
+                49.7431742
               ]
             ]
           ]
@@ -39157,10 +39150,10 @@
         "@type": "way",
         "@id": 123008339,
         "@url": "https://www.openstreetmap.org/way/123008339",
-        "building": "yes",
         "building:material": "metal",
         "building:ruian:type": "19",
         "ele": "895.3",
+        "fee": "no",
         "height": "24.4",
         "man_made": "tower",
         "name": "Rozhledna Havran",
@@ -39170,11 +39163,12 @@
         "ref:ruian:building": "38280175",
         "roof:shape": "flat",
         "source": "cuzk:ruian",
+        "step_count": "127",
         "tourism": "viewpoint",
+        "tower:construction": "lattice",
         "tower:type": "observation",
         "website": "http://www.rozhlednahavran.cz/web/",
-        "wheelchair": "no",
-        "wikipedia": "en:Havran (Český les)"
+        "wheelchair": "no"
       }
     },
     {
@@ -39874,6 +39868,86 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.733574,
+                50.7301106
+              ],
+              [
+                13.7335949,
+                50.7300478
+              ],
+              [
+                13.7336246,
+                50.7300277
+              ],
+              [
+                13.7336058,
+                50.7299781
+              ],
+              [
+                13.7336604,
+                50.7299442
+              ],
+              [
+                13.733712,
+                50.7299593
+              ],
+              [
+                13.7337497,
+                50.7300372
+              ],
+              [
+                13.733708,
+                50.7300554
+              ],
+              [
+                13.7337477,
+                50.7300993
+              ],
+              [
+                13.7337874,
+                50.7301025
+              ],
+              [
+                13.733838,
+                50.7301559
+              ],
+              [
+                13.7337725,
+                50.7301929
+              ],
+              [
+                13.7337278,
+                50.7301847
+              ],
+              [
+                13.733664599999999,
+                50.7301439
+              ],
+              [
+                13.733574,
+                50.7301106
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 369291824,
+        "@url": "https://www.openstreetmap.org/way/369291824",
+        "ele": "855",
+        "name": "Böhmischer Lugstein",
+        "natural": "bare_rock"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -40014,86 +40088,6 @@
         "tower:type": "observation",
         "wikidata": "Q19602309",
         "wikipedia": "cs:Krudum (rozhledna)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                13.733574,
-                50.7301106
-              ],
-              [
-                13.7335949,
-                50.7300478
-              ],
-              [
-                13.7336246,
-                50.7300277
-              ],
-              [
-                13.7336058,
-                50.7299781
-              ],
-              [
-                13.7336604,
-                50.7299442
-              ],
-              [
-                13.733712,
-                50.7299593
-              ],
-              [
-                13.7337497,
-                50.7300372
-              ],
-              [
-                13.733708,
-                50.7300554
-              ],
-              [
-                13.7337477,
-                50.7300993
-              ],
-              [
-                13.7337874,
-                50.7301025
-              ],
-              [
-                13.733838,
-                50.7301559
-              ],
-              [
-                13.7337725,
-                50.7301929
-              ],
-              [
-                13.7337278,
-                50.7301847
-              ],
-              [
-                13.733664599999999,
-                50.7301439
-              ],
-              [
-                13.733574,
-                50.7301106
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 369291824,
-        "@url": "https://www.openstreetmap.org/way/369291824",
-        "ele": "855",
-        "name": "Böhmischer Lugstein",
-        "natural": "bare_rock"
       }
     },
     {

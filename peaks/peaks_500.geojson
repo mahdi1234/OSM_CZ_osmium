@@ -31871,6 +31871,7 @@
         "@url": "https://www.openstreetmap.org/node/3188791003",
         "ele": "556",
         "name": "Výšina přátelství",
+        "name:etymology:wikidata": "Q491",
         "natural": "peak"
       }
     },
@@ -68018,7 +68019,7 @@
         "ele": "542",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Nad Lesní Pobožností",
+        "name": "Nad Lesní pobožností",
         "operator": "cz:KČT",
         "ref": "KV095",
         "tourism": "information"
@@ -126926,51 +126927,6 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.631047,
-            50.0969322
-          ],
-          [
-            17.6309494,
-            50.0969355
-          ],
-          [
-            17.6309541,
-            50.0969978
-          ],
-          [
-            17.6310519,
-            50.0969953
-          ],
-          [
-            17.631047,
-            50.0969322
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1389620189,
-        "@url": "https://www.openstreetmap.org/way/1389620189",
-        "access": "yes",
-        "building": "civic",
-        "building:ruian:type": "15",
-        "ele": "553",
-        "fee": "no",
-        "height": "17.5",
-        "man_made": "tower",
-        "name": "Rozhledna Ježník",
-        "ref:ruian:building": "47948540",
-        "source": "cuzk:ruian",
-        "tourism": "viewpoint",
-        "tower:type": "observation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -127013,6 +126969,51 @@
         "operator:website": "https://www.pvl.cz/portal/SaP/cz/pc/Mereni.aspx?id=MZLC&oid=3",
         "ref": "161",
         "website": "https://mapy.chmi.cz/ords/chmi_app/r/fewshlprf/hlprf-item?p1001_seq=11022782"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.631047,
+            50.0969322
+          ],
+          [
+            17.6309494,
+            50.0969355
+          ],
+          [
+            17.6309541,
+            50.0969978
+          ],
+          [
+            17.6310519,
+            50.0969953
+          ],
+          [
+            17.631047,
+            50.0969322
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1389620189,
+        "@url": "https://www.openstreetmap.org/way/1389620189",
+        "access": "yes",
+        "building": "civic",
+        "building:ruian:type": "15",
+        "ele": "553",
+        "fee": "no",
+        "height": "17.5",
+        "man_made": "tower",
+        "name": "Rozhledna Ježník",
+        "ref:ruian:building": "47948540",
+        "source": "cuzk:ruian",
+        "tourism": "viewpoint",
+        "tower:type": "observation"
       }
     },
     {

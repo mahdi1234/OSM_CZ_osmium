@@ -5928,27 +5928,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6246432,
-          49.7461011
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8814490262,
-        "@url": "https://www.openstreetmap.org/node/8814490262",
-        "amenity": "public_bookcase",
-        "check_date": "2024-08-25",
-        "opening_hours": "24/7",
-        "operator": "Městská knihovna Český Těšín",
-        "public_bookcase:type": "phone_box",
-        "source": "gps;survey"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.2595271,
           50.1212538
         ]
@@ -16876,6 +16855,50 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.6246091,
+            49.7461299
+          ],
+          [
+            18.6246181,
+            49.7461249
+          ],
+          [
+            18.6246258,
+            49.7461306
+          ],
+          [
+            18.6246169,
+            49.7461357
+          ],
+          [
+            18.6246091,
+            49.7461299
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1441902314,
+        "@url": "https://www.openstreetmap.org/way/1441902314",
+        "amenity": "public_bookcase",
+        "building": "roof",
+        "check_date": "2024-08-25",
+        "image": "https://photos.app.goo.gl/Csz7CAgL3Q5mU7AU9",
+        "layer": "1",
+        "mapillary": "776284681579954",
+        "name": "# KNIHOBUDKA",
+        "opening_hours": "24/7",
+        "operator": "Městská knihovna Český Těšín",
+        "public_bookcase:type": "phone_box",
+        "source": "gps;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -17030,6 +17053,54 @@
         "@id": 1337555646,
         "@url": "https://www.openstreetmap.org/way/1337555646",
         "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.6246091,
+                49.7461299
+              ],
+              [
+                18.6246181,
+                49.7461249
+              ],
+              [
+                18.6246258,
+                49.7461306
+              ],
+              [
+                18.6246169,
+                49.7461357
+              ],
+              [
+                18.6246091,
+                49.7461299
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1441902314,
+        "@url": "https://www.openstreetmap.org/way/1441902314",
+        "amenity": "public_bookcase",
+        "building": "roof",
+        "check_date": "2024-08-25",
+        "image": "https://photos.app.goo.gl/Csz7CAgL3Q5mU7AU9",
+        "layer": "1",
+        "mapillary": "776284681579954",
+        "name": "# KNIHOBUDKA",
+        "opening_hours": "24/7",
+        "operator": "Městská knihovna Český Těšín",
+        "public_bookcase:type": "phone_box",
+        "source": "gps;survey"
       }
     }
   ]

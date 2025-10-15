@@ -1120,6 +1120,7 @@
         "@url": "https://www.openstreetmap.org/node/2088407299",
         "emergency_telephone_code": "+420 602 448 338",
         "highway": "emergency_access_point",
+        "operator": "KRNAP",
         "ref": "SK875"
       }
     },
@@ -1182,6 +1183,7 @@
         "@url": "https://www.openstreetmap.org/node/2091339365",
         "emergency_telephone_code": "+420 602 448 338",
         "highway": "emergency_access_point",
+        "operator": "KRNAP",
         "ref": "SK145"
       }
     },
@@ -1200,6 +1202,7 @@
         "@url": "https://www.openstreetmap.org/node/2306689087",
         "emergency_telephone_code": "+420 602 448 338",
         "highway": "emergency_access_point",
+        "operator": "KRNAP",
         "ref": "SK039"
       }
     },
@@ -1218,7 +1221,8 @@
         "@url": "https://www.openstreetmap.org/node/2306689100",
         "emergency_telephone_code": "+420 602 448 338",
         "highway": "emergency_access_point",
-        "ref": "SK77"
+        "operator": "KRNAP",
+        "ref": "SK077"
       }
     },
     {
@@ -1254,7 +1258,27 @@
         "@url": "https://www.openstreetmap.org/node/2306689135",
         "emergency_telephone_code": "+420 602 448 338",
         "highway": "emergency_access_point",
+        "operator": "KRNAP",
         "ref": "SK013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5713531,
+          50.7424948
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2306689151,
+        "@url": "https://www.openstreetmap.org/node/2306689151",
+        "emergency_telephone_code": "+420 602 448 338",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "TK012"
       }
     },
     {
@@ -1299,17 +1323,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.5448597,
-          50.7535289
+          15.5448134,
+          50.7535421
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 2306689210,
         "@url": "https://www.openstreetmap.org/node/2306689210",
-        "emergency": "access_point",
         "emergency_telephone_code": "1210",
         "highway": "emergency_access_point",
+        "operator": "KRNAP",
         "ref": "SK090"
       }
     },
@@ -2943,6 +2967,7 @@
         "@url": "https://www.openstreetmap.org/node/3876438773",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR",
         "ref": "MO006"
       }
     },
@@ -3006,6 +3031,44 @@
         "operator": "KRNAP",
         "phone": "+420 1210",
         "ref": "TK318"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5655663,
+          50.7393552
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4176703753,
+        "@url": "https://www.openstreetmap.org/node/4176703753",
+        "emergency_telephone_code": "+420 602 448 338",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "SK011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5748454,
+          50.7396276
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4176703755,
+        "@url": "https://www.openstreetmap.org/node/4176703755",
+        "emergency_telephone_code": "+420 602 448 338",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "TK013"
       }
     },
     {
@@ -3359,6 +3422,25 @@
         "operator": "KRNAP",
         "ref": "TK262",
         "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5355736,
+          50.7710136
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4331973645,
+        "@url": "https://www.openstreetmap.org/node/4331973645",
+        "highway": "emergency_access_point",
+        "name": "SK041",
+        "operator": "KRNAP",
+        "ref": "SK041"
       }
     },
     {
@@ -11559,8 +11641,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.7537201,
-          50.4257297
+          12.7537241,
+          50.4257562
         ]
       },
       "properties": {
@@ -11569,6 +11651,7 @@
         "@url": "https://www.openstreetmap.org/node/6184851411",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR",
         "ref": "KV042",
         "source": "survey"
       }
@@ -11588,6 +11671,7 @@
         "@url": "https://www.openstreetmap.org/node/6184851413",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR",
         "ref": "KV041",
         "source": "survey"
       }
@@ -11887,7 +11971,6 @@
         "@type": "node",
         "@id": 6516799834,
         "@url": "https://www.openstreetmap.org/node/6516799834",
-        "emergency": "access_point",
         "highway": "emergency_access_point",
         "name": "TK825",
         "ref": "TK825",
@@ -11907,7 +11990,6 @@
         "@type": "node",
         "@id": 6516799835,
         "@url": "https://www.openstreetmap.org/node/6516799835",
-        "emergency": "access_point",
         "highway": "emergency_access_point",
         "name": "TK842",
         "ref": "TK842",
@@ -12132,6 +12214,24 @@
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
         "ref": "MO011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5914712,
+          50.6012261
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6635303376,
+        "@url": "https://www.openstreetmap.org/node/6635303376",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR",
+        "ref": "MO010"
       }
     },
     {
@@ -12582,6 +12682,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.5311224,
+          50.7260984
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6806288899,
+        "@url": "https://www.openstreetmap.org/node/6806288899",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "SK834"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5448442,
+          50.7316394
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6806288900,
+        "@url": "https://www.openstreetmap.org/node/6806288900",
+        "check_date": "2025-08-23",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "SK835"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6771268,
           50.0690193
         ]
@@ -12614,6 +12751,24 @@
         "highway": "emergency_access_point",
         "operator": "Lesy ČR",
         "ref": "UO008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9706945,
+          50.1967932
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6814640140,
+        "@url": "https://www.openstreetmap.org/node/6814640140",
+        "highway": "emergency_access_point",
+        "operator": "VLS",
+        "ref": "17"
       }
     },
     {
@@ -17124,6 +17279,7 @@
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "name": "Via Ferrata - nástup",
+        "operator": "KRNAP",
         "ref": "RS18",
         "source": "survey"
       }
@@ -18684,6 +18840,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.919814,
+          50.491409
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8785309690,
+        "@url": "https://www.openstreetmap.org/node/8785309690",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR",
+        "ref": "LT005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3265386,
           49.6921871
         ]
@@ -18769,6 +18943,42 @@
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "ref": "ST010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5820327,
+          50.7414276
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8848187246,
+        "@url": "https://www.openstreetmap.org/node/8848187246",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "TK014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5350281,
+          50.7637744
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8848187249,
+        "@url": "https://www.openstreetmap.org/node/8848187249",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "SK020"
       }
     },
     {
@@ -19828,6 +20038,24 @@
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
         "ref": "JH057"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4849981,
+          50.7498483
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9129263324,
+        "@url": "https://www.openstreetmap.org/node/9129263324",
+        "highway": "emergency_access_point",
+        "operator": "KRNAP",
+        "ref": "SK052"
       }
     },
     {
@@ -22971,6 +23199,7 @@
         "check_date": "2023-04-24",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR",
         "ref": "KL002",
         "source": "survey;gps"
       }
@@ -22991,6 +23220,7 @@
         "check_date": "2023-04-28",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "Lesy ČR",
         "ref": "KL007",
         "source": "survey;gps"
       }

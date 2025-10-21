@@ -10130,6 +10130,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.8556983,
+          50.1942804
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7238283526,
+        "@url": "https://www.openstreetmap.org/node/7238283526",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - Na Brně",
+        "opening_hours": "Tu,Fr 08:00-18:00",
+        "operator": "Hradecké služby a. s. (Marius Pedersen a.s.)",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.6587417,
           49.2026816
         ]
@@ -24227,6 +24262,51 @@
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8789825,
+          50.2195454
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12925430877,
+        "@url": "https://www.openstreetmap.org/node/12925430877",
+        "addr:city": "Hradec Králové",
+        "addr:housenumber": "990",
+        "addr:postcode": "500 03",
+        "addr:street": "Bratří Štefanů",
+        "amenity": "recycling",
+        "email": "hrs@mariuspedersen.cz",
+        "name": "Sběrný dvůr - Bratří Štefanů",
+        "opening_hours": "We,Fr 13:00-18:00; Sa 08:00-16:00",
+        "operator": "Hradecké služby a. s. (Marius Pedersen a.s.)",
+        "operator:type": "private",
+        "phone": "+420 495 540 040",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -41591,6 +41671,66 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.8239162,
+            50.2216544
+          ],
+          [
+            15.8239586,
+            50.2212308
+          ],
+          [
+            15.8241652,
+            50.2211152
+          ],
+          [
+            15.8244054,
+            50.2211205
+          ],
+          [
+            15.8243632,
+            50.2216684
+          ],
+          [
+            15.8239162,
+            50.2216544
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1347139453,
+        "@url": "https://www.openstreetmap.org/way/1347139453",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - U Labe",
+        "opening_hours": "Mo,We,Sa 08:00-18:00",
+        "operator": "Hradecké služby a. s. (Marius Pedersen a.s.)",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/hradecke-sluzby-a-s/provozovny-k-dispozici/63-sberny-dvur-u-labe.shtml"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.2085331,
             50.0350329
           ],
@@ -58917,6 +59057,70 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/severni-morava/logisticke-centrum-odpadu-ostrava-hrabova.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.8239162,
+                50.2216544
+              ],
+              [
+                15.8239586,
+                50.2212308
+              ],
+              [
+                15.8241652,
+                50.2211152
+              ],
+              [
+                15.8244054,
+                50.2211205
+              ],
+              [
+                15.8243632,
+                50.2216684
+              ],
+              [
+                15.8239162,
+                50.2216544
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1347139453,
+        "@url": "https://www.openstreetmap.org/way/1347139453",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - U Labe",
+        "opening_hours": "Mo,We,Sa 08:00-18:00",
+        "operator": "Hradecké služby a. s. (Marius Pedersen a.s.)",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/hradecke-sluzby-a-s/provozovny-k-dispozici/63-sberny-dvur-u-labe.shtml"
       }
     },
     {

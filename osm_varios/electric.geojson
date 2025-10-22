@@ -20530,6 +20530,7 @@
         "name": "Sběrný dvůr - Na Brně",
         "opening_hours": "Tu,Fr 08:00-18:00",
         "operator": "Hradecké služby a. s. (Marius Pedersen a.s.)",
+        "operator:type": "private",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
@@ -41150,6 +41151,7 @@
         "colour": "red",
         "description": "Zpětný odběr baterií a drobného elektrozařízení",
         "operator": "Asekol",
+        "operator:wikidata": "Q36877392",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling_type": "container"
@@ -41398,6 +41400,7 @@
         "colour": "red",
         "description": "Zpětný odběr baterií a drobného elektrozařízení",
         "operator": "Asekol",
+        "operator:wikidata": "Q36877392",
         "recycling:batteries": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
@@ -41420,6 +41423,7 @@
         "colour": "red",
         "description": "Zpětný odběr baterií a drobného elektrozařízení",
         "operator": "Asekol",
+        "operator:wikidata": "Q36877392",
         "recycling:batteries": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
@@ -62265,6 +62269,64 @@
         "recycling:shoes": "yes",
         "recycling_type": "centre",
         "website": "https://www.ozoostrava.cz/pro-obcany/ostrava/sberne-dvory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.7905168,
+            50.1959404
+          ],
+          [
+            15.7910528,
+            50.1959753
+          ],
+          [
+            15.7911894,
+            50.1958178
+          ],
+          [
+            15.7910169,
+            50.1953152
+          ],
+          [
+            15.7907005,
+            50.1953302
+          ],
+          [
+            15.7905168,
+            50.1959404
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 547233702,
+        "@url": "https://www.openstreetmap.org/way/547233702",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - Temešvár",
+        "opening_hours": "Tu,Th,Su 08:00-18:00",
+        "operator": "Hradecké služby a. s. (Marius Pedersen a.s.)",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -84938,6 +85000,68 @@
         "recycling:shoes": "yes",
         "recycling_type": "centre",
         "website": "https://www.ozoostrava.cz/pro-obcany/ostrava/sberne-dvory"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.7905168,
+                50.1959404
+              ],
+              [
+                15.7907005,
+                50.1953302
+              ],
+              [
+                15.7910169,
+                50.1953152
+              ],
+              [
+                15.7911894,
+                50.1958178
+              ],
+              [
+                15.7910528,
+                50.1959753
+              ],
+              [
+                15.7905168,
+                50.1959404
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 547233702,
+        "@url": "https://www.openstreetmap.org/way/547233702",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - Temešvár",
+        "opening_hours": "Tu,Th,Su 08:00-18:00",
+        "operator": "Hradecké služby a. s. (Marius Pedersen a.s.)",
+        "operator:type": "private",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre"
       }
     },
     {

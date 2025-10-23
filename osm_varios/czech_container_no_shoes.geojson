@@ -22693,8 +22693,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3739504,
-          50.0333923
+          14.3741147,
+          50.0334581
         ]
       },
       "properties": {
@@ -22703,10 +22703,13 @@
         "@url": "https://www.openstreetmap.org/node/12776474313",
         "amenity": "recycling",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -23088,11 +23091,14 @@
         "@type": "node",
         "@id": 12853803677,
         "@url": "https://www.openstreetmap.org/node/12853803677",
+        "access": "yes",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "operator": "Diakonie Broumov",
         "operator:wikidata": "Q67814869",
         "recycling:clothes": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "survey:date": "2025-10-01"
       }
     },
     {

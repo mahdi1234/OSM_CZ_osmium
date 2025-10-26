@@ -17296,6 +17296,7 @@
         "@id": 6454072982,
         "@url": "https://www.openstreetmap.org/node/6454072982",
         "amenity": "recycling",
+        "check_date": "2025-10-25",
         "material": "plastic",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
@@ -26611,6 +26612,30 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:electrical_items": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6774834,
+          50.1935938
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8468809094,
+        "@url": "https://www.openstreetmap.org/node/8468809094",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -74336,7 +74361,7 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "barbed_wire",
-        "landuse": "commercial",
+        "landuse": "industrial",
         "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
         "operator": "EKOR, s.r.o.",
         "phone": "+420 518 611 688",
@@ -97732,7 +97757,7 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "barbed_wire",
-        "landuse": "commercial",
+        "landuse": "industrial",
         "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
         "operator": "EKOR, s.r.o.",
         "phone": "+420 518 611 688",

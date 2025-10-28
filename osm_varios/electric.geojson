@@ -17812,6 +17812,7 @@
         "@id": 6556316451,
         "@url": "https://www.openstreetmap.org/node/6556316451",
         "amenity": "recycling",
+        "check_date": "2025-10-27",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:electrical_appliances": "yes",
@@ -55203,6 +55204,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5944702,
+          50.0624633
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13261643830,
+        "@url": "https://www.openstreetmap.org/node/13261643830",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -60600,6 +60625,8 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "chain_link",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Fr 14:00-17:00; Sa 08:00-11:00",
         "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
@@ -83220,6 +83247,8 @@
         "amenity": "recycling",
         "barrier": "fence",
         "fence_type": "chain_link",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Fr 14:00-17:00; Sa 08:00-11:00",
         "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",

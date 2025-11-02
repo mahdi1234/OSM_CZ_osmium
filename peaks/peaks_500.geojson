@@ -33385,8 +33385,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4548289,
-          50.4956618
+          15.4548507,
+          50.4956429
         ]
       },
       "properties": {
@@ -71331,8 +71331,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.9682015,
-          50.7755535
+          14.9681571,
+          50.7756738
         ]
       },
       "properties": {
@@ -71342,12 +71342,11 @@
         "ele": "540",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Pod Srním Sedlem",
+        "name": "Pod Srním sedlem",
         "operator": "cz:KČT",
         "ref": "LB181",
         "source": "survey",
-        "tourism": "information",
-        "url": "http://foto.mapy.cz/detail?id=451404"
+        "tourism": "information"
       }
     },
     {
@@ -76739,7 +76738,7 @@
         "@type": "node",
         "@id": 6091834777,
         "@url": "https://www.openstreetmap.org/node/6091834777",
-        "ele": "545",
+        "ele": "547",
         "name": "Bokův kopec",
         "natural": "peak"
       }
@@ -119121,6 +119120,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8303586,
+          49.8150776
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13274024592,
+        "@url": "https://www.openstreetmap.org/node/13274024592",
+        "ele": "541",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -124475,6 +124491,42 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.7525627,
+            49.1068116
+          ],
+          [
+            15.7533902,
+            49.1068824
+          ],
+          [
+            15.7535787,
+            49.1059392
+          ],
+          [
+            15.7527512,
+            49.1058683
+          ],
+          [
+            15.7525627,
+            49.1068116
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 387307756,
+        "@url": "https://www.openstreetmap.org/way/387307756",
+        "ele": "515",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -124516,27 +124568,31 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPolygon",
         "coordinates": [
           [
-            15.7525627,
-            49.1068116
-          ],
-          [
-            15.7533902,
-            49.1068824
-          ],
-          [
-            15.7535787,
-            49.1059392
-          ],
-          [
-            15.7527512,
-            49.1058683
-          ],
-          [
-            15.7525627,
-            49.1068116
+            [
+              [
+                15.7525627,
+                49.1068116
+              ],
+              [
+                15.7527512,
+                49.1058683
+              ],
+              [
+                15.7535787,
+                49.1059392
+              ],
+              [
+                15.7533902,
+                49.1068824
+              ],
+              [
+                15.7525627,
+                49.1068116
+              ]
+            ]
           ]
         ]
       },
@@ -125984,46 +126040,6 @@
         "name": "Polná (LKPOLN)",
         "surface": "concrete",
         "wikidata": "Q115712330"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                15.7525627,
-                49.1068116
-              ],
-              [
-                15.7527512,
-                49.1058683
-              ],
-              [
-                15.7535787,
-                49.1059392
-              ],
-              [
-                15.7533902,
-                49.1068824
-              ],
-              [
-                15.7525627,
-                49.1068116
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 387307756,
-        "@url": "https://www.openstreetmap.org/way/387307756",
-        "ele": "515",
-        "leisure": "pitch",
-        "sport": "soccer"
       }
     },
     {

@@ -84,41 +84,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6515359,
-          49.995677
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 296061483,
-        "@url": "https://www.openstreetmap.org/node/296061483",
-        "addr:city": "Říčany",
-        "addr:housenumber": "1650",
-        "addr:postcode": "25101",
-        "addr:street": "Březinova",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Říčany",
-        "operator": "Marius Pedersen",
-        "operator:wikidata": "Q12326151",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "source:url": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/mp-ricany/provozovny-k-dispozici/114-sberny-dvur-ricany.shtml"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.503905,
           50.0976655
         ]
@@ -54497,6 +54462,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.8521996,
+          50.2054511
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12988156987,
+        "@url": "https://www.openstreetmap.org/node/12988156987",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.5234173,
           50.4926003
         ]
@@ -55258,6 +55246,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.9022453,
+          49.8307866
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13277129583,
+        "@url": "https://www.openstreetmap.org/node/13277129583",
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.848374,
           50.2028377
         ]
@@ -55599,6 +55610,76 @@
         "recycling_type": "centre",
         "ref:ekokom": "10560",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.6505595,
+            49.9964418
+          ],
+          [
+            14.6507796,
+            49.99645
+          ],
+          [
+            14.6515654,
+            49.9964791
+          ],
+          [
+            14.6532,
+            49.9962788
+          ],
+          [
+            14.6536525,
+            49.995539
+          ],
+          [
+            14.6530496,
+            49.9952964
+          ],
+          [
+            14.6514887,
+            49.9953808
+          ],
+          [
+            14.6505146,
+            49.9959358
+          ],
+          [
+            14.6505595,
+            49.9964418
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 28088828,
+        "@url": "https://www.openstreetmap.org/way/28088828",
+        "addr:city": "Říčany",
+        "addr:housenumber": "1650",
+        "addr:postcode": "25101",
+        "addr:street": "Březinova",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Říčany",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source:url": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/mp-ricany/provozovny-k-dispozici/114-sberny-dvur-ricany.shtml"
       }
     },
     {
@@ -77965,6 +78046,80 @@
         "recycling_type": "centre",
         "ref:ekokom": "10560",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.6505146,
+                49.9959358
+              ],
+              [
+                14.6514887,
+                49.9953808
+              ],
+              [
+                14.6530496,
+                49.9952964
+              ],
+              [
+                14.6536525,
+                49.995539
+              ],
+              [
+                14.6532,
+                49.9962788
+              ],
+              [
+                14.6515654,
+                49.9964791
+              ],
+              [
+                14.6507796,
+                49.99645
+              ],
+              [
+                14.6505595,
+                49.9964418
+              ],
+              [
+                14.6505146,
+                49.9959358
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 28088828,
+        "@url": "https://www.openstreetmap.org/way/28088828",
+        "addr:city": "Říčany",
+        "addr:housenumber": "1650",
+        "addr:postcode": "25101",
+        "addr:street": "Březinova",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Říčany",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "source:url": "https://www.mariuspedersen.cz/cs/sluzby-ve-vasem-meste/mp-ricany/provozovny-k-dispozici/114-sberny-dvur-ricany.shtml"
       }
     },
     {

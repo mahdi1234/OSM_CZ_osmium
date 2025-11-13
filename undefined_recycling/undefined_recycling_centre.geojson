@@ -630,6 +630,26 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4098001,
+          49.9907663
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13299400815,
+        "@url": "https://www.openstreetmap.org/node/13299400815",
+        "amenity": "recycling",
+        "name": "Sběr oblečení",
+        "operator": "KlokTex",
+        "operator:type": "charitable",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -3347,6 +3367,55 @@
         "@url": "https://www.openstreetmap.org/way/1446974152",
         "amenity": "recycling",
         "barrier": "fence",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5819499,
+                49.4192376
+              ],
+              [
+                16.5819641,
+                49.4190657
+              ],
+              [
+                16.582451,
+                49.4190022
+              ],
+              [
+                16.582514,
+                49.4191906
+              ],
+              [
+                16.5821867,
+                49.4192356
+              ],
+              [
+                16.5819499,
+                49.4192376
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1449952471,
+        "@url": "https://www.openstreetmap.org/way/1449952471",
+        "addr:city": "Černá Hora",
+        "addr:postcode": "67921",
+        "addr:street": "U Lihovaru",
+        "amenity": "recycling",
+        "name": "SSO Černá Hora",
+        "operator": "Městys Černá Hora",
+        "operator:type": "government",
         "recycling_type": "centre"
       }
     }

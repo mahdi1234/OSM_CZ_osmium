@@ -23572,6 +23572,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.0914379,
+          49.1711613
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7862936727,
+        "@url": "https://www.openstreetmap.org/node/7862936727",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.3691872,
           49.7490257
         ]
@@ -55327,6 +55356,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5377142,
+          50.6728252
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13310693269,
+        "@url": "https://www.openstreetmap.org/node/13310693269",
+        "amenity": "recycling",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -74590,6 +74637,7 @@
         "barrier": "fence",
         "fence_type": "barbed_wire",
         "landuse": "industrial",
+        "name": "Sběrný dvůr Vracov",
         "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
         "operator": "EKOR, s.r.o.",
         "phone": "+420 518 611 688",
@@ -98154,6 +98202,7 @@
         "barrier": "fence",
         "fence_type": "barbed_wire",
         "landuse": "industrial",
+        "name": "Sběrný dvůr Vracov",
         "opening_hours": "Tu,Th 11:00-17:00; Sa 08:00-14:00",
         "operator": "EKOR, s.r.o.",
         "phone": "+420 518 611 688",

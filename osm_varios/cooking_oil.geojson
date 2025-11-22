@@ -18686,8 +18686,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3427837,
-          49.366721
+          16.3431425,
+          49.3665423
         ]
       },
       "properties": {
@@ -18695,10 +18695,10 @@
         "@id": 7261843451,
         "@url": "https://www.openstreetmap.org/node/7261843451",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
@@ -65248,6 +65248,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.8566968,
+          50.1974019
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13273311483,
+        "@url": "https://www.openstreetmap.org/node/13273311483",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.9604104,
           49.6866019
         ]
@@ -65420,6 +65444,34 @@
         "recycling:glass_bottles": "yes",
         "recycling:metal": "yes",
         "recycling:textiles": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3399706,
+          49.3675548
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13322813932,
+        "@url": "https://www.openstreetmap.org/node/13322813932",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },

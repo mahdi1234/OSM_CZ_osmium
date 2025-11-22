@@ -17987,6 +17987,7 @@
         "@url": "https://www.openstreetmap.org/node/10901575050",
         "amenity": "recycling",
         "check_date:recycling": "2025-05-18",
+        "operator": "Asekol",
         "recycling:batteries": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
@@ -26049,6 +26050,27 @@
         "recycling:glass_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3762831,
+          49.7500515
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13322094522,
+        "@url": "https://www.openstreetmap.org/node/13322094522",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

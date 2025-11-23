@@ -17590,8 +17590,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5797895,
-          49.1735314
+          16.5798322,
+          49.1735324
         ]
       },
       "properties": {
@@ -26278,6 +26278,7 @@
         "@id": 10108243915,
         "@url": "https://www.openstreetmap.org/node/10108243915",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -52776,6 +52777,65 @@
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5811719,
+          49.1741059
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13324382399,
+        "@url": "https://www.openstreetmap.org/node/13324382399",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "lane",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7724288,
+          50.0471736
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13324531726,
+        "@url": "https://www.openstreetmap.org/node/13324531726",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3543179,
+          49.3618076
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13324851373,
+        "@url": "https://www.openstreetmap.org/node/13324851373",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "blue",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "pillar",
+        "water_source": "na"
       }
     }
   ]

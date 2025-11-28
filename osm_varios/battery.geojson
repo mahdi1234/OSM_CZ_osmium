@@ -6608,28 +6608,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5548617,
-          49.3838529
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4734242431,
-        "@url": "https://www.openstreetmap.org/node/4734242431",
-        "amenity": "recycling",
-        "collection_times": "Sa 10:30-11:30",
-        "recycling:batteries": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.7096008,
           49.3977813
         ]
@@ -32550,6 +32528,71 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.5551905,
+            49.3836699
+          ],
+          [
+            14.5552255,
+            49.383688
+          ],
+          [
+            14.555261,
+            49.3837064
+          ],
+          [
+            14.5550491,
+            49.3839097
+          ],
+          [
+            14.554945,
+            49.3840025
+          ],
+          [
+            14.5547884,
+            49.3840409
+          ],
+          [
+            14.5546524,
+            49.384051
+          ],
+          [
+            14.5547056,
+            49.3838705
+          ],
+          [
+            14.5547715,
+            49.3837066
+          ],
+          [
+            14.5549902,
+            49.3836974
+          ],
+          [
+            14.5551905,
+            49.3836699
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 480383060,
+        "@url": "https://www.openstreetmap.org/way/480383060",
+        "amenity": "recycling",
+        "collection_times": "Sa 10:30-11:30",
+        "operator": "Obec ˇBečice",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.6886874,
             49.6121043
           ],
@@ -49660,6 +49703,75 @@
         "recycling_type": "centre",
         "ref:ekokom": "10562",
         "source": "cuzk:km;uhul:ortofoto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.5546524,
+                49.384051
+              ],
+              [
+                14.5547056,
+                49.3838705
+              ],
+              [
+                14.5547715,
+                49.3837066
+              ],
+              [
+                14.5549902,
+                49.3836974
+              ],
+              [
+                14.5551905,
+                49.3836699
+              ],
+              [
+                14.5552255,
+                49.383688
+              ],
+              [
+                14.555261,
+                49.3837064
+              ],
+              [
+                14.5550491,
+                49.3839097
+              ],
+              [
+                14.554945,
+                49.3840025
+              ],
+              [
+                14.5547884,
+                49.3840409
+              ],
+              [
+                14.5546524,
+                49.384051
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 480383060,
+        "@url": "https://www.openstreetmap.org/way/480383060",
+        "amenity": "recycling",
+        "collection_times": "Sa 10:30-11:30",
+        "operator": "Obec ˇBečice",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
       }
     },
     {

@@ -11475,28 +11475,14 @@
         "addr:place": "Skály",
         "addr:postcode": "54957",
         "amenity": "restaurant",
-        "changing_table": "yes",
-        "cuisine": "regional",
-        "description": "Restaurace je během července / srpna v provozu denně, podzim a jaro o víkendech.",
-        "diet:gluten_free": "yes",
-        "diet:vegetarian": "yes",
+        "description": "Provoz areálu a restaurace ukončen 1.11.2025",
         "ele": "690",
+        "end_date": "2025-11-01",
         "name": "Bischofstein dvůr pod skalami",
-        "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "payment:cryptocurrencies": "yes",
-        "payment:lightning": "yes",
-        "payment:mastercard": "yes",
-        "payment:visa": "yes",
-        "phone": "+420777595457",
         "ref:ruian:addr": "7363435",
-        "ref:vatin": "CZ7301083603",
         "reg_name": "Bischofstein",
-        "reservation": "recommended",
-        "short_name": "Bisik",
-        "smoking": "outside",
         "start_date": "2004-12-01",
-        "takeaway": "yes",
+        "takeaway": "no",
         "website": "https://bischofstein.cz/",
         "wikidata": "Q12054611",
         "wikipedia": "cs:Skály (Teplice nad Metují)"
@@ -36536,7 +36522,7 @@
         "information": "guidepost",
         "name": "Kostelní Bříza",
         "operator": "cz:KČT",
-        "ref": "SO128",
+        "ref": "SO128, KV477",
         "source": "survey",
         "tourism": "information"
       }
@@ -41732,29 +41718,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.576897,
-          50.2777223
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4945804075,
-        "@url": "https://www.openstreetmap.org/node/4945804075",
-        "ele": "624",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Loučná",
-        "operator": "cz:KČT",
-        "ref": "SO017",
-        "source": "survey",
-        "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.576835,
           50.2778339
         ]
@@ -41768,7 +41731,7 @@
         "information": "guidepost",
         "name": "Loučná",
         "operator": "cz:KČT",
-        "ref": "SO017",
+        "ref": "KV412",
         "source": "survey",
         "tourism": "information"
       }
@@ -51682,6 +51645,25 @@
         "operator": "cz:KČT",
         "ref": "SY122",
         "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7845052,
+          49.7037628
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 5843727811,
+        "@url": "https://www.openstreetmap.org/node/5843727811",
+        "direction": "E",
+        "ele": "605",
+        "name": "Třitrubecká vyhlídka",
+        "tourism": "viewpoint"
       }
     },
     {
@@ -63840,6 +63822,25 @@
         "operator": "cz:KČT",
         "ref": "CH239",
         "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8763222,
+          49.628936
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9871853767,
+        "@url": "https://www.openstreetmap.org/node/9871853767",
+        "ele": "618",
+        "name": "Na Belině",
+        "natural": "peak",
+        "source": "cuzk:km"
       }
     },
     {
@@ -86374,6 +86375,168 @@
         "ref": "KV495",
         "source": "survey",
         "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7007434,
+          49.755416
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13346852435,
+        "@url": "https://www.openstreetmap.org/node/13346852435",
+        "ele": "621",
+        "name": "Špičatý vrch",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8868832,
+          49.7564571
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13346852441,
+        "@url": "https://www.openstreetmap.org/node/13346852441",
+        "ele": "642",
+        "name": "Pískový vrch",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9125601,
+          49.7510558
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13346852442,
+        "@url": "https://www.openstreetmap.org/node/13346852442",
+        "ele": "679",
+        "name": "Stará Baština",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9659801,
+          49.7013727
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13346852453,
+        "@url": "https://www.openstreetmap.org/node/13346852453",
+        "ele": "627",
+        "name": "Dubová hora",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8571434,
+          49.5606608
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13346852456,
+        "@url": "https://www.openstreetmap.org/node/13346852456",
+        "ele": "695",
+        "name": "Na Vrchu",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.868879,
+          49.5527229
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13346852457,
+        "@url": "https://www.openstreetmap.org/node/13346852457",
+        "ele": "669",
+        "name": "Altán",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7029507,
+          49.7068738
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13346852459,
+        "@url": "https://www.openstreetmap.org/node/13346852459",
+        "ele": "600",
+        "name": "Jezevčí skála",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0206258,
+          49.7757576
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13347437061,
+        "@url": "https://www.openstreetmap.org/node/13347437061",
+        "ele": "620",
+        "name": "Starý vrch",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1238309,
+          49.8350687
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13347437066,
+        "@url": "https://www.openstreetmap.org/node/13347437066",
+        "ele": "636",
+        "name": "Roudný",
+        "natural": "peak"
       }
     },
     {

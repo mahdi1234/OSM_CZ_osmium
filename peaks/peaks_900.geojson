@@ -12545,15 +12545,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.894219,
-          48.7818097
+          13.8937,
+          48.781633
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 3452208044,
         "@url": "https://www.openstreetmap.org/node/3452208044",
-        "ele": "994",
+        "ele": "993",
         "name": "Kobylí hlava",
         "name:cs": "Kobylí hlava",
         "natural": "peak"
@@ -18516,21 +18516,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7826518,
-          48.9168486
+          17.7826605,
+          48.9168907
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 6522646884,
         "@url": "https://www.openstreetmap.org/node/6522646884",
-        "ele": "912",
+        "ele": "911",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Velký Lopeník",
+        "name": "Velký Lopeník (rozhl.)",
         "operator": "cz:KČT",
         "ref": "4545/21",
-        "source": "survey",
+        "source": "Czechia CUZK orthophoto;GPS",
+        "source:name": "survey",
         "tourism": "information"
       }
     },
@@ -28163,6 +28164,42 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7925016,
+          48.8777603
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13352831765,
+        "@url": "https://www.openstreetmap.org/node/13352831765",
+        "ele": "955",
+        "name": "Spáleniště",
+        "natural": "peak",
+        "source": "CUZK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8327609,
+          48.8339936
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13352857777,
+        "@url": "https://www.openstreetmap.org/node/13352857777",
+        "ele": "966",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -29578,19 +29615,26 @@
         "access": "yes",
         "building": "tower",
         "building:ruian:type": "19",
+        "charge": "50 CZK",
+        "description": "Vstupné je zpoplatněno pouze v sezóně denně od 10:00 do 18:00.",
+        "description:en": "Admission is charged only in season daily from 10:00 to 18:00.",
         "ele": "911",
+        "fee": "yes",
         "height": "22",
         "man_made": "tower",
         "material": "wood",
         "name": "Rozhledna Velký Lopeník",
         "name:cs": "rozhledna Velký Lopeník",
         "name:sk": "Rozhľadňa Veľký Lopeník",
+        "opening_hours": "24/7",
+        "operator": "Obec Lopeník",
         "ref:ruian:building": "62750887",
         "source": "cuzk:ruian",
         "start_date": "2005-06-24",
         "tourism": "viewpoint",
         "tower:construction": "dřevěná_s_kamenným_základem",
-        "tower:type": "observation"
+        "tower:type": "observation",
+        "website": "https://obec-lopenik.cz/rozhledna-na-velkem-lopeniku/"
       }
     },
     {
@@ -29677,19 +29721,26 @@
         "access": "yes",
         "building": "tower",
         "building:ruian:type": "19",
+        "charge": "50 CZK",
+        "description": "Vstupné je zpoplatněno pouze v sezóně denně od 10:00 do 18:00.",
+        "description:en": "Admission is charged only in season daily from 10:00 to 18:00.",
         "ele": "911",
+        "fee": "yes",
         "height": "22",
         "man_made": "tower",
         "material": "wood",
         "name": "Rozhledna Velký Lopeník",
         "name:cs": "rozhledna Velký Lopeník",
         "name:sk": "Rozhľadňa Veľký Lopeník",
+        "opening_hours": "24/7",
+        "operator": "Obec Lopeník",
         "ref:ruian:building": "62750887",
         "source": "cuzk:ruian",
         "start_date": "2005-06-24",
         "tourism": "viewpoint",
         "tower:construction": "dřevěná_s_kamenným_základem",
-        "tower:type": "observation"
+        "tower:type": "observation",
+        "website": "https://obec-lopenik.cz/rozhledna-na-velkem-lopeniku/"
       }
     },
     {

@@ -8532,7 +8532,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "14",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -8541,12 +8542,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6235648,
-            49.2242375
+            16.6235741,
+            49.2242351
           ],
           [
-            16.623626,
-            49.2243578
+            16.6236276,
+            49.2243372
           ]
         ]
       },
@@ -27911,12 +27912,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.623237,
-            49.2236594
+            16.6232256,
+            49.2236199
           ],
           [
-            16.6232715,
-            49.223738
+            16.6232493,
+            49.2236877
           ]
         ]
       },
@@ -48073,7 +48074,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "8",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -48102,7 +48104,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "8",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -48131,7 +48134,8 @@
         "ramp": "yes",
         "ramp:stroller": "yes",
         "step_count": "9",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -48159,7 +48163,8 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "9",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -48245,7 +48250,37 @@
         "lit": "yes",
         "ramp": "no",
         "step_count": "10",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5241028,
+            49.2258127
+          ],
+          [
+            16.524149,
+            49.2258139
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1083747407,
+        "@url": "https://www.openstreetmap.org/way/1083747407",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "platform_lift": "inclined",
+        "ramp": "no",
+        "step_count": "8",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {

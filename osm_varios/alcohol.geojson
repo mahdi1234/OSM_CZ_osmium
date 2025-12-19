@@ -6007,11 +6007,14 @@
         "addr:streetnumber": "29",
         "amenity": "bar",
         "brewery": "yes;various",
+        "check_date": "2025-12-18",
+        "currency:XBT": "yes",
         "drink:beer": "yes",
         "email": "jakub@beerknir.cz",
         "mobile": "+420 725 163 015",
         "name": "Beer Knír",
         "opening_hours": "Mo-Su 16:00-23:00",
+        "payment:lightning": "yes",
         "shop": "alcohol",
         "source:addr": "cuzk:ruian",
         "start_date": "2017",
@@ -9157,6 +9160,37 @@
         "level": "0",
         "name": "V&D Víno & Destiláty",
         "shop": "alcohol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8252706,
+          50.2140627
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13386432020,
+        "@url": "https://www.openstreetmap.org/node/13386432020",
+        "addr:city": "Hradec Králové",
+        "addr:housenumber": "918/22",
+        "addr:postcode": "50002",
+        "addr:street": "Průmyslová",
+        "drive_through": "no",
+        "email": "info@alkoholhk.cz",
+        "name": "AlkoholHK.cz",
+        "note": "Vzorková prodejna s výdejním místem e-shopu.",
+        "opening_hours": "Mo-Fr 09:00-17:30",
+        "operator": "AlkoholHK.cz",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+420 704 219 414",
+        "shop": "alcohol",
+        "website": "https://www.alkoholhk.cz/",
+        "wheelchair": "no"
       }
     },
     {

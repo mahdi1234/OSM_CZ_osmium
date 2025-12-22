@@ -24147,7 +24147,10 @@
         "@id": 12997217099,
         "@url": "https://www.openstreetmap.org/node/12997217099",
         "amenity": "recycling",
+        "brand": "TextilEco",
+        "brand:wikidata": "Q137507665",
         "operator": "TextilEco",
+        "operator:wikidata": "Q137507665",
         "recycling:clothes": "yes",
         "recycling_type": "container",
         "website": "https://textil-eco.cz/"
@@ -26566,6 +26569,32 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4864956,
+          48.8547414
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13392813783,
+        "@url": "https://www.openstreetmap.org/node/13392813783",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "source": "survey"
       }
     },
     {

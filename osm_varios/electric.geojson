@@ -55639,6 +55639,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7411244,
+          50.0678048
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13394813944,
+        "@url": "https://www.openstreetmap.org/node/13394813944",
+        "amenity": "recycling",
+        "recycling:electrical_items": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -61104,9 +61122,6 @@
         "@id": 389445511,
         "@url": "https://www.openstreetmap.org/way/389445511",
         "amenity": "recycling",
-        "barrier": "fence",
-        "fence_type": "chain_link",
-        "name": "Sběrný dvůr",
         "opening_hours": "Fr 14:00-17:00; Sa 08:00-11:00",
         "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
@@ -78144,6 +78159,54 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.7405524,
+            50.0677298
+          ],
+          [
+            14.7409195,
+            50.0679928
+          ],
+          [
+            14.741574,
+            50.067608
+          ],
+          [
+            14.7411945,
+            50.0673229
+          ],
+          [
+            14.7405524,
+            50.0677298
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1460470093,
+        "@url": "https://www.openstreetmap.org/way/1460470093",
+        "addr:city": "Úvaly",
+        "addr:housenumber": "12",
+        "addr:postcode": "25082",
+        "addr:street": "Riegrova",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "mobile": "+420 736 680 270",
+        "name": "Sběrný dvůr města Úvaly",
+        "opening_hours": "Tu 14:00-18:00; We,Fr 13:00-17:00; Sa 08:00-16:00",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tsuvaly.cz/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -83897,9 +83960,6 @@
         "@id": 389445511,
         "@url": "https://www.openstreetmap.org/way/389445511",
         "amenity": "recycling",
-        "barrier": "fence",
-        "fence_type": "chain_link",
-        "name": "Sběrný dvůr",
         "opening_hours": "Fr 14:00-17:00; Sa 08:00-11:00",
         "recycling:electrical_appliances": "yes",
         "recycling:scrap_metal": "yes",
@@ -101888,6 +101948,58 @@
         "recycling:plastic": "yes",
         "recycling_type": "centre",
         "website": "https://www.byst.cz/nase-obec/nakladani-s-odpady/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.7405524,
+                50.0677298
+              ],
+              [
+                14.7411945,
+                50.0673229
+              ],
+              [
+                14.741574,
+                50.067608
+              ],
+              [
+                14.7409195,
+                50.0679928
+              ],
+              [
+                14.7405524,
+                50.0677298
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1460470093,
+        "@url": "https://www.openstreetmap.org/way/1460470093",
+        "addr:city": "Úvaly",
+        "addr:housenumber": "12",
+        "addr:postcode": "25082",
+        "addr:street": "Riegrova",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "mobile": "+420 736 680 270",
+        "name": "Sběrný dvůr města Úvaly",
+        "opening_hours": "Tu 14:00-18:00; We,Fr 13:00-17:00; Sa 08:00-16:00",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tsuvaly.cz/sberny-dvur/"
       }
     }
   ]

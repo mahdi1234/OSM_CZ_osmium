@@ -22866,7 +22866,9 @@
         "name": "Zabolky",
         "natural": "peak",
         "old_name": "Žabolky",
+        "prominence": "60",
         "wikidata": "Q14094413",
+        "wikimedia_commons": "Category:Zabolky",
         "wikipedia": "cs:Zabolky"
       }
     },
@@ -63762,7 +63764,8 @@
         "@url": "https://www.openstreetmap.org/node/5073911837",
         "ele": "523",
         "name": "Jirná",
-        "natural": "peak"
+        "natural": "peak",
+        "summit:cross": "no"
       }
     },
     {
@@ -101019,7 +101022,9 @@
         "ele": "546",
         "name": "Liberecká výšina",
         "natural": "peak",
+        "prominence": "17",
         "wikidata": "Q60197333",
+        "wikimedia_commons": "Category:Liberecká výšina",
         "wikipedia": "cs:Liberecká výšina"
       }
     },
@@ -119969,9 +119974,13 @@
         "@type": "node",
         "@id": 13354285659,
         "@url": "https://www.openstreetmap.org/node/13354285659",
-        "ele": "506",
+        "ele": "506.5",
         "name": "Činkův kopec",
-        "natural": "peak"
+        "natural": "peak",
+        "prominence": "45",
+        "source": "ČÚZK",
+        "wikidata": "Q15220290",
+        "wikipedia": "cs:Činkův kopec"
       }
     },
     {
@@ -120041,10 +120050,14 @@
         "@type": "node",
         "@id": 13357485837,
         "@url": "https://www.openstreetmap.org/node/13357485837",
-        "ele": "504",
+        "ele": "504.3",
         "name": "Jelínka",
         "natural": "peak",
-        "source": "cuzk:ztm5"
+        "prominence": "62",
+        "source": "ČÚZK",
+        "wikidata": "Q11774859",
+        "wikimedia_commons": "Category:Jelínka",
+        "wikipedia": "cs:Jelínka"
       }
     },
     {
@@ -121316,6 +121329,23 @@
         "ele": "560.4",
         "name": "Běhounkův kopec",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3967676,
+          49.695107
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13421580540,
+        "@url": "https://www.openstreetmap.org/node/13421580540",
+        "ele": "575",
+        "natural": "hill"
       }
     },
     {
@@ -129810,6 +129840,45 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.2289799,
+            49.3400694
+          ],
+          [
+            16.233832,
+            49.3380103
+          ],
+          [
+            16.2335488,
+            49.3376993
+          ],
+          [
+            16.2287248,
+            49.3397913
+          ],
+          [
+            16.2289799,
+            49.3400694
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1239591268,
+        "@url": "https://www.openstreetmap.org/way/1239591268",
+        "aeroway": "aerodrome",
+        "ele": "512",
+        "landuse": "grass",
+        "local_ref": "LKBREZ",
+        "name": "Březí Falcon",
+        "source": "https://www.dl.cz/LKBREZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -131581,27 +131650,31 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPolygon",
         "coordinates": [
           [
-            16.2289799,
-            49.3400694
-          ],
-          [
-            16.233832,
-            49.3380103
-          ],
-          [
-            16.2335488,
-            49.3376993
-          ],
-          [
-            16.2287248,
-            49.3397913
-          ],
-          [
-            16.2289799,
-            49.3400694
+            [
+              [
+                16.2287248,
+                49.3397913
+              ],
+              [
+                16.2335488,
+                49.3376993
+              ],
+              [
+                16.233832,
+                49.3380103
+              ],
+              [
+                16.2289799,
+                49.3400694
+              ],
+              [
+                16.2287248,
+                49.3397913
+              ]
+            ]
           ]
         ]
       },
@@ -131660,49 +131733,6 @@
         "source": "cuzk:ruian",
         "tourism": "viewpoint",
         "tower:type": "observation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                16.2287248,
-                49.3397913
-              ],
-              [
-                16.2335488,
-                49.3376993
-              ],
-              [
-                16.233832,
-                49.3380103
-              ],
-              [
-                16.2289799,
-                49.3400694
-              ],
-              [
-                16.2287248,
-                49.3397913
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1239591268,
-        "@url": "https://www.openstreetmap.org/way/1239591268",
-        "aeroway": "aerodrome",
-        "ele": "512",
-        "landuse": "grass",
-        "local_ref": "LKBREZ",
-        "name": "Březí Falcon",
-        "source": "https://www.dl.cz/LKBREZ"
       }
     },
     {

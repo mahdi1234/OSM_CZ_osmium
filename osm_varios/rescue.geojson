@@ -940,7 +940,8 @@
         "@url": "https://www.openstreetmap.org/node/1949237480",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "ref": "DC 069"
+        "operator": "NP České Švýcarsko",
+        "ref": "DC069"
       }
     },
     {
@@ -5418,8 +5419,9 @@
         "@url": "https://www.openstreetmap.org/node/5456187959",
         "description": "Nad Fortnou",
         "emergency_telephone_code": "112",
+        "fixme": "is it still present?",
         "highway": "emergency_access_point",
-        "operator": "SCHKO Český Ráj",
+        "operator": "CHKO Český Ráj",
         "ref": "F1"
       }
     },
@@ -17037,6 +17039,7 @@
         "@url": "https://www.openstreetmap.org/node/7773888745",
         "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
+        "operator": "NP České Švýcarsko",
         "ref": "DC072"
       }
     },
@@ -33256,6 +33259,22 @@
         "highway": "emergency_access_point",
         "operator": "Lesy ČR, s.p.",
         "ref": "DC091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6458704,
+          50.659194
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13432278468,
+        "@url": "https://www.openstreetmap.org/node/13432278468",
+        "highway": "emergency_access_point"
       }
     },
     {

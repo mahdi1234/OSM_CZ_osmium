@@ -558,8 +558,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.3496002,
-          48.9935228
+          15.3493702,
+          48.9936691
         ]
       },
       "properties": {
@@ -569,8 +569,11 @@
         "ele": "520",
         "internet_access": "no",
         "name": "Slavonice",
+        "name:cs": "Slavonice",
         "name:de": "Zlabings",
-        "operator": "cz:SŽ",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "748228",
@@ -28493,16 +28496,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5387098,
-          49.6689499
+          17.5391246,
+          49.66877
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 2847888368,
         "@url": "https://www.openstreetmap.org/node/2847888368",
-        "ele": "590",
-        "natural": "peak"
+        "ele": "594",
+        "natural": "hill"
       }
     },
     {
@@ -33292,8 +33295,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5370454,
-          49.6705083
+          17.5370184,
+          49.6705429
         ]
       },
       "properties": {
@@ -33302,7 +33305,8 @@
         "@url": "https://www.openstreetmap.org/node/3389211452",
         "ele": "590",
         "name": "Nad rybníčkem",
-        "natural": "peak"
+        "natural": "peak",
+        "wikidata": "Q109680051"
       }
     },
     {
@@ -39704,7 +39708,11 @@
         "@url": "https://www.openstreetmap.org/node/3828233195",
         "ele": "569",
         "name": "Mazova horka",
-        "natural": "peak"
+        "natural": "peak",
+        "prominence": "110",
+        "wikidata": "Q12036197",
+        "wikimedia_commons": "Category:Mazova horka",
+        "wikipedia": "cs:Mazova horka"
       }
     },
     {
@@ -87796,6 +87804,7 @@
         "ele": "552",
         "name": "Ostrá horka",
         "natural": "peak",
+        "prominence": "27",
         "wikidata": "Q15220286",
         "wikipedia": "cs:Ostrá horka (Ralská pahorkatina)"
       }
@@ -120103,7 +120112,10 @@
         "ele": "522",
         "name": "Nad Nádražím",
         "natural": "peak",
-        "source": "cuzk:ztm5"
+        "source": "cuzk:ztm5",
+        "wikidata": "Q15838251",
+        "wikimedia_commons": "Category:Nad nádražím (522 m)",
+        "wikipedia": "cs:Nad nádražím"
       }
     },
     {
@@ -121467,6 +121479,91 @@
         "name": "Trný",
         "natural": "peak",
         "summit:cross": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5543904,
+          49.6587581
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13437867662,
+        "@url": "https://www.openstreetmap.org/node/13437867662",
+        "ele": "592",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5554665,
+          49.6621309
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13437867663,
+        "@url": "https://www.openstreetmap.org/node/13437867663",
+        "ele": "587",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5469,
+          49.6743118
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13437870770,
+        "@url": "https://www.openstreetmap.org/node/13437870770",
+        "ele": "534",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5503082,
+          49.6620858
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13437870771,
+        "@url": "https://www.openstreetmap.org/node/13437870771",
+        "ele": "593",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5465379,
+          49.6666436
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13437870772,
+        "@url": "https://www.openstreetmap.org/node/13437870772",
+        "ele": "593",
+        "natural": "hill"
       }
     },
     {

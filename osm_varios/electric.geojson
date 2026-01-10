@@ -37731,7 +37731,7 @@
         "@id": 10031422417,
         "@url": "https://www.openstreetmap.org/node/10031422417",
         "amenity": "recycling",
-        "recycling:clothes": "yes",
+        "recycling:batteries": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -78331,6 +78331,77 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.239831,
+            49.7279732
+          ],
+          [
+            13.2400679,
+            49.7274954
+          ],
+          [
+            13.2405236,
+            49.7275871
+          ],
+          [
+            13.2405101,
+            49.7276237
+          ],
+          [
+            13.2405122,
+            49.7276712
+          ],
+          [
+            13.2405843,
+            49.7276943
+          ],
+          [
+            13.240594,
+            49.7278476
+          ],
+          [
+            13.240461,
+            49.7281119
+          ],
+          [
+            13.239831,
+            49.7279732
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1465648374,
+        "@url": "https://www.openstreetmap.org/way/1465648374",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Tlučná",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obec-tlucna.cz/pro-obcany/odpady/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -102248,6 +102319,81 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.ave.cz/cs/praha/sberny-dvur-vackov"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.239831,
+                49.7279732
+              ],
+              [
+                13.2400679,
+                49.7274954
+              ],
+              [
+                13.2405236,
+                49.7275871
+              ],
+              [
+                13.2405101,
+                49.7276237
+              ],
+              [
+                13.2405122,
+                49.7276712
+              ],
+              [
+                13.2405843,
+                49.7276943
+              ],
+              [
+                13.240594,
+                49.7278476
+              ],
+              [
+                13.240461,
+                49.7281119
+              ],
+              [
+                13.239831,
+                49.7279732
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1465648374,
+        "@url": "https://www.openstreetmap.org/way/1465648374",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Tlučná",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obec-tlucna.cz/pro-obcany/odpady/sberny-dvur/"
       }
     }
   ]

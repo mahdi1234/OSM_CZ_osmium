@@ -23705,6 +23705,7 @@
         "source": "survey",
         "step_count": "7",
         "surface": "paving_stones",
+        "tactile_paving": "no",
         "width": "4"
       }
     },
@@ -36318,6 +36319,34 @@
         "step_count": "10",
         "surface": "concrete",
         "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6019474,
+            49.1843176
+          ],
+          [
+            16.601994,
+            49.1843838
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1425916926,
+        "@url": "https://www.openstreetmap.org/way/1425916926",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "step_count": "10",
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -54311,6 +54340,7 @@
         "highway": "steps",
         "incline": "up",
         "lit": "yes",
+        "lit_by_gaslight": "yes",
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "23",
@@ -61082,6 +61112,42 @@
         "highway": "steps",
         "incline": "down",
         "layer": "1",
+        "ramp": "no",
+        "step_count": "32",
+        "surface": "concrete",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6019089,
+            49.1843411
+          ],
+          [
+            16.6019756,
+            49.1843938
+          ],
+          [
+            16.6019987,
+            49.1844117
+          ],
+          [
+            16.6020591,
+            49.1844638
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1415000926,
+        "@url": "https://www.openstreetmap.org/way/1415000926",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
         "ramp": "no",
         "step_count": "32",
         "surface": "concrete",

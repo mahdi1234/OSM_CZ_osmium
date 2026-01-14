@@ -591,7 +591,7 @@
         "@url": "https://www.openstreetmap.org/node/6648058313",
         "access": "yes",
         "emergency": "defibrillator",
-        "indoor": "yes",
+        "indoor": "no",
         "opening_hours": "24/7"
       }
     },
@@ -4882,17 +4882,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.5922256,
-          49.5271995
+          17.5921575,
+          49.5272053
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 13328600601,
         "@url": "https://www.openstreetmap.org/node/13328600601",
-        "defibrillator:location": "Defibrilátor je umístěn venku na zdi z boku nákupní centrum Klokan ",
+        "access": "yes",
+        "defibrillator:location": "Defibrilátor je umístěn venku na zdi z boku nákupní centrum Klokan",
         "emergency": "defibrillator",
-        "indoor": "no"
+        "indoor": "no",
+        "level": "0",
+        "opening_hours": "24/7"
       }
     },
     {

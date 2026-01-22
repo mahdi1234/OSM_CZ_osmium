@@ -4140,34 +4140,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.2117037,
-          50.053848
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2078101656,
-        "@url": "https://www.openstreetmap.org/node/2078101656",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Sendražice",
-        "opening_hours": "Tu-Sa 09:00-12:00,13:00-17:00",
-        "operator": "AVE Kolín s.r.o.",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:tyres": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.ave.cz/kontakt/stredocesky-kraj/sendrazice"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.6970008,
           49.7840364
         ]
@@ -58117,6 +58089,53 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.2118157,
+            50.0537565
+          ],
+          [
+            15.2116308,
+            50.0537401
+          ],
+          [
+            15.2115974,
+            50.053895
+          ],
+          [
+            15.2117823,
+            50.0539115
+          ],
+          [
+            15.2118157,
+            50.0537565
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 198669295,
+        "@url": "https://www.openstreetmap.org/way/198669295",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr Sendražice",
+        "opening_hours": "Tu-Sa 09:00-12:00,13:00-17:00",
+        "operator": "AVE Kolín s.r.o.",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ave.cz/kontakt/stredocesky-kraj/sendrazice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             17.2077022,
             49.6882153
           ],
@@ -80975,6 +80994,57 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10540"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.2115974,
+                50.053895
+              ],
+              [
+                15.2116308,
+                50.0537401
+              ],
+              [
+                15.2118157,
+                50.0537565
+              ],
+              [
+                15.2117823,
+                50.0539115
+              ],
+              [
+                15.2115974,
+                50.053895
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 198669295,
+        "@url": "https://www.openstreetmap.org/way/198669295",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr Sendražice",
+        "opening_hours": "Tu-Sa 09:00-12:00,13:00-17:00",
+        "operator": "AVE Kolín s.r.o.",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ave.cz/kontakt/stredocesky-kraj/sendrazice"
       }
     },
     {

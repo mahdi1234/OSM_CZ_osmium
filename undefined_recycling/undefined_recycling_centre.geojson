@@ -91,33 +91,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4902358,
-          48.8593732
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2999959374,
-        "@url": "https://www.openstreetmap.org/node/2999959374",
-        "addr:conscriptionnumber": "664",
-        "addr:housenumber": "664",
-        "addr:place": "Drnholec",
-        "addr:postcode": "69183",
-        "addr:street": "Na Rybníčku",
-        "amenity": "recycling",
-        "mobile": "+420 736 516 005",
-        "name": "Sběrný dvůr pro občany",
-        "opening_hours": "ČT 13:00-17:00  SO 7:30-11:00",
-        "operator": "STKO, spol. s r.o.",
-        "recycling_type": "centre",
-        "ref:ruian:addr": "42385539"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.5848645,
           50.2265939
         ]
@@ -931,52 +904,6 @@
         "building:ruian:type": "15",
         "recycling_type": "centre",
         "ref:ruian:building": "23958952",
-        "source": "cuzk:ruian"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                16.467688,
-                48.8678398
-              ],
-              [
-                16.4686848,
-                48.8673632
-              ],
-              [
-                16.4688866,
-                48.867547
-              ],
-              [
-                16.4678894,
-                48.868023
-              ],
-              [
-                16.467688,
-                48.8678398
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 103054346,
-        "@url": "https://www.openstreetmap.org/way/103054346",
-        "addr:city": "Drnholec",
-        "addr:postcode": "69183",
-        "amenity": "recycling",
-        "building": "warehouse",
-        "building:ruian:type": "13",
-        "operator": "STKO, spol. s r.o.",
-        "recycling_type": "centre",
-        "ref:ruian:building": "46629262",
         "source": "cuzk:ruian"
       }
     },
@@ -3648,6 +3575,142 @@
         "amenity": "recycling",
         "barrier": "fence",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4901154,
+                48.8591352
+              ],
+              [
+                16.4902178,
+                48.8591246
+              ],
+              [
+                16.4904686,
+                48.8591498
+              ],
+              [
+                16.4904686,
+                48.8591912
+              ],
+              [
+                16.4903595,
+                48.8594221
+              ],
+              [
+                16.4901971,
+                48.8594184
+              ],
+              [
+                16.4901616,
+                48.8594179
+              ],
+              [
+                16.4901421,
+                48.8594184
+              ],
+              [
+                16.4901165,
+                48.8591486
+              ],
+              [
+                16.4901154,
+                48.8591352
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1469554804,
+        "@url": "https://www.openstreetmap.org/way/1469554804",
+        "amenity": "recycling",
+        "mobile": "+420 736 516 005",
+        "name": "Sběrný dvůr",
+        "opening_hours": "Th 13:00-17:00; Sa 07:30-11:00",
+        "operator": "STKO",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4673378,
+                48.8678193
+              ],
+              [
+                16.4679023,
+                48.8675546
+              ],
+              [
+                16.4688825,
+                48.867106
+              ],
+              [
+                16.468906,
+                48.8670974
+              ],
+              [
+                16.4690113,
+                48.8671984
+              ],
+              [
+                16.4692988,
+                48.8674745
+              ],
+              [
+                16.4692696,
+                48.8674908
+              ],
+              [
+                16.46934,
+                48.8675543
+              ],
+              [
+                16.4694554,
+                48.8676584
+              ],
+              [
+                16.4686748,
+                48.8680468
+              ],
+              [
+                16.4678731,
+                48.8683645
+              ],
+              [
+                16.4673378,
+                48.8678193
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1469565165,
+        "@url": "https://www.openstreetmap.org/way/1469565165",
+        "amenity": "recycling",
+        "contact:facebook": "stkomikulov",
+        "landuse": "industrial",
+        "name": "Překladiště odpadů Drnholec",
+        "opening_hours": "Mo-Fr 07:00-14:30",
+        "operator": "STKO",
+        "recycling_type": "centre",
+        "website": "https://stko.cz/sberna-strediska"
       }
     }
   ]

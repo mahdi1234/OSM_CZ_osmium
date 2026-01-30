@@ -66427,6 +66427,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.8276128,
+          49.7632414
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13481968852,
+        "@url": "https://www.openstreetmap.org/node/13481968852",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.4615665,
           49.7610349
         ]
@@ -66458,6 +66481,28 @@
         "@url": "https://www.openstreetmap.org/node/13502234646",
         "amenity": "recycling",
         "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.861734,
+          48.9675312
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13510111325,
+        "@url": "https://www.openstreetmap.org/node/13510111325",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -67064,105 +67109,6 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "source": "uhul:ortofoto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            16.6159272,
-            49.2163745
-          ],
-          [
-            16.6159392,
-            49.2163782
-          ],
-          [
-            16.6160559,
-            49.21641
-          ],
-          [
-            16.6161036,
-            49.2164229
-          ],
-          [
-            16.6161606,
-            49.2163328
-          ],
-          [
-            16.6161839,
-            49.2163386
-          ],
-          [
-            16.6161976,
-            49.2163183
-          ],
-          [
-            16.6161738,
-            49.2163112
-          ],
-          [
-            16.6162636,
-            49.2161711
-          ],
-          [
-            16.6160879,
-            49.2161234
-          ],
-          [
-            16.6159705,
-            49.216091
-          ],
-          [
-            16.6158122,
-            49.2163411
-          ],
-          [
-            16.6159272,
-            49.2163745
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 44328449,
-        "@url": "https://www.openstreetmap.org/way/44328449",
-        "barrier": "fence",
-        "check_date:opening_hours": "2023-04-09",
-        "disused:amenity": "recycling",
-        "landuse": "industrial",
-        "mobile": "+420 606 914 795",
-        "name": "SSO Bieblova",
-        "opening_hours": "closed",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:fluorescent_tubes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "ref:ekokom": "10557",
-        "source": "survey",
-        "wheelchair": "yes"
       }
     },
     {
@@ -76914,109 +76860,6 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "source": "uhul:ortofoto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                16.6158122,
-                49.2163411
-              ],
-              [
-                16.6159705,
-                49.216091
-              ],
-              [
-                16.6160879,
-                49.2161234
-              ],
-              [
-                16.6162636,
-                49.2161711
-              ],
-              [
-                16.6161738,
-                49.2163112
-              ],
-              [
-                16.6161976,
-                49.2163183
-              ],
-              [
-                16.6161839,
-                49.2163386
-              ],
-              [
-                16.6161606,
-                49.2163328
-              ],
-              [
-                16.6161036,
-                49.2164229
-              ],
-              [
-                16.6160559,
-                49.21641
-              ],
-              [
-                16.6159392,
-                49.2163782
-              ],
-              [
-                16.6159272,
-                49.2163745
-              ],
-              [
-                16.6158122,
-                49.2163411
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 44328449,
-        "@url": "https://www.openstreetmap.org/way/44328449",
-        "barrier": "fence",
-        "check_date:opening_hours": "2023-04-09",
-        "disused:amenity": "recycling",
-        "landuse": "industrial",
-        "mobile": "+420 606 914 795",
-        "name": "SSO Bieblova",
-        "opening_hours": "closed",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:fluorescent_tubes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "ref:ekokom": "10557",
-        "source": "survey",
-        "wheelchair": "yes"
       }
     },
     {

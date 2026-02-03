@@ -20081,7 +20081,7 @@
         "@id": 7150224625,
         "@url": "https://www.openstreetmap.org/node/7150224625",
         "amenity": "recycling",
-        "check_date": "2023-02-01",
+        "check_date": "2026-02-02",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:electrical_appliances": "yes",
@@ -35105,6 +35105,7 @@
         "@id": 9530284092,
         "@url": "https://www.openstreetmap.org/node/9530284092",
         "amenity": "recycling",
+        "check_date:recycling": "2026-02-01",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
@@ -42037,8 +42038,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5871182,
-          49.2138013
+          16.5871417,
+          49.2138236
         ]
       },
       "properties": {
@@ -55759,6 +55760,29 @@
         "recycling:clothes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4542234,
+          49.1186448
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13519208736,
+        "@url": "https://www.openstreetmap.org/node/13519208736",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "wheelchair": "yes"
       }
     },
     {

@@ -14707,7 +14707,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.185061899999999,
+          15.1850619,
           50.0229119
         ]
       },
@@ -21696,7 +21696,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.939324299999999,
+          15.9393243,
           50.0761102
         ]
       },
@@ -22107,7 +22107,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.029626499999999,
+          15.0296265,
           50.0926669
         ]
       },
@@ -27311,6 +27311,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5945002,
+          49.034011
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13526670291,
+        "@url": "https://www.openstreetmap.org/node/13526670291",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -31050,9 +31071,11 @@
         "opening_hours": "24/7",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling_type": "centre"
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -35664,9 +35687,11 @@
         "opening_hours": "24/7",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling_type": "centre"
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
       }
     },
     {

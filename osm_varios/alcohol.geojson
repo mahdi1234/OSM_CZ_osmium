@@ -5526,6 +5526,7 @@
         "email": "obchod@pivni-rozmanitost.cz",
         "mobile": "+420 608 601 601",
         "name": "Pivní rozmanitost",
+        "opening_hours": "Mo-Th 15:00-22:00; Fr 14:00-23:00; Sa 15:00-23:00",
         "shop": "alcohol",
         "website": "http://pivni-rozmanitost.cz",
         "wheelchair": "limited"
@@ -7278,9 +7279,11 @@
         "@type": "node",
         "@id": 10030178855,
         "@url": "https://www.openstreetmap.org/node/10030178855",
+        "check_date:opening_hours": "2026-02-06",
         "kiosk": "yes",
         "name": "\"Becherovka\"",
         "name:en": "\"Becherovka\"",
+        "opening_hours:signed": "no",
         "shop": "alcohol"
       }
     },
@@ -7509,7 +7512,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.429284000000001,
+          15.429284,
           50.7726977
         ]
       },
@@ -9024,6 +9027,32 @@
         "name": "Galvína",
         "opening_hours": "Mo-Th 10:00-12:00,13:00-18:00; Fr,Sa 09:00-12:00,13:00-18:00",
         "shop": "alcohol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.252094,
+          49.5913689
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13105884687,
+        "@url": "https://www.openstreetmap.org/node/13105884687",
+        "craft": "winery",
+        "drink:wine": "yes",
+        "level": "0",
+        "name": "Naše Vinoteka",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_electron": "yes",
+        "shop": "alcohol",
+        "website": "www.vinosezarukou.cz"
       }
     },
     {

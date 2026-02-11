@@ -3093,9 +3093,11 @@
         "@id": 11329965070,
         "@url": "https://www.openstreetmap.org/node/11329965070",
         "access": "customers",
-        "check_date": "2023-11-06",
+        "check_date": "2026-02-10",
+        "defibrillator:location": "U ledařů",
         "emergency": "defibrillator",
-        "indoor": "yes"
+        "indoor": "yes",
+        "operator": "Technické služby Humpolec"
       }
     },
     {
@@ -3112,10 +3114,12 @@
         "@id": 11329967569,
         "@url": "https://www.openstreetmap.org/node/11329967569",
         "access": "customers",
-        "check_date": "2023-11-06",
-        "defibrillator:location:cs": "U vstupu do pivovaru na expedici",
+        "check_date": "2026-02-10",
+        "defibrillator:location": "U vstupu do pivovaru na expedici",
         "emergency": "defibrillator",
-        "indoor": "no"
+        "indoor": "no",
+        "opening_hours": "06:00-21:00",
+        "operator": "Rodinný pivovar Bernard a.s."
       }
     },
     {
@@ -3132,9 +3136,13 @@
         "@id": 11329971069,
         "@url": "https://www.openstreetmap.org/node/11329971069",
         "access": "customers",
-        "check_date": "2023-11-06",
+        "check_date": "2026-02-10",
+        "defibrillator:location": "Na informacích",
         "defibrillator:location:cs": "Na informacích obchodního domu",
-        "emergency": "defibrillator"
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "07:00-21:00",
+        "operator": "Kaufland"
       }
     },
     {
@@ -3151,7 +3159,8 @@
         "@id": 11329975669,
         "@url": "https://www.openstreetmap.org/node/11329975669",
         "access": "customers",
-        "check_date": "2023-11-06",
+        "check_date": "2026-02-10",
+        "defibrillator:location": "Na recepci u hlavního vstupu do budovy",
         "defibrillator:location:cs": "Na recepci u hlavního vstupu do budovy",
         "emergency": "defibrillator",
         "indoor": "yes"
@@ -5156,6 +5165,91 @@
         "defibrillator:location": "If you go through the main entrance, it is located to the left of the relay.",
         "emergency": "defibrillator",
         "indoor": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3485103,
+          49.538509
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13541109098,
+        "@url": "https://www.openstreetmap.org/node/13541109098",
+        "access": "yes",
+        "check_date": "2026-02-10",
+        "defibrillator:location": "Venku na fasádě u prodejny Teta",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3523967,
+          49.5279146
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13541109099,
+        "@url": "https://www.openstreetmap.org/node/13541109099",
+        "access": "permit",
+        "defibrillator:location": "Při vstupu přes recepci za dveřmi vpravo na stěně",
+        "emergency": "defibrillator",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3604341,
+          49.5409657
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13541124918,
+        "@url": "https://www.openstreetmap.org/node/13541124918",
+        "access": "yes",
+        "defibrillator:location": "Ve foyer v prvním patře městského úřadu, vedle platebního terminálu",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "1",
+        "opening_hours": "Mo,We 08:00-17:00; Tu,Th 08:00-14:30; Fr 08:00-13:00",
+        "operator": "Městský úřad Humpolec",
+        "phone": "+420 565 518 111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.360875,
+          49.54071
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13541124919,
+        "@url": "https://www.openstreetmap.org/node/13541124919",
+        "access": "yes",
+        "defibrillator:location": "Služebna městské policie",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "Mo,We 13:00-15:00",
+        "operator": "Městský úřad Humpolec",
+        "phone": "+420 565 518 115"
       }
     }
   ]

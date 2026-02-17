@@ -26969,6 +26969,48 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5385407,
+          49.0858975
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13556857519,
+        "@url": "https://www.openstreetmap.org/node/13556857519",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3086548,
+          48.6144441
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13569887236,
+        "@url": "https://www.openstreetmap.org/node/13569887236",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -40612,6 +40654,8 @@
         "barrier": "fence",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "centre"
       }
     },
@@ -58242,6 +58286,8 @@
         "barrier": "fence",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "centre"
       }
     },

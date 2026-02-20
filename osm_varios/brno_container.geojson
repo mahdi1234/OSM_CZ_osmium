@@ -9408,6 +9408,87 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5526109,
+          49.1779247
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13580350804,
+        "@url": "https://www.openstreetmap.org/node/13580350804",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5531289,
+          49.1789528
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13580357727,
+        "@url": "https://www.openstreetmap.org/node/13580357727",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5550117,
+            49.1779661
+          ],
+          [
+            16.5551055,
+            49.1779426
+          ],
+          [
+            16.5550879,
+            49.1779127
+          ],
+          [
+            16.5549941,
+            49.1779362
+          ],
+          [
+            16.5550117,
+            49.1779661
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 702098094,
+        "@url": "https://www.openstreetmap.org/way/702098094",
+        "amenity": "recycling",
+        "building": "shed",
+        "building:levels": "1",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -9528,6 +9609,51 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5549941,
+                49.1779362
+              ],
+              [
+                16.5550879,
+                49.1779127
+              ],
+              [
+                16.5551055,
+                49.1779426
+              ],
+              [
+                16.5550117,
+                49.1779661
+              ],
+              [
+                16.5549941,
+                49.1779362
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 702098094,
+        "@url": "https://www.openstreetmap.org/way/702098094",
+        "amenity": "recycling",
+        "building": "shed",
+        "building:levels": "1",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container",
+        "roof:shape": "flat"
       }
     },
     {

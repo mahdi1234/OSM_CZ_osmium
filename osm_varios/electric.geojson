@@ -9222,12 +9222,13 @@
         "@url": "https://www.openstreetmap.org/node/3884390084",
         "amenity": "recycling",
         "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling:textile": "yes",
         "recycling_type": "container"
       }
     },
@@ -78813,6 +78814,95 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.5166211,
+            50.3335495
+          ],
+          [
+            12.5165988,
+            50.3335864
+          ],
+          [
+            12.5169077,
+            50.333608
+          ],
+          [
+            12.5169826,
+            50.3336014
+          ],
+          [
+            12.5171282,
+            50.3336055
+          ],
+          [
+            12.5172634,
+            50.3336036
+          ],
+          [
+            12.5174745,
+            50.3335423
+          ],
+          [
+            12.517621,
+            50.3333728
+          ],
+          [
+            12.5176628,
+            50.3333307
+          ],
+          [
+            12.5176783,
+            50.3333007
+          ],
+          [
+            12.5176718,
+            50.3332736
+          ],
+          [
+            12.5170217,
+            50.3331339
+          ],
+          [
+            12.5168501,
+            50.333097
+          ],
+          [
+            12.5166211,
+            50.3335495
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1472794341,
+        "@url": "https://www.openstreetmap.org/way/1472794341",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kraslice",
+        "opening_hours": "Mo, We, Fr 09:00-11:00, 11:30-17:00; Tu, Th 08:00-11:00, 11:30-14:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.tsmk.cz/index.php?page=sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -102790,6 +102880,99 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.obec-tlucna.cz/pro-obcany/odpady/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.5165988,
+                50.3335864
+              ],
+              [
+                12.5166211,
+                50.3335495
+              ],
+              [
+                12.5168501,
+                50.333097
+              ],
+              [
+                12.5170217,
+                50.3331339
+              ],
+              [
+                12.5176718,
+                50.3332736
+              ],
+              [
+                12.5176783,
+                50.3333007
+              ],
+              [
+                12.5176628,
+                50.3333307
+              ],
+              [
+                12.517621,
+                50.3333728
+              ],
+              [
+                12.5174745,
+                50.3335423
+              ],
+              [
+                12.5172634,
+                50.3336036
+              ],
+              [
+                12.5171282,
+                50.3336055
+              ],
+              [
+                12.5169826,
+                50.3336014
+              ],
+              [
+                12.5169077,
+                50.333608
+              ],
+              [
+                12.5165988,
+                50.3335864
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1472794341,
+        "@url": "https://www.openstreetmap.org/way/1472794341",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kraslice",
+        "opening_hours": "Mo, We, Fr 09:00-11:00, 11:30-17:00; Tu, Th 08:00-11:00, 11:30-14:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "http://www.tsmk.cz/index.php?page=sberny-dvur"
       }
     }
   ]

@@ -4716,7 +4716,8 @@
         "@type": "node",
         "@id": 13319254864,
         "@url": "https://www.openstreetmap.org/node/13319254864",
-        "amenity": "post_box"
+        "amenity": "post_box",
+        "street_cabinet": "postal_service"
       }
     },
     {
@@ -4772,6 +4773,28 @@
         "@id": 13472178896,
         "@url": "https://www.openstreetmap.org/node/13472178896",
         "amenity": "post_box"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5763616,
+          49.6075192
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13605989563,
+        "@url": "https://www.openstreetmap.org/node/13605989563",
+        "amenity": "post_box",
+        "brand": "DHL",
+        "brand:wikidata": "Q489815",
+        "collection_times": "neomezeně",
+        "name": "DHL Service Point Locker -  Beckovského (Žolík bar)",
+        "operator": "DHL",
+        "operator:wikidata": "Q489815"
       }
     }
   ]

@@ -18562,6 +18562,7 @@
         "@id": 12033868640,
         "@url": "https://www.openstreetmap.org/node/12033868640",
         "amenity": "recycling",
+        "operator": "KLOK.TEX",
         "recycling:clothes": "yes",
         "recycling_type": "container",
         "source": "survey"
@@ -27323,8 +27324,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9928321,
-          49.3373705
+          17.9926486,
+          49.3371393
         ]
       },
       "properties": {
@@ -27749,6 +27750,27 @@
         "@url": "https://www.openstreetmap.org/node/13606145001",
         "amenity": "recycling",
         "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8932415,
+          48.7684058
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13622464450,
+        "@url": "https://www.openstreetmap.org/node/13622464450",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

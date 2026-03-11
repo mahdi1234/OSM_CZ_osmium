@@ -27301,6 +27301,48 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0915215,
+          49.4739495
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13633570278,
+        "@url": "https://www.openstreetmap.org/node/13633570278",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0905923,
+          49.4676237
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13633574785,
+        "@url": "https://www.openstreetmap.org/node/13633574785",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -29353,7 +29395,9 @@
         "@type": "way",
         "@id": 139999457,
         "@url": "https://www.openstreetmap.org/way/139999457",
+        "addr:city": "Šťáhlavy",
         "amenity": "recycling",
+        "fixme": "Opravdu ofiko název? Může být, já se jen ujišťuji :)",
         "name": "Sběrný dvůr Šťáhlavy",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
@@ -46419,7 +46463,9 @@
         "@type": "way",
         "@id": 139999457,
         "@url": "https://www.openstreetmap.org/way/139999457",
+        "addr:city": "Šťáhlavy",
         "amenity": "recycling",
+        "fixme": "Opravdu ofiko název? Může být, já se jen ujišťuji :)",
         "name": "Sběrný dvůr Šťáhlavy",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",

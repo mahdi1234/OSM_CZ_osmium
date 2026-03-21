@@ -56155,7 +56155,8 @@
         "operator": "Asekol",
         "operator:wikidata": "Q36877392",
         "recycling:batteries": "yes",
-        "recycling:small_electrical_appliances": "yes"
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -68382,6 +68383,66 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.0032993,
+            49.92453
+          ],
+          [
+            14.0035652,
+            49.9247398
+          ],
+          [
+            14.0037295,
+            49.9246533
+          ],
+          [
+            14.0034637,
+            49.9244432
+          ],
+          [
+            14.0032993,
+            49.92453
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 940358140,
+        "@url": "https://www.openstreetmap.org/way/940358140",
+        "addr:city": "Králův Dvůr",
+        "addr:postcode": "26701",
+        "amenity": "recycling",
+        "building": "civic",
+        "building:levels": "1",
+        "building:ruian:type": "15",
+        "operator": "AVE CZ",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "103045139",
+        "source": "cuzk:ruian",
+        "start_date": "2020-10-27"
       }
     },
     {
@@ -92016,6 +92077,70 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.0032993,
+                49.92453
+              ],
+              [
+                14.0034637,
+                49.9244432
+              ],
+              [
+                14.0037295,
+                49.9246533
+              ],
+              [
+                14.0035652,
+                49.9247398
+              ],
+              [
+                14.0032993,
+                49.92453
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 940358140,
+        "@url": "https://www.openstreetmap.org/way/940358140",
+        "addr:city": "Králův Dvůr",
+        "addr:postcode": "26701",
+        "amenity": "recycling",
+        "building": "civic",
+        "building:levels": "1",
+        "building:ruian:type": "15",
+        "operator": "AVE CZ",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "ref:ruian:building": "103045139",
+        "source": "cuzk:ruian",
+        "start_date": "2020-10-27"
       }
     },
     {

@@ -2155,8 +2155,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.216565,
-          49.634174
+          18.2166206,
+          49.6342136
         ]
       },
       "properties": {
@@ -2166,11 +2166,10 @@
         "alt_name": "Hukvaldský pivovar",
         "amenity": "pub",
         "brewery": "Hukvaldské pivo",
-        "cuisine": "brewery,_pub",
         "delivery": "no",
         "email": "pivovar.hukvaldy@atlas.cz",
         "microbrewery": "yes",
-        "name": "Minipivovar Hukvaldy - Hostinec U Štamgastů",
+        "name": "Hostinec a minipivovar U Štamgastů",
         "old_name": "Hospoda u Vajta",
         "opening_hours": "Mo-Th 10:00-22:00; Fr 10:00-24:00; Sa 10:00-23:00; Su 10:00-21:00",
         "outdoor_seating": "yes",
@@ -9170,6 +9169,77 @@
         "wheelchair": "no",
         "wikidata": "Q101246551",
         "wikimedia_commons": "Category:Pivovar a penzion Beznoska"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.3878885,
+            49.7473922
+          ],
+          [
+            13.3880609,
+            49.7473373
+          ],
+          [
+            13.3880334,
+            49.7473012
+          ],
+          [
+            13.3878205,
+            49.7470224
+          ],
+          [
+            13.387648,
+            49.7470774
+          ],
+          [
+            13.3878885,
+            49.7473922
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 51166501,
+        "@url": "https://www.openstreetmap.org/way/51166501",
+        "addr:city": "Plzeň",
+        "addr:housenumber": "7",
+        "addr:postcode": "304 97",
+        "addr:street": "U Prazdroje",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "pilsner_urquell;gambrinus;kozel;elektrárna;birell",
+        "building": "industrial",
+        "building:flats": "1",
+        "building:ruian:type": "1",
+        "catering": "yes",
+        "cuisine": "regional;czech",
+        "delivery": "no",
+        "diet:gluten_free": "yes",
+        "diet:vegetarian": "yes",
+        "email": "info@naspilce.cz",
+        "internet_access": "yes",
+        "microbrewery": "yes",
+        "name": "Na Spilce",
+        "opening_hours": "Mo-Th 11:00-22:00, Fr,Sa 11:00-23:00, Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+420 724 617 355",
+        "ref:ruian:building": "24138975",
+        "ref:vatin": "45357366",
+        "reservation": "recommended",
+        "smoking": "outside",
+        "source": "cuzk:ruian",
+        "start_date": "1992",
+        "website": "https://www.naspilce.cz/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -16651,6 +16721,81 @@
         "wheelchair": "no",
         "wikidata": "Q101246551",
         "wikimedia_commons": "Category:Pivovar a penzion Beznoska"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.387648,
+                49.7470774
+              ],
+              [
+                13.3878205,
+                49.7470224
+              ],
+              [
+                13.3880334,
+                49.7473012
+              ],
+              [
+                13.3880609,
+                49.7473373
+              ],
+              [
+                13.3878885,
+                49.7473922
+              ],
+              [
+                13.387648,
+                49.7470774
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 51166501,
+        "@url": "https://www.openstreetmap.org/way/51166501",
+        "addr:city": "Plzeň",
+        "addr:housenumber": "7",
+        "addr:postcode": "304 97",
+        "addr:street": "U Prazdroje",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "pilsner_urquell;gambrinus;kozel;elektrárna;birell",
+        "building": "industrial",
+        "building:flats": "1",
+        "building:ruian:type": "1",
+        "catering": "yes",
+        "cuisine": "regional;czech",
+        "delivery": "no",
+        "diet:gluten_free": "yes",
+        "diet:vegetarian": "yes",
+        "email": "info@naspilce.cz",
+        "internet_access": "yes",
+        "microbrewery": "yes",
+        "name": "Na Spilce",
+        "opening_hours": "Mo-Th 11:00-22:00, Fr,Sa 11:00-23:00, Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+420 724 617 355",
+        "ref:ruian:building": "24138975",
+        "ref:vatin": "45357366",
+        "reservation": "recommended",
+        "smoking": "outside",
+        "source": "cuzk:ruian",
+        "start_date": "1992",
+        "website": "https://www.naspilce.cz/",
+        "wheelchair": "yes"
       }
     },
     {

@@ -24639,6 +24639,9 @@
         "amenity": "recycling",
         "operator": "REMA",
         "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -27891,6 +27894,27 @@
         "operator:wikidata": "Q36877392",
         "recycling:batteries": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3417367,
+          49.6710457
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13683290427,
+        "@url": "https://www.openstreetmap.org/node/13683290427",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

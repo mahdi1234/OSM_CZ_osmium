@@ -48017,16 +48017,13 @@
         "amenity": "recycling",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:foil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
-        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling:small_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -48599,15 +48596,11 @@
         "amenity": "recycling",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:foil": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:small_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -49296,12 +49289,8 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
@@ -67145,6 +67134,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.0191791,
+          50.1809188
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13507354481,
+        "@url": "https://www.openstreetmap.org/node/13507354481",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "source": "www.mesto-nymburk.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0310227,
+          50.1857823
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13507455206,
+        "@url": "https://www.openstreetmap.org/node/13507455206",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.861734,
           48.9675312
         ]
@@ -67601,6 +67637,29 @@
         "recycling:paper": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.733931,
+          49.9975839
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13688814708,
+        "@url": "https://www.openstreetmap.org/node/13688814708",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -77427,6 +77486,48 @@
         "recycling:plastic": "yes",
         "recycling_type": "centre",
         "website": "https://www.byst.cz/nase-obec/nakladani-s-odpady/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5146252,
+            50.422915
+          ],
+          [
+            13.5146559,
+            50.4229259
+          ],
+          [
+            13.5147105,
+            50.4228411
+          ],
+          [
+            13.514673,
+            50.4228324
+          ],
+          [
+            13.5146252,
+            50.422915
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1493884645,
+        "@url": "https://www.openstreetmap.org/way/1493884645",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -87785,6 +87886,52 @@
         "recycling:plastic": "yes",
         "recycling_type": "centre",
         "website": "https://www.byst.cz/nase-obec/nakladani-s-odpady/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.5146252,
+                50.422915
+              ],
+              [
+                13.514673,
+                50.4228324
+              ],
+              [
+                13.5147105,
+                50.4228411
+              ],
+              [
+                13.5146559,
+                50.4229259
+              ],
+              [
+                13.5146252,
+                50.422915
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1493884645,
+        "@url": "https://www.openstreetmap.org/way/1493884645",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     }
   ]

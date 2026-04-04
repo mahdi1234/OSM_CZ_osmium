@@ -394,29 +394,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5808198,
-          49.0985867
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12670324305,
-        "@url": "https://www.openstreetmap.org/node/12670324305",
-        "addr:city": "Ševětín",
-        "addr:postcode": "373 63",
-        "addr:street": "Třeboňská ulice",
-        "amenity": "recycling",
-        "opening_hours": "Po, St 15:00-18:00, So 9:00-12:00",
-        "operator": "RADOUŇSKÁ MONTÁŽNÍ s.r.o.",
-        "operator:type": "public",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.3692385,
           48.8542516
         ]
@@ -4020,6 +3997,73 @@
         "amenity": "recycling",
         "name": "Sběrný dvůr",
         "operator": "město Jíloví u Prahy",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.5806949,
+                49.0978843
+              ],
+              [
+                14.5812555,
+                49.0978271
+              ],
+              [
+                14.5812902,
+                49.0980414
+              ],
+              [
+                14.581141,
+                49.0980533
+              ],
+              [
+                14.5812895,
+                49.0986934
+              ],
+              [
+                14.5812328,
+                49.0987025
+              ],
+              [
+                14.5811717,
+                49.0987228
+              ],
+              [
+                14.5810174,
+                49.0987046
+              ],
+              [
+                14.5808545,
+                49.0986733
+              ],
+              [
+                14.5807768,
+                49.0982858
+              ],
+              [
+                14.5806949,
+                49.0978843
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1495894487,
+        "@url": "https://www.openstreetmap.org/way/1495894487",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Ševětín",
+        "opening_hours": "Mo,We 15:00-18:00; Sa 09:00-12:00",
+        "operator": "Rumpold",
+        "operator:type": "private",
         "recycling_type": "centre"
       }
     }

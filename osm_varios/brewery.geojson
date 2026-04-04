@@ -6,38 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6963904,
-          49.5104727
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 278747055,
-        "@url": "https://www.openstreetmap.org/node/278747055",
-        "amenity": "restaurant",
-        "bar": "yes",
-        "brewery": "Střítež",
-        "catering": "yes",
-        "contact:phone": "+420 602 613 026",
-        "cuisine": "regional",
-        "email": "kamennachata@seznam.cz",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "microbrewery": "yes",
-        "name": "Kamenná chata",
-        "opening_hours": "We-Th 10:00-16:00; Fr-Sa 10:00-22:00; Su 10:00-16:00",
-        "outdoor_seating": "yes",
-        "takeaway": "yes",
-        "toilets": "yes",
-        "toilets:access": "permissive",
-        "website": "http://kamennachata.cz/gastronomie"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.423744,
           50.07543
         ]
@@ -13529,6 +13497,86 @@
         "type": "LineString",
         "coordinates": [
           [
+            18.6964466,
+            49.5105107
+          ],
+          [
+            18.6964749,
+            49.5105219
+          ],
+          [
+            18.6965147,
+            49.5104664
+          ],
+          [
+            18.6962792,
+            49.5103915
+          ],
+          [
+            18.6961965,
+            49.5105022
+          ],
+          [
+            18.6964004,
+            49.510569
+          ],
+          [
+            18.6964466,
+            49.5105107
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 246516429,
+        "@url": "https://www.openstreetmap.org/way/246516429",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "beds": "17",
+        "breakfast": "yes",
+        "brewery": "Střítež",
+        "building": "residential",
+        "building:ruian:type": "3",
+        "catering": "yes",
+        "check_date": "2025-04-18",
+        "contact:facebook": "KamennaChata",
+        "contact:instagram": "kamennachata",
+        "contact:phone": "+420 602 613 026",
+        "cuisine": "regional",
+        "currency:CZK": "yes",
+        "currency:EUR": "yes",
+        "dinner": "yes",
+        "email": "kamennachata@seznam.cz",
+        "fee": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Kamenná chata",
+        "opening_hours": "We-Th 10:00-16:00; Fr-Sa 10:00-22:00; Su 10:00-16:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "pets": "yes",
+        "ref:ruian:building": "14003082",
+        "rooms": "8",
+        "source": "cuzk:ruian",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "tourism": "alpine_hut",
+        "website": "http://kamennachata.cz/",
+        "wikidata": "Q86668519",
+        "wikipedia": "cs:Kamenná chata"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             17.520197,
             49.5099989
           ],
@@ -21297,6 +21345,90 @@
         "toilets:wheelchair": "yes",
         "website": "https://www.pivovar-hostivar.cz/",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.6961965,
+                49.5105022
+              ],
+              [
+                18.6962792,
+                49.5103915
+              ],
+              [
+                18.6965147,
+                49.5104664
+              ],
+              [
+                18.6964749,
+                49.5105219
+              ],
+              [
+                18.6964466,
+                49.5105107
+              ],
+              [
+                18.6964004,
+                49.510569
+              ],
+              [
+                18.6961965,
+                49.5105022
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 246516429,
+        "@url": "https://www.openstreetmap.org/way/246516429",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "beds": "17",
+        "breakfast": "yes",
+        "brewery": "Střítež",
+        "building": "residential",
+        "building:ruian:type": "3",
+        "catering": "yes",
+        "check_date": "2025-04-18",
+        "contact:facebook": "KamennaChata",
+        "contact:instagram": "kamennachata",
+        "contact:phone": "+420 602 613 026",
+        "cuisine": "regional",
+        "currency:CZK": "yes",
+        "currency:EUR": "yes",
+        "dinner": "yes",
+        "email": "kamennachata@seznam.cz",
+        "fee": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "yes",
+        "name": "Kamenná chata",
+        "opening_hours": "We-Th 10:00-16:00; Fr-Sa 10:00-22:00; Su 10:00-16:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "pets": "yes",
+        "ref:ruian:building": "14003082",
+        "rooms": "8",
+        "source": "cuzk:ruian",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "tourism": "alpine_hut",
+        "website": "http://kamennachata.cz/",
+        "wikidata": "Q86668519",
+        "wikipedia": "cs:Kamenná chata"
       }
     },
     {

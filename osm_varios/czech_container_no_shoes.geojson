@@ -689,8 +689,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.486621,
-          50.0349648
+          14.4867318,
+          50.0351123
         ]
       },
       "properties": {
@@ -1362,6 +1362,26 @@
         "recycling:tyres": "yes",
         "recycling_type": "centre",
         "website": "https://www.zbiroh.cz/mesto/odpadove-hospodarstvi/skladka-chotetin-sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.492438,
+          50.092324
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7021959175,
+        "@url": "https://www.openstreetmap.org/node/7021959175",
+        "amenity": "recycling",
+        "check_date:recycling": "2026-04-03",
+        "operator": "TextilEco",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -2234,8 +2254,10 @@
         "@id": 8734713441,
         "@url": "https://www.openstreetmap.org/node/8734713441",
         "amenity": "recycling",
+        "check_date:recycling": "2026-04-02",
         "covered": "no",
         "indoor": "no",
+        "operator": "KLOK.TEX",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }

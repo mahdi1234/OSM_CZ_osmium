@@ -4862,17 +4862,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1829331,
-          50.4097197
+          13.1828734,
+          50.4096267
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 727701129,
         "@url": "https://www.openstreetmap.org/node/727701129",
-        "ele": "577",
-        "name": "Holubí Vrch",
-        "natural": "peak"
+        "ele": "576.7",
+        "name": "Holubí vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -7517,17 +7518,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1803324,
-          50.3724375
+          13.1798695,
+          50.3724534
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 983906579,
         "@url": "https://www.openstreetmap.org/node/983906579",
-        "ele": "531",
+        "ele": "530.9",
         "name": "Mravenčák",
         "natural": "peak",
+        "source:ele": "CUZK:ZTM5",
         "wikidata": "Q23825085"
       }
     },
@@ -40496,7 +40498,8 @@
         "ele": "548",
         "name": "Holý kopec",
         "natural": "peak",
-        "source": "cuzk:bodové pole"
+        "source": "cuzk:bodové pole",
+        "wikidata": "Q23820203"
       }
     },
     {
@@ -59847,8 +59850,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0184193,
-          50.3173372
+          13.0183584,
+          50.3173531
         ]
       },
       "properties": {
@@ -59857,7 +59860,8 @@
         "@url": "https://www.openstreetmap.org/node/4851085290",
         "ele": "504",
         "name": "Špičák",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -83001,17 +83005,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.2380568,
-          50.3594501
+          13.2382596,
+          50.3589103
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 7485492723,
         "@url": "https://www.openstreetmap.org/node/7485492723",
-        "ele": "593",
+        "ele": "591.5",
         "name": "Úhošť",
         "natural": "peak",
+        "source:ele": "CUZK:ZTM5",
         "wikidata": "Q102047552",
         "wikipedia": "cs:Úhošť"
       }
@@ -119220,6 +119225,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.1179693,
+          50.3841829
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13194646945,
+        "@url": "https://www.openstreetmap.org/node/13194646945",
+        "ele": "564.2",
+        "name": "Perštejnský špičák",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.2360326,
           49.4331557
         ]
@@ -123716,6 +123740,201 @@
         "name": "Za Strážkou",
         "natural": "peak",
         "source": "CUZK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2160028,
+          50.3400776
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767315,
+        "@url": "https://www.openstreetmap.org/node/13706767315",
+        "ele": "558.5",
+        "name": "Roháč",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2086468,
+          50.4203814
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767326,
+        "@url": "https://www.openstreetmap.org/node/13706767326",
+        "ele": "544.7",
+        "name": "Favorit",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1189568,
+          50.3567859
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767331,
+        "@url": "https://www.openstreetmap.org/node/13706767331",
+        "ele": "552.5",
+        "name": "Javor",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0371237,
+          50.313285
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767332,
+        "@url": "https://www.openstreetmap.org/node/13706767332",
+        "ele": "506.9",
+        "name": "Bukovec",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9926884,
+          50.3445236
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767333,
+        "@url": "https://www.openstreetmap.org/node/13706767333",
+        "ele": "574.9",
+        "name": "Kameniště",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0349054,
+          50.3444195
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767334,
+        "@url": "https://www.openstreetmap.org/node/13706767334",
+        "ele": "569.9",
+        "name": "Dubový vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1212686,
+          50.3809681
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767345,
+        "@url": "https://www.openstreetmap.org/node/13706767345",
+        "ele": "526",
+        "name": "Hradiště",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5432024,
+          49.0028366
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13707524508,
+        "@url": "https://www.openstreetmap.org/node/13707524508",
+        "addr:city": "Adamov",
+        "addr:postcode": "37371",
+        "amenity": "public_bookcase",
+        "books": "ruzné",
+        "covered": "yes",
+        "ele": "501",
+        "lit": "no",
+        "name": "Knihobudka Královský Vrch",
+        "opening_hours": "24/7",
+        "operator": "soukromný",
+        "phone": "+420",
+        "public_bookcase:type": "shelf",
+        "start_date": "2026-03-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6174658,
+          49.6555941
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13708596506,
+        "@url": "https://www.openstreetmap.org/node/13708596506",
+        "ele": "579",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6219212,
+          49.6554486
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13709304803,
+        "@url": "https://www.openstreetmap.org/node/13709304803",
+        "ele": "584",
+        "natural": "hill"
       }
     },
     {

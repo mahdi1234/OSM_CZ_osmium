@@ -1032,19 +1032,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0860711,
-          50.4605567
+          13.0859016,
+          50.4605098
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 344118416,
         "@url": "https://www.openstreetmap.org/node/344118416",
-        "ele": "965",
+        "ele": "965.9",
         "name": "Velký Špičák",
         "name:de": "Spitz-Berg",
         "natural": "peak",
         "source": "cuzk:km;cs.wikipedia.org",
+        "source:ele": "CUZK:ZTM5",
         "wikidata": "Q2512505",
         "wikipedia": "cs:Velký Špičák (Krušné hory)"
       }
@@ -9408,8 +9409,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.011949,
-          48.9116934
+          14.0119316,
+          48.9116502
         ]
       },
       "properties": {
@@ -13772,8 +13773,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1833419,
-          50.4832479
+          13.1833774,
+          50.4832662
         ]
       },
       "properties": {
@@ -14305,17 +14306,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0765847,
-          50.4537219
+          13.0767063,
+          50.4535731
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 4397851592,
         "@url": "https://www.openstreetmap.org/node/4397851592",
-        "ele": "924.2",
-        "name": "Střední Špičák",
-        "natural": "peak"
+        "ele": "922.0",
+        "name": "Střední špičák",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -16697,17 +16699,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0269385,
-          50.4130905
+          13.0270976,
+          50.4129447
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5238797917,
         "@url": "https://www.openstreetmap.org/node/5238797917",
-        "ele": "965",
+        "ele": "965.1",
         "name": "Vápenný kopec",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -20427,8 +20430,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0036246,
-          50.4187726
+          13.0036271,
+          50.4187753
         ]
       },
       "properties": {
@@ -20437,7 +20440,8 @@
         "@url": "https://www.openstreetmap.org/node/11072510580",
         "ele": "989.4",
         "name": "Hajský kopec",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -20481,17 +20485,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0352722,
-          50.457652
+          13.0352436,
+          50.4576109
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 11072510583,
         "@url": "https://www.openstreetmap.org/node/11072510583",
-        "ele": "932.3",
+        "ele": "932.4",
         "name": "Strážce",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -28445,6 +28450,85 @@
         "ref": "DO304",
         "source": "survey",
         "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.071125,
+          50.4496284
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767337,
+        "@url": "https://www.openstreetmap.org/node/13706767337",
+        "ele": "904.2",
+        "name": "Malý špičák",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0518554,
+          50.4195327
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767339,
+        "@url": "https://www.openstreetmap.org/node/13706767339",
+        "ele": "914.3",
+        "name": "Blažejův vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0168939,
+          50.4101322
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767340,
+        "@url": "https://www.openstreetmap.org/node/13706767340",
+        "ele": "976.5",
+        "name": "Ohnivý vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1115762,
+          50.4244076
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767343,
+        "@url": "https://www.openstreetmap.org/node/13706767343",
+        "ele": "921.2",
+        "name": "Mědník",
+        "name:de": "Kupferhübel",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5",
+        "wikidata": "Q1764571",
+        "wikipedia": "cs:Mědník"
       }
     },
     {

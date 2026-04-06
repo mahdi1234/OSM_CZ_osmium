@@ -6258,17 +6258,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1051249,
-          50.3369232
+          13.1051666,
+          50.3369088
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 691258224,
         "@url": "https://www.openstreetmap.org/node/691258224",
-        "ele": "817.3",
+        "ele": "817.5",
         "name": "Hora",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -9221,18 +9222,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.2759618,
-          50.4618681
+          13.274868,
+          50.4623681
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 1724553071,
         "@url": "https://www.openstreetmap.org/node/1724553071",
-        "ele": "823",
+        "ele": "825.9",
         "name": "Poustevna",
         "name:de": "Schweiger Berg",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -18340,8 +18342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0781442,
-          50.3193498
+          13.0780006,
+          50.3193637
         ]
       },
       "properties": {
@@ -18351,6 +18353,7 @@
         "ele": "827.8",
         "name": "Velká Jehličná",
         "natural": "peak",
+        "source:ele": "CUZK:ZTM5",
         "wikidata": "Q23824302"
       }
     },
@@ -20933,16 +20936,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0605662,
-          50.3187809
+          13.060692,
+          50.3186789
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 4853624322,
         "@url": "https://www.openstreetmap.org/node/4853624322",
-        "ele": "800",
-        "natural": "peak"
+        "ele": "804.8",
+        "name": "Jakubovský vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -38468,17 +38473,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1688577,
-          50.460502
+          13.1688898,
+          50.4605095
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 13415230783,
         "@url": "https://www.openstreetmap.org/node/13415230783",
-        "ele": "847",
+        "ele": "847.4",
         "name": "Výšina",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -38836,6 +38842,84 @@
         "monitoring:snow_depth": "yes",
         "name": "Sněhoměrná stanice Knížecí strom",
         "website": "https://hydro.chmi.cz/hpps/snh/objekt/6473058"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1502047,
+          50.3166617
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767318,
+        "@url": "https://www.openstreetmap.org/node/13706767318",
+        "ele": "811.7",
+        "name": "Lesná",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.096895,
+          50.4046293
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767325,
+        "@url": "https://www.openstreetmap.org/node/13706767325",
+        "ele": "805.8",
+        "name": "Vysoká",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0570891,
+          50.4798837
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13706767336,
+        "@url": "https://www.openstreetmap.org/node/13706767336",
+        "ele": "855.5",
+        "name": "Fládrův les",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6934585,
+          50.3345821
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13709030136,
+        "@url": "https://www.openstreetmap.org/node/13709030136",
+        "ele": "805",
+        "information": "guidepost",
+        "name": "U CHLUPŮ",
+        "ski": "yes",
+        "start_date": "2015",
+        "tourism": "information"
       }
     },
     {

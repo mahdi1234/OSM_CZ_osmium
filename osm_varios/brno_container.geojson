@@ -6576,6 +6576,7 @@
         "amenity": "recycling",
         "opening_hours": "24/7",
         "operator": "SAKO",
+        "operator:wikidata": "Q12050646",
         "recycling:glass_bottles": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
@@ -9215,6 +9216,26 @@
         "@id": 13335660982,
         "@url": "https://www.openstreetmap.org/node/13335660982",
         "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5824101,
+          49.2229095
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13354257814,
+        "@url": "https://www.openstreetmap.org/node/13354257814",
+        "amenity": "recycling",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"

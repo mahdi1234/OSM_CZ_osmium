@@ -4154,6 +4154,91 @@
         "amenity": "recycling",
         "recycling_type": "centre"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.1669265,
+                48.835115
+              ],
+              [
+                16.167014,
+                48.8351246
+              ],
+              [
+                16.1670782,
+                48.835123
+              ],
+              [
+                16.167097,
+                48.8351226
+              ],
+              [
+                16.1672553,
+                48.8351188
+              ],
+              [
+                16.1673948,
+                48.8351166
+              ],
+              [
+                16.1674248,
+                48.8352467
+              ],
+              [
+                16.1672665,
+                48.8352833
+              ],
+              [
+                16.1671646,
+                48.8352991
+              ],
+              [
+                16.1669661,
+                48.8353104
+              ],
+              [
+                16.1669515,
+                48.8352754
+              ],
+              [
+                16.1669265,
+                48.835115
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "relation",
+        "@id": 20439940,
+        "@url": "https://www.openstreetmap.org/relation/20439940",
+        "addr:conscriptionnumber": "436",
+        "addr:housenumber": "436",
+        "addr:place": "Hodonice",
+        "addr:postcode": "67125",
+        "addr:street": "Krhovická",
+        "amenity": "recycling",
+        "building": "office",
+        "building:levels": "1",
+        "building:ruian:type": "15",
+        "email": "zivotniprostredi@hodonice.cz",
+        "name": "Sběrný dvůr odpadů Hodonice",
+        "opening_hours": "Mo 07:00 -14:00, We 12:00 - 17:00, Fr 07:00 - 12:00, Sa 09:00 - 12:00",
+        "operator": "Obec Hodonice",
+        "operator:type": "public",
+        "recycling_type": "centre",
+        "ref:ruian:addr": "76152456",
+        "ref:ruian:building": "49241176",
+        "source": "cuzk:ruian",
+        "start_date": "2017-05-12",
+        "website": "https://www.hodonice.cz/obecni-urad/zivotni-prostredi-a-odpady/sberny-dvur-odpadu/"
+      }
     }
   ]
 }

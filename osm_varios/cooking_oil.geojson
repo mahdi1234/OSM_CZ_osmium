@@ -21690,38 +21690,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.6685787,
-          49.3355706
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7830509425,
-        "@url": "https://www.openstreetmap.org/node/7830509425",
-        "amenity": "recycling",
-        "check_date:opening_hours": "2025-11-27",
-        "email": "obec@olomucany.cz",
-        "name": "Sběrný dvůr Olomučany",
-        "opening_hours": "We 16:00-17:00",
-        "phone": "+420 721 907 127",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:rubble": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:tyres": "yes",
-        "recycling:waste": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.olomucany.cz/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.5664978,
           49.3660733
         ]
@@ -67858,6 +67826,51 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0322538,
+          50.1903542
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13724451981,
+        "@url": "https://www.openstreetmap.org/node/13724451981",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0308743,
+          50.1912163
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13724452036,
+        "@url": "https://www.openstreetmap.org/node/13724452036",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -77721,6 +77734,82 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6685567,
+            49.3354716
+          ],
+          [
+            16.6685859,
+            49.33553
+          ],
+          [
+            16.6686151,
+            49.3355883
+          ],
+          [
+            16.6682607,
+            49.3358601
+          ],
+          [
+            16.6682187,
+            49.3358661
+          ],
+          [
+            16.6681987,
+            49.335869
+          ],
+          [
+            16.6681588,
+            49.3358472
+          ],
+          [
+            16.6681635,
+            49.3358028
+          ],
+          [
+            16.6681863,
+            49.3357524
+          ],
+          [
+            16.6683666,
+            49.3355706
+          ],
+          [
+            16.6685567,
+            49.3354716
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1498713731,
+        "@url": "https://www.openstreetmap.org/way/1498713731",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "check_date:opening_hours": "2025-11-27",
+        "email": "obec@olomucany.cz",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Olomučany",
+        "opening_hours": "We 16:00-17:00",
+        "phone": "+420 721 907 127",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.olomucany.cz/"
       }
     },
     {
@@ -88125,6 +88214,86 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.6681588,
+                49.3358472
+              ],
+              [
+                16.6681635,
+                49.3358028
+              ],
+              [
+                16.6681863,
+                49.3357524
+              ],
+              [
+                16.6683666,
+                49.3355706
+              ],
+              [
+                16.6685567,
+                49.3354716
+              ],
+              [
+                16.6685859,
+                49.33553
+              ],
+              [
+                16.6686151,
+                49.3355883
+              ],
+              [
+                16.6682607,
+                49.3358601
+              ],
+              [
+                16.6682187,
+                49.3358661
+              ],
+              [
+                16.6681987,
+                49.335869
+              ],
+              [
+                16.6681588,
+                49.3358472
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1498713731,
+        "@url": "https://www.openstreetmap.org/way/1498713731",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "check_date:opening_hours": "2025-11-27",
+        "email": "obec@olomucany.cz",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Olomučany",
+        "opening_hours": "We 16:00-17:00",
+        "phone": "+420 721 907 127",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.olomucany.cz/"
       }
     }
   ]

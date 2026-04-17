@@ -12012,6 +12012,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.0267845,
+          50.1786203
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4433926086,
+        "@url": "https://www.openstreetmap.org/node/4433926086",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4842487,
           50.2023809
         ]
@@ -20223,16 +20245,14 @@
         "@url": "https://www.openstreetmap.org/node/7395589158",
         "amenity": "recycling",
         "operator": "SAKO",
-        "recycling:cardboard": "yes",
+        "operator:wikidata": "Q12050646",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
+        "recycling:small_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -37888,7 +37908,8 @@
         "@id": 10542444134,
         "@url": "https://www.openstreetmap.org/node/10542444134",
         "amenity": "recycling",
-        "operator": "Marius Pedersen a.s.",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
         "recycling:beverage_cartons": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
@@ -37913,7 +37934,8 @@
         "@id": 10542449422,
         "@url": "https://www.openstreetmap.org/node/10542449422",
         "amenity": "recycling",
-        "operator": "Marius Pedersen a.s.",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:green_waste": "yes",
@@ -49711,12 +49733,11 @@
         "@id": 11658229633,
         "@url": "https://www.openstreetmap.org/node/11658229633",
         "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -50027,11 +50048,10 @@
         "@id": 11674029783,
         "@url": "https://www.openstreetmap.org/node/11674029783",
         "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -67982,6 +68002,28 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0129343,
+          50.1755358
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13733745367,
+        "@url": "https://www.openstreetmap.org/node/13733745367",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

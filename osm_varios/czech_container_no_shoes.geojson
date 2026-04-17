@@ -1465,6 +1465,7 @@
         "@url": "https://www.openstreetmap.org/node/7281773007",
         "amenity": "recycling",
         "location": "overground",
+        "operator": "POTEX",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -9477,7 +9478,8 @@
         "@id": 10282104083,
         "@url": "https://www.openstreetmap.org/node/10282104083",
         "amenity": "recycling",
-        "operator": "Marius Pedersen a.s.",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -9590,27 +9592,6 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.2102149,
-          50.0205301
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10291510143,
-        "@url": "https://www.openstreetmap.org/node/10291510143",
-        "amenity": "recycling",
-        "operator": "KlokTex",
-        "operator:wikidata": "Q131441348",
-        "recycling:books": "yes",
-        "recycling:clothes": "yes",
         "recycling_type": "container"
       }
     },
@@ -10367,7 +10348,8 @@
         "@id": 10542444134,
         "@url": "https://www.openstreetmap.org/node/10542444134",
         "amenity": "recycling",
-        "operator": "Marius Pedersen a.s.",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
         "recycling:beverage_cartons": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
@@ -15231,7 +15213,8 @@
         "@id": 11210900271,
         "@url": "https://www.openstreetmap.org/node/11210900271",
         "amenity": "recycling",
-        "operator": "Marius Pedersen a.s.",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
         "recycling:clothes": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
@@ -18207,8 +18190,10 @@
         "@id": 12068105514,
         "@url": "https://www.openstreetmap.org/node/12068105514",
         "amenity": "recycling",
-        "operator": "Textileco",
-        "operator:wikidata": "Q19602750",
+        "brand": "Textileco",
+        "brand:wikidata": "Q19602750",
+        "operator": "Coretex CZ",
+        "operator:wikidata": "Q137507932",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -20241,6 +20226,29 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:waste": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7080524,
+          49.3578984
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12551344428,
+        "@url": "https://www.openstreetmap.org/node/12551344428",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -27873,6 +27881,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5872556,
+          49.2057438
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13734483654,
+        "@url": "https://www.openstreetmap.org/node/13734483654",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -29439,6 +29465,26 @@
           [
             15.0287199,
             50.181069
+          ],
+          [
+            15.0287958,
+            50.1810989
+          ],
+          [
+            15.0287376,
+            50.18117
+          ],
+          [
+            15.0294404,
+            50.1814276
+          ],
+          [
+            15.0295395,
+            50.1814634
+          ],
+          [
+            15.029832,
+            50.1815598
           ],
           [
             15.0298859,
@@ -32275,6 +32321,54 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.7167873,
+            49.3000729
+          ],
+          [
+            14.7168095,
+            49.300025
+          ],
+          [
+            14.7167767,
+            49.2998833
+          ],
+          [
+            14.71634,
+            49.2999193
+          ],
+          [
+            14.7164183,
+            49.3001037
+          ],
+          [
+            14.7167873,
+            49.3000729
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1499810196,
+        "@url": "https://www.openstreetmap.org/way/1499810196",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre",
+        "source": "cuzk:km;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -33943,6 +34037,26 @@
               [
                 15.0298859,
                 50.181483
+              ],
+              [
+                15.029832,
+                50.1815598
+              ],
+              [
+                15.0295395,
+                50.1814634
+              ],
+              [
+                15.0294404,
+                50.1814276
+              ],
+              [
+                15.0287376,
+                50.18117
+              ],
+              [
+                15.0287958,
+                50.1810989
               ],
               [
                 15.0287199,
@@ -36936,6 +37050,58 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.71634,
+                49.2999193
+              ],
+              [
+                14.7167767,
+                49.2998833
+              ],
+              [
+                14.7168095,
+                49.300025
+              ],
+              [
+                14.7167873,
+                49.3000729
+              ],
+              [
+                14.7164183,
+                49.3001037
+              ],
+              [
+                14.71634,
+                49.2999193
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1499810196,
+        "@url": "https://www.openstreetmap.org/way/1499810196",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre",
+        "source": "cuzk:km;survey"
       }
     }
   ]

@@ -242,15 +242,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.9315064,
-          50.5547403
+          13.9313109,
+          50.5547955
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 4701294023,
         "@url": "https://www.openstreetmap.org/node/4701294023",
-        "emergency": "defibrillator"
+        "access": "limited",
+        "emergency": "defibrillator",
+        "indoor": "no"
       }
     },
     {
@@ -5370,6 +5372,22 @@
         "defibrillator:location": "Umístěno za dveřmi v Czech Photo Centre.\nLocated behind the door, inside Czech Photo Centre.",
         "emergency": "defibrillator",
         "opening_hours": "Tu-Fr 11:00-18:00; Sa-Su 10:00-18:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.585052,
+          50.6870562
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13740537902,
+        "@url": "https://www.openstreetmap.org/node/13740537902",
+        "emergency": "defibrillator"
       }
     }
   ]

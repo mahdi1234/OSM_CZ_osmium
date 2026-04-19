@@ -4772,8 +4772,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.831263,
-          49.4647121
+          14.8311816,
+          49.4646251
         ]
       },
       "properties": {
@@ -4783,6 +4783,7 @@
         "ele": "723",
         "information": "guidepost",
         "name": "Batkovy",
+        "ref": "PO032",
         "ski": "yes",
         "tourism": "information"
       }
@@ -10066,25 +10067,6 @@
         "ref": "CK304",
         "source": "survey",
         "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.9412908,
-          50.2242597
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1895058403,
-        "@url": "https://www.openstreetmap.org/node/1895058403",
-        "ele": "700",
-        "name": "Bukový vrch",
-        "natural": "peak",
-        "wikidata": "Q23825071"
       }
     },
     {
@@ -20945,25 +20927,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0587104,
-          50.3175899
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4172877128,
-        "@url": "https://www.openstreetmap.org/node/4172877128",
-        "ele": "799.0",
-        "name": "Jakubovský vrch",
-        "natural": "peak",
-        "wikidata": "Q23825080"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.0946268,
           50.3201509
         ]
@@ -25131,6 +25094,24 @@
         "@id": 4853624325,
         "@url": "https://www.openstreetmap.org/node/4853624325",
         "ele": "727",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0907541,
+          50.3031613
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4853624327,
+        "@url": "https://www.openstreetmap.org/node/4853624327",
+        "ele": "721.7",
+        "name": "Strážný vrch",
         "natural": "peak"
       }
     },
@@ -30698,18 +30679,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0213071,
-          50.2095761
+          13.0209756,
+          50.2097731
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5872270261,
         "@url": "https://www.openstreetmap.org/node/5872270261",
-        "ele": "747",
+        "ele": "746.3",
         "name": "U Borovic",
         "name:de": "Schotten-Berg",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -30717,8 +30699,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.2004273,
-          50.2259247
+          13.2004476,
+          50.2259268
         ]
       },
       "properties": {
@@ -31049,16 +31031,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.161546,
-          50.2303998
+          13.1614127,
+          50.2295117
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5873216858,
         "@url": "https://www.openstreetmap.org/node/5873216858",
-        "ele": "754.6",
-        "natural": "peak"
+        "ele": "754.0",
+        "name": "Nad Zunou",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -31066,8 +31050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1652474,
-          50.2295624
+          13.1652695,
+          50.2295673
         ]
       },
       "properties": {
@@ -31075,8 +31059,8 @@
         "@id": 5873216859,
         "@url": "https://www.openstreetmap.org/node/5873216859",
         "ele": "748.2",
-        "name": "Nad zunou",
-        "natural": "peak"
+        "natural": "peak",
+        "noname": "yes"
       }
     },
     {
@@ -31103,17 +31087,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1941831,
-          50.2394035
+          13.1941765,
+          50.2394202
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5873238894,
         "@url": "https://www.openstreetmap.org/node/5873238894",
-        "ele": "730",
+        "ele": "730.0",
         "name": "Dubina",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -31139,17 +31124,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.110069,
-          50.2761694
+          13.1100618,
+          50.2761672
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5873238898,
         "@url": "https://www.openstreetmap.org/node/5873238898",
-        "ele": "762",
+        "ele": "762.0",
         "name": "Huseň",
         "natural": "peak",
+        "source:ele": "CUZK:ZTM5",
         "wikidata": "Q23825048"
       }
     },
@@ -31175,17 +31161,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0634737,
-          50.2360204
+          13.0638139,
+          50.2355217
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5873238915,
         "@url": "https://www.openstreetmap.org/node/5873238915",
-        "ele": "700.2",
+        "ele": "702.2",
         "name": "Svěrák",
         "natural": "peak",
+        "source:ele": "CUZK:ZTM5",
         "wikidata": "Q23825067"
       }
     },
@@ -43328,18 +43315,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.0003348,
-          50.2112722
+          13.0004038,
+          50.2113235
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 12229441153,
         "@url": "https://www.openstreetmap.org/node/12229441153",
-        "ele": "749",
+        "ele": "749.4",
         "name": "Podkova",
         "natural": "peak",
-        "source": "ČÚZK"
+        "source:ele": "CUZK:ZTM5"
       }
     },
     {
@@ -50047,6 +50034,234 @@
         "@url": "https://www.openstreetmap.org/node/13706767338",
         "ele": "770.6",
         "name": "Mezilesí",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1048516,
+          50.2498883
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792006,
+        "@url": "https://www.openstreetmap.org/node/13738792006",
+        "ele": "790.8",
+        "name": "U studeného dvora",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1346817,
+          50.2326702
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792008,
+        "@url": "https://www.openstreetmap.org/node/13738792008",
+        "ele": "793.1",
+        "name": "Prachometský kopec",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1115532,
+          50.262576
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792011,
+        "@url": "https://www.openstreetmap.org/node/13738792011",
+        "ele": "739.1",
+        "name": "Ovčí vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1678214,
+          50.2642652
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792012,
+        "@url": "https://www.openstreetmap.org/node/13738792012",
+        "ele": "714.6",
+        "name": "Jánský vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1825998,
+          50.2548639
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792013,
+        "@url": "https://www.openstreetmap.org/node/13738792013",
+        "ele": "719.6",
+        "name": "Doupovské strážiště",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1801549,
+          50.2490345
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792014,
+        "@url": "https://www.openstreetmap.org/node/13738792014",
+        "ele": "722.0",
+        "name": "Turečský vrch",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1046459,
+          50.2962245
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792020,
+        "@url": "https://www.openstreetmap.org/node/13738792020",
+        "ele": "778.2",
+        "name": "Složiště",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0941997,
+          50.2933912
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792021,
+        "@url": "https://www.openstreetmap.org/node/13738792021",
+        "ele": "745.9",
+        "name": "Kupa",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1668198,
+          50.3119342
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792030,
+        "@url": "https://www.openstreetmap.org/node/13738792030",
+        "ele": "770.1",
+        "name": "Litoltovský kopec",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1845612,
+          50.3124925
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792031,
+        "@url": "https://www.openstreetmap.org/node/13738792031",
+        "ele": "767.8",
+        "name": "Nad maleší",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2153809,
+          50.3237934
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792032,
+        "@url": "https://www.openstreetmap.org/node/13738792032",
+        "ele": "758.1",
+        "name": "U dubiny",
+        "natural": "peak",
+        "source:ele": "CUZK:ZTM5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2017884,
+          50.315673
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13738792033,
+        "@url": "https://www.openstreetmap.org/node/13738792033",
+        "ele": "700.8",
+        "name": "Na skalce",
         "natural": "peak",
         "source:ele": "CUZK:ZTM5"
       }

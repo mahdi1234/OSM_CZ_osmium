@@ -9612,9 +9612,10 @@
         "@url": "https://www.openstreetmap.org/node/3962407918",
         "amenity": "recycling",
         "recycling:batteries": "yes",
-        "recycling:glass": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -23031,6 +23032,7 @@
         "@url": "https://www.openstreetmap.org/node/7752746207",
         "amenity": "recycling",
         "operator": "SAKO",
+        "operator:wikidata": "Q12050646",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
@@ -24313,6 +24315,7 @@
         "@url": "https://www.openstreetmap.org/node/8041979429",
         "amenity": "recycling",
         "name": "NAPOS a.s. - výkup druhotných surovin",
+        "opening_hours": "Mo-Fr 07:30-16:00",
         "phone": "+420725893334",
         "recycling:car_batteries": "yes",
         "recycling:cardboard": "yes",
@@ -50776,9 +50779,10 @@
         "amenity": "recycling",
         "operator": "KlokTex",
         "operator:wikidata": "Q131441348",
-        "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:shoes": "yes",
+        "recycling:textiles": "yes",
+        "recycling:toys": "yes",
         "recycling_type": "container"
       }
     },

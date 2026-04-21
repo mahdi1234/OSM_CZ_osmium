@@ -4878,7 +4878,9 @@
         "@type": "node",
         "@id": 13250160601,
         "@url": "https://www.openstreetmap.org/node/13250160601",
-        "emergency": "defibrillator"
+        "defibrillator:location": "Na sloupu u Informací",
+        "emergency": "defibrillator",
+        "indoor": "yes"
       }
     },
     {
@@ -5388,6 +5390,42 @@
         "@id": 13740537902,
         "@url": "https://www.openstreetmap.org/node/13740537902",
         "emergency": "defibrillator"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5687421,
+          50.0442747
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13744913174,
+        "@url": "https://www.openstreetmap.org/node/13744913174",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "note:en": "location is approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4820088,
+          50.1278426
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13744970152,
+        "@url": "https://www.openstreetmap.org/node/13744970152",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "note:en": "position is approximate"
       }
     }
   ]

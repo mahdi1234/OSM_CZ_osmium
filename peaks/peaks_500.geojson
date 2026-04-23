@@ -7398,13 +7398,14 @@
         "@type": "node",
         "@id": 974111733,
         "@url": "https://www.openstreetmap.org/node/974111733",
+        "alt_name": "Velké Karlovice - Miloňov",
         "bicycle": "yes",
         "ele": "525",
         "hiking": "yes",
         "information": "guidepost",
         "name": "Velké Karlovice - rozc. Miloňov",
         "operator": "cz:KČT",
-        "ref": "VS428",
+        "ref": "VS428;VC054;6020-1/600;6020-2/600;6020-3/110",
         "tourism": "information"
       }
     },
@@ -38546,6 +38547,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.330569,
+          49.3689253
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3755060060,
+        "@url": "https://www.openstreetmap.org/node/3755060060",
+        "ele": "551",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Kaplička - rozc. Podťaté",
+        "operator": "cz:KČT",
+        "ref": "VS108",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3319698,
           50.1048337
         ]
@@ -62334,6 +62357,7 @@
         "name": "Pulčínské skály (rozc.)",
         "operator": "cz:KČT",
         "ref": "VS537",
+        "ski": "yes",
         "tourism": "information"
       }
     },
@@ -97259,24 +97283,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.567296,
-          49.4342751
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11183401883,
-        "@url": "https://www.openstreetmap.org/node/11183401883",
-        "ele": "582",
-        "name": "Borovice",
-        "natural": "peak"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.2211105,
           50.6735751
         ]
@@ -124382,6 +124388,46 @@
         "ele": "563.2",
         "man_made": "survey_point",
         "survey_point:purpose": "horizontal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3278951,
+          49.3684651
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13751641017,
+        "@url": "https://www.openstreetmap.org/node/13751641017",
+        "bicycle": "yes",
+        "ele": "547",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Velké Karlovice (rozc.)",
+        "operator": "cz:KČT",
+        "ref": "VS258;6020-3/620;6020-4/620",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5672687,
+          49.4342514
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13752397021,
+        "@url": "https://www.openstreetmap.org/node/13752397021",
+        "ele": "582",
+        "natural": "peak"
       }
     },
     {

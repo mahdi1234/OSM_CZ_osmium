@@ -10903,6 +10903,34 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5683645,
+            49.2146565
+          ],
+          [
+            16.5683479,
+            49.2146725
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1503459711,
+        "@url": "https://www.openstreetmap.org/way/1503459711",
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "up",
+        "level": "0;0.5",
+        "ramp": "no",
+        "step_count": "4",
+        "surface": "wood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5317191,
             49.2276127
           ],
@@ -58768,6 +58796,48 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5685563,
+            49.2036414
+          ],
+          [
+            16.5686283,
+            49.2036199
+          ],
+          [
+            16.5686916,
+            49.203601
+          ],
+          [
+            16.5687519,
+            49.203583
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 892398800,
+        "@url": "https://www.openstreetmap.org/way/892398800",
+        "check_date": "2026-04-25",
+        "check_date:handrail": "2026-04-25",
+        "check_date:ramp": "2026-04-25",
+        "check_date:surface": "2026-04-25",
+        "check_date:tactile_paving": "2026-04-25",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
+        "step_count": "25",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.6222884,
             49.1759031
           ],
@@ -59960,6 +60030,7 @@
         "source": "cuzk:km",
         "step_count": "27",
         "surface": "concrete",
+        "tactile_paving": "no",
         "width": "3"
       }
     },

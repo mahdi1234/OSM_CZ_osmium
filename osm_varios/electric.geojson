@@ -6906,34 +6906,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2168927,
-          49.5971398
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2914431129,
-        "@url": "https://www.openstreetmap.org/node/2914431129",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Neředín",
-        "opening_hours": "Mo-Sa 09:00-13:00,13:30-17:00, Su 09:00-13:00",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electronics": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.tsmo.cz/sluzby/sberna-mista/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4813244,
           50.038021
         ]
@@ -9784,28 +9756,6 @@
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.387078,
-          49.7325336
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4005894269,
-        "@url": "https://www.openstreetmap.org/node/4005894269",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container",
-        "source": "survey"
       }
     },
     {
@@ -57025,6 +56975,10 @@
             49.995539
           ],
           [
+            14.6533916,
+            49.9953908
+          ],
+          [
             14.6530496,
             49.9952964
           ],
@@ -59984,6 +59938,74 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "source": "Územní plán"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.2171816,
+            49.597233
+          ],
+          [
+            17.2172075,
+            49.5970897
+          ],
+          [
+            17.2164852,
+            49.5970157
+          ],
+          [
+            17.2164892,
+            49.5970535
+          ],
+          [
+            17.2164907,
+            49.5970885
+          ],
+          [
+            17.2165515,
+            49.5971436
+          ],
+          [
+            17.2166366,
+            49.5971797
+          ],
+          [
+            17.2167426,
+            49.5972022
+          ],
+          [
+            17.2171535,
+            49.597231
+          ],
+          [
+            17.2171816,
+            49.597233
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 287879756,
+        "@url": "https://www.openstreetmap.org/way/287879756",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Neředín",
+        "opening_hours": "Mo-Sa 09:00-13:00,13:30-17:00, Su 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electronics": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tsmo.cz/sluzby/sberna-mista/"
       }
     },
     {
@@ -80191,6 +80213,10 @@
                 49.9952964
               ],
               [
+                14.6533916,
+                49.9953908
+              ],
+              [
                 14.6536525,
                 49.995539
               ],
@@ -83316,6 +83342,78 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "source": "Územní plán"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.2164852,
+                49.5970157
+              ],
+              [
+                17.2172075,
+                49.5970897
+              ],
+              [
+                17.2171816,
+                49.597233
+              ],
+              [
+                17.2171535,
+                49.597231
+              ],
+              [
+                17.2167426,
+                49.5972022
+              ],
+              [
+                17.2166366,
+                49.5971797
+              ],
+              [
+                17.2165515,
+                49.5971436
+              ],
+              [
+                17.2164907,
+                49.5970885
+              ],
+              [
+                17.2164892,
+                49.5970535
+              ],
+              [
+                17.2164852,
+                49.5970157
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 287879756,
+        "@url": "https://www.openstreetmap.org/way/287879756",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Neředín",
+        "opening_hours": "Mo-Sa 09:00-13:00,13:30-17:00, Su 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electronics": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tsmo.cz/sluzby/sberna-mista/"
       }
     },
     {

@@ -661,34 +661,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2168927,
-          49.5971398
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2914431129,
-        "@url": "https://www.openstreetmap.org/node/2914431129",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Neředín",
-        "opening_hours": "Mo-Sa 09:00-13:00,13:30-17:00, Su 09:00-13:00",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electronics": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "centre",
-        "website": "https://www.tsmo.cz/sluzby/sberna-mista/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4867318,
           50.0351123
         ]
@@ -1214,6 +1186,27 @@
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5942478,
+          49.2011002
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6139377446,
+        "@url": "https://www.openstreetmap.org/node/6139377446",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -27898,6 +27891,70 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9550364,
+          49.8664591
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13774421195,
+        "@url": "https://www.openstreetmap.org/node/13774421195",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8822803,
+          49.1508072
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13774612138,
+        "@url": "https://www.openstreetmap.org/node/13774612138",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1863879,
+          50.7906035
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13774686615,
+        "@url": "https://www.openstreetmap.org/node/13774686615",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -29195,6 +29252,74 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "source": "cuzk:km"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.2171816,
+            49.597233
+          ],
+          [
+            17.2172075,
+            49.5970897
+          ],
+          [
+            17.2164852,
+            49.5970157
+          ],
+          [
+            17.2164892,
+            49.5970535
+          ],
+          [
+            17.2164907,
+            49.5970885
+          ],
+          [
+            17.2165515,
+            49.5971436
+          ],
+          [
+            17.2166366,
+            49.5971797
+          ],
+          [
+            17.2167426,
+            49.5972022
+          ],
+          [
+            17.2171535,
+            49.597231
+          ],
+          [
+            17.2171816,
+            49.597233
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 287879756,
+        "@url": "https://www.openstreetmap.org/way/287879756",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Neředín",
+        "opening_hours": "Mo-Sa 09:00-13:00,13:30-17:00, Su 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electronics": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tsmo.cz/sluzby/sberna-mista/"
       }
     },
     {
@@ -33733,6 +33858,78 @@
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre",
         "source": "cuzk:km"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.2164852,
+                49.5970157
+              ],
+              [
+                17.2172075,
+                49.5970897
+              ],
+              [
+                17.2171816,
+                49.597233
+              ],
+              [
+                17.2171535,
+                49.597231
+              ],
+              [
+                17.2167426,
+                49.5972022
+              ],
+              [
+                17.2166366,
+                49.5971797
+              ],
+              [
+                17.2165515,
+                49.5971436
+              ],
+              [
+                17.2164907,
+                49.5970885
+              ],
+              [
+                17.2164892,
+                49.5970535
+              ],
+              [
+                17.2164852,
+                49.5970157
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 287879756,
+        "@url": "https://www.openstreetmap.org/way/287879756",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Neředín",
+        "opening_hours": "Mo-Sa 09:00-13:00,13:30-17:00, Su 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electronics": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.tsmo.cz/sluzby/sberna-mista/"
       }
     },
     {

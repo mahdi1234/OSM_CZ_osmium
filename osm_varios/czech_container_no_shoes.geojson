@@ -9661,8 +9661,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.7624994,
-          49.0034255
+          14.7625329,
+          49.003422
         ]
       },
       "properties": {
@@ -27955,6 +27955,46 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3708854,
+          50.0302483
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13785110409,
+        "@url": "https://www.openstreetmap.org/node/13785110409",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.369348,
+          50.0296868
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13785110410,
+        "@url": "https://www.openstreetmap.org/node/13785110410",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -30840,7 +30880,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:waste": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "wheelchair": "yes"
       }
     },
     {
@@ -35542,7 +35583,8 @@
         "recycling:scrap_metal": "yes",
         "recycling:waste": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre"
+        "recycling_type": "centre",
+        "wheelchair": "yes"
       }
     },
     {

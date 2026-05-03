@@ -8960,23 +8960,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7439553,
-          50.6619386
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 958272697,
-        "@url": "https://www.openstreetmap.org/node/958272697",
-        "amenity": "bench",
-        "ele": "1161.39"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.7442507,
           50.6611932
         ]
@@ -21791,7 +21774,9 @@
         "@url": "https://www.openstreetmap.org/node/5440873965",
         "ele": "1173",
         "name": "Hindenburgfelsen",
-        "natural": "peak"
+        "natural": "peak",
+        "summit:cross": "no",
+        "summit:register": "no"
       }
     },
     {

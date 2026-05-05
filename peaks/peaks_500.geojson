@@ -52998,6 +52998,7 @@
         "name": "Sobenský rybník (chaty)",
         "operator": "cz:KČT",
         "ref": "PB349;BD040",
+        "ref:kct": "BD040",
         "tourism": "information"
       }
     },
@@ -54339,9 +54340,9 @@
         "ele": "562",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Kuchyňka sedlo",
+        "name": "Čtyřmezí",
         "operator": "cz:KČT",
-        "ref": "PB064",
+        "ref": "PB044",
         "tourism": "information"
       }
     },
@@ -55199,6 +55200,7 @@
         "name": "Drahlín (rozc.)",
         "operator": "cz:KČT",
         "ref": "PB096",
+        "ref:kct": "BD004",
         "tourism": "information"
       }
     },
@@ -59948,6 +59950,7 @@
         "name": "Slonovec",
         "operator": "cz:KČT",
         "ref": "PB268",
+        "ref:kct": "BD071",
         "source": "surwey;gps",
         "tourism": "information"
       }
@@ -81537,7 +81540,7 @@
         "@type": "node",
         "@id": 7176812588,
         "@url": "https://www.openstreetmap.org/node/7176812588",
-        "ele": "575.5",
+        "ele": "576",
         "name": "Šance",
         "natural": "peak"
       }
@@ -95550,6 +95553,7 @@
         "ele": "500",
         "hiking": "yes",
         "information": "guidepost",
+        "kct:ref": "PB290",
         "name": "Hluboš (kostel)",
         "operator": "cz:KČT",
         "tourism": "information"
@@ -124699,6 +124703,24 @@
         "@id": 13788966778,
         "@url": "https://www.openstreetmap.org/node/13788966778",
         "ele": "521",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3770423,
+          49.5344782
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13796109966,
+        "@url": "https://www.openstreetmap.org/node/13796109966",
+        "ele": "593",
+        "name": "Horka",
         "natural": "peak"
       }
     },

@@ -15587,7 +15587,8 @@
         "information": "guidepost",
         "name": "Teslíny",
         "operator": "cz:KČT",
-        "ref": "PB346",
+        "ref": "PB346m,3034/0,PJ041a",
+        "ref:kct": "PJ041",
         "tourism": "information"
       }
     },
@@ -16491,6 +16492,7 @@
         "name": "Třemšínská bouda",
         "operator": "cz:KČT",
         "ref": "BD021",
+        "ref:kct": "BD021",
         "ski": "yes",
         "tourism": "information"
       }
@@ -23381,6 +23383,7 @@
         "name": "Hengst",
         "operator": "cz:KČT",
         "ref": "PB344",
+        "ref:kct": "BD083",
         "tourism": "information"
       }
     },
@@ -26230,6 +26233,7 @@
         "name": "Pod Plešcem",
         "operator": "cz:KČT",
         "ref": "PB399",
+        "ref:kct": "BD037",
         "tourism": "information"
       }
     },
@@ -27052,6 +27056,7 @@
         "@id": 5173419360,
         "@url": "https://www.openstreetmap.org/node/5173419360",
         "ele": "761",
+        "name": "Bačův vrch",
         "natural": "peak"
       }
     },
@@ -29052,6 +29057,7 @@
         "name": "Seník pod Tokem",
         "operator": "cz:KČT",
         "ref": "PB158",
+        "ref:kct": "BD008",
         "tourism": "information"
       }
     },
@@ -29399,6 +29405,7 @@
         "name": "Skelná huť",
         "operator": "cz:KČT",
         "ref": "PB390",
+        "ref:kct": "BD036",
         "tourism": "information"
       }
     },
@@ -37371,6 +37378,7 @@
         "@id": 9535813971,
         "@url": "https://www.openstreetmap.org/node/9535813971",
         "ele": "765",
+        "name": "Kyčera J",
         "natural": "peak",
         "source": "ČÚZK"
       }
@@ -44439,6 +44447,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.4049927,
+          49.562647
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12976287434,
+        "@url": "https://www.openstreetmap.org/node/12976287434",
+        "ele": "752",
+        "name": "Staškov",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3285523,
           50.5087097
         ]
@@ -49436,6 +49462,24 @@
         "@id": 13418170765,
         "@url": "https://www.openstreetmap.org/node/13418170765",
         "ele": "713",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3342734,
+          49.4653625
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13422081601,
+        "@url": "https://www.openstreetmap.org/node/13422081601",
+        "ele": "798",
+        "name": "Grúň",
         "natural": "peak"
       }
     },

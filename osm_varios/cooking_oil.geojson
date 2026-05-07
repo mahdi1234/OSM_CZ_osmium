@@ -13860,9 +13860,9 @@
         "@id": 5097983405,
         "@url": "https://www.openstreetmap.org/node/5097983405",
         "amenity": "recycling",
-        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -13968,7 +13968,7 @@
         "@url": "https://www.openstreetmap.org/node/5106322058",
         "amenity": "recycling",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -68114,6 +68114,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.0431627,
+          50.7810844
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13721168574,
+        "@url": "https://www.openstreetmap.org/node/13721168574",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0479519,
+          50.7849501
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13721168581,
+        "@url": "https://www.openstreetmap.org/node/13721168581",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.0322538,
           50.1903542
         ]
@@ -68305,8 +68351,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.1517741,
-          49.5900981
+          18.1517376,
+          49.590075
         ]
       },
       "properties": {

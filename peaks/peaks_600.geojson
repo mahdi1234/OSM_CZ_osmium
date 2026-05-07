@@ -4702,7 +4702,7 @@
         "@url": "https://www.openstreetmap.org/node/603155367",
         "ele": "678",
         "fixme": "pouze priblizne umisteni",
-        "name": "Na kozině",
+        "name": "Na Kozině",
         "natural": "peak",
         "source": "local_knowledge;cs.wikipedia.org"
       }
@@ -14441,7 +14441,7 @@
         "@id": 2041675656,
         "@url": "https://www.openstreetmap.org/node/2041675656",
         "ele": "660",
-        "name": "U vlčí jámy",
+        "name": "U Vlčí jámy",
         "natural": "peak",
         "source": "ČÚZK"
       }
@@ -15897,6 +15897,26 @@
         "name": "Polanka (chata)",
         "operator": "cz:KČT",
         "ref": "KA210",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7742507,
+          49.5589049
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2320338773,
+        "@url": "https://www.openstreetmap.org/node/2320338773",
+        "ele": "690",
+        "information": "guidepost",
+        "name": "Zemanka",
+        "ref:kct": "PB309",
         "tourism": "information"
       }
     },
@@ -17613,7 +17633,7 @@
         "@id": 2464142054,
         "@url": "https://www.openstreetmap.org/node/2464142054",
         "ele": "659",
-        "name": "Na homoli",
+        "name": "Na Homoli",
         "natural": "peak"
       }
     },
@@ -21370,7 +21390,7 @@
         "@url": "https://www.openstreetmap.org/node/2847927960",
         "alt_name": "Kamenné návrší",
         "ele": "667",
-        "name": "Za kravíny",
+        "name": "Za Kravíny",
         "natural": "peak",
         "source": "cuzk:km"
       }
@@ -35109,6 +35129,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.5273335,
+          49.4530222
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4339445093,
+        "@url": "https://www.openstreetmap.org/node/4339445093",
+        "ele": "643",
+        "mountain_pass": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.7593889,
           49.5115848
         ]
@@ -42206,8 +42243,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6199276,
-          50.8595221
+          14.620021,
+          50.8595339
         ]
       },
       "properties": {
@@ -48945,8 +48982,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6159067,
-          50.8592871
+          14.6157789,
+          50.859323
         ]
       },
       "properties": {
@@ -48970,8 +49007,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6081579,
-          50.8559551
+          14.6082885,
+          50.8559619
         ]
       },
       "properties": {
@@ -48984,6 +49021,7 @@
         "name": "Na Milíři",
         "operator": "cz:KČT",
         "ref": "CL346",
+        "ski": "yes",
         "tourism": "information"
       }
     },
@@ -77422,8 +77460,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.8478486,
-          49.5279359
+          13.8476945,
+          49.5279915
         ]
       },
       "properties": {
@@ -89935,6 +89973,94 @@
         "@url": "https://www.openstreetmap.org/node/13796109967",
         "ele": "697",
         "name": "Tribulka",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8794341,
+          49.5263089
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13799824121,
+        "@url": "https://www.openstreetmap.org/node/13799824121",
+        "ele": "620",
+        "name": "Špalková hora",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.856114,
+          49.5191022
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13799824122,
+        "@url": "https://www.openstreetmap.org/node/13799824122",
+        "ele": "602",
+        "name": "Mumlin",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8358764,
+          49.5320086
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13799824137,
+        "@url": "https://www.openstreetmap.org/node/13799824137",
+        "ele": "601",
+        "name": "Myslín",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.527308,
+          49.4511295
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13800438286,
+        "@url": "https://www.openstreetmap.org/node/13800438286",
+        "ele": "650",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5316183,
+          49.451874
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13800438287,
+        "@url": "https://www.openstreetmap.org/node/13800438287",
+        "ele": "649",
         "natural": "peak"
       }
     },

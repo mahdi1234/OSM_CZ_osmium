@@ -50905,6 +50905,25 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6726796,
+          49.5962026
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13807055002,
+        "@url": "https://www.openstreetmap.org/node/13807055002",
+        "ele": "728",
+        "historic": "memorial",
+        "inscription": "Na věčnou pamět\nBeskydským Salašníkům,\nHorákům a Bačům\nOd r. 1625 - 1955",
+        "name": "Pomník beskydským salašníkům, horalům a bačům"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -72584,6 +72603,46 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.6704056,
+            49.596309
+          ],
+          [
+            18.670463,
+            49.5962918
+          ],
+          [
+            18.670434,
+            49.5962511
+          ],
+          [
+            18.6703766,
+            49.5962683
+          ],
+          [
+            18.6704056,
+            49.596309
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1305675606,
+        "@url": "https://www.openstreetmap.org/way/1305675606",
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "shed",
+        "ele": "735",
+        "fireplace": "yes",
+        "name": "Přístřešek Pod Ostrým - sedlo",
+        "shelter_type": "basic_hut"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -72629,6 +72688,50 @@
         "intermittent": "no",
         "name": "Karlovská studánka",
         "natural": "spring"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.6703766,
+                49.5962683
+              ],
+              [
+                18.670434,
+                49.5962511
+              ],
+              [
+                18.670463,
+                49.5962918
+              ],
+              [
+                18.6704056,
+                49.596309
+              ],
+              [
+                18.6703766,
+                49.5962683
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1305675606,
+        "@url": "https://www.openstreetmap.org/way/1305675606",
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "shed",
+        "ele": "735",
+        "fireplace": "yes",
+        "name": "Přístřešek Pod Ostrým - sedlo",
+        "shelter_type": "basic_hut"
       }
     }
   ]

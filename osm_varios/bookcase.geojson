@@ -424,8 +424,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4547764,
-          50.0706349
+          14.4547479,
+          50.070783
         ]
       },
       "properties": {
@@ -433,7 +433,7 @@
         "@id": 4073109325,
         "@url": "https://www.openstreetmap.org/node/4073109325",
         "amenity": "public_bookcase",
-        "check_date": "2021-08-20"
+        "check_date": "2026-05-09"
       }
     },
     {
@@ -1388,6 +1388,7 @@
         "@url": "https://www.openstreetmap.org/node/7335049347",
         "amenity": "public_bookcase",
         "check_date": "2025-04-18",
+        "indoor": "yes",
         "opening_hours": "24/7",
         "public_bookcase:type": "shelter"
       }
@@ -12366,8 +12367,12 @@
         "@type": "node",
         "@id": 11951573852,
         "@url": "https://www.openstreetmap.org/node/11951573852",
+        "access": "yes",
         "amenity": "public_bookcase",
-        "opening_hours": "24/7"
+        "covered": "yes",
+        "opening_hours": "24/7",
+        "public_bookcase:type": "shelter",
+        "wheelchair": "no"
       }
     },
     {
@@ -12621,7 +12626,10 @@
         "@type": "node",
         "@id": 12014472516,
         "@url": "https://www.openstreetmap.org/node/12014472516",
-        "amenity": "public_bookcase"
+        "amenity": "public_bookcase",
+        "location": "indoor",
+        "name": "Kniha do vlaku",
+        "public_bookcase:type": "shelf"
       }
     },
     {
@@ -17492,6 +17500,23 @@
         "@url": "https://www.openstreetmap.org/node/13786292701",
         "amenity": "public_bookcase",
         "indoor": "yes",
+        "public_bookcase:type": "shelf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3499743,
+          50.8557933
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13811317533,
+        "@url": "https://www.openstreetmap.org/node/13811317533",
+        "amenity": "public_bookcase",
         "public_bookcase:type": "shelf"
       }
     },

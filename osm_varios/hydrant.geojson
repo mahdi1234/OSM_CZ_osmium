@@ -50053,7 +50053,10 @@
         "@type": "node",
         "@id": 13077720413,
         "@url": "https://www.openstreetmap.org/node/13077720413",
+        "couplings": "2",
         "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "80",
+        "fire_hydrant:position": "parking_lot",
         "fire_hydrant:type": "pillar"
       }
     },
@@ -56949,6 +56952,26 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "lane",
         "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1833402,
+          50.3871066
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13833623353,
+        "@url": "https://www.openstreetmap.org/node/13833623353",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "75",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
       }
     }
   ]

@@ -6005,6 +6005,33 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5908733,
+            49.213077
+          ],
+          [
+            16.5909316,
+            49.2130776
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1514598116,
+        "@url": "https://www.openstreetmap.org/way/1514598116",
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "step_count": "3",
+        "surface": "stone",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -10645,9 +10672,13 @@
         "@type": "way",
         "@id": 1433780996,
         "@url": "https://www.openstreetmap.org/way/1433780996",
+        "handrail": "yes",
         "highway": "steps",
         "incline": "up",
-        "step_count": "4"
+        "ramp": "no",
+        "step_count": "4",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -17953,16 +17984,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.609623,
-            49.1948416
+            16.6096237,
+            49.1948446
           ],
           [
-            16.6096583,
-            49.1948441
-          ],
-          [
-            16.6096919,
-            49.1948457
+            16.6096418,
+            49.1948458
           ]
         ]
       },
@@ -17974,7 +18001,7 @@
         "highway": "steps",
         "incline": "down",
         "lit": "yes",
-        "name": "Alfa pasáž",
+        "name": "Omega pasáž",
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "6",
@@ -23360,6 +23387,33 @@
         "step_count": "6",
         "surface": "metal_grid",
         "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.590637,
+            49.2133919
+          ],
+          [
+            16.5906864,
+            49.2134353
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1508272122,
+        "@url": "https://www.openstreetmap.org/way/1508272122",
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "step_count": "6",
+        "surface": "stone",
+        "wheelchair": "no"
       }
     },
     {
@@ -40011,12 +40065,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6099046,
-            49.1948624
+            16.6099095,
+            49.1948655
           ],
           [
-            16.6099413,
-            49.1948808
+            16.6099473,
+            49.1948788
           ]
         ]
       },
@@ -40981,12 +41035,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.6100636,
-            49.1947907
+            16.6100696,
+            49.1947817
           ],
           [
-            16.610033,
-            49.1947754
+            16.610039,
+            49.1947664
           ]
         ]
       },

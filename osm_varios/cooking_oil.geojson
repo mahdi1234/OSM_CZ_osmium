@@ -7966,6 +7966,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5224739,
+          50.0258047
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2852255396,
+        "@url": "https://www.openstreetmap.org/node/2852255396",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5236576,
           50.026461
         ]
@@ -14587,8 +14610,9 @@
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
         "recycling_type": "container"
       }

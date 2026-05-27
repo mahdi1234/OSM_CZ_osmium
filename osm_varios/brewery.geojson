@@ -7930,26 +7930,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.7616536,
-          50.0352861
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12813928692,
-        "@url": "https://www.openstreetmap.org/node/12813928692",
-        "amenity": "pub",
-        "brewery": "pernštejn",
-        "microbrewery": "yes",
-        "name": "Pardubická pivovarka",
-        "opening_hours": "Mo-Fr 09:00-11:30,12:00-16:30"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.6819634,
           48.7964325
         ]
@@ -9309,6 +9289,134 @@
         "ref:ruian:building": "24140783",
         "source": "cuzk:ruian",
         "website": "https://www.pivovarproud.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.91949,
+            50.0761722
+          ],
+          [
+            15.9193995,
+            50.0761684
+          ],
+          [
+            15.9193899,
+            50.0762569
+          ],
+          [
+            15.9195646,
+            50.0762647
+          ],
+          [
+            15.9195618,
+            50.0762908
+          ],
+          [
+            15.9196719,
+            50.0762957
+          ],
+          [
+            15.9197321,
+            50.0757347
+          ],
+          [
+            15.9197579,
+            50.0757358
+          ],
+          [
+            15.9197615,
+            50.0757021
+          ],
+          [
+            15.9197746,
+            50.0757028
+          ],
+          [
+            15.9197772,
+            50.0756591
+          ],
+          [
+            15.9197348,
+            50.0756572
+          ],
+          [
+            15.9197339,
+            50.0756652
+          ],
+          [
+            15.9195667,
+            50.0756588
+          ],
+          [
+            15.919563,
+            50.0756959
+          ],
+          [
+            15.9195204,
+            50.0756943
+          ],
+          [
+            15.9195098,
+            50.0758041
+          ],
+          [
+            15.9195515,
+            50.0758057
+          ],
+          [
+            15.9195272,
+            50.0760375
+          ],
+          [
+            15.9194976,
+            50.0760362
+          ],
+          [
+            15.9195058,
+            50.0759545
+          ],
+          [
+            15.9194249,
+            50.0759512
+          ],
+          [
+            15.9194099,
+            50.0760893
+          ],
+          [
+            15.9194978,
+            50.076093
+          ],
+          [
+            15.91949,
+            50.0761722
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 51320095,
+        "@url": "https://www.openstreetmap.org/way/51320095",
+        "addr:city": "Dolní Ředice",
+        "addr:housenumber": "300",
+        "addr:postcode": "53375",
+        "addr:street": "Dašická",
+        "building": "industrial",
+        "building:ruian:type": "12",
+        "craft": "brewery",
+        "internet_access": "no",
+        "name": "Pivovar Mordýř",
+        "opening_hours": "Mo 13-17, Fr 13-17",
+        "phone": "+420 604 618 668",
+        "product": "beer;lagers;ale;ipa",
+        "ref:ruian:building": "50334972",
+        "source": "cuzk:ruian",
+        "website": "http://pivovarmordyr.cz/"
       }
     },
     {
@@ -16950,6 +17058,138 @@
         "ref:ruian:building": "24140783",
         "source": "cuzk:ruian",
         "website": "https://www.pivovarproud.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.9193899,
+                50.0762569
+              ],
+              [
+                15.9193995,
+                50.0761684
+              ],
+              [
+                15.91949,
+                50.0761722
+              ],
+              [
+                15.9194978,
+                50.076093
+              ],
+              [
+                15.9194099,
+                50.0760893
+              ],
+              [
+                15.9194249,
+                50.0759512
+              ],
+              [
+                15.9195058,
+                50.0759545
+              ],
+              [
+                15.9194976,
+                50.0760362
+              ],
+              [
+                15.9195272,
+                50.0760375
+              ],
+              [
+                15.9195515,
+                50.0758057
+              ],
+              [
+                15.9195098,
+                50.0758041
+              ],
+              [
+                15.9195204,
+                50.0756943
+              ],
+              [
+                15.919563,
+                50.0756959
+              ],
+              [
+                15.9195667,
+                50.0756588
+              ],
+              [
+                15.9197339,
+                50.0756652
+              ],
+              [
+                15.9197348,
+                50.0756572
+              ],
+              [
+                15.9197772,
+                50.0756591
+              ],
+              [
+                15.9197746,
+                50.0757028
+              ],
+              [
+                15.9197615,
+                50.0757021
+              ],
+              [
+                15.9197579,
+                50.0757358
+              ],
+              [
+                15.9197321,
+                50.0757347
+              ],
+              [
+                15.9196719,
+                50.0762957
+              ],
+              [
+                15.9195618,
+                50.0762908
+              ],
+              [
+                15.9195646,
+                50.0762647
+              ],
+              [
+                15.9193899,
+                50.0762569
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 51320095,
+        "@url": "https://www.openstreetmap.org/way/51320095",
+        "addr:city": "Dolní Ředice",
+        "addr:housenumber": "300",
+        "addr:postcode": "53375",
+        "addr:street": "Dašická",
+        "building": "industrial",
+        "building:ruian:type": "12",
+        "craft": "brewery",
+        "internet_access": "no",
+        "name": "Pivovar Mordýř",
+        "opening_hours": "Mo 13-17, Fr 13-17",
+        "phone": "+420 604 618 668",
+        "product": "beer;lagers;ale;ipa",
+        "ref:ruian:building": "50334972",
+        "source": "cuzk:ruian",
+        "website": "http://pivovarmordyr.cz/"
       }
     },
     {

@@ -7637,45 +7637,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4291429,
-          49.0845716
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9775823138,
-        "@url": "https://www.openstreetmap.org/node/9775823138",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:fluorescent_tubes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:rubble": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling:tyres": "yes",
-        "recycling:wood": "yes",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.1657173,
           48.6310683
         ]
@@ -28401,6 +28362,24 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4307251,
+          50.0569414
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13894041192,
+        "@url": "https://www.openstreetmap.org/node/13894041192",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -32935,6 +32914,107 @@
         "recycling:plastic": "yes",
         "recycling_type": "centre",
         "source": "cuzk:km;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.4291802,
+            49.0845986
+          ],
+          [
+            16.4291873,
+            49.0845883
+          ],
+          [
+            16.4293652,
+            49.0843292
+          ],
+          [
+            16.4293855,
+            49.0842997
+          ],
+          [
+            16.4293248,
+            49.0842795
+          ],
+          [
+            16.4292863,
+            49.0842666
+          ],
+          [
+            16.4292494,
+            49.0842543
+          ],
+          [
+            16.4292352,
+            49.0842496
+          ],
+          [
+            16.4290136,
+            49.0843854
+          ],
+          [
+            16.4289866,
+            49.0844384
+          ],
+          [
+            16.4290509,
+            49.0844783
+          ],
+          [
+            16.4290818,
+            49.0846045
+          ],
+          [
+            16.4290889,
+            49.0846041
+          ],
+          [
+            16.4291303,
+            49.0846016
+          ],
+          [
+            16.4291729,
+            49.084599
+          ],
+          [
+            16.4291802,
+            49.0845986
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1524408303,
+        "@url": "https://www.openstreetmap.org/way/1524408303",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -37746,6 +37826,111 @@
         "recycling:plastic": "yes",
         "recycling_type": "centre",
         "source": "cuzk:km;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4289866,
+                49.0844384
+              ],
+              [
+                16.4290136,
+                49.0843854
+              ],
+              [
+                16.4292352,
+                49.0842496
+              ],
+              [
+                16.4292494,
+                49.0842543
+              ],
+              [
+                16.4292863,
+                49.0842666
+              ],
+              [
+                16.4293248,
+                49.0842795
+              ],
+              [
+                16.4293855,
+                49.0842997
+              ],
+              [
+                16.4293652,
+                49.0843292
+              ],
+              [
+                16.4291873,
+                49.0845883
+              ],
+              [
+                16.4291802,
+                49.0845986
+              ],
+              [
+                16.4291729,
+                49.084599
+              ],
+              [
+                16.4291303,
+                49.0846016
+              ],
+              [
+                16.4290889,
+                49.0846041
+              ],
+              [
+                16.4290818,
+                49.0846045
+              ],
+              [
+                16.4290509,
+                49.0844783
+              ],
+              [
+                16.4289866,
+                49.0844384
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1524408303,
+        "@url": "https://www.openstreetmap.org/way/1524408303",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

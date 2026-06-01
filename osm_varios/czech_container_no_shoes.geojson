@@ -2655,8 +2655,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.8535268,
-          49.3511974
+          17.8533364,
+          49.3512144
         ]
       },
       "properties": {
@@ -18888,6 +18888,7 @@
         "@id": 12277317861,
         "@url": "https://www.openstreetmap.org/node/12277317861",
         "amenity": "recycling",
+        "operator": "KlokTex",
         "recycling:clothes": "yes",
         "recycling_type": "container",
         "source": "survey"
@@ -33020,6 +33021,50 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.7752174,
+            50.1361017
+          ],
+          [
+            15.7752159,
+            50.1360049
+          ],
+          [
+            15.7756784,
+            50.1360019
+          ],
+          [
+            15.7756792,
+            50.1360497
+          ],
+          [
+            15.77568,
+            50.1360986
+          ],
+          [
+            15.7752174,
+            50.1361017
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1524770012,
+        "@url": "https://www.openstreetmap.org/way/1524770012",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -37930,6 +37975,54 @@
         "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.7752159,
+                50.1360049
+              ],
+              [
+                15.7756784,
+                50.1360019
+              ],
+              [
+                15.7756792,
+                50.1360497
+              ],
+              [
+                15.77568,
+                50.1360986
+              ],
+              [
+                15.7752174,
+                50.1361017
+              ],
+              [
+                15.7752159,
+                50.1360049
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1524770012,
+        "@url": "https://www.openstreetmap.org/way/1524770012",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
       }
     }

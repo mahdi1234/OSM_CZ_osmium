@@ -30967,8 +30967,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1647372,
-          50.659719
+          15.1648008,
+          50.65987
         ]
       },
       "properties": {
@@ -30980,6 +30980,7 @@
         "name:de": "Kopainberg",
         "natural": "peak",
         "prominence": "94",
+        "source": "ČÚZK",
         "wikidata": "Q1783874",
         "wikimedia_commons": "Category:Kopanina (Ještědský hřbet)",
         "wikipedia": "cs:Kopanina (Ještědsko-kozákovský hřbet)"
@@ -62008,8 +62009,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.0976011,
-          50.8696647
+          15.0977747,
+          50.8696895
         ]
       },
       "properties": {
@@ -62023,7 +62024,8 @@
         "name": "Centrální žlab",
         "name:cs": "Horní Lysá skála",
         "name:de": "Kahlstein",
-        "source": "survey;gps;local knowing",
+        "ref:chs": "56977",
+        "source": "horosvaz.cz",
         "sport": "climbing",
         "website": "https://www.horosvaz.cz/skaly-cesta-56977/"
       }
@@ -62862,17 +62864,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.1641154,
-          50.6541031
+          15.1637774,
+          50.6541421
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 9482964093,
         "@url": "https://www.openstreetmap.org/node/9482964093",
-        "ele": "615",
+        "ele": "614",
         "name": "Mandlová hora",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "ČÚZK"
       }
     },
     {
@@ -90346,6 +90349,28 @@
         "ele": "625",
         "name": "Na Luňáku",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2545204,
+          50.3627799
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13899776482,
+        "@url": "https://www.openstreetmap.org/node/13899776482",
+        "ele": "654",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Nový Hrádek (rozhledna na Šibeníku)",
+        "operator": "cz:KČT",
+        "ref": "NA328",
+        "tourism": "information"
       }
     },
     {

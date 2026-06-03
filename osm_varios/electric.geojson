@@ -55495,6 +55495,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.3635646,
+          50.0554193
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13302668907,
+        "@url": "https://www.openstreetmap.org/node/13302668907",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:PET": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container",
+        "ref": "0005/091",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5376646,
           50.6728572
         ]
@@ -80069,6 +80101,104 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.2764063,
+            49.4025158
+          ],
+          [
+            13.275755,
+            49.4023971
+          ],
+          [
+            13.275527,
+            49.4024014
+          ],
+          [
+            13.275304,
+            49.4023908
+          ],
+          [
+            13.2749913,
+            49.4023611
+          ],
+          [
+            13.2749376,
+            49.402359
+          ],
+          [
+            13.2744426,
+            49.4024745
+          ],
+          [
+            13.2739069,
+            49.4026726
+          ],
+          [
+            13.2736846,
+            49.4031452
+          ],
+          [
+            13.2737009,
+            49.4031643
+          ],
+          [
+            13.274213,
+            49.403213
+          ],
+          [
+            13.2745265,
+            49.4032586
+          ],
+          [
+            13.2745932,
+            49.4032421
+          ],
+          [
+            13.2747707,
+            49.4032702
+          ],
+          [
+            13.2747626,
+            49.4032835
+          ],
+          [
+            13.2757729,
+            49.4034366
+          ],
+          [
+            13.2764063,
+            49.4025158
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1525413894,
+        "@url": "https://www.openstreetmap.org/way/1525413894",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Klatovy",
+        "operator": "Pošumavská odpadová, s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.posumavskaodpadova.cz/posumavskaodpadova/klatovy-sbernydvur.asp"
       }
     },
     {
@@ -104694,6 +104824,108 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.2736846,
+                49.4031452
+              ],
+              [
+                13.2739069,
+                49.4026726
+              ],
+              [
+                13.2744426,
+                49.4024745
+              ],
+              [
+                13.2749376,
+                49.402359
+              ],
+              [
+                13.2749913,
+                49.4023611
+              ],
+              [
+                13.275304,
+                49.4023908
+              ],
+              [
+                13.275527,
+                49.4024014
+              ],
+              [
+                13.275755,
+                49.4023971
+              ],
+              [
+                13.2764063,
+                49.4025158
+              ],
+              [
+                13.2757729,
+                49.4034366
+              ],
+              [
+                13.2747626,
+                49.4032835
+              ],
+              [
+                13.2747707,
+                49.4032702
+              ],
+              [
+                13.2745932,
+                49.4032421
+              ],
+              [
+                13.2745265,
+                49.4032586
+              ],
+              [
+                13.274213,
+                49.403213
+              ],
+              [
+                13.2737009,
+                49.4031643
+              ],
+              [
+                13.2736846,
+                49.4031452
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1525413894,
+        "@url": "https://www.openstreetmap.org/way/1525413894",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Klatovy",
+        "operator": "Pošumavská odpadová, s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.posumavskaodpadova.cz/posumavskaodpadova/klatovy-sbernydvur.asp"
       }
     }
   ]

@@ -384,12 +384,11 @@
         "@type": "node",
         "@id": 298450012,
         "@url": "https://www.openstreetmap.org/node/298450012",
-        "alt_name": "Jelení skály",
+        "alt_name": "Jelení skála",
         "ele": "676",
-        "name": "Jelení skála",
+        "name": "Konopáč",
         "name:de": "Hanfkuchen",
         "natural": "peak",
-        "old_name": "Hanfkuchen",
         "source": "ČÚZK",
         "wikidata": "Q13427224"
       }
@@ -42676,8 +42675,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5912707,
-          50.8373955
+          14.5912848,
+          50.8373332
         ]
       },
       "properties": {
@@ -63762,8 +63761,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5918635,
-          50.8382069
+          14.5917562,
+          50.8381108
         ]
       },
       "properties": {
@@ -63771,7 +63770,6 @@
         "@id": 9780966516,
         "@url": "https://www.openstreetmap.org/node/9780966516",
         "ele": "650",
-        "fixme": "position",
         "hiking": "yes",
         "information": "guidepost",
         "name": "Stožecký hřbet",
@@ -102310,6 +102308,55 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.5511465,
+                49.9821831
+              ],
+              [
+                12.551237,
+                49.9821754
+              ],
+              [
+                12.5512496,
+                49.9822411
+              ],
+              [
+                12.5511591,
+                49.9822488
+              ],
+              [
+                12.5511465,
+                49.9821831
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "relation",
+        "@id": 17142356,
+        "@url": "https://www.openstreetmap.org/relation/17142356",
+        "amenity": "place_of_worship",
+        "area": "yes",
+        "building": "church",
+        "building:ruian:type": "15",
+        "ele": "666",
+        "name": "Kostel sv. Jana Křtitele",
+        "ref:ruian:building": "48221830",
+        "religion": "christian",
+        "ruins": "church",
+        "source": "cuzk:ruian",
+        "wikidata": "Q20008644",
+        "wikipedia": "cs:Kostel Narození svatého Jana Křtitele (Vysoká)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -102411,55 +102458,6 @@
         "@url": "https://www.openstreetmap.org/way/1513400778",
         "ele": "663",
         "natural": "bare_rock"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                12.5511465,
-                49.9821831
-              ],
-              [
-                12.551237,
-                49.9821754
-              ],
-              [
-                12.5512496,
-                49.9822411
-              ],
-              [
-                12.5511591,
-                49.9822488
-              ],
-              [
-                12.5511465,
-                49.9821831
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "relation",
-        "@id": 17142356,
-        "@url": "https://www.openstreetmap.org/relation/17142356",
-        "amenity": "place_of_worship",
-        "area": "yes",
-        "building": "church",
-        "building:ruian:type": "15",
-        "ele": "666",
-        "name": "Kostel sv. Jana Křtitele",
-        "ref:ruian:building": "48221830",
-        "religion": "christian",
-        "ruins": "church",
-        "source": "cuzk:ruian",
-        "wikidata": "Q20008644",
-        "wikipedia": "cs:Kostel Narození svatého Jana Křtitele (Vysoká)"
       }
     },
     {

@@ -266,28 +266,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.9773742,
-          49.7279977
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 287378050,
-        "@url": "https://www.openstreetmap.org/node/287378050",
-        "ele": "674",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Vojtěchův kopec (vyhl.)",
-        "operator": "cz:KČT",
-        "ref": "CR148",
-        "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.0313519,
           49.6883137
         ]
@@ -15176,7 +15154,9 @@
         "name": "Zvičina",
         "name:de": "Switschin Berg",
         "natural": "peak",
+        "prominence": "194",
         "wikidata": "Q10861581",
+        "wikimedia_commons": "Category:Zvičina",
         "wikipedia": "cs:Zvičina"
       }
     },
@@ -15218,7 +15198,9 @@
         "name": "Liščí hora",
         "name:de": "Fuchsberg",
         "natural": "peak",
+        "prominence": "175",
         "wikidata": "Q12033743",
+        "wikimedia_commons": "Category:Liščí hora (Krkonošské podhůří)",
         "wikipedia": "cs:Liščí hora (Krkonošské podhůří)"
       }
     },
@@ -18592,8 +18574,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.9040049,
-          50.5995198
+          15.9050783,
+          50.599363
         ]
       },
       "properties": {
@@ -18602,9 +18584,11 @@
         "@url": "https://www.openstreetmap.org/node/2543847915",
         "ele": "635",
         "name": "Zámecký vrch",
-        "name:de": "Schloss-Berg",
+        "name:de": "Schlossberg",
         "natural": "peak",
-        "tourism": "yes"
+        "tourism": "yes",
+        "wikidata": "Q10937781",
+        "wikipedia": "cs:Zámecký vrch (Krkonošské podhůří)"
       }
     },
     {
@@ -90466,6 +90450,68 @@
         "@id": 13912215598,
         "@url": "https://www.openstreetmap.org/node/13912215598",
         "ele": "665",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.977362,
+          49.7279921
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13921951503,
+        "@url": "https://www.openstreetmap.org/node/13921951503",
+        "ele": "674",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Vojtěchův kopec (vyhl.)",
+        "operator": "cz:KČT",
+        "ref": "CR148",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.548683,
+          50.5177183
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13922887724,
+        "@url": "https://www.openstreetmap.org/node/13922887724",
+        "ele": "607.6",
+        "name": "Kozinec",
+        "natural": "peak",
+        "prominence": "110",
+        "wikidata": "Q20755101",
+        "wikimedia_commons": "Category:Kozinec (608 m)",
+        "wikipedia": "cs:Kozinec (Krkonošské podhůří)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3091075,
+          49.6228244
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13923343033,
+        "@url": "https://www.openstreetmap.org/node/13923343033",
+        "ele": "616",
+        "name": "Bulánkův kopec",
         "natural": "peak"
       }
     },

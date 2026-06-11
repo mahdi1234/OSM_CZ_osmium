@@ -718,6 +718,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5136505,
+          50.3249105
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13926043597,
+        "@url": "https://www.openstreetmap.org/node/13926043597",
+        "amenity": "recycling",
+        "building": "industrial",
+        "name": "PH Kovo Recycling",
+        "opening_hours": "Mo 09:00-16:00; Tu off; We 09:00-16:00; Th off; Fr 09:00-16:00; Sa 09:00-12:00; Su off",
+        "phone": "+420 737 548 267",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -4529,6 +4550,72 @@
         "@url": "https://www.openstreetmap.org/way/1527648746",
         "amenity": "recycling",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.2807734,
+                49.582408
+              ],
+              [
+                17.2812149,
+                49.5823666
+              ],
+              [
+                17.2812813,
+                49.5823604
+              ],
+              [
+                17.2813604,
+                49.5827148
+              ],
+              [
+                17.2808524,
+                49.5827624
+              ],
+              [
+                17.2808443,
+                49.5827258
+              ],
+              [
+                17.2808122,
+                49.5825822
+              ],
+              [
+                17.2807973,
+                49.5825153
+              ],
+              [
+                17.2807734,
+                49.582408
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1528266411,
+        "@url": "https://www.openstreetmap.org/way/1528266411",
+        "addr:city": "Olomouc",
+        "addr:postcode": "77900",
+        "addr:street": "Holická",
+        "amenity": "recycling",
+        "contact:facebook": "https:https://www.facebook.com/people/Sb%C4%9Brna-%C4%8Cernov%C3%ADr-pobo%C4%8Dka-Olomouc-Holick%C3%A1-49a/61571581151171/",
+        "contact:instagram": "https://www.instagram.com/sberna.olomouc.cernovir/",
+        "contact:twitter": "https://x.com/Sberna_Cernovir",
+        "email": "info@sberna-holicka.cz",
+        "name": "(M) Sběrna Černovír pobočka Olomouc Holická",
+        "opening_hours": "Mo-Fr 09:00-15:00; Sa 09:00-12:00",
+        "phone": "+420 775 605 027",
+        "recycling_type": "centre",
+        "website": "https://www.sberna-holicka.cz/domu"
       }
     }
   ]

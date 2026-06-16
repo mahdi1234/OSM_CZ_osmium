@@ -452,6 +452,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.6408072,
+          50.496889
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 649788470,
+        "@url": "https://www.openstreetmap.org/node/649788470",
+        "addr:city": "Most",
+        "addr:housenumber": "2629/5",
+        "addr:postcode": "434 01",
+        "addr:street": "Obránců míru",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "level": "1",
+        "microbrewery": "yes",
+        "name": "Pivovarská restaurace Mostecký Kahan",
+        "opening_hours": "Mo-Th 15:00-22:00; Fr-Sa 15:00-24:00",
+        "website": "http://mosteckykahan.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.3347025,
           50.6039451
         ]
@@ -4160,15 +4186,21 @@
         "@type": "node",
         "@id": 5171505221,
         "@url": "https://www.openstreetmap.org/node/5171505221",
+        "addr:city": "Teplice",
+        "addr:housenumber": "433/42",
+        "addr:postcode": "41501",
+        "addr:street": "Masarykova třída",
         "amenity": "restaurant",
         "contact:email": "info@pivovarmonopol.cz",
-        "contact:phone": "+420 727844414",
+        "contact:phone": "+420 727 844 414",
         "contact:website": "http://www.pivovarmonopol.cz",
         "cuisine": "regional",
         "internet_access": "wlan",
+        "level": "0",
         "microbrewery": "yes",
         "name": "Monopol",
-        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00; Su 11:00-22:00"
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00; Su 11:00-22:00",
+        "wheelchair": "yes"
       }
     },
     {
@@ -7195,6 +7227,33 @@
         "opening_hours": "Mo-Fr 08:00-14:30",
         "phone": "+420 558 736 425",
         "website": "https://www.pivobaraba.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6315814,
+          50.502628
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11198480037,
+        "@url": "https://www.openstreetmap.org/node/11198480037",
+        "addr:city": "Most",
+        "addr:housenumber": "3450",
+        "addr:postcode": "43401",
+        "addr:street": "Pod Koňským vrchem",
+        "amenity": "restaurant",
+        "contact:phone": "+420 725 755 866",
+        "cuisine": "regional;burger",
+        "microbrewery": "yes",
+        "name": "Minipivovar Most",
+        "outdoor_seating": "terrace",
+        "website": "https://minipivovarmost.cz",
+        "wheelchair": "yes"
       }
     },
     {
@@ -11788,9 +11847,16 @@
         "@type": "way",
         "@id": 114624491,
         "@url": "https://www.openstreetmap.org/way/114624491",
+        "addr:city": "Děčín",
+        "addr:housenumber": "1264/10c",
+        "addr:postcode": "405 02",
+        "addr:street": "U Plovárny",
         "building": "industrial",
         "craft": "brewery",
+        "level": "-0.5",
+        "microbrewery": "yes",
         "name": "Sever",
+        "outdoor_seating": "veranda",
         "website": "https://www.pivovarsever.cz/"
       }
     },
@@ -19868,9 +19934,16 @@
         "@type": "way",
         "@id": 114624491,
         "@url": "https://www.openstreetmap.org/way/114624491",
+        "addr:city": "Děčín",
+        "addr:housenumber": "1264/10c",
+        "addr:postcode": "405 02",
+        "addr:street": "U Plovárny",
         "building": "industrial",
         "craft": "brewery",
+        "level": "-0.5",
+        "microbrewery": "yes",
         "name": "Sever",
+        "outdoor_seating": "veranda",
         "website": "https://www.pivovarsever.cz/"
       }
     },

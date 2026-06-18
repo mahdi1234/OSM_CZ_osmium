@@ -3749,7 +3749,8 @@
         "@type": "node",
         "@id": 7900534985,
         "@url": "https://www.openstreetmap.org/node/7900534985",
-        "amenity": "public_bookcase"
+        "amenity": "public_bookcase",
+        "check_date": "2026-06-16"
       }
     },
     {
@@ -6216,6 +6217,7 @@
         "@url": "https://www.openstreetmap.org/node/9002098799",
         "amenity": "public_bookcase",
         "fixme": "position and access (indoor or outdoor)",
+        "indoor": "no",
         "operator": "Městská knihovna v Praze"
       }
     },
@@ -10850,32 +10852,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4933967,
-          49.0751793
+          16.4932584,
+          49.0751448
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 11218538480,
         "@url": "https://www.openstreetmap.org/node/11218538480",
-        "amenity": "public_bookcase",
-        "opening_hours": "24/7",
-        "public_bookcase:type": "box"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.4938278,
-          49.0753439
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11218538482,
-        "@url": "https://www.openstreetmap.org/node/11218538482",
         "amenity": "public_bookcase",
         "opening_hours": "24/7",
         "public_bookcase:type": "box"
@@ -17762,6 +17746,25 @@
         "access": "permissive",
         "amenity": "public_bookcase",
         "public_bookcase:type": "shelf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0663179,
+          50.7255996
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13945108989,
+        "@url": "https://www.openstreetmap.org/node/13945108989",
+        "amenity": "public_bookcase",
+        "colour": "red",
+        "name": "Knihobudka Vesec",
+        "public_bookcase:type": "phone_box"
       }
     },
     {

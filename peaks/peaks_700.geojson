@@ -26951,7 +26951,7 @@
         "@id": 5094298393,
         "@url": "https://www.openstreetmap.org/node/5094298393",
         "ele": "746",
-        "name": "Na skálách",
+        "name": "Na Skálách",
         "natural": "peak",
         "source": "ČÚZK"
       }
@@ -52197,6 +52197,48 @@
         "type": "LineString",
         "coordinates": [
           [
+            14.9515138,
+            49.3901415
+          ],
+          [
+            14.9515208,
+            49.3902204
+          ],
+          [
+            14.9516418,
+            49.3902159
+          ],
+          [
+            14.9516348,
+            49.390137
+          ],
+          [
+            14.9515138,
+            49.3901415
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 262686283,
+        "@url": "https://www.openstreetmap.org/way/262686283",
+        "communication:mobile_phone": "yes",
+        "ele": "702",
+        "height": "50",
+        "man_made": "mast",
+        "material": "steel",
+        "ref:ruian:building": "45281343",
+        "source": "cuzk:ruian",
+        "tower:construction": "guyed_lattice",
+        "tower:type": "communication"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             13.1331209,
             50.422638
           ],
@@ -53072,6 +53114,52 @@
         "ref:ruian:building": "27613674",
         "source": "cuzk:ruian",
         "start_date": "2010-06-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.9515138,
+                49.3901415
+              ],
+              [
+                14.9516348,
+                49.390137
+              ],
+              [
+                14.9516418,
+                49.3902159
+              ],
+              [
+                14.9515208,
+                49.3902204
+              ],
+              [
+                14.9515138,
+                49.3901415
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 262686283,
+        "@url": "https://www.openstreetmap.org/way/262686283",
+        "communication:mobile_phone": "yes",
+        "ele": "702",
+        "height": "50",
+        "man_made": "mast",
+        "material": "steel",
+        "ref:ruian:building": "45281343",
+        "source": "cuzk:ruian",
+        "tower:construction": "guyed_lattice",
+        "tower:type": "communication"
       }
     },
     {

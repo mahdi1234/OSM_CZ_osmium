@@ -5818,10 +5818,12 @@
         "addr:postcode": "332 09",
         "addr:street": "Čižice",
         "amenity": "restaurant",
+        "contact:facebook": "PivovarBizon",
         "craft": "brewery",
         "email": "ubizona@seznam.cz",
         "microbrewery": "yes",
         "name": "Pivovar Bizon",
+        "opening_hours": "We-Fr 16:00-22:00; Sa-Su 12:00-22:00",
         "phone": "+420 607 970 506",
         "website": "https://ubizona.eu/"
       }
@@ -5844,9 +5846,12 @@
         "addr:housenumber": "833",
         "addr:postcode": "33901",
         "addr:street": "Budovcova",
+        "contact:facebook": "klatovskepivo",
         "craft": "brewery",
+        "email": "klatovskepivo@seznam.cz",
         "microbrewery": "yes",
         "name": "Měšťanský pivovar Klatovy",
+        "phone": "+420608950660",
         "website": "http://www.klatovskepivo.cz/"
       }
     },
@@ -5924,10 +5929,13 @@
         "addr:postcode": "30100",
         "addr:street": "Radobyčická náves",
         "amenity": "pub",
+        "contact:facebook": "minipivovarradobycice",
+        "contact:instagram": "minipivovarradobycice",
         "craft": "brewery",
         "email": "info@pivovarradobycice.cz",
         "microbrewery": "yes",
         "name": "Rodinný pivovar Radobyčice",
+        "opening_hours": "Th-Su 15:00-21:00",
         "outdoor_seating": "yes",
         "phone": "+420 776 555 753",
         "website": "https://pivovarradobycice.cz/"
@@ -8325,11 +8333,18 @@
         "@type": "node",
         "@id": 13306893734,
         "@url": "https://www.openstreetmap.org/node/13306893734",
+        "addr:housenumber": "148",
+        "addr:postcode": "26223",
         "amenity": "pub",
+        "contact:facebook": "pivovarfenik",
+        "contact:instagram": "pivovarfenik",
         "indoor_seating": "yes",
         "microbrewery": "yes",
-        "name": "Pivovar Fénik",
-        "outdoor_seating": "yes"
+        "name": "Pivovar Fenik",
+        "opening_hours": "Mo-Th 16:00-20:00; Fr-Su 14:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+420602173175",
+        "website": "http://www.pivovarfenik.cz"
       }
     },
     {
@@ -8558,6 +8573,53 @@
         "name": "Pivovar Sever",
         "outdoor_seating": "veranda",
         "website": "https://www.pivovarsever.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2002732,
+          49.5637431
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13950215502,
+        "@url": "https://www.openstreetmap.org/node/13950215502",
+        "addr:housenumber": "383",
+        "addr:postcode": "33452",
+        "addr:street": "Za Školou",
+        "craft": "brewery",
+        "email": "petr.petruzalek@volny.cz",
+        "name": "Pivovar Petr Petružálek",
+        "phone": "+420704762269",
+        "website": "https://www.pivovarpetrpetruzalek.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9040313,
+          49.2596246
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13950306201,
+        "@url": "https://www.openstreetmap.org/node/13950306201",
+        "addr:housenumber": "83",
+        "addr:postcode": "38601",
+        "addr:street": "Palackého náměstí",
+        "contact:facebook": "Minipivovarhadak",
+        "craft": "brewery",
+        "email": "vladimir.had@email.cz",
+        "name": "Minipivovar Haďák",
+        "opening_hours": "Th 18:00-22:00; Fr-Sa 18:00-01:00",
+        "phone": "+420602434410"
       }
     },
     {

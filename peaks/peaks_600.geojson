@@ -1278,6 +1278,8 @@
         "ele": "628",
         "name": "Hradec",
         "natural": "peak",
+        "summit:cross": "yes",
+        "summit:register": "yes",
         "wikidata": "Q7867046"
       }
     },
@@ -6837,14 +6839,15 @@
         "@type": "node",
         "@id": 1021295998,
         "@url": "https://www.openstreetmap.org/node/1021295998",
+        "disused:tourism": "information",
         "ele": "628",
         "hiking": "yes",
+        "image": "https://osm.fit.vut.cz/fody/files/17482.jpg",
         "information": "guidepost",
         "name": "Hradec",
         "note": "neudržovaný rozcestník",
         "operator": "cz:KČT",
-        "ref": "6115/5",
-        "tourism": "information"
+        "ref": "6115/5"
       }
     },
     {
@@ -22908,6 +22911,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.8654784,
+          49.4099532
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2985745530,
+        "@url": "https://www.openstreetmap.org/node/2985745530",
+        "ele": "633",
+        "name": "Lázy",
+        "natural": "saddle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.3816868,
           49.546104
         ]
@@ -24641,7 +24662,9 @@
         "ele": "642",
         "elev": "642",
         "name": "Liška",
-        "natural": "peak"
+        "natural": "peak",
+        "summit:cross": "no",
+        "summit:register": "yes"
       }
     },
     {
@@ -53426,6 +53449,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.7735332,
+          49.3662716
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6054730532,
+        "@url": "https://www.openstreetmap.org/node/6054730532",
+        "ele": "687",
+        "name": "Tesák",
+        "natural": "saddle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.8428074,
           49.5268781
         ]
@@ -80921,6 +80962,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.6979657,
+          49.3762002
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13114527249,
+        "@url": "https://www.openstreetmap.org/node/13114527249",
+        "ele": "681",
+        "name": "Svatý Hostýn",
+        "natural": "saddle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.8083475,
           48.7632139
         ]
@@ -90545,6 +90604,60 @@
         "natural": "peak",
         "wikidata": "Q11694328",
         "wikipedia": "cs:Dlouhý vrch (Broumovská vrchovina)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4770777,
+          49.5105192
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13950958525,
+        "@url": "https://www.openstreetmap.org/node/13950958525",
+        "ele": "617",
+        "name": "Buč",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4689285,
+          49.5078027
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13950958526,
+        "@url": "https://www.openstreetmap.org/node/13950958526",
+        "ele": "615",
+        "name": "Čihátka",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1181721,
+          49.8304721
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13952605102,
+        "@url": "https://www.openstreetmap.org/node/13952605102",
+        "ele": "642",
+        "man_made": "survey_point",
+        "name": "Liška"
       }
     },
     {

@@ -1580,27 +1580,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2779675,
-          48.5750075
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 444639701,
-        "@url": "https://www.openstreetmap.org/node/444639701",
-        "ele": "819",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Hraniční potok (CZ/A)",
-        "ref": "CK422",
-        "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.0556365,
           50.4422402
         ]
@@ -9803,8 +9782,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2724883,
-          48.6136907
+          14.2724668,
+          48.6137244
         ]
       },
       "properties": {
@@ -11049,8 +11028,9 @@
         "ele": "881",
         "hiking": "yes",
         "information": "guidepost",
+        "inscription": "Skalnatý vrchol (887 m n. m.) s výhledem, původ názvu v německém Wicklefskirche.",
         "name": "Vyklestilka",
-        "old_ref": "0133/38; 6373/6,5",
+        "old_ref": "0133/38;6373/6,5",
         "operator": "cz:KČT",
         "ref": "CK142",
         "tourism": "information"
@@ -20600,20 +20580,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2747378,
-          48.6118455
+          14.2748991,
+          48.611956
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 4838135263,
         "@url": "https://www.openstreetmap.org/node/4838135263",
+        "description": "Koncová značka odbočky",
         "ele": "887",
         "hiking": "yes",
-        "information": "guidepost",
-        "name": "Vyklestilka vrchol",
+        "information": "route_marker",
+        "name": "Vyklestilka (vrchol)",
         "operator": "cz:KČT",
-        "ref": "CK470",
+        "source:ele": "rozcestník na začátku odbočky",
+        "source:name": "rozcestník na začátku odbočky",
         "tourism": "information"
       }
     },
@@ -39952,6 +39934,28 @@
         "name": "Lipová",
         "operator": "cz:KČT",
         "ref": "CK146",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2604029,
+          48.5870374
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13953838914,
+        "@url": "https://www.openstreetmap.org/node/13953838914",
+        "ele": "850",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Frantoly (býv. obec)",
+        "noref": "yes",
+        "operator": "cz:KČT",
         "tourism": "information"
       }
     },

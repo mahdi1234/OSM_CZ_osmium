@@ -25026,8 +25026,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.4589734,
-          49.6579885
+          15.4589385,
+          49.6579712
         ]
       },
       "properties": {
@@ -33589,8 +33589,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5800827,
-          49.2907494
+          16.5801415,
+          49.290743
         ]
       },
       "properties": {
@@ -34316,8 +34316,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5784843,
-          49.2906529
+          16.5795052,
+          49.2903236
         ]
       },
       "properties": {
@@ -44134,6 +44134,31 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2580304,
+          50.0761816
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8123708966,
+        "@url": "https://www.openstreetmap.org/node/8123708966",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -112938,6 +112963,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.827556,
+          49.1400246
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12960947898,
+        "@url": "https://www.openstreetmap.org/node/12960947898",
+        "amenity": "recycling",
+        "mobile": "+420 724 045 321",
+        "opening_hours": "We 10:00-18:00; Sa 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obec-krenovice.cz/zivot-v-obci/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.4295052,
           49.3467544
         ]
@@ -144099,6 +144166,84 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.4989375,
+            49.1558784
+          ],
+          [
+            16.4989967,
+            49.1558832
+          ],
+          [
+            16.4990376,
+            49.1558865
+          ],
+          [
+            16.4991694,
+            49.1559283
+          ],
+          [
+            16.4997601,
+            49.1559797
+          ],
+          [
+            16.4997917,
+            49.1558225
+          ],
+          [
+            16.49909,
+            49.1557621
+          ],
+          [
+            16.4989629,
+            49.1558381
+          ],
+          [
+            16.4989491,
+            49.1558492
+          ],
+          [
+            16.4989375,
+            49.1558784
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1347101816,
+        "@url": "https://www.openstreetmap.org/way/1347101816",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Střelice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.streliceubrna.cz/obcan/sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.8239162,
             50.2216544
           ],
@@ -144390,6 +144535,133 @@
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "centre",
         "website": "https://spravabytunebytu.cz/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5255652,
+            49.304799
+          ],
+          [
+            16.5258925,
+            49.304849
+          ],
+          [
+            16.5258705,
+            49.3049972
+          ],
+          [
+            16.5262129,
+            49.3050284
+          ],
+          [
+            16.5262649,
+            49.3048927
+          ],
+          [
+            16.5264388,
+            49.3049025
+          ],
+          [
+            16.5264046,
+            49.3050704
+          ],
+          [
+            16.5258198,
+            49.3052414
+          ],
+          [
+            16.5255652,
+            49.304799
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1374492459,
+        "@url": "https://www.openstreetmap.org/way/1374492459",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Sv. Čecha",
+        "opening_hours": "Mo-Fr 07:00-17:00; Sa 08:00-12:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ctskurim.cz/redakce/index.php?clanek=351917"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5563083,
+            49.3047955
+          ],
+          [
+            16.5564992,
+            49.3047231
+          ],
+          [
+            16.5564239,
+            49.3046387
+          ],
+          [
+            16.556233,
+            49.3047112
+          ],
+          [
+            16.5563083,
+            49.3047955
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1374496128,
+        "@url": "https://www.openstreetmap.org/way/1374496128",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Podlesí",
+        "opening_hours": "Mo,We 15:00-17:00; Sa 13:00-17:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ctskurim.cz/redakce/index.php?clanek=351916"
       }
     },
     {
@@ -145145,6 +145417,69 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.7897495,
+            49.2028458
+          ],
+          [
+            16.7900772,
+            49.2029612
+          ],
+          [
+            16.7902978,
+            49.2026502
+          ],
+          [
+            16.7902707,
+            49.2026047
+          ],
+          [
+            16.7901004,
+            49.2025642
+          ],
+          [
+            16.7899456,
+            49.2026005
+          ],
+          [
+            16.7897495,
+            49.2028458
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1429945428,
+        "@url": "https://www.openstreetmap.org/way/1429945428",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Pozořice",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://pozorice.cz/default/default/9270_sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             18.2822894,
             49.4320157
           ],
@@ -145351,6 +145686,84 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5819499,
+            49.4192376
+          ],
+          [
+            16.5821393,
+            49.419236
+          ],
+          [
+            16.5821867,
+            49.4192356
+          ],
+          [
+            16.582514,
+            49.4191906
+          ],
+          [
+            16.582451,
+            49.4190022
+          ],
+          [
+            16.5819641,
+            49.4190657
+          ],
+          [
+            16.5819499,
+            49.4192376
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1449952471,
+        "@url": "https://www.openstreetmap.org/way/1449952471",
+        "addr:city": "Černá Hora",
+        "addr:postcode": "67921",
+        "addr:street": "U Lihovaru",
+        "amenity": "recycling",
+        "mobile": "+420 608 247 982",
+        "name": "SSO Černá Hora",
+        "opening_hours": "We 14:00-17:00; Sa 09:00-12:00",
+        "operator": "Městys Černá Hora",
+        "operator:type": "government",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.cernahora.eu/sberne%2Dstredisko%2Dodpadu/ms-12331/p1=12331"
       }
     },
     {
@@ -172348,6 +172761,88 @@
           [
             [
               [
+                16.4989375,
+                49.1558784
+              ],
+              [
+                16.4989491,
+                49.1558492
+              ],
+              [
+                16.4989629,
+                49.1558381
+              ],
+              [
+                16.49909,
+                49.1557621
+              ],
+              [
+                16.4997917,
+                49.1558225
+              ],
+              [
+                16.4997601,
+                49.1559797
+              ],
+              [
+                16.4991694,
+                49.1559283
+              ],
+              [
+                16.4990376,
+                49.1558865
+              ],
+              [
+                16.4989967,
+                49.1558832
+              ],
+              [
+                16.4989375,
+                49.1558784
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1347101816,
+        "@url": "https://www.openstreetmap.org/way/1347101816",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Střelice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.streliceubrna.cz/obcan/sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 15.8239162,
                 50.2216544
               ],
@@ -172657,6 +173152,141 @@
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "centre",
         "website": "https://spravabytunebytu.cz/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5255652,
+                49.304799
+              ],
+              [
+                16.5258925,
+                49.304849
+              ],
+              [
+                16.5258705,
+                49.3049972
+              ],
+              [
+                16.5262129,
+                49.3050284
+              ],
+              [
+                16.5262649,
+                49.3048927
+              ],
+              [
+                16.5264388,
+                49.3049025
+              ],
+              [
+                16.5264046,
+                49.3050704
+              ],
+              [
+                16.5258198,
+                49.3052414
+              ],
+              [
+                16.5255652,
+                49.304799
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1374492459,
+        "@url": "https://www.openstreetmap.org/way/1374492459",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Sv. Čecha",
+        "opening_hours": "Mo-Fr 07:00-17:00; Sa 08:00-12:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ctskurim.cz/redakce/index.php?clanek=351917"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.556233,
+                49.3047112
+              ],
+              [
+                16.5564239,
+                49.3046387
+              ],
+              [
+                16.5564992,
+                49.3047231
+              ],
+              [
+                16.5563083,
+                49.3047955
+              ],
+              [
+                16.556233,
+                49.3047112
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1374496128,
+        "@url": "https://www.openstreetmap.org/way/1374496128",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Podlesí",
+        "opening_hours": "Mo,We 15:00-17:00; Sa 13:00-17:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.ctskurim.cz/redakce/index.php?clanek=351916"
       }
     },
     {
@@ -173458,6 +174088,73 @@
           [
             [
               [
+                16.7897495,
+                49.2028458
+              ],
+              [
+                16.7899456,
+                49.2026005
+              ],
+              [
+                16.7901004,
+                49.2025642
+              ],
+              [
+                16.7902707,
+                49.2026047
+              ],
+              [
+                16.7902978,
+                49.2026502
+              ],
+              [
+                16.7900772,
+                49.2029612
+              ],
+              [
+                16.7897495,
+                49.2028458
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1429945428,
+        "@url": "https://www.openstreetmap.org/way/1429945428",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Pozořice",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://pozorice.cz/default/default/9270_sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
                 18.2822867,
                 49.431366
               ],
@@ -173674,6 +174371,88 @@
         "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5819499,
+                49.4192376
+              ],
+              [
+                16.5819641,
+                49.4190657
+              ],
+              [
+                16.582451,
+                49.4190022
+              ],
+              [
+                16.582514,
+                49.4191906
+              ],
+              [
+                16.5821867,
+                49.4192356
+              ],
+              [
+                16.5821393,
+                49.419236
+              ],
+              [
+                16.5819499,
+                49.4192376
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1449952471,
+        "@url": "https://www.openstreetmap.org/way/1449952471",
+        "addr:city": "Černá Hora",
+        "addr:postcode": "67921",
+        "addr:street": "U Lihovaru",
+        "amenity": "recycling",
+        "mobile": "+420 608 247 982",
+        "name": "SSO Černá Hora",
+        "opening_hours": "We 14:00-17:00; Sa 09:00-12:00",
+        "operator": "Městys Černá Hora",
+        "operator:type": "government",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.cernahora.eu/sberne%2Dstredisko%2Dodpadu/ms-12331/p1=12331"
       }
     },
     {

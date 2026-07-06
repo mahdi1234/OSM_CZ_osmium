@@ -1169,11 +1169,9 @@
         "@url": "https://www.openstreetmap.org/node/859900713",
         "amenity": "recycling",
         "location": "overground",
-        "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
@@ -22907,13 +22905,12 @@
         "@id": 8123708966,
         "@url": "https://www.openstreetmap.org/node/8123708966",
         "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
@@ -30175,8 +30172,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.1200896,
-          49.4741391
+          16.1200537,
+          49.4741521
         ]
       },
       "properties": {
@@ -65269,6 +65266,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.827556,
+          49.1400246
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12960947898,
+        "@url": "https://www.openstreetmap.org/node/12960947898",
+        "amenity": "recycling",
+        "mobile": "+420 724 045 321",
+        "opening_hours": "We 10:00-18:00; Sa 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.obec-krenovice.cz/zivot-v-obci/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.733825,
           49.9393175
         ]
@@ -78734,6 +78773,84 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.4989375,
+            49.1558784
+          ],
+          [
+            16.4989967,
+            49.1558832
+          ],
+          [
+            16.4990376,
+            49.1558865
+          ],
+          [
+            16.4991694,
+            49.1559283
+          ],
+          [
+            16.4997601,
+            49.1559797
+          ],
+          [
+            16.4997917,
+            49.1558225
+          ],
+          [
+            16.49909,
+            49.1557621
+          ],
+          [
+            16.4989629,
+            49.1558381
+          ],
+          [
+            16.4989491,
+            49.1558492
+          ],
+          [
+            16.4989375,
+            49.1558784
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1347101816,
+        "@url": "https://www.openstreetmap.org/way/1347101816",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Střelice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.streliceubrna.cz/obcan/sberny-dvur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5284836,
             49.5083992
           ],
@@ -89516,6 +89633,88 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.fcc-group.eu/cs/ceska-republika/sluzby/sberne-dvory/severni-morava/logisticke-centrum-odpadu-ostrava-hrabova.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.4989375,
+                49.1558784
+              ],
+              [
+                16.4989491,
+                49.1558492
+              ],
+              [
+                16.4989629,
+                49.1558381
+              ],
+              [
+                16.49909,
+                49.1557621
+              ],
+              [
+                16.4997917,
+                49.1558225
+              ],
+              [
+                16.4997601,
+                49.1559797
+              ],
+              [
+                16.4991694,
+                49.1559283
+              ],
+              [
+                16.4990376,
+                49.1558865
+              ],
+              [
+                16.4989967,
+                49.1558832
+              ],
+              [
+                16.4989375,
+                49.1558784
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1347101816,
+        "@url": "https://www.openstreetmap.org/way/1347101816",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Střelice",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.streliceubrna.cz/obcan/sberny-dvur"
       }
     },
     {

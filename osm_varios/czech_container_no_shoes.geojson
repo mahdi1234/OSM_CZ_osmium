@@ -241,6 +241,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5047955,
+          50.0368908
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1457720164,
+        "@url": "https://www.openstreetmap.org/node/1457720164",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5786159,
           49.1989547
         ]
@@ -1096,6 +1121,7 @@
         "@id": 4938239762,
         "@url": "https://www.openstreetmap.org/node/4938239762",
         "amenity": "recycling",
+        "operator": "Potex s.r.o.",
         "recycling:clothes": "yes",
         "recycling_type": "container",
         "source": "survey"
@@ -28462,60 +28488,30 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            14.678551,
-            49.40585
-          ],
-          [
-            14.678586,
-            49.405782
-          ],
-          [
-            14.678482,
-            49.405629
-          ],
-          [
-            14.6782539,
-            49.4055638
-          ],
-          [
-            14.6782197,
-            49.4056172
-          ],
-          [
-            14.678416,
-            49.405669
-          ],
-          [
-            14.678499,
-            49.405785
-          ],
-          [
-            14.678477,
-            49.405837
-          ],
-          [
-            14.678551,
-            49.40585
-          ]
+          17.1726859,
+          49.5681421
         ]
       },
       "properties": {
-        "@type": "way",
-        "@id": 50075104,
-        "@url": "https://www.openstreetmap.org/way/50075104",
+        "@type": "node",
+        "@id": 13998317056,
+        "@url": "https://www.openstreetmap.org/node/13998317056",
         "amenity": "recycling",
-        "name": "Sběrný dvůr",
+        "recycling:books": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "centre",
-        "source": "cuzk:km"
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -29350,6 +29346,68 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.hornibriza.eu/obcan/infocentrum-pro-obcany-mesta/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.6781561,
+            49.4057829
+          ],
+          [
+            14.6782721,
+            49.4055624
+          ],
+          [
+            14.6782898,
+            49.4055672
+          ],
+          [
+            14.6784937,
+            49.4056283
+          ],
+          [
+            14.678603,
+            49.4057819
+          ],
+          [
+            14.6785697,
+            49.4058584
+          ],
+          [
+            14.6785637,
+            49.4058693
+          ],
+          [
+            14.678236,
+            49.4058002
+          ],
+          [
+            14.6781911,
+            49.4057907
+          ],
+          [
+            14.6781561,
+            49.4057829
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 255827651,
+        "@url": "https://www.openstreetmap.org/way/255827651",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -33046,69 +33104,6 @@
           [
             [
               [
-                14.6782197,
-                49.4056172
-              ],
-              [
-                14.6782539,
-                49.4055638
-              ],
-              [
-                14.678482,
-                49.405629
-              ],
-              [
-                14.678586,
-                49.405782
-              ],
-              [
-                14.678551,
-                49.40585
-              ],
-              [
-                14.678477,
-                49.405837
-              ],
-              [
-                14.678499,
-                49.405785
-              ],
-              [
-                14.678416,
-                49.405669
-              ],
-              [
-                14.6782197,
-                49.4056172
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 50075104,
-        "@url": "https://www.openstreetmap.org/way/50075104",
-        "amenity": "recycling",
-        "name": "Sběrný dvůr",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling_type": "centre",
-        "source": "cuzk:km"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
                 16.537276,
                 49.301572
               ],
@@ -33985,6 +33980,72 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.hornibriza.eu/obcan/infocentrum-pro-obcany-mesta/odpadove-hospodarstvi/sberny-dvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.6781561,
+                49.4057829
+              ],
+              [
+                14.6782721,
+                49.4055624
+              ],
+              [
+                14.6782898,
+                49.4055672
+              ],
+              [
+                14.6784937,
+                49.4056283
+              ],
+              [
+                14.678603,
+                49.4057819
+              ],
+              [
+                14.6785697,
+                49.4058584
+              ],
+              [
+                14.6785637,
+                49.4058693
+              ],
+              [
+                14.678236,
+                49.4058002
+              ],
+              [
+                14.6781911,
+                49.4057907
+              ],
+              [
+                14.6781561,
+                49.4057829
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 255827651,
+        "@url": "https://www.openstreetmap.org/way/255827651",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "centre"
       }
     },
     {

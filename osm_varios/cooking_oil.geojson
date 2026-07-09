@@ -1136,7 +1136,7 @@
         "@url": "https://www.openstreetmap.org/node/848822778",
         "amenity": "recycling",
         "contact:phone": "+420 288409188",
-        "contact:website": "www.psas.cz",
+        "contact:website": "https://www.psas.cz",
         "ipr:name": "náměstí Bořislavka 1878/1",
         "operator": "Pražské služby",
         "operator:wikidata": "Q12046936",
@@ -3291,12 +3291,9 @@
         "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -5067,6 +5064,28 @@
         "recycling:cooking_oil": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4365513,
+          50.0476021
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2022708035,
+        "@url": "https://www.openstreetmap.org/node/2022708035",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -12039,6 +12058,7 @@
         "@id": 4359836310,
         "@url": "https://www.openstreetmap.org/node/4359836310",
         "amenity": "recycling",
+        "check_date:recycling": "2026-07-08",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
@@ -28421,27 +28441,6 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.5365187,
-          49.7633821
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8951374481,
-        "@url": "https://www.openstreetmap.org/node/8951374481",
-        "amenity": "recycling",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -68041,6 +68040,38 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9132437,
+          50.1093094
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13479260458,
+        "@url": "https://www.openstreetmap.org/node/13479260458",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:PET": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
       }
     },
     {

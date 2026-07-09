@@ -5631,34 +5631,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5047955,
-          50.0368908
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1457720164,
-        "@url": "https://www.openstreetmap.org/node/1457720164",
-        "amenity": "recycling",
-        "recycling:batteries": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.519374,
           50.0377794
         ]
@@ -9014,6 +8986,28 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "source": "www.kutnahora.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4365513,
+          50.0476021
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2022708035,
+        "@url": "https://www.openstreetmap.org/node/2022708035",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -16420,9 +16414,9 @@
         "amenity": "recycling",
         "location": "overground",
         "recycling:cans": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -20903,29 +20897,6 @@
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.6065455,
-          49.1948446
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3389764119,
-        "@url": "https://www.openstreetmap.org/node/3389764119",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -59196,6 +59167,27 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7657071,
+          49.8541352
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9651941720,
+        "@url": "https://www.openstreetmap.org/node/9651941720",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -119464,6 +119456,61 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2552635,
+          49.6001264
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13997440387,
+        "@url": "https://www.openstreetmap.org/node/13997440387",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1726859,
+          49.5681421
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13998317056,
+        "@url": "https://www.openstreetmap.org/node/13998317056",
+        "amenity": "recycling",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -145571,7 +145618,7 @@
         "@url": "https://www.openstreetmap.org/way/1419391788",
         "amenity": "recycling",
         "contact:phone": "+420 288409188",
-        "contact:website": "www.psas.cz",
+        "contact:website": "https://www.psas.cz",
         "ipr:name": "Kladenská 282/29",
         "operator": "Pražské služby",
         "operator:wikidata": "Q12046936",
@@ -174240,7 +174287,7 @@
         "@url": "https://www.openstreetmap.org/way/1419391788",
         "amenity": "recycling",
         "contact:phone": "+420 288409188",
-        "contact:website": "www.psas.cz",
+        "contact:website": "https://www.psas.cz",
         "ipr:name": "Kladenská 282/29",
         "operator": "Pražské služby",
         "operator:wikidata": "Q12046936",

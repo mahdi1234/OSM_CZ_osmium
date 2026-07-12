@@ -22352,24 +22352,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.5198858,
-          49.5474892
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12806588639,
-        "@url": "https://www.openstreetmap.org/node/12806588639",
-        "amenity": "recycling",
-        "recycling:clothes": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.3773576,
           50.0334237
         ]
@@ -33140,6 +33122,85 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5404462,
+            49.5860543
+          ],
+          [
+            13.5406719,
+            49.5859453
+          ],
+          [
+            13.5408543,
+            49.5858685
+          ],
+          [
+            13.5409668,
+            49.5859653
+          ],
+          [
+            13.5409944,
+            49.5859891
+          ],
+          [
+            13.5405938,
+            49.5861837
+          ],
+          [
+            13.540771,
+            49.5863397
+          ],
+          [
+            13.5400445,
+            49.5866868
+          ],
+          [
+            13.5397426,
+            49.5864261
+          ],
+          [
+            13.5404726,
+            49.5860773
+          ],
+          [
+            13.5404462,
+            49.5860543
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1537401523,
+        "@url": "https://www.openstreetmap.org/way/1537401523",
+        "addr:housenumber": "948/1",
+        "addr:postcode": "33601",
+        "addr:street": "Luční",
+        "amenity": "recycling",
+        "email": "zks@mariuspedersen.cz",
+        "name": "Sběrný dvůr Blovice",
+        "opening_hours": "Mo, We-Sa 09:00-12:00, 13:00-17:00",
+        "operator": "Marius Pedersen a.s.",
+        "phone": "+420493647150",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -37990,6 +38051,89 @@
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.5397426,
+                49.5864261
+              ],
+              [
+                13.5404726,
+                49.5860773
+              ],
+              [
+                13.5404462,
+                49.5860543
+              ],
+              [
+                13.5406719,
+                49.5859453
+              ],
+              [
+                13.5408543,
+                49.5858685
+              ],
+              [
+                13.5409668,
+                49.5859653
+              ],
+              [
+                13.5409944,
+                49.5859891
+              ],
+              [
+                13.5405938,
+                49.5861837
+              ],
+              [
+                13.540771,
+                49.5863397
+              ],
+              [
+                13.5400445,
+                49.5866868
+              ],
+              [
+                13.5397426,
+                49.5864261
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1537401523,
+        "@url": "https://www.openstreetmap.org/way/1537401523",
+        "addr:housenumber": "948/1",
+        "addr:postcode": "33601",
+        "addr:street": "Luční",
+        "amenity": "recycling",
+        "email": "zks@mariuspedersen.cz",
+        "name": "Sběrný dvůr Blovice",
+        "opening_hours": "Mo, We-Sa 09:00-12:00, 13:00-17:00",
+        "operator": "Marius Pedersen a.s.",
+        "phone": "+420493647150",
+        "recycling:batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mariuspedersen.cz/"
       }
     }
   ]

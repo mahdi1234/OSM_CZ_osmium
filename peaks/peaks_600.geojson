@@ -10627,32 +10627,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9387752,
-          49.2699959
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1516297813,
-        "@url": "https://www.openstreetmap.org/node/1516297813",
-        "access": "yes",
-        "ele": "688",
-        "fee": "yes",
-        "height": "37",
-        "man_made": "tower",
-        "material": "steel",
-        "name": "Vartovna",
-        "opening_hours": "24/7",
-        "tourism": "viewpoint",
-        "tower:type": "observation",
-        "wheelchair": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.9384422,
           49.2700541
         ]
@@ -90831,6 +90805,96 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3490864,
+          49.9885549
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14004915980,
+        "@url": "https://www.openstreetmap.org/node/14004915980",
+        "ele": "696",
+        "name": "Řůžový vrch",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3851839,
+          49.9648873
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14004915981,
+        "@url": "https://www.openstreetmap.org/node/14004915981",
+        "ele": "668",
+        "name": "Strážný",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3965515,
+          49.9525624
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14004937329,
+        "@url": "https://www.openstreetmap.org/node/14004937329",
+        "ele": "673.2",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5005813,
+          49.8592286
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14004937423,
+        "@url": "https://www.openstreetmap.org/node/14004937423",
+        "ele": "660.6",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0016401,
+          50.2026562
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14005044217,
+        "@url": "https://www.openstreetmap.org/node/14005044217",
+        "ele": "693",
+        "information": "guidepost",
+        "name": "Činov - býv. kostel",
+        "ref": "KV185",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -93642,6 +93706,7 @@
         "amenity": "place_of_worship",
         "building": "church",
         "building:ruian:type": "5",
+        "check_date": "2026-07-11",
         "denomination": "roman_catholic",
         "ele": "631",
         "name": "Poutní kostel Navštívení Panny Marie",
@@ -96313,6 +96378,7 @@
         "amenity": "place_of_worship",
         "building": "church",
         "building:ruian:type": "5",
+        "check_date": "2026-07-11",
         "denomination": "roman_catholic",
         "ele": "631",
         "name": "Poutní kostel Navštívení Panny Marie",
@@ -96899,6 +96965,100 @@
         "tower:type": "observation",
         "wikidata": "Q27865889",
         "wikipedia": "cs:Goethova vyhlídka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.9387313,
+            49.2699921
+          ],
+          [
+            17.9387345,
+            49.2700085
+          ],
+          [
+            17.938744,
+            49.2700175
+          ],
+          [
+            17.9387482,
+            49.2700213
+          ],
+          [
+            17.9387692,
+            49.2700288
+          ],
+          [
+            17.9387932,
+            49.2700292
+          ],
+          [
+            17.9388148,
+            49.2700225
+          ],
+          [
+            17.9388295,
+            49.2700101
+          ],
+          [
+            17.938834,
+            49.2699947
+          ],
+          [
+            17.9388267,
+            49.2699789
+          ],
+          [
+            17.9388088,
+            49.2699673
+          ],
+          [
+            17.9387845,
+            49.2699626
+          ],
+          [
+            17.9387598,
+            49.269966
+          ],
+          [
+            17.9387405,
+            49.2699767
+          ],
+          [
+            17.9387379,
+            49.2699811
+          ],
+          [
+            17.9387313,
+            49.2699921
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 520489310,
+        "@url": "https://www.openstreetmap.org/way/520489310",
+        "access": "yes",
+        "building": "yes",
+        "building:ruian:type": "19",
+        "ele": "688",
+        "fee": "yes",
+        "height": "37",
+        "man_made": "tower",
+        "material": "steel",
+        "name": "Vartovna",
+        "opening_hours": "24/7",
+        "ref:ruian:building": "81627572",
+        "source": "cuzk:ruian",
+        "start_date": "2009-11-11",
+        "tourism": "viewpoint",
+        "tower:type": "observation",
+        "wheelchair": "no",
+        "wikidata": "Q11877489"
       }
     },
     {
@@ -97552,6 +97712,104 @@
         "tower:type": "observation",
         "wikidata": "Q27865889",
         "wikipedia": "cs:Goethova vyhlídka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.9387313,
+                49.2699921
+              ],
+              [
+                17.9387379,
+                49.2699811
+              ],
+              [
+                17.9387405,
+                49.2699767
+              ],
+              [
+                17.9387598,
+                49.269966
+              ],
+              [
+                17.9387845,
+                49.2699626
+              ],
+              [
+                17.9388088,
+                49.2699673
+              ],
+              [
+                17.9388267,
+                49.2699789
+              ],
+              [
+                17.938834,
+                49.2699947
+              ],
+              [
+                17.9388295,
+                49.2700101
+              ],
+              [
+                17.9388148,
+                49.2700225
+              ],
+              [
+                17.9387932,
+                49.2700292
+              ],
+              [
+                17.9387692,
+                49.2700288
+              ],
+              [
+                17.9387482,
+                49.2700213
+              ],
+              [
+                17.938744,
+                49.2700175
+              ],
+              [
+                17.9387345,
+                49.2700085
+              ],
+              [
+                17.9387313,
+                49.2699921
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 520489310,
+        "@url": "https://www.openstreetmap.org/way/520489310",
+        "access": "yes",
+        "building": "yes",
+        "building:ruian:type": "19",
+        "ele": "688",
+        "fee": "yes",
+        "height": "37",
+        "man_made": "tower",
+        "material": "steel",
+        "name": "Vartovna",
+        "opening_hours": "24/7",
+        "ref:ruian:building": "81627572",
+        "source": "cuzk:ruian",
+        "start_date": "2009-11-11",
+        "tourism": "viewpoint",
+        "tower:type": "observation",
+        "wheelchair": "no",
+        "wikidata": "Q11877489"
       }
     },
     {

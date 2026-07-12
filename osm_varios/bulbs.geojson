@@ -194,52 +194,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.559974,
-          49.2204771
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3457044494,
-        "@url": "https://www.openstreetmap.org/node/3457044494",
-        "disused:amenity": "recycling",
-        "mobile": "+420 607 807 362",
-        "name": "SSO Pastviny",
-        "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
-        "operator": "SAKO",
-        "operator:wikidata": "Q12050646",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:electrical_items": "yes",
-        "recycling:fluorescent_tubes": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:low_energy_bulbs": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_appliances": "yes",
-        "recycling_type": "centre",
-        "ref:ekokom": "10552"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.6904259,
           49.1813279
         ]
@@ -7149,6 +7103,78 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5600455,
+            49.2205646
+          ],
+          [
+            16.5597683,
+            49.2205045
+          ],
+          [
+            16.5597647,
+            49.2204409
+          ],
+          [
+            16.5597975,
+            49.2203958
+          ],
+          [
+            16.5598532,
+            49.220375
+          ],
+          [
+            16.5601122,
+            49.2204594
+          ],
+          [
+            16.5600455,
+            49.2205646
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1537541145,
+        "@url": "https://www.openstreetmap.org/way/1537541145",
+        "disused:amenity": "recycling",
+        "mobile": "+420 607 807 362",
+        "name": "SSO Pastviny",
+        "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
+        "operator": "SAKO",
+        "operator:wikidata": "Q12050646",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -12122,6 +12148,82 @@
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5597647,
+                49.2204409
+              ],
+              [
+                16.5597975,
+                49.2203958
+              ],
+              [
+                16.5598532,
+                49.220375
+              ],
+              [
+                16.5601122,
+                49.2204594
+              ],
+              [
+                16.5600455,
+                49.2205646
+              ],
+              [
+                16.5597683,
+                49.2205045
+              ],
+              [
+                16.5597647,
+                49.2204409
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1537541145,
+        "@url": "https://www.openstreetmap.org/way/1537541145",
+        "disused:amenity": "recycling",
+        "mobile": "+420 607 807 362",
+        "name": "SSO Pastviny",
+        "opening_hours": "Tu-Sa 09:00-13:00,14:00-18:00",
+        "operator": "SAKO",
+        "operator:wikidata": "Q12050646",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10552"
       }
     }
   ]

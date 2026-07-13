@@ -18726,6 +18726,7 @@
         "@id": 7037813449,
         "@url": "https://www.openstreetmap.org/node/7037813449",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
@@ -18737,7 +18738,8 @@
         "recycling:plastic_bottles": "yes",
         "recycling_type": "container",
         "ref": "0021/013",
-        "source": "survey"
+        "source": "survey",
+        "wheelchair": "limited"
       }
     },
     {
@@ -34913,6 +34915,35 @@
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7179729,
+          49.2625699
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 10031352218,
+        "@url": "https://www.openstreetmap.org/node/10031352218",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },

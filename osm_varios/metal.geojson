@@ -37641,6 +37641,7 @@
         "@id": 6928674259,
         "@url": "https://www.openstreetmap.org/node/6928674259",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:aluminium": "yes",
         "recycling:cans": "yes",
@@ -37652,7 +37653,8 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "wheelchair": "limited"
       }
     },
     {
@@ -79810,8 +79812,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0648547,
-          49.5627574
+          16.0648615,
+          49.562786
         ]
       },
       "properties": {
@@ -109847,6 +109849,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.415126,
+          49.3509131
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12488671191,
+        "@url": "https://www.openstreetmap.org/node/12488671191",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.2151882,
           49.5942039
         ]
@@ -116135,6 +116163,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.7881125,
+          50.0244061
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13462552001,
+        "@url": "https://www.openstreetmap.org/node/13462552001",
+        "addr:street": "K Jízdárně",
+        "amenity": "recycling",
+        "name": "Technické služby Doubravčice s.r.o.",
+        "opening_hours": "Mo-Fr 07:15-15:30",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4099836,
           50.0657892
         ]
@@ -119544,6 +119611,29 @@
         "recycling:cans": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3519858,
+          49.3532813
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14011256972,
+        "@url": "https://www.openstreetmap.org/node/14011256972",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }

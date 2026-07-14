@@ -9234,6 +9234,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.4495908,
+          49.1876459
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13970695866,
+        "@url": "https://www.openstreetmap.org/node/13970695866",
+        "amenity": "restaurant",
+        "craft": "brewery",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "Panská restaurace Telč",
+        "opening_hours": "Mo-Th 11:30-21:30, Fr-Sa 11:30-23:00, Su 11:30-21:00",
+        "phone": "+420 564 403 780",
+        "website": "https://www.panskydvurtelc.cz/restaurace/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.9820453,
           49.6898447
         ]
@@ -11378,6 +11401,90 @@
         "source": "cuzk:ruian",
         "start_date": "2020-07-15",
         "website": "https://www.idomazlice.cz/cs/kulturnicentrumpivovardomazlice/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.4514569,
+            49.1869615
+          ],
+          [
+            15.4514745,
+            49.1869616
+          ],
+          [
+            15.4514748,
+            49.1869707
+          ],
+          [
+            15.4514852,
+            49.1869711
+          ],
+          [
+            15.4515632,
+            49.1869737
+          ],
+          [
+            15.4515638,
+            49.186959
+          ],
+          [
+            15.4515865,
+            49.186961
+          ],
+          [
+            15.4515878,
+            49.1869455
+          ],
+          [
+            15.4515911,
+            49.186876
+          ],
+          [
+            15.4515482,
+            49.1868755
+          ],
+          [
+            15.4515481,
+            49.1868624
+          ],
+          [
+            15.4514626,
+            49.1868587
+          ],
+          [
+            15.4514595,
+            49.1869155
+          ],
+          [
+            15.4514569,
+            49.1869615
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 81708563,
+        "@url": "https://www.openstreetmap.org/way/81708563",
+        "addr:city": "Telč",
+        "addr:housenumber": "307",
+        "addr:postcode": "58856",
+        "addr:street": "Slavatovská",
+        "building": "residential",
+        "building:flats": "2",
+        "building:levels": "3",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Ruxusní minipivovar",
+        "ref:ruian:building": "12359718",
+        "roof:levels": "0",
+        "roof:shape": "hipped",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -17902,6 +18009,94 @@
         "source": "cuzk:ruian",
         "start_date": "2020-07-15",
         "website": "https://www.idomazlice.cz/cs/kulturnicentrumpivovardomazlice/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.4514569,
+                49.1869615
+              ],
+              [
+                15.4514595,
+                49.1869155
+              ],
+              [
+                15.4514626,
+                49.1868587
+              ],
+              [
+                15.4515481,
+                49.1868624
+              ],
+              [
+                15.4515482,
+                49.1868755
+              ],
+              [
+                15.4515911,
+                49.186876
+              ],
+              [
+                15.4515878,
+                49.1869455
+              ],
+              [
+                15.4515865,
+                49.186961
+              ],
+              [
+                15.4515638,
+                49.186959
+              ],
+              [
+                15.4515632,
+                49.1869737
+              ],
+              [
+                15.4514852,
+                49.1869711
+              ],
+              [
+                15.4514748,
+                49.1869707
+              ],
+              [
+                15.4514745,
+                49.1869616
+              ],
+              [
+                15.4514569,
+                49.1869615
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 81708563,
+        "@url": "https://www.openstreetmap.org/way/81708563",
+        "addr:city": "Telč",
+        "addr:housenumber": "307",
+        "addr:postcode": "58856",
+        "addr:street": "Slavatovská",
+        "building": "residential",
+        "building:flats": "2",
+        "building:levels": "3",
+        "building:ruian:type": "3",
+        "craft": "brewery",
+        "microbrewery": "yes",
+        "name": "Ruxusní minipivovar",
+        "ref:ruian:building": "12359718",
+        "roof:levels": "0",
+        "roof:shape": "hipped",
+        "source": "cuzk:ruian"
       }
     },
     {

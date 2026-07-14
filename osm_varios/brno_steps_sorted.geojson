@@ -10508,10 +10508,13 @@
         "@url": "https://www.openstreetmap.org/way/1309907911",
         "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
         "lit": "no",
+        "ramp": "no",
         "smoothness": "excellent",
         "step_count": "4",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "incorrect"
       }
     },
     {
@@ -32956,13 +32959,15 @@
         "@type": "way",
         "@id": 657947594,
         "@url": "https://www.openstreetmap.org/way/657947594",
+        "check_date:ramp": "2026-07-13",
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",
         "lit": "yes",
         "ramp": "no",
         "step_count": "9",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -34481,6 +34486,7 @@
         "highway": "steps",
         "incline": "up",
         "lit": "no",
+        "ramp": "no",
         "smoothness": "good",
         "step_count": "9",
         "surface": "asphalt",

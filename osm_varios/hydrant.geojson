@@ -38393,6 +38393,7 @@
         "@url": "https://www.openstreetmap.org/node/12467004706",
         "colour": "#ff0000",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "underground",
         "ref": "01HPVPRDZ10012101700205",
         "water_source": "main"
@@ -40242,6 +40243,7 @@
         "@id": 12546557073,
         "@url": "https://www.openstreetmap.org/node/12546557073",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "underground",
         "water_source": "main"
       }
@@ -59198,6 +59200,65 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3891092,
+          49.9351997
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14019743393,
+        "@url": "https://www.openstreetmap.org/node/14019743393",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "lane",
+        "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3879737,
+          49.9383671
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14019904242,
+        "@url": "https://www.openstreetmap.org/node/14019904242",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "lane",
+        "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7555939,
+          49.3441092
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14020634068,
+        "@url": "https://www.openstreetmap.org/node/14020634068",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
       }
     }
   ]

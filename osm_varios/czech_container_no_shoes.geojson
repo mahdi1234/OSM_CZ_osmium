@@ -1449,6 +1449,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.2951012,
+          50.1965306
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6453947802,
+        "@url": "https://www.openstreetmap.org/node/6453947802",
+        "amenity": "recycling",
+        "recycling:aluminium": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.5795052,
           49.2903236
         ]
@@ -1963,6 +1986,27 @@
         "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2712162,
+          49.9721624
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8661105881,
+        "@url": "https://www.openstreetmap.org/node/8661105881",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -27075,6 +27119,7 @@
         "@id": 13595843114,
         "@url": "https://www.openstreetmap.org/node/13595843114",
         "amenity": "recycling",
+        "operator": "SAKO",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }

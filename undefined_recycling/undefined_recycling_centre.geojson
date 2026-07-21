@@ -673,6 +673,23 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5165335,
+          49.5025759
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14028537794,
+        "@url": "https://www.openstreetmap.org/node/14028537794",
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -2111,7 +2128,7 @@
         "addr:street": "Milheimova",
         "amenity": "recycling",
         "name": "KOVOŠROT GROUP CZ s.r.o.",
-        "phone": "724 832 165",
+        "phone": "+420 724 832 165",
         "recycling_type": "centre",
         "website": "https://www.kovosrot.cz/"
       }
@@ -4387,6 +4404,69 @@
         "amenity": "recycling",
         "barrier": "fence",
         "landuse": "industrial",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.2126023,
+                49.6476904
+              ],
+              [
+                13.2126163,
+                49.6476692
+              ],
+              [
+                13.2127697,
+                49.6475602
+              ],
+              [
+                13.2128351,
+                49.647298
+              ],
+              [
+                13.2131064,
+                49.6473259
+              ],
+              [
+                13.2130795,
+                49.6474353
+              ],
+              [
+                13.2130025,
+                49.6477491
+              ],
+              [
+                13.2126892,
+                49.6478291
+              ],
+              [
+                13.2126554,
+                49.6478081
+              ],
+              [
+                13.212621,
+                49.6477867
+              ],
+              [
+                13.2126023,
+                49.6476904
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1541082734,
+        "@url": "https://www.openstreetmap.org/way/1541082734",
+        "amenity": "recycling",
         "recycling_type": "centre"
       }
     }

@@ -9317,13 +9317,15 @@
         "@type": "way",
         "@id": 1063029350,
         "@url": "https://www.openstreetmap.org/way/1063029350",
+        "check_date:ramp": "2026-07-22",
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
         "lit": "no",
         "ramp": "no",
         "step_count": "4",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -14912,7 +14914,8 @@
         "ramp": "no",
         "source": "cuzk:km",
         "step_count": "5",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -16852,6 +16855,36 @@
         "type": "LineString",
         "coordinates": [
           [
+            16.5680936,
+            49.1654194
+          ],
+          [
+            16.5681515,
+            49.165387
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1387597459,
+        "@url": "https://www.openstreetmap.org/way/1387597459",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
+        "step_count": "5",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             16.5809158,
             49.2470312
           ],
@@ -18227,7 +18260,8 @@
         "ramp": "no",
         "source": "cuzk:km;survey",
         "step_count": "6",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -22266,10 +22300,12 @@
         "highway": "steps",
         "incline": "up",
         "lit": "no",
+        "ramp": "no",
         "smoothness": "good",
         "source": "cuzk:km",
         "step_count": "6",
-        "surface": "paving_stones"
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -26908,7 +26944,8 @@
         "incline": "down",
         "ramp": "no",
         "step_count": "7",
-        "surface": "paved",
+        "surface": "concrete",
+        "tactile_paving": "no",
         "width": "2"
       }
     },
@@ -47777,6 +47814,7 @@
         "@type": "way",
         "@id": 385339194,
         "@url": "https://www.openstreetmap.org/way/385339194",
+        "check_date:ramp": "2026-07-22",
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",

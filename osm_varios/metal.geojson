@@ -7355,6 +7355,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4897387,
+          50.0447623
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1717848210,
+        "@url": "https://www.openstreetmap.org/node/1717848210",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4758288,
           50.0469257
         ]
@@ -40124,6 +40146,32 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2260509,
+          50.6591201
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 7330179270,
+        "@url": "https://www.openstreetmap.org/node/7330179270",
+        "amenity": "recycling",
+        "location": "overground",
+        "operator": "Technické služby Železný Brod",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -147181,8 +147229,8 @@
             50.3286435
           ],
           [
-            12.507093,
-            50.3287414
+            12.5070865,
+            50.328736
           ],
           [
             12.5066777,
@@ -147501,6 +147549,72 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.2126892,
+            49.6478291
+          ],
+          [
+            13.2130025,
+            49.6477491
+          ],
+          [
+            13.2131064,
+            49.6473259
+          ],
+          [
+            13.2128351,
+            49.647298
+          ],
+          [
+            13.2127697,
+            49.6475602
+          ],
+          [
+            13.2126163,
+            49.6476692
+          ],
+          [
+            13.2126023,
+            49.6476904
+          ],
+          [
+            13.212621,
+            49.6477867
+          ],
+          [
+            13.2126554,
+            49.6478081
+          ],
+          [
+            13.2126892,
+            49.6478291
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1541082734,
+        "@url": "https://www.openstreetmap.org/way/1541082734",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr Chotěšov",
+        "opening_hours": "Mo,We, Fr 13:00-17:00; Sa 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {
@@ -176294,8 +176408,8 @@
                 50.3286435
               ],
               [
-                12.507093,
-                50.3287414
+                12.5070865,
+                50.328736
               ],
               [
                 12.5066777,
@@ -176640,6 +176754,76 @@
         "recycling:small_appliances": "yes",
         "recycling_type": "centre",
         "ref:ekokom": "10552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.2126023,
+                49.6476904
+              ],
+              [
+                13.2126163,
+                49.6476692
+              ],
+              [
+                13.2127697,
+                49.6475602
+              ],
+              [
+                13.2128351,
+                49.647298
+              ],
+              [
+                13.2131064,
+                49.6473259
+              ],
+              [
+                13.2130025,
+                49.6477491
+              ],
+              [
+                13.2126892,
+                49.6478291
+              ],
+              [
+                13.2126554,
+                49.6478081
+              ],
+              [
+                13.212621,
+                49.6477867
+              ],
+              [
+                13.2126023,
+                49.6476904
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1541082734,
+        "@url": "https://www.openstreetmap.org/way/1541082734",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr Chotěšov",
+        "opening_hours": "Mo,We, Fr 13:00-17:00; Sa 09:00-13:00",
+        "recycling:batteries": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

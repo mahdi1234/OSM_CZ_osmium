@@ -82417,8 +82417,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.1632392,
-          49.1070645
+          17.1631836,
+          49.1069039
         ]
       },
       "properties": {
@@ -147664,6 +147664,76 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.3779315,
+            49.8937194
+          ],
+          [
+            13.378063,
+            49.8936516
+          ],
+          [
+            13.3780684,
+            49.8936382
+          ],
+          [
+            13.3779648,
+            49.8935422
+          ],
+          [
+            13.3780209,
+            49.8934111
+          ],
+          [
+            13.3779888,
+            49.8934061
+          ],
+          [
+            13.3774518,
+            49.8933224
+          ],
+          [
+            13.3773375,
+            49.8936269
+          ],
+          [
+            13.3779315,
+            49.8937194
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1544828846,
+        "@url": "https://www.openstreetmap.org/way/1544828846",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kaznějov",
+        "opening_hours": "Tu 14:00-18:00; Th 14:00-18:00; Sa: 8:00-12:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:printer_cartridges": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -176868,6 +176938,80 @@
         "recycling:scrap_metal": "yes",
         "recycling:tyres": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.3773375,
+                49.8936269
+              ],
+              [
+                13.3774518,
+                49.8933224
+              ],
+              [
+                13.3779888,
+                49.8934061
+              ],
+              [
+                13.3780209,
+                49.8934111
+              ],
+              [
+                13.3779648,
+                49.8935422
+              ],
+              [
+                13.3780684,
+                49.8936382
+              ],
+              [
+                13.378063,
+                49.8936516
+              ],
+              [
+                13.3779315,
+                49.8937194
+              ],
+              [
+                13.3773375,
+                49.8936269
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1544828846,
+        "@url": "https://www.openstreetmap.org/way/1544828846",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Kaznějov",
+        "opening_hours": "Tu 14:00-18:00; Th 14:00-18:00; Sa: 8:00-12:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:oil": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:printer_cartridges": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
       }
     }
   ]

@@ -3272,6 +3272,8 @@
         "addr:place": "Horní Malá Úpa",
         "addr:postcode": "54227",
         "amenity": "restaurant",
+        "contact:email": "info@pivovartrauntenberk.cz",
+        "contact:phone": "+420733746444",
         "craft": "brewery",
         "microbrewery": "yes",
         "name": "Pivovar Trautenberk",
@@ -8512,15 +8514,17 @@
         "addr:postcode": "27035",
         "amenity": "restaurant",
         "brewery": "petrovické_zlato",
-        "check_date": "2026-01-28",
+        "check_date": "2026-07-28",
         "contact:facebook": "https://www.facebook.com/share/1Bm4BL7qbj/",
         "cuisine": "regional;burger;chicken",
         "email": "jerryhomola@seznam.cz",
         "level": "0",
         "microbrewery": "yes",
         "name": "Petrovická zlato",
-        "opening_hours": "Mo off; Tu-Th 11:00-21:00; Fr-Sa 11:00-23:00; Su 11:00-22:00",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-23:00",
         "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "phone": "+420 605 119 259",
         "start_date": "2026-01-06",
         "toilets": "yes",
@@ -9446,6 +9450,24 @@
         "email": "minipivovarcepice@seznam.cz",
         "name": "Čepický minipivovar, s.r.o.",
         "phone": "+420736622878"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2330047,
+          50.4451951
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14056024181,
+        "@url": "https://www.openstreetmap.org/node/14056024181",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "name": "Pivovar Židovice"
       }
     },
     {

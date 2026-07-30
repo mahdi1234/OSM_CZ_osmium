@@ -19273,7 +19273,8 @@
         "@url": "https://www.openstreetmap.org/node/2159918661",
         "ele": "524",
         "name": "Bráh",
-        "natural": "peak"
+        "natural": "peak",
+        "summit:register": "yes"
       }
     },
     {
@@ -68896,8 +68897,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.2481709,
-          49.5132908
+          16.2480588,
+          49.5133522
         ]
       },
       "properties": {
@@ -68906,8 +68907,12 @@
         "@url": "https://www.openstreetmap.org/node/5320759178",
         "ele": "570",
         "name": "Bystřice nad Pernštejnem",
-        "network": "IDS JMK",
-        "operator": "cz:SŽDC",
+        "network": "Integrovaný dopravní systém Jihomoravského kraje",
+        "network:short": "IDS JMK",
+        "network:wikidata": "Q12020731",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "335554",
@@ -126226,6 +126231,27 @@
         "ele": "556",
         "name": "Osecká skála",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7252705,
+          50.0820521
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14059084223,
+        "@url": "https://www.openstreetmap.org/node/14059084223",
+        "ele": "540",
+        "information": "guidepost",
+        "name": "Králíky, sou",
+        "operator": "cz:KČT",
+        "ref": "UO341",
+        "tourism": "information"
       }
     },
     {

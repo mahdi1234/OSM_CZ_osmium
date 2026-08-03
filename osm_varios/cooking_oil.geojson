@@ -52421,12 +52421,12 @@
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
-        "recycling:kov": "yes",
         "recycling:paper": "yes",
         "recycling:paper_packaging": "yes",
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -69943,6 +69943,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.6682445,
+          50.0825064
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14045667890,
+        "@url": "https://www.openstreetmap.org/node/14045667890",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.7231461,
           49.9159082
         ]
@@ -69959,6 +69981,35 @@
         "recycling:plastic": "yes",
         "recycling_type": "container",
         "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0597682,
+          49.4745462
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14069060392,
+        "@url": "https://www.openstreetmap.org/node/14069060392",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
       }
     },
     {

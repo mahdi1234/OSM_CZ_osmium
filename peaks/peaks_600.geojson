@@ -81527,10 +81527,12 @@
         "@id": 13159497530,
         "@url": "https://www.openstreetmap.org/node/13159497530",
         "check_date": "2025-09-20",
+        "description": "Kříž Na Pohoří",
         "ele": "624",
-        "inscription": "IN \nRI",
-        "man_made": "cross",
-        "material": "metal"
+        "historic": "wayside_cross",
+        "inscription": "IN  RI",
+        "material": "metal",
+        "ref:drobne_pamatky": "36722"
       }
     },
     {
@@ -91068,10 +91070,57 @@
         "@id": 14058956580,
         "@url": "https://www.openstreetmap.org/node/14058956580",
         "ele": "650",
+        "hiking": "yes",
         "information": "guidepost",
         "name": "Pod Pupkem",
         "operator": "cz:KČT",
         "ref": "UO423",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7836054,
+          50.1048113
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14061314618,
+        "@url": "https://www.openstreetmap.org/node/14061314618",
+        "bicycle": "yes",
+        "ele": "605",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Červený Potok (ŽST)",
+        "operator": "cz:KCT",
+        "ref": "UC002",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7969705,
+          50.1077602
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14061338528,
+        "@url": "https://www.openstreetmap.org/node/14061338528",
+        "ele": "613",
+        "hiking": "yes",
+        "information": "guidepost",
+        "inscription": "Srub U Kapličky pro posádku 45 osob. Stavba dokončena 31.10.1936",
+        "name": "Pěchotní srub K-S6",
+        "operator": "cz:KCT",
+        "ref": "SU156",
         "tourism": "information"
       }
     },
@@ -91093,6 +91142,29 @@
         "name": "Pěchotní srub K-S7",
         "operator": "cz:KČT",
         "ref": "SU136",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8076228,
+          50.1099598
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14061491641,
+        "@url": "https://www.openstreetmap.org/node/14061491641",
+        "ele": "605",
+        "hiking": "yes",
+        "information": "guidepost",
+        "inscription": "U potoka. Stavba dokončena 06.12.1936",
+        "name": "Pěchotní srub K-S5",
+        "operator": "cz:KCT",
+        "ref": "SU158",
         "tourism": "information"
       }
     },

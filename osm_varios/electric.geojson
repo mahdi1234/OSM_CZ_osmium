@@ -5909,10 +5909,10 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -57047,6 +57047,25 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2624544,
+          49.548931
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14073504068,
+        "@url": "https://www.openstreetmap.org/node/14073504068",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:small_appliances": "yes",
         "recycling_type": "container"
       }
     },

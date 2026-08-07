@@ -1110,6 +1110,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4975361,
+          50.0564017
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4691893614,
+        "@url": "https://www.openstreetmap.org/node/4691893614",
+        "amenity": "recycling",
+        "recycling:batteries": "no",
+        "recycling:books": "no",
+        "recycling:cans": "no",
+        "recycling:cardboard": "no",
+        "recycling:cartons": "no",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "no",
+        "recycling:glass": "no",
+        "recycling:glass_bottles": "no",
+        "recycling:green_waste": "no",
+        "recycling:magazines": "no",
+        "recycling:newspaper": "no",
+        "recycling:paper": "no",
+        "recycling:paper_packaging": "no",
+        "recycling:plastic": "no",
+        "recycling:plastic_bottles": "no",
+        "recycling:plastic_packaging": "no",
+        "recycling:scrap_metal": "no",
+        "recycling:small_appliances": "no",
+        "recycling:waste": "no",
+        "recycling:wood": "no",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4352802,
           50.0486094
         ]
@@ -3817,7 +3855,7 @@
         "@id": 8958310244,
         "@url": "https://www.openstreetmap.org/node/8958310244",
         "amenity": "recycling",
-        "check_date:recycling": "2024-07-14",
+        "check_date:recycling": "2026-08-06",
         "operator": "czech red cross",
         "recycling:clothes": "yes",
         "recycling_type": "container"
@@ -18908,6 +18946,7 @@
         "@id": 12292547390,
         "@url": "https://www.openstreetmap.org/node/12292547390",
         "amenity": "recycling",
+        "recycling:cans": "yes",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -28728,6 +28767,46 @@
         "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6283443,
+          50.4369526
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14077145855,
+        "@url": "https://www.openstreetmap.org/node/14077145855",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6816289,
+          49.2199509
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14077251861,
+        "@url": "https://www.openstreetmap.org/node/14077251861",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
         "recycling_type": "container"
       }
     },

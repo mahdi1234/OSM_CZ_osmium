@@ -4768,8 +4768,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7777837,
-          49.4060459
+          16.7777678,
+          49.4060287
         ]
       },
       "properties": {
@@ -4779,7 +4779,8 @@
         "access": "yes",
         "amenity": "public_bookcase",
         "check_date": "2025-01-15",
-        "public_bookcase:type": "shelf"
+        "public_bookcase:type": "shelf",
+        "wheelchair": "limited"
       }
     },
     {
@@ -7393,7 +7394,8 @@
         "@type": "node",
         "@id": 9551996177,
         "@url": "https://www.openstreetmap.org/node/9551996177",
-        "amenity": "public_bookcase"
+        "amenity": "public_bookcase",
+        "check_date": "2026-08-02"
       }
     },
     {
@@ -17963,6 +17965,59 @@
         "@id": 14076430620,
         "@url": "https://www.openstreetmap.org/node/14076430620",
         "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1844005,
+          50.879104
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14080506466,
+        "@url": "https://www.openstreetmap.org/node/14080506466",
+        "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0888927,
+          50.4217209
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14081784301,
+        "@url": "https://www.openstreetmap.org/node/14081784301",
+        "amenity": "public_bookcase",
+        "lit": "no",
+        "name": "Knihobudka Studnička",
+        "opening_hours": "24/7",
+        "operator": "Obecní knihovna Studnice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2588408,
+          50.1095363
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14082447522,
+        "@url": "https://www.openstreetmap.org/node/14082447522",
+        "amenity": "public_bookcase",
+        "lit": "yes"
       }
     },
     {

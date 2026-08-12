@@ -46661,6 +46661,60 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.9835727,
+            49.4994178
+          ],
+          [
+            12.9837739,
+            49.4989074
+          ],
+          [
+            12.9838329,
+            49.4988664
+          ],
+          [
+            12.9841454,
+            49.4989161
+          ],
+          [
+            12.9841138,
+            49.4994278
+          ],
+          [
+            12.9839402,
+            49.4994496
+          ],
+          [
+            12.9838758,
+            49.4994526
+          ],
+          [
+            12.9835727,
+            49.4994178
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1548822399,
+        "@url": "https://www.openstreetmap.org/way/1548822399",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -65527,6 +65581,64 @@
         "recycling:paper": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:tyres": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.9835727,
+                49.4994178
+              ],
+              [
+                12.9837739,
+                49.4989074
+              ],
+              [
+                12.9838329,
+                49.4988664
+              ],
+              [
+                12.9841454,
+                49.4989161
+              ],
+              [
+                12.9841138,
+                49.4994278
+              ],
+              [
+                12.9839402,
+                49.4994496
+              ],
+              [
+                12.9838758,
+                49.4994526
+              ],
+              [
+                12.9835727,
+                49.4994178
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1548822399,
+        "@url": "https://www.openstreetmap.org/way/1548822399",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:wood": "yes",
         "recycling_type": "centre"
       }
     }

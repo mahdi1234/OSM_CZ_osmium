@@ -331,9 +331,9 @@
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -26237,10 +26237,12 @@
         "@id": 13418296151,
         "@url": "https://www.openstreetmap.org/node/13418296151",
         "amenity": "recycling",
+        "recycling:bio_waste": "yes",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -33588,6 +33590,60 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.9835727,
+            49.4994178
+          ],
+          [
+            12.9837739,
+            49.4989074
+          ],
+          [
+            12.9838329,
+            49.4988664
+          ],
+          [
+            12.9841454,
+            49.4989161
+          ],
+          [
+            12.9841138,
+            49.4994278
+          ],
+          [
+            12.9839402,
+            49.4994496
+          ],
+          [
+            12.9838758,
+            49.4994526
+          ],
+          [
+            12.9835727,
+            49.4994178
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1548822399,
+        "@url": "https://www.openstreetmap.org/way/1548822399",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -38595,6 +38651,64 @@
         "recycling_type": "centre",
         "source:opening_hours": "website",
         "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.9835727,
+                49.4994178
+              ],
+              [
+                12.9837739,
+                49.4989074
+              ],
+              [
+                12.9838329,
+                49.4988664
+              ],
+              [
+                12.9841454,
+                49.4989161
+              ],
+              [
+                12.9841138,
+                49.4994278
+              ],
+              [
+                12.9839402,
+                49.4994496
+              ],
+              [
+                12.9838758,
+                49.4994526
+              ],
+              [
+                12.9835727,
+                49.4994178
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1548822399,
+        "@url": "https://www.openstreetmap.org/way/1548822399",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
       }
     }
   ]

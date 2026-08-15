@@ -1681,12 +1681,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.3666112,
-            50.0997221
-          ],
-          [
             14.3669703,
             50.0995279
+          ],
+          [
+            14.3666592,
+            50.0996961
           ]
         ]
       },
@@ -1696,7 +1696,7 @@
         "@url": "https://www.openstreetmap.org/way/10591369",
         "handrail": "yes",
         "highway": "steps",
-        "incline": "down",
+        "incline": "up",
         "name": "Na Stupních",
         "name:de": "Stufengasse",
         "ramp": "no",
@@ -77298,8 +77298,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.2250973,
-            48.6355305
+            14.2250874,
+            48.6355325
           ],
           [
             14.2250023,
@@ -77346,11 +77346,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.2251859,
-            48.6354824
+            14.2251662,
+            48.6354785
           ],
           [
-            14.2251663,
+            14.2251387,
             48.6355156
           ]
         ]
@@ -169258,12 +169258,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.4255112,
-            49.7377996
+            14.4255179,
+            49.737801
           ],
           [
-            14.425589,
-            49.7377649
+            14.4255961,
+            49.7377647
           ]
         ]
       },
@@ -317881,6 +317881,10 @@
             49.255187
           ],
           [
+            16.685966,
+            49.2551854
+          ],
+          [
             16.68621,
             49.2551769
           ],
@@ -378445,7 +378449,10 @@
         "@type": "way",
         "@id": 1301366272,
         "@url": "https://www.openstreetmap.org/way/1301366272",
-        "highway": "steps"
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "surface": "rock"
       }
     },
     {
@@ -431765,6 +431772,7 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "up",
+        "material": "tiles",
         "tactile_paving": "no"
       }
     },
@@ -491209,6 +491217,29 @@
         "surface": "concrete",
         "tactile_paving": "no",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.2251616,
+            48.6369637
+          ],
+          [
+            14.2250226,
+            48.6370079
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1549568776,
+        "@url": "https://www.openstreetmap.org/way/1549568776",
+        "highway": "steps",
+        "surface": "asphalt"
       }
     },
     {

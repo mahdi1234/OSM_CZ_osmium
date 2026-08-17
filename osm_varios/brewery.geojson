@@ -1486,11 +1486,20 @@
         "addr:city": "Ctiněves",
         "addr:conscriptionnumber": "1",
         "addr:country": "CZ",
+        "addr:floor": "0",
         "addr:housenumber": "1",
         "addr:place": "Ctiněves",
         "addr:postcode": "41301",
+        "check_date": "2026-08-16",
         "craft": "brewery",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
         "name": "Podřipský rodinný minipivovar",
+        "opening_hours": "Mo off; Tu-Th 16:00-22:00; Fr 16:00-24:00; Sa 11:00-24:00; Su 11:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "ref:ruian:addr": "16643356",
         "website": "http://www.podripske-pivo.cz"
       }
@@ -8637,6 +8646,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4230474,
+          50.0795894
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13653818501,
+        "@url": "https://www.openstreetmap.org/node/13653818501",
+        "addr:city": "Praha 1",
+        "addr:housenumber": "682/20",
+        "addr:postcode": "11000",
+        "addr:street": "Vodičkova",
+        "alt_name:en": "Bohemia Goose",
+        "amenity": "pub",
+        "check_date": "2026-08-15",
+        "microbrewery": "yes",
+        "name": "Šohajka",
+        "opening_hours": "Su-We 11:00-22:00; Th-Sa 11:00-23:00",
+        "website": "https://www.hostinecsohajka.cz",
+        "website:menu": "https://hostinecsohajka.choiceqr.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4302398,
           50.0912585
         ]
@@ -9928,6 +9964,7 @@
         "addr:housenumber": "324",
         "addr:postcode": "386 01",
         "addr:street": "Podskalská",
+        "check_date": "2026-08-16",
         "contact:facebook": "https://www.facebook.com/dudak.strakonice/",
         "contact:instagram": "https://www.instagram.com/pivovardudak/",
         "craft": "brewery",
@@ -16457,6 +16494,7 @@
         "addr:housenumber": "324",
         "addr:postcode": "386 01",
         "addr:street": "Podskalská",
+        "check_date": "2026-08-16",
         "contact:facebook": "https://www.facebook.com/dudak.strakonice/",
         "contact:instagram": "https://www.instagram.com/pivovardudak/",
         "craft": "brewery",

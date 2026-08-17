@@ -16402,8 +16402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.465626,
-          49.4615353
+          16.4656196,
+          49.4615307
         ]
       },
       "properties": {
@@ -19167,8 +19167,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4638758,
-          49.4437878
+          16.4638051,
+          49.4438508
         ]
       },
       "properties": {
@@ -19178,9 +19178,9 @@
         "ele": "656",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Babylon (rozhledna)",
+        "name": "Babylón (rozhledna)",
         "operator": "cz:KČT",
-        "ref": "BL824",
+        "ref": "TS152",
         "tourism": "information"
       }
     },
@@ -19189,8 +19189,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4683696,
-          49.4445375
+          16.4683046,
+          49.4445475
         ]
       },
       "properties": {
@@ -19203,7 +19203,7 @@
         "information": "guidepost",
         "name": "Pod Babylonem",
         "operator": "cz:KČT",
-        "ref": "TS130",
+        "ref": "TS130;BL813",
         "tourism": "information"
       }
     },
@@ -91304,6 +91304,42 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3032283,
+          48.6127853
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14098495740,
+        "@url": "https://www.openstreetmap.org/node/14098495740",
+        "ele": "654.5",
+        "natural": "peak",
+        "source": "cuzk:ztm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3093973,
+          48.6077754
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14098495769,
+        "@url": "https://www.openstreetmap.org/node/14098495769",
+        "ele": "684.8",
+        "natural": "peak",
+        "source": "cuzk:ztm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -103390,6 +103426,55 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.5511465,
+                49.9821831
+              ],
+              [
+                12.551237,
+                49.9821754
+              ],
+              [
+                12.5512496,
+                49.9822411
+              ],
+              [
+                12.5511591,
+                49.9822488
+              ],
+              [
+                12.5511465,
+                49.9821831
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "relation",
+        "@id": 17142356,
+        "@url": "https://www.openstreetmap.org/relation/17142356",
+        "amenity": "place_of_worship",
+        "area": "yes",
+        "building": "church",
+        "building:ruian:type": "15",
+        "ele": "666",
+        "name": "Kostel sv. Jana Křtitele",
+        "ref:ruian:building": "48221830",
+        "religion": "christian",
+        "ruins": "church",
+        "source": "cuzk:ruian",
+        "wikidata": "Q20008644",
+        "wikipedia": "cs:Kostel Narození svatého Jana Křtitele (Vysoká)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -103491,55 +103576,6 @@
         "@url": "https://www.openstreetmap.org/way/1513400778",
         "ele": "663",
         "natural": "bare_rock"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                12.5511465,
-                49.9821831
-              ],
-              [
-                12.551237,
-                49.9821754
-              ],
-              [
-                12.5512496,
-                49.9822411
-              ],
-              [
-                12.5511591,
-                49.9822488
-              ],
-              [
-                12.5511465,
-                49.9821831
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "relation",
-        "@id": 17142356,
-        "@url": "https://www.openstreetmap.org/relation/17142356",
-        "amenity": "place_of_worship",
-        "area": "yes",
-        "building": "church",
-        "building:ruian:type": "15",
-        "ele": "666",
-        "name": "Kostel sv. Jana Křtitele",
-        "ref:ruian:building": "48221830",
-        "religion": "christian",
-        "ruins": "church",
-        "source": "cuzk:ruian",
-        "wikidata": "Q20008644",
-        "wikipedia": "cs:Kostel Narození svatého Jana Křtitele (Vysoká)"
       }
     },
     {

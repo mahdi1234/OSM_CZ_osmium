@@ -111,26 +111,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.222079,
-          49.1652048
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 300139620,
-        "@url": "https://www.openstreetmap.org/node/300139620",
-        "amenity": "mountain_rescue",
-        "emergency_telephone_code": "+420376397273",
-        "highway": "emergency_access_point",
-        "name": "Horská služba Špičák",
-        "source_ref": "http://jeseniky.org/attachments/442_CZ-Horska_sluzba.kml"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.7171308,
           50.6993964
         ]
@@ -13378,8 +13358,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1868593,
-          49.1812747
+          13.1868191,
+          49.181269
         ]
       },
       "properties": {
@@ -34402,8 +34382,30 @@
         "@type": "node",
         "@id": 14086157099,
         "@url": "https://www.openstreetmap.org/node/14086157099",
+        "emergency_telephone_code": "112",
         "highway": "emergency_access_point",
-        "ref": "PS 011"
+        "operator": "Lesy ČR, s.p.",
+        "ref": "PS011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7752768,
+          50.0620679
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14091985747,
+        "@url": "https://www.openstreetmap.org/node/14091985747",
+        "emergency": "access_point",
+        "emergency_telephone_code": "112",
+        "highway": "emergency_access_point",
+        "operator": "Lesy ČR, s.p.",
+        "ref": "UO001"
       }
     },
     {

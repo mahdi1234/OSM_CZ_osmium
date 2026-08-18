@@ -7150,40 +7150,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.4300333,
-            50.0791886
-          ],
-          [
-            14.4300891,
-            50.0791721
-          ],
-          [
-            14.4300593,
-            50.0791167
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 29116933,
-        "@url": "https://www.openstreetmap.org/way/29116933",
-        "handrail": "yes",
-        "highway": "steps",
-        "incline": "up",
-        "layer": "-1",
-        "level": "-1",
-        "lit": "yes",
-        "note": "podchod metra",
-        "surface": "paving_stones",
-        "tunnel": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             14.4313177,
             50.0794887
           ],
@@ -56200,6 +56166,8 @@
         "@url": "https://www.openstreetmap.org/way/143575757",
         "conveying": "yes",
         "handrail": "yes",
+        "handrail:left": "yes",
+        "handrail:right": "yes",
         "highway": "steps",
         "incline": "up",
         "level": "-1;0",
@@ -72931,34 +72899,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.429973,
-            50.0787608
-          ],
-          [
-            14.4299642,
-            50.0786555
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 183171438,
-        "@url": "https://www.openstreetmap.org/way/183171438",
-        "handrail": "yes",
-        "highway": "steps",
-        "incline": "up",
-        "level": "0;-1",
-        "ramp": "no",
-        "surface": "sett",
-        "tactile_paving": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             14.4354253,
             50.0502158
           ],
@@ -73793,12 +73733,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.3138436,
-            50.2454479
-          ],
-          [
-            14.313832,
-            50.2453909
+            14.3138338,
+            50.2453975
           ],
           [
             14.3139493,
@@ -95659,29 +95595,6 @@
         "@id": 230742160,
         "@url": "https://www.openstreetmap.org/way/230742160",
         "highway": "steps"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.5071278,
-            49.133476
-          ],
-          [
-            17.5071142,
-            49.1334391
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 230785819,
-        "@url": "https://www.openstreetmap.org/way/230785819",
-        "highway": "steps",
-        "source": "bing;survey"
       }
     },
     {
@@ -240174,12 +240087,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.8146288,
-            50.1523316
+            16.8146595,
+            50.1523673
           ],
           [
-            16.8144438,
-            50.1523694
+            16.8145557,
+            50.1524222
+          ],
+          [
+            16.8144585,
+            50.1525095
+          ],
+          [
+            16.8143459,
+            50.1525455
           ]
         ]
       },
@@ -241548,12 +241469,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.3446582,
-            50.4592001
+            14.3446924,
+            50.4591783
           ],
           [
-            14.3446528,
-            50.4592854
+            14.3447172,
+            50.459273
           ]
         ]
       },
@@ -241570,8 +241491,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.3446582,
-            50.4592001
+            14.3446924,
+            50.4591783
           ],
           [
             14.3445294,
@@ -468751,7 +468672,9 @@
         "@id": 1491202585,
         "@url": "https://www.openstreetmap.org/way/1491202585",
         "highway": "steps",
-        "incline": "down"
+        "incline": "down",
+        "ramp": "no",
+        "surface": "paving_stones"
       }
     },
     {
@@ -491854,6 +491777,412 @@
         "@url": "https://www.openstreetmap.org/way/1550181497",
         "highway": "steps",
         "incline": "up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.6662628,
+            49.9504784
+          ],
+          [
+            15.6662665,
+            49.9505005
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550216614,
+        "@url": "https://www.openstreetmap.org/way/1550216614",
+        "highway": "steps",
+        "incline": "down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.6661206,
+            49.9503718
+          ],
+          [
+            15.6660907,
+            49.9503799
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550216618,
+        "@url": "https://www.openstreetmap.org/way/1550216618",
+        "highway": "steps",
+        "incline": "down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4306546,
+            50.079904
+          ],
+          [
+            14.4305625,
+            50.0798265
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550238493,
+        "@url": "https://www.openstreetmap.org/way/1550238493",
+        "conveying": "forward",
+        "highway": "steps",
+        "incline": "up",
+        "level": "-2;-1",
+        "lit": "yes",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4306799,
+            50.079892
+          ],
+          [
+            14.4305889,
+            50.0798135
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550238494,
+        "@url": "https://www.openstreetmap.org/way/1550238494",
+        "conveying": "forward",
+        "highway": "steps",
+        "incline": "up",
+        "level": "-2;-1",
+        "lit": "yes",
+        "tunnel": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.420453,
+            49.7555137
+          ],
+          [
+            13.4204361,
+            49.7555224
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550272700,
+        "@url": "https://www.openstreetmap.org/way/1550272700",
+        "highway": "steps",
+        "incline": "up",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4201728,
+            49.7552804
+          ],
+          [
+            13.4201478,
+            49.7552932
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550272701,
+        "@url": "https://www.openstreetmap.org/way/1550272701",
+        "highway": "steps",
+        "incline": "up",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4200433,
+            49.7551792
+          ],
+          [
+            13.4200205,
+            49.7551929
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550272702,
+        "@url": "https://www.openstreetmap.org/way/1550272702",
+        "highway": "steps",
+        "incline": "up",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4203261,
+            49.7554086
+          ],
+          [
+            13.4203063,
+            49.7554194
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550272703,
+        "@url": "https://www.openstreetmap.org/way/1550272703",
+        "highway": "steps",
+        "incline": "up",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8152545,
+            50.1528562
+          ],
+          [
+            16.815353,
+            50.1528403
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299390,
+        "@url": "https://www.openstreetmap.org/way/1550299390",
+        "highway": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8150567,
+            50.1528321
+          ],
+          [
+            16.8150801,
+            50.1528274
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299391,
+        "@url": "https://www.openstreetmap.org/way/1550299391",
+        "highway": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8148595,
+            50.1528674
+          ],
+          [
+            16.8148796,
+            50.1528648
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299392,
+        "@url": "https://www.openstreetmap.org/way/1550299392",
+        "highway": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8156405,
+            50.152476
+          ],
+          [
+            16.8155837,
+            50.1525047
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299396,
+        "@url": "https://www.openstreetmap.org/way/1550299396",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "surface": "metal",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8150204,
+            50.1538903
+          ],
+          [
+            16.8155842,
+            50.1535712
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299421,
+        "@url": "https://www.openstreetmap.org/way/1550299421",
+        "highway": "steps",
+        "incline": "up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8324058,
+            50.1508325
+          ],
+          [
+            16.8324233,
+            50.1508101
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299462,
+        "@url": "https://www.openstreetmap.org/way/1550299462",
+        "highway": "steps",
+        "incline": "up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8316823,
+            50.1506121
+          ],
+          [
+            16.8317233,
+            50.1506057
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299465,
+        "@url": "https://www.openstreetmap.org/way/1550299465",
+        "highway": "steps",
+        "incline": "up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.8311734,
+            50.1503951
+          ],
+          [
+            16.8311831,
+            50.1504486
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550299468,
+        "@url": "https://www.openstreetmap.org/way/1550299468",
+        "highway": "steps",
+        "incline": "up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.3446389,
+            50.4590416
+          ],
+          [
+            14.3446796,
+            50.4590021
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1550332505,
+        "@url": "https://www.openstreetmap.org/way/1550332505",
+        "highway": "steps",
+        "incline": "down"
       }
     },
     {

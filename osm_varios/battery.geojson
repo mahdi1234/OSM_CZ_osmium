@@ -28859,7 +28859,35 @@
         "@id": 14102694072,
         "@url": "https://www.openstreetmap.org/node/14102694072",
         "amenity": "recycling",
+        "opening_hours": "24/7",
         "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1027911,
+          49.7423319
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14114806461,
+        "@url": "https://www.openstreetmap.org/node/14114806461",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }

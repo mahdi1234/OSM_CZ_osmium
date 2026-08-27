@@ -938,6 +938,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.3916303,
+          50.0638904
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 932604017,
+        "@url": "https://www.openstreetmap.org/node/932604017",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.5158269,
           50.046898
         ]
@@ -18806,11 +18829,9 @@
         "amenity": "recycling",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
-        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container",
         "ref": "0009/123"
@@ -25770,6 +25791,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.9189212,
+          49.764452
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 8380210854,
+        "@url": "https://www.openstreetmap.org/node/8380210854",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.308028,
           50.1421812
         ]
@@ -31311,7 +31357,7 @@
         "addr:street": "Lány",
         "amenity": "recycling",
         "name": "Sběrný dvůr města Napajedla",
-        "opening_hours": "We 15:00-18:00, Sa 8:00-12:00",
+        "opening_hours": "We 15:00-18:00, Sa 08:00-12:00",
         "operator": "Služby města Napajedla",
         "operator:type": "public",
         "recycling:clothes": "yes",
@@ -35862,6 +35908,32 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.753927,
+          50.1854363
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9681030701,
+        "@url": "https://www.openstreetmap.org/node/9681030701",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -46439,7 +46511,7 @@
         "@id": 11700754285,
         "@url": "https://www.openstreetmap.org/node/11700754285",
         "amenity": "recycling",
-        "opening_hours": "Mo-Fr 10:00-17:00;Sa 9:00-16:00",
+        "opening_hours": "Mo-Fr 10:00-17:00; Sa 09:00-16:00",
         "operator": "FCC",
         "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
@@ -51240,7 +51312,7 @@
         "@url": "https://www.openstreetmap.org/node/12206790348",
         "amenity": "recycling",
         "name": "Sběrný dvůr",
-        "opening_hours": "Sa 9:00-12:00",
+        "opening_hours": "Sa 09:00-12:00",
         "operator": "Obec Rychnov na Moravě",
         "operator:type": "public",
         "recycling:batteries": "yes",

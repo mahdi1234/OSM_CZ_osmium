@@ -3155,11 +3155,13 @@
         "amenity": "recycling",
         "location": "overground",
         "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic_bottles": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -39359,8 +39361,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.994455,
-          49.1441536
+          14.9943506,
+          49.1440303
         ]
       },
       "properties": {
@@ -42246,7 +42248,7 @@
         "addr:street": "Dřevčická",
         "amenity": "recycling",
         "name": "Domeček - odpady",
-        "opening_hours": "Mo-Fr 07:00-16:45; Sa 08:00-14:45",
+        "opening_hours": "Mo-Fr 07:00-16:45; Sa 08:00-14:45; PH closed",
         "recycling:PET": "yes",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
@@ -43113,8 +43115,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3972768,
-          49.3210604
+          16.3972842,
+          49.3210778
         ]
       },
       "properties": {
@@ -43122,6 +43124,7 @@
         "@id": 11141973355,
         "@url": "https://www.openstreetmap.org/node/11141973355",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",

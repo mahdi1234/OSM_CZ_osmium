@@ -7257,24 +7257,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3669155,
-          49.77017
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9601970201,
-        "@url": "https://www.openstreetmap.org/node/9601970201",
-        "amenity": "recycling",
-        "recycling:clothes": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.7543057,
           48.8469136
         ]
@@ -16095,6 +16077,28 @@
         "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6665497,
+          49.1466897
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11370998901,
+        "@url": "https://www.openstreetmap.org/node/11370998901",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -29168,6 +29172,26 @@
         "material": "metal",
         "recycling:books": "yes",
         "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0384069,
+          49.4323037
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14133502430,
+        "@url": "https://www.openstreetmap.org/node/14133502430",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:paper": "yes",
         "recycling_type": "container"
       }
     },

@@ -6,7 +6,7 @@ echo "amenity=drinking_water"
 osmium tags-filter ./praha-latest.osm.pbf nwr/amenity=drinking_water --overwrite -o ./drinking_water/amenity_drinking_water.pbf
 osmium export ./drinking_water/amenity_drinking_water.pbf --overwrite -o ./drinking_water/amenity_drinking_water.json -c ./osmium_options.json
 cat ./drinking_water/amenity_drinking_water.json | ./urlize.sh | grep -e '"amenity":"drinking_water"' -e 'FeatureCollection' -e '^]}$' | grep -ve '"access":"private"' | grep -ve '"access":"customers"' | grep -ve '"access":"no"' |  ./sanitize_json_jq.sh > ./drinking_water/funknci_verejna_pitka.geojson
-cat ./drinking_water/amenity_drinking_water.json | ./urlize.sh | grep -e '"amenity":"drinking_water"' -e 'FeatureCollection' -e '^]}$' | grep -e '"fountain":"brčko"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./drinking_water/brcka_mlhopitka.geojson
+cat ./drinking_water/amenity_drinking_water.json | ./urlize.sh | grep -e '"amenity":"drinking_water"' -e 'FeatureCollection' -e '^]}$' | grep -e '"model":"brčko"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./drinking_water/brcka_mlhopitka.geojson
 cat ./drinking_water/amenity_drinking_water.json | ./urlize.sh | grep -e '"amenity":"drinking_water"' -e 'FeatureCollection' -e '^]}$' | grep -e '"access":"private"' -e '"access":"customers"' -e '"access":"no"' -e 'FeatureCollection' -e '^]}$' | ./sanitize_json_jq.sh > ./drinking_water/soukroma_pitka.geojson
 
 echo "disused:amenity=drinking_water"

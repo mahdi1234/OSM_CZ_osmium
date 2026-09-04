@@ -5440,25 +5440,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4150941,
-          50.0680946
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 14002069401,
-        "@url": "https://www.openstreetmap.org/node/14002069401",
-        "amenity": "drinking_water",
-        "check_date": "2026-07-10",
-        "name": "Osvěžítko, mlžítko",
-        "operator": "Praha 2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.435144,
           50.0499462
         ]
@@ -5486,8 +5467,27 @@
         "@type": "node",
         "@id": 14026721430,
         "@url": "https://www.openstreetmap.org/node/14026721430",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "fountain": "bubbler"
+        "bottle": "yes",
+        "check_date": "2026-08-19",
+        "description": "Brčko Ládví",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "image": "https://hillview.cz/?photo=hillview-f1f5681f-504a-493b-acae-4a22049f67d0&lat=50.12704826835024&lon=14.46978807449341&zoom=20&bearing=268.61698212522003",
+        "installation:seasonal": "yes",
+        "manufacturer": "PVK",
+        "material": "metal",
+        "mist_spraying_cooler": "yes",
+        "model": "brčko",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "341",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5495,8 +5495,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4695214,
-          50.1276225
+          14.4695327,
+          50.1276277
         ]
       },
       "properties": {
@@ -5504,9 +5504,23 @@
         "@id": 14039392420,
         "@url": "https://www.openstreetmap.org/node/14039392420",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
-        "fee": "no"
+        "check_date": "2026-08-19",
+        "description": "Pítko Ládví",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Benito",
+        "material": "metal",
+        "model": "Atlas",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "342",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -7753,6 +7767,41 @@
         "seasonal": "summer",
         "water_flow": "normal",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4151462,
+          50.0732075
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14139614501,
+        "@url": "https://www.openstreetmap.org/node/14139614501",
+        "amenity": "drinking_water",
+        "check_date": "2026-09-01",
+        "name": "Mlžítko, osvěžítko"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5185832,
+          50.1119286
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14141944907,
+        "@url": "https://www.openstreetmap.org/node/14141944907",
+        "amenity": "drinking_water",
+        "fee": "no"
       }
     }
   ]

@@ -16516,10 +16516,13 @@
         "@type": "way",
         "@id": 1286212112,
         "@url": "https://www.openstreetmap.org/way/1286212112",
+        "handrail": "no",
         "highway": "steps",
         "incline": "down",
+        "ramp": "no",
         "step_count": "5",
-        "surface": "concrete"
+        "surface": "concrete",
+        "tactile_paving": "no"
       }
     },
     {
@@ -35385,6 +35388,36 @@
         "source": "survey",
         "step_count": "9",
         "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6223577,
+            49.2348438
+          ],
+          [
+            16.6224368,
+            49.2348428
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1537167045,
+        "@url": "https://www.openstreetmap.org/way/1537167045",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "no",
+        "source": "cuzk:km;survey;mapbox",
+        "step_count": "9",
+        "surface": "asphalt",
         "tactile_paving": "no"
       }
     },
@@ -62856,6 +62889,35 @@
         "ramp": "no",
         "step_count": "28",
         "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.6065752,
+            49.1684438
+          ],
+          [
+            16.6064068,
+            49.1684423
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 723845713,
+        "@url": "https://www.openstreetmap.org/way/723845713",
+        "check_date:ramp": "2026-07-24",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "step_count": "28",
+        "surface": "metal",
         "tactile_paving": "no"
       }
     },

@@ -37848,9 +37848,9 @@
         "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:aluminium": "yes",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
@@ -37859,7 +37859,6 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
         "recycling_type": "container",
         "ref": "0021/010",
         "wheelchair": "limited"
@@ -81335,6 +81334,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.2755813,
+          49.9576723
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11372368946,
+        "@url": "https://www.openstreetmap.org/node/11372368946",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.513161,
           50.0528198
         ]
@@ -121350,6 +121371,52 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5067422,
+          50.3305024
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14148573326,
+        "@url": "https://www.openstreetmap.org/node/14148573326",
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "material": "metal",
+        "operator": "TSMK",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5817279,
+          49.6188269
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14152027152,
+        "@url": "https://www.openstreetmap.org/node/14152027152",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -148070,8 +148137,12 @@
         "operator": "AVE Pražské komunální služby, a.s.",
         "operator:type": "public",
         "phone": "+420 296 339 900",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
@@ -148084,10 +148155,12 @@
         "recycling:plastic_packaging": "yes",
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
-        "website": "https://www.ave.cz/cs/praha/sberny-dvur-vackov"
+        "website": "https://www.ave.cz/cs/praha/sberny-dvur-vackov",
+        "wheelchair": "limited"
       }
     },
     {
@@ -177374,8 +177447,12 @@
         "operator": "AVE Pražské komunální služby, a.s.",
         "operator:type": "public",
         "phone": "+420 296 339 900",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
@@ -177388,10 +177465,12 @@
         "recycling:plastic_packaging": "yes",
         "recycling:rubble": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
         "recycling:tyres": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre",
-        "website": "https://www.ave.cz/cs/praha/sberny-dvur-vackov"
+        "website": "https://www.ave.cz/cs/praha/sberny-dvur-vackov",
+        "wheelchair": "limited"
       }
     },
     {

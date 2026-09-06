@@ -45854,32 +45854,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.572133,
-          49.1660709
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8306681314,
-        "@url": "https://www.openstreetmap.org/node/8306681314",
-        "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.57737,
           49.1691767
         ]
@@ -121417,6 +121391,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.067165,
+          50.7852136
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14155167923,
+        "@url": "https://www.openstreetmap.org/node/14155167923",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -149230,6 +149227,68 @@
         "recycling_type": "centre",
         "source:opening_hours": "website",
         "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.3730069,
+            49.9120705
+          ],
+          [
+            13.3733965,
+            49.9121241
+          ],
+          [
+            13.3733945,
+            49.9119646
+          ],
+          [
+            13.373213,
+            49.911935
+          ],
+          [
+            13.373108,
+            49.911919
+          ],
+          [
+            13.373099,
+            49.911944
+          ],
+          [
+            13.3730634,
+            49.9119388
+          ],
+          [
+            13.3730069,
+            49.9120705
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1556155598,
+        "@url": "https://www.openstreetmap.org/way/1556155598",
+        "amenity": "recycling",
+        "name": "Sběrné místo Rybnice",
+        "opening_hours": "Mo,We 09:00-13:00; Tu,Th 09:00-13:00,17:00-19:00",
+        "recycling:cooking_oil": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:oil": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.rybnice.cz/aktualne/aktuality/odpadova-kucharka-obce-rybnice-23cs.html"
       }
     },
     {
@@ -178689,6 +178748,72 @@
         "recycling_type": "centre",
         "source:opening_hours": "website",
         "website": "https://www.kaznejov.cz/urad/sberny-dvur-odpadove-hospodarstvi/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.3730069,
+                49.9120705
+              ],
+              [
+                13.3730634,
+                49.9119388
+              ],
+              [
+                13.373099,
+                49.911944
+              ],
+              [
+                13.373108,
+                49.911919
+              ],
+              [
+                13.373213,
+                49.911935
+              ],
+              [
+                13.3733945,
+                49.9119646
+              ],
+              [
+                13.3733965,
+                49.9121241
+              ],
+              [
+                13.3730069,
+                49.9120705
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1556155598,
+        "@url": "https://www.openstreetmap.org/way/1556155598",
+        "amenity": "recycling",
+        "name": "Sběrné místo Rybnice",
+        "opening_hours": "Mo,We 09:00-13:00; Tu,Th 09:00-13:00,17:00-19:00",
+        "recycling:cooking_oil": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:oil": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "source:opening_hours": "website",
+        "website": "https://www.rybnice.cz/aktualne/aktuality/odpadova-kucharka-obce-rybnice-23cs.html"
       }
     }
   ]

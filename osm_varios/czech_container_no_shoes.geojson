@@ -1551,51 +1551,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.5795052,
-          49.2903236
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6468731714,
-        "@url": "https://www.openstreetmap.org/node/6468731714",
-        "addr:housenumber": "ev.905",
-        "addr:place": "Lelekovice",
-        "addr:postcode": "66431",
-        "addr:provisionalnumber": "905",
-        "amenity": "recycling",
-        "collection_times": "We 16:00-18:00; Sa 09:00-12:00",
-        "email": "ekodvur.lelekovice@volny.cz",
-        "name": "Ekodvůr Lelekovice",
-        "opening_hours": "Mo,Fr,Sa 08:00-13:00; Tu-Th 15:00-18:00",
-        "phone": "+420 541 232 223",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:magazines": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:tyres": "yes",
-        "recycling_type": "centre",
-        "ref:ekokom": "10637",
-        "ref:ruian:addr": "86055712",
-        "website": "https://www.lelekovice.cz/obcan/sluzby/ekodvur/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.8858229,
           49.4013575
         ]
@@ -21611,15 +21566,13 @@
         "@url": "https://www.openstreetmap.org/node/12710319645",
         "amenity": "recycling",
         "operator": "EKOR",
+        "operator:wikidata": "Q138356457",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
-        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -34109,6 +34062,93 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.5795136,
+            49.2904726
+          ],
+          [
+            16.5795467,
+            49.2904483
+          ],
+          [
+            16.5795713,
+            49.2904359
+          ],
+          [
+            16.5796198,
+            49.2904116
+          ],
+          [
+            16.5796957,
+            49.2904657
+          ],
+          [
+            16.5798356,
+            49.2903887
+          ],
+          [
+            16.5795629,
+            49.2901746
+          ],
+          [
+            16.5794743,
+            49.2902232
+          ],
+          [
+            16.579378,
+            49.2901503
+          ],
+          [
+            16.5791242,
+            49.290286
+          ],
+          [
+            16.5795136,
+            49.2904726
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1556569751,
+        "@url": "https://www.openstreetmap.org/way/1556569751",
+        "addr:housenumber": "ev.905",
+        "addr:place": "Lelekovice",
+        "addr:postcode": "66431",
+        "addr:provisionalnumber": "905",
+        "amenity": "recycling",
+        "collection_times": "We 16:00-18:00; Sa 09:00-12:00",
+        "email": "ekodvur.lelekovice@volny.cz",
+        "name": "Ekodvůr Lelekovice",
+        "opening_hours": "Mo,Fr,Sa 08:00-13:00; Tu-Th 14:00-18:00",
+        "phone": "+420 541 232 223",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10637",
+        "ref:ruian:addr": "86055712",
+        "website": "https://www.lelekovice.cz/sluzby/ekodvur/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -39174,6 +39214,97 @@
         "recycling:paper": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.5791242,
+                49.290286
+              ],
+              [
+                16.579378,
+                49.2901503
+              ],
+              [
+                16.5794743,
+                49.2902232
+              ],
+              [
+                16.5795629,
+                49.2901746
+              ],
+              [
+                16.5798356,
+                49.2903887
+              ],
+              [
+                16.5796957,
+                49.2904657
+              ],
+              [
+                16.5796198,
+                49.2904116
+              ],
+              [
+                16.5795713,
+                49.2904359
+              ],
+              [
+                16.5795467,
+                49.2904483
+              ],
+              [
+                16.5795136,
+                49.2904726
+              ],
+              [
+                16.5791242,
+                49.290286
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1556569751,
+        "@url": "https://www.openstreetmap.org/way/1556569751",
+        "addr:housenumber": "ev.905",
+        "addr:place": "Lelekovice",
+        "addr:postcode": "66431",
+        "addr:provisionalnumber": "905",
+        "amenity": "recycling",
+        "collection_times": "We 16:00-18:00; Sa 09:00-12:00",
+        "email": "ekodvur.lelekovice@volny.cz",
+        "name": "Ekodvůr Lelekovice",
+        "opening_hours": "Mo,Fr,Sa 08:00-13:00; Tu-Th 14:00-18:00",
+        "phone": "+420 541 232 223",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre",
+        "ref:ekokom": "10637",
+        "ref:ruian:addr": "86055712",
+        "website": "https://www.lelekovice.cz/sluzby/ekodvur/"
       }
     }
   ]

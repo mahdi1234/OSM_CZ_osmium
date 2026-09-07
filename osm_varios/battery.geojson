@@ -23812,15 +23812,13 @@
         "@url": "https://www.openstreetmap.org/node/12710319645",
         "amenity": "recycling",
         "operator": "EKOR",
+        "operator:wikidata": "Q138356457",
         "recycling:batteries": "yes",
         "recycling:beverage_cartons": "yes",
-        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
-        "recycling:electrical_appliances": "yes",
         "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -47320,6 +47318,63 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1628849,
+            49.6457404
+          ],
+          [
+            13.1630829,
+            49.6455872
+          ],
+          [
+            13.1629637,
+            49.645522
+          ],
+          [
+            13.1629361,
+            49.6455066
+          ],
+          [
+            13.1627129,
+            49.6453818
+          ],
+          [
+            13.1625809,
+            49.6454856
+          ],
+          [
+            13.1628849,
+            49.6457404
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1555321741,
+        "@url": "https://www.openstreetmap.org/way/1555321741",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Stod",
+        "opening_hours": "Tu,Th,Sa 09:00-13:00,14:00-17:00",
+        "operator": "Západočeské komunální služby a.s.",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestostod.cz/sberny-dvur/ds-1121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -66397,6 +66452,67 @@
         "recycling:paper": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.1625809,
+                49.6454856
+              ],
+              [
+                13.1627129,
+                49.6453818
+              ],
+              [
+                13.1629361,
+                49.6455066
+              ],
+              [
+                13.1629637,
+                49.645522
+              ],
+              [
+                13.1630829,
+                49.6455872
+              ],
+              [
+                13.1628849,
+                49.6457404
+              ],
+              [
+                13.1625809,
+                49.6454856
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1555321741,
+        "@url": "https://www.openstreetmap.org/way/1555321741",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr Stod",
+        "opening_hours": "Tu,Th,Sa 09:00-13:00,14:00-17:00",
+        "operator": "Západočeské komunální služby a.s.",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "website": "https://www.mestostod.cz/sberny-dvur/ds-1121"
       }
     }
   ]

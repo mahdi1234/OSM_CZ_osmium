@@ -20811,10 +20811,7 @@
         "@id": 7305912973,
         "@url": "https://www.openstreetmap.org/node/7305912973",
         "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:clothes": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -52466,6 +52463,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4834031,
+          50.1554211
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12466200201,
+        "@url": "https://www.openstreetmap.org/node/12466200201",
+        "addr:city": "Praha  8",
+        "addr:postcode": "18200",
+        "addr:street": "Ďáblická",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr - skládka Ďáblice",
+        "opening_hours": "Oct-Mar Mo-Fr 08:30-17:00; Sa 08:30-15:00; Apr-Sep Mo-Fr 08:30-18:00; Sa 08:30-15:00",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:coffee_capsules": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "centre",
+        "website": "https://dablice.cz/odpady/21093-sberny-dvur-skladka-dablice",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.2754911,
           49.6024072
         ]
@@ -57346,6 +57391,38 @@
         "recycling:batteries": "yes",
         "recycling:small_appliances": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5082921,
+          49.3329187
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14163634364,
+        "@url": "https://www.openstreetmap.org/node/14163634364",
+        "amenity": "recycling",
+        "opening_hours": "We 16:00-18:00; Sa 14:00-16:00",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling_type": "centre"
       }
     },
     {

@@ -14,10 +14,23 @@
         "@type": "node",
         "@id": 290650248,
         "@url": "https://www.openstreetmap.org/node/290650248",
+        "access": "yes",
+        "activation": "continuous",
         "amenity": "drinking_water",
-        "fountain": "bubbler",
+        "bottle": "no",
+        "check_date": "2026",
+        "description": "Pítko Zítkovy sady",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "decorative",
         "indoor": "no",
+        "material": "stone",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "3",
+        "seasonal": "summer",
         "source": "CZ:IPRPraha:ortofoto;survey",
+        "water_flow": "weak",
+        "wheelchair": "yes",
         "wikidata": "Q98381459",
         "wikimedia_commons": "Category:Pítko u stanice Karlovo náměstí (Luboš Růžička)"
       }
@@ -75,7 +88,7 @@
         "artist:wikidata": "Q64462197",
         "artist_name": "Miroslav Vystrčil",
         "bottle": "yes",
-        "check_date": "2026-05-12",
+        "check_date": "2026-08-15",
         "description": "Pítko Klárov",
         "dog": "no",
         "drinking_water:seasonal": "yes",
@@ -572,8 +585,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4292107,
-          50.0973287
+          14.4291948,
+          50.0973289
         ]
       },
       "properties": {
@@ -590,17 +603,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3964636,
-          50.0866877
+          14.3964481,
+          50.0866791
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 1952521702,
         "@url": "https://www.openstreetmap.org/node/1952521702",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "man_made": "water_tap",
-        "source": "CZ:IPRPraha:ortofoto"
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko hřiště Vlašská",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Monachela",
+        "opening_hours": "08:00-19:00",
+        "ref:prazskapitka": "9",
+        "seasonal": "summer",
+        "source": "CZ:IPRPraha:ortofoto",
+        "water_flow": "normal",
+        "wheelchair": "limited"
       }
     },
     {
@@ -1329,8 +1358,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.409874,
-          50.1051573
+          14.4098806,
+          50.1051534
         ]
       },
       "properties": {
@@ -1380,15 +1409,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3910299,
-          50.0990975
+          14.3910253,
+          50.0991037
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 3995893512,
         "@url": "https://www.openstreetmap.org/node/3995893512",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Kafkova",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Urbania",
+        "material": "metal",
+        "model": "Beata",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "11",
+        "seasonal": "summer",
+        "water_flow": "strong",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1396,15 +1442,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3913228,
-          50.0996206
+          14.3913395,
+          50.0995952
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 4005175380,
         "@url": "https://www.openstreetmap.org/node/4005175380",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Evropská východ",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Urbania",
+        "material": "metal",
+        "model": "Beata",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "12",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1502,8 +1565,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4039389,
-          50.0817403
+          14.403949,
+          50.0817341
         ]
       },
       "properties": {
@@ -1619,9 +1682,25 @@
         "@type": "node",
         "@id": 4317651933,
         "@url": "https://www.openstreetmap.org/node/4317651933",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "man_made": "water_tap",
-        "source": "survey"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko hřiště Výtoň",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Sanela",
+        "material": "metal",
+        "model": "SLUN",
+        "opening_hours": "yes",
+        "ref:prazskapitka": "4",
+        "seasonal": "summer",
+        "source": "survey",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1765,8 +1844,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.421324,
-          50.1054189
+          14.4213332,
+          50.1054347
         ]
       },
       "properties": {
@@ -1834,8 +1913,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4199031,
-          50.0959691
+          14.4198679,
+          50.0959552
         ]
       },
       "properties": {
@@ -1977,8 +2056,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4079163,
-          50.0832149
+          14.4079287,
+          50.083219
         ]
       },
       "properties": {
@@ -2178,8 +2257,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4087842,
-          50.0793931
+          14.4087819,
+          50.0793673
         ]
       },
       "properties": {
@@ -2194,8 +2273,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4092291,
-          50.0778642
+          14.4092585,
+          50.0778402
         ]
       },
       "properties": {
@@ -2210,8 +2289,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4359496,
-          50.1007936
+          14.4359778,
+          50.1006882
         ]
       },
       "properties": {
@@ -2339,8 +2418,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4483057,
-          50.1017294
+          14.4483718,
+          50.101737
         ]
       },
       "properties": {
@@ -2581,8 +2660,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4025786,
-          50.0843481
+          14.4025915,
+          50.0843441
         ]
       },
       "properties": {
@@ -3073,8 +3152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4477192,
-          50.1081364
+          14.4477295,
+          50.1081358
         ]
       },
       "properties": {
@@ -3097,8 +3176,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4509895,
-          50.1000542
+          14.4509368,
+          50.1000732
         ]
       },
       "properties": {
@@ -3186,10 +3265,24 @@
         "@type": "node",
         "@id": 9132002355,
         "@url": "https://www.openstreetmap.org/node/9132002355",
+        "access": "yes",
+        "activation": "turn_valve",
         "amenity": "drinking_water",
         "bottle": "yes",
-        "fountain": "bubbler",
-        "source": "CZ:IPRPraha:ortofoto;survey"
+        "check_date": "2025",
+        "description": "Pítko Újezd/Petřín",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "REX",
+        "model": "Orfeus",
+        "opening_hours": "24/7",
+        "operational_status": "broken",
+        "ref:prazskapitka": "6",
+        "seasonal": "summer",
+        "source": "CZ:IPRPraha:ortofoto;survey",
+        "water_flow": "adjustable",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3197,8 +3290,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4476533,
-          50.1112908
+          14.4475636,
+          50.1112495
         ]
       },
       "properties": {
@@ -3209,7 +3302,6 @@
         "amenity": "drinking_water",
         "bottle": "yes",
         "fee": "no",
-        "fixme": "location_approximate",
         "source": "https://prazska.drbna.cz/z-kraje/praha-7/7624-ve-vnitrobloku-u-vody-jsou-nove-cesty-lavicky-pitka-i-osvetleni",
         "start_date": "2021",
         "wheelchair": "yes"
@@ -3381,8 +3473,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4048538,
-          50.0975757
+          14.4048825,
+          50.0976221
         ]
       },
       "properties": {
@@ -3709,8 +3801,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4080434,
-          50.0908386
+          14.408054,
+          50.0908309
         ]
       },
       "properties": {
@@ -3840,7 +3932,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3047812,
+          14.3048208,
           50.0891577
         ]
       },
@@ -4022,8 +4114,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4202878,
-          50.1001599
+          14.4203527,
+          50.1001546
         ]
       },
       "properties": {
@@ -4247,8 +4339,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4086009,
-          50.0841841
+          14.4087147,
+          50.0841463
         ]
       },
       "properties": {
@@ -4264,8 +4356,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.404203,
-          50.0735905
+          14.4042183,
+          50.0735875
         ]
       },
       "properties": {
@@ -4310,8 +4402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3721149,
-          50.1316804
+          14.3721004,
+          50.1316856
         ]
       },
       "properties": {
@@ -4327,8 +4419,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.376868,
-          50.1325352
+          14.3768364,
+          50.1325432
         ]
       },
       "properties": {
@@ -4713,8 +4805,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4027764,
-          50.1029245
+          14.4027926,
+          50.1029296
         ]
       },
       "properties": {
@@ -5406,8 +5498,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4214418,
-          50.1094376
+          14.4213777,
+          50.1094437
         ]
       },
       "properties": {
@@ -5528,8 +5620,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4091056,
-          50.0789638
+          14.4091474,
+          50.0789233
         ]
       },
       "properties": {
@@ -5630,8 +5722,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.440135099999999,
-          50.1120365
+          14.4401625,
+          50.1120216
         ]
       },
       "properties": {

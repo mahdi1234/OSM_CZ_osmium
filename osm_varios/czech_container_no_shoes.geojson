@@ -25804,6 +25804,8 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:oil": "yes",
         "recycling:paper": "yes",
@@ -29225,6 +29227,24 @@
         "brand:wikidata": "Q19602750",
         "operator": "Coretex CZ",
         "operator:wikidata": "Q137507932",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3766121,
+          50.0350518
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14166871056,
+        "@url": "https://www.openstreetmap.org/node/14166871056",
+        "amenity": "recycling",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -33983,16 +34003,16 @@
             49.4989161
           ],
           [
-            12.9841138,
-            49.4994278
+            12.9841416,
+            49.4989778
           ],
           [
-            12.9839402,
-            49.4994496
+            12.9841185,
+            49.4994427
           ],
           [
-            12.9838758,
-            49.4994526
+            12.9838764,
+            49.4994568
           ],
           [
             12.9835727,
@@ -34005,7 +34025,6 @@
         "@id": 1548822399,
         "@url": "https://www.openstreetmap.org/way/1548822399",
         "amenity": "recycling",
-        "barrier": "fence",
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",
@@ -39138,16 +39157,16 @@
                 49.4989161
               ],
               [
-                12.9841138,
-                49.4994278
+                12.9841416,
+                49.4989778
               ],
               [
-                12.9839402,
-                49.4994496
+                12.9841185,
+                49.4994427
               ],
               [
-                12.9838758,
-                49.4994526
+                12.9838764,
+                49.4994568
               ],
               [
                 12.9835727,
@@ -39162,7 +39181,6 @@
         "@id": 1548822399,
         "@url": "https://www.openstreetmap.org/way/1548822399",
         "amenity": "recycling",
-        "barrier": "fence",
         "recycling:batteries": "yes",
         "recycling:clothes": "yes",
         "recycling:electrical_appliances": "yes",

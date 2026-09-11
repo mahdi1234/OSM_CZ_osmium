@@ -29284,6 +29284,26 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3447413,
+          49.6292056
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14169223965,
+        "@url": "https://www.openstreetmap.org/node/14169223965",
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -47449,6 +47469,61 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.mestostod.cz/sberny-dvur/ds-1121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.2988393,
+            49.6310616
+          ],
+          [
+            13.2986383,
+            49.6306111
+          ],
+          [
+            13.2980204,
+            49.6307172
+          ],
+          [
+            13.2981236,
+            49.6309672
+          ],
+          [
+            13.2987765,
+            49.6311071
+          ],
+          [
+            13.2988053,
+            49.6310862
+          ],
+          [
+            13.2988393,
+            49.6310616
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1557780114,
+        "@url": "https://www.openstreetmap.org/way/1557780114",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr Chlumčany",
+        "operator": "Západočeské komunální služby a.s.",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "wheelchair": "Tu, Th 14:00-18:00; Sa 08:00-14:00"
       }
     },
     {
@@ -66591,6 +66666,65 @@
         "recycling:wood": "yes",
         "recycling_type": "centre",
         "website": "https://www.mestostod.cz/sberny-dvur/ds-1121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.2980204,
+                49.6307172
+              ],
+              [
+                13.2986383,
+                49.6306111
+              ],
+              [
+                13.2988393,
+                49.6310616
+              ],
+              [
+                13.2988053,
+                49.6310862
+              ],
+              [
+                13.2987765,
+                49.6311071
+              ],
+              [
+                13.2981236,
+                49.6309672
+              ],
+              [
+                13.2980204,
+                49.6307172
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1557780114,
+        "@url": "https://www.openstreetmap.org/way/1557780114",
+        "amenity": "recycling",
+        "barrier": "fence",
+        "name": "Sběrný dvůr Chlumčany",
+        "operator": "Západočeské komunální služby a.s.",
+        "recycling:batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "wheelchair": "Tu, Th 14:00-18:00; Sa 08:00-14:00"
       }
     }
   ]

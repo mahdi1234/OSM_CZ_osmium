@@ -12822,9 +12822,14 @@
         "@id": 2802028916,
         "@url": "https://www.openstreetmap.org/node/2802028916",
         "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
@@ -12835,7 +12840,9 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:shoes": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "ref": "2011/002",
+        "wheelchair": "limited"
       }
     },
     {
@@ -121531,6 +121538,27 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0020877,
+          50.0025535
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14172707474,
+        "@url": "https://www.openstreetmap.org/node/14172707474",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -139618,7 +139646,9 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
@@ -145430,6 +145460,46 @@
         "recycling:shoes": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.0338868,
+            50.7578175
+          ],
+          [
+            15.0338765,
+            50.7578344
+          ],
+          [
+            15.0340507,
+            50.7578946
+          ],
+          [
+            15.0340655,
+            50.7578789
+          ],
+          [
+            15.0338868,
+            50.7578175
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1298852872,
+        "@url": "https://www.openstreetmap.org/way/1298852872",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {
@@ -168709,7 +168779,9 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
@@ -174829,6 +174901,50 @@
         "recycling:shoes": "yes",
         "recycling:wood": "yes",
         "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.0338765,
+                50.7578344
+              ],
+              [
+                15.0338868,
+                50.7578175
+              ],
+              [
+                15.0340655,
+                50.7578789
+              ],
+              [
+                15.0340507,
+                50.7578946
+              ],
+              [
+                15.0338765,
+                50.7578344
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1298852872,
+        "@url": "https://www.openstreetmap.org/way/1298852872",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
       }
     },
     {

@@ -328,8 +328,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4342972,
-          50.0914594
+          14.4342585,
+          50.0914566
         ]
       },
       "properties": {
@@ -347,8 +347,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4345218,
-          50.0853783
+          14.4345513,
+          50.0853692
         ]
       },
       "properties": {
@@ -364,8 +364,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4340167,
-          50.0850773
+          14.4340406,
+          50.0850655
         ]
       },
       "properties": {
@@ -510,10 +510,21 @@
         "@id": 1787426874,
         "@url": "https://www.openstreetmap.org/node/1787426874",
         "access": "yes",
+        "activation": "continuous",
         "amenity": "drinking_water",
+        "bottle": "no",
+        "check_date": "2026",
+        "description": "Pítko Jungmannovo náměstí",
+        "dog": "no",
         "fee": "no",
-        "fountain": "bubbler",
-        "source": "CZ:IPRPraha:ortofoto"
+        "fountain": "decorative",
+        "material": "stone",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "19",
+        "seasonal": "summer",
+        "source": "CZ:IPRPraha:ortofoto",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -521,8 +532,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4240236,
-          50.0824082
+          14.4240303,
+          50.0824058
         ]
       },
       "properties": {
@@ -587,9 +598,23 @@
         "@type": "node",
         "@id": 1792408841,
         "@url": "https://www.openstreetmap.org/node/1792408841",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "yes",
         "check_date": "2023-08-06",
-        "man_made": "water_tap"
+        "description": "Pítko hřiště Kostelní",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "man_made": "water_tap",
+        "material": "metal",
+        "opening_hours": "08:00-20:00",
+        "ref:prazskapitka": "172",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -662,17 +687,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4229362,
-          50.0599502
+          14.4228037,
+          50.0599975
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 2155637176,
         "@url": "https://www.openstreetmap.org/node/2155637176",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "yes",
         "check_date": "2026-04-04",
-        "man_made": "water_tap"
+        "description": "Pítko park Na Topolce",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "material": "metal",
+        "model": "Roma",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "125",
+        "seasonal": "summer",
+        "water_flow": "strong",
+        "wheelchair": "limited"
       }
     },
     {
@@ -1160,10 +1199,23 @@
         "@type": "node",
         "@id": 3681899838,
         "@url": "https://www.openstreetmap.org/node/3681899838",
+        "access": "yes",
+        "activation": "pedal",
+        "activation:action": "step_on",
         "amenity": "drinking_water",
-        "check_date": "2023-07-25",
+        "bottle": "no",
+        "check_date": "2026-05-18",
+        "description": "Pítko Ungelt",
+        "dog": "no",
+        "fee": "no",
         "fountain": "bubbler",
-        "indoor": "no"
+        "indoor": "no",
+        "material": "stone",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "47",
+        "seasonal": "summer",
+        "water_flow": "weak",
+        "wheelchair": "no"
       }
     },
     {
@@ -1556,27 +1608,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4164501,
-          50.0636474
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4305072956,
-        "@url": "https://www.openstreetmap.org/node/4305072956",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "check_date": "2022-09-18",
-        "cold_water": "yes",
-        "fee": "no",
-        "operational_status": "broken"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4130668,
           50.0776357
         ]
@@ -1610,16 +1641,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4257046,
-          50.0917099
+          14.4257119,
+          50.0917214
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 4317595071,
         "@url": "https://www.openstreetmap.org/node/4317595071",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "hold",
         "amenity": "drinking_water",
-        "man_made": "water_tap"
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko hřiště Za Haštalem",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "man_made": "water_tap",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Monachela",
+        "opening_hours": "08:00-19:00",
+        "ref:prazskapitka": "23",
+        "seasonal": "summer",
+        "water_flow": "strong",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1805,8 +1853,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4206103,
-          50.084608
+          14.4205883,
+          50.0846153
         ]
       },
       "properties": {
@@ -1831,10 +1879,25 @@
         "@type": "node",
         "@id": 4349048321,
         "@url": "https://www.openstreetmap.org/node/4349048321",
+        "access": "yes",
+        "activation": "turn_valve",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko Stromovka východ",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
         "man_made": "water_tap",
-        "source": "CZ:IPRPraha:ortofoto;survey"
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Orfeus",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "275",
+        "seasonal": "summer",
+        "source": "CZ:IPRPraha:ortofoto;survey",
+        "water_flow": "adjustable",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1901,15 +1964,29 @@
         "@id": 4716314664,
         "@url": "https://www.openstreetmap.org/node/4716314664",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2026-07-28",
         "covered": "no",
+        "description": "Pítko Letenské sady západ",
+        "dog": "no",
         "drinking_water": "yes",
         "fee": "no",
+        "fountain": "spout",
         "indoor": "no",
         "lit": "yes",
         "man_made": "water_tap",
-        "source": "CZ:IPRPraha:ortofoto;local knowledge"
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Orfeus",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "268",
+        "seasonal": "summer",
+        "source": "CZ:IPRPraha:ortofoto;local knowledge",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2264,7 +2341,21 @@
         "@type": "node",
         "@id": 6713018241,
         "@url": "https://www.openstreetmap.org/node/6713018241",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Dětský ostrov sever",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "opening_hours": "08:00-20:30",
+        "ref:prazskapitka": "115",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2311,14 +2402,27 @@
         "@id": 6718363620,
         "@url": "https://www.openstreetmap.org/node/6718363620",
         "access": "yes",
+        "activation": "pedal",
+        "activation:action": "step_on",
         "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2025",
         "covered": "no",
         "description": "Drinking fountain in shape of „P\" (pítko in Czech)",
+        "dog": "no",
         "fee": "no",
+        "fountain": "spout",
         "man_made": "water_tap",
+        "manufacturer": "EP_Studio",
+        "material": "metal",
+        "model": "P",
+        "opening_hours": "24/7",
         "operator": "Praha 7",
+        "ref:prazskapitka": "196",
+        "seasonal": "summer",
         "source": "https://www.praha7.cz/na-rezacove-namesti-bylo-zprovozneno-nove-pitko/",
         "start_date": "2019",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -2379,35 +2483,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3479101,
-          50.0487223
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 7138853386,
-        "@url": "https://www.openstreetmap.org/node/7138853386",
-        "amenity": "drinking_water",
-        "fountain": "bubbler",
-        "indoor": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.3460908,
-          50.0487358
+          14.3460986,
+          50.0487395
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 7138853485,
         "@url": "https://www.openstreetmap.org/node/7138853485",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "yes",
         "charge": "no",
-        "fountain": "bubbler"
+        "check_date": "2025",
+        "description": "Pítko Suchý vršek",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "bubbler",
+        "material": "stone",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "157",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2440,14 +2540,23 @@
         "@id": 7714323225,
         "@url": "https://www.openstreetmap.org/node/7714323225",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2026",
         "covered": "no",
+        "description": "‎Pítko Tusarova východ",
+        "dog": "no",
         "fee": "no",
-        "fountain": "bubbler",
-        "note": "shape of „P\"",
+        "fountain": "spout",
+        "material": "stone",
+        "opening_hours": "24/7",
         "operator": "Praha 7",
-        "start_date": "2020"
+        "ref:prazskapitka": "191",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2649,8 +2758,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3129954,
-          50.0320512
+          14.3130221,
+          50.0320887
         ]
       },
       "properties": {
@@ -2658,9 +2767,20 @@
         "@id": 8260343848,
         "@url": "https://www.openstreetmap.org/node/8260343848",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "no",
+        "check_date": "2025",
+        "description": "Pítko Řeporyjské náměstí",
+        "dog": "no",
         "fee": "no",
-        "fountain": "drinking"
+        "fountain": "bubbler",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "271",
+        "seasonal": "summer",
+        "water_flow": "weak",
+        "wheelchair": "limited"
       }
     },
     {
@@ -3143,8 +3263,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4213272,
-          50.0571351
+          14.4213345,
+          50.057128
         ]
       },
       "properties": {
@@ -3152,13 +3272,23 @@
         "@id": 9083655348,
         "@url": "https://www.openstreetmap.org/node/9083655348",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "bottle": "no",
-        "check_date": "2025",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Nedvědovo náměstí jih",
+        "dog": "no",
         "fee": "no",
-        "man_made": "water_tap",
+        "fountain": "spout",
+        "manufacturer": "Urbania",
+        "material": "metal",
+        "model": "Escape",
+        "opening_hours": "24/7",
         "operator": "Praha 4",
-        "source": "https://mapy.cz/zakladni?x=14.4213387&y=50.0568861&z=19&pano=1&q=p%C3%ADtko&source=base&id=2191975&pid=70294070&yaw=0.174&fov=1.029&pitch=-0.052",
+        "ref:prazskapitka": "319",
+        "seasonal": "summer",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -3176,14 +3306,27 @@
         "@id": 9083766968,
         "@url": "https://www.openstreetmap.org/node/9083766968",
         "access": "yes",
+        "activation": "pedal",
+        "activation:action": "step_on",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2026",
         "covered": "no",
+        "description": "Pítko Ortenovo náměstí",
+        "dog": "no",
         "fee": "no",
         "fountain": "bubbler",
+        "manufacturer": "EP_Studio",
+        "material": "metal",
+        "model": "P",
+        "opening_hours": "24/7",
         "operator": "Praha 7",
+        "ref:prazskapitka": "188",
+        "seasonal": "summer",
         "source": "https://www.nasepraha.cz/praha-7-ma-prvni-pitko-p-najdete-ho-na-ortenove-namesti/",
-        "start_date": "2016"
+        "start_date": "2016",
+        "water_flow": "normal",
+        "wheelchair": "no"
       }
     },
     {
@@ -3191,31 +3334,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4509368,
-          50.1000732
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 9083768797,
-        "@url": "https://www.openstreetmap.org/node/9083768797",
-        "access": "yes",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "fee": "no",
-        "fountain": "bubbler",
-        "operator": "Praha 7",
-        "source": "https://www.pvk.cz/aktuality/pitko-p-miri-za-financni-podpory-pvk-do-prazskych-ulic/",
-        "start_date": "2017"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4242488,
-          50.0838576
+          14.4243538,
+          50.083763
         ]
       },
       "properties": {
@@ -3348,11 +3468,24 @@
         "@id": 9335746315,
         "@url": "https://www.openstreetmap.org/node/9335746315",
         "access": "yes",
+        "activation": "pedal",
+        "activation:action": "step_on",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko vnitroblok U Vody",
+        "dog": "no",
         "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "EP_Studio",
+        "material": "metal",
+        "model": "P",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "197",
+        "seasonal": "summer",
         "source": "https://prazska.drbna.cz/z-kraje/praha-7/7624-ve-vnitrobloku-u-vody-jsou-nove-cesty-lavicky-pitka-i-osvetleni",
         "start_date": "2021",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -3405,10 +3538,23 @@
         "@id": 9455972727,
         "@url": "https://www.openstreetmap.org/node/9455972727",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "no",
+        "check_date": "2026",
+        "description": "Pítko Císařský ostrov 1",
+        "dog": "no",
         "fee": "no",
+        "fountain": "bubbler",
+        "manufacturer": "mmcité",
+        "material": "metal",
+        "model": "Hydro_410",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "311",
+        "seasonal": "summer",
         "start_date": "2021",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -3428,7 +3574,18 @@
         "access": "yes",
         "amenity": "drinking_water",
         "bottle": "no",
+        "check_date": "2026",
+        "description": "Pítko Císařský ostrov 2",
+        "disused:amenity": "drinking_water",
+        "dog": "no",
         "fee": "no",
+        "fountain": "bubbler",
+        "manufacturer": "mmcité",
+        "material": "metal",
+        "model": "Hydro_410",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "312",
+        "seasonal": "summer",
         "start_date": "2021",
         "wheelchair": "yes"
       }
@@ -3447,10 +3604,23 @@
         "@id": 9455972739,
         "@url": "https://www.openstreetmap.org/node/9455972739",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "no",
+        "check_date": "2026",
+        "description": "Pítko Císařský ostrov 3",
+        "dog": "no",
         "fee": "no",
+        "fountain": "bubbler",
+        "manufacturer": "mmcité",
+        "material": "metal",
+        "model": "Hydro_410",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "313",
+        "seasonal": "summer",
         "start_date": "2021",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -3468,10 +3638,23 @@
         "@id": 9455972751,
         "@url": "https://www.openstreetmap.org/node/9455972751",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "no",
+        "check_date": "2026",
+        "description": "Pítko Císařský ostrov 4",
+        "dog": "no",
         "fee": "no",
+        "fountain": "bubbler",
+        "manufacturer": "mmcité",
+        "material": "metal",
+        "model": "Hydro_410",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "259",
+        "seasonal": "summer",
         "start_date": "2021",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -3489,10 +3672,23 @@
         "@id": 9455972760,
         "@url": "https://www.openstreetmap.org/node/9455972760",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "no",
+        "check_date": "2026",
+        "description": "Pítko Císařský ostrov 5",
+        "dog": "no",
         "fee": "no",
+        "fountain": "bubbler",
+        "manufacturer": "mmcité",
+        "material": "metal",
+        "model": "Hydro_410",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "314",
+        "seasonal": "summer",
         "start_date": "2021",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -3557,15 +3753,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3326463,
-          50.0374021
+          14.3326391,
+          50.0374107
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 9964248075,
         "@url": "https://www.openstreetmap.org/node/9964248075",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko Dalejský park",
+        "dog": "yes",
+        "fee": "no",
+        "fountain": "bubbler",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "163",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3787,8 +3997,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3447572,
-          50.0487206
+          14.3447518,
+          50.048721
         ]
       },
       "properties": {
@@ -4047,8 +4257,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3754644,
-          50.0330227
+          14.3754423,
+          50.033014
         ]
       },
       "properties": {
@@ -4056,11 +4266,25 @@
         "@id": 11079612636,
         "@url": "https://www.openstreetmap.org/node/11079612636",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "bottle": "no",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Brčko Tilleho náměstí pěší zóna",
+        "dog": "no",
         "fee": "no",
-        "man_made": "water_tap",
-        "seasonal": "summer"
+        "fountain": "spout",
+        "installation:seasonal": "yes",
+        "manufacturer": "PVK",
+        "material": "metal",
+        "mist_spraying_cooler": "yes",
+        "model": "brčko",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "121",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4068,8 +4292,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3714299,
-          50.0315469
+          14.371414,
+          50.0315426
         ]
       },
       "properties": {
@@ -4077,8 +4301,24 @@
         "@id": 11079628179,
         "@url": "https://www.openstreetmap.org/node/11079628179",
         "access": "yes",
+        "activation": "turn_valve",
+        "activation:action": "turn",
         "amenity": "drinking_water",
-        "drinking_water": "yes"
+        "bottle": "yes",
+        "check_date": "2026-07-06",
+        "description": "Pítko sídliště Barrandov",
+        "dog": "no",
+        "drinking_water": "yes",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Urbania",
+        "material": "metal",
+        "model": "Beata",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "112",
+        "seasonal": "summer",
+        "water_flow": "adjustable",
+        "wheelchair": "limited"
       }
     },
     {
@@ -4086,18 +4326,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3769493,
-          50.0342416
+          14.3769347,
+          50.0342561
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 11079632435,
         "@url": "https://www.openstreetmap.org/node/11079632435",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2026",
+        "description": "brčko Tilleho náměstí pěší zóna",
+        "dog": "no",
         "fee": "no",
-        "man_made": "water_tap",
+        "fountain": "spout",
+        "installation:seasonal": "yes",
+        "manufacturer": "PVK",
+        "material": "metal",
+        "mist_spraying_cooler": "yes",
+        "model": "brčko",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "113",
+        "seasonal": "summer",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -4179,10 +4434,22 @@
         "@id": 11182125240,
         "@url": "https://www.openstreetmap.org/node/11182125240",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Václavské náměstí VII",
+        "dog": "no",
         "fee": "no",
-        "man_made": "water_tap",
+        "fountain": "spout",
+        "manufacturer": "Urbidermis",
+        "material": "metal",
+        "model": "Atlántida",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "168",
+        "seasonal": "summer",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -4200,11 +4467,23 @@
         "@id": 11219765969,
         "@url": "https://www.openstreetmap.org/node/11219765969",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko Korunovační",
+        "dog": "no",
         "fee": "no",
+        "fountain": "spout",
         "man_made": "water_tap",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Prameník",
         "operator": "Praha 7",
+        "ref:prazskapitka": "183",
+        "seasonal": "summer",
+        "water_flow": "normal",
         "wheelchair": "no"
       }
     },
@@ -4295,17 +4574,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4154125,
-          50.1196129
+          14.3878869,
+          50.0877382
         ]
       },
       "properties": {
         "@type": "node",
-        "@id": 11882220929,
-        "@url": "https://www.openstreetmap.org/node/11882220929",
+        "@id": 11903879303,
+        "@url": "https://www.openstreetmap.org/node/11903879303",
+        "access": "yes",
+        "access:conditional": "yes @ (May-Sep)",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-05-12",
+        "description": "Brčko Parléřova",
+        "dog": "no",
         "fee": "no",
-        "man_made": "water_tap"
+        "fountain": "bottle_refill",
+        "installation:seasonal": "yes",
+        "manufacturer": "PVK",
+        "material": "metal",
+        "mist_spraying_cooler": "yes",
+        "model": "brčko",
+        "name": "Brčko Pohořelec",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "334",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4413,6 +4711,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4406761,
+          50.1086259
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12085403460,
+        "@url": "https://www.openstreetmap.org/node/12085403460",
+        "access": "yes",
+        "activation": "continuous",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko nádraží Holešovice",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "decorative",
+        "opening_hours": "24/7",
+        "ref:drobne_pamatky": "77842",
+        "ref:prazskapitka": "170",
+        "seasonal": "summer",
+        "water_flow": "adjustable",
+        "wheelchair": "yes",
+        "wikidata": "Q123719641"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4087147,
           50.0841463
         ]
@@ -4453,9 +4782,24 @@
         "@type": "node",
         "@id": 12244372169,
         "@url": "https://www.openstreetmap.org/node/12244372169",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "man_made": "water_tap",
-        "seasonal": "summer"
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko náměstí 14. října",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Monachela",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "292",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4463,8 +4807,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4097952,
-          50.0531176
+          14.4097995,
+          50.0531249
         ]
       },
       "properties": {
@@ -4472,17 +4816,27 @@
         "@id": 12309066444,
         "@url": "https://www.openstreetmap.org/node/12309066444",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "no",
-        "check_date": "2024",
+        "check_date": "2026",
         "covered": "no",
+        "description": "Pítko vnitroblok U Lihovaru",
+        "dog": "no",
         "fee": "no",
         "fountain": "bubbler",
         "indoor": "no",
         "level": "0",
+        "manufacturer": "mmcité",
+        "material": "metal",
+        "model": "Hydro_410",
         "opening_hours": "24/7",
         "operator": "Trigema",
+        "ref:prazskapitka": "282",
+        "seasonal": "summer",
         "start_date": "2024",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -4499,8 +4853,24 @@
         "@type": "node",
         "@id": 12401029375,
         "@url": "https://www.openstreetmap.org/node/12401029375",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "fee": "no"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko ČZU",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Prameník",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "331",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4516,9 +4886,24 @@
         "@type": "node",
         "@id": 12401029376,
         "@url": "https://www.openstreetmap.org/node/12401029376",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko U Kruhovky",
+        "dog": "no",
         "fee": "no",
-        "man_made": "water_tap"
+        "fountain": "spout",
+        "manufacturer": "Urbania",
+        "material": "metal",
+        "model": "Beata",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "98",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4596,16 +4981,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.422973,
-          50.0907901
+          14.4228859,
+          50.0907279
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 12467117450,
         "@url": "https://www.openstreetmap.org/node/12467117450",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "man_made": "water_tap"
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko Kozí plácek",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "man_made": "water_tap",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Orfeus",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "25",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4708,33 +5110,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3713379,
-          50.0215094
+          14.3712963,
+          50.0215255
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 12813866990,
         "@url": "https://www.openstreetmap.org/node/12813866990",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "hold",
         "amenity": "drinking_water",
-        "man_made": "water_tap"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4163279,
-          50.1210674
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12819591978,
-        "@url": "https://www.openstreetmap.org/node/12819591978",
-        "amenity": "drinking_water",
-        "fountain": "bubbler"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko park Granátová",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Benito",
+        "material": "metal",
+        "model": "Atlas",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "245",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5338,16 +5739,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4212122,
-          50.0573923
+          14.4212117,
+          50.057391
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 13707630571,
         "@url": "https://www.openstreetmap.org/node/13707630571",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "man_made": "water_tap"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Nedvědovo náměstí střed",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Urbania",
+        "material": "metal",
+        "model": "Escape",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "320",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5355,16 +5772,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4212323,
-          50.0575842
+          14.4212317,
+          50.057585
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 13707637077,
         "@url": "https://www.openstreetmap.org/node/13707637077",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "man_made": "water_tap"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Nedvědovo náměstí sever",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Urbania",
+        "material": "metal",
+        "model": "Escape",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "321",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5566,15 +5999,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4213399,
-          50.0642226
+          14.4213458,
+          50.0642194
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 13889658635,
         "@url": "https://www.openstreetmap.org/node/13889658635",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko V Pevnosti",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Monachela",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "120",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5590,7 +6040,23 @@
         "@type": "node",
         "@id": 13985099101,
         "@url": "https://www.openstreetmap.org/node/13985099101",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Pítko Stromovka sever",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "material": "metal",
+        "model": "Tana",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "253",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5710,7 +6176,21 @@
         "@type": "node",
         "@id": 14051601401,
         "@url": "https://www.openstreetmap.org/node/14051601401",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Dětský ostrov východ",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "opening_hours": "08:00-20:30",
+        "ref:prazskapitka": "297",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5812,7 +6292,25 @@
         "@type": "node",
         "@id": 14101694023,
         "@url": "https://www.openstreetmap.org/node/14101694023",
-        "amenity": "drinking_water"
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Port7",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Benito",
+        "material": "metal",
+        "model": "Atlas",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "335",
+        "seasonal": "summer",
+        "start_date": "2024",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -7881,6 +8379,64 @@
         "@url": "https://www.openstreetmap.org/node/14141944907",
         "amenity": "drinking_water",
         "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4240308,
+          50.0824038
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14178178858,
+        "@url": "https://www.openstreetmap.org/node/14178178858",
+        "access": "yes",
+        "activation": "continuous",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko socha Chlapec s mušlí",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "decorative",
+        "opening_hours": "07:00-22:00",
+        "ref:prazskapitka": "206",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4237032,
+          50.0820849
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14178191211,
+        "@url": "https://www.openstreetmap.org/node/14178191211",
+        "access": "yes",
+        "activation": "continuous",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko socha Divoženky a poletuchy",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "decorative",
+        "opening_hours": "07:00-22:00",
+        "ref:prazskapitka": "207",
+        "seasonal": "summer",
+        "water_flow": "adjustable",
+        "wheelchair": "yes"
       }
     }
   ]

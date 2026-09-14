@@ -102,8 +102,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4172273,
-          50.1225075
+          14.4172156,
+          50.1224497
         ]
       },
       "properties": {
@@ -111,10 +111,25 @@
         "@id": 3939122655,
         "@url": "https://www.openstreetmap.org/node/3939122655",
         "access": "customers",
+        "activation": "button",
+        "activation:action": "hold",
         "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2025",
         "description": "v zimě mimo provoz",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
         "man_made": "water_tap",
-        "source": "gps"
+        "manufacturer": "Benito",
+        "material": "metal",
+        "model": "Atlas",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "76",
+        "seasonal": "summer",
+        "source": "gps",
+        "water_flow": "normal",
+        "wheelchair": "limited"
       }
     },
     {
@@ -122,8 +137,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4153866,
-          50.1177491
+          14.4153855,
+          50.1177395
         ]
       },
       "properties": {
@@ -131,7 +146,21 @@
         "@id": 4727468258,
         "@url": "https://www.openstreetmap.org/node/4727468258",
         "access": "customers",
-        "amenity": "drinking_water"
+        "activation": "turn_valve",
+        "activation:action": "turn",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Botanická 4 vinice",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "material": "stone",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "74",
+        "seasonal": "summer",
+        "water_flow": "adjustable",
+        "wheelchair": "yes"
       }
     },
     {
@@ -308,8 +337,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.416078,
-          50.1197762
+          14.4160762,
+          50.1197769
         ]
       },
       "properties": {
@@ -341,21 +370,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3878869,
-          50.0877382
+          14.4153461,
+          50.1195884
         ]
       },
       "properties": {
         "@type": "node",
-        "@id": 11903879303,
-        "@url": "https://www.openstreetmap.org/node/11903879303",
-        "access": "no",
-        "access:conditional": "yes @ (May-Sep)",
+        "@id": 11882220929,
+        "@url": "https://www.openstreetmap.org/node/11882220929",
+        "access": "customers",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "check_date": "2026-05-12",
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Botanická 5",
+        "dog": "no",
         "fee": "no",
-        "fountain": "bottle_refill",
-        "name": "Brčko Pohořelec"
+        "fountain": "spout",
+        "man_made": "water_tap",
+        "manufacturer": "Benito",
+        "material": "metal",
+        "model": "Atlas",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "217",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4162502,
+          50.1210613
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12819591978,
+        "@url": "https://www.openstreetmap.org/node/12819591978",
+        "access": "customers",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2025",
+        "description": "Botanická 1",
+        "dog": "yes",
+        "fee": "no",
+        "fountain": "bubbler",
+        "material": "metal",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "70",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -468,8 +540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4193478,
-          50.12283
+          14.4193516,
+          50.1228365
         ]
       },
       "properties": {

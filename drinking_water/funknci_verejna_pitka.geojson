@@ -355,8 +355,24 @@
         "@type": "node",
         "@id": 1358756042,
         "@url": "https://www.openstreetmap.org/node/1358756042",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "hold",
         "amenity": "drinking_water",
-        "check_date": "2021-08-13"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko hřiště ve Vrchlického Sadech sever",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Orfeus",
+        "opening_hours": "08:00-19:01",
+        "ref:prazskapitka": "118",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -372,9 +388,24 @@
         "@type": "node",
         "@id": 1358756046,
         "@url": "https://www.openstreetmap.org/node/1358756046",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "hold",
         "amenity": "drinking_water",
-        "check_date": "2021-08-13",
-        "fountain": "bubbler"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko hřiště ve Vrchlického sadech jih",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "REX",
+        "material": "cast_iron",
+        "model": "Orfeus",
+        "opening_hours": "08:00-19:00",
+        "ref:prazskapitka": "186",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1863,9 +1894,22 @@
         "@type": "node",
         "@id": 4342247851,
         "@url": "https://www.openstreetmap.org/node/4342247851",
+        "access": "yes",
+        "activation": "continuous",
         "amenity": "drinking_water",
-        "fountain": "drinking",
-        "source": "survey"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Havelské tržiště, zapnuté v době kdy je otevřený trh",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "decorative",
+        "material": "stone",
+        "opening_hours": "yes",
+        "ref:prazskapitka": "21",
+        "seasonal": "summer",
+        "source": "survey",
+        "water_flow": "normal",
+        "wheelchair": "no"
       }
     },
     {
@@ -2328,6 +2372,36 @@
         "@url": "https://www.openstreetmap.org/node/6538854575",
         "amenity": "drinking_water",
         "man_made": "water_tap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4248933,
+          50.0815993
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 6571875561,
+        "@url": "https://www.openstreetmap.org/node/6571875561",
+        "access": "yes",
+        "activation": "continuous",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko pasáž Langhans",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "material": "stone",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-18:00",
+        "ref:prazskapitka": "240",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3345,13 +3419,26 @@
         "@id": 9102077590,
         "@url": "https://www.openstreetmap.org/node/9102077590",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Václavské náměstí II",
+        "dog": "no",
         "fee": "no",
-        "man_made": "water_tap",
+        "fountain": "spout",
+        "manufacturer": "Urbidermis",
+        "material": "metal",
+        "model": "Atlántida",
+        "opening_hours": "24/7",
+        "operational_status": "degraded",
         "operator": "Praha 1",
+        "ref:prazskapitka": "26",
+        "seasonal": "summer",
         "source": "local knowledge",
         "start_date": "2021",
+        "water_flow": "normal",
         "wheelchair": "yes"
       }
     },
@@ -4567,8 +4654,22 @@
         "@type": "node",
         "@id": 11848442087,
         "@url": "https://www.openstreetmap.org/node/11848442087",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "dog": "yes"
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko psí hřiště Famfulíkova",
+        "dog": "yes",
+        "fee": "no",
+        "fountain": "spout",
+        "material": "metal",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "260",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "limited"
       }
     },
     {
@@ -4630,23 +4731,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4918406,
-          50.1250808
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12041353876,
-        "@url": "https://www.openstreetmap.org/node/12041353876",
-        "amenity": "drinking_water",
-        "fountain": "bubbler"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4964285,
           50.0578954
         ]
@@ -4669,22 +4753,6 @@
         "seasonal": "summer",
         "water_flow": "normal",
         "wheelchair": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4938836,
-          50.1090556
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12075533050,
-        "@url": "https://www.openstreetmap.org/node/12075533050",
-        "amenity": "drinking_water"
       }
     },
     {
@@ -5619,10 +5687,24 @@
         "@type": "node",
         "@id": 13439360432,
         "@url": "https://www.openstreetmap.org/node/13439360432",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
+        "description": "Pítko Tupolevova",
         "dog": "yes",
         "fee": "no",
-        "fountain": "bubbler"
+        "fountain": "bubbler",
+        "manufacturer": "Benito",
+        "material": "metal",
+        "model": "Husky",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "318",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5816,12 +5898,25 @@
         "@id": 13708565090,
         "@url": "https://www.openstreetmap.org/node/13708565090",
         "access": "yes",
+        "activation": "button",
         "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026",
         "covered": "no",
+        "description": "Pítko poliklinika Prosek",
+        "disused:amenity": "drinking_water",
+        "dog": "no",
         "fee": "no",
         "fountain": "bubbler",
+        "image": "https://hillview.cz/?lat=50.1285166666667&lon=14.4906222222222&zoom=19&bearing=200.38&photo=hillview-66e45479-6ff7-4bbd-872d-0608b760ffe4",
         "indoor": "no",
         "lit": "no",
+        "manufacturer": "Sanela",
+        "material": "metal",
+        "model": "SLUN_23",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "99",
+        "seasonal": "summer",
         "wheelchair": "yes"
       }
     },

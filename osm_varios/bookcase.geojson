@@ -15817,7 +15817,8 @@
         "@type": "node",
         "@id": 12824241146,
         "@url": "https://www.openstreetmap.org/node/12824241146",
-        "amenity": "public_bookcase"
+        "amenity": "public_bookcase",
+        "indoor": "yes"
       }
     },
     {
@@ -18361,6 +18362,118 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.8212551,
+            49.9022846
+          ],
+          [
+            12.8212626,
+            49.9022651
+          ],
+          [
+            12.8212348,
+            49.9022607
+          ],
+          [
+            12.8212274,
+            49.9022802
+          ],
+          [
+            12.8212551,
+            49.9022846
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1190699161,
+        "@url": "https://www.openstreetmap.org/way/1190699161",
+        "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.7132621,
+            49.8228637
+          ],
+          [
+            17.7132894,
+            49.8228272
+          ],
+          [
+            17.7133388,
+            49.8228425
+          ],
+          [
+            17.7133115,
+            49.8228791
+          ],
+          [
+            17.7132621,
+            49.8228637
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1337555646,
+        "@url": "https://www.openstreetmap.org/way/1337555646",
+        "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.6246091,
+            49.7461299
+          ],
+          [
+            18.6246181,
+            49.7461249
+          ],
+          [
+            18.6246258,
+            49.7461306
+          ],
+          [
+            18.6246169,
+            49.7461357
+          ],
+          [
+            18.6246091,
+            49.7461299
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1441902314,
+        "@url": "https://www.openstreetmap.org/way/1441902314",
+        "amenity": "public_bookcase",
+        "building": "roof",
+        "check_date": "2024-08-25",
+        "image": "https://photos.app.goo.gl/Csz7CAgL3Q5mU7AU9",
+        "layer": "1",
+        "mapillary": "776284681579954",
+        "name": "# KNIHOBUDKA",
+        "opening_hours": "24/7",
+        "operator": "Městská knihovna Český Těšín",
+        "public_bookcase:type": "phone_box",
+        "source": "gps;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -18439,6 +18552,130 @@
         "opening_hours": "Th 16:00 18:00",
         "ref:ruian:building": "11265531",
         "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.8212274,
+                49.9022802
+              ],
+              [
+                12.8212348,
+                49.9022607
+              ],
+              [
+                12.8212626,
+                49.9022651
+              ],
+              [
+                12.8212551,
+                49.9022846
+              ],
+              [
+                12.8212274,
+                49.9022802
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1190699161,
+        "@url": "https://www.openstreetmap.org/way/1190699161",
+        "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.7132621,
+                49.8228637
+              ],
+              [
+                17.7132894,
+                49.8228272
+              ],
+              [
+                17.7133388,
+                49.8228425
+              ],
+              [
+                17.7133115,
+                49.8228791
+              ],
+              [
+                17.7132621,
+                49.8228637
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1337555646,
+        "@url": "https://www.openstreetmap.org/way/1337555646",
+        "amenity": "public_bookcase"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.6246091,
+                49.7461299
+              ],
+              [
+                18.6246181,
+                49.7461249
+              ],
+              [
+                18.6246258,
+                49.7461306
+              ],
+              [
+                18.6246169,
+                49.7461357
+              ],
+              [
+                18.6246091,
+                49.7461299
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1441902314,
+        "@url": "https://www.openstreetmap.org/way/1441902314",
+        "amenity": "public_bookcase",
+        "building": "roof",
+        "check_date": "2024-08-25",
+        "image": "https://photos.app.goo.gl/Csz7CAgL3Q5mU7AU9",
+        "layer": "1",
+        "mapillary": "776284681579954",
+        "name": "# KNIHOBUDKA",
+        "opening_hours": "24/7",
+        "operator": "Městská knihovna Český Těšín",
+        "public_bookcase:type": "phone_box",
+        "source": "gps;survey"
       }
     }
   ]

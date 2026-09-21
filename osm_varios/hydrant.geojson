@@ -5834,7 +5834,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-12-05",
+        "survey:date": "2019-12-05",
         "water_source": "main"
       }
     },
@@ -9046,9 +9046,14 @@
         "@type": "node",
         "@id": 4866317784,
         "@url": "https://www.openstreetmap.org/node/4866317784",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "2",
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
-        "fire_hydrant:type": "pillar"
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
       }
     },
     {
@@ -14154,7 +14159,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-04-07",
+        "survey:date": "2019-04-07",
         "water_source": "main"
       }
     },
@@ -14424,7 +14429,7 @@
         "fire_hydrant:type": "pillar",
         "manufacturer": "Keulahütte Krauschwitz",
         "pillar:type": "dry_barrel",
-        "survey_date": "2019-05-06",
+        "survey:date": "2019-05-06",
         "water_source": "main"
       }
     },
@@ -61465,6 +61470,81 @@
         "emergency": "fire_hydrant",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7060271,
+          50.8368805
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14200659213,
+        "@url": "https://www.openstreetmap.org/node/14200659213",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "lane",
+        "fire_hydrant:type": "underground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.361363,
+          49.5325697
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14201421177,
+        "@url": "https://www.openstreetmap.org/node/14201421177",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3590485,
+          49.5321273
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14201421178,
+        "@url": "https://www.openstreetmap.org/node/14201421178",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3492718,
+          49.2434527
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14201813569,
+        "@url": "https://www.openstreetmap.org/node/14201813569",
+        "bonnet:colour": "gray",
+        "cap:colour": "silver",
+        "colour": "red",
+        "couplings": "3",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
       }
     }
   ]

@@ -5024,6 +5024,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4938836,
+          50.1090556
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 12075533050,
+        "@url": "https://www.openstreetmap.org/node/12075533050",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-09-22",
+        "description": "Pítko hřiště Sokolovská",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "spout",
+        "ref:prazskapitka": "228",
+        "seasonal": "summer",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.6204266,
           50.1094247
         ]
@@ -5109,39 +5135,6 @@
         "model": "Fuente_dog",
         "opening_hours": "24/7",
         "ref:prazskapitka": "288",
-        "seasonal": "summer",
-        "water_flow": "normal",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4042183,
-          50.0735875
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12244372169,
-        "@url": "https://www.openstreetmap.org/node/12244372169",
-        "access": "yes",
-        "activation": "button",
-        "activation:action": "push",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "check_date": "2025",
-        "description": "Pítko náměstí 14. října",
-        "dog": "no",
-        "fee": "no",
-        "fountain": "spout",
-        "manufacturer": "REX",
-        "material": "cast_iron",
-        "model": "Monachela",
-        "opening_hours": "24/7",
-        "ref:prazskapitka": "292",
         "seasonal": "summer",
         "water_flow": "normal",
         "wheelchair": "yes"
@@ -6409,8 +6402,20 @@
         "@id": 13990725919,
         "@url": "https://www.openstreetmap.org/node/13990725919",
         "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
-        "ref:prazskapitka": "344"
+        "bottle": "yes",
+        "check_date": "2026-09-22",
+        "description": "Pítko Fluvizem",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "decorative",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "344",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "limited"
       }
     },
     {
@@ -8705,22 +8710,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5185832,
-          50.1119286
+          14.518667,
+          50.11191
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 14141944907,
         "@url": "https://www.openstreetmap.org/node/14141944907",
+        "access": "yes",
         "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
+        "bottle": "yes",
         "button_operated": "yes",
+        "check_date": "2026-09-22",
+        "description": "Pítko AFI city východ",
+        "dog": "no",
         "fee": "no",
         "fountain": "bubbler",
-        "manufacturer": "Benito",
-        "model": "Tree",
-        "ref:prazskapitka": "343"
+        "manufacturer": "Fábregas",
+        "material": "metal",
+        "model": "Minus",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "343",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "limited"
       }
     },
     {
@@ -8779,6 +8795,40 @@
         "seasonal": "summer",
         "water_flow": "adjustable",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5160063,
+          50.1120985
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14205971595,
+        "@url": "https://www.openstreetmap.org/node/14205971595",
+        "access": "yes",
+        "activation": "button",
+        "activation:action": "push",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "button_operated": "yes",
+        "check_date": "2026-09-22",
+        "description": "Pítko AFI city západ",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "bubbler",
+        "manufacturer": "Fábregas",
+        "material": "metal",
+        "model": "Minus",
+        "opening_hours": "24/7",
+        "ref:prazskapitka": "353",
+        "seasonal": "summer",
+        "water_flow": "normal",
+        "wheelchair": "limited"
       }
     }
   ]

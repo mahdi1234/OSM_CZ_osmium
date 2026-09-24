@@ -267,6 +267,8 @@
         "amenity": "public_bookcase",
         "check_date": "2024-05-18",
         "lit": "no",
+        "nobrand": "yes",
+        "noname": "yes",
         "operator": "Městská knihovna",
         "public_bookcase:type": "phone_box"
       }
@@ -1249,6 +1251,8 @@
         "check_date": "2026-09-06",
         "lit": "no",
         "location": "kiosk",
+        "nobrand": "yes",
+        "noname": "yes",
         "opening_hours": "24/7",
         "operator": "Rotary Club Český krumlov",
         "public_bookcase:type": "reading_box",
@@ -12484,6 +12488,8 @@
         "@id": 11986052036,
         "@url": "https://www.openstreetmap.org/node/11986052036",
         "amenity": "public_bookcase",
+        "nobrand": "yes",
+        "noname": "yes",
         "operator": "Měststká knihovna Český Krumlov",
         "public_bookcase:type": "shelf"
       }
@@ -18304,6 +18310,27 @@
         "opening_hours": "24/7",
         "public_bookcase:type": "shelf",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3454279,
+          49.6058022
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14209550857,
+        "@url": "https://www.openstreetmap.org/node/14209550857",
+        "access": "yes",
+        "amenity": "public_bookcase",
+        "covered": "yes",
+        "indoor": "no",
+        "public_bookcase:type": "phone_box",
+        "wheelchair": "limited"
       }
     },
     {

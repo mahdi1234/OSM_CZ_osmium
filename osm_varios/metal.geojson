@@ -23609,6 +23609,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5044917,
+          50.07083
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4013247010,
+        "@url": "https://www.openstreetmap.org/node/4013247010",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.0897929,
           49.4718817
         ]
@@ -52891,8 +52914,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.64364,
-          50.172922
+          12.643954,
+          50.1726383
         ]
       },
       "properties": {
@@ -52901,6 +52924,7 @@
         "@url": "https://www.openstreetmap.org/node/8963176395",
         "amenity": "recycling",
         "operator": "Město Sokolov",
+        "operator:wikidata": "Q727383",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",

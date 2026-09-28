@@ -26363,10 +26363,13 @@
         "man_made": "monitoring_station",
         "monitoring:radiation": "yes",
         "monitoring:weather": "yes",
-        "name": "Košetice",
+        "name": "Košetice, Křešín, Kramolín",
         "note": "Profesionální stanice CHMU",
         "operator": "Český hydrometeorologický ústav",
+        "operator:short": "ČHMÚ",
+        "operator:wikidata": "Q5201751",
         "ref:wmo": "11628",
+        "ref:zabaged": "4199522905358336",
         "source": "https://www.chmi.cz/aktualni-situace/aktualni-stav-pocasi/ceska-republika/stanice/profesionalni-stanice/tabulky/zemepisne-souradnice?l=cz",
         "source:position": "Bing",
         "weather:anemometer": "yes",
@@ -89547,8 +89550,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3144617,
-          48.6174749
+          14.3141398,
+          48.6176924
         ]
       },
       "properties": {
@@ -89561,6 +89564,7 @@
         "name": "Vyšší Brod",
         "recording:automated": "yes",
         "ref": "C2VBRO01",
+        "ref:zabaged": "4199525874925568",
         "weather:anemometer": "yes",
         "weather:rain_gauge": "yes",
         "weather:snow_height_sensor": "yes",
@@ -127474,6 +127478,29 @@
         "@url": "https://www.openstreetmap.org/node/14216177547",
         "ele": "561.9",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4340258,
+          50.0817449
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14222511590,
+        "@url": "https://www.openstreetmap.org/node/14222511590",
+        "ele": "524",
+        "man_made": "survey_point",
+        "name": "Krtské skály",
+        "natural": "peak",
+        "ref:horobrani": "7395",
+        "summit:cross": "no",
+        "summit:register": "no",
+        "survey_point:structure": "landmark"
       }
     },
     {

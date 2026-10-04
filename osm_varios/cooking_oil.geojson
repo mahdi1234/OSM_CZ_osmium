@@ -31563,6 +31563,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.3018111,
+          49.8519084
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9379817844,
+        "@url": "https://www.openstreetmap.org/node/9379817844",
+        "addr:conscriptionnumber": "697",
+        "addr:housenumber": "38",
+        "addr:street": "Vdovská",
+        "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container",
+        "source": "opendata.ostrava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.2529383,
           49.7889657
         ]
@@ -73880,6 +73905,7 @@
         "@id": 366653861,
         "@url": "https://www.openstreetmap.org/way/366653861",
         "amenity": "recycling",
+        "fixme": "Opravit geometrii, sběrný dvůr zabírá jen západní část, východní část je FCC",
         "landuse": "industrial",
         "name": "Sběrný dvůr hlavního města Prahy",
         "operator": "Pražské služby",
@@ -84864,6 +84890,7 @@
         "@id": 366653861,
         "@url": "https://www.openstreetmap.org/way/366653861",
         "amenity": "recycling",
+        "fixme": "Opravit geometrii, sběrný dvůr zabírá jen západní část, východní část je FCC",
         "landuse": "industrial",
         "name": "Sběrný dvůr hlavního města Prahy",
         "operator": "Pražské služby",

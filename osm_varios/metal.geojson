@@ -60263,6 +60263,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.2647493,
+          50.3665452
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 9698943524,
+        "@url": "https://www.openstreetmap.org/node/9698943524",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.1607361,
           50.4130703
         ]
@@ -121006,8 +121028,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.7710872,
-          49.05224
+          13.771059,
+          49.0522408
         ]
       },
       "properties": {
@@ -128854,6 +128876,7 @@
         "@id": 366653861,
         "@url": "https://www.openstreetmap.org/way/366653861",
         "amenity": "recycling",
+        "fixme": "Opravit geometrii, sběrný dvůr zabírá jen západní část, východní část je FCC",
         "landuse": "industrial",
         "name": "Sběrný dvůr hlavního města Prahy",
         "operator": "Pražské služby",
@@ -139235,6 +139258,7 @@
         "@id": 1036626561,
         "@url": "https://www.openstreetmap.org/way/1036626561",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "opening_hours": "Mo 08:00-12:00, 14:00-18:00, Tu 14:00-18:00; We 08:00-12:00, 14:00-18:00, Th Closed, Fr 14:00-18:00, Sa 08:00-12:00, Su Closed",
         "operator": "Město Vimperk",
         "recycling:glass": "yes",
@@ -157220,6 +157244,7 @@
         "@id": 366653861,
         "@url": "https://www.openstreetmap.org/way/366653861",
         "amenity": "recycling",
+        "fixme": "Opravit geometrii, sběrný dvůr zabírá jen západní část, východní část je FCC",
         "landuse": "industrial",
         "name": "Sběrný dvůr hlavního města Prahy",
         "operator": "Pražské služby",
@@ -168193,6 +168218,7 @@
         "@id": 1036626561,
         "@url": "https://www.openstreetmap.org/way/1036626561",
         "amenity": "recycling",
+        "name": "Sběrný dvůr",
         "opening_hours": "Mo 08:00-12:00, 14:00-18:00, Tu 14:00-18:00; We 08:00-12:00, 14:00-18:00, Th Closed, Fr 14:00-18:00, Sa 08:00-12:00, Su Closed",
         "operator": "Město Vimperk",
         "recycling:glass": "yes",

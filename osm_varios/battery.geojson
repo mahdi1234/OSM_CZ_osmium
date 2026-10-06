@@ -1278,42 +1278,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.339848,
-          50.0871155
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 1382175746,
-        "@url": "https://www.openstreetmap.org/node/1382175746",
-        "amenity": "recycling",
-        "contact:phone": "+420 288409188",
-        "contact:website": "www.psas.cz",
-        "ipr:name": "Heyrovského náměstí 288/9",
-        "operator": "Pražské služby",
-        "operator:wikidata": "Q12046936",
-        "recycling:PET": "yes",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
-        "recycling:newspaper": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:polystyrene_foam": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container",
-        "ref": "6/77",
-        "ref:ipr": "2209"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.5815732,
           49.6185189
         ]
@@ -6582,20 +6546,15 @@
         "@url": "https://www.openstreetmap.org/node/4705658430",
         "amenity": "recycling",
         "contact:phone": "+420 288409188",
-        "contact:website": "www.psas.cz",
+        "contact:website": "https://www.psas.cz",
         "ipr:name": "Vokovická 32/3",
         "operator": "Pražské služby",
         "operator:wikidata": "Q12046936",
-        "recycling:PET": "yes",
         "recycling:batteries": "yes",
-        "recycling:cartons": "yes",
-        "recycling:glass": "yes",
-        "recycling:newspaper": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:polystyrene_foam": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:small_metal": "yes",
         "recycling_type": "container",
         "ref": "6/43",
         "ref:ipr": "2175"
@@ -8527,35 +8486,6 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.3469391,
-          50.0965687
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6175918902,
-        "@url": "https://www.openstreetmap.org/node/6175918902",
-        "amenity": "recycling",
-        "charity": "yes",
-        "contact:phone": "+420 800839845",
-        "contact:website": "www.textileco.cz",
-        "operator": "Textileco",
-        "operator:wikidata": "Q19602750",
-        "recycling:batteries": "yes",
-        "recycling:clothes": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:shoes": "yes",
-        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -22615,7 +22545,7 @@
         "@id": 12486429151,
         "@url": "https://www.openstreetmap.org/node/12486429151",
         "amenity": "recycling",
-        "collection_times": "7:00-22:00",
+        "collection_times": "07:00-22:00",
         "note": "V Kauflandu, hnedka za vstupními dveřmi vlevo, je tříděný odpad",
         "recycling:batteries": "yes",
         "recycling_type": "container"
@@ -29558,6 +29488,48 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.346942,
+          50.0965691
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14247875559,
+        "@url": "https://www.openstreetmap.org/node/14247875559",
+        "amenity": "recycling",
+        "operator": "Asekol",
+        "operator:wikidata": "Q36877392",
+        "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3397836,
+          50.0871169
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14248283222,
+        "@url": "https://www.openstreetmap.org/node/14248283222",
+        "amenity": "recycling",
+        "operator": "Asekol",
+        "operator:wikidata": "Q36877392",
+        "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },
@@ -38319,7 +38291,7 @@
         "amenity": "recycling",
         "description": "Listopad-Březen: v pracovní dny otevřeno do 17:00",
         "name": "Sběrný dvůr Větřní",
-        "opening_hours": "Mo 14-19; We 14-19; Fr 11-19; Sa 08-16",
+        "opening_hours": "Mo 14:00-19:00; We 14:00-19:00; Fr 11:00-19:00; Sa 08:00-16:00",
         "operator": "KAPEX s.r.o",
         "operator:type": "public",
         "phone": "+420775563381",
@@ -44820,7 +44792,7 @@
         "amenity": "recycling",
         "mobile": "+420 731 508 810",
         "name": "Sběrný dvůr Zliv - kompostárna",
-        "opening_hours": "Tu-Fr 13:00-17:00; Sa 9:00-17:00",
+        "opening_hours": "Tu-Fr 13:00-17:00; Sa 09:00-17:00",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
@@ -57033,7 +57005,7 @@
         "amenity": "recycling",
         "description": "Listopad-Březen: v pracovní dny otevřeno do 17:00",
         "name": "Sběrný dvůr Větřní",
-        "opening_hours": "Mo 14-19; We 14-19; Fr 11-19; Sa 08-16",
+        "opening_hours": "Mo 14:00-19:00; We 14:00-19:00; Fr 11:00-19:00; Sa 08:00-16:00",
         "operator": "KAPEX s.r.o",
         "operator:type": "public",
         "phone": "+420775563381",
@@ -63870,7 +63842,7 @@
         "amenity": "recycling",
         "mobile": "+420 731 508 810",
         "name": "Sběrný dvůr Zliv - kompostárna",
-        "opening_hours": "Tu-Fr 13:00-17:00; Sa 9:00-17:00",
+        "opening_hours": "Tu-Fr 13:00-17:00; Sa 09:00-17:00",
         "recycling:batteries": "yes",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",

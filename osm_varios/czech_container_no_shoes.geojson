@@ -1959,27 +1959,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3119007,
-          50.0329004
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8484025729,
-        "@url": "https://www.openstreetmap.org/node/8484025729",
-        "amenity": "recycling",
-        "opening_hours": "24/7",
-        "operator": "KlokTex",
-        "operator:wikidata": "Q131441348",
-        "recycling:clothes": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.8729067,
           50.2343565
         ]
@@ -27215,6 +27194,7 @@
         "@url": "https://www.openstreetmap.org/node/13595843114",
         "amenity": "recycling",
         "operator": "SAKO",
+        "operator:wikidata": "Q12050646",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -28804,6 +28784,9 @@
         "@id": 14022709518,
         "@url": "https://www.openstreetmap.org/node/14022709518",
         "amenity": "recycling",
+        "operator": "Technické služby města Kraslic",
+        "operator:short": "TSMK",
+        "operator:type": "public",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",

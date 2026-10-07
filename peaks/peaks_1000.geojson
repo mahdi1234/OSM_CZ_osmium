@@ -266,8 +266,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.2533503,
-          49.1778132
+          13.2533732,
+          49.1778036
         ]
       },
       "properties": {
@@ -32838,6 +32838,45 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.2539714,
+            49.1783564
+          ],
+          [
+            13.2540223,
+            49.1784004
+          ],
+          [
+            13.254089,
+            49.1783675
+          ],
+          [
+            13.2540381,
+            49.1783234
+          ],
+          [
+            13.2539714,
+            49.1783564
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1565601962,
+        "@url": "https://www.openstreetmap.org/way/1565601962",
+        "communication:mobile_phone": "yes",
+        "ele": "1213",
+        "height": "40",
+        "man_made": "mast",
+        "tower:construction": "guyed_lattice",
+        "tower:type": "communication"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -32911,6 +32950,49 @@
         "natural": "bare_rock",
         "wikidata": "Q18915345",
         "wikipedia": "cs:Harrachova skála"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.2539714,
+                49.1783564
+              ],
+              [
+                13.2540381,
+                49.1783234
+              ],
+              [
+                13.254089,
+                49.1783675
+              ],
+              [
+                13.2540223,
+                49.1784004
+              ],
+              [
+                13.2539714,
+                49.1783564
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1565601962,
+        "@url": "https://www.openstreetmap.org/way/1565601962",
+        "communication:mobile_phone": "yes",
+        "ele": "1213",
+        "height": "40",
+        "man_made": "mast",
+        "tower:construction": "guyed_lattice",
+        "tower:type": "communication"
       }
     }
   ]

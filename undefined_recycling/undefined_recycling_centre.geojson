@@ -409,7 +409,7 @@
         "@id": 13047720798,
         "@url": "https://www.openstreetmap.org/node/13047720798",
         "amenity": "recycling",
-        "opening_hours": "Mar 31-Oct 31 We 13:00-17:00, Sa 09:00-12:00; ",
+        "opening_hours": "Mar 31-Oct 31 We 13:00-17:00, Sa 09:00-12:00",
         "recycling_type": "centre",
         "url": "https://www.jimramov.cz/index.php/novinky-a-udalosti/kulturni-a-sportovni-akce/2681-sberne-misto-na-cov-jimramov"
       }
@@ -1927,28 +1927,28 @@
           [
             [
               [
-                14.4530838,
-                48.9517117
+                14.4477138,
+                48.9423211
               ],
               [
-                14.4530852,
-                48.9516128
+                14.4477709,
+                48.9422053
               ],
               [
-                14.4531064,
-                48.9513769
+                14.4485982,
+                48.942415
               ],
               [
-                14.4538248,
-                48.9513547
+                14.4483523,
+                48.9426432
               ],
               [
-                14.453853,
-                48.9516849
+                14.4477172,
+                48.9423796
               ],
               [
-                14.4530838,
-                48.9517117
+                14.4477138,
+                48.9423211
               ]
             ]
           ]
@@ -1959,6 +1959,7 @@
         "@id": 1328899380,
         "@url": "https://www.openstreetmap.org/way/1328899380",
         "amenity": "recycling",
+        "fixme": "position",
         "recycling_type": "centre"
       }
     },
@@ -4881,6 +4882,77 @@
         "@url": "https://www.openstreetmap.org/way/1562742180",
         "amenity": "recycling",
         "opening_hours": "Sa 08:00-10:00",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                16.1963025,
+                49.4359151
+              ],
+              [
+                16.1963695,
+                49.4358418
+              ],
+              [
+                16.1966574,
+                49.4356892
+              ],
+              [
+                16.19663,
+                49.4356526
+              ],
+              [
+                16.1968174,
+                49.4355555
+              ],
+              [
+                16.1970094,
+                49.435501
+              ],
+              [
+                16.1970018,
+                49.4357942
+              ],
+              [
+                16.1968921,
+                49.4360241
+              ],
+              [
+                16.1969027,
+                49.4362193
+              ],
+              [
+                16.1968503,
+                49.4362397
+              ],
+              [
+                16.1964849,
+                49.4359954
+              ],
+              [
+                16.1963974,
+                49.4359636
+              ],
+              [
+                16.1963025,
+                49.4359151
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1566292148,
+        "@url": "https://www.openstreetmap.org/way/1566292148",
+        "amenity": "recycling",
         "recycling_type": "centre"
       }
     }

@@ -28762,28 +28762,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5155699,
-          50.1506619
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 4998818955,
-        "@url": "https://www.openstreetmap.org/node/4998818955",
-        "amenity": "recycling",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.5112161,
           50.1499822
         ]
@@ -30848,6 +30826,7 @@
         "@id": 5403969934,
         "@url": "https://www.openstreetmap.org/node/5403969934",
         "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
@@ -50059,8 +50038,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3673322,
-          49.4762496
+          17.3673284,
+          49.476246
         ]
       },
       "properties": {
@@ -50070,7 +50049,7 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
-        "recycling:glass": "yes",
+        "recycling:cardboard": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
         "recycling:metal_packaging": "yes",
@@ -64457,7 +64436,6 @@
         "@type": "node",
         "@id": 10012863683,
         "@url": "https://www.openstreetmap.org/node/10012863683",
-        "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:books": "yes",
         "recycling:cans": "yes",
@@ -64472,7 +64450,8 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "removed:amenity": "recycling"
       }
     },
     {
@@ -121587,35 +121566,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3342966,
-          49.6310063
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 14192185027,
-        "@url": "https://www.openstreetmap.org/node/14192185027",
-        "amenity": "recycling",
-        "covered": "no",
-        "indoor": "no",
-        "material": "plastic",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:garden_waste": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:metal": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.3035968,
           50.0448467
         ]
@@ -121630,34 +121580,6 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.3573642,
-          49.6354662
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 14201546671,
-        "@url": "https://www.openstreetmap.org/node/14201546671",
-        "amenity": "recycling",
-        "covered": "no",
-        "indoor": "no",
-        "material": "plastic",
-        "recycling:aluminium_cans": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
-        "recycling:metal": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -121730,33 +121652,6 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.3374691,
-          49.6096278
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 14209689505,
-        "@url": "https://www.openstreetmap.org/node/14209689505",
-        "amenity": "recycling",
-        "covered": "no",
-        "indoor": "no",
-        "material": "plastic",
-        "recycling:beverage_cartons": "yes",
-        "recycling:glass": "yes",
-        "recycling:metal": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
@@ -122029,6 +121924,35 @@
         "recycling_type": "container",
         "ref": "0005/170",
         "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9251569,
+          49.290409
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14265533088,
+        "@url": "https://www.openstreetmap.org/node/14265533088",
+        "amenity": "recycling",
+        "email": "obec@liptal.cz",
+        "opening_hours": "Mo,Fr 09:00-11:00; Tu-Th 16:00-18:00",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "centre",
+        "website": "https://liptal.cz/spol/sberny-dvur-a-re-use-centrum"
       }
     },
     {

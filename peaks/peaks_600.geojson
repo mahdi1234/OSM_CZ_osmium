@@ -1907,13 +1907,11 @@
         "@type": "node",
         "@id": 566461411,
         "@url": "https://www.openstreetmap.org/node/566461411",
+        "boundary": "marker",
         "boundary_name:cs": "Česko-rakouská státní hranice",
         "ele": "650",
-        "historic": "boundary_stone",
         "inscription": "III/39C",
-        "name": "III/39C",
-        "ref": "III/39C",
-        "source_type_GPS": "48°36’50.52881” 14°32’42.38081”"
+        "ref": "III/39C"
       }
     },
     {
@@ -92322,6 +92320,42 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.806468,
+          49.5969298
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14268681916,
+        "@url": "https://www.openstreetmap.org/node/14268681916",
+        "ele": "630.6",
+        "name": "Pátkův kopec",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9019144,
+          49.5912422
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14268681917,
+        "@url": "https://www.openstreetmap.org/node/14268681917",
+        "ele": "655.9",
+        "name": "Adamův kopec",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -104408,6 +104442,55 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.5511465,
+                49.9821831
+              ],
+              [
+                12.551237,
+                49.9821754
+              ],
+              [
+                12.5512496,
+                49.9822411
+              ],
+              [
+                12.5511591,
+                49.9822488
+              ],
+              [
+                12.5511465,
+                49.9821831
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "relation",
+        "@id": 17142356,
+        "@url": "https://www.openstreetmap.org/relation/17142356",
+        "amenity": "place_of_worship",
+        "area": "yes",
+        "building": "church",
+        "building:ruian:type": "15",
+        "ele": "666",
+        "name": "Kostel sv. Jana Křtitele",
+        "ref:ruian:building": "48221830",
+        "religion": "christian",
+        "ruins": "church",
+        "source": "cuzk:ruian",
+        "wikidata": "Q20008644",
+        "wikipedia": "cs:Kostel Narození svatého Jana Křtitele (Vysoká)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -104677,55 +104760,6 @@
         "access": "yes",
         "ele": "651",
         "playground": "roundabout"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                12.5511465,
-                49.9821831
-              ],
-              [
-                12.551237,
-                49.9821754
-              ],
-              [
-                12.5512496,
-                49.9822411
-              ],
-              [
-                12.5511591,
-                49.9822488
-              ],
-              [
-                12.5511465,
-                49.9821831
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "relation",
-        "@id": 17142356,
-        "@url": "https://www.openstreetmap.org/relation/17142356",
-        "amenity": "place_of_worship",
-        "area": "yes",
-        "building": "church",
-        "building:ruian:type": "15",
-        "ele": "666",
-        "name": "Kostel sv. Jana Křtitele",
-        "ref:ruian:building": "48221830",
-        "religion": "christian",
-        "ruins": "church",
-        "source": "cuzk:ruian",
-        "wikidata": "Q20008644",
-        "wikipedia": "cs:Kostel Narození svatého Jana Křtitele (Vysoká)"
       }
     },
     {

@@ -1192,6 +1192,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4828423,
+          50.0725077
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4406600860,
+        "@url": "https://www.openstreetmap.org/node/4406600860",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4975361,
           50.0564017
         ]
@@ -2965,26 +2989,6 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.9097734,
-          49.292025
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8757587358,
-        "@url": "https://www.openstreetmap.org/node/8757587358",
-        "amenity": "recycling",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
         "recycling_type": "container"
       }
     },
@@ -29713,6 +29717,51 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4763801,
+          50.0726793
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14267272923,
+        "@url": "https://www.openstreetmap.org/node/14267272923",
+        "amenity": "recycling",
+        "operator": "Oděvní banka",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3228886,
+          49.4693073
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14274164402,
+        "@url": "https://www.openstreetmap.org/node/14274164402",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },

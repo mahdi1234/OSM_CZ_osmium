@@ -23596,9 +23596,7 @@
         "@type": "node",
         "@id": 1634594047,
         "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
@@ -63787,10 +63785,9 @@
         "amenity": "recycling",
         "location": "overground",
         "recycling:cans": "yes",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -107162,10 +107159,12 @@
         "@id": 4406600860,
         "amenity": "recycling",
         "location": "overground",
+        "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -133748,7 +133747,7 @@
         "location": "overground",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
-        "recycling:glass_bottles": "yes",
+        "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -153928,8 +153927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.1779901,
-          48.9399505
+          17.1781561,
+          48.9399629
         ]
       },
       "properties": {
@@ -164755,6 +164754,7 @@
         "@id": 6715267361,
         "amenity": "recycling",
         "recycling:glass": "yes",
+        "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
       }
@@ -212173,7 +212173,8 @@
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "container"
+        "recycling_type": "container",
+        "wheelchair": "yes"
       }
     },
     {
@@ -214727,6 +214728,7 @@
         "@type": "node",
         "@id": 7736286680,
         "amenity": "recycling",
+        "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -219840,6 +219842,7 @@
         "@type": "node",
         "@id": 7843227305,
         "amenity": "recycling",
+        "check_date": "2026-10-09",
         "opening_hours": "24/7",
         "recycling:cardboard": "yes",
         "recycling:glass": "yes",
@@ -220593,7 +220596,8 @@
         "@id": 7854495689,
         "amenity": "recycling",
         "location": "underground",
-        "recycling:glass_bottles": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -242281,11 +242285,9 @@
         "@id": 8297177832,
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -278358,25 +278360,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9097734,
-          49.292025
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8757587358,
-        "amenity": "recycling",
-        "recycling:clothes": "yes",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.6922677,
           49.2653236
         ]
@@ -313129,7 +313112,9 @@
         "@type": "node",
         "@id": 9373489973,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -313152,7 +313137,9 @@
         "addr:street": "Švédská",
         "amenity": "recycling",
         "check_date:recycling": "2026-10-03",
-        "recycling:glass": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container",
@@ -326022,8 +326009,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.3004367,
-          49.8388037
+          18.3003396,
+          49.8389083
         ]
       },
       "properties": {
@@ -326033,7 +326020,12 @@
         "addr:housenumber": "32",
         "addr:street": "Keltičkova",
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container",
         "source": "opendata.ostrava"
       }
@@ -339245,9 +339237,13 @@
         "addr:housenumber": "26",
         "addr:street": "Matěje Kopeckého",
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container",
         "source": "opendata.ostrava"
       }
@@ -343176,7 +343172,8 @@
         "addr:housenumber": "97",
         "addr:street": "Hlavní třída",
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container",
@@ -346078,7 +346075,8 @@
         "addr:street": "listopadu",
         "amenity": "recycling",
         "location": "underground",
-        "recycling:glass": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container",
@@ -372994,8 +372992,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3584308,
-          49.4555339
+          14.3585462,
+          49.455527
         ]
       },
       "properties": {
@@ -537199,7 +537197,6 @@
         "@type": "node",
         "@id": 11121884159,
         "amenity": "recycling",
-        "recycling:cooking_oil": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -546791,8 +546788,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3258297,
-          49.4695878
+          17.325777,
+          49.4695971
         ]
       },
       "properties": {
@@ -546800,10 +546797,15 @@
         "@id": 11263854349,
         "amenity": "recycling",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:clothes": "yes",
-        "recycling:glass": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling:shoes": "yes",
         "recycling_type": "container"
       }
@@ -551838,9 +551840,11 @@
         "@type": "node",
         "@id": 11345236165,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -554996,8 +555000,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7536828,
-          49.1976841
+          16.7537237,
+          49.1977058
         ]
       },
       "properties": {
@@ -555015,8 +555019,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.7505931,
-          49.19732
+          16.7505789,
+          49.1973366
         ]
       },
       "properties": {
@@ -594943,8 +594947,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0353037,
-          48.9052342
+          17.0352867,
+          48.905226
         ]
       },
       "properties": {
@@ -610811,9 +610815,7 @@
         "recycling:cans": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -649373,24 +649375,6 @@
         "recycling:plastic_packaging": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.3015481,
-          50.0483122
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11947122195,
-        "amenity": "recycling",
-        "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling_type": "bin"
       }
     },
     {
@@ -719267,7 +719251,8 @@
         "@type": "node",
         "@id": 12558940890,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -743385,8 +743370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.4163831,
-          48.9110844
+          17.4164137,
+          48.9111503
         ]
       },
       "properties": {
@@ -825836,8 +825821,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3258036,
-          49.4652158
+          17.325794,
+          49.4652186
         ]
       },
       "properties": {
@@ -825845,9 +825830,12 @@
         "@id": 13977145976,
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling:glass": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -841223,24 +841211,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3015308,
-          50.0483017
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 14183596113,
-        "amenity": "recycling",
-        "recycling:paper": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.1229983,
           49.0039756
         ]
@@ -841310,7 +841280,7 @@
         "amenity": "recycling",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -846109,9 +846079,9 @@
         "@type": "node",
         "@id": 14265365279,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -846128,9 +846098,9 @@
         "@type": "node",
         "@id": 14265365360,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -846194,6 +846164,208 @@
         "@id": 14265761928,
         "amenity": "recycling",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4763801,
+          50.0726793
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14267272923,
+        "amenity": "recycling",
+        "operator": "Oděvní banka",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9121778,
+          49.291415
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14268944856,
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0960464,
+          48.915682
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14269909140,
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1642316,
+          48.9223121
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14270350069,
+        "amenity": "recycling",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1667463,
+          48.9163387
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14270352234,
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.96334,
+          48.948483
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14271134957,
+        "amenity": "recycling",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9696644,
+          48.9448842
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14271163941,
+        "amenity": "recycling",
+        "recycling:books": "no",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2802745,
+          49.6057351
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14271799770,
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "material": "plastic",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3228886,
+          49.4693073
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14274164402,
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3115495,
+          49.0332092
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14274403617,
+        "amenity": "recycling",
+        "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"

@@ -82524,7 +82524,6 @@
         "@id": 3599225075,
         "amenity": "recycling",
         "recycling:cans": "yes",
-        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -214691,7 +214690,6 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
@@ -297069,11 +297067,10 @@
         "@type": "node",
         "@id": 9064659571,
         "amenity": "recycling",
-        "check_date:recycling": "2025-09-29",
+        "check_date:recycling": "2026-10-11",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -308911,8 +308908,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.7720866,
-          49.053101
+          13.7720924,
+          49.0530965
         ]
       },
       "properties": {
@@ -541973,7 +541970,8 @@
         "amenity": "recycling",
         "covered": "no",
         "indoor": "no",
-        "operator": "Marius Pedersen a.s.",
+        "operator": "Marius Pedersen",
+        "operator:wikidata": "Q12326151",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic_packaging": "yes",
@@ -837912,6 +837910,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.4629794,
+          50.114425
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14141626866,
+        "access": "private",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.4586939,
           50.027918
         ]
@@ -846368,6 +846387,108 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4377334,
+          49.3206059
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14275259564,
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4376773,
+          49.3206024
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14275259565,
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:cardboard": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4377069,
+          49.3206045
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14275259566,
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:beverage_cartons": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4377853,
+          49.3206535
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14275259567,
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:green_waste": "yes",
+        "recycling_type": "container",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1875981,
+          49.9401353
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14277580150,
+        "amenity": "recycling",
+        "recycling:food_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
         "recycling_type": "container"
       }
     },
@@ -867451,7 +867572,7 @@
         "@id": 869079911,
         "amenity": "recycling",
         "name": "Sběrný dvůr Kaznějov",
-        "opening_hours": "Tu 14:00-18:00; Th 14:00-18:00; Sa 08:00-12:00",
+        "opening_hours": "Mo-Fr 13:00-18:00; We off; Sa 08:00-13:00",
         "recycling:beverage_cartons": "yes",
         "recycling:cardboard": "yes",
         "recycling:clothes": "yes",

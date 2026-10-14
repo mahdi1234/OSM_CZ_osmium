@@ -513373,45 +513373,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7254607,
-          50.0864949
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10704552434,
-        "amenity": "recycling",
-        "name": "Sběrný dvůr Opavská",
-        "opening_hours": "Mo-Su 08:30-17:00",
-        "operator": "Technické služby Krnov s.r.o.",
-        "recycling:batteries": "yes",
-        "recycling:beverage_cartons": "yes",
-        "recycling:cans": "yes",
-        "recycling:cardboard": "yes",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:electrical_appliances": "yes",
-        "recycling:glass": "yes",
-        "recycling:glass_bottles": "yes",
-        "recycling:green_waste": "yes",
-        "recycling:hazardous_waste": "yes",
-        "recycling:metal_packaging": "yes",
-        "recycling:paper": "yes",
-        "recycling:paper_packaging": "yes",
-        "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
-        "recycling:scrap_metal": "yes",
-        "recycling:shoes": "yes",
-        "recycling_type": "centre",
-        "website": "https://tskrnov.cz/sluzby/svoz-a-likvidace-odpadu/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4554635,
           50.0806526
         ]
@@ -881814,6 +881775,81 @@
         "recycling_type": "centre",
         "source": "https://mhzliv.cz/sberny-dvur/",
         "website": "https://www.zliv.cz/mesto/firmy-komerce-sluzby/sberny-dvur-zliv-kompostarna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                17.7251409,
+                50.0864351
+              ],
+              [
+                17.7257849,
+                50.0863346
+              ],
+              [
+                17.7259731,
+                50.0863052
+              ],
+              [
+                17.7260526,
+                50.0863693
+              ],
+              [
+                17.7261997,
+                50.086488
+              ],
+              [
+                17.7254916,
+                50.0868739
+              ],
+              [
+                17.7252522,
+                50.0867388
+              ],
+              [
+                17.7251409,
+                50.0864351
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1284820566,
+        "amenity": "recycling",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sběrný dvůr Opavská",
+        "opening_hours": "Mo-Su 08:30-17:00",
+        "operator": "Technické služby Krnov s.r.o.",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "centre",
+        "website": "https://tskrnov.cz/sluzby/svoz-a-likvidace-odpadu/"
       }
     },
     {

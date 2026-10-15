@@ -28673,15 +28673,22 @@
         "@id": 8926598158,
         "@url": "https://www.openstreetmap.org/node/8926598158",
         "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:PET": "yes",
+        "recycling:aluminium": "yes",
         "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
+        "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "no",
-        "recycling_type": "container"
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container",
+        "ref": "0013/133",
+        "wheelchair": "limited"
       }
     },
     {
@@ -39662,8 +39669,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.0323429,
-          49.1429313
+          15.032339,
+          49.142895
         ]
       },
       "properties": {
@@ -71590,6 +71597,36 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.449602,
+          50.1066909
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14277116799,
+        "@url": "https://www.openstreetmap.org/node/14277116799",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:PET": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container",
+        "ref": "0007/038",
+        "wheelchair": "limited"
       }
     },
     {

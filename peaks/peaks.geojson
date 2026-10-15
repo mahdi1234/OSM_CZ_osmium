@@ -17618,29 +17618,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0372012,
-          48.8577488
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 389100169,
-        "@url": "https://www.openstreetmap.org/node/389100169",
-        "ele": "300",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Hradiště (okraj)",
-        "operator": "cz:KČT",
-        "ref": "ZN526;ZN375",
-        "tourism": "information",
-        "wikidata": "Q64053001"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.4161521,
           50.8765677
         ]
@@ -45672,28 +45649,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0416821,
-          48.8581681
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 585069515,
-        "@url": "https://www.openstreetmap.org/node/585069515",
-        "ele": "240",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Gránické údolí (kříž. cesta)",
-        "operator": "cz:KČT",
-        "ref": "ZN266",
-        "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.5149352,
           50.7061129
         ]
@@ -66574,7 +66529,8 @@
         "ele": "447",
         "hiking": "yes",
         "information": "guidepost",
-        "name": "Javůrecké polesí (rozc.)",
+        "name": "Javůrecké polesí",
+        "operator": "cz:KČT",
         "ref": "BO206",
         "tourism": "information"
       }
@@ -269003,8 +268959,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0405873,
-          48.8553872
+          16.0405738,
+          48.8553777
         ]
       },
       "properties": {
@@ -596529,15 +596485,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8778613,
-          50.2701754
+          15.8782208,
+          50.2699842
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 12450235948,
         "@url": "https://www.openstreetmap.org/node/12450235948",
-        "ele": "260.6",
+        "ele": "260.5",
         "natural": "peak"
       }
     },
@@ -596546,15 +596502,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8802246,
-          50.2756536
+          15.8799287,
+          50.2757512
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 12450235953,
         "@url": "https://www.openstreetmap.org/node/12450235953",
-        "ele": "258",
+        "ele": "257",
         "natural": "peak"
       }
     },
@@ -602346,9 +602302,12 @@
         "@id": 12644228801,
         "@url": "https://www.openstreetmap.org/node/12644228801",
         "ele": "320",
+        "hiking": "yes",
         "information": "guidepost",
         "material": "wood",
         "name": "Česká, Rybníček u lomu",
+        "noref": "yes",
+        "operator": "local",
         "start_date": "2003",
         "tourism": "information"
       }
@@ -707828,6 +707787,90 @@
         "@url": "https://www.openstreetmap.org/node/14274839592",
         "ele": "219.4",
         "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0416678,
+          48.8581756
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14282810145,
+        "@url": "https://www.openstreetmap.org/node/14282810145",
+        "ele": "240",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Gránické údolí (kříž. cesta)",
+        "operator": "cz:KČT",
+        "ref": "ZN266",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0315443,
+          48.8641006
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14282842892,
+        "@url": "https://www.openstreetmap.org/node/14282842892",
+        "ele": "298",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Hradištská cesta (rozc.)",
+        "operator": "cz:KČT",
+        "ref": "ZN384",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0371926,
+          48.8577706
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14282863003,
+        "@url": "https://www.openstreetmap.org/node/14282863003",
+        "ele": "300",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Hradiště (okraj)",
+        "operator": "cz:KČT",
+        "ref": "ZN526;ZN375",
+        "tourism": "information",
+        "wikidata": "Q64053001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0953889,
+          50.166227
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14284436824,
+        "@url": "https://www.openstreetmap.org/node/14284436824",
+        "ele": "1069",
+        "natural": "hill"
       }
     },
     {

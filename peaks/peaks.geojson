@@ -5452,6 +5452,9 @@
         "ele": "270",
         "name": "Doksy",
         "name:de": "Hirschberg",
+        "network": "Integrovaná doprava Libereckého kraje",
+        "network:short": "IDOL",
+        "network:wikidata": "Q12021686",
         "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
@@ -176856,6 +176859,7 @@
         "ele": "135",
         "name": "Rumburk",
         "name:de": "Rumburg",
+        "network": "Integrovaná doprava Libereckého kraje",
         "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
@@ -188109,8 +188113,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.9555953,
-          50.7256533
+          13.9544926,
+          50.7245025
         ]
       },
       "properties": {
@@ -188123,7 +188127,6 @@
         "name": "Liboňov",
         "operator": "cz:KČT",
         "ref": "UL062",
-        "source": "gps;survey 2014-03-02",
         "tourism": "information"
       }
     },
@@ -223284,10 +223287,15 @@
         "@url": "https://www.openstreetmap.org/node/3267208309",
         "ele": "220",
         "name": "Mladá Boleslav-Debř",
+        "name:de": "Jungbunzlau-Debř",
+        "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "544411",
+        "ref:ibnr": "5402008",
         "train": "yes",
+        "uic_ref": "5454441",
+        "website": "https://www.cd.cz/stanice/5454441/",
         "wikidata": "Q18924303",
         "wikipedia": "cs:Mladá Boleslav-Debř (nádraží)"
       }
@@ -261083,6 +261091,28 @@
         "name": "Zimka (rybník)",
         "operator": "cz:KČT",
         "ref": "SY159",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1630097,
+          49.8248999
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3849390706,
+        "@url": "https://www.openstreetmap.org/node/3849390706",
+        "ele": "490",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Jarošov (BUS)",
+        "operator": "cz:KČT",
+        "ref": "SY195",
         "tourism": "information"
       }
     },
@@ -338048,8 +338078,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.9127046,
-          50.6845408
+          13.9128789,
+          50.6846734
         ]
       },
       "properties": {
@@ -338060,7 +338090,7 @@
         "hiking": "yes",
         "information": "guidepost",
         "memorial:conflict": "Napoleonic_Wars",
-        "name": "válečný hrob 1813",
+        "name": "Válečný hrob 1813",
         "operator": "cz:KČT",
         "ref": "UL192",
         "tourism": "information"
@@ -366091,7 +366121,6 @@
         "name": "Zimný",
         "noref": "yes",
         "operator": "cz:KČT",
-        "ref": "none",
         "ski": "yes",
         "tourism": "information"
       }
@@ -366551,6 +366580,9 @@
         "internet_access": "wlan",
         "name": "Česká Lípa hlavní nádraží",
         "name:de": "Böhmisch Leipa",
+        "network": "Integrovaná doprava Libereckého kraje",
+        "network:short": "IDOL",
+        "network:wikidata": "Q12021686",
         "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
@@ -367726,6 +367758,28 @@
         "name": "Krásný les bus",
         "operator": "cz:KČT",
         "ref": "UL036",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9147062,
+          50.6828021
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 4971692946,
+        "@url": "https://www.openstreetmap.org/node/4971692946",
+        "ele": "220",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Ruský památník",
+        "operator": "cz:KČT",
+        "ref": "UL191;UL203",
         "tourism": "information"
       }
     },
@@ -434701,6 +434755,9 @@
         "ele": "370",
         "name": "Nový Bor",
         "name:de": "Haida",
+        "network": "Integrovaná doprava Libereckého kraje",
+        "network:short": "IDOL",
+        "network:wikidata": "Q12021686",
         "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
@@ -450922,13 +450979,12 @@
         "@type": "node",
         "@id": 6522646881,
         "@url": "https://www.openstreetmap.org/node/6522646881",
-        "bicycle": "yes",
         "ele": "680",
         "hiking": "yes",
         "information": "guidepost",
         "name": "Troják (rozc.)",
         "operator": "cz:KČT",
-        "ref": "none;UH134",
+        "ref": "UH134",
         "tourism": "information"
       }
     },
@@ -483745,6 +483801,7 @@
         "ele": "545",
         "name": "Jedlová",
         "name:de": "Tannenberg",
+        "network": "Integrovaná doprava Libereckého kraje",
         "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
@@ -707871,6 +707928,28 @@
         "@url": "https://www.openstreetmap.org/node/14284436824",
         "ele": "1069",
         "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9538562,
+          50.7138726
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14287625882,
+        "@url": "https://www.openstreetmap.org/node/14287625882",
+        "ele": "300",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Varvažov - u Oprámu",
+        "operator": "cz:KČT",
+        "ref": "UL228",
+        "tourism": "information"
       }
     },
     {

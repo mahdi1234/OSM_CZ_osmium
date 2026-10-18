@@ -1298,7 +1298,8 @@
         "air_conditioning": "no",
         "alt_name:de": "Böhmisch Budweis",
         "ele": "395",
-        "internet_access": "no",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
         "name": "České Budějovice",
         "name:cs": "České Budějovice",
         "name:de": "Budweis",
@@ -17614,6 +17615,29 @@
         "operator": "cz:KČT",
         "ref": "DC067",
         "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0372162,
+          48.8577812
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 389100169,
+        "@url": "https://www.openstreetmap.org/node/389100169",
+        "ele": "300",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Hradiště (okraj)",
+        "operator": "cz:KČT",
+        "ref": "ZN526;ZN375",
+        "tourism": "information",
+        "wikidata": "Q64053001"
       }
     },
     {
@@ -65702,6 +65726,30 @@
         "operator": "cz:KČT",
         "ref": "CV026",
         "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9982321,
+          48.8370801
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 912687429,
+        "@url": "https://www.openstreetmap.org/node/912687429",
+        "bicycle": "yes",
+        "ele": "372",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Sealsfieldův kámen (vyhl.)",
+        "operator": "cz:KČT",
+        "ref": "ZN322",
+        "tourism": "information",
+        "wikidata": "Q64053558"
       }
     },
     {
@@ -168281,23 +168329,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.8573445,
-          50.7461174
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2455918868,
-        "@url": "https://www.openstreetmap.org/node/2455918868",
-        "ele": "358.26",
-        "time": "2019-06-04T09:45:02Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.8299621,
           50.7667756
         ]
@@ -176856,23 +176887,6 @@
         "operator": "cz:KČT",
         "ref": "TS137",
         "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8567305,
-          50.7463875
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 2525353228,
-        "@url": "https://www.openstreetmap.org/node/2525353228",
-        "ele": "357.93",
-        "time": "2019-06-04T09:44:20Z"
       }
     },
     {
@@ -223118,23 +223132,6 @@
         "source": "VETS.cz;CEVH MO ČR",
         "start_date": "1918",
         "subject": "Oběti 1. a 2. světové války z Komorní Lhotky"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8524938,
-          50.7473444
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3262032417,
-        "@url": "https://www.openstreetmap.org/node/3262032417",
-        "ele": "355.83",
-        "time": "2019-06-04T09:40:07Z"
       }
     },
     {
@@ -455445,992 +455442,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.8545332,
-          50.746666
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646404995,
-        "@url": "https://www.openstreetmap.org/node/6646404995",
-        "ele": "355.96",
-        "time": "2019-06-04T09:42:08Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.855216,
-          50.7464981
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646404996,
-        "@url": "https://www.openstreetmap.org/node/6646404996",
-        "ele": "356.31",
-        "time": "2019-06-04T09:42:50Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8631945,
-          50.7448349
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646404997,
-        "@url": "https://www.openstreetmap.org/node/6646404997",
-        "ele": "359.95",
-        "time": "2019-06-04T10:35:18Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8611403,
-          50.7461815
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646404998,
-        "@url": "https://www.openstreetmap.org/node/6646404998",
-        "ele": "371.74",
-        "time": "2019-06-04T10:30:46Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8587608,
-          50.7459622
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646404999,
-        "@url": "https://www.openstreetmap.org/node/6646404999",
-        "ele": "363.44",
-        "time": "2019-06-04T09:46:14Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8562431,
-          50.746376
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405000,
-        "@url": "https://www.openstreetmap.org/node/6646405000",
-        "ele": "357.2",
-        "time": "2019-06-04T09:43:52Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8591146,
-          50.7468321
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405001,
-        "@url": "https://www.openstreetmap.org/node/6646405001",
-        "ele": "366.85",
-        "time": "2019-06-04T09:47:39Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8572435,
-          50.7461624
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405002,
-        "@url": "https://www.openstreetmap.org/node/6646405002",
-        "ele": "358.83",
-        "time": "2019-06-04T09:44:55Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8534527,
-          50.7471313
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405003,
-        "@url": "https://www.openstreetmap.org/node/6646405003",
-        "ele": "357.41",
-        "time": "2019-06-04T09:40:48Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8622236,
-          50.7456055
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405004,
-        "@url": "https://www.openstreetmap.org/node/6646405004",
-        "ele": "367.46",
-        "time": "2019-06-04T10:33:22Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8603439,
-          50.746624
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405005,
-        "@url": "https://www.openstreetmap.org/node/6646405005",
-        "ele": "366.34",
-        "time": "2019-06-04T10:29:02Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8575563,
-          50.746109
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405006,
-        "@url": "https://www.openstreetmap.org/node/6646405006",
-        "ele": "357.72",
-        "time": "2019-06-04T09:45:14Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8607893,
-          50.7463646
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405007,
-        "@url": "https://www.openstreetmap.org/node/6646405007",
-        "ele": "366.34",
-        "time": "2019-06-04T10:29:39Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.854269,
-          50.7467842
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405008,
-        "@url": "https://www.openstreetmap.org/node/6646405008",
-        "ele": "355.91",
-        "time": "2019-06-04T09:41:49Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8548546,
-          50.746582
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405009,
-        "@url": "https://www.openstreetmap.org/node/6646405009",
-        "ele": "355.54",
-        "time": "2019-06-04T09:42:28Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8630276,
-          50.7450409
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405010,
-        "@url": "https://www.openstreetmap.org/node/6646405010",
-        "ele": "361.7",
-        "time": "2019-06-04T10:34:58Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8609877,
-          50.7462463
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405011,
-        "@url": "https://www.openstreetmap.org/node/6646405011",
-        "ele": "369.34",
-        "time": "2019-06-04T10:30:26Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8589311,
-          50.7464617
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405012,
-        "@url": "https://www.openstreetmap.org/node/6646405012",
-        "ele": "366.5",
-        "time": "2019-06-04T09:46:52Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8568258,
-          50.7463608
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405013,
-        "@url": "https://www.openstreetmap.org/node/6646405013",
-        "ele": "358.59",
-        "time": "2019-06-04T09:44:26Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.861578,
-          50.7459106
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405014,
-        "@url": "https://www.openstreetmap.org/node/6646405014",
-        "ele": "372.01",
-        "time": "2019-06-04T10:31:58Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8592453,
-          50.7470665
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405015,
-        "@url": "https://www.openstreetmap.org/node/6646405015",
-        "ele": "368.75",
-        "time": "2019-06-04T09:48:30Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8570938,
-          50.7462273
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405016,
-        "@url": "https://www.openstreetmap.org/node/6646405016",
-        "ele": "359.56",
-        "time": "2019-06-04T09:44:44Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8531179,
-          50.7472305
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405017,
-        "@url": "https://www.openstreetmap.org/node/6646405017",
-        "ele": "356.88",
-        "time": "2019-06-04T09:40:27Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8620338,
-          50.7457123
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405018,
-        "@url": "https://www.openstreetmap.org/node/6646405018",
-        "ele": "369.31",
-        "time": "2019-06-04T10:32:57Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8601465,
-          50.7467461
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405019,
-        "@url": "https://www.openstreetmap.org/node/6646405019",
-        "ele": "366.53",
-        "time": "2019-06-04T10:28:43Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8580198,
-          50.7460709
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405020,
-        "@url": "https://www.openstreetmap.org/node/6646405020",
-        "ele": "360.79",
-        "time": "2019-06-04T09:45:40Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8605709,
-          50.7465019
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405021,
-        "@url": "https://www.openstreetmap.org/node/6646405021",
-        "ele": "366.57",
-        "time": "2019-06-04T10:29:20Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8582068,
-          50.7460747
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405022,
-        "@url": "https://www.openstreetmap.org/node/6646405022",
-        "ele": "362.14",
-        "time": "2019-06-04T09:45:52Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8559103,
-          50.7463837
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405023,
-        "@url": "https://www.openstreetmap.org/node/6646405023",
-        "ele": "357.52",
-        "time": "2019-06-04T09:43:32Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8635378,
-          50.7444572
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405024,
-        "@url": "https://www.openstreetmap.org/node/6646405024",
-        "ele": "356.98",
-        "time": "2019-06-04T10:36:28Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8615179,
-          50.7459984
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405025,
-        "@url": "https://www.openstreetmap.org/node/6646405025",
-        "ele": "370.72",
-        "time": "2019-06-04T10:31:23Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8588992,
-          50.746357
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405026,
-        "@url": "https://www.openstreetmap.org/node/6646405026",
-        "ele": "366.22",
-        "time": "2019-06-04T09:46:43Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8615522,
-          50.7459488
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405028,
-        "@url": "https://www.openstreetmap.org/node/6646405028",
-        "ele": "371.84",
-        "time": "2019-06-04T10:31:41Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8592312,
-          50.7470377
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405029,
-        "@url": "https://www.openstreetmap.org/node/6646405029",
-        "ele": "368.06",
-        "time": "2019-06-04T09:48:04Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8574085,
-          50.746109
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405030,
-        "@url": "https://www.openstreetmap.org/node/6646405030",
-        "ele": "357.57",
-        "time": "2019-06-04T09:45:06Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8539476,
-          50.7469482
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405031,
-        "@url": "https://www.openstreetmap.org/node/6646405031",
-        "ele": "356",
-        "time": "2019-06-04T09:41:26Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8625832,
-          50.7453995
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405032,
-        "@url": "https://www.openstreetmap.org/node/6646405032",
-        "ele": "364.83",
-        "time": "2019-06-04T10:34:00Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.862814,
-          50.745266
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405033,
-        "@url": "https://www.openstreetmap.org/node/6646405033",
-        "ele": "362.52",
-        "time": "2019-06-04T10:34:34Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8578472,
-          50.7460861
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405034,
-        "@url": "https://www.openstreetmap.org/node/6646405034",
-        "ele": "359.39",
-        "time": "2019-06-04T09:45:31Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8609772,
-          50.7462883
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405035,
-        "@url": "https://www.openstreetmap.org/node/6646405035",
-        "ele": "366.07",
-        "time": "2019-06-04T10:30:03Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8581247,
-          50.7460785
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405036,
-        "@url": "https://www.openstreetmap.org/node/6646405036",
-        "ele": "361.87",
-        "time": "2019-06-04T09:45:46Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8555594,
-          50.7464256
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405037,
-        "@url": "https://www.openstreetmap.org/node/6646405037",
-        "ele": "357.27",
-        "time": "2019-06-04T09:43:11Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8633804,
-          50.7446442
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405038,
-        "@url": "https://www.openstreetmap.org/node/6646405038",
-        "ele": "356.9",
-        "time": "2019-06-04T10:36:03Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8613253,
-          50.7460632
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405039,
-        "@url": "https://www.openstreetmap.org/node/6646405039",
-        "ele": "370.8",
-        "time": "2019-06-04T10:31:05Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8590051,
-          50.7466328
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405040,
-        "@url": "https://www.openstreetmap.org/node/6646405040",
-        "ele": "366.16",
-        "time": "2019-06-04T09:47:25Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8619299,
-          50.7457809
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405041,
-        "@url": "https://www.openstreetmap.org/node/6646405041",
-        "ele": "368.99",
-        "time": "2019-06-04T10:32:34Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8598957,
-          50.7468872
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405042,
-        "@url": "https://www.openstreetmap.org/node/6646405042",
-        "ele": "366.95",
-        "time": "2019-06-04T10:28:16Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8536682,
-          50.7470665
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405044,
-        "@url": "https://www.openstreetmap.org/node/6646405044",
-        "ele": "357.37",
-        "time": "2019-06-04T09:41:07Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8624249,
-          50.7454834
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405045,
-        "@url": "https://www.openstreetmap.org/node/6646405045",
-        "ele": "366.12",
-        "time": "2019-06-04T10:33:44Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8626823,
-          50.7453728
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405046,
-        "@url": "https://www.openstreetmap.org/node/6646405046",
-        "ele": "364.4",
-        "time": "2019-06-04T10:34:14Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8608284,
-          50.7463455
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405047,
-        "@url": "https://www.openstreetmap.org/node/6646405047",
-        "ele": "366.23",
-        "time": "2019-06-04T10:29:43Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8588431,
-          50.7461518
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405048,
-        "@url": "https://www.openstreetmap.org/node/6646405048",
-        "ele": "363.56",
-        "time": "2019-06-04T09:46:26Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8565903,
-          50.7463875
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405049,
-        "@url": "https://www.openstreetmap.org/node/6646405049",
-        "ele": "358.08",
-        "time": "2019-06-04T09:44:12Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8591822,
-          50.7469402
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405050,
-        "@url": "https://www.openstreetmap.org/node/6646405050",
-        "ele": "367.15",
-        "time": "2019-06-04T09:47:53Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8589869,
-          50.7465842
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405051,
-        "@url": "https://www.openstreetmap.org/node/6646405051",
-        "ele": "364.65",
-        "time": "2019-06-04T09:47:09Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8617067,
-          50.7458572
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405052,
-        "@url": "https://www.openstreetmap.org/node/6646405052",
-        "ele": "370.25",
-        "time": "2019-06-04T10:32:15Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8593226,
-          50.7471428
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405053,
-        "@url": "https://www.openstreetmap.org/node/6646405053",
-        "ele": "369.31",
-        "time": "2019-06-04T09:48:50Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8577156,
-          50.7461052
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 6646405054,
-        "@url": "https://www.openstreetmap.org/node/6646405054",
-        "ele": "358.58",
-        "time": "2019-06-04T09:45:23Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.2462902,
           50.6408119
         ]
@@ -483563,30 +482574,6 @@
         "information": "guidepost",
         "name": "Šubrtova kaplička",
         "tourism": "information"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9982309,
-          48.8370819
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 8022371050,
-        "@url": "https://www.openstreetmap.org/node/8022371050",
-        "bicycle": "yes",
-        "ele": "372",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Sealsfieldův kámen (vyhl.)",
-        "operator": "cz:KČT",
-        "ref": "ZN322",
-        "tourism": "information",
-        "wikidata": "Q64053558"
       }
     },
     {
@@ -707946,29 +706933,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0371926,
-          48.8577706
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 14282863003,
-        "@url": "https://www.openstreetmap.org/node/14282863003",
-        "ele": "300",
-        "hiking": "yes",
-        "information": "guidepost",
-        "name": "Hradiště (okraj)",
-        "operator": "cz:KČT",
-        "ref": "ZN526;ZN375",
-        "tourism": "information",
-        "wikidata": "Q64053001"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.0953889,
           50.166227
         ]
@@ -708001,6 +706965,23 @@
         "operator": "cz:KČT",
         "ref": "UL228",
         "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4022177,
+          49.6809662
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14294079651,
+        "@url": "https://www.openstreetmap.org/node/14294079651",
+        "ele": "566",
+        "natural": "hill"
       }
     },
     {
@@ -1673954,6 +1672935,7 @@
         "start_date": "1348",
         "tourism": "attraction",
         "website": "https://www.hrad-karlstejn.cz",
+        "wheelchair": "limited",
         "wikidata": "Q266698",
         "wikimedia_commons": "Category:Karlštejn (castle)",
         "wikipedia": "cs:Karlštejn"

@@ -26597,9 +26597,10 @@
         "@id": 1730420366,
         "amenity": "recycling",
         "location": "overground",
-        "recycling:glass": "yes",
-        "recycling:paper": "yes",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -35618,6 +35619,7 @@
         "@type": "node",
         "@id": 2108961437,
         "amenity": "recycling",
+        "check_date:recycling": "2026-10-19",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
@@ -41218,7 +41220,8 @@
         "@type": "node",
         "@id": 2295502103,
         "amenity": "recycling",
-        "check_date": "2021-07-25",
+        "check_date": "2026-10-19",
+        "check_date:recycling": "2026-10-19",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -47715,12 +47718,11 @@
         "@type": "node",
         "@id": 2514055885,
         "amenity": "recycling",
-        "check_date:recycling": "2025-08-16",
+        "check_date:recycling": "2026-10-19",
         "recycling:cans": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "no",
-        "recycling:plastic_packaging": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -90523,8 +90525,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.7809027,
-          49.0592028
+          13.7809881,
+          49.0592574
         ]
       },
       "properties": {
@@ -112879,8 +112881,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3939396,
-          49.7279047
+          13.3939171,
+          49.7279123
         ]
       },
       "properties": {
@@ -135957,24 +135959,6 @@
         "@id": 5485954620,
         "amenity": "recycling",
         "recycling:waste": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.1460716,
-          49.313497
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5489699107,
-        "amenity": "recycling",
-        "recycling:clothes": "yes",
-        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -225406,6 +225390,7 @@
         "@type": "node",
         "@id": 7995352237,
         "amenity": "recycling",
+        "check_date": "2026-10-19",
         "recycling:cardboard": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -227636,7 +227621,9 @@
         "@type": "node",
         "@id": 8014026427,
         "amenity": "recycling",
+        "recycling:food_waste": "yes",
         "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container",
@@ -227921,7 +227908,7 @@
         "@type": "node",
         "@id": 8014026447,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container",
@@ -228000,7 +227987,7 @@
         "@id": 8014026451,
         "amenity": "recycling",
         "location": "underground",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container",
@@ -228430,9 +228417,9 @@
         "@type": "node",
         "@id": 8014060433,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container",
         "ref": "116"
       }
@@ -435734,12 +435721,13 @@
         "@type": "node",
         "@id": 9790228899,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling:plastic_bottles": "yes",
-        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -545980,30 +545968,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.7416375,
-          50.2377888
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11249071005,
-        "amenity": "recycling",
-        "brand": "Textileco",
-        "brand:wikidata": "Q19602750",
-        "colour": "red",
-        "description": "Sběr nepotřebného oblečení",
-        "operator": "Coretex CZ",
-        "operator:wikidata": "Q137507932",
-        "recycling:clothes": "yes",
-        "recycling:textiles": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.7348182,
           50.2377214
         ]
@@ -612481,27 +612445,6 @@
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4990189,
-          50.1180195
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11727896488,
-        "amenity": "recycling",
-        "check_date:recycling": "2025-09-20",
-        "operator": "Diakonie Broumov",
-        "operator:wikidata": "Q67814869",
-        "recycling:clothes": "yes",
-        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },
@@ -823143,6 +823086,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.3986296,
+          50.1622772
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13942439398,
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.6326689,
           50.2372151
         ]
@@ -845912,8 +845879,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3772154,
-          49.4635147
+          17.3772255,
+          49.4635126
         ]
       },
       "properties": {
@@ -845922,6 +845889,7 @@
         "amenity": "recycling",
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -846937,10 +846905,10 @@
         "@type": "node",
         "@id": 14296628140,
         "amenity": "recycling",
-        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -846957,7 +846925,8 @@
         "@type": "node",
         "@id": 14296867563,
         "amenity": "recycling",
-        "operator": "Dimatex CS spol. s r.o.",
+        "operator": "Dimatex CS",
+        "operator:wikidata": "Q54960573",
         "recycling:clothes": "yes",
         "recycling_type": "container"
       }
@@ -847154,6 +847123,169 @@
         "recycling:textiles": "yes",
         "recycling_type": "container",
         "website": "https://textil-eco.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.410788,
+          50.0499898
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14299184626,
+        "amenity": "recycling",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3972066,
+          50.0334219
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14299361838,
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1461045,
+          49.3134925
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14299770283,
+        "amenity": "recycling",
+        "brand": "TextilEco",
+        "brand:wikidata": "Q137507665",
+        "operator": "TextilEco",
+        "operator:wikidata": "Q137507665",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3737474,
+          49.4627366
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14300160887,
+        "amenity": "recycling",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4490564,
+          49.6823215
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14303240943,
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4397853,
+          49.6852062
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14303241100,
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7416359,
+          50.237789
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14303882178,
+        "amenity": "recycling",
+        "brand": "TextilEco",
+        "brand:wikidata": "Q137507665",
+        "colour": "white",
+        "description": "Sběr: oděvy, obuv, textil, tašky, hračky, knížky, bytové doplňky, dekorace",
+        "operator": "TextilEco",
+        "operator:wikidata": "Q137507665",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes",
+        "recycling:textiles": "yes",
+        "recycling_type": "container",
+        "website": "https://textil-eco.cz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3904024,
+          49.7287742
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14303914411,
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
       }
     },
     {

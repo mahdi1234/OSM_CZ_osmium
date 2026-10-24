@@ -33490,31 +33490,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.254303,
-          49.014293
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 3372074873,
-        "@url": "https://www.openstreetmap.org/node/3372074873",
-        "building": "bunker",
-        "bunker_type": "pillbox",
-        "ele": "587",
-        "historic": "yes",
-        "military": "bunker",
-        "name": "H-43/19/A-180",
-        "ref:ropiky.net": "1085122305",
-        "source": "ropiky.net",
-        "start_date": "1937-10-11",
-        "website": "https://ropiky.net/dbase_objekt.php?id=1085122305"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.245973,
           49.019177
         ]
@@ -55855,8 +55830,8 @@
         "ele": "540",
         "information": "guidepost",
         "name": "Ždírec n. D. (Doubravka)",
+        "noref": "yes",
         "operator": "kraj Vysočina",
-        "ref": "none",
         "ski": "yes",
         "tourism": "information"
       }
@@ -55877,8 +55852,8 @@
         "ele": "552",
         "information": "guidepost",
         "name": "Řeka (rozc.)",
+        "noref": "yes",
         "operator": "kraj Vysočina",
-        "ref": "none",
         "ski": "yes",
         "tourism": "information"
       }
@@ -138707,6 +138682,109 @@
         "type": "LineString",
         "coordinates": [
           [
+            15.2542463,
+            49.0142685
+          ],
+          [
+            15.254304,
+            49.0142416
+          ],
+          [
+            15.2543068,
+            49.0142412
+          ],
+          [
+            15.2543104,
+            49.0142421
+          ],
+          [
+            15.2543119,
+            49.0142442
+          ],
+          [
+            15.2543096,
+            49.0142467
+          ],
+          [
+            15.2543052,
+            49.0142493
+          ],
+          [
+            15.2543185,
+            49.014262
+          ],
+          [
+            15.2543178,
+            49.014268
+          ],
+          [
+            15.254313,
+            49.0142746
+          ],
+          [
+            15.2542866,
+            49.0142868
+          ],
+          [
+            15.254278,
+            49.0142885
+          ],
+          [
+            15.2542711,
+            49.0142875
+          ],
+          [
+            15.2542645,
+            49.0142815
+          ],
+          [
+            15.2542534,
+            49.0142722
+          ],
+          [
+            15.2542472,
+            49.0142749
+          ],
+          [
+            15.2542427,
+            49.0142747
+          ],
+          [
+            15.2542402,
+            49.014273
+          ],
+          [
+            15.2542407,
+            49.0142713
+          ],
+          [
+            15.2542463,
+            49.0142685
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1481642199,
+        "@url": "https://www.openstreetmap.org/way/1481642199",
+        "building": "bunker",
+        "bunker_type": "pillbox",
+        "ele": "587",
+        "historic": "yes",
+        "military": "bunker",
+        "name": "H-43/19/A-180",
+        "ref:ropiky.net": "1085122305",
+        "source": "ropiky.net",
+        "start_date": "1937-10-11",
+        "website": "https://ropiky.net/dbase_objekt.php?id=1085122305"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             15.2745733,
             49.5075507
           ],
@@ -138795,6 +138873,113 @@
         "source": "cuzk:ruian",
         "tourism": "viewpoint",
         "tower:type": "observation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                15.2542402,
+                49.014273
+              ],
+              [
+                15.2542407,
+                49.0142713
+              ],
+              [
+                15.2542463,
+                49.0142685
+              ],
+              [
+                15.254304,
+                49.0142416
+              ],
+              [
+                15.2543068,
+                49.0142412
+              ],
+              [
+                15.2543104,
+                49.0142421
+              ],
+              [
+                15.2543119,
+                49.0142442
+              ],
+              [
+                15.2543096,
+                49.0142467
+              ],
+              [
+                15.2543052,
+                49.0142493
+              ],
+              [
+                15.2543185,
+                49.014262
+              ],
+              [
+                15.2543178,
+                49.014268
+              ],
+              [
+                15.254313,
+                49.0142746
+              ],
+              [
+                15.2542866,
+                49.0142868
+              ],
+              [
+                15.254278,
+                49.0142885
+              ],
+              [
+                15.2542711,
+                49.0142875
+              ],
+              [
+                15.2542645,
+                49.0142815
+              ],
+              [
+                15.2542534,
+                49.0142722
+              ],
+              [
+                15.2542472,
+                49.0142749
+              ],
+              [
+                15.2542427,
+                49.0142747
+              ],
+              [
+                15.2542402,
+                49.014273
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1481642199,
+        "@url": "https://www.openstreetmap.org/way/1481642199",
+        "building": "bunker",
+        "bunker_type": "pillbox",
+        "ele": "587",
+        "historic": "yes",
+        "military": "bunker",
+        "name": "H-43/19/A-180",
+        "ref:ropiky.net": "1085122305",
+        "source": "ropiky.net",
+        "start_date": "1937-10-11",
+        "website": "https://ropiky.net/dbase_objekt.php?id=1085122305"
       }
     }
   ]

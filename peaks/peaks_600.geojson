@@ -10913,6 +10913,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.0026563,
+          49.5822296
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 1582717531,
+        "@url": "https://www.openstreetmap.org/node/1582717531",
+        "ele": "631",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Lhotka",
+        "operator": "cz:KČT",
+        "ref": "ZD393",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.9908142,
           49.5761927
         ]
@@ -91075,8 +91097,8 @@
         "ele": "638",
         "information": "guidepost",
         "name": "Škrdlovice (čerp. stan.)",
-        "operator": "Sportis",
-        "ref": "none",
+        "noref": "yes",
+        "operator": "cz:KČT",
         "ski": "yes",
         "tourism": "information"
       }

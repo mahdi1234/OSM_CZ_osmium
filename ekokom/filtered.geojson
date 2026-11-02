@@ -231023,6 +231023,7 @@
         "@type": "node",
         "@id": 8065216620,
         "amenity": "recycling",
+        "check_date": "2026-11-01",
         "recycling:electrical_appliances": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -241457,8 +241458,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.619386,
-          49.4425159
+          17.619408,
+          49.4425384
         ]
       },
       "properties": {
@@ -305644,6 +305645,7 @@
         "@type": "node",
         "@id": 9215581354,
         "amenity": "recycling",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container"
@@ -525256,6 +525258,8 @@
         "@id": 10924038922,
         "amenity": "recycling",
         "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -542468,7 +542472,7 @@
         "@type": "node",
         "@id": 11204398340,
         "amenity": "recycling",
-        "recycling:beverage_cartons": "yes",
+        "recycling:cooking_oil": "yes",
         "recycling:glass": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
@@ -774386,6 +774390,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.3774936,
+          50.0821825
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13165874930,
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:green_waste": "yes",
+        "recycling_type": "container",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.1352783,
           49.0144569
         ]
@@ -850206,6 +850229,118 @@
         "recycling:plastic": "yes",
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.481737,
+          50.1025179
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14338138007,
+        "access": "private",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3640094,
+          49.6030102
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14338446935,
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "recycling:glass_bottles": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3632029,
+          49.6011325
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14338549431,
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "material": "plastic",
+        "recycling:beverage_cartons": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:organic": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3638338,
+          49.6012268
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14338554759,
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "material": "plastic",
+        "recycling:beverage_cartons": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0724419,
+          49.9542346
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14339162929,
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },

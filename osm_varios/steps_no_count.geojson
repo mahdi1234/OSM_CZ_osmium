@@ -134528,31 +134528,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.3439271,
-            50.0884599
-          ],
-          [
-            14.3438716,
-            50.0884424
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 344458507,
-        "@url": "https://www.openstreetmap.org/way/344458507",
-        "highway": "steps",
-        "incline": "up",
-        "ramp": "no",
-        "source": "CZ:IPRPraha:ortofoto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             13.4374437,
             50.5046084
           ],
@@ -255342,8 +255317,12 @@
         "@type": "way",
         "@id": 819195906,
         "@url": "https://www.openstreetmap.org/way/819195906",
+        "handrail": "yes",
         "highway": "steps",
-        "incline": "up"
+        "incline": "up",
+        "ramp": "no",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
       }
     },
     {
@@ -336655,6 +336634,38 @@
         "ramp": "no",
         "surface": "concrete",
         "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.3809711,
+            49.7489107
+          ],
+          [
+            13.3809304,
+            49.7489309
+          ],
+          [
+            13.3809064,
+            49.7489339
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1187601045,
+        "@url": "https://www.openstreetmap.org/way/1187601045",
+        "access": "customers",
+        "highway": "steps",
+        "layer": "-1",
+        "name": "Historické podzemí",
+        "official_name": "Návštěvnický okruh Plzeňské historické podzemí",
+        "operator": "Plzeňský Prazdroj, a. s.",
+        "tunnel": "yes"
       }
     },
     {
@@ -460787,33 +460798,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.592367,
-            49.229748
-          ],
-          [
-            16.5923869,
-            49.2297178
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 1488564544,
-        "@url": "https://www.openstreetmap.org/way/1488564544",
-        "highway": "steps",
-        "incline": "down",
-        "lit": "yes",
-        "smoothness": "good",
-        "source": "cuzk:km",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             14.4014762,
             50.0895315
           ],
@@ -495693,7 +495677,10 @@
         "handrail": "yes",
         "highway": "steps",
         "incline": "down",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
         "surface": "metal",
+        "tactile_paving": "no",
         "wheelchair": "yes"
       }
     },
@@ -497013,6 +497000,54 @@
         "highway": "steps",
         "incline": "up",
         "surface": "paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.7833646,
+            49.9040652
+          ],
+          [
+            14.7833435,
+            49.9040681
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1574781767,
+        "@url": "https://www.openstreetmap.org/way/1574781767",
+        "highway": "steps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.7463573,
+            49.5321847
+          ],
+          [
+            17.7463641,
+            49.5322145
+          ],
+          [
+            17.7463975,
+            49.5322121
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 1574806528,
+        "@url": "https://www.openstreetmap.org/way/1574806528",
+        "highway": "steps"
       }
     },
     {

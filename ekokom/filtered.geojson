@@ -2544,7 +2544,8 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling_type": "container",
-        "source": "norc.cz"
+        "source": "norc.cz",
+        "wheelchair": "yes"
       }
     },
     {
@@ -70991,8 +70992,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.1099975,
-          49.551002
+          17.1100106,
+          49.5510137
         ]
       },
       "properties": {
@@ -123713,23 +123714,6 @@
         "recycling:plastic_packaging": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_electrical_appliances": "yes",
-        "recycling_type": "container"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9035897,
-          50.121387
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 5054441146,
-        "amenity": "recycling",
-        "recycling:plastic": "yes",
         "recycling_type": "container"
       }
     },
@@ -185740,7 +185724,10 @@
         "amenity": "recycling",
         "check_date:recycling": "2025-01-05",
         "recycling:glass": "yes",
+        "recycling:metal": "yes",
         "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:textiles": "yes",
         "recycling_type": "container"
       }
     },
@@ -460113,8 +460100,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.4015482,
-          49.538443
+          13.4015543,
+          49.5383461
         ]
       },
       "properties": {
@@ -850484,6 +850471,44 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0426771,
+          50.2862678
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14342655278,
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3219446,
+          49.7458916
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14345475765,
+        "amenity": "recycling",
+        "recycling:batteries": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -885962,6 +885987,10 @@
                 49.9523145
               ],
               [
+                15.6703978,
+                49.9522911
+              ],
+              [
                 15.6705648,
                 49.9522252
               ],
@@ -885978,12 +886007,20 @@
                 49.9519862
               ],
               [
+                15.6707275,
+                49.9519785
+              ],
+              [
                 15.6710055,
                 49.9518697
               ],
               [
                 15.6712618,
                 49.9517687
+              ],
+              [
+                15.6712632,
+                49.9517702
               ],
               [
                 15.6715722,
@@ -885994,8 +886031,16 @@
                 49.952146
               ],
               [
+                15.6716507,
+                49.9521743
+              ],
+              [
                 15.6716731,
                 49.9521964
+              ],
+              [
+                15.6710631,
+                49.9524104
               ],
               [
                 15.6709879,

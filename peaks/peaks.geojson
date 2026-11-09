@@ -8234,8 +8234,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.951138,
-          49.1644498
+          14.9512196,
+          49.1644224
         ]
       },
       "properties": {
@@ -8244,8 +8244,10 @@
         "@url": "https://www.openstreetmap.org/node/298149012",
         "ele": "515",
         "name": "Děbolín",
-        "operator": "cz:SŽDC",
-        "public_transport": "stop_position",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
+        "public_transport": "station",
         "railway": "halt",
         "railway:ref": "757021",
         "train": "yes",
@@ -46090,6 +46092,34 @@
         "rooms": "7",
         "tourism": "guest_house",
         "website": "https://www.chatavotocka.cz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.800137,
+          49.2082791
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 600210612,
+        "@url": "https://www.openstreetmap.org/node/600210612",
+        "ele": "455",
+        "name": "Doňov",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "756726",
+        "start_date": "1887-11-03",
+        "train": "yes",
+        "uic_ref": "5475672",
+        "wikidata": "Q15886782",
+        "wikipedia": "cs:Doňov (nádraží)"
       }
     },
     {
@@ -180034,6 +180064,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.8247159,
+          50.2019798
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 2578252013,
+        "@url": "https://www.openstreetmap.org/node/2578252013",
+        "ele": "230",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Hradec Králové (fakultní nemocnice)",
+        "operator": "cz:KČT",
+        "ref": "HK039",
+        "short_name": "Hradec Králové (fakult. nem.)",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.8600704,
           50.1991862
         ]
@@ -261404,8 +261457,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.1286085,
-          50.1889992
+          17.1286237,
+          50.189015
         ]
       },
       "properties": {
@@ -261466,8 +261519,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0683111,
-          50.1558799
+          17.0682239,
+          50.1559625
         ]
       },
       "properties": {
@@ -261496,6 +261549,7 @@
         "@url": "https://www.openstreetmap.org/node/3839161897",
         "ele": "1103",
         "name": "Černava",
+        "name:de": "Schwarz Kuppel",
         "natural": "peak"
       }
     },
@@ -305513,8 +305567,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3170566,
-          48.8223895
+          14.3171247,
+          48.8224175
         ]
       },
       "properties": {
@@ -305524,8 +305578,11 @@
         "check_date:wheelchair": "2026-10-26",
         "ele": "542",
         "name": "Český Krumlov",
+        "name:cs": "Český Krumlov",
         "name:de": "Krumau",
-        "operator": "cz:SŽDC",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "760025",
@@ -372760,8 +372817,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.01915,
-          50.0591949
+          16.0192332,
+          50.0592557
         ]
       },
       "properties": {
@@ -389500,15 +389557,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0751663,
-          50.0784842
+          16.0745626,
+          50.0783995
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5194603823,
         "@url": "https://www.openstreetmap.org/node/5194603823",
-        "ele": "298.6",
+        "ele": "298.7",
         "natural": "peak"
       }
     },
@@ -389517,15 +389574,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0771824,
-          50.0771506
+          16.0764752,
+          50.076993
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5194603824,
         "@url": "https://www.openstreetmap.org/node/5194603824",
-        "ele": "299.7",
+        "ele": "300.9",
         "natural": "peak"
       }
     },
@@ -389585,16 +389642,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0428163,
-          50.0606502
+          16.0427233,
+          50.0603997
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 5194603828,
         "@url": "https://www.openstreetmap.org/node/5194603828",
-        "ele": "330.8",
-        "name": "Na Šutrovně",
+        "ele": "330.2",
         "natural": "peak"
       }
     },
@@ -515277,8 +515333,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.1622709,
-          50.1866147
+          17.1623164,
+          50.1866584
         ]
       },
       "properties": {
@@ -546539,7 +546595,9 @@
         "@url": "https://www.openstreetmap.org/node/11101477615",
         "ele": "450",
         "name": "Kardašova Řečice",
-        "operator": "cz:SŽDC",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "756825",
@@ -546549,32 +546607,6 @@
         "wheelchair": "limited",
         "wikidata": "Q15886853",
         "wikipedia": "cs:Kardašova Řečice (nádraží)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.8004444,
-          49.2083943
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 11101477616,
-        "@url": "https://www.openstreetmap.org/node/11101477616",
-        "ele": "455",
-        "name": "Doňov",
-        "operator": "cz:SŽDC",
-        "public_transport": "station",
-        "railway": "station",
-        "railway:ref": "756726",
-        "start_date": "1887-11-03",
-        "train": "yes",
-        "uic_ref": "5475672",
-        "wikidata": "Q15886782",
-        "wikipedia": "cs:Doňov (nádraží)"
       }
     },
     {
@@ -599317,29 +599349,6 @@
         "ele": "461",
         "natural": "peak",
         "source": "ČÚZK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.4725792,
-          49.4544585
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 12570908923,
-        "@url": "https://www.openstreetmap.org/node/12570908923",
-        "description": "Bronzová socha Paula Rausnitze sedícího na lavičce. Paul Rausnitz (1928-2018) byl významný válečný veterán a česko-americký podnikatel židovského původu. V roce 1989 odkoupil akcie přerovské společnosti Meopta, kterou privatizoval.",
-        "ele": "222",
-        "historic": "memorial",
-        "material": "bronze",
-        "memorial": "statue",
-        "name": "Paul Rausnitz",
-        "subject:wikidata": "Q22964599",
-        "website": "https://cs.wikipedia.org/wiki/Paul_Rausnitz"
       }
     },
     {
@@ -676819,8 +676828,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.2561085,
-          50.7228991
+          15.2561243,
+          50.7229227
         ]
       },
       "properties": {
@@ -689843,6 +689852,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5096234,
+          51.0015969
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13790339210,
+        "@url": "https://www.openstreetmap.org/node/13790339210",
+        "access": "yes",
+        "ele": "504",
+        "fee": "no",
+        "height": "31",
+        "man_made": "tower",
+        "material": "steel",
+        "name": "Rozhledna Jitrovník",
+        "start_date": "2026-09-26",
+        "tower:construction": "lattice",
+        "tower:type": "observation",
+        "wikipedia": "cs:Jitrovník (rozhledna)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.3770423,
           49.5344782
         ]
@@ -701605,8 +701640,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.5058811,
-          50.3259813
+          12.5058083,
+          50.3260377
         ]
       },
       "properties": {
@@ -710544,6 +710579,239 @@
         "start_date": "1975",
         "tourism": "artwork",
         "website": "https://sochyamesta.cz/zaznam/10804"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5464988,
+          49.4366469
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14357385863,
+        "@url": "https://www.openstreetmap.org/node/14357385863",
+        "ele": "650.8",
+        "name": "Na Balkáně",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1403537,
+          50.1851363
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359551049,
+        "@url": "https://www.openstreetmap.org/node/14359551049",
+        "ele": "904",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0597264,
+          50.0632759
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359590926,
+        "@url": "https://www.openstreetmap.org/node/14359590926",
+        "ele": "311.2",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.029305,
+          50.0679864
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359590929,
+        "@url": "https://www.openstreetmap.org/node/14359590929",
+        "ele": "301.3",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0249873,
+          50.0674796
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359590930,
+        "@url": "https://www.openstreetmap.org/node/14359590930",
+        "ele": "300.1",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0271983,
+          50.069214
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359590931,
+        "@url": "https://www.openstreetmap.org/node/14359590931",
+        "ele": "279.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0288056,
+          50.0698159
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359590933,
+        "@url": "https://www.openstreetmap.org/node/14359590933",
+        "ele": "294.2",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9889109,
+          50.0591437
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359590951,
+        "@url": "https://www.openstreetmap.org/node/14359590951",
+        "ele": "251.5",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9891316,
+          50.0626117
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359590956,
+        "@url": "https://www.openstreetmap.org/node/14359590956",
+        "ele": "270.5",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1465683,
+          50.1853521
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359721723,
+        "@url": "https://www.openstreetmap.org/node/14359721723",
+        "ele": "871",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1500981,
+          50.1858604
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359721724,
+        "@url": "https://www.openstreetmap.org/node/14359721724",
+        "ele": "869",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4571925,
+          49.4602521
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359804888,
+        "@url": "https://www.openstreetmap.org/node/14359804888",
+        "description": "Dřevěný altán pro konání promenádních koncertů, jde o kopii původní stavby ze třicátých let dvacátého století.",
+        "ele": "210",
+        "leisure": "bandstand",
+        "name": "Altán v parku Michalov",
+        "ref:drobne_pamatky": "68242",
+        "wikidata": "Q123717443"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4725778,
+          49.4544582
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14359935370,
+        "@url": "https://www.openstreetmap.org/node/14359935370",
+        "description": "Bronzová socha Paula Rausnitze sedícího na lavičce. Paul Rausnitz (1928-2018) byl významný válečný veterán a česko-americký podnikatel židovského původu. V roce 1989 odkoupil akcie přerovské společnosti Meopta, kterou privatizoval.",
+        "ele": "222",
+        "historic": "memorial",
+        "material": "bronze",
+        "memorial": "statue",
+        "name": "Paul Rausnitz",
+        "website": "https://cs.wikipedia.org/wiki/Paul_Rausnitz",
+        "wikidata": "Q22964599",
+        "wikipedia": "cs:Paul Rausnitz"
       }
     },
     {

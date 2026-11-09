@@ -811,8 +811,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.951138,
-          49.1644498
+          14.9512196,
+          49.1644224
         ]
       },
       "properties": {
@@ -821,8 +821,10 @@
         "@url": "https://www.openstreetmap.org/node/298149012",
         "ele": "515",
         "name": "Děbolín",
-        "operator": "cz:SŽDC",
-        "public_transport": "stop_position",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
+        "public_transport": "station",
         "railway": "halt",
         "railway:ref": "757021",
         "train": "yes",
@@ -47837,8 +47839,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3170566,
-          48.8223895
+          14.3171247,
+          48.8224175
         ]
       },
       "properties": {
@@ -47848,8 +47850,11 @@
         "check_date:wheelchair": "2026-10-26",
         "ele": "542",
         "name": "Český Krumlov",
+        "name:cs": "Český Krumlov",
         "name:de": "Krumau",
-        "operator": "cz:SŽDC",
+        "operator": "Správa železnic",
+        "operator:short": "SŽ",
+        "operator:wikidata": "Q1848025",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "760025",
@@ -125319,6 +125324,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.5096234,
+          51.0015969
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13790339210,
+        "@url": "https://www.openstreetmap.org/node/13790339210",
+        "access": "yes",
+        "ele": "504",
+        "fee": "no",
+        "height": "31",
+        "man_made": "tower",
+        "material": "steel",
+        "name": "Rozhledna Jitrovník",
+        "start_date": "2026-09-26",
+        "tower:construction": "lattice",
+        "tower:type": "observation",
+        "wikipedia": "cs:Jitrovník (rozhledna)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.3770423,
           49.5344782
         ]
@@ -126668,8 +126699,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.5058811,
-          50.3259813
+          12.5058083,
+          50.3260377
         ]
       },
       "properties": {

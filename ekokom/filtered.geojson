@@ -110339,12 +110339,10 @@
         "@type": "node",
         "@id": 4657033950,
         "amenity": "recycling",
-        "recycling:clothes": "yes",
-        "recycling:cooking_oil": "yes",
-        "recycling:glass": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
-        "recycling:plastic": "yes",
-        "recycling:shoes": "yes",
+        "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
       }
     },
@@ -221087,8 +221085,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5066784,
-          50.0770538
+          14.5066774,
+          50.077062
         ]
       },
       "properties": {
@@ -222680,8 +222678,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.1471799,
-          49.2035062
+          16.1472947,
+          49.2033651
         ]
       },
       "properties": {
@@ -228248,8 +228246,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5016273,
-          50.0767636
+          14.5016354,
+          50.0767675
         ]
       },
       "properties": {
@@ -850453,6 +850451,28 @@
         "recycling:plastic_bottles": "yes",
         "recycling:plastic_packaging": "yes",
         "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3699179,
+          50.0554637
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14349424110,
+        "access": "private",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:waste": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
       }
     },
     {

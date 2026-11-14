@@ -294,6 +294,8 @@
         "@id": 11882220901,
         "@url": "https://www.openstreetmap.org/node/11882220901",
         "access": "customers",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
         "button_operated": "yes",
@@ -326,6 +328,8 @@
         "@id": 11882220928,
         "@url": "https://www.openstreetmap.org/node/11882220928",
         "access": "customers",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
         "button_operated": "yes",
@@ -438,6 +442,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.410939,
+          50.1161934
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 13088983178,
+        "@url": "https://www.openstreetmap.org/node/13088983178",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "description": "ZOO 1",
+        "dog": "no",
+        "fee": "no",
+        "fountain": "bubbler",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "69",
+        "seasonal": "summer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.455678,
           50.0393994
         ]
@@ -455,6 +484,32 @@
         "fee": "no",
         "opening_hours": "24/7",
         "ref:prazskapitka": "323",
+        "seasonal": "summer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4039591,
+          50.1204088
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14002052302,
+        "@url": "https://www.openstreetmap.org/node/14002052302",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "check_date": "2026-07-10",
+        "description": "ZOO 6",
+        "dog": "no",
+        "fee": "no",
+        "name": "Pítko",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "96",
         "seasonal": "summer"
       }
     },
@@ -546,9 +601,13 @@
         "access": "private",
         "amenity": "drinking_water",
         "bottle": "no",
+        "check_date": "2026-07-28",
         "description": "Pítko Salmovský palác",
         "dog": "no",
         "fee": "no",
+        "fountain": "spout",
+        "manufacturer": "Urbidermis",
+        "model": "Atlántida",
         "ref:prazskapitka": "285",
         "seasonal": "summer"
       }
@@ -567,6 +626,8 @@
         "@id": 14138166996,
         "@url": "https://www.openstreetmap.org/node/14138166996",
         "access": "customers",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
         "button_operated": "yes",
@@ -624,6 +685,8 @@
         "@id": 14138176956,
         "@url": "https://www.openstreetmap.org/node/14138176956",
         "access": "customers",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
         "button_operated": "yes",
@@ -656,6 +719,8 @@
         "@id": 14138177357,
         "@url": "https://www.openstreetmap.org/node/14138177357",
         "access": "customers",
+        "activation": "button",
+        "activation:action": "push",
         "amenity": "drinking_water",
         "bottle": "yes",
         "button_operated": "yes",
@@ -669,6 +734,102 @@
         "seasonal": "summer",
         "water_flow": "normal",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4095866,
+          50.1171147
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14372308369,
+        "@url": "https://www.openstreetmap.org/node/14372308369",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "description": "ZOO 5",
+        "dog": "no",
+        "fee": "no",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "95",
+        "seasonal": "summer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4088249,
+          50.1167329
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14372450159,
+        "@url": "https://www.openstreetmap.org/node/14372450159",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "description": "ZOO 3",
+        "dog": "no",
+        "fee": "no",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "93",
+        "seasonal": "summer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4082361,
+          50.1185873
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14372453075,
+        "@url": "https://www.openstreetmap.org/node/14372453075",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "description": "ZOO 7",
+        "dog": "no",
+        "fee": "no",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "219",
+        "seasonal": "summer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4085459,
+          50.1170425
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14372472326,
+        "@url": "https://www.openstreetmap.org/node/14372472326",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "description": "ZOO 4",
+        "dog": "no",
+        "fee": "no",
+        "opening_hours": "09:00-19:00",
+        "ref:prazskapitka": "94",
+        "seasonal": "summer"
       }
     }
   ]

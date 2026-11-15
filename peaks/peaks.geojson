@@ -15639,15 +15639,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0567668,
-          49.8888313
+          16.0561855,
+          49.888928
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 364818193,
         "@url": "https://www.openstreetmap.org/node/364818193",
-        "ele": "380",
+        "ele": "380.6",
         "name": "Klapalka",
         "natural": "peak"
       }
@@ -78767,11 +78767,13 @@
         "denotation": "natural_monument",
         "ele": "360",
         "genus": "Picea",
+        "genus:cs": "smrk",
         "height": "38",
         "leaf_cycle": "evergreen",
         "leaf_type": "needleleaved",
         "name": "Smrk Troják",
         "natural": "tree",
+        "ref:usop": "102366",
         "species": "Picea abies",
         "start_date": "1872",
         "wikidata": "Q12055042"
@@ -531864,12 +531866,11 @@
         "@type": "node",
         "@id": 10221467465,
         "@url": "https://www.openstreetmap.org/node/10221467465",
-        "ele": "849",
+        "ele": "850.3",
+        "man_made": "survey_point",
         "name": "Koníček",
         "name:de": "Rösselberg",
-        "natural": "peak",
-        "source": "cuzk:km;local knowledge",
-        "wikidata": "Q17462854"
+        "source": "cuzk:ztm"
       }
     },
     {
@@ -534942,23 +534943,6 @@
         "@id": 10574247689,
         "@url": "https://www.openstreetmap.org/node/10574247689",
         "ele": "445.2",
-        "natural": "peak"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.0597428,
-          49.9348981
-        ]
-      },
-      "properties": {
-        "@type": "node",
-        "@id": 10574247691,
-        "@url": "https://www.openstreetmap.org/node/10574247691",
-        "ele": "364",
         "natural": "peak"
       }
     },
@@ -599763,8 +599747,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.8462788,
-          49.6853368
+          17.8468421,
+          49.6855867
         ]
       },
       "properties": {
@@ -599773,8 +599757,7 @@
         "@url": "https://www.openstreetmap.org/node/12569163470",
         "ele": "467",
         "name": "Vladař",
-        "natural": "peak",
-        "place": "locality"
+        "natural": "peak"
       }
     },
     {
@@ -711464,6 +711447,93 @@
         "@id": 14370745928,
         "@url": "https://www.openstreetmap.org/node/14370745928",
         "ele": "216.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5091165,
+          49.0262055
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14375178125,
+        "@url": "https://www.openstreetmap.org/node/14375178125",
+        "circumference": "4.1",
+        "denotation": "natural_monument",
+        "diameter_crown": "15",
+        "ele": "280",
+        "genus": "Pyrus",
+        "genus:cs": "hrušeň",
+        "height": "10",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "loc_name": "Hruška",
+        "name": "Hrušeň u Míkovic",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:usop": "100685",
+        "species": "Pyrus communis",
+        "species:cs": "hrušeň obecná",
+        "wikidata": "Q26785708"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9378258,
+          50.341413
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14377637633,
+        "@url": "https://www.openstreetmap.org/node/14377637633",
+        "ele": "849",
+        "name": "Koníček",
+        "name:de": "Rösselberg",
+        "natural": "peak",
+        "source": "cuzk:km;local knowledge",
+        "wikidata": "Q17462854"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0452841,
+          49.8839703
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14378171442,
+        "@url": "https://www.openstreetmap.org/node/14378171442",
+        "ele": "344.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0606077,
+          49.9333866
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14378286069,
+        "@url": "https://www.openstreetmap.org/node/14378286069",
+        "ele": "367.5",
         "natural": "peak"
       }
     },

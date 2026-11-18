@@ -93024,9 +93024,12 @@
         "communication:mobile_phone": "yes",
         "communication:radio": "yes",
         "ele": "945",
+        "height": "46",
         "man_made": "tower",
         "name": "Třinec - Javorový vrch",
         "operator": "ČRa",
+        "ref:zabaged": "8983092",
+        "source:height": "VGHMÚř",
         "tower:construction": "lattice",
         "tower:type": "communication",
         "wikidata": "Q104762273"
@@ -95273,6 +95276,7 @@
         "ele": "800",
         "height": "50",
         "man_made": "tower",
+        "ref:zabaged": "385994280928336",
         "tower:construction": "freestanding",
         "tower:type": "communication"
       }
@@ -174052,15 +174056,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.1076941,
-          49.8317015
+          16.1073063,
+          49.8316359
         ]
       },
       "properties": {
         "@type": "node",
         "@id": 2501876414,
         "@url": "https://www.openstreetmap.org/node/2501876414",
-        "ele": "498",
+        "ele": "497.5",
         "name": "Polanka",
         "natural": "peak"
       }
@@ -178601,6 +178605,7 @@
         "ele": "580",
         "man_made": "tower",
         "name": "BTS",
+        "ref:zabaged": "10873478",
         "tower:type": "communication"
       }
     },
@@ -179645,8 +179650,11 @@
         "@id": 2563546998,
         "@url": "https://www.openstreetmap.org/node/2563546998",
         "ele": "362",
+        "height": "45",
         "man_made": "tower",
         "name": "Uherský Brod - Černá hora",
+        "ref:zabaged": "8983698",
+        "source:height": "VGHMÚř",
         "tower:type": "communication"
       }
     },
@@ -179664,8 +179672,11 @@
         "@id": 2563564542,
         "@url": "https://www.openstreetmap.org/node/2563564542",
         "ele": "268",
+        "height": "40",
         "man_made": "mast",
         "name": "TV převaděč Králov",
+        "ref:zabaged": "8983823",
+        "source:height": "VGHMÚř",
         "tower:type": "communication"
       }
     },
@@ -185464,10 +185475,8 @@
         "@id": 2624778652,
         "@url": "https://www.openstreetmap.org/node/2624778652",
         "ele": "601",
-        "man_made": "tower",
         "name": "Lícha",
-        "natural": "peak",
-        "tower:type": "communication"
+        "natural": "peak"
       }
     },
     {
@@ -190401,13 +190410,18 @@
         "@id": 2721721899,
         "@url": "https://www.openstreetmap.org/node/2721721899",
         "circumference": "6.52",
+        "denotation": "natural_monument",
         "ele": "349",
         "genus": "Tilia",
+        "genus:cs": "lípa",
         "height": "15",
+        "leaf_cycle": "deciduous",
         "leaf_type": "broadleaved",
         "name": "Olbramická lípa",
         "natural": "tree",
-        "species": "Tilia cordata"
+        "ref:usop": "100323",
+        "species": "Tilia cordata",
+        "wikidata": "Q26784281"
       }
     },
     {
@@ -223243,12 +223257,14 @@
         "circumference": "7.8 m",
         "denotation": "natural_monument",
         "ele": "448",
+        "genus": "Quercus",
+        "genus:cs": "dub",
         "height": "15",
         "leaf_cycle": "deciduous",
         "leaf_type": "broadleaved",
         "name": "Svatováclavský dub",
         "natural": "tree",
-        "source": "survey;uhul:ortofoto",
+        "ref:usop": "104144",
         "species": "Quercus robur",
         "species:wikidata": "Q165145",
         "species:wikipedia": "cs:Dub letní",
@@ -245497,8 +245513,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.113791,
-          50.610644
+          16.1135204,
+          50.6107179
         ]
       },
       "properties": {
@@ -245511,7 +245527,8 @@
         "name:en": "Lovers",
         "name:pl": "Kochankowie",
         "natural": "peak",
-        "source": "gps"
+        "source": "gps",
+        "sport": "climbing"
       }
     },
     {
@@ -259381,6 +259398,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.65349,
+          48.956248
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3810181854,
+        "@url": "https://www.openstreetmap.org/node/3810181854",
+        "ele": "444",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Kopka",
+        "operator": "cz:KČT",
+        "ref": "ZN361",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.614018,
+          48.9390702
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3810181855,
+        "@url": "https://www.openstreetmap.org/node/3810181855",
+        "ele": "407",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Lubnice (BUS)",
+        "operator": "cz:KČT",
+        "ref": "ZN204",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6845452,
+          48.9319684
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3810181856,
+        "@url": "https://www.openstreetmap.org/node/3810181856",
+        "ele": "390",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Oslnovice (BUS)",
+        "operator": "cz:KČT",
+        "ref": "ZN224",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.2225237,
           50.2559442
         ]
@@ -266516,6 +266599,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.9024747,
+          49.8337057
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 3901870507,
+        "@url": "https://www.openstreetmap.org/node/3901870507",
+        "ele": "389",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Hořovice (bus)",
+        "operator": "cz:KČT",
+        "ref": "BE135",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.2104673,
           50.5240694
         ]
@@ -270896,6 +271001,7 @@
         "information": "guidepost",
         "name": "Jedlový les rozc.",
         "operator": "cz:KČT",
+        "ref": "ZN225",
         "tourism": "information"
       }
     },
@@ -302731,6 +302837,7 @@
         "height": "37",
         "man_made": "mast",
         "note": "Vlastník objektu CRA české radiokomunikace.",
+        "ref:zabaged": "8983229",
         "source": "https://mapy.cz/s/nedemoruvu",
         "start_date": "2011",
         "tower:type": "communication"
@@ -304470,6 +304577,7 @@
         "ele": "881",
         "man_made": "mast",
         "name": "Třinec - vrch",
+        "ref:zabaged": "7877586399002624",
         "tower:construction": "lattice",
         "tower:type": "communication"
       }
@@ -356338,6 +356446,7 @@
         "@id": 4834420933,
         "@url": "https://www.openstreetmap.org/node/4834420933",
         "ele": "593",
+        "man_made": "survey_point",
         "name": "U kamenné boudy",
         "natural": "peak",
         "source": "ČÚZK"
@@ -485338,9 +485447,12 @@
         "@url": "https://www.openstreetmap.org/node/8096562253",
         "description": "Rádio Čas; Country rádio",
         "ele": "340",
+        "height": "79",
         "man_made": "tower",
         "material": "steel",
         "name": "Ostrava - Dobroslavice",
+        "ref:zabaged": "8982512",
+        "source:height": "VGHMÚř",
         "tower:construction": "lattice",
         "tower:type": "communication"
       }
@@ -567387,6 +567499,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.455699,
+          49.4591757
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 11804201146,
+        "@url": "https://www.openstreetmap.org/node/11804201146",
+        "artwork_type": "sculpture",
+        "description": "Jedná se o otesaný uschlý dub ozdobený vyřezanými zvířátky a rostlinami. Dřevořezbu vytvořili studenti a pedagogové střední řezbářské školy Tovačov. Výtvarné motivy na kmeni připomínají, že městský park Michalov je i cenným útočištěm rostlin a živočichů.",
+        "ele": "209",
+        "material": "wood",
+        "name": "Otesánek",
+        "start_date": "2008-04-22",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.4589685,
           49.4612757
         ]
@@ -613958,14 +614092,19 @@
         "@id": 12925430879,
         "@url": "https://www.openstreetmap.org/node/12925430879",
         "circumference": "530 cm",
+        "denotation": "natural_monument",
         "ele": "234",
         "genus": "Quercus",
+        "genus:cs": "dub",
         "height": "20",
-        "leaf_cycle": "semi_deciduous",
+        "leaf_cycle": "deciduous",
         "leaf_type": "broadleaved",
         "name": "Dub na Slezském Předměstí",
         "natural": "tree",
-        "species": "Quercus robur"
+        "ref:usop": "101700",
+        "species": "Quercus robur",
+        "species:cs": "dub letní",
+        "wikidata": "Q26787181"
       }
     },
     {
@@ -616180,12 +616319,19 @@
         "@id": 12973565579,
         "@url": "https://www.openstreetmap.org/node/12973565579",
         "circumference": "291",
+        "denotation": "natural_monument",
         "ele": "353",
+        "genus": "Quercus",
+        "genus:cs": "dub",
         "height": "14",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
         "name": "Dub v Žimu",
         "natural": "tree",
+        "ref:usop": "101816",
         "species:wikidata": "Q158608",
-        "species:wikipedia": "cs:Dub zimní"
+        "species:wikipedia": "cs:Dub zimní",
+        "wikidata": "Q26787283"
       }
     },
     {
@@ -682796,6 +682942,8 @@
         "circumference": "3.5",
         "denotation": "natural_monument",
         "ele": "408",
+        "genus": "Tilia",
+        "genus:cs": "lípa",
         "height": "20",
         "leaf_cycle": "deciduous",
         "leaf_type": "broadleaved",
@@ -682804,8 +682952,9 @@
         "protect_class": "3",
         "protected": "yes",
         "protection_title": "Památný strom",
+        "ref:usop": "100432",
         "species": "Tilia cordata",
-        "species:cs": "Lípa malolistá",
+        "species:cs": "lípa malolistá",
         "wikidata": "Q26784534"
       }
     },
@@ -684575,6 +684724,7 @@
         "denotation": "natural_monument",
         "ele": "547",
         "genus": "Acer",
+        "genus:cs": "javor",
         "height": "16",
         "leaf_cycle": "deciduous",
         "leaf_type": "broadleaved",
@@ -684586,8 +684736,8 @@
         "protect_class": "3",
         "protected": "tree",
         "protection_title": "Památný strom",
-        "ref:drusop": "100431",
         "ref:drusop:tree": "7231",
+        "ref:usop": "100431",
         "species": "Acer pseudoplatanus",
         "species:cs": "javor klen",
         "start_date": "1999-10-09",
@@ -685828,10 +685978,12 @@
         "@id": 13703416975,
         "@url": "https://www.openstreetmap.org/node/13703416975",
         "circumference": "4.18",
-        "denotation": "memorial",
+        "denotation": "natural_monument",
         "description": "Památný solitér lípa velkolistá na poli U farských lipek v Horním Těrlicku, významný prvek Podbeskydské pahorkatiny.",
         "description:en": "Memorial large-leaved linden tree (Tilia platyphyllos) in Horní Těrlicko, a notable solitary tree in the Podbeskydská uplands.",
         "ele": "332",
+        "genus": "Tilia",
+        "genus:cs": "lípa",
         "height": "18",
         "heritage": "memorial",
         "leaf_cycle": "deciduous",
@@ -685839,6 +685991,7 @@
         "name": "Lípa v Těrlicku",
         "name:en": "Linden Tree in Těrlicko",
         "natural": "tree",
+        "ref:usop": "100381",
         "species": "Tilia platyphyllos",
         "start_date": "1990",
         "tree": "lime",
@@ -711540,6 +711693,757 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2457775,
+          50.0963601
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379108149,
+        "@url": "https://www.openstreetmap.org/node/14379108149",
+        "ele": "384.1",
+        "loc_name": "Štolcbartova meseta",
+        "name": "Hostivická meseta",
+        "natural": "peak",
+        "note": "https://www.euro.cz/clanky/umela-hora-prekazi-letisti-876459/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0419513,
+          49.78148
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379714277,
+        "@url": "https://www.openstreetmap.org/node/14379714277",
+        "ele": "530.6",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0373378,
+          49.793121
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379714279,
+        "@url": "https://www.openstreetmap.org/node/14379714279",
+        "ele": "533.5",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0289469,
+          49.8022259
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379714280,
+        "@url": "https://www.openstreetmap.org/node/14379714280",
+        "ele": "508",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0564316,
+          49.7972562
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379714289,
+        "@url": "https://www.openstreetmap.org/node/14379714289",
+        "ele": "537.8",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.64662,
+          48.902476
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379724076,
+        "@url": "https://www.openstreetmap.org/node/14379724076",
+        "ele": "457",
+        "hiking": "yes",
+        "information": "guidepost",
+        "name": "Mitrov (BUS)",
+        "operator": "cz:KČT",
+        "ref": "ZN229",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0646877,
+          49.8077309
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379726203,
+        "@url": "https://www.openstreetmap.org/node/14379726203",
+        "ele": "491.2",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0715066,
+          49.8109756
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379726204,
+        "@url": "https://www.openstreetmap.org/node/14379726204",
+        "ele": "505.9",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0669666,
+          49.8114608
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379726206,
+        "@url": "https://www.openstreetmap.org/node/14379726206",
+        "ele": "491.7",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0684157,
+          49.8142584
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379726208,
+        "@url": "https://www.openstreetmap.org/node/14379726208",
+        "ele": "495.7",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1256542,
+          49.8413707
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379726290,
+        "@url": "https://www.openstreetmap.org/node/14379726290",
+        "ele": "427.8",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1274929,
+          49.8500165
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379726291,
+        "@url": "https://www.openstreetmap.org/node/14379726291",
+        "ele": "426.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1198,
+          49.8494174
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379726294,
+        "@url": "https://www.openstreetmap.org/node/14379726294",
+        "ele": "436.9",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0609041,
+          49.8788176
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379748123,
+        "@url": "https://www.openstreetmap.org/node/14379748123",
+        "ele": "376.5",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0445614,
+          49.8480645
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379748135,
+        "@url": "https://www.openstreetmap.org/node/14379748135",
+        "ele": "379.1",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0483153,
+          49.8479859
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379748143,
+        "@url": "https://www.openstreetmap.org/node/14379748143",
+        "ele": "381.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0804905,
+          49.82945
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14379771980,
+        "@url": "https://www.openstreetmap.org/node/14379771980",
+        "ele": "509.1",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6455502,
+          49.7612626
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14380253210,
+        "@url": "https://www.openstreetmap.org/node/14380253210",
+        "ele": "401",
+        "name": "Na Kobzách",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2762374,
+          49.5927577
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14380636936,
+        "@url": "https://www.openstreetmap.org/node/14380636936",
+        "artist_name": "Jiří David",
+        "artwork_type": "sculpture",
+        "ele": "7",
+        "inscription": "Revoluce",
+        "material": "steel",
+        "name": "Revoluce",
+        "name:en": "Revolution",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8269111,
+          49.8059876
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14380883291,
+        "@url": "https://www.openstreetmap.org/node/14380883291",
+        "ele": "495",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8289488,
+          49.8085082
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14380883292,
+        "@url": "https://www.openstreetmap.org/node/14380883292",
+        "ele": "508",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8253333,
+          49.8084664
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381210097,
+        "@url": "https://www.openstreetmap.org/node/14381210097",
+        "ele": "508",
+        "natural": "hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.745355,
+          50.1752595
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381829451,
+        "@url": "https://www.openstreetmap.org/node/14381829451",
+        "ele": "243.8",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9687911,
+          49.8562689
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381829454,
+        "@url": "https://www.openstreetmap.org/node/14381829454",
+        "ele": "413.1",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9629953,
+          49.8540917
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381829455,
+        "@url": "https://www.openstreetmap.org/node/14381829455",
+        "ele": "427.9",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0062199,
+          49.8468646
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381829457,
+        "@url": "https://www.openstreetmap.org/node/14381829457",
+        "ele": "398",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9810943,
+          49.8361497
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381829460,
+        "@url": "https://www.openstreetmap.org/node/14381829460",
+        "ele": "445.8",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.979181,
+          49.8376061
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381829462,
+        "@url": "https://www.openstreetmap.org/node/14381829462",
+        "ele": "448.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9826138,
+          49.8405077
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381829463,
+        "@url": "https://www.openstreetmap.org/node/14381829463",
+        "ele": "386.8",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9833751,
+          49.8468226
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841707,
+        "@url": "https://www.openstreetmap.org/node/14381841707",
+        "ele": "376.8",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9723284,
+          49.8378554
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841713,
+        "@url": "https://www.openstreetmap.org/node/14381841713",
+        "ele": "423",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9652855,
+          49.845718
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841730,
+        "@url": "https://www.openstreetmap.org/node/14381841730",
+        "ele": "392.8",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9628755,
+          49.8501424
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841731,
+        "@url": "https://www.openstreetmap.org/node/14381841731",
+        "ele": "380.1",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9651754,
+          49.8220758
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841738,
+        "@url": "https://www.openstreetmap.org/node/14381841738",
+        "ele": "465.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9714093,
+          49.8241438
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841740,
+        "@url": "https://www.openstreetmap.org/node/14381841740",
+        "ele": "464.1",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9709643,
+          49.8253554
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841741,
+        "@url": "https://www.openstreetmap.org/node/14381841741",
+        "ele": "465.5",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9638083,
+          49.8345799
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381841784,
+        "@url": "https://www.openstreetmap.org/node/14381841784",
+        "ele": "416.5",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7102699,
+          50.1685788
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14383283072,
+        "@url": "https://www.openstreetmap.org/node/14383283072",
+        "ele": "240.1",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7452061,
+          50.1782363
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14383283088,
+        "@url": "https://www.openstreetmap.org/node/14383283088",
+        "ele": "241.4",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1345962,
+          49.3905888
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14386205944,
+        "@url": "https://www.openstreetmap.org/node/14386205944",
+        "ele": "535.4",
+        "name": "Na Škarmani",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1402476,
+          49.3884922
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14386205945,
+        "@url": "https://www.openstreetmap.org/node/14386205945",
+        "ele": "550.7",
+        "name": "Slavíkovická hůrka",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7976527,
+          50.2107425
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14386374712,
+        "@url": "https://www.openstreetmap.org/node/14386374712",
+        "ele": "236.6",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4379788,
+          49.6465885
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14388287701,
+        "@url": "https://www.openstreetmap.org/node/14388287701",
+        "ele": "577",
+        "historic": "wayside_cross",
+        "name": "Černý kříž",
+        "name:de": "Schwarzer Kreuz",
+        "ruins": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -715271,8 +716175,8 @@
             50.2195628
           ],
           [
-            14.3786557,
-            50.2195554
+            14.3786679,
+            50.21955
           ],
           [
             14.3794516,
@@ -715287,12 +716191,20 @@
             50.2181261
           ],
           [
+            14.3871694,
+            50.2181053
+          ],
+          [
             14.3936634,
             50.2169955
           ],
           [
             14.3999375,
             50.2159271
+          ],
+          [
+            14.4123564,
+            50.2138067
           ],
           [
             14.4124589,
@@ -716884,9 +717796,13 @@
         "@id": 29148804,
         "@url": "https://www.openstreetmap.org/way/29148804",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/aeroklubhronov",
+        "contact:webcam": "https://www.lkvp.cz/Webkamery-LKVP.html",
         "ele": "404",
         "icao": "LKVP",
         "name": "Letiště Velké Poříčí",
+        "operator": "Aeroklub Hronov",
+        "website": "https://www.lkvp.cz/",
         "wikidata": "Q25471820"
       }
     },
@@ -717657,11 +718573,14 @@
         "@id": 31165329,
         "@url": "https://www.openstreetmap.org/way/31165329",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letistejaromer",
+        "contact:instagram": "https://www.instagram.com/aeroklub_jaromer",
         "ele": "271",
         "icao": "LKJA",
         "name": "Letiště Jaroměř",
         "operator": "Aeroclub Jaroměř",
-        "type": "public"
+        "type": "public",
+        "website": "https://www.lkja.cz/"
       }
     },
     {
@@ -720484,6 +721403,7 @@
         "man_made": "tower",
         "name": "Televizní vysílač Děvín",
         "ref:ruian:addr": "10040919",
+        "ref:zabaged": "988460",
         "source": "cuzk:km",
         "tower:construction": "lattice",
         "tower:type": "communication",
@@ -725129,10 +726049,15 @@
         "@id": 56034714,
         "@url": "https://www.openstreetmap.org/way/56034714",
         "aeroway": "aerodrome",
+        "contact:email": "akjh@letistejh.cz",
+        "contact:facebook": "https://www.facebook.com/LetisteJH",
+        "contact:webcam": "https://www.letistejh.cz/webkamera/",
         "ele": "513",
         "icao": "LKJH",
         "name": "Letiště Jindřichův Hradec",
+        "operator": "Aeroklub Jindřichův Hradec z.s.",
         "type": "public",
+        "website": "https://www.letistejh.cz/",
         "wikidata": "Q25471790",
         "wikipedia": "cs:Letiště Jindřichův Hradec"
       }
@@ -726136,6 +727061,7 @@
         "@id": 56053958,
         "@url": "https://www.openstreetmap.org/way/56053958",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetisteKladno",
         "ele": "433",
         "icao": "LKKL",
         "landuse": "grass",
@@ -726722,6 +727648,7 @@
         "@url": "https://www.openstreetmap.org/way/56322462",
         "aerodrome:type": "public",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/AeroklubKyjov",
         "ele": "209",
         "icao": "LKKY",
         "name": "Letiště Kyjov",
@@ -726815,11 +727742,14 @@
         "@id": 56322467,
         "@url": "https://www.openstreetmap.org/way/56322467",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/aeroklubkrnov",
+        "contact:webcam": "https://cam.moses.cz/cam6.html",
         "ele": "367",
         "icao": "LKKR",
         "name": "Letiště Krnov",
         "name:pl": "Lotnisko Karniów",
         "type": "public",
+        "website": "https://www.letistekrnov.cz/",
         "wikidata": "Q12693429",
         "wikipedia": "cs:Letiště Krnov"
       }
@@ -727156,6 +728086,7 @@
         "operator": "České Radiokomunikace",
         "operator:wikidata": "Q8079748",
         "ref:ruian:building": "49509756",
+        "ref:zabaged": "12434122",
         "source": "cuzk:ruian",
         "tower:construction": "freestanding",
         "tower:type": "communication"
@@ -727216,6 +728147,7 @@
         "man_made": "tower",
         "name": "Ostrava - Lanová",
         "ref:ruian:building": "43920152",
+        "ref:zabaged": "8982478",
         "source": "cuzk:ruian",
         "tower:type": "communication"
       }
@@ -730310,6 +731242,7 @@
         "man_made": "tower",
         "name": "Vysílač Radhošť",
         "name:de": "Sender Radhoscht",
+        "ref:zabaged": "8983132",
         "source": "cuzk:km",
         "start_date": "1966-09",
         "tower:construction": "metal",
@@ -731134,6 +732067,7 @@
         "aeroway": "aerodrome",
         "alt_name": "Letiště Žireč",
         "contact:databox": "v87vgub",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100064773218243",
         "ele": "282",
         "email": "letiste@akdk.cz",
         "icao": "LKDK",
@@ -731743,11 +732677,13 @@
         "@id": 133467950,
         "@url": "https://www.openstreetmap.org/way/133467950",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/AeroklubPolicka",
         "ele": "603",
         "icao": "LKPA",
         "name": "Letiště Polička",
         "note": "Původně záložní letiště pro Ostrava-Mošnov (LKMT)",
-        "source": "ourairports.com"
+        "source": "ourairports.com",
+        "website": "https://www.lkpa.cz/"
       }
     },
     {
@@ -733181,8 +734117,11 @@
         "communication:television": "yes",
         "ele": "727",
         "ele:source": "Mapy.cz",
+        "height": "59",
         "man_made": "tower",
+        "ref:zabaged": "12433836",
         "source": "cuzk:km",
+        "source:height": "VGHMÚř",
         "tower:construction": "metal",
         "tower:type": "communication"
       }
@@ -734258,11 +735197,13 @@
         "@url": "https://www.openstreetmap.org/way/160918842",
         "aeroway": "aerodrome",
         "alt_name": "LKBE",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100064325964205",
         "ele": "403",
         "icao": "LKBE",
         "landuse": "grass",
         "name": "Letiště Benešov",
         "type": "public",
+        "website": "https://www.letistebenesov.cz/",
         "wikidata": "Q11824262",
         "wikipedia": "cs:Letiště Benešov"
       }
@@ -734495,10 +735436,12 @@
         "@id": 160920269,
         "@url": "https://www.openstreetmap.org/way/160920269",
         "aeroway": "aerodrome",
+        "contact:webcam": "https://www.aeroklubceskalipa.cz/cz/webkamera/",
         "ele": "283",
         "icao": "LKCE",
         "name": "Letiště Česká Lípa",
         "type": "public",
+        "website": "https://www.aeroklubceskalipa.cz/cz/",
         "wikidata": "Q11824339"
       }
     },
@@ -734873,6 +735816,7 @@
         "@url": "https://www.openstreetmap.org/way/160925344",
         "aeroway": "aerodrome",
         "alt_name": "Letiště Planá",
+        "contact:facebook": "https://www.facebook.com/JCLAIRPORT",
         "ele": "432",
         "iata": "JCL",
         "icao": "LKCS",
@@ -736253,6 +737197,7 @@
         "aerodrome": "international",
         "aerodrome:type": "public",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letiste",
         "ele": "257",
         "email": "airport@airport-ostrava.cz",
         "iata": "OSR",
@@ -736488,12 +737433,16 @@
         "@id": 161208751,
         "@url": "https://www.openstreetmap.org/way/161208751",
         "aeroway": "aerodrome",
+        "contact:email": "letiste@lkol.cz",
+        "contact:facebook": "https://www.facebook.com/letisteolomouc",
+        "contact:webcam": "https://www.lkol.cz/TWR.jpg",
         "ele": "265",
         "iata": "OLO",
         "icao": "LKOL",
         "name": "Letiště Olomouc",
         "name:de": "Flugplatz Olmütz",
         "name:en": "Airport Olomouc",
+        "website": "https://www.lkol.cz/",
         "wikidata": "Q11824662",
         "wikipedia": "cs:Letiště Olomouc"
       }
@@ -736741,6 +737690,7 @@
         "@id": 161217175,
         "@url": "https://www.openstreetmap.org/way/161217175",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetistePodhorany",
         "ele": "381",
         "icao": "LKPN",
         "name": "Letiště Podhořany",
@@ -736829,9 +737779,12 @@
         "@id": 161285695,
         "@url": "https://www.openstreetmap.org/way/161285695",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letisteslany",
+        "contact:webcam": "https://www.lksn.cz/webkamery/",
         "ele": "329",
         "icao": "LKSN",
-        "name": "Letiště Slaný"
+        "name": "Letiště Slaný",
+        "website": "https://www.lksn.cz/"
       }
     },
     {
@@ -737001,10 +737954,14 @@
         "@id": 161286692,
         "@url": "https://www.openstreetmap.org/way/161286692",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letistestrakonice",
+        "contact:webcam": "https://www.akstrakonice.cz/webkamera/",
         "ele": "420",
         "icao": "LKST",
         "name": "Letiště Strakonice",
-        "source": "ourairports.com"
+        "operator": "Aeroklub Strakonice",
+        "source": "ourairports.com",
+        "website": "https://www.akstrakonice.cz/"
       }
     },
     {
@@ -737325,6 +738282,7 @@
         "@id": 161293057,
         "@url": "https://www.openstreetmap.org/way/161293057",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetisteVlasim",
         "ele": "433",
         "icao": "LKVL",
         "name": "Letiště Vlašim",
@@ -737507,13 +738465,15 @@
         "@id": 161293947,
         "@url": "https://www.openstreetmap.org/way/161293947",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetisteVodochody",
         "ele": "280",
         "frequency": "133.075 MHz",
         "iata": "VOD",
         "icao": "LKVO",
-        "name": "Vodochody",
+        "name": "Letiště Vodochody",
         "operator": "Aero Vodochody",
         "twr": "133,075",
+        "website": "https://www.vodochody-airport.cz/",
         "wikidata": "Q3487271",
         "wikipedia": "cs:Letiště Vodochody"
       }
@@ -737634,9 +738594,12 @@
         "@id": 161294542,
         "@url": "https://www.openstreetmap.org/way/161294542",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100072265627528",
+        "contact:webcam": "https://www.lkvr.cz/web-kamera",
         "ele": "491",
         "icao": "LKVR",
         "name": "Letiště Vrchlabí",
+        "website": "https://www.lkvr.cz/",
         "wikidata": "Q29524779",
         "wikipedia": "cs:Letiště Vrchlabí"
       }
@@ -738030,6 +738993,7 @@
         "@id": 161388899,
         "@url": "https://www.openstreetmap.org/way/161388899",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100064935360049",
         "ele": "206",
         "iata": "PRV",
         "icao": "LKPO",
@@ -738039,6 +739003,7 @@
         "name:de": "Flughafen Prerau",
         "name:en": "Přerov Air Base",
         "source": "ourairports.com",
+        "website": "https://www.prerov-airport.cz/",
         "wikidata": "Q11824687"
       }
     },
@@ -739106,6 +740071,8 @@
         "@id": 186706487,
         "@url": "https://www.openstreetmap.org/way/186706487",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letisteunl",
+        "contact:webcam": "https://www.aeroklub-usti-nad-labem.cz/kamery/",
         "ele": "240",
         "icao": "LKUL",
         "landuse": "grass",
@@ -739113,7 +740080,8 @@
         "name:cs": "Letiště Ústí nad Labem",
         "name:de": "Flugplatz Aussig",
         "name:en": "Ústí nad Labem Airfield",
-        "source": "ourairports.com"
+        "source": "ourairports.com",
+        "website": "https://www.aeroklub-usti-nad-labem.cz/"
       }
     },
     {
@@ -742028,6 +742996,7 @@
         "man_made": "mast",
         "material": "steel",
         "ref:ruian:building": "45281343",
+        "ref:zabaged": "15957504",
         "source": "cuzk:ruian",
         "tower:construction": "guyed_lattice",
         "tower:type": "communication"
@@ -855096,9 +856065,13 @@
         "@id": 29148804,
         "@url": "https://www.openstreetmap.org/way/29148804",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/aeroklubhronov",
+        "contact:webcam": "https://www.lkvp.cz/Webkamery-LKVP.html",
         "ele": "404",
         "icao": "LKVP",
         "name": "Letiště Velké Poříčí",
+        "operator": "Aeroklub Hronov",
+        "website": "https://www.lkvp.cz/",
         "wikidata": "Q25471820"
       }
     },
@@ -855885,11 +856858,14 @@
         "@id": 31165329,
         "@url": "https://www.openstreetmap.org/way/31165329",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letistejaromer",
+        "contact:instagram": "https://www.instagram.com/aeroklub_jaromer",
         "ele": "271",
         "icao": "LKJA",
         "name": "Letiště Jaroměř",
         "operator": "Aeroclub Jaroměř",
-        "type": "public"
+        "type": "public",
+        "website": "https://www.lkja.cz/"
       }
     },
     {
@@ -858711,6 +859687,7 @@
         "man_made": "tower",
         "name": "Televizní vysílač Děvín",
         "ref:ruian:addr": "10040919",
+        "ref:zabaged": "988460",
         "source": "cuzk:km",
         "tower:construction": "lattice",
         "tower:type": "communication",
@@ -864544,10 +865521,15 @@
         "@id": 56034714,
         "@url": "https://www.openstreetmap.org/way/56034714",
         "aeroway": "aerodrome",
+        "contact:email": "akjh@letistejh.cz",
+        "contact:facebook": "https://www.facebook.com/LetisteJH",
+        "contact:webcam": "https://www.letistejh.cz/webkamera/",
         "ele": "513",
         "icao": "LKJH",
         "name": "Letiště Jindřichův Hradec",
+        "operator": "Aeroklub Jindřichův Hradec z.s.",
         "type": "public",
+        "website": "https://www.letistejh.cz/",
         "wikidata": "Q25471790",
         "wikipedia": "cs:Letiště Jindřichův Hradec"
       }
@@ -865567,6 +866549,7 @@
         "@id": 56053958,
         "@url": "https://www.openstreetmap.org/way/56053958",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetisteKladno",
         "ele": "433",
         "icao": "LKKL",
         "landuse": "grass",
@@ -866173,6 +867156,7 @@
         "@url": "https://www.openstreetmap.org/way/56322462",
         "aerodrome:type": "public",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/AeroklubKyjov",
         "ele": "209",
         "icao": "LKKY",
         "name": "Letiště Kyjov",
@@ -866243,11 +867227,14 @@
         "@id": 56322467,
         "@url": "https://www.openstreetmap.org/way/56322467",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/aeroklubkrnov",
+        "contact:webcam": "https://cam.moses.cz/cam6.html",
         "ele": "367",
         "icao": "LKKR",
         "name": "Letiště Krnov",
         "name:pl": "Lotnisko Karniów",
         "type": "public",
+        "website": "https://www.letistekrnov.cz/",
         "wikidata": "Q12693429",
         "wikipedia": "cs:Letiště Krnov"
       }
@@ -866596,6 +867583,7 @@
         "operator": "České Radiokomunikace",
         "operator:wikidata": "Q8079748",
         "ref:ruian:building": "49509756",
+        "ref:zabaged": "12434122",
         "source": "cuzk:ruian",
         "tower:construction": "freestanding",
         "tower:type": "communication"
@@ -866660,6 +867648,7 @@
         "man_made": "tower",
         "name": "Ostrava - Lanová",
         "ref:ruian:building": "43920152",
+        "ref:zabaged": "8982478",
         "source": "cuzk:ruian",
         "tower:type": "communication"
       }
@@ -869784,6 +870773,7 @@
         "man_made": "tower",
         "name": "Vysílač Radhošť",
         "name:de": "Sender Radhoscht",
+        "ref:zabaged": "8983132",
         "source": "cuzk:km",
         "start_date": "1966-09",
         "tower:construction": "metal",
@@ -870616,6 +871606,7 @@
         "aeroway": "aerodrome",
         "alt_name": "Letiště Žireč",
         "contact:databox": "v87vgub",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100064773218243",
         "ele": "282",
         "email": "letiste@akdk.cz",
         "icao": "LKDK",
@@ -871193,11 +872184,13 @@
         "@id": 133467950,
         "@url": "https://www.openstreetmap.org/way/133467950",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/AeroklubPolicka",
         "ele": "603",
         "icao": "LKPA",
         "name": "Letiště Polička",
         "note": "Původně záložní letiště pro Ostrava-Mošnov (LKMT)",
-        "source": "ourairports.com"
+        "source": "ourairports.com",
+        "website": "https://www.lkpa.cz/"
       }
     },
     {
@@ -872567,8 +873560,11 @@
         "communication:television": "yes",
         "ele": "727",
         "ele:source": "Mapy.cz",
+        "height": "59",
         "man_made": "tower",
+        "ref:zabaged": "12433836",
         "source": "cuzk:km",
+        "source:height": "VGHMÚř",
         "tower:construction": "metal",
         "tower:type": "communication"
       }
@@ -873680,11 +874676,13 @@
         "@url": "https://www.openstreetmap.org/way/160918842",
         "aeroway": "aerodrome",
         "alt_name": "LKBE",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100064325964205",
         "ele": "403",
         "icao": "LKBE",
         "landuse": "grass",
         "name": "Letiště Benešov",
         "type": "public",
+        "website": "https://www.letistebenesov.cz/",
         "wikidata": "Q11824262",
         "wikipedia": "cs:Letiště Benešov"
       }
@@ -873921,10 +874919,12 @@
         "@id": 160920269,
         "@url": "https://www.openstreetmap.org/way/160920269",
         "aeroway": "aerodrome",
+        "contact:webcam": "https://www.aeroklubceskalipa.cz/cz/webkamera/",
         "ele": "283",
         "icao": "LKCE",
         "name": "Letiště Česká Lípa",
         "type": "public",
+        "website": "https://www.aeroklubceskalipa.cz/cz/",
         "wikidata": "Q11824339"
       }
     },
@@ -874307,6 +875307,7 @@
         "@url": "https://www.openstreetmap.org/way/160925344",
         "aeroway": "aerodrome",
         "alt_name": "Letiště Planá",
+        "contact:facebook": "https://www.facebook.com/JCLAIRPORT",
         "ele": "432",
         "iata": "JCL",
         "icao": "LKCS",
@@ -875703,6 +876704,7 @@
         "aerodrome": "international",
         "aerodrome:type": "public",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letiste",
         "ele": "257",
         "email": "airport@airport-ostrava.cz",
         "iata": "OSR",
@@ -875942,12 +876944,16 @@
         "@id": 161208751,
         "@url": "https://www.openstreetmap.org/way/161208751",
         "aeroway": "aerodrome",
+        "contact:email": "letiste@lkol.cz",
+        "contact:facebook": "https://www.facebook.com/letisteolomouc",
+        "contact:webcam": "https://www.lkol.cz/TWR.jpg",
         "ele": "265",
         "iata": "OLO",
         "icao": "LKOL",
         "name": "Letiště Olomouc",
         "name:de": "Flugplatz Olmütz",
         "name:en": "Airport Olomouc",
+        "website": "https://www.lkol.cz/",
         "wikidata": "Q11824662",
         "wikipedia": "cs:Letiště Olomouc"
       }
@@ -876204,6 +877210,7 @@
         "@url": "https://www.openstreetmap.org/relation/2527851",
         "aerodrome:type": "regional",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetistePribram",
         "description": "Původně záložní letiště pro Přerov-Bochoř (LKPO)",
         "ele": "466",
         "email": "info@lkpm.cz",
@@ -876320,6 +877327,7 @@
         "@id": 161217175,
         "@url": "https://www.openstreetmap.org/way/161217175",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetistePodhorany",
         "ele": "381",
         "icao": "LKPN",
         "name": "Letiště Podhořany",
@@ -876412,9 +877420,12 @@
         "@id": 161285695,
         "@url": "https://www.openstreetmap.org/way/161285695",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letisteslany",
+        "contact:webcam": "https://www.lksn.cz/webkamery/",
         "ele": "329",
         "icao": "LKSN",
-        "name": "Letiště Slaný"
+        "name": "Letiště Slaný",
+        "website": "https://www.lksn.cz/"
       }
     },
     {
@@ -876592,10 +877603,14 @@
         "@id": 161286692,
         "@url": "https://www.openstreetmap.org/way/161286692",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letistestrakonice",
+        "contact:webcam": "https://www.akstrakonice.cz/webkamera/",
         "ele": "420",
         "icao": "LKST",
         "name": "Letiště Strakonice",
-        "source": "ourairports.com"
+        "operator": "Aeroklub Strakonice",
+        "source": "ourairports.com",
+        "website": "https://www.akstrakonice.cz/"
       }
     },
     {
@@ -876932,6 +877947,7 @@
         "@id": 161293057,
         "@url": "https://www.openstreetmap.org/way/161293057",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetisteVlasim",
         "ele": "433",
         "icao": "LKVL",
         "name": "Letiště Vlašim",
@@ -877118,13 +878134,15 @@
         "@id": 161293947,
         "@url": "https://www.openstreetmap.org/way/161293947",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/LetisteVodochody",
         "ele": "280",
         "frequency": "133.075 MHz",
         "iata": "VOD",
         "icao": "LKVO",
-        "name": "Vodochody",
+        "name": "Letiště Vodochody",
         "operator": "Aero Vodochody",
         "twr": "133,075",
+        "website": "https://www.vodochody-airport.cz/",
         "wikidata": "Q3487271",
         "wikipedia": "cs:Letiště Vodochody"
       }
@@ -877249,9 +878267,12 @@
         "@id": 161294542,
         "@url": "https://www.openstreetmap.org/way/161294542",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100072265627528",
+        "contact:webcam": "https://www.lkvr.cz/web-kamera",
         "ele": "491",
         "icao": "LKVR",
         "name": "Letiště Vrchlabí",
+        "website": "https://www.lkvr.cz/",
         "wikidata": "Q29524779",
         "wikipedia": "cs:Letiště Vrchlabí"
       }
@@ -877653,6 +878674,7 @@
         "@id": 161388899,
         "@url": "https://www.openstreetmap.org/way/161388899",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100064935360049",
         "ele": "206",
         "iata": "PRV",
         "icao": "LKPO",
@@ -877662,6 +878684,7 @@
         "name:de": "Flughafen Prerau",
         "name:en": "Přerov Air Base",
         "source": "ourairports.com",
+        "website": "https://www.prerov-airport.cz/",
         "wikidata": "Q11824687"
       }
     },
@@ -878814,6 +879837,8 @@
         "@id": 186706487,
         "@url": "https://www.openstreetmap.org/way/186706487",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/letisteunl",
+        "contact:webcam": "https://www.aeroklub-usti-nad-labem.cz/kamery/",
         "ele": "240",
         "icao": "LKUL",
         "landuse": "grass",
@@ -878821,7 +879846,8 @@
         "name:cs": "Letiště Ústí nad Labem",
         "name:de": "Flugplatz Aussig",
         "name:en": "Ústí nad Labem Airfield",
-        "source": "ourairports.com"
+        "source": "ourairports.com",
+        "website": "https://www.aeroklub-usti-nad-labem.cz/"
       }
     },
     {
@@ -883699,6 +884725,7 @@
         "man_made": "mast",
         "material": "steel",
         "ref:ruian:building": "45281343",
+        "ref:zabaged": "15957504",
         "source": "cuzk:ruian",
         "tower:construction": "guyed_lattice",
         "tower:type": "communication"
@@ -1010376,400 +1011403,6 @@
         "landuse": "meadow",
         "meadow": "agricultural",
         "ref": "721106401/2",
-        "source": "lpis"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                14.7468547,
-                49.9501206
-              ],
-              [
-                14.7468736,
-                49.9500288
-              ],
-              [
-                14.7469159,
-                49.9499399
-              ],
-              [
-                14.7471294,
-                49.9497743
-              ],
-              [
-                14.7474346,
-                49.949579
-              ],
-              [
-                14.7476264,
-                49.949474
-              ],
-              [
-                14.7478016,
-                49.9493886
-              ],
-              [
-                14.7482273,
-                49.949259
-              ],
-              [
-                14.748347,
-                49.9491945
-              ],
-              [
-                14.7484571,
-                49.9491067
-              ],
-              [
-                14.7485818,
-                49.9489868
-              ],
-              [
-                14.7486685,
-                49.9488438
-              ],
-              [
-                14.7486997,
-                49.9487425
-              ],
-              [
-                14.7486852,
-                49.9485744
-              ],
-              [
-                14.7487204,
-                49.9485783
-              ],
-              [
-                14.7487796,
-                49.948763
-              ],
-              [
-                14.7489114,
-                49.9492823
-              ],
-              [
-                14.7489743,
-                49.9494776
-              ],
-              [
-                14.7490494,
-                49.9497452
-              ],
-              [
-                14.7491578,
-                49.9500274
-              ],
-              [
-                14.7488851,
-                49.950091
-              ],
-              [
-                14.7483074,
-                49.9501844
-              ],
-              [
-                14.7481018,
-                49.9502129
-              ],
-              [
-                14.748015,
-                49.9502403
-              ],
-              [
-                14.7476712,
-                49.9502851
-              ],
-              [
-                14.7473755,
-                49.9503354
-              ],
-              [
-                14.7471434,
-                49.9503641
-              ],
-              [
-                14.7470232,
-                49.9503631
-              ],
-              [
-                14.7470084,
-                49.9503198
-              ],
-              [
-                14.7471006,
-                49.9502911
-              ],
-              [
-                14.7470632,
-                49.9502418
-              ],
-              [
-                14.7470064,
-                49.9502142
-              ],
-              [
-                14.7469147,
-                49.9502432
-              ],
-              [
-                14.7469033,
-                49.9502119
-              ],
-              [
-                14.7468547,
-                49.9501206
-              ]
-            ],
-            [
-              [
-                14.7483437,
-                49.9493402
-              ],
-              [
-                14.7483988,
-                49.9493756
-              ],
-              [
-                14.7484649,
-                49.9493583
-              ],
-              [
-                14.7485485,
-                49.9493136
-              ],
-              [
-                14.7486341,
-                49.949289
-              ],
-              [
-                14.7487098,
-                49.9493307
-              ],
-              [
-                14.748777,
-                49.9493413
-              ],
-              [
-                14.7488667,
-                49.9492914
-              ],
-              [
-                14.7488431,
-                49.9492014
-              ],
-              [
-                14.7487869,
-                49.9490957
-              ],
-              [
-                14.7487586,
-                49.9490581
-              ],
-              [
-                14.7486712,
-                49.949073
-              ],
-              [
-                14.7486319,
-                49.9490952
-              ],
-              [
-                14.748615,
-                49.949177
-              ],
-              [
-                14.7485796,
-                49.9492203
-              ],
-              [
-                14.7485177,
-                49.9492322
-              ],
-              [
-                14.7484284,
-                49.949261
-              ],
-              [
-                14.7483573,
-                49.9493029
-              ],
-              [
-                14.7483437,
-                49.9493402
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "relation",
-        "@id": 3930190,
-        "@url": "https://www.openstreetmap.org/relation/3930190",
-        "ele": "478",
-        "id_fb": "8629079",
-        "landuse": "meadow",
-        "meadow": "agricultural",
-        "ref": "21117600",
-        "source": "lpis"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                14.7410608,
-                49.9517382
-              ],
-              [
-                14.7410634,
-                49.9516785
-              ],
-              [
-                14.7410656,
-                49.9516731
-              ],
-              [
-                14.7411755,
-                49.9517035
-              ],
-              [
-                14.7412911,
-                49.9517361
-              ],
-              [
-                14.7414273,
-                49.9518034
-              ],
-              [
-                14.7414309,
-                49.9518097
-              ],
-              [
-                14.7414762,
-                49.9519289
-              ],
-              [
-                14.7416152,
-                49.9519907
-              ],
-              [
-                14.7418037,
-                49.952057
-              ],
-              [
-                14.7418516,
-                49.9520996
-              ],
-              [
-                14.74203,
-                49.9522064
-              ],
-              [
-                14.7422318,
-                49.9522711
-              ],
-              [
-                14.7424518,
-                49.9523184
-              ],
-              [
-                14.7424383,
-                49.9523362
-              ],
-              [
-                14.7422379,
-                49.9523599
-              ],
-              [
-                14.7419298,
-                49.9523839
-              ],
-              [
-                14.741623,
-                49.9524017
-              ],
-              [
-                14.7416018,
-                49.9523147
-              ],
-              [
-                14.741342,
-                49.9523128
-              ],
-              [
-                14.7413649,
-                49.9524205
-              ],
-              [
-                14.741287,
-                49.9524422
-              ],
-              [
-                14.7411785,
-                49.9524707
-              ],
-              [
-                14.7411327,
-                49.9523375
-              ],
-              [
-                14.7410981,
-                49.9521736
-              ],
-              [
-                14.7410772,
-                49.9519194
-              ],
-              [
-                14.7410608,
-                49.9517382
-              ]
-            ],
-            [
-              [
-                14.7415945,
-                49.9521794
-              ],
-              [
-                14.7416213,
-                49.9522743
-              ],
-              [
-                14.7417557,
-                49.9522886
-              ],
-              [
-                14.7417186,
-                49.9521714
-              ],
-              [
-                14.7415945,
-                49.9521794
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "relation",
-        "@id": 3930192,
-        "@url": "https://www.openstreetmap.org/relation/3930192",
-        "crop": "vegetable",
-        "ele": "475",
-        "id_fb": "7325260",
-        "landuse": "farmland",
-        "ref": "722106107",
         "source": "lpis"
       }
     },
@@ -1151438,524 +1152071,394 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPolygon",
         "coordinates": [
           [
-            14.064888,
-            50.0409679
-          ],
-          [
-            14.0649849,
-            50.0410087
-          ],
-          [
-            14.065095,
-            50.0410535
-          ],
-          [
-            14.0658757,
-            50.0413212
-          ],
-          [
-            14.066363,
-            50.041416
-          ],
-          [
-            14.0667395,
-            50.0414688
-          ],
-          [
-            14.0672317,
-            50.0415413
-          ],
-          [
-            14.0674269,
-            50.0415787
-          ],
-          [
-            14.0677318,
-            50.0416419
-          ],
-          [
-            14.0677477,
-            50.0416458
-          ],
-          [
-            14.0685738,
-            50.0418573
-          ],
-          [
-            14.0685747,
-            50.0418559
-          ],
-          [
-            14.0688571,
-            50.0410313
-          ],
-          [
-            14.069165,
-            50.040085
-          ],
-          [
-            14.0695077,
-            50.0390902
-          ],
-          [
-            14.0698196,
-            50.0381643
-          ],
-          [
-            14.0696505,
-            50.0381585
-          ],
-          [
-            14.0691069,
-            50.0381269
-          ],
-          [
-            14.0689096,
-            50.038105
-          ],
-          [
-            14.0688727,
-            50.0381009
-          ],
-          [
-            14.0687502,
-            50.0381124
-          ],
-          [
-            14.068596,
-            50.0382032
-          ],
-          [
-            14.068426,
-            50.0383654
-          ],
-          [
-            14.0681708,
-            50.0386899
-          ],
-          [
-            14.0679385,
-            50.0389103
-          ],
-          [
-            14.0677369,
-            50.0390879
-          ],
-          [
-            14.0672576,
-            50.0394041
-          ],
-          [
-            14.0666581,
-            50.0398071
-          ],
-          [
-            14.0662762,
-            50.0400437
-          ],
-          [
-            14.0656629,
-            50.0404325
-          ],
-          [
-            14.065063,
-            50.0408152
-          ],
-          [
-            14.0648772,
-            50.0409213
-          ],
-          [
-            14.064888,
-            50.0409679
+            [
+              [
+                14.7468547,
+                49.9501206
+              ],
+              [
+                14.7468736,
+                49.9500288
+              ],
+              [
+                14.7469159,
+                49.9499399
+              ],
+              [
+                14.7471294,
+                49.9497743
+              ],
+              [
+                14.7474346,
+                49.949579
+              ],
+              [
+                14.7476264,
+                49.949474
+              ],
+              [
+                14.7478016,
+                49.9493886
+              ],
+              [
+                14.7482273,
+                49.949259
+              ],
+              [
+                14.748347,
+                49.9491945
+              ],
+              [
+                14.7484571,
+                49.9491067
+              ],
+              [
+                14.7485818,
+                49.9489868
+              ],
+              [
+                14.7486685,
+                49.9488438
+              ],
+              [
+                14.7486997,
+                49.9487425
+              ],
+              [
+                14.7486852,
+                49.9485744
+              ],
+              [
+                14.7487204,
+                49.9485783
+              ],
+              [
+                14.7487796,
+                49.948763
+              ],
+              [
+                14.7489114,
+                49.9492823
+              ],
+              [
+                14.7489743,
+                49.9494776
+              ],
+              [
+                14.7490494,
+                49.9497452
+              ],
+              [
+                14.7491578,
+                49.9500274
+              ],
+              [
+                14.7488851,
+                49.950091
+              ],
+              [
+                14.7483074,
+                49.9501844
+              ],
+              [
+                14.7481018,
+                49.9502129
+              ],
+              [
+                14.748015,
+                49.9502403
+              ],
+              [
+                14.7476712,
+                49.9502851
+              ],
+              [
+                14.7473755,
+                49.9503354
+              ],
+              [
+                14.7471434,
+                49.9503641
+              ],
+              [
+                14.7470232,
+                49.9503631
+              ],
+              [
+                14.7470084,
+                49.9503198
+              ],
+              [
+                14.7471006,
+                49.9502911
+              ],
+              [
+                14.7470632,
+                49.9502418
+              ],
+              [
+                14.7470064,
+                49.9502142
+              ],
+              [
+                14.7469147,
+                49.9502432
+              ],
+              [
+                14.7469033,
+                49.9502119
+              ],
+              [
+                14.7468547,
+                49.9501206
+              ]
+            ],
+            [
+              [
+                14.7483437,
+                49.9493402
+              ],
+              [
+                14.7483988,
+                49.9493756
+              ],
+              [
+                14.7484649,
+                49.9493583
+              ],
+              [
+                14.7485485,
+                49.9493136
+              ],
+              [
+                14.7486341,
+                49.949289
+              ],
+              [
+                14.7487098,
+                49.9493307
+              ],
+              [
+                14.748777,
+                49.9493413
+              ],
+              [
+                14.7488667,
+                49.9492914
+              ],
+              [
+                14.7488431,
+                49.9492014
+              ],
+              [
+                14.7487869,
+                49.9490957
+              ],
+              [
+                14.7487586,
+                49.9490581
+              ],
+              [
+                14.7486712,
+                49.949073
+              ],
+              [
+                14.7486319,
+                49.9490952
+              ],
+              [
+                14.748615,
+                49.949177
+              ],
+              [
+                14.7485796,
+                49.9492203
+              ],
+              [
+                14.7485177,
+                49.9492322
+              ],
+              [
+                14.7484284,
+                49.949261
+              ],
+              [
+                14.7483573,
+                49.9493029
+              ],
+              [
+                14.7483437,
+                49.9493402
+              ]
+            ]
           ]
         ]
       },
       "properties": {
-        "@type": "way",
-        "@id": 298213650,
-        "@url": "https://www.openstreetmap.org/way/298213650",
-        "ele": "413",
-        "id_fb": "9718017",
-        "landuse": "farmland",
-        "ref": "768104402/13",
+        "@type": "relation",
+        "@id": 3930190,
+        "@url": "https://www.openstreetmap.org/relation/3930190",
+        "ele": "478",
+        "id_fb": "8629079",
+        "landuse": "meadow",
+        "meadow": "agricultural",
+        "ref": "21117600",
         "source": "lpis"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPolygon",
         "coordinates": [
           [
-            14.0777104,
-            50.0428862
-          ],
-          [
-            14.0788059,
-            50.0385901
-          ],
-          [
-            14.0776876,
-            50.0385671
-          ],
-          [
-            14.0768765,
-            50.0385629
-          ],
-          [
-            14.076,
-            50.0422623
-          ],
-          [
-            14.0765155,
-            50.0423257
-          ],
-          [
-            14.0764662,
-            50.0425809
-          ],
-          [
-            14.0768827,
-            50.0426761
-          ],
-          [
-            14.0774382,
-            50.0428136
-          ],
-          [
-            14.0777104,
-            50.0428862
+            [
+              [
+                14.7410608,
+                49.9517382
+              ],
+              [
+                14.7410634,
+                49.9516785
+              ],
+              [
+                14.7410656,
+                49.9516731
+              ],
+              [
+                14.7411755,
+                49.9517035
+              ],
+              [
+                14.7412911,
+                49.9517361
+              ],
+              [
+                14.7414273,
+                49.9518034
+              ],
+              [
+                14.7414309,
+                49.9518097
+              ],
+              [
+                14.7414762,
+                49.9519289
+              ],
+              [
+                14.7416152,
+                49.9519907
+              ],
+              [
+                14.7418037,
+                49.952057
+              ],
+              [
+                14.7418516,
+                49.9520996
+              ],
+              [
+                14.74203,
+                49.9522064
+              ],
+              [
+                14.7422318,
+                49.9522711
+              ],
+              [
+                14.7424518,
+                49.9523184
+              ],
+              [
+                14.7424383,
+                49.9523362
+              ],
+              [
+                14.7422379,
+                49.9523599
+              ],
+              [
+                14.7419298,
+                49.9523839
+              ],
+              [
+                14.741623,
+                49.9524017
+              ],
+              [
+                14.7416018,
+                49.9523147
+              ],
+              [
+                14.741342,
+                49.9523128
+              ],
+              [
+                14.7413649,
+                49.9524205
+              ],
+              [
+                14.741287,
+                49.9524422
+              ],
+              [
+                14.7411785,
+                49.9524707
+              ],
+              [
+                14.7411327,
+                49.9523375
+              ],
+              [
+                14.7410981,
+                49.9521736
+              ],
+              [
+                14.7410772,
+                49.9519194
+              ],
+              [
+                14.7410608,
+                49.9517382
+              ]
+            ],
+            [
+              [
+                14.7415945,
+                49.9521794
+              ],
+              [
+                14.7416213,
+                49.9522743
+              ],
+              [
+                14.7417557,
+                49.9522886
+              ],
+              [
+                14.7417186,
+                49.9521714
+              ],
+              [
+                14.7415945,
+                49.9521794
+              ]
+            ]
           ]
         ]
       },
       "properties": {
-        "@type": "way",
-        "@id": 298213651,
-        "@url": "https://www.openstreetmap.org/way/298213651",
-        "ele": "412",
-        "id_fb": "9718681",
+        "@type": "relation",
+        "@id": 3930192,
+        "@url": "https://www.openstreetmap.org/relation/3930192",
+        "crop": "vegetable",
+        "ele": "475",
+        "id_fb": "7325260",
         "landuse": "farmland",
-        "ref": "768104402/2",
-        "source": "lpis"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.0753275,
-            50.0425265
-          ],
-          [
-            14.0755855,
-            50.0425393
-          ],
-          [
-            14.0757553,
-            50.0425303
-          ],
-          [
-            14.0759244,
-            50.0423905
-          ],
-          [
-            14.076,
-            50.0422623
-          ],
-          [
-            14.0768765,
-            50.0385629
-          ],
-          [
-            14.0767922,
-            50.0385625
-          ],
-          [
-            14.0762598,
-            50.0385615
-          ],
-          [
-            14.0755163,
-            50.0415465
-          ],
-          [
-            14.0752934,
-            50.0424969
-          ],
-          [
-            14.0753275,
-            50.0425265
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 298213652,
-        "@url": "https://www.openstreetmap.org/way/298213652",
-        "ele": "412",
-        "id_fb": "9718288",
-        "landuse": "farmland",
-        "ref": "768104402/3",
-        "source": "lpis"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.0600358,
-            50.0389539
-          ],
-          [
-            14.0601805,
-            50.0389982
-          ],
-          [
-            14.0611824,
-            50.0392783
-          ],
-          [
-            14.0619109,
-            50.0394717
-          ],
-          [
-            14.0621777,
-            50.0395737
-          ],
-          [
-            14.0624792,
-            50.0396789
-          ],
-          [
-            14.062908,
-            50.0399098
-          ],
-          [
-            14.0635425,
-            50.0402963
-          ],
-          [
-            14.0639743,
-            50.0405776
-          ],
-          [
-            14.0641839,
-            50.0406835
-          ],
-          [
-            14.0645367,
-            50.0408435
-          ],
-          [
-            14.0646602,
-            50.0408913
-          ],
-          [
-            14.064762,
-            50.040846
-          ],
-          [
-            14.0663198,
-            50.0398215
-          ],
-          [
-            14.0669897,
-            50.0393916
-          ],
-          [
-            14.0674949,
-            50.0390721
-          ],
-          [
-            14.0677272,
-            50.0389155
-          ],
-          [
-            14.0680849,
-            50.0385076
-          ],
-          [
-            14.068294,
-            50.038257
-          ],
-          [
-            14.0685103,
-            50.0380234
-          ],
-          [
-            14.068787,
-            50.0377296
-          ],
-          [
-            14.0689263,
-            50.0375463
-          ],
-          [
-            14.0689708,
-            50.0373771
-          ],
-          [
-            14.0689728,
-            50.0373534
-          ],
-          [
-            14.0689876,
-            50.0371734
-          ],
-          [
-            14.0688734,
-            50.0364402
-          ],
-          [
-            14.0687475,
-            50.0359064
-          ],
-          [
-            14.0686395,
-            50.0353361
-          ],
-          [
-            14.0685799,
-            50.0349683
-          ],
-          [
-            14.0684575,
-            50.0343804
-          ],
-          [
-            14.0683587,
-            50.0342402
-          ],
-          [
-            14.068167,
-            50.0342465
-          ],
-          [
-            14.0676526,
-            50.0342965
-          ],
-          [
-            14.0668584,
-            50.0343744
-          ],
-          [
-            14.0664891,
-            50.0344123
-          ],
-          [
-            14.0660347,
-            50.0345731
-          ],
-          [
-            14.0657762,
-            50.034741
-          ],
-          [
-            14.0656096,
-            50.0349274
-          ],
-          [
-            14.0655361,
-            50.0351767
-          ],
-          [
-            14.0654939,
-            50.0354184
-          ],
-          [
-            14.065485,
-            50.035707
-          ],
-          [
-            14.065617,
-            50.0362021
-          ],
-          [
-            14.065696,
-            50.0366106
-          ],
-          [
-            14.0656812,
-            50.0367096
-          ],
-          [
-            14.0655725,
-            50.0368182
-          ],
-          [
-            14.0652048,
-            50.0371082
-          ],
-          [
-            14.064937,
-            50.037356
-          ],
-          [
-            14.064417,
-            50.0377345
-          ],
-          [
-            14.0639357,
-            50.0380277
-          ],
-          [
-            14.0636945,
-            50.0381607
-          ],
-          [
-            14.063569,
-            50.0382175
-          ],
-          [
-            14.0633289,
-            50.0382821
-          ],
-          [
-            14.0628703,
-            50.0383449
-          ],
-          [
-            14.0616621,
-            50.0385259
-          ],
-          [
-            14.0605453,
-            50.0386605
-          ],
-          [
-            14.0600067,
-            50.0387661
-          ],
-          [
-            14.0598624,
-            50.0388441
-          ],
-          [
-            14.0598703,
-            50.0389041
-          ],
-          [
-            14.0600358,
-            50.0389539
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "way",
-        "@id": 298213653,
-        "@url": "https://www.openstreetmap.org/way/298213653",
-        "ele": "408",
-        "id_fb": "9717982",
-        "landuse": "farmland",
-        "ref": "768104403",
+        "ref": "722106107",
         "source": "lpis"
       }
     },
@@ -1321197,143 +1321700,139 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              [
-                14.0648772,
-                50.0409213
-              ],
-              [
-                14.065063,
-                50.0408152
-              ],
-              [
-                14.0656629,
-                50.0404325
-              ],
-              [
-                14.0662762,
-                50.0400437
-              ],
-              [
-                14.0666581,
-                50.0398071
-              ],
-              [
-                14.0672576,
-                50.0394041
-              ],
-              [
-                14.0677369,
-                50.0390879
-              ],
-              [
-                14.0679385,
-                50.0389103
-              ],
-              [
-                14.0681708,
-                50.0386899
-              ],
-              [
-                14.068426,
-                50.0383654
-              ],
-              [
-                14.068596,
-                50.0382032
-              ],
-              [
-                14.0687502,
-                50.0381124
-              ],
-              [
-                14.0688727,
-                50.0381009
-              ],
-              [
-                14.0689096,
-                50.038105
-              ],
-              [
-                14.0691069,
-                50.0381269
-              ],
-              [
-                14.0696505,
-                50.0381585
-              ],
-              [
-                14.0698196,
-                50.0381643
-              ],
-              [
-                14.0695077,
-                50.0390902
-              ],
-              [
-                14.069165,
-                50.040085
-              ],
-              [
-                14.0688571,
-                50.0410313
-              ],
-              [
-                14.0685747,
-                50.0418559
-              ],
-              [
-                14.0685738,
-                50.0418573
-              ],
-              [
-                14.0677477,
-                50.0416458
-              ],
-              [
-                14.0677318,
-                50.0416419
-              ],
-              [
-                14.0674269,
-                50.0415787
-              ],
-              [
-                14.0672317,
-                50.0415413
-              ],
-              [
-                14.0667395,
-                50.0414688
-              ],
-              [
-                14.066363,
-                50.041416
-              ],
-              [
-                14.0658757,
-                50.0413212
-              ],
-              [
-                14.065095,
-                50.0410535
-              ],
-              [
-                14.0649849,
-                50.0410087
-              ],
-              [
-                14.064888,
-                50.0409679
-              ],
-              [
-                14.0648772,
-                50.0409213
-              ]
-            ]
+            14.064888,
+            50.0409679
+          ],
+          [
+            14.0649849,
+            50.0410087
+          ],
+          [
+            14.065095,
+            50.0410535
+          ],
+          [
+            14.0658757,
+            50.0413212
+          ],
+          [
+            14.066363,
+            50.041416
+          ],
+          [
+            14.0667395,
+            50.0414688
+          ],
+          [
+            14.0672317,
+            50.0415413
+          ],
+          [
+            14.0674269,
+            50.0415787
+          ],
+          [
+            14.0677318,
+            50.0416419
+          ],
+          [
+            14.0677477,
+            50.0416458
+          ],
+          [
+            14.0685738,
+            50.0418573
+          ],
+          [
+            14.0685747,
+            50.0418559
+          ],
+          [
+            14.0688571,
+            50.0410313
+          ],
+          [
+            14.069165,
+            50.040085
+          ],
+          [
+            14.0695077,
+            50.0390902
+          ],
+          [
+            14.0698196,
+            50.0381643
+          ],
+          [
+            14.0696505,
+            50.0381585
+          ],
+          [
+            14.0691069,
+            50.0381269
+          ],
+          [
+            14.0689096,
+            50.038105
+          ],
+          [
+            14.0688727,
+            50.0381009
+          ],
+          [
+            14.0687502,
+            50.0381124
+          ],
+          [
+            14.068596,
+            50.0382032
+          ],
+          [
+            14.068426,
+            50.0383654
+          ],
+          [
+            14.0681708,
+            50.0386899
+          ],
+          [
+            14.0679385,
+            50.0389103
+          ],
+          [
+            14.0677369,
+            50.0390879
+          ],
+          [
+            14.0672576,
+            50.0394041
+          ],
+          [
+            14.0666581,
+            50.0398071
+          ],
+          [
+            14.0662762,
+            50.0400437
+          ],
+          [
+            14.0656629,
+            50.0404325
+          ],
+          [
+            14.065063,
+            50.0408152
+          ],
+          [
+            14.0648772,
+            50.0409213
+          ],
+          [
+            14.064888,
+            50.0409679
           ]
         ]
       },
@@ -1321351,51 +1321850,47 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              [
-                14.076,
-                50.0422623
-              ],
-              [
-                14.0768765,
-                50.0385629
-              ],
-              [
-                14.0776876,
-                50.0385671
-              ],
-              [
-                14.0788059,
-                50.0385901
-              ],
-              [
-                14.0777104,
-                50.0428862
-              ],
-              [
-                14.0774382,
-                50.0428136
-              ],
-              [
-                14.0768827,
-                50.0426761
-              ],
-              [
-                14.0764662,
-                50.0425809
-              ],
-              [
-                14.0765155,
-                50.0423257
-              ],
-              [
-                14.076,
-                50.0422623
-              ]
-            ]
+            14.0777104,
+            50.0428862
+          ],
+          [
+            14.0788059,
+            50.0385901
+          ],
+          [
+            14.0776876,
+            50.0385671
+          ],
+          [
+            14.0768765,
+            50.0385629
+          ],
+          [
+            14.076,
+            50.0422623
+          ],
+          [
+            14.0765155,
+            50.0423257
+          ],
+          [
+            14.0764662,
+            50.0425809
+          ],
+          [
+            14.0768827,
+            50.0426761
+          ],
+          [
+            14.0774382,
+            50.0428136
+          ],
+          [
+            14.0777104,
+            50.0428862
           ]
         ]
       },
@@ -1321413,55 +1321908,51 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              [
-                14.0752934,
-                50.0424969
-              ],
-              [
-                14.0755163,
-                50.0415465
-              ],
-              [
-                14.0762598,
-                50.0385615
-              ],
-              [
-                14.0767922,
-                50.0385625
-              ],
-              [
-                14.0768765,
-                50.0385629
-              ],
-              [
-                14.076,
-                50.0422623
-              ],
-              [
-                14.0759244,
-                50.0423905
-              ],
-              [
-                14.0757553,
-                50.0425303
-              ],
-              [
-                14.0755855,
-                50.0425393
-              ],
-              [
-                14.0753275,
-                50.0425265
-              ],
-              [
-                14.0752934,
-                50.0424969
-              ]
-            ]
+            14.0753275,
+            50.0425265
+          ],
+          [
+            14.0755855,
+            50.0425393
+          ],
+          [
+            14.0757553,
+            50.0425303
+          ],
+          [
+            14.0759244,
+            50.0423905
+          ],
+          [
+            14.076,
+            50.0422623
+          ],
+          [
+            14.0768765,
+            50.0385629
+          ],
+          [
+            14.0767922,
+            50.0385625
+          ],
+          [
+            14.0762598,
+            50.0385615
+          ],
+          [
+            14.0755163,
+            50.0415465
+          ],
+          [
+            14.0752934,
+            50.0424969
+          ],
+          [
+            14.0753275,
+            50.0425265
           ]
         ]
       },
@@ -1321479,247 +1321970,243 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              [
-                14.0598624,
-                50.0388441
-              ],
-              [
-                14.0600067,
-                50.0387661
-              ],
-              [
-                14.0605453,
-                50.0386605
-              ],
-              [
-                14.0616621,
-                50.0385259
-              ],
-              [
-                14.0628703,
-                50.0383449
-              ],
-              [
-                14.0633289,
-                50.0382821
-              ],
-              [
-                14.063569,
-                50.0382175
-              ],
-              [
-                14.0636945,
-                50.0381607
-              ],
-              [
-                14.0639357,
-                50.0380277
-              ],
-              [
-                14.064417,
-                50.0377345
-              ],
-              [
-                14.064937,
-                50.037356
-              ],
-              [
-                14.0652048,
-                50.0371082
-              ],
-              [
-                14.0655725,
-                50.0368182
-              ],
-              [
-                14.0656812,
-                50.0367096
-              ],
-              [
-                14.065696,
-                50.0366106
-              ],
-              [
-                14.065617,
-                50.0362021
-              ],
-              [
-                14.065485,
-                50.035707
-              ],
-              [
-                14.0654939,
-                50.0354184
-              ],
-              [
-                14.0655361,
-                50.0351767
-              ],
-              [
-                14.0656096,
-                50.0349274
-              ],
-              [
-                14.0657762,
-                50.034741
-              ],
-              [
-                14.0660347,
-                50.0345731
-              ],
-              [
-                14.0664891,
-                50.0344123
-              ],
-              [
-                14.0668584,
-                50.0343744
-              ],
-              [
-                14.0676526,
-                50.0342965
-              ],
-              [
-                14.068167,
-                50.0342465
-              ],
-              [
-                14.0683587,
-                50.0342402
-              ],
-              [
-                14.0684575,
-                50.0343804
-              ],
-              [
-                14.0685799,
-                50.0349683
-              ],
-              [
-                14.0686395,
-                50.0353361
-              ],
-              [
-                14.0687475,
-                50.0359064
-              ],
-              [
-                14.0688734,
-                50.0364402
-              ],
-              [
-                14.0689876,
-                50.0371734
-              ],
-              [
-                14.0689728,
-                50.0373534
-              ],
-              [
-                14.0689708,
-                50.0373771
-              ],
-              [
-                14.0689263,
-                50.0375463
-              ],
-              [
-                14.068787,
-                50.0377296
-              ],
-              [
-                14.0685103,
-                50.0380234
-              ],
-              [
-                14.068294,
-                50.038257
-              ],
-              [
-                14.0680849,
-                50.0385076
-              ],
-              [
-                14.0677272,
-                50.0389155
-              ],
-              [
-                14.0674949,
-                50.0390721
-              ],
-              [
-                14.0669897,
-                50.0393916
-              ],
-              [
-                14.0663198,
-                50.0398215
-              ],
-              [
-                14.064762,
-                50.040846
-              ],
-              [
-                14.0646602,
-                50.0408913
-              ],
-              [
-                14.0645367,
-                50.0408435
-              ],
-              [
-                14.0641839,
-                50.0406835
-              ],
-              [
-                14.0639743,
-                50.0405776
-              ],
-              [
-                14.0635425,
-                50.0402963
-              ],
-              [
-                14.062908,
-                50.0399098
-              ],
-              [
-                14.0624792,
-                50.0396789
-              ],
-              [
-                14.0621777,
-                50.0395737
-              ],
-              [
-                14.0619109,
-                50.0394717
-              ],
-              [
-                14.0611824,
-                50.0392783
-              ],
-              [
-                14.0601805,
-                50.0389982
-              ],
-              [
-                14.0600358,
-                50.0389539
-              ],
-              [
-                14.0598703,
-                50.0389041
-              ],
-              [
-                14.0598624,
-                50.0388441
-              ]
-            ]
+            14.0600358,
+            50.0389539
+          ],
+          [
+            14.0601805,
+            50.0389982
+          ],
+          [
+            14.0611824,
+            50.0392783
+          ],
+          [
+            14.0619109,
+            50.0394717
+          ],
+          [
+            14.0621777,
+            50.0395737
+          ],
+          [
+            14.0624792,
+            50.0396789
+          ],
+          [
+            14.062908,
+            50.0399098
+          ],
+          [
+            14.0635425,
+            50.0402963
+          ],
+          [
+            14.0639743,
+            50.0405776
+          ],
+          [
+            14.0641839,
+            50.0406835
+          ],
+          [
+            14.0645367,
+            50.0408435
+          ],
+          [
+            14.0646602,
+            50.0408913
+          ],
+          [
+            14.064762,
+            50.040846
+          ],
+          [
+            14.0663198,
+            50.0398215
+          ],
+          [
+            14.0669897,
+            50.0393916
+          ],
+          [
+            14.0674949,
+            50.0390721
+          ],
+          [
+            14.0677272,
+            50.0389155
+          ],
+          [
+            14.0680849,
+            50.0385076
+          ],
+          [
+            14.068294,
+            50.038257
+          ],
+          [
+            14.0685103,
+            50.0380234
+          ],
+          [
+            14.068787,
+            50.0377296
+          ],
+          [
+            14.0689263,
+            50.0375463
+          ],
+          [
+            14.0689708,
+            50.0373771
+          ],
+          [
+            14.0689728,
+            50.0373534
+          ],
+          [
+            14.0689876,
+            50.0371734
+          ],
+          [
+            14.0688734,
+            50.0364402
+          ],
+          [
+            14.0687475,
+            50.0359064
+          ],
+          [
+            14.0686395,
+            50.0353361
+          ],
+          [
+            14.0685799,
+            50.0349683
+          ],
+          [
+            14.0684575,
+            50.0343804
+          ],
+          [
+            14.0683587,
+            50.0342402
+          ],
+          [
+            14.068167,
+            50.0342465
+          ],
+          [
+            14.0676526,
+            50.0342965
+          ],
+          [
+            14.0668584,
+            50.0343744
+          ],
+          [
+            14.0664891,
+            50.0344123
+          ],
+          [
+            14.0660347,
+            50.0345731
+          ],
+          [
+            14.0657762,
+            50.034741
+          ],
+          [
+            14.0656096,
+            50.0349274
+          ],
+          [
+            14.0655361,
+            50.0351767
+          ],
+          [
+            14.0654939,
+            50.0354184
+          ],
+          [
+            14.065485,
+            50.035707
+          ],
+          [
+            14.065617,
+            50.0362021
+          ],
+          [
+            14.065696,
+            50.0366106
+          ],
+          [
+            14.0656812,
+            50.0367096
+          ],
+          [
+            14.0655725,
+            50.0368182
+          ],
+          [
+            14.0652048,
+            50.0371082
+          ],
+          [
+            14.064937,
+            50.037356
+          ],
+          [
+            14.064417,
+            50.0377345
+          ],
+          [
+            14.0639357,
+            50.0380277
+          ],
+          [
+            14.0636945,
+            50.0381607
+          ],
+          [
+            14.063569,
+            50.0382175
+          ],
+          [
+            14.0633289,
+            50.0382821
+          ],
+          [
+            14.0628703,
+            50.0383449
+          ],
+          [
+            14.0616621,
+            50.0385259
+          ],
+          [
+            14.0605453,
+            50.0386605
+          ],
+          [
+            14.0600067,
+            50.0387661
+          ],
+          [
+            14.0598624,
+            50.0388441
+          ],
+          [
+            14.0598703,
+            50.0389041
+          ],
+          [
+            14.0600358,
+            50.0389539
           ]
         ]
       },
@@ -1463139,6 +1463626,546 @@
         "tower:type": "observation",
         "wikidata": "Q12049953",
         "wikipedia": "cs:Rozhledna Děd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.0648772,
+                50.0409213
+              ],
+              [
+                14.065063,
+                50.0408152
+              ],
+              [
+                14.0656629,
+                50.0404325
+              ],
+              [
+                14.0662762,
+                50.0400437
+              ],
+              [
+                14.0666581,
+                50.0398071
+              ],
+              [
+                14.0672576,
+                50.0394041
+              ],
+              [
+                14.0677369,
+                50.0390879
+              ],
+              [
+                14.0679385,
+                50.0389103
+              ],
+              [
+                14.0681708,
+                50.0386899
+              ],
+              [
+                14.068426,
+                50.0383654
+              ],
+              [
+                14.068596,
+                50.0382032
+              ],
+              [
+                14.0687502,
+                50.0381124
+              ],
+              [
+                14.0688727,
+                50.0381009
+              ],
+              [
+                14.0689096,
+                50.038105
+              ],
+              [
+                14.0691069,
+                50.0381269
+              ],
+              [
+                14.0696505,
+                50.0381585
+              ],
+              [
+                14.0698196,
+                50.0381643
+              ],
+              [
+                14.0695077,
+                50.0390902
+              ],
+              [
+                14.069165,
+                50.040085
+              ],
+              [
+                14.0688571,
+                50.0410313
+              ],
+              [
+                14.0685747,
+                50.0418559
+              ],
+              [
+                14.0685738,
+                50.0418573
+              ],
+              [
+                14.0677477,
+                50.0416458
+              ],
+              [
+                14.0677318,
+                50.0416419
+              ],
+              [
+                14.0674269,
+                50.0415787
+              ],
+              [
+                14.0672317,
+                50.0415413
+              ],
+              [
+                14.0667395,
+                50.0414688
+              ],
+              [
+                14.066363,
+                50.041416
+              ],
+              [
+                14.0658757,
+                50.0413212
+              ],
+              [
+                14.065095,
+                50.0410535
+              ],
+              [
+                14.0649849,
+                50.0410087
+              ],
+              [
+                14.064888,
+                50.0409679
+              ],
+              [
+                14.0648772,
+                50.0409213
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 298213650,
+        "@url": "https://www.openstreetmap.org/way/298213650",
+        "ele": "413",
+        "id_fb": "9718017",
+        "landuse": "farmland",
+        "ref": "768104402/13",
+        "source": "lpis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.076,
+                50.0422623
+              ],
+              [
+                14.0768765,
+                50.0385629
+              ],
+              [
+                14.0776876,
+                50.0385671
+              ],
+              [
+                14.0788059,
+                50.0385901
+              ],
+              [
+                14.0777104,
+                50.0428862
+              ],
+              [
+                14.0774382,
+                50.0428136
+              ],
+              [
+                14.0768827,
+                50.0426761
+              ],
+              [
+                14.0764662,
+                50.0425809
+              ],
+              [
+                14.0765155,
+                50.0423257
+              ],
+              [
+                14.076,
+                50.0422623
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 298213651,
+        "@url": "https://www.openstreetmap.org/way/298213651",
+        "ele": "412",
+        "id_fb": "9718681",
+        "landuse": "farmland",
+        "ref": "768104402/2",
+        "source": "lpis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.0752934,
+                50.0424969
+              ],
+              [
+                14.0755163,
+                50.0415465
+              ],
+              [
+                14.0762598,
+                50.0385615
+              ],
+              [
+                14.0767922,
+                50.0385625
+              ],
+              [
+                14.0768765,
+                50.0385629
+              ],
+              [
+                14.076,
+                50.0422623
+              ],
+              [
+                14.0759244,
+                50.0423905
+              ],
+              [
+                14.0757553,
+                50.0425303
+              ],
+              [
+                14.0755855,
+                50.0425393
+              ],
+              [
+                14.0753275,
+                50.0425265
+              ],
+              [
+                14.0752934,
+                50.0424969
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 298213652,
+        "@url": "https://www.openstreetmap.org/way/298213652",
+        "ele": "412",
+        "id_fb": "9718288",
+        "landuse": "farmland",
+        "ref": "768104402/3",
+        "source": "lpis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.0598624,
+                50.0388441
+              ],
+              [
+                14.0600067,
+                50.0387661
+              ],
+              [
+                14.0605453,
+                50.0386605
+              ],
+              [
+                14.0616621,
+                50.0385259
+              ],
+              [
+                14.0628703,
+                50.0383449
+              ],
+              [
+                14.0633289,
+                50.0382821
+              ],
+              [
+                14.063569,
+                50.0382175
+              ],
+              [
+                14.0636945,
+                50.0381607
+              ],
+              [
+                14.0639357,
+                50.0380277
+              ],
+              [
+                14.064417,
+                50.0377345
+              ],
+              [
+                14.064937,
+                50.037356
+              ],
+              [
+                14.0652048,
+                50.0371082
+              ],
+              [
+                14.0655725,
+                50.0368182
+              ],
+              [
+                14.0656812,
+                50.0367096
+              ],
+              [
+                14.065696,
+                50.0366106
+              ],
+              [
+                14.065617,
+                50.0362021
+              ],
+              [
+                14.065485,
+                50.035707
+              ],
+              [
+                14.0654939,
+                50.0354184
+              ],
+              [
+                14.0655361,
+                50.0351767
+              ],
+              [
+                14.0656096,
+                50.0349274
+              ],
+              [
+                14.0657762,
+                50.034741
+              ],
+              [
+                14.0660347,
+                50.0345731
+              ],
+              [
+                14.0664891,
+                50.0344123
+              ],
+              [
+                14.0668584,
+                50.0343744
+              ],
+              [
+                14.0676526,
+                50.0342965
+              ],
+              [
+                14.068167,
+                50.0342465
+              ],
+              [
+                14.0683587,
+                50.0342402
+              ],
+              [
+                14.0684575,
+                50.0343804
+              ],
+              [
+                14.0685799,
+                50.0349683
+              ],
+              [
+                14.0686395,
+                50.0353361
+              ],
+              [
+                14.0687475,
+                50.0359064
+              ],
+              [
+                14.0688734,
+                50.0364402
+              ],
+              [
+                14.0689876,
+                50.0371734
+              ],
+              [
+                14.0689728,
+                50.0373534
+              ],
+              [
+                14.0689708,
+                50.0373771
+              ],
+              [
+                14.0689263,
+                50.0375463
+              ],
+              [
+                14.068787,
+                50.0377296
+              ],
+              [
+                14.0685103,
+                50.0380234
+              ],
+              [
+                14.068294,
+                50.038257
+              ],
+              [
+                14.0680849,
+                50.0385076
+              ],
+              [
+                14.0677272,
+                50.0389155
+              ],
+              [
+                14.0674949,
+                50.0390721
+              ],
+              [
+                14.0669897,
+                50.0393916
+              ],
+              [
+                14.0663198,
+                50.0398215
+              ],
+              [
+                14.064762,
+                50.040846
+              ],
+              [
+                14.0646602,
+                50.0408913
+              ],
+              [
+                14.0645367,
+                50.0408435
+              ],
+              [
+                14.0641839,
+                50.0406835
+              ],
+              [
+                14.0639743,
+                50.0405776
+              ],
+              [
+                14.0635425,
+                50.0402963
+              ],
+              [
+                14.062908,
+                50.0399098
+              ],
+              [
+                14.0624792,
+                50.0396789
+              ],
+              [
+                14.0621777,
+                50.0395737
+              ],
+              [
+                14.0619109,
+                50.0394717
+              ],
+              [
+                14.0611824,
+                50.0392783
+              ],
+              [
+                14.0601805,
+                50.0389982
+              ],
+              [
+                14.0600358,
+                50.0389539
+              ],
+              [
+                14.0598703,
+                50.0389041
+              ],
+              [
+                14.0598624,
+                50.0388441
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "way",
+        "@id": 298213653,
+        "@url": "https://www.openstreetmap.org/way/298213653",
+        "ele": "408",
+        "id_fb": "9717982",
+        "landuse": "farmland",
+        "ref": "768104403",
+        "source": "lpis"
       }
     },
     {
@@ -1630611,594 +1631638,6 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                13.009972,
-                49.952889
-              ],
-              [
-                13.009987,
-                49.952662
-              ],
-              [
-                13.010058,
-                49.952479
-              ],
-              [
-                13.010044,
-                49.952326
-              ],
-              [
-                13.010055,
-                49.952142
-              ],
-              [
-                13.01011,
-                49.951934
-              ],
-              [
-                13.010319,
-                49.951568
-              ],
-              [
-                13.010488,
-                49.951343
-              ],
-              [
-                13.010729,
-                49.951065
-              ],
-              [
-                13.010916,
-                49.950854
-              ],
-              [
-                13.011091,
-                49.950691
-              ],
-              [
-                13.011436,
-                49.950407
-              ],
-              [
-                13.011674,
-                49.950225
-              ],
-              [
-                13.012398,
-                49.949662
-              ],
-              [
-                13.012524,
-                49.949577
-              ],
-              [
-                13.01265,
-                49.94957
-              ],
-              [
-                13.012794,
-                49.949616
-              ],
-              [
-                13.012868,
-                49.949687
-              ],
-              [
-                13.012959,
-                49.949975
-              ],
-              [
-                13.013131,
-                49.950393
-              ],
-              [
-                13.013275,
-                49.950884
-              ],
-              [
-                13.013293000000001,
-                49.951107
-              ],
-              [
-                13.013431,
-                49.951457
-              ],
-              [
-                13.013695,
-                49.951881
-              ],
-              [
-                13.014061,
-                49.952293
-              ],
-              [
-                13.014543,
-                49.952721
-              ],
-              [
-                13.014746,
-                49.952892
-              ],
-              [
-                13.014908,
-                49.953067
-              ],
-              [
-                13.014984,
-                49.953172
-              ],
-              [
-                13.015389,
-                49.953522
-              ],
-              [
-                13.01581,
-                49.953763
-              ],
-              [
-                13.015904,
-                49.953864
-              ],
-              [
-                13.015949,
-                49.953993
-              ],
-              [
-                13.016128,
-                49.954121
-              ],
-              [
-                13.016394,
-                49.954212
-              ],
-              [
-                13.01675,
-                49.954257
-              ],
-              [
-                13.017073,
-                49.954357
-              ],
-              [
-                13.017454,
-                49.954485
-              ],
-              [
-                13.017832,
-                49.954588
-              ],
-              [
-                13.018309,
-                49.954775
-              ],
-              [
-                13.018514,
-                49.954872
-              ],
-              [
-                13.018671,
-                49.954998
-              ],
-              [
-                13.01899,
-                49.955049
-              ],
-              [
-                13.019319,
-                49.95517
-              ],
-              [
-                13.019587,
-                49.955239
-              ],
-              [
-                13.02019,
-                49.955354
-              ],
-              [
-                13.020747,
-                49.955487
-              ],
-              [
-                13.021243,
-                49.955594
-              ],
-              [
-                13.021676,
-                49.955714
-              ],
-              [
-                13.021981,
-                49.955803
-              ],
-              [
-                13.022065,
-                49.955834
-              ],
-              [
-                13.022808,
-                49.956135
-              ],
-              [
-                13.023012,
-                49.956226
-              ],
-              [
-                13.023086,
-                49.956293
-              ],
-              [
-                13.023083,
-                49.956359
-              ],
-              [
-                13.023006,
-                49.956431
-              ],
-              [
-                13.022729,
-                49.956666
-              ],
-              [
-                13.022439,
-                49.9569
-              ],
-              [
-                13.022142,
-                49.957073
-              ],
-              [
-                13.021893,
-                49.957175
-              ],
-              [
-                13.021624,
-                49.957248
-              ],
-              [
-                13.021224,
-                49.95733
-              ],
-              [
-                13.020872,
-                49.957415
-              ],
-              [
-                13.020744,
-                49.957427
-              ],
-              [
-                13.020616,
-                49.957423
-              ],
-              [
-                13.020367,
-                49.957394
-              ],
-              [
-                13.020146,
-                49.957398
-              ],
-              [
-                13.019897,
-                49.95743
-              ],
-              [
-                13.019798,
-                49.957474
-              ],
-              [
-                13.019781,
-                49.957546
-              ],
-              [
-                13.019775,
-                49.957671
-              ],
-              [
-                13.019675,
-                49.957737
-              ],
-              [
-                13.019372,
-                49.957837
-              ],
-              [
-                13.019248,
-                49.957905
-              ],
-              [
-                13.019017,
-                49.958025
-              ],
-              [
-                13.018864,
-                49.95815
-              ],
-              [
-                13.018709,
-                49.958244
-              ],
-              [
-                13.018428,
-                49.95841
-              ],
-              [
-                13.01823,
-                49.958499
-              ],
-              [
-                13.017903,
-                49.958687
-              ],
-              [
-                13.017692,
-                49.958798
-              ],
-              [
-                13.017568,
-                49.95882
-              ],
-              [
-                13.01728,
-                49.958799
-              ],
-              [
-                13.0171625,
-                49.9587708
-              ],
-              [
-                13.01651,
-                49.958614
-              ],
-              [
-                13.015981,
-                49.958468
-              ],
-              [
-                13.015814,
-                49.958401
-              ],
-              [
-                13.015524,
-                49.958217
-              ],
-              [
-                13.015278,
-                49.958062
-              ],
-              [
-                13.015199,
-                49.95791
-              ],
-              [
-                13.015238,
-                49.957808
-              ],
-              [
-                13.01544,
-                49.957569
-              ],
-              [
-                13.015505,
-                49.957484
-              ],
-              [
-                13.01544,
-                49.957412
-              ],
-              [
-                13.015214,
-                49.957337
-              ],
-              [
-                13.014721,
-                49.957191
-              ],
-              [
-                13.014348,
-                49.957036
-              ],
-              [
-                13.014195,
-                49.956929
-              ],
-              [
-                13.014191,
-                49.956803
-              ],
-              [
-                13.014282,
-                49.956672
-              ],
-              [
-                13.014389,
-                49.956556
-              ],
-              [
-                13.014532,
-                49.956258
-              ],
-              [
-                13.014531,
-                49.956199
-              ],
-              [
-                13.014464,
-                49.95616
-              ],
-              [
-                13.014352,
-                49.956134
-              ],
-              [
-                13.014122,
-                49.956094
-              ],
-              [
-                13.014021,
-                49.956044
-              ],
-              [
-                13.014003,
-                49.955972
-              ],
-              [
-                13.014048,
-                49.955864
-              ],
-              [
-                13.01437,
-                49.955518
-              ],
-              [
-                13.014826,
-                49.95521
-              ],
-              [
-                13.015097,
-                49.954971
-              ],
-              [
-                13.015167,
-                49.954901
-              ],
-              [
-                13.015103,
-                49.95485
-              ],
-              [
-                13.013824,
-                49.954408
-              ],
-              [
-                13.012918,
-                49.954117
-              ],
-              [
-                13.012749,
-                49.954029
-              ],
-              [
-                13.012726,
-                49.953938
-              ],
-              [
-                13.012797,
-                49.953824
-              ],
-              [
-                13.012995,
-                49.953523
-              ],
-              [
-                13.012917,
-                49.95346
-              ],
-              [
-                13.012589,
-                49.953427
-              ],
-              [
-                13.011921,
-                49.953386
-              ],
-              [
-                13.011407,
-                49.953405
-              ],
-              [
-                13.011166,
-                49.95344
-              ],
-              [
-                13.010663,
-                49.953539
-              ],
-              [
-                13.010455,
-                49.953554
-              ],
-              [
-                13.010288,
-                49.953534
-              ],
-              [
-                13.010165,
-                49.953471
-              ],
-              [
-                13.01004,
-                49.953189
-              ],
-              [
-                13.009972,
-                49.952889
-              ]
-            ],
-            [
-              [
-                13.01054,
-                49.952612
-              ],
-              [
-                13.010592,
-                49.95269
-              ],
-              [
-                13.010897,
-                49.95296
-              ],
-              [
-                13.011025,
-                49.953003
-              ],
-              [
-                13.011108,
-                49.952969
-              ],
-              [
-                13.011103,
-                49.952868
-              ],
-              [
-                13.010954,
-                49.952645
-              ],
-              [
-                13.01083,
-                49.952594
-              ],
-              [
-                13.010649,
-                49.952554
-              ],
-              [
-                13.01054,
-                49.952612
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@type": "relation",
-        "@id": 4639959,
-        "@url": "https://www.openstreetmap.org/relation/4639959",
-        "ele": "4",
-        "id_fb": "42840",
-        "landuse": "farmland",
-        "lpis:kultura": "2",
-        "ref": "4201"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -1636623,6 +1637062,7 @@
         "name": "Vysílač Krásné",
         "operator": "České Radiokomunikace",
         "ref:ruian:building": "38044251",
+        "ref:zabaged": "15957244",
         "source": "cuzk:ruian",
         "tower:construction": "metal",
         "tower:type": "communication",
@@ -1637983,6 +1638423,7 @@
         "height": "38",
         "man_made": "tower",
         "name": "Vysílač Ládví",
+        "ref:zabaged": "15956828",
         "roof:colour": "white",
         "source": "survey;local knowledge",
         "tower:type": "communication"
@@ -1642684,6 +1643125,7 @@
         "ele": "1374.7",
         "height": "78",
         "man_made": "communications_tower",
+        "ref:zabaged": "10872742",
         "tower:type": "communication",
         "wikidata": "Q25712542",
         "wikipedia": "cs:Vysílač Černá hora"
@@ -1647423,6 +1647865,7 @@
         "@id": 638709403,
         "@url": "https://www.openstreetmap.org/way/638709403",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/tocnaairport",
         "ele": "313",
         "icao": "LKTC",
         "name": "Točná",
@@ -1650040,6 +1650483,7 @@
         "@id": 988838921,
         "@url": "https://www.openstreetmap.org/way/988838921",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/aeroklubluhacovice",
         "contact:phone": "+420732666247",
         "ele": "344",
         "email": "aeroklubluhacovice@gmail.com",
@@ -1653770,6 +1654214,594 @@
         "landuse": "farmland",
         "ref": "718105401",
         "source": "lpis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                13.009972,
+                49.952889
+              ],
+              [
+                13.009987,
+                49.952662
+              ],
+              [
+                13.010058,
+                49.952479
+              ],
+              [
+                13.010044,
+                49.952326
+              ],
+              [
+                13.010055,
+                49.952142
+              ],
+              [
+                13.01011,
+                49.951934
+              ],
+              [
+                13.010319,
+                49.951568
+              ],
+              [
+                13.010488,
+                49.951343
+              ],
+              [
+                13.010729,
+                49.951065
+              ],
+              [
+                13.010916,
+                49.950854
+              ],
+              [
+                13.011091,
+                49.950691
+              ],
+              [
+                13.011436,
+                49.950407
+              ],
+              [
+                13.011674,
+                49.950225
+              ],
+              [
+                13.012398,
+                49.949662
+              ],
+              [
+                13.012524,
+                49.949577
+              ],
+              [
+                13.01265,
+                49.94957
+              ],
+              [
+                13.012794,
+                49.949616
+              ],
+              [
+                13.012868,
+                49.949687
+              ],
+              [
+                13.012959,
+                49.949975
+              ],
+              [
+                13.013131,
+                49.950393
+              ],
+              [
+                13.013275,
+                49.950884
+              ],
+              [
+                13.013293000000001,
+                49.951107
+              ],
+              [
+                13.013431,
+                49.951457
+              ],
+              [
+                13.013695,
+                49.951881
+              ],
+              [
+                13.014061,
+                49.952293
+              ],
+              [
+                13.014543,
+                49.952721
+              ],
+              [
+                13.014746,
+                49.952892
+              ],
+              [
+                13.014908,
+                49.953067
+              ],
+              [
+                13.014984,
+                49.953172
+              ],
+              [
+                13.015389,
+                49.953522
+              ],
+              [
+                13.01581,
+                49.953763
+              ],
+              [
+                13.015904,
+                49.953864
+              ],
+              [
+                13.015949,
+                49.953993
+              ],
+              [
+                13.016128,
+                49.954121
+              ],
+              [
+                13.016394,
+                49.954212
+              ],
+              [
+                13.01675,
+                49.954257
+              ],
+              [
+                13.017073,
+                49.954357
+              ],
+              [
+                13.017454,
+                49.954485
+              ],
+              [
+                13.017832,
+                49.954588
+              ],
+              [
+                13.018309,
+                49.954775
+              ],
+              [
+                13.018514,
+                49.954872
+              ],
+              [
+                13.018671,
+                49.954998
+              ],
+              [
+                13.01899,
+                49.955049
+              ],
+              [
+                13.019319,
+                49.95517
+              ],
+              [
+                13.019587,
+                49.955239
+              ],
+              [
+                13.02019,
+                49.955354
+              ],
+              [
+                13.020747,
+                49.955487
+              ],
+              [
+                13.021243,
+                49.955594
+              ],
+              [
+                13.021676,
+                49.955714
+              ],
+              [
+                13.021981,
+                49.955803
+              ],
+              [
+                13.022065,
+                49.955834
+              ],
+              [
+                13.022808,
+                49.956135
+              ],
+              [
+                13.023012,
+                49.956226
+              ],
+              [
+                13.023086,
+                49.956293
+              ],
+              [
+                13.023083,
+                49.956359
+              ],
+              [
+                13.023006,
+                49.956431
+              ],
+              [
+                13.022729,
+                49.956666
+              ],
+              [
+                13.022439,
+                49.9569
+              ],
+              [
+                13.022142,
+                49.957073
+              ],
+              [
+                13.021893,
+                49.957175
+              ],
+              [
+                13.021624,
+                49.957248
+              ],
+              [
+                13.021224,
+                49.95733
+              ],
+              [
+                13.020872,
+                49.957415
+              ],
+              [
+                13.020744,
+                49.957427
+              ],
+              [
+                13.020616,
+                49.957423
+              ],
+              [
+                13.020367,
+                49.957394
+              ],
+              [
+                13.020146,
+                49.957398
+              ],
+              [
+                13.019897,
+                49.95743
+              ],
+              [
+                13.019798,
+                49.957474
+              ],
+              [
+                13.019781,
+                49.957546
+              ],
+              [
+                13.019775,
+                49.957671
+              ],
+              [
+                13.019675,
+                49.957737
+              ],
+              [
+                13.019372,
+                49.957837
+              ],
+              [
+                13.019248,
+                49.957905
+              ],
+              [
+                13.019017,
+                49.958025
+              ],
+              [
+                13.018864,
+                49.95815
+              ],
+              [
+                13.018709,
+                49.958244
+              ],
+              [
+                13.018428,
+                49.95841
+              ],
+              [
+                13.01823,
+                49.958499
+              ],
+              [
+                13.017903,
+                49.958687
+              ],
+              [
+                13.017692,
+                49.958798
+              ],
+              [
+                13.017568,
+                49.95882
+              ],
+              [
+                13.01728,
+                49.958799
+              ],
+              [
+                13.0171625,
+                49.9587708
+              ],
+              [
+                13.01651,
+                49.958614
+              ],
+              [
+                13.015981,
+                49.958468
+              ],
+              [
+                13.015814,
+                49.958401
+              ],
+              [
+                13.015524,
+                49.958217
+              ],
+              [
+                13.015278,
+                49.958062
+              ],
+              [
+                13.015199,
+                49.95791
+              ],
+              [
+                13.015238,
+                49.957808
+              ],
+              [
+                13.01544,
+                49.957569
+              ],
+              [
+                13.015505,
+                49.957484
+              ],
+              [
+                13.01544,
+                49.957412
+              ],
+              [
+                13.015214,
+                49.957337
+              ],
+              [
+                13.014721,
+                49.957191
+              ],
+              [
+                13.014348,
+                49.957036
+              ],
+              [
+                13.014195,
+                49.956929
+              ],
+              [
+                13.014191,
+                49.956803
+              ],
+              [
+                13.014282,
+                49.956672
+              ],
+              [
+                13.014389,
+                49.956556
+              ],
+              [
+                13.014532,
+                49.956258
+              ],
+              [
+                13.014531,
+                49.956199
+              ],
+              [
+                13.014464,
+                49.95616
+              ],
+              [
+                13.014352,
+                49.956134
+              ],
+              [
+                13.014122,
+                49.956094
+              ],
+              [
+                13.014021,
+                49.956044
+              ],
+              [
+                13.014003,
+                49.955972
+              ],
+              [
+                13.014048,
+                49.955864
+              ],
+              [
+                13.01437,
+                49.955518
+              ],
+              [
+                13.014826,
+                49.95521
+              ],
+              [
+                13.015097,
+                49.954971
+              ],
+              [
+                13.015167,
+                49.954901
+              ],
+              [
+                13.015103,
+                49.95485
+              ],
+              [
+                13.013824,
+                49.954408
+              ],
+              [
+                13.012918,
+                49.954117
+              ],
+              [
+                13.012749,
+                49.954029
+              ],
+              [
+                13.012726,
+                49.953938
+              ],
+              [
+                13.012797,
+                49.953824
+              ],
+              [
+                13.012995,
+                49.953523
+              ],
+              [
+                13.012917,
+                49.95346
+              ],
+              [
+                13.012589,
+                49.953427
+              ],
+              [
+                13.011921,
+                49.953386
+              ],
+              [
+                13.011407,
+                49.953405
+              ],
+              [
+                13.011166,
+                49.95344
+              ],
+              [
+                13.010663,
+                49.953539
+              ],
+              [
+                13.010455,
+                49.953554
+              ],
+              [
+                13.010288,
+                49.953534
+              ],
+              [
+                13.010165,
+                49.953471
+              ],
+              [
+                13.01004,
+                49.953189
+              ],
+              [
+                13.009972,
+                49.952889
+              ]
+            ],
+            [
+              [
+                13.01054,
+                49.952612
+              ],
+              [
+                13.010592,
+                49.95269
+              ],
+              [
+                13.010897,
+                49.95296
+              ],
+              [
+                13.011025,
+                49.953003
+              ],
+              [
+                13.011108,
+                49.952969
+              ],
+              [
+                13.011103,
+                49.952868
+              ],
+              [
+                13.010954,
+                49.952645
+              ],
+              [
+                13.01083,
+                49.952594
+              ],
+              [
+                13.010649,
+                49.952554
+              ],
+              [
+                13.01054,
+                49.952612
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@type": "relation",
+        "@id": 4639959,
+        "@url": "https://www.openstreetmap.org/relation/4639959",
+        "ele": "4",
+        "id_fb": "42840",
+        "landuse": "farmland",
+        "lpis:kultura": "2",
+        "ref": "4201"
       }
     },
     {
@@ -1659761,6 +1660793,7 @@
         "name": "Vysílač Krásné",
         "operator": "České Radiokomunikace",
         "ref:ruian:building": "38044251",
+        "ref:zabaged": "15957244",
         "source": "cuzk:ruian",
         "tower:construction": "metal",
         "tower:type": "communication",
@@ -1673377,6 +1674410,7 @@
         "height": "38",
         "man_made": "tower",
         "name": "Vysílač Ládví",
+        "ref:zabaged": "15956828",
         "roof:colour": "white",
         "source": "survey;local knowledge",
         "tower:type": "communication"
@@ -1686503,6 +1687537,7 @@
         "ele": "1374.7",
         "height": "78",
         "man_made": "communications_tower",
+        "ref:zabaged": "10872742",
         "tower:type": "communication",
         "wikidata": "Q25712542",
         "wikipedia": "cs:Vysílač Černá hora"
@@ -1711214,6 +1712249,7 @@
         "@id": 638709403,
         "@url": "https://www.openstreetmap.org/way/638709403",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/tocnaairport",
         "ele": "313",
         "icao": "LKTC",
         "name": "Točná",
@@ -1779619,6 +1780655,7 @@
         "@id": 988838921,
         "@url": "https://www.openstreetmap.org/way/988838921",
         "aeroway": "aerodrome",
+        "contact:facebook": "https://www.facebook.com/aeroklubluhacovice",
         "contact:phone": "+420732666247",
         "ele": "344",
         "email": "aeroklubluhacovice@gmail.com",
@@ -1856218,6 +1857255,7 @@
         "man_made": "mast",
         "material": "steel",
         "name": "Krchůvek",
+        "ref:zabaged": "6738519",
         "tower:construction": "guyed_lattice",
         "tower:type": "communication"
       }
@@ -1856499,6 +1857537,7 @@
         "ele": "1213",
         "height": "40",
         "man_made": "mast",
+        "ref:zabaged": "12433948",
         "tower:construction": "guyed_lattice",
         "tower:type": "communication"
       }
@@ -1876490,12 +1877529,20 @@
                 50.0980246
               ],
               [
+                14.2898385,
+                50.0980123
+              ],
+              [
                 14.2898244,
                 50.0980035
               ],
               [
                 14.2897353,
                 50.098068
+              ],
+              [
+                14.2897308,
+                50.0980705
               ],
               [
                 14.2897065,
@@ -1876518,8 +1877565,16 @@
                 50.0981248
               ],
               [
+                14.2894334,
+                50.0981222
+              ],
+              [
                 14.2894135,
                 50.0981213
+              ],
+              [
+                14.2894071,
+                50.0981208
               ],
               [
                 14.2893142,
@@ -1876616,6 +1877671,14 @@
               [
                 14.2875743,
                 50.0978558
+              ],
+              [
+                14.2874909,
+                50.0978456
+              ],
+              [
+                14.2871548,
+                50.0978047
               ],
               [
                 14.287119,
@@ -1885570,6 +1886633,7 @@
         "aeroway": "aerodrome",
         "check_date:website": "2024-09-15",
         "closest_town": "Pardubice",
+        "contact:facebook": "https://www.facebook.com/aeroPardubice",
         "description:photography": "Tento vojenský objekt je zakázáno fotografovat dle zákona č. 222/1999 Sb.",
         "ele": "226",
         "iata": "PED",
@@ -1924627,6 +1925691,7 @@
         "man_made": "mast",
         "material": "steel",
         "name": "Krchůvek",
+        "ref:zabaged": "6738519",
         "tower:construction": "guyed_lattice",
         "tower:type": "communication"
       }
@@ -1924820,6 +1925885,7 @@
         "ele": "1213",
         "height": "40",
         "man_made": "mast",
+        "ref:zabaged": "12433948",
         "tower:construction": "guyed_lattice",
         "tower:type": "communication"
       }

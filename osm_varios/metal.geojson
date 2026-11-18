@@ -92300,6 +92300,7 @@
         "amenity": "recycling",
         "recycling:beverage_cartons": "yes",
         "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
         "recycling:glass": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:metal_packaging": "yes",
@@ -122879,6 +122880,83 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4069549,
+          49.7396419
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381883993,
+        "@url": "https://www.openstreetmap.org/node/14381883993",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4119525,
+          49.7400035
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14381883997,
+        "@url": "https://www.openstreetmap.org/node/14381883997",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3635584,
+          49.5993025
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14383653629,
+        "@url": "https://www.openstreetmap.org/node/14383653629",
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "material": "plastic",
+        "recycling:food_waste": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -124612,44 +124690,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.4942323,
-            48.9291132
+            14.4943467,
+            48.9291242
           ],
           [
             14.4947015,
-            48.9290871
+            48.9290851
           ],
           [
             14.4946832,
             48.9292983
           ],
           [
-            14.495035,
-            48.9293072
+            14.4950991,
+            48.9293042
           ],
           [
-            14.4950203,
-            48.9294604
+            14.4950844,
+            48.9294574
           ],
           [
-            14.4946514,
-            48.9294779
+            14.4947155,
+            48.9294749
           ],
           [
-            14.4942718,
-            48.9294127
+            14.4943359,
+            48.9294097
           ],
           [
-            14.4937785,
-            48.9293697
+            14.4943413,
+            48.9294028
           ],
           [
-            14.4937121,
-            48.9291553
+            14.4943267,
+            48.9291303
           ],
           [
-            14.4942323,
-            48.9291132
+            14.4943467,
+            48.9291242
           ]
         ]
       },
@@ -134107,7 +134185,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            18.2487298,
+            18.2486533,
             49.3505199
           ],
           [
@@ -134123,7 +134201,7 @@
             49.3497825
           ],
           [
-            18.2487298,
+            18.2486533,
             49.3505199
           ]
         ]
@@ -152740,44 +152818,44 @@
           [
             [
               [
-                14.4937121,
-                48.9291553
+                14.4943267,
+                48.9291303
               ],
               [
-                14.4942323,
-                48.9291132
+                14.4943467,
+                48.9291242
               ],
               [
                 14.4947015,
-                48.9290871
+                48.9290851
               ],
               [
                 14.4946832,
                 48.9292983
               ],
               [
-                14.495035,
-                48.9293072
+                14.4950991,
+                48.9293042
               ],
               [
-                14.4950203,
-                48.9294604
+                14.4950844,
+                48.9294574
               ],
               [
-                14.4946514,
-                48.9294779
+                14.4947155,
+                48.9294749
               ],
               [
-                14.4942718,
-                48.9294127
+                14.4943359,
+                48.9294097
               ],
               [
-                14.4937785,
-                48.9293697
+                14.4943413,
+                48.9294028
               ],
               [
-                14.4937121,
-                48.9291553
+                14.4943267,
+                48.9291303
               ]
             ]
           ]
@@ -162791,7 +162869,7 @@
                 49.3504596
               ],
               [
-                18.2487298,
+                18.2486533,
                 49.3505199
               ],
               [

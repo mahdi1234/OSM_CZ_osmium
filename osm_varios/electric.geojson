@@ -4847,7 +4847,7 @@
         "@url": "https://www.openstreetmap.org/node/2307588993",
         "amenity": "recycling",
         "name": "Sběrný dvůr Opava Kateřinky, Hálkova",
-        "opening_hours": "Mar 15-Nov 15: Mo-Fr 11:00-17:30; Sa 8:00-11:00 || Nov 16-Mar 14: We 11:00-17:30; Sa 8:00-11:00",
+        "opening_hours": "Mar 15-Nov 15: Mo-Fr 11:00-17:30; Sa 08:00-11:00 || Nov 16-Mar 14: We 11:00-17:30; Sa 08:00-11:00",
         "recycling:batteries": "yes",
         "recycling:electrical_appliances": "yes",
         "recycling:glass": "yes",
@@ -57888,6 +57888,29 @@
         "recycling:shoes": "yes",
         "recycling:small_appliances": "yes",
         "recycling:textiles": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3690417,
+          49.5985706
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14391227505,
+        "@url": "https://www.openstreetmap.org/node/14391227505",
+        "amenity": "recycling",
+        "colour": "red",
+        "covered": "no",
+        "indoor": "no",
+        "material": "metal",
+        "recycling:batteries": "yes",
+        "recycling:small_electrical_appliances": "yes",
         "recycling_type": "container"
       }
     },

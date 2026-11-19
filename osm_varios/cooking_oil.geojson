@@ -35749,7 +35749,7 @@
         "@id": 10021799341,
         "@url": "https://www.openstreetmap.org/node/10021799341",
         "amenity": "recycling",
-        "collection_times": "10:00,pracovní dny",
+        "collection_times": "Mo-Fr 10:00",
         "operator": "Obec Hůry",
         "recycling:cans": "yes",
         "recycling:cooking_oil": "yes",
@@ -72062,6 +72062,36 @@
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3683471,
+          49.5982762
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14391249656,
+        "@url": "https://www.openstreetmap.org/node/14391249656",
+        "amenity": "recycling",
+        "covered": "no",
+        "indoor": "no",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal_packaging": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:shoes": "yes",
         "recycling_type": "container"
       }
     },

@@ -924,6 +924,25 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6392172,
+          50.1704849
+        ]
+      },
+      "properties": {
+        "@type": "node",
+        "@id": 14396464682,
+        "@url": "https://www.openstreetmap.org/node/14396464682",
+        "amenity": "recycling",
+        "name": "Sběrný dvůr SOTES",
+        "opening_hours": "Mo-Fr 08:00-12:30, 13:00-16:30; Sa 10:00-14:00; Su off",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
           [
@@ -5256,7 +5275,7 @@
         "@url": "https://www.openstreetmap.org/way/1574509452",
         "amenity": "recycling",
         "name": "Sběrné místo",
-        "opening_hours": "Apr-Oct Mo,We 15:00-18:00; Sa 9:00-12:00; Nov-Mar We 14:00-16:00; Sa 9:00-12:00",
+        "opening_hours": "Apr-Oct Mo,We 15:00-18:00; Sa 09:00-12:00; Nov-Mar We 14:00-16:00; Sa 09:00-12:00",
         "recycling_type": "centre"
       }
     }
